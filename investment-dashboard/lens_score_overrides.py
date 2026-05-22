@@ -9,9 +9,11 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "ARM": {"F": 81.1, "M": 87.5, "V": 55, "T": 76.7, "O": 57.9},
     "ASML": {"F": 71.0, "M": 62.5, "V": 45, "T": 78.2, "O": 52.0},
     "AVGO": {"F": 72.1, "M": 31.2, "V": 50, "T": 81.2, "O": 66.1},
+    "AZN": {"F": 77.0, "M": 20.0, "V": 46, "T": 58.0, "O": 59.7},
     "BA": {"F": 73.9, "M": 60.0, "V": 60.0, "T": 55.0, "O": 55.7},
     "BABA": {"F": 80.6, "M": 43.8, "V": 82, "T": 44.5, "O": 47.7},
     "BAC": {"F": 78.5, "M": 50.0, "V": 57, "T": 52.8, "O": 64.1},
+    "BRKB": {"F": 54.5, "M": 50.0, "V": 38, "T": 55.8, "O": 56.3},
     "COST": {"F": 76.3, "M": 43.8, "V": 32, "T": 72.0, "O": 62.0},
     "CRWD": {"F": 75.0, "M": 50.0, "V": 55, "T": 73.7, "O": 59.9},
     "CSCO": {"F": 70.2, "M": 50.0, "V": 54, "T": 76.7, "O": 49.9},
@@ -30,6 +32,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "KLAC": {"F": 78.5, "M": 37.5, "V": 65, "T": 78.9, "O": 58.3},
     "KO": {"F": 68.0, "M": 31.2, "V": 66, "T": 66.8, "O": 64.1},
     "LLY": {"F": 83.5, "M": 50.0, "V": 45, "T": 55.0, "O": 54.0},
+    "LMT": {"F": 38.3, "M": 68.8, "V": 66, "T": 50.0, "O": 47.7},
     "MCD": {"F": 81.8, "M": 43.8, "V": 66, "T": 43.2, "O": 47.7},
     "MDB": {"F": 75.0, "M": 60.0, "V": 78, "T": 55.5, "O": 60.0},
     "META": {"F": 89.7, "M": 56.2, "V": 70, "T": 43.8, "O": 55.0},
@@ -54,6 +57,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "T": {"F": 68.5, "M": 50.0, "V": 76, "T": 46.2, "O": 54.8},
     "TSLA": {"F": 60.0, "M": 56.2, "V": 35, "T": 63.8, "O": 66.1},
     "TSM": {"F": 95.8, "M": 68.8, "V": 58, "T": 75.2, "O": 56.9},
+    "V": {"F": 91.8, "M": 56.2, "V": 38, "T": 58.0, "O": 55.0},
     "VRT": {"F": 90.0, "M": 33.3, "V": 58, "T": 73.9, "O": 55.7},
     "WMT": {"F": 74.3, "M": 50.0, "V": 55, "T": 69.2, "O": 56.0},
     "XOM": {"F": 56.3, "M": 56.2, "V": 41, "T": 67.0, "O": 62.1},
@@ -376,6 +380,39 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 66.1 (trend-aligned)"
     ]
   },
+  "AZN": {
+    "fundamentals": [
+      "Revenue +12.5% YoY (strong for Health Care; sector strong-bar 10%)",
+      "TTM revenue $117B",
+      "\u2192 F = 77.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.20 (1B / 0H / 4M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 20.0"
+    ],
+    "valuation": [
+      "PE 16.5\u00d7 vs peer median 13.2\u00d7 (25% premium to peers)",
+      "FCF yield 5.5% (+3)",
+      "Dividend yield 2.2% (+1)",
+      "\u2192 V = 46"
+    ],
+    "technicals": [
+      "Spot $184.96 vs SMA200 $179.13 (+3.3%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 41.7 (neutral zone)",
+      "90-day return: -11.4%",
+      "1-year return: +36.6%",
+      "Drawdown from 52w high: -11.7%",
+      "\u2192 T = 58.0"
+    ],
+    "options": [
+      "Front-month ATM IV 29.0% (normal)",
+      "P/C OI 0.67 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew -1.65pp (call skew)",
+      "\u2192 O = 59.7 (trend-aligned)"
+    ]
+  },
   "BA": {
     "fundamentals": [
       "Revenue +14.0% YoY (strong for Industrials; sector strong-bar 8%)",
@@ -477,6 +514,39 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "P/C OI 1.02 (balanced)",
       "ATM skew -11.66pp (call skew)",
       "\u2192 O = 64.1 (trend-aligned)"
+    ]
+  },
+  "BRKB": {
+    "fundamentals": [
+      "Revenue +4.4% YoY (acceptable for Financials; sector strong-bar 6%)",
+      "Operating margin 2.2%",
+      "TTM revenue $371B",
+      "\u2192 F = 54.5 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (1B / 3H / 1M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 22.0\u00d7 vs peer median 16.1\u00d7 (36% premium to peers)",
+      "FCF yield 7.5% (+6 bonus)",
+      "\u2192 V = 38"
+    ],
+    "technicals": [
+      "Spot $484.06 vs SMA200 $489.82 (-1.2%, neutral)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 67.2 (neutral zone)",
+      "90-day return: -3.0%",
+      "1-year return: -5.4%",
+      "Drawdown from 52w high: -5.9%",
+      "\u2192 T = 55.8"
+    ],
+    "options": [
+      "Front-month ATM IV 23.6% (calm)",
+      "P/C OI 0.64 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +0.33pp (put skew)",
+      "\u2192 O = 56.3 (trend-aligned)"
     ]
   },
   "COST": {
@@ -1085,6 +1155,40 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "P/C OI 0.93 (balanced)",
       "ATM skew +3.91pp (put skew)",
       "\u2192 O = 54.0 (trend-aligned)"
+    ]
+  },
+  "LMT": {
+    "fundamentals": [
+      "Revenue +0.0% YoY (weak for Industrials; sector strong-bar 8%)",
+      "Latest-quarter FCF $-0.3B (negative)",
+      "TTM revenue $0B",
+      "\u2192 F = 38.3 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.69 (5B / 1H / 2M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 68.8"
+    ],
+    "valuation": [
+      "PE 18.5\u00d7 vs peer median 19.0\u00d7 (3% discount to peers)",
+      "FCF yield 5.0% (+3)",
+      "Dividend yield 2.5% (+1)",
+      "\u2192 V = 66"
+    ],
+    "technicals": [
+      "Spot $520.41 vs SMA200 $527.84 (-1.4%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 55.7 (neutral zone)",
+      "90-day return: -19.9%",
+      "1-year return: +13.2%",
+      "Drawdown from 52w high: -23.1%",
+      "\u2192 T = 50.0"
+    ],
+    "options": [
+      "Front-month ATM IV 60.5% (high)",
+      "P/C OI 0.47 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +21.30pp (put skew)",
+      "\u2192 O = 47.7 (trend-aligned)"
     ]
   },
   "MCD": {
@@ -1883,6 +1987,37 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "P/C OI 2.03 (put-heavy) \u2014 active hedging of gains (contrarian positive)",
       "ATM skew -1.56pp (call skew)",
       "\u2192 O = 56.9 (trend-aligned)"
+    ]
+  },
+  "V": {
+    "fundamentals": [
+      "Revenue +17.1% YoY (strong for Financials; sector strong-bar 6%)",
+      "Net margin 53.6% (best-in-class for Financials; sector strong-bar 25%)",
+      "Operating margin 64.4%",
+      "TTM revenue $42B",
+      "\u2192 F = 91.8 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.56 (2B / 5H / 1M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 56.2"
+    ],
+    "valuation": [
+      "PE 30.0\u00d7 vs peer median 17.2\u00d7 (74% premium to peers)",
+      "FCF yield 7.5% (+6 bonus)",
+      "\u2192 V = 38"
+    ],
+    "technicals": [
+      "Spot $323.86 vs SMA200 $331.81 (-2.4%, neutral)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 62.3 (neutral zone)",
+      "90-day return: -0.1%",
+      "1-year return: -7.8%",
+      "Drawdown from 52w high: -13.2%",
+      "\u2192 T = 58.0"
+    ],
+    "options": [
+      "\u2192 O = 55.0 (trend-aligned)"
     ]
   },
   "VRT": {

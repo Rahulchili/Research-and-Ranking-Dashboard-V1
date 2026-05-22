@@ -1,0 +1,62 @@
+{
+  "name": "AstraZeneca plc",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "AstraZeneca plc (AZN, Health Care) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q2: revenue $15.29B (+12.5% YoY). Valuation 16.5x forward P/E (+24% vs peers). Spot $184.96 (above 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Top-line momentum — revenue grew +12.5% YoY in FY2026 Q2 to $15.29B, with TTM revenue of $117.27B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Range-positioning balanced — at 68% of the 52-week range ($132.46–$209.48), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Options market pricing risk — front-month implied move of 8.5% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 16% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 10% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $132.46 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+12.5% in FY2026 Q2",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 13.3x FY1 P/E",
+      "latest": "16.5x (+24%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$184.96 vs $179.13 (+3.3%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "41.7",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±8.5% by 2026-06-18",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. AstraZeneca plc (AZN) printed $15.29B in revenue in FY2026 Q2 (+12.5% YoY). At 16.5x forward P/E, the stock carries a 24% premium to peers (13.3x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $184.96 above the 200-DMA ($179.13, +3.3%) with neutral momentum (RSI 42). Sell-side consensus PT of $85 implies -54.0% upside. The options market is pricing a ±8.5% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±8.5%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}
