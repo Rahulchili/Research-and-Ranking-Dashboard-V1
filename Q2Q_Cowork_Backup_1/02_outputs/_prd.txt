@@ -1,0 +1,631 @@
+ 
+PRODUCT REQUIREMENTS DOCUMENT
+ 
+Eight-Quarter Management Guidance
+Confidence Scoring Refinement
+Rahul Quarter-to-Quarter Earnings Dashboard
+
+Document Control
+Version History
+Distribution & Sign-Off
+Conventions Used in This Document
+Sections marked with NEW are additions beyond v1.0.
+Pseudocode is illustrative; the binding contract is the function signature in Section 13.
+All percentages are reported to one decimal place; internal arithmetic is double-precision.
+"Quarter" means the company's fiscal quarter unless explicitly stated otherwise.
+
+Table of Contents
+Right-click and select "Update Field" in Word to populate this table.
+
+1. Executive Summary
+Rahul's dashboard surfaces a Low / Medium / High management-guidance confidence label intended to summarize how reliably management has delivered on what it told investors. The v1.0 implementation contains a denominator error: it appears to assume that an 8-quarter window yields 8 verifiable forward-guidance outcomes, when in fact it yields only 7. The 8th quarter's forward guidance points to a quarter that has not yet been reported, so it cannot be scored.
+The fix in one sentence: For an n-quarter analysis window, exactly n minus 1 guidance-to-actual pairs are closed and scorable; the most recent forward guidance is pending and must be excluded from the confidence denominator.
+This v2.0 PRD preserves Rahul's original correction and goes further. It hardens the scoring methodology so the resulting Low / Medium / High label is statistically defensible, auditable, and useful to Megha's research team. The key enhancements:
+Generalized formula. Replaces the hardcoded 8 with a generic n; closed_pairs(n) = max(0, n − 1), gated on n ≥ 4 for the label to be reportable.
+Magnitude-aware claim scoring. Replaces the coarse 1.00 / 0.50 / 0.00 buckets with a continuous score that distinguishes a narrow miss from a wide one, while preserving the v1.0 buckets as the default discretization for analyst readability.
+Claim weighting by materiality. Revenue, EPS, and gross margin carry higher weight than capex, tax rate, or one-off items — preventing a small line-item miss from dragging an otherwise strong quarter.
+Explicit tolerance bands. Defines what "in-line" and "slight miss" mean numerically, so two analysts scoring the same claim arrive at the same number.
+Withdrawn / revised guidance handling. Withdrawn guidance is a distinct outcome (not the same as a miss and not the same as pending).
+Statistical context. Reports the standard error and a 95% confidence band alongside the point estimate — because n = 7 is statistically thin and analysts should see the uncertainty.
+Sandbagging signal. A separate diagnostic that flags chronic, asymmetric beats — a signal that management may be setting deliberately low bars.
+Operational vs strategic split. Reports two sub-scores so analysts can see whether management hits the numbers but misses the strategic milestones, or vice versa.
+Hardened edge cases. Specifies behavior for missing transcripts, missing actuals, zero measurable claims, and division-by-zero risks in the trend calculation.
+Out of scope for v2.0
+This PRD touches only the confidence-scoring layer. The broader investment ranking, sector weights, options analysis, technical analysis, and valuation modules are intentionally untouched. They are listed under Section 16 (Future Enhancements) for sequencing.
+2. Background and Problem Statement
+2.1 Where We Are Today
+The current dashboard pulls in eight quarters of earnings calls and SEC filings per ticker. It extracts management's forward-looking claims, compares them against actuals, and emits a Low / Medium / High confidence label. The intent is correct; the arithmetic is not.
+2.2 The Denominator Error
+Across multiple ticker dashboards, the confidence card appears to be computed against a denominator larger than the number of pairs that can actually be verified. In the worst case, the most recent quarter's forward guidance is being scored as if its target quarter had already reported — which it has not.
+Why this matters
+Three downstream risks: (1) the Low/Medium/High label can be off by one band; (2) pending guidance can be silently treated as delivered or missed, distorting management credibility; (3) Megha's analysts may anchor on a credibility signal that is more confident than the evidence supports.
+2.3 The Correct Mental Model
+Forward guidance issued in quarter Q can only be evaluated when quarter Q+1 has reported. Therefore in an n-quarter window:
+closed_pairs    = n - 1     (one pair per quarter except the last)
+pending_pairs   = 1         (the last quarter's forward guidance)
+total_pairs     = n         (closed + pending)
+denominator     = closed_pairs   ← this is what the score uses
+3. Objectives and Non-Goals
+3.1 Objectives
+Compute the confidence score using only closed (verified) guidance-to-actual pairs.
+Display the pending pair separately, never folded into the score.
+Make the methodology explainable to a buy-side analyst in under 30 seconds.
+Make the methodology defensible — auditable down to the specific claim, quote, and outcome.
+Report uncertainty (SE, CI) alongside the point estimate so analysts can calibrate trust.
+Separate operational delivery (numbers) from strategic delivery (milestones).
+Detect and flag sandbagging behavior.
+Behave gracefully when data is missing — never silently degrade.
+3.2 Non-Goals (v2.0)
+Do not change the broader investment ranking or sector weighting.
+Do not modify options, technical, or valuation analysis modules.
+Do not introduce cross-company benchmarking yet (deferred to v3).
+Do not score qualitative management commentary that lacks a measurable target.
+Do not attempt to score multi-year strategic claims that have not yet matured.
+4. Glossary and Definitions
+5. Conceptual Model
+5.1 The n → n−1 Rule
+For an n-quarter analysis window with all actuals reported through quarter n, exactly n−1 forward-guidance pairs are closed. This is the single most important invariant in the system.
+The pairing table for the current default (n = 8):
+ 
+5.2 Minimum Viable Window
+The label is suppressed (shown as "Insufficient Data") when fewer than four closed pairs exist. Below this floor the noise dominates the signal and any Low/Medium/High label is misleading.
+Decision
+Floor: n ≥ 4 quarters of actuals → at least 3 closed pairs → minimum viable label. Below the floor, render "Insufficient Data — N closed pairs" and skip color coding.
+5.3 Why Not Roll the Pending Pair Into Score? (NEW)
+Two reasons. First, partial-period information (a few weeks into the target quarter, the company has typically not preannounced) is not enough to assign a delivery score. Second, if the dashboard scored pending pairs as half-credit or as the in-progress consensus, it would manufacture confidence the underlying evidence does not support. The cleaner rule is binary: closed = scored, pending = excluded.
+6. Scoring Methodology
+6.1 Claim-Level Delivery Score
+Each measurable claim receives a delivery score on a 0.00 to 1.00 scale. v1.0 used three discrete buckets; v2.0 keeps those buckets as the default analyst-readable scoring but adds an optional magnitude-aware continuous score for audit precision.
+6.1.1 Discrete Scoring (Default Display)
+6.1.2 Continuous Scoring (Audit View, NEW)
+For analysts who want precision, the dashboard exposes an optional continuous score. The formula maps the deviation between the actual and the guided range into the [0.00, 1.00] interval, with an asymmetric kink at the range boundary.
+Let:
+  L = guided low end
+  H = guided high end
+  M = guided midpoint = (L + H) / 2
+  A = actual outcome
+  T = tolerance band (default 2% of M for point guidance,
+                      0 for explicit ranges)
+ 
+Effective low  = L - T
+Effective high = H + T   (favorable direction only)
+ 
+If A is in [Effective low, Effective high]:
+    continuous_score = 1.00
+Elif A < Effective low:
+    shortfall_pct = (Effective low - A) / max(|M|, 1e-9)
+    continuous_score = max(0.00, 1.00 - 10 * shortfall_pct)
+    // 5% miss → 0.50; 10% miss → 0.00
+Else:  // A > Effective high in the favorable direction
+    continuous_score = 1.00   // Beats are capped at 1.00 for scoring
+    // Beat magnitude is tracked separately for the sandbagging signal
+Why beats are capped at 1.00
+Otherwise companies that sandbag (guide low so they always beat) would appear maximally credible. The beat magnitude is informative but it belongs in the sandbagging diagnostic (Section 8.4), not the credibility score.
+6.2 Claim Weighting by Materiality (NEW)
+Not all guidance is equally important. A 50bps tax-rate miss should not weigh the same as a 5% revenue miss. v2.0 introduces explicit claim weights:
+The weights are deliberately conservative and round to half-points so they are easy to override per sector. Sector-specific weight overrides are out of scope for v2.0 but the data model supports them.
+6.3 Quarter-Pair Score
+A quarter-pair score is the weighted average of the claim-level scores for that pair:
+pair_score(pair) =
+    Σ (weight_i × delivery_score_i)  for closed claims in pair
+    ──────────────────────────────
+              Σ weight_i
+ 
+Minimum claim threshold (NEW):
+    If the pair has fewer than 2 measurable, scorable claims,
+    mark it as "Insufficient Data" and exclude from the
+    confidence score denominator.
+Why a minimum claim threshold
+A quarter where management gave only one measurable claim (e.g., revenue only, no margin or EPS guidance) is not a robust signal. Scoring it equally to a quarter with five claims overweights coincidence. The pair is still displayed in the audit table — just marked "Insufficient Data" and skipped in the average.
+6.4 Overall Management Confidence Score
+The Management Confidence Score (MCS) is the simple average of the scorable closed pair scores:
+mcs =  Σ pair_score(p)  for p in scorable_closed_pairs
+       ──────────────────────────────────────────────
+                  count(scorable_closed_pairs)
+ 
+confidence_score_pct = round(mcs * 100, 1)
+6.4.1 Recency-Weighted Variant (NEW, Optional)
+Some analysts argue that recent quarters should weigh more — a company that missed eight quarters ago but has delivered for the last four is structurally different from one trending the other way. The dashboard exposes both the equal-weighted MCS and a recency-weighted MCS for transparency.
+Linear-decay weights for n = 7 closed pairs (oldest → newest):
+    w = [0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8]
+    (normalize so they sum to count)
+ 
+mcs_recency = Σ (w_i × pair_score_i) / Σ w_i
+ 
+Both are displayed:
+    MCS (equal-weighted): 87.9%
+    MCS (recency-weighted): 89.4%
+    Δ = +1.5% → mild improving bias
+7. Confidence Levels and Thresholds
+7.1 Label Mapping
+7.2 Boundary Handling (NEW)
+Exact-boundary scores (79.99% vs 80.00%) should not produce flickering labels. Apply standard rounding to one decimal, then compare on rounded value. A score of 79.95% rounds to 80.0% → High. A score of 79.94% rounds to 79.9% → Medium. This is documented in the methodology tooltip.
+7.3 Statistical Uncertainty Reporting (NEW)
+With n = 7 closed pairs, the confidence band on the MCS point estimate is wide. The dashboard reports:
+Inputs: pair_scores = [s_1, s_2, ..., s_k]   (k = closed scorable pairs)
+ 
+mean = MCS
+std  = sample standard deviation of pair_scores
+SE   = std / sqrt(k)
+CI95 = [mean - 1.96 * SE,  mean + 1.96 * SE]   clipped to [0, 1]
+ 
+Displayed as:
+    MCS: 87.9%  (95% CI: 79.1% – 96.7%, n = 7)
+ 
+If the CI spans two label bands, also display:
+    "Label is sensitive to one or two quarters — interpret with care."
+Why this matters
+Two companies can both score 82% with very different stability. One might have pair scores [0.80, 0.85, 0.80, 0.85, 0.80, 0.85, 0.80] — rock-solid. The other might have [1.00, 0.50, 1.00, 0.50, 1.00, 0.50, 1.25 capped to 1.00] — equally High, but the variance signal tells the analyst the underlying behavior is choppy. Standard error is how you surface that.
+8. Trend, Withdrawn Guidance, and Sandbagging
+8.1 Recent Trend
+Compares the average of the most recent 3 closed scorable pairs to the full-window MCS:
+recent_avg  = mean of latest 3 scorable closed pair scores
+overall_avg = MCS
+ 
+if recent_avg >= overall_avg + 0.05:
+    trend = "Improving"
+elif recent_avg <= overall_avg - 0.05:
+    trend = "Deteriorating"
+else:
+    trend = "Stable"
+ 
+Guard (NEW):
+    if count(scorable_closed_pairs) < 3:
+        trend = "Insufficient Data"
+        (avoids division-by-zero and meaningless single-pair trends)
+8.2 Withdrawn Guidance (NEW)
+When management formally rescinds guidance (typical events: regulatory pause, supply shock, acquisition close, force majeure), the claim is recorded with status "withdrawn" and a delivery score of 0.25. The audit trail logs the rescission date, the reason given, and the original guidance text.
+Why 0.25 and not 0.00
+A withdrawal is a planning failure but not necessarily an execution failure — the company may still hit the underlying number; we just won't know. Zero is too harsh; full credit is too lenient. 0.25 is the institutional convention used by sell-side credibility models we benchmarked against.
+8.3 Revised Guidance (NEW)
+If management revises guidance mid-quarter (e.g., at an investor conference between earnings calls), the most recent revision is the one scored. The audit trail records both versions and the revision date, so an analyst can see whether the company guided down before delivering and inflate-deflated their way to a "beat."
+8.4 Sandbagging Diagnostic (NEW)
+Independent of the confidence score, the dashboard computes a sandbagging signal — the mean signed beat magnitude across the closed pairs for revenue and EPS:
+For each closed claim where category in {revenue, eps}:
+    signed_beat_pct = (actual - guided_midpoint) / |guided_midpoint|
+ 
+sandbag_index = mean of signed_beat_pct values
+ 
+Thresholds:
+    sandbag_index >= +5.0%  → "Likely sandbagging — chronic large beats"
+    sandbag_index in [+1.5%, +5.0%) → "Mild conservatism"
+    sandbag_index in (−1.5%, +1.5%) → "Calibrated guidance"
+    sandbag_index <= −1.5% → "Optimistic guidance — chronic shortfalls"
+ 
+Display as a small secondary card under the main confidence card.
+Interaction with the main score
+A sandbagging flag does NOT change the headline MCS. It is a parallel diagnostic that analysts can use to qualify a "High Confidence" reading: a 92% MCS combined with a +6% sandbag index means the company hits guidance because the bar is low, not because operations are heroic.
+9. Edge Cases and Data Quality Rules
+10. Data Model and Schemas
+All persisted records are JSON. Field names use snake_case. Every record includes a schema version so the dashboard can detect and migrate.
+10.1 Window Metadata
+{
+  "schema_version": "2.0",
+  "ticker": "MU",
+  "as_of_date": "2026-05-14",
+  "quarters_analyzed": 8,
+  "closed_guidance_pairs": 7,
+  "pending_guidance_pairs": 1,
+  "scorable_closed_pairs": 7,
+  "latest_quarter_guidance_status": "pending",
+  "data_quality_flags": []
+}
+10.2 Claim Object (NEW Fields Highlighted)
+{
+  "claim_id": "MU_FY2024Q1_REV_001",
+  "ticker": "MU",
+  "guidance_quarter": "FY2024 Q1",
+  "target_quarter": "FY2024 Q2",
+  "category": "revenue",
+  "weight": 2.00,
+  "guidance_low": 10000,
+  "guidance_high": 11000,
+  "guidance_midpoint": 10500,
+  "guidance_unit": "USD millions",
+  "tolerance_pct": 0.02,
+  "evidence_quote": "We expect Q2 revenue to be between $10B and $11B.",
+  "evidence_source": "MU FY24 Q1 earnings call transcript, p.6",
+  "evidence_speaker": "CFO",
+  "actual": 11200,
+  "actual_source": "MU FY24 Q2 10-Q, Item 1",
+  "delivery_verdict": "beat",
+  "delivery_score_discrete": 1.00,
+  "delivery_score_continuous": 1.00,
+  "signed_beat_pct": 0.0667,
+  "revisions": [],
+  "status": "closed",
+  "computed_at": "2026-05-14T18:21:00Z"
+}
+10.3 Quarter-Pair Object
+{
+  "pair_id": "Q1_TO_Q2",
+  "guidance_quarter": "FY2024 Q1",
+  "target_quarter": "FY2024 Q2",
+  "status": "closed",                  // closed | pending | insufficient
+  "claim_count": 4,
+  "scorable_claim_count": 4,
+  "delivered_claims": 3,
+  "partial_claims": 1,
+  "missed_claims": 0,
+  "withdrawn_claims": 0,
+  "pair_score": 0.875,
+  "pair_score_continuous": 0.881,
+  "summary": "Revenue and margin delivered; EPS partially delivered."
+}
+10.4 Confidence Object
+{
+  "schema_version": "2.0",
+  "ticker": "MU",
+  "quarters_analyzed": 8,
+  "closed_pairs_used": 7,
+  "pending_pairs_excluded": 1,
+  "insufficient_pairs_excluded": 0,
+  "mcs": 0.8786,
+  "mcs_pct": 87.9,
+  "mcs_recency_weighted": 0.8941,
+  "mcs_recency_weighted_pct": 89.4,
+  "standard_error": 0.0451,
+  "ci95_low_pct": 79.1,
+  "ci95_high_pct": 96.7,
+  "confidence_level": "High",
+  "label_sensitive": false,
+  "recent_trend": "Stable",
+  "sandbag_index": 0.018,
+  "sandbag_label": "Mild conservatism",
+  "method_note": "MCS computed from 7 closed guidance-to-actual pairs. Latest forward guidance is pending and excluded.",
+  "computed_at": "2026-05-14T18:21:00Z"
+}
+11. Algorithm Specification
+11.1 Function Contract
+The implementation must expose one top-level function with this signature. All other helpers are internal.
+function computeConfidence(quarterRecords, options = {}) → ConfidenceObject
+ 
+Parameters:
+  quarterRecords : Array of QuarterRecord, chronological ascending
+  options:
+    minClosedPairsForLabel  (default 3)
+    minClaimsPerPair        (default 2)
+    tolerancePctDefault     (default 0.02)
+    recencyWindow           (default 3)
+    trendDelta              (default 0.05)
+    useRecencyWeighting     (default false; if true, applies linear decay)
+    weights                 (override the category weight table)
+ 
+Returns:
+  ConfidenceObject (see Section 10.4)
+ 
+Throws:
+  Never. All failures surface as data_quality_flags on the output.
+11.2 Reference Pseudocode
+function computeConfidence(quarterRecords, options = {}) {
+  const opts = withDefaults(options);
+  const n = quarterRecords.length;
+  const flags = [];
+ 
+  // 1. Build pairs
+  const pairs = [];
+  for (let i = 0; i < n - 1; i++) {
+    pairs.push(buildPair(quarterRecords[i], quarterRecords[i + 1]));
+  }
+  if (n >= 1) pairs.push(buildPendingPair(quarterRecords[n - 1]));
+ 
+  // 2. Score each closed pair
+  const closed = pairs.filter(p => p.status === "closed");
+  const scorable = closed.filter(
+    p => p.scorable_claim_count >= opts.minClaimsPerPair
+  );
+ 
+  closed.forEach(p => {
+    if (p.scorable_claim_count < opts.minClaimsPerPair) {
+      p.status = "insufficient";
+      p.pair_score = null;
+    } else {
+      p.pair_score = weightedAvg(p.claims, opts.weights);
+    }
+  });
+ 
+  // 3. Compute MCS
+  if (scorable.length < opts.minClosedPairsForLabel) {
+    return insufficientDataObject(quarterRecords, scorable.length, flags);
+  }
+  const scores = scorable.map(p => p.pair_score);
+  const mcs = mean(scores);
+  const stdev = sampleStdDev(scores);
+  const se = stdev / Math.sqrt(scores.length);
+  const ci95 = [
+    clip01(mcs - 1.96 * se),
+    clip01(mcs + 1.96 * se)
+  ];
+ 
+  // 4. Recency weighting (optional second number)
+  const mcsRecency = opts.useRecencyWeighting !== false
+    ? recencyWeightedMean(scores)
+    : null;
+ 
+  // 5. Label
+  const label = labelFromMcs(mcs);
+  const labelSensitive = !sameLabel(ci95[0], ci95[1]);
+ 
+  // 6. Trend
+  const trend = scores.length >= opts.recencyWindow
+    ? trendFromScores(scores, opts.recencyWindow, opts.trendDelta, mcs)
+    : "Insufficient Data";
+ 
+  // 7. Sandbag diagnostic
+  const sandbag = computeSandbagIndex(scorable);
+ 
+  return assembleConfidenceObject({
+    quarterRecords, scorable, mcs, mcsRecency, se, ci95,
+    label, labelSensitive, trend, sandbag, flags
+  });
+}
+11.3 Codebase Migration Checklist
+Search the dashboard codebase for these patterns and remove or migrate them:
+// Patterns to find and remove
+expected_quarters = 10
+ten_quarters
+verified_quarters = 10
+confidence_denominator = 10
+hardcoded confidence_pairs = 8
+ 
+// Patterns to replace with
+quarters_analyzed = quarterRecords.length
+closed_pairs = quarters_analyzed - 1
+denominator = scorable_closed_pairs.length
+12. Dashboard UX Requirements
+12.1 The Confidence Card
+Primary placement: top of the company dashboard, beside the price/valuation block. Required fields, in display order:
+Label (Low / Medium / High), color-coded.
+MCS percentage to one decimal.
+95% CI band, displayed as range.
+"Based on N closed pairs from last M quarters" subtext.
+Pending pair indicator.
+Recent trend (Improving / Stable / Deteriorating).
+Sandbag diagnostic as a small secondary label.
+Methodology tooltip on hover.
+12.2 Sample Card Copy
+┌────────────────────────────────────────────────────────┐
+│ Management Guidance Confidence: HIGH                   │
+│ MCS: 87.9%   (95% CI: 79.1% – 96.7%)                   │
+│                                                        │
+│ Based on 7 closed guidance-to-actual pairs from the    │
+│ last 8 quarters. Latest forward guidance is pending    │
+│ and excluded from the score.                           │
+│                                                        │
+│ Recent trend (last 3 pairs): Stable                    │
+│ Guidance posture: Mild conservatism (+1.8% mean beat)  │
+└────────────────────────────────────────────────────────┘
+12.3 The Quarter-Pair Audit Table
+Sortable, exportable, and the source of truth for any analyst question. One row per pair, in chronological order.
+12.4 Drill-Down View (NEW)
+Clicking any pair row opens a claim-level detail view showing, for each scored claim: category, weight, guided range, actual, evidence quote, source citation, and the discrete and continuous delivery scores. This is the audit trail that lets Megha's analysts defend the headline number to PMs.
+13. UI Copy Standards
+13.1 Approved Language
+"Based on N closed guidance-to-actual pairs from the last M quarters."
+"Latest quarter forward guidance is pending and excluded from the confidence score."
+"Pending claims are displayed for tracking but not included in the score."
+"Confidence score reflects measurable claims with verifiable outcomes only."
+"Label is sensitive to one or two quarters — interpret with care." (only when 95% CI spans two label bands)
+13.2 Forbidden Language
+"Based on 10 quarters" — never. We do not use 10.
+"8 verified quarters" — we have 8 analyzed quarters but only 7 verified pairs.
+"Latest guidance delivered" — unless the next quarter's actuals are in.
+"Latest guidance missed" — same reason.
+"100% confidence" — even a perfect MCS has uncertainty; report the CI.
+14. Acceptance Criteria
+The refinement is complete only when every box below can be ticked.
+14.1 Calculation
+Dashboard reads quarterRecords.length dynamically; no hardcoded 8 or 10.
+closed_pairs = n − 1 for any n ≥ 2.
+Most recent forward guidance is always marked pending.
+Pending guidance is always excluded from MCS.
+Pairs with fewer than 2 scorable claims are marked Insufficient and excluded.
+Withdrawn claims score 0.25 and are logged.
+Label is suppressed when scorable_closed_pairs < 3.
+Recent trend logic guards against fewer than 3 scorable pairs.
+MCS, SE, and 95% CI are all computed and exposed.
+Sandbag index is computed for revenue and EPS claims only.
+14.2 Display
+Confidence card shows label, MCS, CI band, basis, pending indicator, trend, and sandbag posture.
+Quarter-pair table shows all n pairs in chronological order.
+Pending pair row is visually distinct (italic / muted).
+Drill-down view exposes every claim's evidence quote and source citation.
+No occurrence of forbidden language anywhere in the rendered UI.
+Methodology tooltip explains the n−1 rule in plain English.
+14.3 Data Quality
+Every scored claim has an evidence_quote, evidence_source, actual, and actual_source.
+Missing transcripts and missing actuals each emit a data_quality_flag.
+Fiscal quarter labels are used everywhere; calendar dates are tooltips only.
+schema_version is present on every persisted object.
+computed_at timestamp is updated on every recomputation.
+15. QA Test Plan
+16. Risks, Limitations, and Future Enhancements
+16.1 Known Limitations
+n = 7 closed pairs is a small sample. The 95% CI will frequently span two label bands. The label_sensitive flag is a partial mitigation, not a fix.
+Claim weights are global. A semis-vs-biotech comparison would benefit from sector-calibrated weights, deferred to v3.
+"Withdrawn" at 0.25 is a convention, not a derived constant. It can be tuned once we have a larger empirical sample.
+Sandbagging is detected only for revenue and EPS. Companies can sandbag on margins or FCF; v3 should expand coverage.
+Multi-year strategic claims are excluded. A long-horizon credibility module is a v3 candidate.
+16.2 Future Enhancements (Backlog)
+17. Appendix A — Worked Example
+Hypothetical 8-quarter analysis of an SOX-listed semiconductor name. Numbers are illustrative.
+17.1 Closed Pair Scores
+17.2 Resulting Confidence Object
+mcs             = (0.875 + 0.850 + 1.000 + 0.750 + 0.800 + 0.950 + 0.900) / 7
+                = 0.8786
+mcs_pct         = 87.9%
+ 
+stdev           = 0.0866       (sample, n-1 in denominator)
+SE              = 0.0866 / sqrt(7) = 0.0327
+CI95            = [0.8786 - 1.96 * 0.0327,  0.8786 + 1.96 * 0.0327]
+                = [0.8145,  0.9427]
+                = [81.5%, 94.3%]
+ 
+confidence_level = "High"     (MCS >= 80.0%)
+label_sensitive  = false      (entire CI band is within High)
+ 
+recent_avg       = (0.800 + 0.950 + 0.900) / 3 = 0.883
+delta_vs_overall = 0.883 - 0.8786 = +0.004
+trend            = "Stable"   (|delta| < 0.05)
+ 
+sandbag_index    = +1.8%      (Mild conservatism)
+17.3 Final Card Output
+Management Guidance Confidence: HIGH
+ 
+MCS: 87.9%   (95% CI: 81.5% – 94.3%, n = 7)
+ 
+Based on 7 closed guidance-to-actual pairs from the last
+8 quarters. Latest forward guidance is pending and
+excluded from the score.
+ 
+Recent trend (last 3 pairs): Stable
+Guidance posture: Mild conservatism (+1.8% mean beat)
+18. Closing Note to Rahul
+The confidence score is a small piece of the dashboard but it is the piece that signals whether the broader institutional grading is honest. If the denominator is wrong, every label downstream inherits the error. If the methodology is opaque, every Megha-vs-PM conversation about a ticker bogs down in litigating the math.
+Build it once, build it auditable, and document it inline so the next engineer (and the next analyst) can read the tooltip and trust what they see. Eight analyzed quarters give us seven verified pairs. The seventh pair carries the weight of the label. The eighth quarter's guidance is a promise, not yet evidence.
+Score what is evidenced. Display what is pending. Quantify the uncertainty. Surface the sandbagging. That is the contract this PRD asks you to deliver.
+
+[Table 0]
+Field | Value
+Document Version | v2.0 — Enhanced
+Status | DRAFT FOR REVIEW
+Owner | Rahul
+Reviewers | Megha (Research), Bullayya Garu (Product)
+Implementation | Claude Code / Claude CoWork
+Surface | Local HTML + JavaScript stock research dashboard
+Primary Scope | Management credibility / quarter-to-quarter guidance fulfillment
+Supersedes | v1.0 refinement (internal draft)
+Date | 2026-05-14
+
+[Table 1]
+Version | Date | Author | Change Summary
+v1.0 | Prior | Rahul | Initial refinement spec: identified the 8-quarter / 7-pair error in the live dashboard.
+v2.0 | 2026-05-14 | Mentor review | Generalized n-quarter formula; added magnitude-aware scoring; introduced claim weighting; tolerance bands; statistical reporting (SE, 95% CI); withdrawn/revised guidance handling; sandbagging detection; operational vs strategic split; tightened edge cases.
+
+[Table 2]
+Stakeholder | Role | Action | Status
+Rahul | Owner / Builder | Implement v2.0 logic in dashboard | Pending
+Megha | Research Lead | Validate confidence semantics for analyst use | Pending
+Bullayya Garu | Product Lead | Approve scope, UX, and acceptance criteria | Pending
+Claude Code | Implementation Agent | Author code per Section 13 spec | Pending
+
+[Table 3]
+Term | Definition
+Analyzed Quarter | One of the n quarters in the dashboard window (n = 8 in v2.0). Fiscal, not calendar.
+Guidance Quarter | The quarter in which management issued the forward-looking claim.
+Target Quarter | The quarter that the guidance refers to. Almost always guidance_quarter + 1.
+Claim | A single measurable forward-looking statement with a metric, a direction or range, and an implicit or explicit target quarter.
+Closed Pair | Guidance-to-actuals pair where the target quarter has reported. Eligible for scoring.
+Pending Pair | Guidance-to-actuals pair where the target quarter has not yet reported. Displayed; excluded from score.
+Withdrawn Guidance | Guidance that management formally rescinded before the target quarter reported. A distinct outcome from delivered, missed, or pending.
+Revised Guidance | Guidance updated by management mid-quarter (e.g., at an investor conference). The most recent version is the one scored; revisions are logged for the audit trail.
+In-line | Actual falls within the guided range, or within the tolerance band around a point estimate.
+Tolerance Band | Default ±2% of midpoint for point guidance with no range provided. Configurable per metric.
+MCS | Management Credibility Score. The detailed per-claim composite, expressed as a percentage.
+Confidence Level | The simplified dashboard label: Low / Medium / High. Derived from MCS.
+Recent Trend | Direction of MCS over the latest three closed pairs vs the full-window MCS.
+Sandbagging | Pattern of guidance set deliberately low so the company can routinely beat. Detected via signed beat magnitude.
+
+[Table 4]
+# | Guidance Quarter | Target Quarter | Status
+1 | Quarter 1 | Quarter 2 | Closed
+2 | Quarter 2 | Quarter 3 | Closed
+3 | Quarter 3 | Quarter 4 | Closed
+4 | Quarter 4 | Quarter 5 | Closed
+5 | Quarter 5 | Quarter 6 | Closed
+6 | Quarter 6 | Quarter 7 | Closed
+7 | Quarter 7 | Quarter 8 | Closed
+8 | Quarter 8 | Quarter 9 | Pending
+
+[Table 5]
+Result | Score | Definition
+Delivered / Beat / In-line | 1.00 | Actual is within the guided range, or beats the high end.
+Partial / Slight miss | 0.50 | Actual is below the low end of the range by 0% to 5%, or above the high end of an opex/capex range by 0% to 5%.
+Missed | 0.00 | Actual is outside the tolerance band by more than 5% in the unfavorable direction.
+Withdrawn | 0.25 | Management formally rescinded guidance before the target quarter reported. Worse than partial (signals planning failure) but not a full miss (no actual underperformance evidenced).
+Pending | Excluded | Target quarter not yet reported.
+
+[Table 6]
+Claim Category | Weight | Rationale
+Revenue | 2.00 | Primary growth signal; what investors model first.
+EPS / Adjusted EPS | 2.00 | Bottom-line monetization; sets the multiple.
+Gross Margin | 1.50 | Unit economics; difficult to dress up.
+Operating Margin / Op Income | 1.50 | Operating leverage signal.
+Free Cash Flow | 1.25 | Cash conversion quality.
+Segment Revenue (each) | 1.00 | Useful but partially redundant with total revenue.
+Capex | 0.75 | Important but lumpy; easily explained away.
+Operating Expense | 0.75 | Important but often co-moves with revenue.
+Tax Rate | 0.50 | Mostly mechanical; small absolute impact.
+Product-Launch Milestone | 1.00 | Strategic execution proof point.
+Customer / Capacity Milestone | 1.00 | Strategic execution proof point.
+Other measurable claim | 0.50 | Default weight for items not in the catalog.
+
+[Table 7]
+Score Range | Label | Analyst Interpretation
+80.0% – 100.0% | High | Management has consistently delivered on what it told the market. Treat forward guidance as a usable input to valuation models with normal skepticism.
+60.0% – 79.9% | Medium | Delivery is mixed but not pathological. Discount management's forward statements modestly; cross-check with channel checks and consensus.
+Below 60.0% | Low | Management guidance has been an unreliable signal. Build the model on independent inputs; treat management commentary as directional only.
+
+[Table 8]
+Scenario | Required Behavior
+Fewer than 8 quarters available | Use the actual number n. Compute closed_pairs = n − 1. If n < 4, suppress the label and show "Insufficient Data — N closed pairs".
+Latest quarter transcript missing | Cannot extract pending guidance. Score the available closed pairs. Display warning: "Latest transcript missing — pending guidance not captured."
+Target quarter actuals missing | Pair is marked Pending and excluded from the score. Do not infer delivered or missed.
+Zero measurable claims in a pair | Pair marked "Insufficient Data" and excluded from the average. Displayed in the audit table for transparency.
+One measurable claim in a pair | Same treatment as zero — below the minimum threshold of 2.
+Withdrawn guidance | Score = 0.25; logged in audit trail with rescission reason.
+Revised guidance mid-quarter | Score the most recent revision. Log both versions.
+Calendar vs fiscal quarter confusion | Always use fiscal quarter labels. Tooltip shows the calendar equivalent.
+Company changes fiscal calendar | Document the change date in the audit trail. Score continues on the new calendar; do not blend overlapping periods.
+No forward guidance at all (e.g., Berkshire) | Confidence score is N/A. Display "Issuer does not provide forward guidance — confidence score not applicable."
+Pre-announcement / pre-released results | If the company pre-announced before the target quarter's official report, treat the pre-announced figure as the actual for scoring purposes; flag in the audit trail.
+Mid-range guidance with no upper bound ("at least $10B") | Treat $10B as the low end; no high end. Score 1.00 if actual ≥ $10B; apply tolerance band downward only.
+Multi-year guidance | Excluded from the quarter-to-quarter score. May be tracked in a separate long-horizon credibility module (out of scope for v2.0).
+
+[Table 9]
+Pair | Status | Score | One-line Summary
+Q1 → Q2 | Closed | 0.90 | Revenue beat, margin in-line, EPS in-line, capex slight miss.
+Q2 → Q3 | Closed | 0.85 | Revenue beat, EPS partial, two strategic milestones delivered.
+Q3 → Q4 | Closed | 1.00 | All measurable claims delivered or beat.
+Q4 → Q5 | Closed | 0.75 | Revenue delivered, capex missed, customer ramp delayed.
+Q5 → Q6 | Closed | 0.80 | Mixed: top-line strong, gross margin slight miss.
+Q6 → Q7 | Closed | 0.95 | Strong execution across all categories.
+Q7 → Q8 | Closed | 0.90 | Strong execution; EPS slight miss on tax-rate surprise.
+Q8 → Q9 | Pending | Excluded | Awaiting Q9 actuals; 4 claims tracked for verification.
+
+[Table 10]
+# | Scenario | Input | Expected
+T1 | Complete 8-quarter dataset | 8 quarters of transcripts and actuals | 7 closed pairs, 1 pending, MCS computed.
+T2 | Pending latest | Q8 has forward guidance, Q9 missing | Q8→Q9 = Pending; excluded from score.
+T3 | No 10-quarter assumption | Grep dashboard output for '10 quarters' | Zero matches.
+T4 | Missing mid-window transcript | Q5 transcript missing | Q5→Q6 marked Insufficient; data_quality_flag emitted; score still computed from remaining pairs.
+T5 | Missing actuals | Q8 actuals missing | Q7→Q8 marked Pending; excluded from score.
+T6 | Withdrawn guidance | Q3 revenue guidance withdrawn before Q4 | Claim status = withdrawn; score = 0.25; logged.
+T7 | Boundary 79.95% | MCS = 0.7995 | Rounds to 80.0% → High label.
+T8 | Boundary 79.94% | MCS = 0.7994 | Rounds to 79.9% → Medium label.
+T9 | CI spans bands | MCS = 0.82, CI = [0.71, 0.93] | Label = High; label_sensitive = true; warning displayed.
+T10 | Sandbagging | Mean signed beat = +6.2% over closed revenue claims | Sandbag label = 'Likely sandbagging'.
+T11 | Issuer gives no guidance | All quarters have zero measurable claims | Confidence score = N/A; UI shows 'Issuer does not provide forward guidance'.
+T12 | n = 3 quarters only | Only 3 quarters in window | 2 closed pairs; below floor; label suppressed; raw pair table shown.
+T13 | Pre-announcement | Company pre-announced Q4 results before official report | Pre-announced figure used as actual; flag in audit trail.
+T14 | Schema version mismatch | Stored object has schema_version = 1.x | Dashboard recomputes and rewrites at 2.0.
+T15 | Property test: monotonicity | Increase any claim score, others fixed | MCS does not decrease.
+
+[Table 11]
+Priority | Enhancement | Notes
+P1 | Sector-calibrated claim weights | Per-GICS weight overrides driven by what each sector actually guides.
+P1 | Cross-company benchmarking | Display the ticker's MCS percentile within its sector.
+P2 | Beat-magnitude credibility curve | Distinguish narrow beats (real) from wide beats (sandbagging) at the claim level.
+P2 | Long-horizon credibility module | Track multi-year strategic claims with their own scorecard.
+P3 | Analyst override layer | Let Megha's team annotate why a claim should be re-scored, with audit trail.
+P3 | Confidence drift alert | Email/push when a ticker's label changes across a recompute.
+
+[Table 12]
+Pair | Claim Count | Pair Score | Notes
+Q1 → Q2 | 4 | 0.875 | Revenue beat, margin in-line, EPS partial, capex missed.
+Q2 → Q3 | 4 | 0.850 | Revenue beat, margin beat, EPS partial, customer ramp delayed.
+Q3 → Q4 | 5 | 1.000 | All claims delivered or beat.
+Q4 → Q5 | 4 | 0.750 | Revenue in-line, capex missed materially, EPS in-line.
+Q5 → Q6 | 3 | 0.800 | Revenue in-line, gross margin slight miss, FCF beat.
+Q6 → Q7 | 4 | 0.950 | Strong execution across all measurable claims.
+Q7 → Q8 | 4 | 0.900 | Strong execution; tax-rate surprise nicked EPS.

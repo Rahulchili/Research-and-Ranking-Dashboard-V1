@@ -1,0 +1,33 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pytest-cache-files-*/
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs / logs
+*.log
+*.tmp
+/tmp/
+node_modules/
+
+# Per-ticker raw source folders — these are large and contain FactSet IP
+# that shouldn't be in a public-facing repo. Keep them locally; do not commit.
+/fixtures/
+
+# Keep this empty file so the .gitignore is committed

@@ -1,0 +1,30 @@
+{
+  "target": {
+    "ticker": "SMOK-US",
+    "price": 100.0,
+    "target_price": 120.0,
+    "PE_FY1": 25.0,
+    "EV_EBITDA_FY1": 18.0,
+    "mkt_cap_B": 50.0,
+    "ev_B": 48.0,
+    "rating": "Buy"
+  },
+  "peers": [
+    {
+      "ticker": "PEER1-US",
+      "name": "Peer One",
+      "price": 90,
+      "PE_FY1": 22.0,
+      "EV_EBITDA_FY1": 16.0,
+      "mkt_cap_B": 40
+    },
+    {
+      "ticker": "PEER2-US",
+      "name": "Peer Two",
+      "price": 110,
+      "PE_FY1": 28.0,
+      "EV_EBITDA_FY1": 20.0,
+      "mkt_cap_B": 55
+    }
+  ]
+}

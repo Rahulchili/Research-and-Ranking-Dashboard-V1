@@ -1,0 +1,103 @@
+{
+  "name": "McDonald's Corporation",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "McDonald's Corporation (MCD, Consumer Discretionary) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $6.52B (+9.4% YoY), net margin 30.4%. Valuation 24.5x forward P/E (-2% vs peers). Spot $282.71 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "MCD_ER_Q4_2025_11_FEB_2026.docx",
+      "As we look to 2026, success will again depend on going 3 for 3, compelling value that brings customers in the door, breakthrough marketing that creates meaningful moments for our fans and menu innovation that provides great tasting food for our customers. We believe this disciplined focus enables McDonald's to outperform in any environment.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "MCD_ER_Q4_2025_11_FEB_2026.docx",
+      "As we look back on the full year, our capital expenditure spend was $3.4 billion, slightly above the high end of the range that we provided for the year as we invested more toward our future year development pipeline, setting us up for success as we continue to increase our pace of openings in our wholly owned markets. I'm proud of what McDonald's has been able to deliver in a ",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "MCD_ER_Q4_2025_11_FEB_2026.docx",
+      "We also began to pilot Big Arch about 1.5 years ago, and it's shown strong traction across several markets. Customers are responding to this delicious, more satisfying burger that meets their demand for something heartier while still feeling distinctly McDonald's.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "MCD_ER_Q4_2025_11_FEB_2026.docx",
+      "We expect that net restaurant expansion in 2026, along with restaurants we opened in 2025, will contribute approximately 2.5% to system-wide sales growth.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "MCD_ER_Q4_2025_11_FEB_2026.docx",
+      "We expect our operating margin to be in the mid- to high 40% range and to expand from our 46.9% adjusted operating margin in 2025.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "MCD_ER_Q4_2025_11_FEB_2026.docx",
+      "We expect foreign currency to be a full year tailwind to 2026 EPS, totaling in the range of $0.20 to $0.30 based on current exchange rates.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +9.4% YoY in FY2026 Q1 (TTM $27.45B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Profitability premium — net margin of 30.4% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Sell-side target points higher — consensus PT of $340 (vs spot $282.71) implies +20.3% upside. Cross-checked against the peer-median PE FY1 of 25.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Trend rolling over — spot $282.71 sits -8.3% relative to the 200-DMA ($308.41). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Put skew elevated — ATM put IV running +47.9pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 12% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 31.9% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 6% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 28.4% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $274.60 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+9.4% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "30.4%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 25.0x FY1 P/E",
+      "latest": "24.5x (-2%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$282.71 vs $308.41 (-8.3%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "36.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. McDonald's Corporation (MCD) printed $6.52B in revenue in FY2026 Q1 (+9.4% YoY), net margin of 30.4%. Trading at 24.5x forward P/E versus peer median of 25.0x — broadly in line with the group.\n\nTechnical regime is impaired: spot $282.71 below the 200-DMA ($308.41, -8.3%) — long-term trend has rolled over. Sell-side consensus PT of $340 implies +20.3% upside. 30-day implied move is ±5.5%; 90-day is ±11.1%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Bank of America Corporation",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Bank of America Corporation (BAC, Financials) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $30.27B (+7.2% YoY), ROTCE 16.0%, efficiency ratio 61.2%. Management credibility 0.50 on 8 claims. Valuation 12.3x forward P/E (+3% vs peers). Spot $49.85 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "BAC_ER_Q4_2025_14_JAN_2026.docx",
+      "Our fourth quarter topped off a strong performance by my teammates at Bank of America for 2025. We delivered on our commitments to shareholders across the year with solid growth across revenue, earnings and returns.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "BAC_ER_Q4_2025_14_JAN_2026.docx",
+      "Our focus on all the markets we serve, whether they're domestic or international, has allowed us to grow our client balances at a faster pace than the industry. Dean described how we do this in the U.S.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "BAC_ER_Q4_2025_14_JAN_2026.docx",
+      "In the quarter, we returned $8.4 billion of capital back to shareholders with $2.1 billion in common dividends paid and $6.3 billion of shares repurchased, $1 billion increase in share repurchase from Q3 reflects increased earnings over the past 6 months and some reduction in excess capital. Tangible book value per share of $28.73 rose 9% from the fourth quarter of '24.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "BAC_ER_Q4_2025_14_JAN_2026.docx",
+      "Let's turn our focus to NII on Slide 9, where on a GAAP non-FTE basis, NII in Q4 was $15.8 billion. And on a fully taxable equivalent basis, NII was $15.9 billion.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "BAC_ER_Q4_2025_14_JAN_2026.docx",
+      "To reiterate our expectation from Investor Day, we expect good core NII performance from loan and deposit growth that will additionally benefit from sizable fixed asset repricing and cash flow swap repricing to drive the 5% to 7% NII improvement.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "BAC_ER_Q4_2025_14_JAN_2026.docx",
+      "During 2026, we expect roughly $12 billion to $15 billion in combined mortgage backed securities and mortgage loans to roll off quarterly, and those will be replaced with new assets at 150 to 200 basis points higher in yield or they'll allow us to pay down expensive short-term debt.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Operating leverage intact — efficiency ratio at 61.2% in FY2026 Q1 sits inside the sector's preferred 55–65% band. Each incremental dollar of revenue converts at a healthy rate, supporting the profitability runway as the rate environment normalizes.",
+    "Capital productivity above hurdle — ROTCE of 16.0% in FY2026 Q1 clears the ~10–12% cost-of-equity benchmark used by most large-cap bank analysts. This is the single most-watched ratio for re-rating debates on money-center banks.",
+    "Revenue mix re-accelerating — back half of the trailing 4Q stack averaging +3.8% above the front half. Both NII and fee income lines are contributing, reducing reliance on a single revenue lever.",
+    "Capital return runway — implied 8.5% FCF yield supports continued buyback authorization and a dividend in the upper-quartile of the sector. The math on EPS accretion from repurchase remains favorable at current multiples.",
+    "Range-positioning balanced — at 47% of the 52-week range ($43.20–$57.25), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Sell-side target points higher — consensus PT of $55 (vs spot $49.85) implies +10.3% upside. Cross-checked against the peer-median PE FY1 of 12.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Trend rolling over — spot $49.85 sits -3.4% relative to the 200-DMA ($51.60). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print."
+  ],
+  "trigger_up": [
+    "Efficiency ratio prints below 59% on next quarterly report — incremental operating leverage flows directly to EPS.",
+    "ROTCE inflects above 17% — re-rating catalyst toward 1.3–1.5x P/TBV from current implied multiple.",
+    "Loan-loss provisions decline or normalize on next earnings — credit-cycle tailwind to bottom line.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Efficiency ratio prints above 64% — implies expense base has decoupled from revenue, multiple compression risk.",
+    "ROTCE drops below 14% — sub-hurdle returns trigger value-trap concern.",
+    "CET1 ratio prints below 11.0% on next quarter — capital constraint reduces buyback authority.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $43.20 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+7.2% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Efficiency ratio",
+      "baseline": "Best-in-class <58%",
+      "latest": "61.2%",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "ROTCE",
+      "baseline": "Hurdle ~10%",
+      "latest": "16.0%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.50 on 8 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 12.0x FY1 P/E",
+      "latest": "12.3x (+3%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$49.85 vs $51.60 (-3.4%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "36.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Bank of America Corporation (BAC) printed $30.27B in total revenue in FY2026 Q1 (+7.2% YoY), with NII running at $15.7B, efficiency ratio at 61.2%, and ROTCE of 16.0%. Management credibility is weak (MCS 0.50, 3B/0H/1M record) — forward claims should be discounted in valuation models. Trading at 12.3x forward P/E versus peer median of 12.0x — broadly in line with the group.\n\nTechnical regime is impaired: spot $49.85 below the 200-DMA ($51.60, -3.4%) — long-term trend has rolled over. Sell-side consensus PT of $55 implies +10.3% upside. 30-day implied move is ±7.3%; 90-day is ±14.5%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

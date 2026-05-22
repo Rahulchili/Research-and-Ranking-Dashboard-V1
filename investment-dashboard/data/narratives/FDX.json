@@ -1,0 +1,102 @@
+{
+  "name": "FedEx Corporation",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "FedEx Corporation (FDX, Industrials) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $21.15B (+10.3% YoY), net margin 5.0%. Valuation 11.5x forward P/E (-45% vs peers). Spot $371.69 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "FDX_ER_Q4_2025_24_JUN_2025.docx",
+      "For FY '26, we expect to achieve $1 billion of transformation-related savings which includes DRIVE and Network 2.0. I again want to thank the team for the innovative and mission-critical work they're doing to make supply chains smarter for everyone.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FDX_ER_Q4_2025_24_JUN_2025.docx",
+      "Just this past Friday, Fred told me how fun it was to watch the team work. And then he saw and felt the momentum building in the business.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "FDX_ER_Q4_2025_24_JUN_2025.docx",
+      "Where we land in the range largely depends on how the U.S. domestic revenue at FECs evolves.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "FDX_ER_Q4_2025_24_JUN_2025.docx",
+      "Our focus is paying off, translating to better customer experiences and financial outcomes.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "FDX_ER_Q4_2025_24_JUN_2025.docx",
+      "Our focus for fiscal year '26 will be growing within the $18 billion high-margin segment of the North American automotive market, a subsector focused on premium services that supports automotive supply chain.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "FDX_ER_Q4_2025_24_JUN_2025.docx",
+      "Federal Express also posted higher FY '25 results year-over-year despite significant headwinds with adjusted operating income of $151 million on $641 million in revenue growth. This strong flow-through to the bottom line demonstrates the powerful leverage inherent in our business, a reality that will become even more apparent when we see a recovery in the industrial economy.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +10.3% YoY in FY2026 Q1 to $21.15B, with TTM revenue of $79.88B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Trend regime constructive — spot $371.69 sits +23.8% above the 200-DMA ($300.28). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Valuation discount to peers — 11.5x forward P/E versus peer median 21.0x — a 45% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Margin pressure — net margin of 5.0% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 13% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 6.5% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 7% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 3.0% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $216.61 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+10.3% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "5.0%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 21.0x FY1 P/E",
+      "latest": "11.5x (-45%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$371.69 vs $300.28 (+23.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "41.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. FedEx Corporation (FDX) printed $21.15B in revenue in FY2026 Q1 (+10.3% YoY), net margin of 5.0%. At 11.5x forward P/E, the stock trades at a 45% discount to peers (21.0x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is constructive: spot $371.69 above the 200-DMA ($300.28, +23.8%) with neutral momentum (RSI 42). Sell-side consensus PT of $265 implies -28.7% upside. 30-day implied move is ±8.8%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "fy": 2023,
+    "fp": "Q1",
+    "period": "2023Q1",
+    "rev_q_M": 5353.0,
+    "oi_q_M": -145.0,
+    "ni_q_M": -139.0,
+    "eps": -0.09,
+    "gross_margin_pct": 44.07,
+    "operating_margin_pct": -2.71,
+    "net_margin_pct": -2.6,
+    "gross_profit_M": 2359.0
+  },
+  {
+    "fy": 2023,
+    "fp": "Q2",
+    "period": "2023Q2",
+    "rev_q_M": 5359.0,
+    "oi_q_M": -20.0,
+    "ni_q_M": 27.0,
+    "eps": 0.02,
+    "gross_margin_pct": 45.59,
+    "operating_margin_pct": -0.37,
+    "net_margin_pct": 0.5,
+    "gross_profit_M": 2443.0
+  },
+  {
+    "fy": 2023,
+    "fp": "Q3",
+    "period": "2023Q3",
+    "rev_q_M": 5800.0,
+    "oi_q_M": 224.0,
+    "ni_q_M": 299.0,
+    "eps": 0.18,
+    "gross_margin_pct": 47.36,
+    "operating_margin_pct": 3.86,
+    "net_margin_pct": 5.16,
+    "gross_profit_M": 2747.0
+  },
+  {
+    "fy": 2023,
+    "fp": "Q4",
+    "period": "2023Q4",
+    "rev_q_M": 6168.0,
+    "oi_q_M": 342.0,
+    "ni_q_M": 667.0,
+    "eps": 0.41,
+    "gross_margin_pct": 47.2,
+    "operating_margin_pct": 5.54,
+    "net_margin_pct": 10.81,
+    "gross_profit_M": 2911.0
+  }
+]

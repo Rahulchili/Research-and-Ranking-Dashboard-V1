@@ -1,0 +1,148 @@
+{
+  "stance": "BULLISH (with timing caution)",
+  "color": "mint",
+  "summary": "AMD has delivered 8 of 8 quarterly revenue beats since Q2 2024 (MCS = 0.9591). YoY revenue growth has been remarkably consistent at +31-38% across the last five quarters, with operating margin expanding (despite Q2 25 distortion from a $800M MI308 export-control charge). Q1 2026 revenue was $10.25B (+37.85% YoY) — among the strongest growth in the dataset. The data center segment is the principal driver, ramping with hyperscale AI demand. The setup: trailing fundamentals are strong, but the stock has rallied 351% off the 52-week low and trades at substantial premium to semi peers (P/E FY1 62× vs median 38×).",
+  "quotes": [
+    [
+      "Lisa Su (CEO)",
+      "Q4 2025 call (Feb 3, 2026)",
+      "2025 was a defining year for AMD with record revenue, net income and free cash flow driven by broad-based demand for our high-performance computing and AI products."
+    ],
+    [
+      "Lisa Su (CEO)",
+      "Q3 2025 call (Nov 4, 2025)",
+      "We delivered an outstanding quarter with record revenue and profitability, reflecting broad-based demand across our data center AI, server and PC businesses."
+    ],
+    [
+      "Lisa Su (CEO)",
+      "Q3 2025 call (Nov 4, 2025)",
+      "Revenue grew 36% year-over-year to $9.2 billion."
+    ],
+    [
+      "Lisa Su (CEO)",
+      "Q1 2025 call (May 6, 2025)",
+      "While we face some headwinds from the dynamic macro and regulatory environments, including the recently announced export controls for [ Instinct MI308 ] shipments to China, we believe they are more than offset by the powerful tailwinds from our leadership product portfolio."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q4 2025 call (Feb 3, 2026)",
+      "We expect revenue to be approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of MI308 sales to China."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q4 2025 call (Feb 3, 2026)",
+      "AMD executed very well in 2025, delivering record revenue of $34.6 billion, up 34% year-over-year, driven by 32% growth in our Data Center segment and 51% growth in our Client and Gaming segment."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q3 2025 call (Nov 4, 2025)",
+      "we expect revenue to be approximately $9.6 billion, plus or minus $300 million."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q3 2025 call (Nov 4, 2025)",
+      "we expect fourth quarter non-GAAP gross margin to be approximately 54.5%, and we expect non-GAAP operating expenses to be approximately $2.8 billion."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q1 2025 call (May 6, 2025)",
+      "As a reminder, in April, a new export license requirement was put in place for MI308 shipments to China, the impact of which is included in our guidance."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q1 2025 call (May 6, 2025)",
+      "We expect revenue to be approximately $7.4 billion plus or minus $300 million. This includes an estimated $700 million revenue reduction as a result of the new export license requirement."
+    ],
+    [
+      "Jean Hu (CFO)",
+      "Q4 2024 call (Feb 4, 2025)",
+      "We expect revenue to be approximately $7.1 billion plus or minus $300 million, up 30% year-over-year, driven by strong growth in our Data Center and the Client business."
+    ]
+  ],
+  "bull": [
+    "Revenue growth re-accelerating. YoY growth went +35.9% → +31.7% → +35.6% → +34.1% → +37.85% across the last five quarters. Q1 2026 is the strongest YoY print in the dataset.",
+    "Operating margin expanding ex tax-distortion. Q1 2026 operating margin 14.40%; Q4 2025 was 17.06% (the all-time high in the dataset). Trend is up since Q1 2024 (just 0.66%).",
+    "Forward-guidance accuracy is exceptional. 8 of 8 closed quarters beat the guide midpoint; MCS = 0.9591 ≈ META's 0.9589.",
+    "Cash flow inflection. OCF Q1 26 $2.96B (vs $521M Q1 24, +467%); FCF $2.57B vs $379M Q1 24.",
+    "Light-asset model. Capex ~$300-400M/quarter — compares favorably to META's $19B/quarter (1/40th the capex burden); leverages TSMC for fab manufacturing."
+  ],
+  "bear": [
+    "Premium valuation. AMD trades at P/E FY1 62.18× vs semi peer median 37.94× (+64% premium). EV/EBITDA FY1 58.85× vs median 28.14× (+109%). Premium is justified by growth, but multiple compression is a real risk if growth misses.",
+    "Sell-side target ($444.04) is BELOW current price ($455.19). Market has run ahead of analyst models — historically a sign that consensus revisions are coming, but also that the upside-skew is gone.",
+    "Technical setup is parabolic. RSI 14 = 80 (deeply overbought), price +110% above SMA 200, ADX 74 (extreme trend strength). Mean-reversion risk is elevated.",
+    "China export controls remain binding. MI308 only ~$100M of Q1 26 revenue (vs $700M run-rate before April 2025 ban). Q2 25 took an $800M charge. Further export tightening would reduce TAM.",
+    "Q4 2025 earnings reaction was -18.71% — the largest drop in the dataset. The market has shown willingness to punish on guidance even when results beat."
+  ],
+  "trigger_up": [
+    "FY 2026 revenue growth ≥35% (management's commitment) and gross margin ≥54% (Q4 25 level held).",
+    "MI308 export licenses approved → unlock ~$600M of stranded China demand.",
+    "Sell-side target revisions catch up to spot ($442 → $500+).",
+    "Successful MI400 series ramp and design wins at hyperscalers (next gen accelerator)."
+  ],
+  "trigger_down": [
+    "Revenue growth deceleration to <30% YoY in any 2026 quarter.",
+    "Gross margin compression below 50% (was 54.30% in Q4 25 peak).",
+    "Daily close below SMA 200 (~$294) — major trend break.",
+    "RSI 14 falls below 50 with broken trendline (currently 83)."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (next-quarter guide vs actual)",
+      "baseline": "$5.4–6.0B → $5.84B (+2.4%)",
+      "latest": "$10.25B actual (Q1 26) vs $9.5–10.1B guide (+4.6%)",
+      "verdict": "8 of 8 beats since Q2 24",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Quarterly revenue (YoY)",
+      "baseline": "$5.47B (Q1 24, +2% YoY)",
+      "latest": "$10.25B (+37.85% YoY in Q1 26)",
+      "verdict": "Strongest in dataset",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin (single-quarter)",
+      "baseline": "0.66% (Q1 24)",
+      "latest": "14.40% (Q1 26); peak 17.06% (Q4 25)",
+      "verdict": "+13.7 pp expansion in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Diluted EPS (single-quarter)",
+      "baseline": "$0.07 (Q1 24)",
+      "latest": "$0.84 (Q1 26, +91% YoY vs Q1 25 $0.44)",
+      "verdict": "Compounding",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Free cash flow (single-quarter)",
+      "baseline": "$379M (Q1 24)",
+      "latest": "$2,566M (Q1 26, +577%)",
+      "verdict": "Inflecting — light-asset model",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility Score",
+      "baseline": "— (no prior dataset)",
+      "latest": "0.9591 (8 beats / 0 misses across 8 guides)",
+      "verdict": "Top-tier execution (≈ META 0.9589)",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation premium (FY1 P/E)",
+      "baseline": "Pre-rally: ~25× FY1 P/E (mid-2024)",
+      "latest": "62.18× FY1 P/E (5/8/26)",
+      "verdict": "+64% premium to peer median 37.94×",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Avg post-earnings 5-day reaction (last 2 calls)",
+      "baseline": "Mixed (early period)",
+      "latest": "−10.9% trailing two calls (Q3 25 −8.5%, Q4 25 −13.3%)",
+      "verdict": "Market punishing on guides",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "BULLISH for long-term capital with timing discipline. AMD is delivering everything bulls want: revenue growth at 35%+, operating margin expansion, world-class management credibility (MCS 0.96), and free cash flow inflecting. But the easy money has been made: stock at all-time highs, 67% above SMA 200, and trades at 62× FY1 P/E vs 38× peer median. Add on pullbacks toward $205-255 (SMA 50), not chase at $455.",
+  "disclaimer": "This analysis is based on public filings (SEC EDGAR XBRL company-facts), 8 AMD earnings transcripts, daily OHLCV stock prices, and FactSet peer multiples captured 5/8/26. Not investment advice. Past performance does not predict future results."
+}

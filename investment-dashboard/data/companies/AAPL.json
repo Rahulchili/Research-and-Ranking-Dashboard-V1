@@ -1,0 +1,1241 @@
+{
+  "ticker": "AAPL",
+  "n_claims": 8,
+  "mcs_simple": 0.875,
+  "mcs_strict": 0.75,
+  "mcs_information_adjusted": 0.6667,
+  "mcs_difficulty_weighted": 0.9122,
+  "subscores": {
+    "guide_accuracy_pct": 87.5,
+    "strict_beat_rate_pct": 75
+  },
+  "baseline_random": 0.5,
+  "baseline_always_up": 0.5,
+  "skill_over_baseline": 0.375,
+  "beats": 6,
+  "hits": 2,
+  "misses": 0,
+  "rows": [
+    {
+      "claim_id": "AAPL_01",
+      "quarter_made": "FY24-Q2",
+      "target_quarter": "FY24-Q3",
+      "metric": "Revenue growth YoY (Q+1)",
+      "guide_low_pct": 1,
+      "guide_high_pct": 3,
+      "guide_mid_pct": 2,
+      "actual_pct": 4.9,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_pct": 2.9,
+      "source_quote": "\"We expect our June quarter total company revenue to grow low single digits year-over-year...\" \u2014 Q2 FY24 call (May 2 2024)",
+      "transcript": "AAPL_ER_Q2_2024_2_MAY_2024.docx",
+      "note": "\"Low single digits\" interpreted as 1-3%. Actual +4.9% YoY was ABOVE high."
+    },
+    {
+      "claim_id": "AAPL_02",
+      "quarter_made": "FY25-Q4",
+      "target_quarter": "FY26-Q1",
+      "metric": "Revenue growth YoY (Q+1)",
+      "guide_low_pct": 10,
+      "guide_high_pct": 12,
+      "guide_mid_pct": 11,
+      "actual_pct": 15.7,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_pct": 4.7,
+      "source_quote": "\"We expect our December quarter total company revenue to grow by 10% to 12% year-over-year, which will be our best quarter ever.\" \u2014 Q4 FY25 call (Oct 30 2025)",
+      "transcript": "AAP_ER_Q4_2025_30_OCT_2025.docx",
+      "note": "Actual +15.7% YoY was significantly ABOVE high end of 10-12% guide range."
+    },
+    {
+      "claim_id": "AAPL_03",
+      "quarter_made": "FY26-Q1",
+      "target_quarter": "FY26-Q2",
+      "metric": "Revenue growth YoY (Q+1)",
+      "guide_low_pct": 13,
+      "guide_high_pct": 16,
+      "guide_mid_pct": 14.5,
+      "actual_pct": 16.6,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_pct": 2.1,
+      "source_quote": "\"We expect our March quarter total company revenue to grow by 13% to 16% year-over-year, which comprehends our best estimates of constrained iPhone supply during the quarter.\" \u2014 Q1 FY26 call (Jan 29 2026)",
+      "transcript": "AAPL_ER_Q1_2026_29_JAN_2026.docx",
+      "note": "Actual +16.6% YoY just ABOVE high end of 13-16% guide range. Strong execution despite iPhone supply constraints."
+    },
+    {
+      "claim_id": "AAPL_04",
+      "quarter_made": "FY24-Q3",
+      "target_quarter": "FY24-Q4",
+      "metric": "Gross margin (Q+1)",
+      "guide_low_pct": 45.5,
+      "guide_high_pct": 46.5,
+      "guide_mid_pct": 46,
+      "actual_pct": 46.22,
+      "verdict": "Hit",
+      "verdict_score": 0.5,
+      "delta_pct": 0.22,
+      "source_quote": "\"...we just provided guidance for the quarter, 45.5% to 46.5%.\" \u2014 Q3 FY24 call (Aug 1 2024)",
+      "transcript": "AAPL_ER_Q3_2024_1_AUG_2024.docx",
+      "note": "Actual 46.22% within 45.5-46.5% range \u2014 HIT (not BEAT)."
+    },
+    {
+      "claim_id": "AAPL_05",
+      "quarter_made": "FY25-Q2",
+      "target_quarter": "FY25-Q3",
+      "metric": "Gross margin (Q+1) \u2014 includes tariff impact",
+      "guide_low_pct": 45.5,
+      "guide_high_pct": 46.5,
+      "guide_mid_pct": 46,
+      "actual_pct": 46.49,
+      "verdict": "Hit",
+      "verdict_score": 0.5,
+      "delta_pct": 0.49,
+      "source_quote": "\"We expect gross margin to be between 45.5% and 46.5%, which includes the estimated impact of the $900 million of tariff-related costs that Tim referred to earlier.\" \u2014 Q2 FY25 call (May 1 2025)",
+      "transcript": "AAPL_ER_Q2_2025_1_MAY_2025.docx",
+      "note": "Actual 46.49% within 45.5-46.5% range \u2014 HIT (right at boundary)."
+    },
+    {
+      "claim_id": "AAPL_06",
+      "quarter_made": "FY25-Q3",
+      "target_quarter": "FY25-Q4",
+      "metric": "Gross margin (Q+1) \u2014 includes tariff impact",
+      "guide_low_pct": 46,
+      "guide_high_pct": 47,
+      "guide_mid_pct": 46.5,
+      "actual_pct": 47.18,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_pct": 0.68,
+      "source_quote": "\"We expect gross margin to be between 46% and 47%, which includes the estimated impact of the $1.1 billion tariff-related costs...\" \u2014 Q3 FY25 call (Jul 31 2025)",
+      "transcript": "AAPL_ER_Q3_2025_31_JUL_2025.docx",
+      "note": "Actual 47.18% ABOVE high end 47.0% \u2014 BEAT despite $1.1B tariff impact."
+    },
+    {
+      "claim_id": "AAPL_07",
+      "quarter_made": "FY25-Q4",
+      "target_quarter": "FY26-Q1",
+      "metric": "Gross margin (Q+1) \u2014 includes tariff impact",
+      "guide_low_pct": 47,
+      "guide_high_pct": 48,
+      "guide_mid_pct": 47.5,
+      "actual_pct": 48.16,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_pct": 0.66,
+      "source_quote": "\"We expect gross margin to be between 47% and 48%, which includes an estimated impact of $1.4 billion of tariff-related costs.\" \u2014 Q4 FY25 call (Oct 30 2025)",
+      "transcript": "AAP_ER_Q4_2025_30_OCT_2025.docx",
+      "note": "Actual 48.16% ABOVE high end 48.0% \u2014 BEAT despite $1.4B tariff drag."
+    },
+    {
+      "claim_id": "AAPL_08",
+      "quarter_made": "FY26-Q1",
+      "target_quarter": "FY26-Q2",
+      "metric": "Gross margin (Q+1)",
+      "guide_low_pct": 48,
+      "guide_high_pct": 49,
+      "guide_mid_pct": 48.5,
+      "actual_pct": 49.27,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_pct": 0.77,
+      "source_quote": "\"the outlook of 48% to 49% that Kevan gave earlier\" \u2014 Q1 FY26 call (Jan 29 2026)",
+      "transcript": "AAPL_ER_Q1_2026_29_JAN_2026.docx",
+      "note": "Actual 49.27% ABOVE high end 49.0% \u2014 BEAT."
+    }
+  ],
+  "scoring_methodology": "Strict: BEAT (above HIGH end, score 1.0) \u00b7 HIT (within range, score 0.5) \u00b7 MISS (below LOW end, score 0). 8 independent claims across revenue growth + gross margin guidance ranges. Weighted MCS displayed.",
+  "fundamentals": {
+    "summary": {
+      "latest_quarter": "FY2026 Q2",
+      "latest_revenue_b": 111.18,
+      "latest_net_income_b": 29.58,
+      "latest_eps": 2.01,
+      "latest_gross_margin_pct": 49.27,
+      "latest_operating_margin_pct": 32.28,
+      "latest_net_margin_pct": 26.6,
+      "latest_fcf_margin_pct": 24.04,
+      "latest_ocf_b": 28.7,
+      "latest_capex_b": 1.971,
+      "latest_fcf_b": 26.73,
+      "latest_equity_b": 106.49,
+      "latest_current_ratio": 1.07,
+      "latest_roe_q_annualized_pct": 111.1,
+      "latest_dso_days": null,
+      "yoy_revenue_growth_pct": 16.6,
+      "n_quarter_cagr_pct": -3.18,
+      "n_quarters_in_series": 10,
+      "ttm_revenue_b": 451.44,
+      "ttm_revenue_yoy_pct": 12.76
+    },
+    "quarters": [
+      {
+        "fy": 2024,
+        "fq": 1,
+        "rev_q_M": 119575,
+        "oi_q_M": 40373,
+        "ni_q_M": 33916,
+        "ocf_q_M": 39895,
+        "capex_q_M": 2392,
+        "fcf_q_M": 37503,
+        "eps": 2.18,
+        "gross_margin_pct": 45.87,
+        "operating_margin_pct": 33.76,
+        "net_margin_pct": 28.36,
+        "fcf_margin_pct": 31.36,
+        "equity_M": 74100,
+        "current_ratio": 1.07,
+        "roe_q_annualized_pct": 183.08,
+        "long_debt_to_equity": 1.283,
+        "gross_profit_q_M": 54855,
+        "long_term_debt_M": 95088,
+        "rd_q_M": 7696,
+        "buyback_q_M": 20139,
+        "shares_diluted_M": 15460.2,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2024,
+        "fq": 2,
+        "rev_q_M": 90753,
+        "oi_q_M": 27900,
+        "ni_q_M": 23636,
+        "ocf_q_M": 22690,
+        "capex_q_M": 1996,
+        "fcf_q_M": 20694,
+        "eps": 1.53,
+        "gross_margin_pct": 46.58,
+        "operating_margin_pct": 30.74,
+        "net_margin_pct": 26.04,
+        "fcf_margin_pct": 22.8,
+        "equity_M": 74194,
+        "current_ratio": 1.04,
+        "roe_q_annualized_pct": 127.43,
+        "long_debt_to_equity": 1.238,
+        "gross_profit_q_M": 42271,
+        "long_term_debt_M": 91831,
+        "rd_q_M": 7903,
+        "buyback_q_M": 23205,
+        "shares_diluted_M": 15337.7,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2024,
+        "fq": 3,
+        "rev_q_M": 85777,
+        "oi_q_M": 25352,
+        "ni_q_M": 21448,
+        "ocf_q_M": 28858,
+        "capex_q_M": 2151,
+        "fcf_q_M": 26707,
+        "eps": 1.4,
+        "gross_margin_pct": 46.26,
+        "operating_margin_pct": 29.56,
+        "net_margin_pct": 25,
+        "fcf_margin_pct": 31.14,
+        "equity_M": 66708,
+        "current_ratio": 0.95,
+        "roe_q_annualized_pct": 128.61,
+        "long_debt_to_equity": 1.292,
+        "gross_profit_q_M": 39678,
+        "long_term_debt_M": 86196,
+        "rd_q_M": 8006,
+        "buyback_q_M": 26522,
+        "shares_diluted_M": 15222.3,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2024,
+        "fq": 4,
+        "rev_q_M": 94930,
+        "oi_q_M": 29591,
+        "ni_q_M": 14736,
+        "ocf_q_M": 26811,
+        "capex_q_M": 2908,
+        "fcf_q_M": 23903,
+        "eps": 0.97,
+        "gross_margin_pct": 46.22,
+        "operating_margin_pct": 31.17,
+        "net_margin_pct": 15.52,
+        "fcf_margin_pct": 25.18,
+        "equity_M": 56950,
+        "current_ratio": 0.87,
+        "roe_q_annualized_pct": 103.5,
+        "long_debt_to_equity": 1.506,
+        "gross_profit_q_M": 43879,
+        "long_term_debt_M": 85750,
+        "rd_q_M": 7765,
+        "buyback_q_M": 25083,
+        "shares_diluted_M": 15116.8,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 1,
+        "rev_q_M": 124300,
+        "oi_q_M": 42832,
+        "ni_q_M": 36330,
+        "ocf_q_M": 29935,
+        "capex_q_M": 2940,
+        "fcf_q_M": 26995,
+        "eps": 2.4,
+        "gross_margin_pct": 46.88,
+        "operating_margin_pct": 34.46,
+        "net_margin_pct": 29.23,
+        "fcf_margin_pct": 21.72,
+        "equity_M": 66758,
+        "current_ratio": 0.92,
+        "roe_q_annualized_pct": 217.68,
+        "long_debt_to_equity": 1.258,
+        "gross_profit_q_M": 58275,
+        "long_term_debt_M": 83956,
+        "rd_q_M": 8268,
+        "buyback_q_M": 23606,
+        "shares_diluted_M": 15040.7,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 2,
+        "rev_q_M": 95359,
+        "oi_q_M": 29589,
+        "ni_q_M": 24780,
+        "ocf_q_M": 23952,
+        "capex_q_M": 3071,
+        "fcf_q_M": 20881,
+        "eps": 1.65,
+        "gross_margin_pct": 47.05,
+        "operating_margin_pct": 31.03,
+        "net_margin_pct": 25.99,
+        "fcf_margin_pct": 21.9,
+        "equity_M": 66796,
+        "current_ratio": 0.82,
+        "roe_q_annualized_pct": 148.39,
+        "long_debt_to_equity": 1.176,
+        "gross_profit_q_M": 44867,
+        "long_term_debt_M": 78566,
+        "rd_q_M": 8550,
+        "buyback_q_M": 25898,
+        "shares_diluted_M": 14939.3,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 3,
+        "rev_q_M": 94036,
+        "oi_q_M": 28202,
+        "ni_q_M": 23434,
+        "ocf_q_M": 27867,
+        "capex_q_M": 3462,
+        "fcf_q_M": 24405,
+        "eps": 1.57,
+        "gross_margin_pct": 46.49,
+        "operating_margin_pct": 29.99,
+        "net_margin_pct": 24.92,
+        "fcf_margin_pct": 25.95,
+        "equity_M": 65830,
+        "current_ratio": 0.87,
+        "roe_q_annualized_pct": 142.39,
+        "long_debt_to_equity": 1.252,
+        "gross_profit_q_M": 43718,
+        "long_term_debt_M": 82430,
+        "rd_q_M": 8866,
+        "buyback_q_M": 21075,
+        "shares_diluted_M": 14856.7,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 4,
+        "rev_q_M": 102466,
+        "oi_q_M": 32427,
+        "ni_q_M": 27466,
+        "ocf_q_M": 29728,
+        "capex_q_M": 3242,
+        "fcf_q_M": 26486,
+        "eps": 1.84,
+        "gross_margin_pct": 47.18,
+        "operating_margin_pct": 31.65,
+        "net_margin_pct": 26.8,
+        "fcf_margin_pct": 25.85,
+        "equity_M": 73733,
+        "current_ratio": 0.89,
+        "roe_q_annualized_pct": 149,
+        "long_debt_to_equity": 1.062,
+        "gross_profit_q_M": 48341,
+        "long_term_debt_M": 78328,
+        "rd_q_M": 8866,
+        "buyback_q_M": 20132,
+        "shares_diluted_M": 14773.3,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2026,
+        "fq": 1,
+        "rev_q_M": 143756,
+        "oi_q_M": 50852,
+        "ni_q_M": 42097,
+        "ocf_q_M": 53925,
+        "capex_q_M": 2373,
+        "fcf_q_M": 51552,
+        "eps": 2.84,
+        "gross_margin_pct": 48.16,
+        "operating_margin_pct": 35.37,
+        "net_margin_pct": 29.28,
+        "fcf_margin_pct": 35.86,
+        "equity_M": 88190,
+        "current_ratio": 0.97,
+        "roe_q_annualized_pct": 190.94,
+        "long_debt_to_equity": 0.87,
+        "gross_profit_q_M": 69231,
+        "long_term_debt_M": 76685,
+        "rd_q_M": 10887,
+        "buyback_q_M": 24701,
+        "shares_diluted_M": 14702.7,
+        "dso_days": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2026,
+        "fq": 2,
+        "rev_q_M": 111184,
+        "oi_q_M": 35885,
+        "ni_q_M": 29578,
+        "ocf_q_M": 28702,
+        "capex_q_M": 1971,
+        "fcf_q_M": 26731,
+        "eps": 2.01,
+        "gross_margin_pct": 49.27,
+        "operating_margin_pct": 32.28,
+        "net_margin_pct": 26.6,
+        "fcf_margin_pct": 24.04,
+        "equity_M": 106491,
+        "current_ratio": 1.07,
+        "roe_q_annualized_pct": 111.1,
+        "long_debt_to_equity": 0.699,
+        "gross_profit_q_M": 54781,
+        "long_term_debt_M": 74404,
+        "rd_q_M": 11419,
+        "buyback_q_M": 12288,
+        "shares_diluted_M": 14667.7,
+        "dso_days": null,
+        "inventory_M": null
+      }
+    ],
+    "risk_factors": {
+      "Consumer demand & iPhone cycle": [
+        "iPhone is ~50% of revenue; demand cycle ties to upgrade cycle and AI-enabled hardware release timing",
+        "iPhone 17 (Sep 2026) and Apple Intelligence rollout pace are critical drivers",
+        "Macroeconomic sensitivity in mature US/EU markets; emerging market expansion in India/Vietnam offsets"
+      ],
+      "Tariffs & supply chain": [
+        "$1.1-1.4B/quarter tariff-related cost headwinds disclosed in FY25/FY26 Q1",
+        "iPhone production diversification away from China to India/Vietnam ongoing",
+        "iPhone supply constraints flagged in Q1 FY26 \u2014 meaningful Q2 FY26 unit-volume drag"
+      ],
+      "Services growth & regulation": [
+        "Services revenue ~$26-27B/quarter; growing 13-14% YoY \u2014 most profitable segment",
+        "App Store antitrust pressure: DMA EU, US DOJ remedies still ongoing",
+        "Google search payment ~$20B/year at risk if antitrust ruling eliminates revenue"
+      ],
+      "Capital return & balance sheet": [
+        "Active buyback ~$25B/quarter; share count declining 1-2% YoY",
+        "Stockholders equity $106B (low for size); aggressive return of capital",
+        "$110B+ long-term debt manageable given $50B+ FCF"
+      ],
+      "AI competition": [
+        "Apple Intelligence delayed vs Microsoft Copilot, Google Gemini, OpenAI consumer products",
+        "Need to capitalize on installed base to monetize AI-driven services",
+        "Strategic partnership / acquisition for AI capability flagged in transcripts"
+      ]
+    },
+    "risk_source": "AAPL 10-K (FY2025) Item 1A Risk Factors + Q2 FY26 10-Q",
+    "market_cap_note": "$4,349.6B mkt cap (May 8, 2026)",
+    "audit_note": "All quarterly figures from SEC EDGAR XBRL companyfacts (CIK 0000320193). AAPL fiscal year ends late September: FY24 ended Sep 28 2024; FY25 ended Sep 27 2025. FY24 Q1 = quarter ended late Dec 2023, etc."
+  },
+  "q2q_analysis": {
+    "metadata": {
+      "ticker": "AAPL",
+      "generated": "2026-05-12",
+      "method": "Next-quarter revenue growth and gross margin guidance tracked using STRICT scoring (BEAT = above HIGH end; HIT = within range; MISS = below LOW end). 8 independent forward claims."
+    },
+    "q_to_q_pairs": [
+      {
+        "made_in": "FY24-Q2",
+        "targets": "FY24-Q3",
+        "target_q_key": "FY24-Q3",
+        "transcript_source": "AAPL/Transcripts/AAPL_ER_Q2_2024_2_MAY_2024.docx",
+        "call_date": "2024-05-02",
+        "narrative": "\"Low single digits\" interpreted as 1-3%. Actual +4.9% YoY was ABOVE high.",
+        "line_items": [
+          {
+            "metric": "Revenue growth YoY (Q+1)",
+            "metric_kind": "revenue_growth",
+            "guide_low_pct": 1,
+            "guide_high_pct": 3,
+            "guide_mid_pct": 2,
+            "actual_pct": 4.9,
+            "delta_vs_mid_pp": 2.9,
+            "verdict": "Beat (above HIGH)",
+            "verdict_score": 1,
+            "guide_quote": "\"We expect our June quarter total company revenue to grow low single digits year-over-year...\" \u2014 Q2 FY24 call (May 2 2024)",
+            "guide_source_file": "AAPL/Transcripts/AAPL_ER_Q2_2024_2_MAY_2024.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 2,
+          "actual": 4.9,
+          "delta_pp": 2.9,
+          "stock_reaction_1d_pct": 5.98,
+          "stock_reaction_5d_pct": 6.67,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2024-04-25",
+              "close": 169.89
+            },
+            {
+              "date": "2024-04-26",
+              "close": 169.3
+            },
+            {
+              "date": "2024-04-29",
+              "close": 173.5
+            },
+            {
+              "date": "2024-04-30",
+              "close": 170.33
+            },
+            {
+              "date": "2024-05-01",
+              "close": 169.3
+            },
+            {
+              "date": "2024-05-02",
+              "close": 173.03
+            },
+            {
+              "date": "2024-05-03",
+              "close": 183.38
+            },
+            {
+              "date": "2024-05-06",
+              "close": 181.71
+            },
+            {
+              "date": "2024-05-07",
+              "close": 182.4
+            },
+            {
+              "date": "2024-05-08",
+              "close": 182.74
+            },
+            {
+              "date": "2024-05-09",
+              "close": 184.57
+            }
+          ],
+          "close_tminus1": 169.3,
+          "close_t": 173.03,
+          "close_tplus1": 183.38
+        }
+      },
+      {
+        "made_in": "FY25-Q4",
+        "targets": "FY26-Q1",
+        "target_q_key": "FY26-Q1",
+        "transcript_source": "AAPL/Transcripts/AAP_ER_Q4_2025_30_OCT_2025.docx",
+        "call_date": "2025-10-30",
+        "narrative": "Actual +15.7% YoY was significantly ABOVE high end of 10-12% guide range.",
+        "line_items": [
+          {
+            "metric": "Revenue growth YoY (Q+1)",
+            "metric_kind": "revenue_growth",
+            "guide_low_pct": 10,
+            "guide_high_pct": 12,
+            "guide_mid_pct": 11,
+            "actual_pct": 15.7,
+            "delta_vs_mid_pp": 4.7,
+            "verdict": "Beat (above HIGH)",
+            "verdict_score": 1,
+            "guide_quote": "\"We expect our December quarter total company revenue to grow by 10% to 12% year-over-year, which will be our best quarter ever.\" \u2014 Q4 FY25 call (Oct 30 2025)",
+            "guide_source_file": "AAPL/Transcripts/AAP_ER_Q4_2025_30_OCT_2025.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 11,
+          "actual": 15.7,
+          "delta_pp": 4.7,
+          "stock_reaction_1d_pct": -0.38,
+          "stock_reaction_5d_pct": -0.6,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-10-23",
+              "close": 259.58
+            },
+            {
+              "date": "2025-10-24",
+              "close": 262.82
+            },
+            {
+              "date": "2025-10-27",
+              "close": 268.81
+            },
+            {
+              "date": "2025-10-28",
+              "close": 269
+            },
+            {
+              "date": "2025-10-29",
+              "close": 269.7
+            },
+            {
+              "date": "2025-10-30",
+              "close": 271.4
+            },
+            {
+              "date": "2025-10-31",
+              "close": 270.37
+            },
+            {
+              "date": "2025-11-03",
+              "close": 269.05
+            },
+            {
+              "date": "2025-11-04",
+              "close": 270.04
+            },
+            {
+              "date": "2025-11-05",
+              "close": 270.14
+            },
+            {
+              "date": "2025-11-06",
+              "close": 269.77
+            }
+          ],
+          "close_tminus1": 269.7,
+          "close_t": 271.4,
+          "close_tplus1": 270.37
+        }
+      },
+      {
+        "made_in": "FY26-Q1",
+        "targets": "FY26-Q2",
+        "target_q_key": "FY26-Q2",
+        "transcript_source": "AAPL/Transcripts/AAPL_ER_Q1_2026_29_JAN_2026.docx",
+        "call_date": "2026-01-29",
+        "narrative": "Actual +16.6% YoY just ABOVE high end of 13-16% guide range. Strong execution despite iPhone supply constraints.",
+        "line_items": [
+          {
+            "metric": "Revenue growth YoY (Q+1)",
+            "metric_kind": "revenue_growth",
+            "guide_low_pct": 13,
+            "guide_high_pct": 16,
+            "guide_mid_pct": 14.5,
+            "actual_pct": 16.6,
+            "delta_vs_mid_pp": 2.1,
+            "verdict": "Beat (above HIGH)",
+            "verdict_score": 1,
+            "guide_quote": "\"We expect our March quarter total company revenue to grow by 13% to 16% year-over-year, which comprehends our best estimates of constrained iPhone supply during the quarter.\" \u2014 Q1 FY26 call (Jan 29 2026)",
+            "guide_source_file": "AAPL/Transcripts/AAPL_ER_Q1_2026_29_JAN_2026.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 14.5,
+          "actual": 16.6,
+          "delta_pp": 2.1,
+          "stock_reaction_1d_pct": 0.46,
+          "stock_reaction_5d_pct": 6.83,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2026-01-22",
+              "close": 248.35
+            },
+            {
+              "date": "2026-01-23",
+              "close": 248.04
+            },
+            {
+              "date": "2026-01-26",
+              "close": 255.41
+            },
+            {
+              "date": "2026-01-27",
+              "close": 258.27
+            },
+            {
+              "date": "2026-01-28",
+              "close": 256.44
+            },
+            {
+              "date": "2026-01-29",
+              "close": 258.28
+            },
+            {
+              "date": "2026-01-30",
+              "close": 259.48
+            },
+            {
+              "date": "2026-02-02",
+              "close": 270.01
+            },
+            {
+              "date": "2026-02-03",
+              "close": 269.48
+            },
+            {
+              "date": "2026-02-04",
+              "close": 276.49
+            },
+            {
+              "date": "2026-02-05",
+              "close": 275.91
+            }
+          ],
+          "close_tminus1": 256.44,
+          "close_t": 258.28,
+          "close_tplus1": 259.48
+        }
+      },
+      {
+        "made_in": "FY24-Q3",
+        "targets": "FY24-Q4",
+        "target_q_key": "FY24-Q4",
+        "transcript_source": "AAPL/Transcripts/AAPL_ER_Q3_2024_1_AUG_2024.docx",
+        "call_date": "2024-08-01",
+        "narrative": "Actual 46.22% within 45.5-46.5% range \u2014 HIT (not BEAT).",
+        "line_items": [
+          {
+            "metric": "Gross margin (Q+1)",
+            "metric_kind": "gross_margin",
+            "guide_low_pct": 45.5,
+            "guide_high_pct": 46.5,
+            "guide_mid_pct": 46,
+            "actual_pct": 46.22,
+            "delta_vs_mid_pp": 0.22,
+            "verdict": "Hit (within range)",
+            "verdict_score": 0.5,
+            "guide_quote": "\"...we just provided guidance for the quarter, 45.5% to 46.5%.\" \u2014 Q3 FY24 call (Aug 1 2024)",
+            "guide_source_file": "AAPL/Transcripts/AAPL_ER_Q3_2024_1_AUG_2024.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 46,
+          "actual": 46.22,
+          "delta_pp": 0.22,
+          "stock_reaction_1d_pct": 0.69,
+          "stock_reaction_5d_pct": -2.31,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2024-07-25",
+              "close": 217.49
+            },
+            {
+              "date": "2024-07-26",
+              "close": 217.96
+            },
+            {
+              "date": "2024-07-29",
+              "close": 218.24
+            },
+            {
+              "date": "2024-07-30",
+              "close": 218.8
+            },
+            {
+              "date": "2024-07-31",
+              "close": 222.08
+            },
+            {
+              "date": "2024-08-01",
+              "close": 218.36
+            },
+            {
+              "date": "2024-08-02",
+              "close": 219.86
+            },
+            {
+              "date": "2024-08-05",
+              "close": 209.27
+            },
+            {
+              "date": "2024-08-06",
+              "close": 207.23
+            },
+            {
+              "date": "2024-08-07",
+              "close": 209.82
+            },
+            {
+              "date": "2024-08-08",
+              "close": 213.31
+            }
+          ],
+          "close_tminus1": 222.08,
+          "close_t": 218.36,
+          "close_tplus1": 219.86
+        }
+      },
+      {
+        "made_in": "FY25-Q2",
+        "targets": "FY25-Q3",
+        "target_q_key": "FY25-Q3",
+        "transcript_source": "AAPL/Transcripts/AAPL_ER_Q2_2025_1_MAY_2025.docx",
+        "call_date": "2025-05-01",
+        "narrative": "Actual 46.49% within 45.5-46.5% range \u2014 HIT (right at boundary).",
+        "line_items": [
+          {
+            "metric": "Gross margin (Q+1) \u2014 includes tariff impact",
+            "metric_kind": "gross_margin",
+            "guide_low_pct": 45.5,
+            "guide_high_pct": 46.5,
+            "guide_mid_pct": 46,
+            "actual_pct": 46.49,
+            "delta_vs_mid_pp": 0.49,
+            "verdict": "Hit (within range)",
+            "verdict_score": 0.5,
+            "guide_quote": "\"We expect gross margin to be between 45.5% and 46.5%, which includes the estimated impact of the $900 million of tariff-related costs that Tim referred to earlier.\" \u2014 Q2 FY25 call (May 1 2025)",
+            "guide_source_file": "AAPL/Transcripts/AAPL_ER_Q2_2025_1_MAY_2025.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 46,
+          "actual": 46.49,
+          "delta_pp": 0.49,
+          "stock_reaction_1d_pct": -3.74,
+          "stock_reaction_5d_pct": -7.42,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-04-24",
+              "close": 208.37
+            },
+            {
+              "date": "2025-04-25",
+              "close": 209.28
+            },
+            {
+              "date": "2025-04-28",
+              "close": 210.14
+            },
+            {
+              "date": "2025-04-29",
+              "close": 211.21
+            },
+            {
+              "date": "2025-04-30",
+              "close": 212.5
+            },
+            {
+              "date": "2025-05-01",
+              "close": 213.32
+            },
+            {
+              "date": "2025-05-02",
+              "close": 205.35
+            },
+            {
+              "date": "2025-05-05",
+              "close": 198.89
+            },
+            {
+              "date": "2025-05-06",
+              "close": 198.51
+            },
+            {
+              "date": "2025-05-07",
+              "close": 196.25
+            },
+            {
+              "date": "2025-05-08",
+              "close": 197.49
+            }
+          ],
+          "close_tminus1": 212.5,
+          "close_t": 213.32,
+          "close_tplus1": 205.35
+        }
+      },
+      {
+        "made_in": "FY25-Q3",
+        "targets": "FY25-Q4",
+        "target_q_key": "FY25-Q4",
+        "transcript_source": "AAPL/Transcripts/AAPL_ER_Q3_2025_31_JUL_2025.docx",
+        "call_date": "2025-07-31",
+        "narrative": "Actual 47.18% ABOVE high end 47.0% \u2014 BEAT despite $1.1B tariff impact.",
+        "line_items": [
+          {
+            "metric": "Gross margin (Q+1) \u2014 includes tariff impact",
+            "metric_kind": "gross_margin",
+            "guide_low_pct": 46,
+            "guide_high_pct": 47,
+            "guide_mid_pct": 46.5,
+            "actual_pct": 47.18,
+            "delta_vs_mid_pp": 0.68,
+            "verdict": "Beat (above HIGH)",
+            "verdict_score": 1,
+            "guide_quote": "\"We expect gross margin to be between 46% and 47%, which includes the estimated impact of the $1.1 billion tariff-related costs...\" \u2014 Q3 FY25 call (Jul 31 2025)",
+            "guide_source_file": "AAPL/Transcripts/AAPL_ER_Q3_2025_31_JUL_2025.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 46.5,
+          "actual": 47.18,
+          "delta_pp": 0.68,
+          "stock_reaction_1d_pct": -2.5,
+          "stock_reaction_5d_pct": 6,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-07-24",
+              "close": 213.76
+            },
+            {
+              "date": "2025-07-25",
+              "close": 213.88
+            },
+            {
+              "date": "2025-07-28",
+              "close": 214.05
+            },
+            {
+              "date": "2025-07-29",
+              "close": 211.27
+            },
+            {
+              "date": "2025-07-30",
+              "close": 209.05
+            },
+            {
+              "date": "2025-07-31",
+              "close": 207.57
+            },
+            {
+              "date": "2025-08-01",
+              "close": 202.38
+            },
+            {
+              "date": "2025-08-04",
+              "close": 203.35
+            },
+            {
+              "date": "2025-08-05",
+              "close": 202.92
+            },
+            {
+              "date": "2025-08-06",
+              "close": 213.25
+            },
+            {
+              "date": "2025-08-07",
+              "close": 220.03
+            }
+          ],
+          "close_tminus1": 209.05,
+          "close_t": 207.57,
+          "close_tplus1": 202.38
+        }
+      },
+      {
+        "made_in": "FY25-Q4",
+        "targets": "FY26-Q1",
+        "target_q_key": "FY26-Q1",
+        "transcript_source": "AAPL/Transcripts/AAP_ER_Q4_2025_30_OCT_2025.docx",
+        "call_date": "2025-10-30",
+        "narrative": "Actual 48.16% ABOVE high end 48.0% \u2014 BEAT despite $1.4B tariff drag.",
+        "line_items": [
+          {
+            "metric": "Gross margin (Q+1) \u2014 includes tariff impact",
+            "metric_kind": "gross_margin",
+            "guide_low_pct": 47,
+            "guide_high_pct": 48,
+            "guide_mid_pct": 47.5,
+            "actual_pct": 48.16,
+            "delta_vs_mid_pp": 0.66,
+            "verdict": "Beat (above HIGH)",
+            "verdict_score": 1,
+            "guide_quote": "\"We expect gross margin to be between 47% and 48%, which includes an estimated impact of $1.4 billion of tariff-related costs.\" \u2014 Q4 FY25 call (Oct 30 2025)",
+            "guide_source_file": "AAPL/Transcripts/AAP_ER_Q4_2025_30_OCT_2025.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 47.5,
+          "actual": 48.16,
+          "delta_pp": 0.66,
+          "stock_reaction_1d_pct": -0.38,
+          "stock_reaction_5d_pct": -0.6,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-10-23",
+              "close": 259.58
+            },
+            {
+              "date": "2025-10-24",
+              "close": 262.82
+            },
+            {
+              "date": "2025-10-27",
+              "close": 268.81
+            },
+            {
+              "date": "2025-10-28",
+              "close": 269
+            },
+            {
+              "date": "2025-10-29",
+              "close": 269.7
+            },
+            {
+              "date": "2025-10-30",
+              "close": 271.4
+            },
+            {
+              "date": "2025-10-31",
+              "close": 270.37
+            },
+            {
+              "date": "2025-11-03",
+              "close": 269.05
+            },
+            {
+              "date": "2025-11-04",
+              "close": 270.04
+            },
+            {
+              "date": "2025-11-05",
+              "close": 270.14
+            },
+            {
+              "date": "2025-11-06",
+              "close": 269.77
+            }
+          ],
+          "close_tminus1": 269.7,
+          "close_t": 271.4,
+          "close_tplus1": 270.37
+        }
+      },
+      {
+        "made_in": "FY26-Q1",
+        "targets": "FY26-Q2",
+        "target_q_key": "FY26-Q2",
+        "transcript_source": "AAPL/Transcripts/AAPL_ER_Q1_2026_29_JAN_2026.docx",
+        "call_date": "2026-01-29",
+        "narrative": "Actual 49.27% ABOVE high end 49.0% \u2014 BEAT.",
+        "line_items": [
+          {
+            "metric": "Gross margin (Q+1)",
+            "metric_kind": "gross_margin",
+            "guide_low_pct": 48,
+            "guide_high_pct": 49,
+            "guide_mid_pct": 48.5,
+            "actual_pct": 49.27,
+            "delta_vs_mid_pp": 0.77,
+            "verdict": "Beat (above HIGH)",
+            "verdict_score": 1,
+            "guide_quote": "\"the outlook of 48% to 49% that Kevan gave earlier\" \u2014 Q1 FY26 call (Jan 29 2026)",
+            "guide_source_file": "AAPL/Transcripts/AAPL_ER_Q1_2026_29_JAN_2026.docx",
+            "actual_source_filing": "AAPL/Earnings/AAPL_10-Q or 10-K filings",
+            "horizon": "Next fiscal quarter \u2014 Tim Cook CEO / Luca Maestri or Kevan Parekh CFO call"
+          }
+        ],
+        "summary_metrics": {
+          "guide_mid": 48.5,
+          "actual": 49.27,
+          "delta_pp": 0.77,
+          "stock_reaction_1d_pct": 0.46,
+          "stock_reaction_5d_pct": 6.83,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2026-01-22",
+              "close": 248.35
+            },
+            {
+              "date": "2026-01-23",
+              "close": 248.04
+            },
+            {
+              "date": "2026-01-26",
+              "close": 255.41
+            },
+            {
+              "date": "2026-01-27",
+              "close": 258.27
+            },
+            {
+              "date": "2026-01-28",
+              "close": 256.44
+            },
+            {
+              "date": "2026-01-29",
+              "close": 258.28
+            },
+            {
+              "date": "2026-01-30",
+              "close": 259.48
+            },
+            {
+              "date": "2026-02-02",
+              "close": 270.01
+            },
+            {
+              "date": "2026-02-03",
+              "close": 269.48
+            },
+            {
+              "date": "2026-02-04",
+              "close": 276.49
+            },
+            {
+              "date": "2026-02-05",
+              "close": 275.91
+            }
+          ],
+          "close_tminus1": 256.44,
+          "close_t": 258.28,
+          "close_tplus1": 259.48
+        }
+      }
+    ],
+    "summary": {
+      "n_claims": 8,
+      "beats": 6,
+      "hits": 2,
+      "misses": 0,
+      "mcs_weighted": 0.875,
+      "mcs_strict": 0.75
+    }
+  },
+  "name": "Apple Inc.",
+  "sector": "Information Technology",
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue +16.6% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 26.6% (strong for Information Technology; sector strong-bar 18%)",
+      "Operating margin 32.3%",
+      "Latest-quarter FCF $26.7B (top-tier)",
+      "TTM revenue $451B",
+      "\u2192 F = 82.2 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.88 (6B / 2H / 0M on 8 tracked forward claims)",
+      "Track record: high credibility",
+      "\u2192 M = 87.5"
+    ],
+    "valuation": [
+      "PE 33.6\u00d7 (peer-set not available, absolute scoring)",
+      "FCF yield 2.6%",
+      "\u2192 V = 45"
+    ],
+    "technicals": [
+      "Spot $293.32 vs SMA200 $257.02 (+14.1%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 68.9 (neutral zone)",
+      "90-day return: +5.5%",
+      "1-year return: +49.5%",
+      "Drawdown from 52w high: -0.5%",
+      "\u2192 T = 72.0"
+    ],
+    "options": [
+      "Front-month ATM IV 31.8% (normal)",
+      "P/C OI 0.73 (balanced)",
+      "ATM skew -11.97pp (call skew)",
+      "\u2192 O = 68.4 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Run-rate $111.18B</strong> in FY2026 Q2, +16.6% YoY \u2014 accelerating trajectory entering the next print.",
+          "<strong>Margin context: 26.6% net margin</strong> (32.3% op margin) \u2014 expansion likely.",
+          "<strong>Next earnings: 2026-07-30</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is constructive \u2014 consensus is achievable based on current run-rate."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>TTM revenue $451B</strong> (+12.8% TTM YoY) \u2014 steady growth.",
+          "<strong>10-quarter run-rate CAGR: -3.2%</strong> \u2014 the secular trajectory the market is pricing.",
+          "<strong>FCF generation $26.7B/qtr</strong> funds long-term capital return optionality (buybacks/dividends/M&A).",
+          "<strong>Sector thesis (Information Technology):</strong> Multi-year AI/cloud capex cycle remains the dominant secular theme."
+        ],
+        "takeaway": "Long-cycle thesis is intact if growth durability + margin expansion both hold."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $293.32 vs SMA50 $262.80</strong> (+11.6%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 68.9</strong> \u2014 constructive momentum.",
+          "<strong>MACD: 7.30 vs signal 5.31</strong> \u2014 bullish crossover.",
+          "<strong>30-day return: +12.6%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 104%</strong> of band width (band width 13.7% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$302.12, support ~$284.52. 99% of 52w range (low $193.46 \u2192 high $294.76)."
+        ],
+        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $293.32 vs SMA200 $257.02</strong> (+14.1%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Golden cross active (SMA50 > SMA200) \u2014 institutional trend filter bullish.",
+          "<strong>1-year return: +49.5%</strong> \u2014 strong long-cycle leader.",
+          "<strong>Drawdown from 52w high: -0.5%</strong> \u2014 near highs (breakout setup)",
+          "<strong>Cycle S/R:</strong> long-term resistance $294.76 (52w high), structural support $193.46 (52w low).",
+          "<strong>90-day return: +5.5%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 31.8%</strong> \u2014 normal.",
+          "<strong>Put/Call OI: 0.73</strong> \u2014 balanced flow.",
+          "<strong>30-day implied move: \u00b16.1%</strong> ($275.34 \u2013 $311.30) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -11.97pp</strong> \u2014 call skew (upside bid \u2014 bullish positioning).",
+          "<strong>Front-month OI cluster: $305.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Bull call spread 30 DTE: long $293 / short $308</strong>. Mid IV (32%) + uptrend \u2192 defined-risk directional with reasonable cost basis."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 27.4%</strong> across 14 expiries.",
+          "<strong>Available long-dated expiries:</strong> 14 dates spanning 101\u2013948 DTE.",
+          "<strong>90-day implied move: \u00b113.5%</strong> ($253.75 \u2013 $332.89).",
+          "<strong>220-day implied move: \u00b120.7%</strong> ($232.54 \u2013 $354.10) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $310 (+5.6% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Flat term structure</strong> (-4.4pp) \u2014 no near-term event premium; long-dated vol fairly priced."
+        ],
+        "strategy": "<strong>Buy 1-year LEAPS call at $264</strong> (10% ITM, 70-delta proxy). Long-cycle trend up + sell-side sees +5.6% upside to $310 PT \u2192 ITM LEAPS gives ~80% of stock exposure at ~40% of capital, with limited downside vs holding."
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Sandisk Corporation",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Sandisk Corporation (SNDK, Information Technology) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q2: revenue $5.95B. Valuation 12.5x forward P/E (+9% vs peers). Spot $1396.10 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "SNDK_ER_Q3_2026_30_APR_2026.docx",
+      "Looking ahead to the fiscal fourth quarter, we expect to begin shipping our QLC Stargate solutions for revenue, adding another layer of revenue growth. Together, TLC and QLC serve distinct but complementary roles, reflecting how we are deliberately architecting our portfolio to meet evolving customer needs with our broad portfolio of AI-focused data center products.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "SNDK_ER_Q3_2026_30_APR_2026.docx",
+      "Together, these efforts reflect our focus on our end markets and commitment to driving demand through brand recognition, product innovation and strong go-to-market execution as we shift our portfolio toward higher-value opportunities and transition away from legacy upsell models.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "SNDK_ER_Q3_2026_30_APR_2026.docx",
+      "In aggregate, the 5 agreements signed so far include financial guarantees that exceed $11 billion and include prepayments and other financial instruments managed by third-party financial institutions. Out of these agreements, $0.4 billion in prepayments are included in our Q3 balance sheet.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "SNDK_ER_Q3_2026_30_APR_2026.docx",
+      "We expect these new business models to reshape the historical cyclicality of our business, improving visibility and results in pricing and margins that reflect the value of our technology and investments, ultimately delivering higher, more consistent and durable returns for shareholders.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "SNDK_ER_Q3_2026_30_APR_2026.docx",
+      "Moving on to our results for the quarter. Revenue for the third quarter was $5,950 million, up 97% sequentially and up 251% year-over-year.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "SNDK_ER_Q3_2026_30_APR_2026.docx",
+      "For the fourth quarter, we forecast revenue between $7,750 million to $8,250 million from both bits growth and higher pricing.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Margin trajectory — net margin expanded +15.3pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $1396.10 sits +216.0% above the 200-DMA ($441.87). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "52-week extension — at 89% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly.",
+    "Options market pricing risk — front-month implied move of 9.3% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $37.28 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 11.5x FY1 P/E",
+      "latest": "12.5x (+9%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$1396.10 vs $441.87 (+216.0%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "65.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±9.3% by 2026-05-22",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Trading at 12.5x forward P/E versus peer median of 11.5x — broadly in line with the group.\n\nTechnical regime is constructive: spot $1396.10 above the 200-DMA ($441.87, +216.0%) with neutral momentum (RSI 66). Sell-side consensus PT of $90 implies -93.6% upside. The options market is pricing a ±9.3% move by the front-month expiry — elevated, reflecting binary-event hedging. 30-day implied move is ±28.3%; 90-day is ±51.7%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

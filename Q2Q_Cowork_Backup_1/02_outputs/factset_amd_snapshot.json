@@ -1,0 +1,52 @@
+{
+  "ticker": "AMD-US",
+  "company": "Advanced Micro Devices, Inc.",
+  "exchange": "NASDAQ",
+  "as_of": "2026-05-08 16:00 ET (closed); snapshot retrieved 2026-05-09",
+  "price_close": 455.19,
+  "price_change_d": 46.73,
+  "price_change_pct": 11.44,
+  "market_cap_B": 742.23,
+  "fully_diluted_mkt_cap_B": 758.84,
+  "enterprise_value_B": 749.52,
+  "trading_metrics": {
+    "open": 418.59,
+    "previous_close": 455.19,
+    "52w_range_low": 101.56,
+    "52w_range_high": 456.29,
+    "pct_of_52w_high": 99.76,
+    "volume": 44885480,
+    "30d_avg_daily_vol": 42488532,
+    "float_pct": 99.52,
+    "short_interest_days": 1.2,
+    "short_interest_pct_of_float": 2.20
+  },
+  "valuation_LTM": {
+    "PE_LTM": 149.39,
+    "PS_LTM": 20.05,
+    "EV_Sales_LTM": 20.01,
+    "EV_EBITDA_LTM": 101.51,
+    "WACC_pct": 11.56,
+    "Beta_3Y_Adj": 1.62
+  },
+  "estimates_next_q": {
+    "next_earnings_date": "2026-08-04",
+    "revenue_consensus_M": 11187.60,
+    "eps_consensus": 1.04,
+    "avg_rating_score": 1.24,
+    "avg_rating_label": "Buy",
+    "target_price": 442.49,
+    "broker_contributors": 59
+  },
+  "company_info": {
+    "sector": "Electronic Components and Manufacturing",
+    "industry": "Multimedia Semiconductors",
+    "fiscal_year_end": "Dec 27, 2025",
+    "ipo_date": "Oct 23, 1972",
+    "founded": 1969,
+    "ceo": "Lisa T. Su, PhD",
+    "headquarters": "Santa Clara, CA",
+    "employees": 31000
+  },
+  "ttm_revenue_growth_note": "Sales: $22,680M Dec '23 LTM → $37,454M Mar '26 LTM (+65.1% over 9 quarters)"
+}

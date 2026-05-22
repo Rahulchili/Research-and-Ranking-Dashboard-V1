@@ -1,0 +1,117 @@
+{
+  "ticker": "AMD",
+  "n_claims": 8,
+  "mcs_simple": 0.9591,
+  "mcs_information_adjusted": 0.9591,
+  "mcs_difficulty_weighted": 0.9543,
+  "subscores": {
+    "revenue": 0.9591,
+    "margin": null,
+    "eps": null,
+    "fcf": null,
+    "strategic": null
+  },
+  "baseline_random": 0.4913,
+  "baseline_always_up": 1.0,
+  "skill_over_baseline": -0.0409,
+  "beats": 8,
+  "misses": 0,
+  "rows": [
+    {
+      "claim_id": "AMD_01",
+      "quarter_made": "AMD-2024-Q1",
+      "target_quarter": "AMD-2024-Q2",
+      "guided": 5700,
+      "actual": 5835.0,
+      "pct": 2.37,
+      "accuracy": 0.9763,
+      "bms": 1,
+      "difficulty": 0,
+      "source_quote": "Jean Hu, Q1 2024 call (Apr 30 2024): 'we expect revenue to be approximately $5.7 billion plus or minus $300 million'"
+    },
+    {
+      "claim_id": "AMD_02",
+      "quarter_made": "AMD-2024-Q2",
+      "target_quarter": "AMD-2024-Q3",
+      "guided": 6700,
+      "actual": 6819.0,
+      "pct": 1.78,
+      "accuracy": 0.9822,
+      "bms": 1,
+      "difficulty": 0,
+      "source_quote": "Jean Hu, Q2 2024 call (Jul 30 2024): 'we expect revenue to be approximately $6.7 billion, plus or minus $300 million'"
+    },
+    {
+      "claim_id": "AMD_03",
+      "quarter_made": "AMD-2024-Q3",
+      "target_quarter": "AMD-2024-Q4",
+      "guided": 7500,
+      "actual": 7658.0,
+      "pct": 2.11,
+      "accuracy": 0.9789,
+      "bms": 1,
+      "difficulty": 0,
+      "source_quote": "Jean Hu, Q3 2024 call (Oct 29 2024): 'we expect revenue to be approximately $7.5 billion, plus or minus $300 million'"
+    },
+    {
+      "claim_id": "AMD_04",
+      "quarter_made": "AMD-2024-Q4",
+      "target_quarter": "AMD-2025-Q1",
+      "guided": 7100,
+      "actual": 7438.0,
+      "pct": 4.76,
+      "accuracy": 0.9524,
+      "bms": 1,
+      "difficulty": 0,
+      "source_quote": "Jean Hu, Q4 2024 call (Feb 4 2025): 'we expect revenue to be approximately $7.1 billion plus or minus $300 million'"
+    },
+    {
+      "claim_id": "AMD_05",
+      "quarter_made": "AMD-2025-Q1",
+      "target_quarter": "AMD-2025-Q2",
+      "guided": 7400,
+      "actual": 7685.0,
+      "pct": 3.85,
+      "accuracy": 0.9615,
+      "bms": 1,
+      "difficulty": 1,
+      "source_quote": "Jean Hu, Q1 2025 call (May 6 2025): 'we expect revenue to be approximately $7.4 billion plus or minus $300 million; This includes an estimated $700 million revenue reduction as a result of the new export license requirement [MI308 to China]'"
+    },
+    {
+      "claim_id": "AMD_06",
+      "quarter_made": "AMD-2025-Q2",
+      "target_quarter": "AMD-2025-Q3",
+      "guided": 8700,
+      "actual": 9246.0,
+      "pct": 6.28,
+      "accuracy": 0.9372,
+      "bms": 1,
+      "difficulty": 2,
+      "source_quote": "Jean Hu, Q2 2025 call (Aug 5 2025): 'we expect revenue to be approximately $8.7 billion, plus or minus $300 million; our third quarter outlook does not include any revenue from AMD Instinct MI308 shipment to China'"
+    },
+    {
+      "claim_id": "AMD_07",
+      "quarter_made": "AMD-2025-Q3",
+      "target_quarter": "AMD-2025-Q4",
+      "guided": 9600,
+      "actual": 10270.0,
+      "pct": 6.98,
+      "accuracy": 0.9302,
+      "bms": 1,
+      "difficulty": 2,
+      "source_quote": "Jean Hu, Q3 2025 call (Nov 4 2025): 'we expect revenue to be approximately $9.6 billion, plus or minus $300 million; our fourth quarter outlook does not include any revenue from AMD Instinct MI308 shipment to China'"
+    },
+    {
+      "claim_id": "AMD_08",
+      "quarter_made": "AMD-2025-Q4",
+      "target_quarter": "AMD-2026-Q1",
+      "guided": 9800,
+      "actual": 10253.0,
+      "pct": 4.62,
+      "accuracy": 0.9538,
+      "bms": 1,
+      "difficulty": 1,
+      "source_quote": "Jean Hu, Q4 2025 call (Feb 3 2026): 'we expect revenue to be approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of MI308 sales to China'"
+    }
+  ]
+}

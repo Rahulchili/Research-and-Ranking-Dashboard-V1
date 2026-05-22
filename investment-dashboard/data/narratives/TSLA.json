@@ -1,0 +1,189 @@
+{
+  "stance": "MIXED — Auto deceleration vs autonomy optionality; valuation prices in Robotaxi/Optimus success",
+  "color": "amber",
+  "summary": "Tesla is in a transition year: traditional auto business is decelerating (FY26 Q1 revenue $22.4B +15.8% YoY but vs Q4 FY25 $24.9B, -10% QoQ; FY25 deliveries roughly flat after Elon's Q3 2024 'best guess' of +20-30% YoY growth) while management pivots to monetizing autonomy (Robotaxi launched in Austin Q2 2025, expanding to 3 cities by Q1 FY26 with goal of 'dozen states' by end of 2026; Cybercab production started Q1 FY26 with exponential ramp planned; Optimus Fremont line targeting 1M units/year by end of 2026). Stock at $428.45 (May 8 close) bounced +56% off June 2025 low of $273. P/E FY1 of 222× and EV/EBITDA LTM of 164× price in years of autonomy execution; management has missed 4 of 7 recent measurable claims tracked (MCS 0.43).",
+  "quotes": [
+    [
+      "Elon Musk (CEO)",
+      "Q1 FY26 call (Apr 22, 2026)",
+      "So you should expect that initial production of Cybercab and Semi will be very slow, but then ramping up and going kind of exponential towards the end of the year and certainly next year."
+    ],
+    [
+      "Elon Musk (CEO)",
+      "Q4 FY25 call (Jan 28, 2026)",
+      "I'm confident that we'll get to 1 million units a year of -- in Fremont of Optimus 3."
+    ],
+    [
+      "Elon Musk (CEO)",
+      "Q1 FY26 call (Apr 22, 2026)",
+      "Well, we certainly hope to be -- have unsupervised FSD or Robotaxi operating in, I don't know -- it does [indiscernible] states by the end of this year."
+    ],
+    [
+      "Elon Musk (CEO)",
+      "Q1 FY25 call (Apr 22, 2025)",
+      "I feel confident in predicting large-scale autonomy around the middle of next year, certainly the second half next year, meaning I bet that there will be millions of Teslas operating autonomously, fully autonomously in the second half of next year, yes."
+    ],
+    [
+      "Vaibhav Taneja (CFO)",
+      "Q4 FY25 call (Jan 28, 2026)",
+      "As we look to 2026, with the progress that has been made with autonomy, our focus is on ramping production at all our factories."
+    ],
+    [
+      "Elon Musk (CEO)",
+      "Q1 FY26 call (Apr 22, 2026)",
+      "On the FSD adoption front, we continue to see improvement, reaching nearly 1.3 million paid customers globally."
+    ]
+  ],
+  "bull": [
+    [
+      "Robotaxi launched and scaling",
+      "Service operating in Austin (Q2 2025) plus 2 additional cities by Q1 FY26; goal of dozen+ states by EOY 2026. 1.3M paid FSD customers globally. Operating fleet quarter-over-quarter growth.",
+      "Mint"
+    ],
+    [
+      "Cybercab production started",
+      "Q1 FY26 confirmed production has begun; targeting 2M units/year. Vehicle designed from ground up for Robotaxi service economics — 50-60 hour weekly utilization vs 10-11 hours for driven cars.",
+      "Mint"
+    ],
+    [
+      "Optimus 1M unit Fremont line",
+      "Converting S/X production space at Fremont into 1M units/year Optimus 3 line; goal is to be 'useful outside of Tesla' in 2026.",
+      "Mint"
+    ],
+    [
+      "Margin recovery in progress",
+      "Gross margin recovered from FY25 Q4 16% trough to 21.1% in Q1 FY26 (highest in 5 quarters); revenue grew 15.8% YoY in Q1 FY26 reversing the prior 4 quarters of stagnation.",
+      "Mint"
+    ],
+    [
+      "FSD adoption inflection",
+      "Robotaxi service delivering cars autonomously from factory to customer's driveway. FSD V12+V13 marked improvement in adoption rates. AI5 chip development on track.",
+      "Mint"
+    ],
+    [
+      "EMEA demand resurgence",
+      "Q1 FY26: 'France and Germany showing over 150% quarter-over-quarter growth in deliveries.' Improved demand mix internationally.",
+      "Mint"
+    ]
+  ],
+  "bear": [
+    [
+      "Missing 4 of 7 tracked claims",
+      "FY25 delivery growth of 0% vs Elon's Q3'24 'best guess' of +20-30%. 10,000 Optimus robots in 2025 didn't materialize. 'Millions of autonomous Teslas in H2 2026' looking unlikely (only 3 cities operating Robotaxi). 8-10 metros by EOY 2025 → only 3 by Q1 2026.",
+      "Crimson"
+    ],
+    [
+      "Valuation extreme",
+      "P/E FY1 222× is +25× peer median 8.8×. EV/EBITDA LTM 164× vs peer median 13×. Stock prices in years of perfect autonomy execution.",
+      "Crimson"
+    ],
+    [
+      "Auto margins compressed",
+      "FY26 Q1 operating margin 4.2% vs FY24 Q3 peak of 10.8%; net margin 2.1% — auto business no longer growing or generating attractive operating economics on its own.",
+      "Crimson"
+    ],
+    [
+      "FCF heavily reduced",
+      "Q1 FY26 FCF only $1.44B with $2.49B CapEx (highest in series); FY25 FY FCF $4.36B → $7.00B LTM by Mar 26 LTM (FactSet) — but heavily capex-driven.",
+      "Crimson"
+    ],
+    [
+      "Competition intensifying",
+      "Chinese EVs (BYD, XPeng, Li Auto) gaining global share. Legacy OEMs (GM, F, BMW, Mercedes) launching profitable EV platforms. RIVN, LCID losing money but adding capacity in premium segments.",
+      "Crimson"
+    ],
+    [
+      "Key-person & regulatory risk",
+      "Elon Musk's political activities, time allocation across xAI/SpaceX/Tesla; FSD/Robotaxi regulatory approval depends on jurisdiction-by-jurisdiction permits; activism campaign disclosed on FactSet 5/11/26.",
+      "Crimson"
+    ]
+  ],
+  "trigger_up": [
+    "Robotaxi expansion to 8+ metros by Q2 FY26 ER (Jul 29, 2026)",
+    "Cybercab production exits 5,000-unit/month run rate by Q4 FY26",
+    "FSD subscription revenue exceeds $1B/quarter run rate",
+    "Q2 FY26 vehicle deliveries +15% YoY restoring growth trajectory",
+    "Optimus first external customer demonstrations before EOY 2026"
+  ],
+  "trigger_down": [
+    "Q2 FY26 deliveries decline YoY again",
+    "Cybercab production missing exit-2026 ramp targets",
+    "Robotaxi regulatory pushback in California or New York",
+    "Operating margin slips below 3% for 2 consecutive quarters",
+    "Break below SMA200 ($404.39) — would invalidate recent +56% bounce off lows"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (Quarterly)",
+      "baseline": "$21.30B (Q1 FY24)",
+      "latest": "$22.39B (Q1 FY26, +5.1% from Q1 FY24)",
+      "verdict": "Stagnation",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "-9% (Q1 FY24 vs PY)",
+      "latest": "+15.8% (Q1 FY26 vs Q1 FY25)",
+      "verdict": "Recovering from low base",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Gross margin",
+      "baseline": "17.35% (Q1 FY24)",
+      "latest": "21.08% (Q1 FY26)",
+      "verdict": "+3.7pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "5.50% (Q1 FY24)",
+      "latest": "4.20% (Q1 FY26)",
+      "verdict": "Margin pressured by R&D / autonomy spend",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "5.31% (Q1 FY24)",
+      "latest": "2.13% (Q1 FY26)",
+      "verdict": "Cut by ~3pp",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "EPS (Quarterly Diluted)",
+      "baseline": "$0.34 (Q1 FY24)",
+      "latest": "$0.13 (Q1 FY26, -62%)",
+      "verdict": "Earnings compressed",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "ROE annualized",
+      "baseline": "6.55% (Q1 FY24)",
+      "latest": "2.27% (Q1 FY26)",
+      "verdict": "Declining",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "MCS (forward claims)",
+      "baseline": "50% random",
+      "latest": "42.9% (3 beats / 7 claims)",
+      "verdict": "Below baseline",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Stock vs 52w high",
+      "baseline": "$498.83 (Dec 22 2025)",
+      "latest": "$428.35 (May 8 2026)",
+      "verdict": "-14.1% drawdown",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation P/E FY1",
+      "baseline": "Peer median ~8.5x",
+      "latest": "TSLA 221.91x",
+      "verdict": "+2521% premium",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "Tesla is the most controversial high-conviction setup in megacap. The auto business has decelerated (FY25 deliveries +0% vs Elon's +25% best guess; Q1 FY26 operating margin 4.2% vs FY24 Q3 peak 10.8%), and management's forward claims around autonomy timing have missed (MCS 0.43, below 0.50 baseline). Yet the valuation (P/E FY1 222×, EV/EBITDA 164×) prices in years of perfect Robotaxi/Cybercab/Optimus execution. The +56% bounce off June 2025 lows (273 → 428) reflects optimism about FSD progress and Cybercab production start, but sell-side target $400.22 sits BELOW the current spot $428.35 — analysts now see modest downside on average. Holding for the bull case requires belief that Robotaxi scales from 3 cities to 'dozen states' by EOY 2026 AND Optimus production line reaches material volume — neither is yet visible in financials. Tactical bias: AMBER (neutral with optionality risk to either side).",
+  "disclaimer": "Quoted statements verbatim from TSLA earnings calls in /TSLA/Transcripts/ directory. Fundamentals computed from EDGAR XBRL companyfacts (CIK 0001318605). FactSet peer data captured 2026-05-11. Not investment advice."
+}

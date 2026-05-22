@@ -1,0 +1,99 @@
+{
+  "name": "JPMorgan Chase",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "JPMorgan Chase (JPM, sector pending) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $49.84B (+10.0% YoY), net margin 33.1%. Management credibility 0.57 on 9 claims. Valuation 13.8x forward P/E (+12% vs peers). Spot $300.03 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "JPM_ER_Q4_2025_13_JAN_2026.docx",
+      "In terms of the outlook, we expect strong client engagement and deal activity in 2026, supported by constructive market dynamics, which is reflected in our pipeline.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "JPM_ER_Q4_2025_13_JAN_2026.docx",
+      "Before I cover the outlook, I want to make a few points on nonbank financial institution lending given the attention it received last quarter. When we look at NBFI lending internally, we use a narrower definition than what the [indiscernible] report uses.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "JPM_ER_Q4_2025_13_JAN_2026.docx",
+      "We continue to expect NII ex Markets to be about $95 billion. The drivers we explained last quarter remain largely the same, so I'll cover them quickly.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "JPM_ER_Q4_2025_13_JAN_2026.docx",
+      "For completeness, we expect total NII to be about $103 billion for the year as a function of markets NII increasing to about $8 billion due to lower funding costs from the rate cuts, which you should think of as being primarily offset in NIR.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "JPM_ER_Q4_2025_13_JAN_2026.docx",
+      "On expense, as we told you at an industry conference in December, we expect 2026 adjusted expense to be about $105 billion. Broadly, the expense growth continues to align with where we see the greatest opportunities across our businesses.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "JPM_ER_Q4_2025_13_JAN_2026.docx",
+      "To wrap up, on credit, we expect the 2026 card net charge-off rate to be approximately 3.4% on favorable delinquency trends driven by the continued resilience of the consumer.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Revenue mix re-accelerating — back half of the trailing 4Q stack averaging +4.7% above the front half. Both NII and fee income lines are contributing, reducing reliance on a single revenue lever.",
+    "Range-positioning balanced — at 53% of the 52-week range ($260.67–$334.61), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Trend rolling over — spot $300.03 sits -1.7% relative to the 200-DMA ($305.34). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print."
+  ],
+  "trigger_up": [
+    "Loan-loss provisions decline or normalize on next earnings — credit-cycle tailwind to bottom line.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "CET1 ratio prints below 11.0% on next quarter — capital constraint reduces buyback authority.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $260.67 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+10.0% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.57 on 9 claims",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 12.3x FY1 P/E",
+      "latest": "13.8x (+12%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$300.03 vs $305.34 (-1.7%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "38.1",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. JPMorgan Chase (JPM) printed $49.84B in total revenue in FY2026 Q1 (+10.0% YoY), with NII running at $25.4B. Management credibility is mixed (MCS 0.57, 4B/0H/3M record) — the forward guide warrants a moderate analyst discount. At 13.8x forward P/E, the stock carries a 12% premium to peers (12.3x median) — the multiple needs continued execution to defend.\n\nTechnical regime is impaired: spot $300.03 below the 200-DMA ($305.34, -1.7%) — long-term trend has rolled over. Sell-side consensus PT of $240 implies -20.0% upside. 30-day implied move is ±6.9%; 90-day is ±13.7%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

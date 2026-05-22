@@ -1,0 +1,93 @@
+{
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Forward View: BULLISH on a 6–12-month horizon. Across nine consecutive earnings cycles, META management has delivered on essentially every quantified forward statement (8 closed revenue commitments → 6 beats, 2 in-line, 0 misses; MCS = 0.9589). Revenue YoY growth has re-accelerated from +16.1% (Q1 2025) to +1.7% (Q1 2026) while operating margin held at 40.62% (the clean signal — ex tax-event distortion) and reported net margin reached 47.54% (boosted by a partial OBBBA-tax reversal benefit). The AI-capex ramp is the principal risk to monitor — not a thesis-breaker on what we have today.",
+  "quotes": [
+    [
+      "Susan Li (CFO)",
+      "Q1 2026 call",
+      "We expect second quarter 2026 total revenue to be in the range of $58 billion to $61 billion."
+    ],
+    [
+      "Susan Li (CFO)",
+      "Q4 2025 call",
+      "Despite the meaningful step-up in infrastructure investment, in 2026, we expect to deliver operating income that is above 2025 operating income."
+    ],
+    [
+      "Mark Zuckerberg (CEO)",
+      "Q4 2025 call",
+      "I expect 2026 to be a year where this wave accelerates even further on several fronts. We're starting to see agents really work."
+    ],
+    [
+      "Susan Li (CFO)",
+      "Q1 2026 call",
+      "We anticipate 2026 capital expenditures including principal payments on finance leases to be in the range of $125 billion to $145 billion."
+    ]
+  ],
+  "bull": [
+    "Revenue growth re-accelerating, not slowing. YoY trajectory: +16.1% → +21.6% → +26.2% → +23.8% → +1.7% across the last five reported quarters. Q1 2026 ($56.31B) is the strongest YoY print in the entire dataset.",
+    "Operating leverage intact despite the AI build. Q1 2026 operating margin 40.62% (clean signal — ex tax-event distortion); net margin 47.54% reported (boosted by a partial reversal of the Q3 2025 OBBBA tax charge). Management explicitly committed that 2026 operating income will exceed 2025; the Q1 2026 print already supports that path.",
+    "Forward-guidance accuracy is exceptional. 8 closed quarters: 6 beats, 2 in-line, 0 revenue misses; MCS = 0.9589. The two FY-level miss line items (FY 2025 capex initial outlook and FY 2025 tax rate) trace to a single 2024-Q4 call and have well-documented explanations.",
+    "Strategic milestones landing: Llama 3 / 4 cadence on schedule, Meta AI past the 1B-user threshold management committed to, AI ad-creative tools deployed broadly, and server-life policy extension delivering structural opex savings."
+  ],
+  "bear": [
+    "Capex magnitude is unprecedented for META. FY capex: $37.3B → $69.7B → $125–145B (2024 → 2025 → 2026 guide). The 2026 midpoint is roughly 3.6× the 2024 figure. ROI on AI infrastructure at this scale is the single biggest open question.",
+    "Market is voicing skepticism. 5-day post-earnings reactions on the last two calls were −15.40% (Q3 2025) and 1-day −8.55% (Q1 2026). Sell-offs of this magnitude on quarters that beat revenue indicate investors are repricing the capex outlook, not the operating fundamentals.",
+    "Multi-year strategic claims are unverified. Reality Labs \"peak losses in 2025,\" AI-coding-agent capability by mid-late 2026, and Threads' 1B-user trajectory all remain pending. None contradict the bull case, but they extend the credibility tail."
+  ],
+  "trigger_up": "Two consecutive prints in line with or above guide AND FY 2026 operating income tracking above FY 2025 (per management's own commitment), with capex held at or below the current $125–145B range.",
+  "trigger_down": "Q2 or Q3 2026 revenue growth decelerating below +20% YoY without clear AI-monetization milestones, OR FY 2026 capex raised above $145B without a corresponding revenue/efficiency offset, OR the 2026 operating-income > 2025 commitment walked back.",
+  "scoreboard": [
+    {
+      "metric": "Revenue (next-quarter guide vs actual)",
+      "baseline": "$36.5–39.0B → $39.07B (+3.5%)",
+      "latest": "$58–61B guide (Q2 2026 pending)",
+      "verdict": "Accelerating beats",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Quarterly revenue (YoY)",
+      "baseline": "$36.46B (+27% YoY)",
+      "latest": "$56.31B (+1.7% YoY)",
+      "verdict": "Growth re-accelerating",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin (reported)",
+      "baseline": "33.93% (Q1 2024)",
+      "latest": "47.54% (Q1 2026 — tax-benefit boosted)",
+      "verdict": "Expanding",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Diluted EPS (single-quarter)",
+      "baseline": "$5.18 (Q1 2024 actual)",
+      "latest": "$10.44 (+62.4% YoY vs Q1 2025 $6.43)",
+      "verdict": "Compounding",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility Score",
+      "baseline": "—",
+      "latest": "0.9589 (8 beats / 0 revenue misses)",
+      "verdict": "Top-tier execution",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FY capex (annual)",
+      "baseline": "$37.3B (2024)",
+      "latest": "$125–145B (2026 guide)",
+      "verdict": "3.6× ramp — risk to monitor",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Avg post-earnings 5-day reaction (last 2 calls)",
+      "baseline": "Mixed (early period)",
+      "latest": "−2.0% trailing two calls",
+      "verdict": "Market wary on capex",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "Across nine consecutive earnings cycles, META management has delivered on essentially every forward statement they've quantified. Revenue growth is accelerating, margins are expanding to dataset highs, and the company is funding the largest AI infrastructure build in its history out of operating cash flow without compromising profit growth. The market's recent post-earnings selling reflects valuation-and-capex anxiety more than any fundamental deterioration visible in the data.",
+  "disclaimer": "This is an analytical synthesis of the disclosed data on file in this project, not a buy/sell recommendation or personalized investment advice. Forecasts are inherently uncertain. Consult a licensed financial advisor before making investment decisions."
+}

@@ -1,0 +1,55 @@
+{
+  "captured": "2026-05-09 from FactSet Workstation Web · Comps Analysis · Semiconductor Memory peer set",
+  "as_of_close": "2026-05-08",
+  "currency": "USD (Local) for MU; native currency for Asian peers",
+  "target": {
+    "ticker": "MU-US",
+    "fiscal_period": "02/26/2026",
+    "price": 746.81,
+    "target_price": 588.59,
+    "ev_B": 854.87,
+    "mkt_cap_B": 861.38,
+    "net_debt_M": -3817,
+    "PS_LTM": 14.67,
+    "EV_Sales_LTM": 14.71,
+    "EV_EBITDA_FY1": 10.20,
+    "EV_EBITDA_FY2": 6.16,
+    "PE_FY1": 13.07,
+    "PE_FY2": 7.79,
+    "FCF_Yield_pct": null,
+    "Div_Yield_pct": 0.08,
+    "rating": "Buy (1.19)",
+    "broker_contributors": 53,
+    "sales_FY1_M": 107360,
+    "sales_FY2_M": 172989,
+    "ebitda_FY1_M": 83806,
+    "ebitda_FY2_M": 138740,
+    "ebitda_margin_FY1": 78.1,
+    "ebitda_margin_FY2": 80.2,
+    "ebit_FY1_M": 77440,
+    "ebit_FY2_M": 135570,
+    "ebit_margin_FY1": 72.1,
+    "ebit_margin_FY2": 78.4
+  },
+  "peers": [
+    {"ticker":"000660-KR","name":"SK Hynix","fiscal_period":"12/2025","price":1146.51,"target_price":1230.36,"ev_B":776.7,"mkt_cap_B":798.3,"net_debt_M":-7069.8,"PS_LTM":11.93,"EV_Sales_LTM":11.36,"EV_EBITDA_FY1":4.55,"EV_EBITDA_FY2":3.38,"PE_FY1":6.20,"PE_FY2":4.77,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Buy (Asian peer)","sales_FY1_M":212240,"sales_FY2_M":286000,"ebitda_FY1_M":170790,"ebitda_FY2_M":229510,"ebitda_margin_FY1":80.5,"ebitda_margin_FY2":80.2,"ebit_FY1_M":160720,"ebit_FY2_M":216100,"ebit_margin_FY1":75.7,"ebit_margin_FY2":75.6},
+    {"ticker":"6809-HK","name":"Montage Technology","fiscal_period":"03/31/2026","price":47.98,"target_price":36.75,"ev_B":32.80,"mkt_cap_B":35.25,"net_debt_M":-2413.4,"PS_LTM":4.53,"EV_Sales_LTM":40.88,"EV_EBITDA_FY1":65.92,"EV_EBITDA_FY2":44.52,"PE_FY1":115.92,"PE_FY2":82.92,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Asian peer","sales_FY1_M":1086.1,"sales_FY2_M":1472.8,"ebitda_FY1_M":497.6,"ebitda_FY2_M":736.9,"ebitda_margin_FY1":45.8,"ebitda_margin_FY2":50.0,"ebit_FY1_M":487.1,"ebit_FY2_M":713.4,"ebit_margin_FY1":44.9,"ebit_margin_FY2":48.4},
+    {"ticker":"3986-HK","name":"Giga Device Semiconductor","fiscal_period":"03/31/2026","price":62.59,"target_price":56.78,"ev_B":34.52,"mkt_cap_B":36.66,"net_debt_M":-2173.0,"PS_LTM":25.83,"EV_Sales_LTM":21.25,"EV_EBITDA_FY1":35.83,"EV_EBITDA_FY2":29.79,"PE_FY1":56.76,"PE_FY2":45.96,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Asian peer","sales_FY1_M":2490.6,"sales_FY2_M":3158.8,"ebitda_FY1_M":962.2,"ebitda_FY2_M":1158.6,"ebitda_margin_FY1":38.7,"ebitda_margin_FY2":36.7,"ebit_FY1_M":880.6,"ebit_FY2_M":1082.1,"ebit_margin_FY1":35.4,"ebit_margin_FY2":34.3},
+    {"ticker":"2408-TW","name":"Nanya Technology","fiscal_period":"03/31/2026","price":8.73,"target_price":9.94,"ev_B":28.80,"mkt_cap_B":31.11,"net_debt_M":-2004.1,"PS_LTM":8.01,"EV_Sales_LTM":8.19,"EV_EBITDA_FY1":4.99,"EV_EBITDA_FY2":4.28,"PE_FY1":6.43,"PE_FY2":5.63,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Asian peer","sales_FY1_M":7945.7,"sales_FY2_M":9424.0,"ebitda_FY1_M":5766.4,"ebitda_FY2_M":6722.0,"ebitda_margin_FY1":72.6,"ebitda_margin_FY2":71.3,"ebit_FY1_M":5371.4,"ebit_FY2_M":6204.0,"ebit_margin_FY1":67.6,"ebit_margin_FY2":65.8},
+    {"ticker":"301308-CN","name":"Shenzhen Longsys","fiscal_period":"03/31/2026","price":70.57,"target_price":55.53,"ev_B":31.77,"mkt_cap_B":29.95,"net_debt_M":1810.6,"PS_LTM":7.45,"EV_Sales_LTM":7.94,"EV_EBITDA_FY1":17.62,"EV_EBITDA_FY2":31.12,"PE_FY1":19.42,"PE_FY2":26.82,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Asian peer","sales_FY1_M":5661.0,"sales_FY2_M":6401.7,"ebitda_FY1_M":1802.9,"ebitda_FY2_M":1021.0,"ebitda_margin_FY1":31.8,"ebitda_margin_FY2":16.0,"ebit_FY1_M":1815.3,"ebit_FY2_M":1293.6,"ebit_margin_FY1":32.1,"ebit_margin_FY2":20.2},
+    {"ticker":"688525-CN","name":"Biwin Storage Technology","fiscal_period":"03/31/2026","price":42.70,"target_price":51.16,"ev_B":21.39,"mkt_cap_B":20.11,"net_debt_M":1282.2,"PS_LTM":8.90,"EV_Sales_LTM":9.17,"EV_EBITDA_FY1":23.49,"EV_EBITDA_FY2":26.25,"PE_FY1":18.62,"PE_FY2":17.11,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Asian peer","sales_FY1_M":3736.0,"sales_FY2_M":4917.1,"ebitda_FY1_M":910.5,"ebitda_FY2_M":814.8,"ebitda_margin_FY1":24.4,"ebitda_margin_FY2":16.6,"ebit_FY1_M":1217.2,"ebit_FY2_M":1298.3,"ebit_margin_FY1":32.6,"ebit_margin_FY2":26.4},
+    {"ticker":"2344-TW","name":"Winbond Electronics","fiscal_period":"03/31/2026","price":3.41,"target_price":4.64,"ev_B":15.47,"mkt_cap_B":15.34,"net_debt_M":476.7,"PS_LTM":4.40,"EV_Sales_LTM":4.43,"EV_EBITDA_FY1":4.41,"EV_EBITDA_FY2":2.96,"PE_FY1":6.01,"PE_FY2":3.91,"FCF_Yield_pct":null,"Div_Yield_pct":null,"rating":"Asian peer","sales_FY1_M":7125.7,"sales_FY2_M":10260.6,"ebitda_FY1_M":3505.7,"ebitda_FY2_M":5229.8,"ebitda_margin_FY1":49.2,"ebitda_margin_FY2":51.0,"ebit_FY1_M":3245.7,"ebit_FY2_M":4937.2,"ebit_margin_FY1":45.5,"ebit_margin_FY2":48.1}
+  ],
+  "peer_aggregates": {
+    "average": {"PS_LTM":10.72,"EV_Sales_LTM":14.74,"EV_EBITDA_FY1":20.88,"EV_EBITDA_FY2":18.56,"PE_FY1":30.31,"PE_FY2":24.36,"FCF_Yield_pct":null,"Div_Yield_pct":null,"ebitda_margin_FY1":52.6,"ebitda_margin_FY2":50.2,"ebit_margin_FY1":50.7,"ebit_margin_FY2":49.6},
+    "median":  {"PS_LTM":8.01,"EV_Sales_LTM":9.17,"EV_EBITDA_FY1":17.62,"EV_EBITDA_FY2":26.25,"PE_FY1":18.62,"PE_FY2":17.11,"FCF_Yield_pct":null,"Div_Yield_pct":null,"ebitda_margin_FY1":47.5,"ebitda_margin_FY2":50.5,"ebit_margin_FY1":45.2,"ebit_margin_FY2":48.3}
+  },
+  "premium_discount_vs_peer_median": {
+    "PE_FY1": "MU 13.07x vs median 18.62x = -29.8% discount",
+    "PE_FY2": "MU 7.79x vs median 17.11x = -54.5% discount",
+    "EV_EBITDA_FY1": "MU 10.20x vs median 17.62x = -42.1% discount",
+    "EV_EBITDA_FY2": "MU 6.16x vs median 26.25x = -76.5% discount",
+    "P_Sales": "MU 14.67x vs median 8.01x = +83.1% premium"
+  },
+  "interpretation": "MU trades at SIGNIFICANT DISCOUNT to memory peers on forward earnings/EBITDA — the classic 'memory cycle peak' valuation pattern: when the cycle peaks, P/E and EV/EBITDA optically look 'cheap' because earnings have spiked and the market is already pricing future cyclical compression. The 7.8× FY2 P/E is consistent with 'late-cycle' memory pricing. Cycle-aware investors do NOT mechanically interpret this as cheap — they understand that FY2 earnings could compress materially if the HBM cycle moderates. The +83% P/Sales premium reflects market expectation of structural HBM moat. Sell-side target $588.59 sits BELOW current $746.81 (-21%), implying analysts haven't fully captured the recent rally OR are pricing in normalization. Importantly, the FactSet 'Semiconductor Memory' peer set is heavily Asian (SK Hynix, Nanya, etc.); for US-listed memory peer comparison, Western Digital (WDC) and Seagate (STX) would also be relevant but are not in the FactSet memory peer set."
+}

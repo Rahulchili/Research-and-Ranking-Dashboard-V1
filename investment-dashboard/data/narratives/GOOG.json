@@ -1,0 +1,124 @@
+{
+  "stance": "Constructive (AI transition risk)",
+  "color": "mint",
+  "thesis": "AI-driven re-acceleration of Search/YouTube/Cloud demonstrated by Q1 2026 results (+13% revenue YoY, Cloud +63% YoY). 3 Beats + 5 Hits on Q+1 capex commitments (info-adj 0.96 MCS). Valuation discount to mega-cap peers reflects unwarranted search disruption fears that AI Overviews monetization is starting to address.",
+  "summary": "Alphabet's AI transition is producing tangible results: Q1 2026 revenue $102.7B (+13% YoY) with Cloud revenue $20B (+63% YoY) and AI Overviews monetizing in line with traditional search. Management has hit or beaten Q+1 capex commitments 8 consecutive quarters: 3 Beats + 5 Hits + 0 Misses. The FY26 capex guide of $110-130B represents 3x FY24 levels — the heaviest AI infrastructure buildout in the cohort. Premium operating margin (33%+) and FCF margin (12-25%) preserved despite massive capex. The pushback is structural: search-query disruption from generative AI, DOJ remedies overhang, and capex intensity compressing FCF margins. Valuation discount (P/E FY1 21x vs mega-cap median 29x) provides margin of safety.",
+  "bottom_line": "GOOG combines best-in-class AI infrastructure assets (Gemini, TPU, $300B cumulative capex 2024-26E) with disciplined capex commitments (8B/0H/0M MCS info-adj 0.96) and a structural valuation discount vs MSFT/META/AAPL. The bull case is AI Search transition succeeding with AI Overviews monetization scaling; the bear case is search disruption accelerating. At ~$387 spot with FactSet target $230, +-41% upside.",
+  "bull": [
+    "Q1 2026 results: revenue +13% YoY, Cloud +63% YoY ($20B run rate, $462B backlog). AI Overviews monetizing well.",
+    "8-of-8 Hit/Beat capex commitments (3B+5H/0M) — disciplined Q+1 guidance over 2 years.",
+    "AI infrastructure moat: $300B cumulative capex 2024-26E, Gemini ecosystem, TPU advantage in inference cost.",
+    "Operating margin held 32-34% range while scaling 3x capex — operating leverage on search + YouTube remains intact.",
+    "Valuation discount: P/E FY1 21x vs mega-cap median 29x — +30% multiple expansion potential if AI thesis plays.",
+    "FactSet target $230 implies +-41% upside."
+  ],
+  "bear": [
+    "DOJ search remedies trial outcome could materially restrict default search agreements ($20B+ TAC at risk).",
+    "FY26 capex $110-130B compresses near-term FCF margin from 25% to ~12-15%.",
+    "AI Search transition: queries shifting to ChatGPT/Anthropic; AI Overviews monetization unproven at scale.",
+    "Depreciation drag from massive capex creates structural operating-margin headwind 2027+.",
+    "Cloud competition: GCP gross margin pressure from AWS/Azure price competition on AI inference.",
+    "Regulatory overhang in EU (DMA), UK (CMA), and US (FTC ad-tech) compounds — multiple front actions ongoing."
+  ],
+  "trigger_up": [
+    "Q2 2026 (Jul 22 earnings): revenue >$110B + Cloud >$22B confirms AI re-acceleration thesis.",
+    "AI Overviews monetization disclosed at parity with traditional search ad revenue per query.",
+    "DOJ remedies trial settles with no structural separation (Chrome, Android remain inside Alphabet)."
+  ],
+  "trigger_down": [
+    "Q2 2026 miss <$105B or Cloud growth deceleration to <25% YoY signals AI thesis stalling.",
+    "DOJ remedies ruling forces structural separation of Chrome or Android.",
+    "FY26 capex guide raised above $130B without corresponding revenue acceleration — pure CapEx burn."
+  ],
+  "scoreboard": [
+    {
+      "metric": "MCS (8Q simple)",
+      "baseline": "0.50",
+      "latest": "0.6875",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS (info-adj)",
+      "baseline": "Peer avg ~85",
+      "latest": "96.14",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Beats / Hits / Misses",
+      "baseline": "—",
+      "latest": "3 / 5 / 0",
+      "verdict": "Disciplined",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Latest YoY growth",
+      "baseline": "+10%",
+      "latest": "+13%",
+      "verdict": "Above trend",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "P/E FY1",
+      "baseline": "Peer median 29x",
+      "latest": "21x",
+      "verdict": "Discount −28%",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Op margin (latest Q)",
+      "baseline": "Peer median 33%",
+      "latest": "34%",
+      "verdict": "In line",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Spot vs SMA200",
+      "baseline": ">SMA200",
+      "latest": "+35%",
+      "verdict": "Above trend",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Drawdown from 52w high",
+      "baseline": "<20%",
+      "latest": "-3%",
+      "verdict": "Reasonable",
+      "verdict_color": "mint"
+    }
+  ],
+  "quotes": [
+    [
+      "Sundar Pichai (CEO)",
+      "Q1 2026 post-earnings call (Apr 29, 2026)",
+      "Our AI investments are paying off — Cloud revenue grew 63% to $20 billion in Q1 with operating margin reaching 32.9%, up from 17.8%. Cloud Backlog hit $462 billion."
+    ],
+    [
+      "Ruth Porat (CFO)",
+      "Q4 2025 / Q1 2026 transcripts",
+      "For 2026, we expect CapEx of approximately $110-130 billion driven by data center buildout for AI demand."
+    ],
+    [
+      "Ruth Porat (CFO)",
+      "Q2 2025 post-earnings call (Jul 23, 2025)",
+      "We now expect to invest approximately $85 billion in CapEx in 2025, up from a previous estimate of $75 billion."
+    ],
+    [
+      "Ruth Porat (CFO)",
+      "Q1 2025 post-earnings call (Apr 24, 2025)",
+      "We still expect to invest approximately $75 billion in CapEx this year. The expected CapEx for Q2 is in the range of $17-18B."
+    ],
+    [
+      "Sundar Pichai (CEO)",
+      "Q4 2024 post-earnings call (Feb 4, 2025)",
+      "We expect YouTube overall and Cloud to exit 2024 at a combined annual run rate of over $100 billion. We met that goal and ended the year at $110 billion."
+    ],
+    [
+      "Ruth Porat (CFO)",
+      "Q3 2024 post-earnings call (Oct 29, 2024)",
+      "We expect quarterly CapEx in the fourth quarter to be at similar levels to Q3."
+    ]
+  ],
+  "disclaimer": "This analysis is based on 8 GOOG 10-Q/10-K SEC filings (Q2 2024 - Q1 2026), 8 earnings call transcripts (Q1 2024 - Q1 2026, Q4 2025 sourced from public FactSet archives), daily stock data through 2026-05-11 (Barchart), options chain GOOGL5012.xlsx, and consensus estimates 5/12/26. MCS scoring based on Q+1 capex commitments + strategic commitments (Alphabet does not provide formal Q+1 revenue guidance — capex direction is the primary forward-looking measurable)."
+}

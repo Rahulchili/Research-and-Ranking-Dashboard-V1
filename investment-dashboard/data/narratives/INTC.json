@@ -1,0 +1,99 @@
+{
+  "name": "Intel Corporation",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Intel Corporation (INTC, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $7.73B (+1.3% YoY). Management credibility 1.00 on 10 claims. Valuation 35.0x forward P/E (+19% vs peers). Spot $106.77 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "INTC_ER_Q4_2025_22_JAN_2026.docx",
+      "Before we begin, please note that today's discussion does contain forward-looking statements based on the environment as we currently see it, and as such, are subject to various risks and uncertainties. It also contains references to non-GAAP financial measures that we believe provide useful information to our investors.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "INTC_ER_Q4_2025_22_JAN_2026.docx",
+      "Our Q4 was another positive step forward. Revenue, gross margin and EPS were all above our guidance.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "INTC_ER_Q4_2025_22_JAN_2026.docx",
+      "Our focus is on the emerging wave of AI workloads, reasoning models, genic and physical AI and influence at scale, where we believe Intel can truly disrupt and differentiate.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "INTC_ER_Q4_2025_22_JAN_2026.docx",
+      "Importantly, our PK are now viewed by customers as industry standard. Engagements with potential external customers on Intel 148 are active.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "INTC_ER_Q4_2025_22_JAN_2026.docx",
+      "We delivered fourth quarter non-GAAP earnings per share of $0.15 versus our guidance of $0.08 and driven by higher revenue, stronger gross margins and continued spending discipline. Q4 operating cash flow was $4.3 billion with gross CapEx of $4 billion in the quarter and positive adjusted free cash flow of $2.2 billion.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "INTC_ER_Q4_2025_22_JAN_2026.docx",
+      "Finally, our continued progress on Intel 14A demonstrates our commitment to research and develop the world's most important technology on U.S. soil.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ]
+  ],
+  "bull": [
+    "Management credibility — MCS of 1.00 on 10 tracked forward claims (7B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $106.77 sits +136.1% above the 200-DMA ($45.22). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Growth fading — +1.3% YoY revenue growth in FY2026 Q1 is well below the 5–8% threshold that supports the current multiple. A re-acceleration story needs to develop in the next 2–3 quarters or estimates will need to come down."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $19.31 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+1.3% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 10 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 29.5x FY1 P/E",
+      "latest": "35.0x (+19%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$106.77 vs $45.22 (+136.1%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "63.5",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Intel Corporation (INTC) printed $7.73B in revenue in FY2026 Q1 (+1.3% YoY). Management credibility is strong (MCS 1.00, 7B/0H/0M record), supporting take-up of the forward guide. At 35.0x forward P/E, the stock carries a 19% premium to peers (29.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $106.77 above the 200-DMA ($45.22, +136.1%) with neutral momentum (RSI 63). Sell-side consensus PT of $24 implies -77.5% upside. 30-day implied move is ±22.7%; 90-day is ±43.3%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

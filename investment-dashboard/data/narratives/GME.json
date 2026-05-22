@@ -1,0 +1,59 @@
+{
+  "name": "GameStop Corp.",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "GameStop Corp. (GME, Consumer Discretionary) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2025 Q4: revenue $0.82B (+2.9% YoY), net margin 9.4%. Spot $23.17 (below 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Margin discipline — 9.4% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup.",
+    "Margin trajectory — net margin expanded +3.4pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release."
+  ],
+  "bear": [
+    "Growth fading — +2.9% YoY revenue growth in FY2025 Q4 is well below the 5–8% threshold that supports the current multiple. A re-acceleration story needs to develop in the next 2–3 quarters or estimates will need to come down.",
+    "Trend rolling over — spot $23.17 sits -0.3% relative to the 200-DMA ($23.25). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Put skew elevated — ATM put IV running +42.3pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 10.9% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 7.4% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $19.94 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+2.9% in FY2025 Q4",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "9.4%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$23.17 vs $23.25 (-0.3%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "44.6",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. GameStop Corp. (GME) printed $0.82B in revenue in FY2025 Q4 (+2.9% YoY), net margin of 9.4%.\n\nTechnical regime is impaired: spot $23.17 below the 200-DMA ($23.25, -0.3%) — long-term trend has rolled over. Sell-side consensus PT of $18 implies -22.3% upside. 30-day implied move is ±15.8%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

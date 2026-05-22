@@ -1,0 +1,121 @@
+{
+  "name": "Palo Alto Networks, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Palo Alto Networks, Inc. (PANW, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $2.59B (+14.9% YoY), net margin 16.6%. Management credibility 1.00 on 1 claims. Valuation 56.0x forward P/E (+3% vs peers). Spot $246.52 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "PANW_ER_Q4_2025_18_AUG_2025.docx",
+      "As our customers end up in a hybrid compute environment across multiple clouds, we expect to continue to see strength in our software firewall business. These offerings each with very large TAMs, continue to gain momentum and reinforce our conviction in achieving $1 billion in next-generation security IRR by FY '30 on a stand-alone basis.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "PANW_ER_Q4_2025_18_AUG_2025.docx",
+      "As our customers recognize the value proptomization, they're increasing their commitment to us reaffirming our strategy and vision.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "PANW_ER_Q4_2025_18_AUG_2025.docx",
+      "As enterprises look to secure increasingly hybrid workforces and IT environments and AI, we believe our platform is well positioned to allow our customers of any of our products to consolidate on our platform.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "PANW_ER_Q4_2025_18_AUG_2025.docx",
+      "As I shared earlier, we're also building momentum in AI runtime security with Prisma [indiscernible] as customers look to secure the growing AI attack surface in Q4. This included an 8-figure deal with a global professional services company with a strong pipeline, we see an opportunity for Air to become a growing contributor in the next 5 years.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "PANW_ER_Q4_2025_18_AUG_2025.docx",
+      "We expect to see browsers become an integral part of the SSI stack for all of our customers.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "PANW_ER_Q4_2025_18_AUG_2025.docx",
+      "The strong early traction with Prisma AIRS and with our relentless focus on innovation, we believe, Palo Alto Networks can be the ideal partner to help organizations achieve and secure the real transformation goals.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +14.9% YoY in FY2026 Q1 to $2.59B, with TTM revenue of $9.61B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin discipline — 16.6% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup.",
+    "Margin trajectory — net margin expanded +2.6pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 1.00 on 1 tracked forward claims (1B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $246.52 sits +32.0% above the 200-DMA ($186.72). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 4.3% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Momentum stretched — RSI at 90 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($180.37) before adding.",
+    "52-week extension — at 99% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 18% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 18.1% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $247.55 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 12% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 14.6% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $141.67 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+14.9% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "16.6%",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 1 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 54.5x FY1 P/E",
+      "latest": "56.0x (+3%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$246.52 vs $186.72 (+32.0%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "90.1",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±4.3% by 2026-05-22",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Palo Alto Networks, Inc. (PANW) printed $2.59B in revenue in FY2026 Q1 (+14.9% YoY), net margin of 16.6%. Management credibility is strong (MCS 1.00, 1B/0H/0M record), supporting take-up of the forward guide. Trading at 56.0x forward P/E versus peer median of 54.5x — broadly in line with the group.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($186.72) but RSI 90 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $235 implies -4.7% upside. The options market is pricing a ±4.3% move by the front-month expiry — a complacent read on near-term risk. 30-day implied move is ±16.8%; 90-day is ±25.4%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

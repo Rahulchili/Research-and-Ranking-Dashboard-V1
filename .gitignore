@@ -1,0 +1,19 @@
+# Mac system
+.DS_Store
+.AppleDouble
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs / scratch
+*.log
+*.tmp

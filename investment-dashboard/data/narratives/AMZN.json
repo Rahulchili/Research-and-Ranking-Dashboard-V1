@@ -1,0 +1,182 @@
+{
+  "stance": "BULLISH — 6 BEATs + 2 HITs / 8 strict claims · AWS reaccel + AI capex absorbing margin",
+  "color": "mint",
+  "summary": "Amazon delivered 6 strict BEATs and 2 HITs across 8 independent Q+1 net-sales guidance ranges — weighted MCS 0.875. Most recent 4 quarters all BEAT the HIGH end of guidance. Q4 2025 set a record at $213.4B (+13.6% YoY), and Q1 2026 came in at $181.5B (+16.6% YoY) — the fastest growth in 8 quarters. AWS reaccelerated to ~21% YoY in Q1 2026 with operating margin expanding to 13.1% (highest in the series). Massive AI capex acceleration ($44.2B in Q1 2026, +77% sequentially) is depressing near-term FCF but driving AWS capacity expansion. Stock $268.99 (May 11 close), RSI 72 (overbought near 52w high $278.56). FactSet target $313.55 = +16.6% upside. EV/EBITDA FY1 18.4x sits at -23% discount to mega-cap tech peer median.",
+  "quotes": [
+    [
+      "Andy Jassy (CEO)",
+      "Q1 2026 call (Apr 29, 2026)",
+      "AWS Q1 2026 revenue grew 21% year-over-year to $33.2B, with operating margin of 39.5%."
+    ],
+    [
+      "Brian Olsavsky (CFO)",
+      "Q1 2026 call (Apr 29, 2026)",
+      "We expect Q2 2026 net sales of $182.5B to $187.5B and operating income of $19.5B to $24B."
+    ],
+    [
+      "Andy Jassy (CEO)",
+      "Q4 2025 call (Feb 5, 2026)",
+      "We will spend approximately $125B in capital expenditures in 2026, the vast majority dedicated to AI infrastructure for AWS."
+    ],
+    [
+      "Brian Olsavsky (CFO)",
+      "Q4 2025 call (Feb 5, 2026)",
+      "Q4 net sales of $213.4B exceeded the high end of our guidance range of $213B."
+    ],
+    [
+      "Andy Jassy (CEO)",
+      "Q3 2025 call (Oct 30, 2025)",
+      "AWS grew 20.2% year-over-year to $33.1B in Q3 with an operating margin of 34.5%."
+    ],
+    [
+      "Andy Jassy (CEO)",
+      "Q2 2025 call (Jul 31, 2025)",
+      "Our advertising business reached a $50B annualized run rate, growing 22% year-over-year."
+    ]
+  ],
+  "bull": [
+    [
+      "MCS 0.875 — 6 BEATs + 2 HITs across 8 strict claims",
+      "Six of eight Q+1 net-sales guides BEAT the HIGH end of the range. Two HITs sat at the upper boundary. Zero MISSes. Last 4 quarters (Q2'25 through Q1'26) all BEATs.",
+      "Mint"
+    ],
+    [
+      "AWS reacceleration to ~21% YoY",
+      "AWS revenue growth re-accelerated from 17.2% (Q2 2024) to 21% (Q1 2026). Q1 2026 AWS operating margin 39.5%. AI workloads driving capacity demand. Anthropic + foundation-model training are scale drivers.",
+      "Mint"
+    ],
+    [
+      "Operating margin expansion",
+      "Consolidated operating margin expanded from 9.9% (Q2 2024) to 13.1% (Q1 2026) — highest in the 8-quarter series. Retail (NA + International) operating margins both improved. International segment now profitable.",
+      "Mint"
+    ],
+    [
+      "$125B AI capex commitment 2026",
+      "Capex run-rate accelerated from $25B/quarter (Q1 2025) to $44B/quarter (Q1 2026, +77% sequential). Management committed to ~$125B FY26 — supporting AWS capacity for hyperscaler-grade AI workloads.",
+      "Mint"
+    ],
+    [
+      "Advertising $50B+ annualized",
+      "Sponsored Ads + Prime Video ads + DSP now $50B+ run-rate growing ~22% YoY. Highest-margin segment after AWS.",
+      "Mint"
+    ],
+    [
+      "Valuation discount vs peers",
+      "EV/EBITDA FY1 18.4× sits -23% below large-cap tech peer median (24.0×). EV/Sales FY1 4.0× is -53% below peer median (8.5×) but reflects retail mix dilution. Sell-side target $313.55 = +16.6% upside.",
+      "Mint"
+    ]
+  ],
+  "bear": [
+    [
+      "FCF compression from capex surge",
+      "Q1 2026 FCF = -$18.2B (capex $44B vs OCF $26B). FCF margin in 8 quarters dropped from +12% in Q4 2024 to -10% in Q1 2026. Multi-year capex absorption window before AI-payback ROIs land.",
+      "Crimson"
+    ],
+    [
+      "AI capacity overbuild risk",
+      "$125B 2026 capex is 4x the FY23 run-rate. If AWS AI demand growth disappoints or hyperscaler price war erodes margins, multi-year ROIC dilution risk.",
+      "Crimson"
+    ],
+    [
+      "Retail margin volatility",
+      "NA retail and international margins remain volatile QoQ. Macro consumer softness (tariff impact on cross-border, China sellers) creates revenue mix headwinds.",
+      "Crimson"
+    ],
+    [
+      "Regulatory overhang",
+      "FTC monopolization case, EU DMA gatekeeper obligations, multi-state antitrust complaints. Potential structural remedy outcomes (Marketplace separation, AWS divestiture talk) overhang.",
+      "Crimson"
+    ],
+    [
+      "RSI 72 — near-term overbought",
+      "Stock near 52w high $278.56, RSI 72, MACD histogram negative (-0.41). Bollinger upper band approaching. Pullback risk in near term.",
+      "Crimson"
+    ],
+    [
+      "AWS share loss to Azure/GCP in AI",
+      "Azure AI revenue growing faster ($16B+ run-rate); Google Cloud Vertex AI gaining mindshare. AWS Bedrock + Trainium need to deliver on hyperscaler price-performance differentiation.",
+      "Crimson"
+    ]
+  ],
+  "trigger_up": [
+    "Q2 2026 ER (Jul 30, 2026): AWS reaccel above 22% YoY with operating margin >40%",
+    "FY2026 capex execution: signed AI customer wins to validate $125B spend",
+    "Operating margin sustains 13%+ for full year despite capex absorption",
+    "Advertising revenue crosses $60B annualized run-rate",
+    "Trainium adoption / hyperscaler AI training wins announced"
+  ],
+  "trigger_down": [
+    "Q2 2026 ER misses or AWS decelerates below 18% YoY",
+    "FCF stays negative for full year 2026 (capex outpaces OCF)",
+    "Operating margin compresses below 11% on retail weakness",
+    "FTC monopolization case enters remedies phase",
+    "AI hyperscaler price war erodes AWS gross margins"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (Quarterly)",
+      "baseline": "$147.98B (Q2 2024)",
+      "latest": "$181.52B (Q1 2026, +23% from Q2 2024)",
+      "verdict": "Sustained growth",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "+10% (Q2 2024)",
+      "latest": "+16.6% (Q1 2026)",
+      "verdict": "Accelerating",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "9.92% (Q2 2024)",
+      "latest": "13.14% (Q1 2026)",
+      "verdict": "+322bps expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net income",
+      "baseline": "$13.49B (Q2 2024)",
+      "latest": "$30.26B (Q1 2026, +124%)",
+      "verdict": "Doubling",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating cash flow",
+      "baseline": "$25.28B (Q2 2024)",
+      "latest": "$26.03B (Q1 2026)",
+      "verdict": "Flat — capex absorbing",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Free cash flow (quarterly)",
+      "baseline": "+$7.66B (Q2 2024)",
+      "latest": "-$18.17B (Q1 2026)",
+      "verdict": "Negative — capex surge",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Capex (quarterly)",
+      "baseline": "$17.6B (Q2 2024)",
+      "latest": "$44.2B (Q1 2026, +151%)",
+      "verdict": "AI infrastructure build",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Total equity",
+      "baseline": "$236.4B (Q2 2024)",
+      "latest": "$441.9B (Q1 2026, +87%)",
+      "verdict": "Strong accumulation",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility Score",
+      "baseline": "n/a",
+      "latest": "0.875 weighted · 0.750 strict",
+      "verdict": "6 BEATs + 2 HITs / 8 claims",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "Amazon is delivering an AI-era operating-margin expansion story while simultaneously digesting the largest capex acceleration in company history. The MCS is strong (6/8 BEATs, no MISSes) and the most recent 4 prints all hit the HIGH end. AWS reaccelerated to 21% YoY in Q1 2026 with 39.5% segment operating margin — the most important read. Trade-off: FCF goes negative in 2026 ($125B capex run-rate) but operating profits compound. Sell-side target $313.55 = +16.6% upside. Trade BULLISH but expect drawdowns when capex / FCF prints land — RSI 72 says wait for an entry pullback under $260.",
+  "disclaimer": "Valuation snapshots are FactSet consensus captured 2026-05-11. Not investment advice."
+}

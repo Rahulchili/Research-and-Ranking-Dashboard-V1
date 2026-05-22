@@ -1,0 +1,31 @@
+{
+  "spot": 609.63,
+  "shares_M": 2564,
+  "mkt_cap_B": 1563.09132,
+  "ttm": {
+    "revenue_B": 214.963,
+    "oi_B": 88.593,
+    "oi_margin_pct": 41.213139005317196,
+    "ni_reported_B": 70.587,
+    "ni_normalized_B": 77.24623,
+    "eps_reported": 27.5,
+    "eps_normalized": 30.127234789391576,
+    "pe_reported": 22.168363636363637,
+    "pe_normalized": 20.23517937380245,
+    "ps": 7.271443550750595
+  },
+  "fy26_est": {
+    "revenue_B": 254.60070000000002,
+    "eps_normalized": 35.92723951053042,
+    "pe_normalized": 16.96846204455299,
+    "ps": 6.1393834345310125,
+    "rev_growth_pct": 26.685923272130175
+  },
+  "fy27_est": {
+    "revenue_B": 305.52084,
+    "eps_normalized": 42.394142622425896,
+    "pe_normalized": 14.380052580129654,
+    "ps": 5.116152862109177
+  },
+  "peg": 0.6358581590569978
+}

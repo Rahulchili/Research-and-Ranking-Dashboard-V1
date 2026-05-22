@@ -1,0 +1,422 @@
+{
+  "ticker": "JNJ",
+  "name": "Johnson & Johnson",
+  "sector": "Health Care",
+  "industry": null,
+  "n_claims": 6,
+  "mcs_simple": 0.5833,
+  "mcs_information_adjusted": 0.5833,
+  "mcs_difficulty_weighted": 0.5833,
+  "beats": 3,
+  "hits": 1,
+  "misses": 2,
+  "subscores": {
+    "revenue": 1.0,
+    "eps": 0.0
+  },
+  "rows": [
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2025 Q3",
+      "target_quarter": "FY2026 Q1",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$51974.79B (range $50415.55\u2013$53534.04B) based on prior quarter $44638.00B + trailing growth of +16.4% Q/Q.",
+      "guide_low_M": 50415549.96,
+      "guide_high_M": 53534037.59,
+      "guide_mid_b": 51974.794,
+      "guided": "$50415.55\u201353534.04B",
+      "actual": "$15426.00B",
+      "actual_b": 15426.0,
+      "pct": -70.32,
+      "verdict": "Miss (below range)",
+      "accuracy": 0,
+      "bms": "M",
+      "difficulty": "medium",
+      "claim_id": "C01"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2025 Q2",
+      "target_quarter": "FY2025 Q3",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$33853.83B (range $32838.21\u2013$34869.44B) based on prior quarter $29075.00B + trailing growth of +16.4% Q/Q.",
+      "guide_low_M": 32838212.18,
+      "guide_high_M": 34869441.8,
+      "guide_mid_b": 33853.827,
+      "guided": "$32838.21\u201334869.44B",
+      "actual": "$44638.00B",
+      "actual_b": 44638.0,
+      "pct": 31.86,
+      "verdict": "Beat (above range)",
+      "accuracy": 0,
+      "bms": "B",
+      "difficulty": "medium",
+      "claim_id": "C02"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2025 Q1",
+      "target_quarter": "FY2025 Q2",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$16153.19B (range $15668.60\u2013$16637.79B) based on prior quarter $13873.00B + trailing growth of +16.4% Q/Q.",
+      "guide_low_M": 15668599.05,
+      "guide_high_M": 16637790.75,
+      "guide_mid_b": 16153.195,
+      "guided": "$15668.60\u201316637.79B",
+      "actual": "$29075.00B",
+      "actual_b": 29075.0,
+      "pct": 80.0,
+      "verdict": "Beat (above range)",
+      "accuracy": 0,
+      "bms": "B",
+      "difficulty": "medium",
+      "claim_id": "C03"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2024 Q3",
+      "target_quarter": "FY2025 Q1",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$49639.08B (range $48149.91\u2013$51128.26B) based on prior quarter $42632.00B + trailing growth of +16.4% Q/Q.",
+      "guide_low_M": 48149910.97,
+      "guide_high_M": 51128255.98,
+      "guide_mid_b": 49639.083,
+      "guided": "$48149.91\u201351128.26B",
+      "actual": "$13873.00B",
+      "actual_b": 13873.0,
+      "pct": -72.05,
+      "verdict": "Miss (below range)",
+      "accuracy": 0,
+      "bms": "M",
+      "difficulty": "medium",
+      "claim_id": "C04"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2024 Q2",
+      "target_quarter": "FY2024 Q3",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$32662.68B (range $31682.80\u2013$33642.57B) based on prior quarter $28052.00B + trailing growth of +16.4% Q/Q.",
+      "guide_low_M": 31682804.06,
+      "guide_high_M": 33642565.13,
+      "guide_mid_b": 32662.685,
+      "guided": "$31682.80\u201333642.57B",
+      "actual": "$42632.00B",
+      "actual_b": 42632.0,
+      "pct": 30.52,
+      "verdict": "Beat (above range)",
+      "accuracy": 0,
+      "bms": "B",
+      "difficulty": "medium",
+      "claim_id": "C05"
+    },
+    {
+      "metric": "EPS (diluted)",
+      "quarter_made": "FY2024 Q2",
+      "target_quarter": "FY2024 Q3",
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $1.11 (prior $3.27 \u00d7 -66.1% trailing).",
+      "guide_mid_b": 1.11,
+      "guided": "$1.11",
+      "actual": "$1.11",
+      "actual_b": 1.11,
+      "pct": 0.0,
+      "verdict": "In-line (in range)",
+      "accuracy": 1.0,
+      "bms": "H",
+      "difficulty": "medium",
+      "eps_guide_mid": 1.11,
+      "eps_actual": 1.11,
+      "claim_id": "C06"
+    }
+  ],
+  "fundamentals": {
+    "quarters": [
+      {
+        "fy": 2024,
+        "fq": 2,
+        "_source": "JNJ_10-Q_2024-06-30.htm",
+        "rev_q_M": 28052000.0,
+        "eps": 3.27,
+        "gross_profit_q_M": 15578000.0,
+        "capex_q_M": 0.0,
+        "gross_margin_pct": 55.53
+      },
+      {
+        "fy": 2024,
+        "fq": 3,
+        "_source": "JNJ_10-Q_2024-09-29.htm",
+        "rev_q_M": 42632000.0,
+        "eps": 1.11,
+        "gross_profit_q_M": 15508000.0,
+        "capex_q_M": 0.0,
+        "gross_margin_pct": 36.38
+      },
+      {
+        "fy": 2025,
+        "fq": 1,
+        "_source": "JNJ_10-Q_2025-03-30.htm",
+        "rev_q_M": 13873000.0,
+        "gross_profit_q_M": 14536000.0,
+        "capex_q_M": 0.0,
+        "gross_margin_pct": 104.78
+      },
+      {
+        "fy": 2025,
+        "fq": 2,
+        "_source": "JNJ_10-Q_2025-06-29.htm",
+        "rev_q_M": 29075000.0,
+        "gross_profit_q_M": 16115000.0,
+        "capex_q_M": 0.0,
+        "gross_margin_pct": 55.43
+      },
+      {
+        "fy": 2025,
+        "fq": 3,
+        "_source": "JNJ_10-Q_2025-09-28.htm",
+        "rev_q_M": 44638000.0,
+        "gross_profit_q_M": 16690000.0,
+        "capex_q_M": 0.0,
+        "gross_margin_pct": 37.39
+      },
+      {
+        "fy": 2026,
+        "fq": 1,
+        "_source": "JNJ_10-Q_2026-03-29.htm",
+        "rev_q_M": 15426000.0,
+        "gross_profit_q_M": 15956000.0,
+        "capex_q_M": 0.0,
+        "gross_margin_pct": 103.44
+      }
+    ],
+    "summary": {
+      "latest_quarter": "FY2026 Q1",
+      "latest_revenue_b": 15426.0,
+      "yoy_revenue_growth_pct": 11.2,
+      "ttm_revenue_b": 103012.0,
+      "latest_gross_margin_pct": 103.44,
+      "latest_capex_b": 0.0,
+      "n_quarters_in_series": 6,
+      "n_quarter_cagr_pct": -38.02
+    },
+    "_source": "htm filings (.htm parser)",
+    "risk_factors": {
+      "Material risks (from 10-K Item 1A)": [
+        "The Company seeks to identify, manage and mitigate risks to our business, but uncertainties and risks are difficult to predict and many are outside of the Company\u2019s control and cannot therefore be eliminated.",
+        "Investors should be aware that it is not possible to predict or identify all such factors and that the following is not meant to be a complete discussion of all potential risks or uncertainties.",
+        "If known or unknown risks or uncertainties materialize, the Company\u2019s business, results of operations or financial condition could be adversely affected, potentially in a material way.",
+        "Risks related to our business, industry and operations The Company\u2019s businesses operate in highly competitive product markets and competitive pressures could adversely affect the Company\u2019s earnings.",
+        "Competition for rights to product candidates and technologies may result in significant investment and acquisition costs and onerous agreement terms for the Company.",
+        "Competitors\u2019 development of more effective or less costly products, and/or their ability to secure patent and other intellectual property rights and successfully market products ahead of the Company, could negatively impact sales of the Company\u2019s existing products as well as its ability to bring new products to market despite significant prior investment in the related product development.",
+        "The Company may also experience operational and financial risk in connection with acquisitions if we are unable to fully identify potential risks and liabilities associated with acquired businesses or products, successfully integrate operations and employees, and successfully identify and realize synergies with existing businesses while containing acquisition-related strain on our management, operations and financial resources.",
+        "Development by other companies of new or improved products, processes and technologies could threaten to make the Company\u2019s products or technologies less desirable, less economical or obsolete."
+      ]
+    }
+  },
+  "q2q_analysis": {
+    "metadata": {
+      "ticker": "JNJ",
+      "method": "Forward claim guidance vs actual quarterly revenue, paired by target_quarter label.",
+      "generated_by": "add_ticker.py build_q2q_pairs()"
+    },
+    "q_to_q_pairs": [
+      {
+        "made_in": "FY2025 Q3",
+        "targets": "FY2026 Q1",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 51974.794,
+            "actual_b": 15426.0,
+            "delta_vs_mid_pct": -70.32,
+            "verdict": "Miss (below range)",
+            "guide_quote": "Consensus implied ~$51974.79B (range $50415.55\u2013$53534.04B) based on prior quarter $44638.00B + trailing growth of +16.4% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q2",
+        "targets": "FY2025 Q3",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 33853.827,
+            "actual_b": 44638.0,
+            "delta_vs_mid_pct": 31.86,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Consensus implied ~$33853.83B (range $32838.21\u2013$34869.44B) based on prior quarter $29075.00B + trailing growth of +16.4% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q1",
+        "targets": "FY2025 Q2",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 16153.195,
+            "actual_b": 29075.0,
+            "delta_vs_mid_pct": 80.0,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Consensus implied ~$16153.19B (range $15668.60\u2013$16637.79B) based on prior quarter $13873.00B + trailing growth of +16.4% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2024 Q3",
+        "targets": "FY2025 Q1",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 49639.083,
+            "actual_b": 13873.0,
+            "delta_vs_mid_pct": -72.05,
+            "verdict": "Miss (below range)",
+            "guide_quote": "Consensus implied ~$49639.08B (range $48149.91\u2013$51128.26B) based on prior quarter $42632.00B + trailing growth of +16.4% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2024 Q2",
+        "targets": "FY2024 Q3",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 32662.685,
+            "actual_b": 42632.0,
+            "delta_vs_mid_pct": 30.52,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Consensus implied ~$32662.68B (range $31682.80\u2013$33642.57B) based on prior quarter $28052.00B + trailing growth of +16.4% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2024 Q2",
+        "targets": "FY2024 Q3",
+        "line_items": [
+          {
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 1.11,
+            "actual_b": 1.11,
+            "delta_vs_mid_pct": 0.0,
+            "verdict": "In-line (in range)",
+            "guide_quote": "Implied EPS consensus: $1.11 (prior $3.27 \u00d7 -66.1% trailing)."
+          }
+        ]
+      }
+    ]
+  },
+  "_generated_by": "add_ticker.py",
+  "_generated_at": "2026-05-19T18:17:00.107492Z",
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue +11.2% YoY (strong for Health Care; sector strong-bar 10%)",
+      "TTM revenue $103012B",
+      "\u2192 F = 79.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.58 (3B / 1H / 2M on 6 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 58.3"
+    ],
+    "valuation": [
+      "PE 15.5\u00d7 vs peer median 10.5\u00d7 (48% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 5.2% (+3)",
+      "Dividend yield 3.0% (+3)",
+      "\u2192 V = 61"
+    ],
+    "technicals": [
+      "Spot $229.00 vs SMA200 $209.52 (+9.3%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 52.0 (neutral zone)",
+      "90-day return: -5.6%",
+      "1-year return: +53.1%",
+      "Drawdown from 52w high: -7.9%",
+      "\u2192 T = 64.0"
+    ],
+    "options": [
+      "Front-month ATM IV 36.8% (normal)",
+      "P/C OI 0.64 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew -10.19pp (call skew)",
+      "\u2192 O = 62.0 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Run-rate $15426.00B</strong> in FY2026 Q1, +11.2% YoY \u2014 accelerating trajectory entering the next print.",
+          "<strong>Next-quarter consensus: $23.40B</strong> (-99.8% vs current Q) \u2014 set by 24 broker contributors.",
+          "<strong>EPS consensus next qtr: $2.80</strong>.",
+          "<strong>Next earnings: 2026-07-15</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>TTM revenue $103012B</strong> \u2014 in cyclical drawdown.",
+          "<strong>Sell-side: FY1 $92B \u2192 FY2 $96B</strong> (+4.3% multi-year top-line implied).",
+          "<strong>Forward EBIT margin: 27.0%</strong> \u2014 structural premium business over the long-cycle view.",
+          "<strong>6-quarter run-rate CAGR: -38.0%</strong> \u2014 the secular trajectory the market is pricing.",
+          "<strong>Sector thesis (Health Care):</strong> GLP-1 / specialty pipeline and patent cliff dynamics define the 3-year setup."
+        ],
+        "takeaway": "Long-cycle thesis is intact if the next 2\u20134 quarters confirm a stabilization in trajectory."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $229.00 vs SMA50 $234.28</strong> (-2.3%) \u2014 short-term trend is bearish (price has lost the SMA50 line).",
+          "<strong>RSI(14): 52.0</strong> \u2014 neutral / no edge.",
+          "<strong>MACD: -1.94 vs signal -2.84</strong> \u2014 bullish crossover.",
+          "<strong>30-day return: -0.7%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 72%</strong> of band width (band width 5.1% \u2014 tight, breakout risk).",
+          "<strong>Near-term S/R:</strong> resistance ~$235.87, support ~$222.13. 80% of 52w range (low $149.79 \u2192 high $248.56)."
+        ],
+        "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $229.00 vs SMA200 $209.52</strong> (+9.3%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Golden cross active (SMA50 > SMA200) \u2014 institutional trend filter bullish.",
+          "<strong>1-year return: +53.1%</strong> \u2014 strong long-cycle leader.",
+          "<strong>Drawdown from 52w high: -7.9%</strong> \u2014 mild pullback",
+          "<strong>Cycle S/R:</strong> long-term resistance $248.56 (52w high), structural support $149.79 (52w low).",
+          "<strong>90-day return: -5.6%</strong> \u2014 intermediate-term weakness."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 36.8%</strong> \u2014 normal.",
+          "<strong>Put/Call OI: 0.64</strong> \u2014 call-heavy positioning (consensus bullish).",
+          "<strong>30-day implied move: \u00b15.3%</strong> ($216.92 \u2013 $241.08) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -10.19pp</strong> \u2014 call skew (upside bid \u2014 bullish positioning).",
+          "<strong>Front-month OI cluster: $230.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Calendar spread at $229 strike: short 30 DTE / long 60 DTE</strong>. Mid IV, range-bound \u2192 harvest near-term theta while keeping back-month optionality."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 23.7%</strong> across 9 expiries.",
+          "<strong>Available long-dated expiries:</strong> 9 dates spanning 98\u2013616 DTE.",
+          "<strong>90-day implied move: \u00b111.9%</strong> ($201.72 \u2013 $256.28).",
+          "<strong>398-day implied move: \u00b125.1%</strong> ($171.42 \u2013 $286.58) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $185 (-19.2% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in backwardation</strong> (-13.1pp front\u2192back) \u2014 near-term event premium; long-dated vol cheaper."
+        ],
+        "strategy": "<strong>Long 1-year ATM straddle at $229</strong>. Low IV (37%) + range-bound \u2192 buy volatility cheap ahead of a 12-month catalyst window; profits if move >\u00b137%."
+      }
+    }
+  }
+}

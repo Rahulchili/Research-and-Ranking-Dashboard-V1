@@ -1,0 +1,112 @@
+{
+  "name": "QUALCOMM Incorporated",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "QUALCOMM Incorporated (QCOM, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $10.6B (-3.5% YoY), net margin 69.5%. Management credibility 1.00 on 6 claims. Valuation 15.0x forward P/E (-43% vs peers). Spot $201.23 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "QCOM_ER_Q4_2025_5_NOV_2025.docx",
+      "As we execute on our strategy and expand our IP and capabilities, we believe we are 1 of the best positioned companies to lead the expansion of AI to the edge to cloud hybrid AI and develop a power-efficient cloud inferencing solution. I will now turn the call over to Akash.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "QCOM_ER_Q4_2025_5_NOV_2025.docx",
+      "With the recent enactment of the One Big Beautiful tax bill, we now expect our non-GAAP tax rate to remain in the 13% to 14% range going forward, and we anticipate lower cash tax payments relative to prior expectations.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "QCOM_ER_Q4_2025_5_NOV_2025.docx",
+      "Lastly, we generated record free cash flow of $12.8 billion. And consistent with our commitment, we returned nearly 100% to stockholders through repurchases and dividends through the year.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "QCOM_ER_Q4_2025_5_NOV_2025.docx",
+      "Following our outperformance for QCT IoT revenues in the fourth quarter, we expect a sequential decline consistent with last year, driven by seasonality in consumer products. In QCT Automotive, following a record fourth quarter, we estimate revenues in the first fiscal quarter to remain flat to slightly up on a sequential basis.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "QCOM_ER_Q4_2025_5_NOV_2025.docx",
+      "We have been focused in 2 areas. One is we believe we have one very strategic asset in the industry, which is a very competitive power efficient CPU that is both for the head node of AI clusters as well as general purpose compute.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "QCOM_ER_Q4_2025_5_NOV_2025.docx",
+      "We continue to grow content, ASPs and earnings because we see premium tier expanding. A lot of the upside we have in the handsets is primarily driven by the Android premium tier.",
+      "Why it matters — pricing power. Differentiates real franchise economics from commodity exposure."
+    ]
+  ],
+  "bull": [
+    "Profitability premium — net margin of 69.5% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +46.9pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 1.00 on 6 tracked forward claims (2B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $201.23 sits +26.4% above the 200-DMA ($159.24). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Range-positioning balanced — at 68% of the 52-week range ($124.07–$237.53), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Valuation discount to peers — 15.0x forward P/E versus peer median 26.5x — a 43% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Top-line in contraction — revenue down -3.5% YoY in FY2026 Q1. The question is whether this is the trough of a cyclical drawdown or the start of secular decline. Without a stabilization read in the next 1–2 quarters, the multiple is at risk of de-rating before earnings catches a bid."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 71.0% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 67.5% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $124.07 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "-3.5% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "69.5%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 6 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 26.5x FY1 P/E",
+      "latest": "15.0x (-43%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$201.23 vs $159.24 (+26.4%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "66.5",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. QUALCOMM Incorporated (QCOM) printed $10.6B in revenue in FY2026 Q1 (-3.5% YoY), net margin of 69.5%. Management credibility is strong (MCS 1.00, 2B/0H/0M record), supporting take-up of the forward guide. At 15.0x forward P/E, the stock trades at a 43% discount to peers (26.5x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is constructive: spot $201.23 above the 200-DMA ($159.24, +26.4%) with neutral momentum (RSI 67). Sell-side consensus PT of $195 implies -3.1% upside. 30-day implied move is ±19.3%; 90-day is ±33.4%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,52 @@
+{
+  "ticker": "MU-US",
+  "company": "Micron Technology, Inc.",
+  "exchange": "NASDAQ",
+  "as_of": "2026-05-08 close (snapshot retrieved 2026-05-09)",
+  "price_close": 746.81,
+  "price_change_d": 100.18,
+  "price_change_pct": 15.49,
+  "market_cap_B": 842.20,
+  "fully_diluted_mkt_cap_B": 861.38,
+  "enterprise_value_B": 854.87,
+  "trading_metrics": {
+    "open": 676.45,
+    "previous_close": 746.81,
+    "52w_range_low": 83.36,
+    "52w_range_high": 747.21,
+    "pct_of_52w_high": 99.95,
+    "volume": 47527510,
+    "30d_avg_daily_vol": 45764163,
+    "float_pct": 99.53,
+    "short_interest_days": 0.8,
+    "short_interest_pct_of_float": 3.24
+  },
+  "valuation_LTM": {
+    "PE_LTM": 35.26,
+    "PS_LTM": 14.67,
+    "EV_Sales_LTM": 14.71,
+    "EV_EBITDA_LTM": 23.09,
+    "WACC_pct": 12.97,
+    "Beta_3Y_Adj": 1.95
+  },
+  "estimates_next_q": {
+    "next_earnings_date": "2026-07-01",
+    "revenue_consensus_M": 33859.52,
+    "eps_consensus": 19.01,
+    "avg_rating_score": 1.19,
+    "avg_rating_label": "Buy",
+    "target_price": 588.59,
+    "broker_contributors": 53
+  },
+  "company_info": {
+    "sector": "Electronic Components and Manufacturing",
+    "industry": "Other Memory Semiconductors",
+    "fiscal_year_end": "Aug 28, 2025",
+    "ipo_date": "Jun 01, 1984",
+    "founded": 1978,
+    "ceo": "Sanjay Mehrotra",
+    "headquarters": "Boise, Idaho",
+    "employees": 53000
+  },
+  "1Y_perf_pct": 769.80
+}

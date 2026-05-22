@@ -1,0 +1,105 @@
+{
+  "name": "The Coca-Cola Company",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "The Coca-Cola Company (KO, Consumer Staples) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q2: revenue $12.47B (-0.5% YoY), net margin 31.8%. Valuation 24.0x forward P/E (+0% vs peers). Spot $81.34 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "KO_ER_Q4_2025_10_FEB_2026.docx",
+      "Looking back at 2025, we remained agile and focused on improving execution of our strategy to deliver on our guidance.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KO_ER_Q4_2025_10_FEB_2026.docx",
+      "We expect organic revenue growth of 4% to 5%, which is in line with our long-term growth algorithm.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KO_ER_Q4_2025_10_FEB_2026.docx",
+      "Based on current rates and our hedge positions, we anticipate an approximate 1 point currency tailwind to comparable net revenues and an approximate 3-point currency tailwind to comparable earnings per share for full year 2026.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "KO_ER_Q4_2025_10_FEB_2026.docx",
+      "Our underlying effective tax rate for 2026 is expected to be 20.9%. All in, we expect comparable earnings per share growth of 7% to 8% versus $3 in 2025.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KO_ER_Q4_2025_10_FEB_2026.docx",
+      "First, due to a calendar shift in the first quarter, where we'll have 6 additional days, we expect approximately half of the benefit to be offset by concentrate shipment cycling and timing. Also, the fourth quarter will have 6 fewer days.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KO_ER_Q4_2025_10_FEB_2026.docx",
+      "Lastly, assuming the pending sale of Coca-Cola Beverages Africa closes during the second half of 2026, subject to regulatory approvals, we expect the impact from acquisitions and divestitures to be back-half weighted.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Profitability premium — net margin of 31.8% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +12.4pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $81.34 sits +12.2% above the 200-DMA ($72.52). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Top-line in contraction — revenue down -0.5% YoY in FY2026 Q2. The question is whether this is the trough of a cyclical drawdown or the start of secular decline. Without a stabilization read in the next 1–2 quarters, the multiple is at risk of de-rating before earnings catches a bid.",
+    "Momentum stretched — RSI at 75 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($77.14) before adding.",
+    "52-week extension — at 99% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 33.3% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $81.56 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 29.8% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $65.67 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "-0.5% in FY2026 Q2",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "31.8%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.0x FY1 P/E",
+      "latest": "24.0x (+0%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$81.34 vs $72.52 (+12.2%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "75.1",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. The Coca-Cola Company (KO) printed $12.47B in revenue in FY2026 Q2 (-0.5% YoY), net margin of 31.8%. Trading at 24.0x forward P/E versus peer median of 24.0x — broadly in line with the group.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($72.52) but RSI 75 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $80 implies -1.6% upside. 30-day implied move is ±5.0%; 90-day is ±10.1%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

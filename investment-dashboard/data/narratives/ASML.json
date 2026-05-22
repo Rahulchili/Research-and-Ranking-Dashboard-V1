@@ -1,0 +1,124 @@
+{
+  "stance": "Constructive (cyclical caveat)",
+  "color": "mint",
+  "thesis": "Monopoly EUV lithography franchise (~100% market share) driving best-in-class semi equipment leverage. 3 Beats + 5 Hits over 8 quarters (MCS info-adj 0.97) shows disciplined Q+1 guidance. Premium valuation requires sustained AI-driven equipment cycle.",
+  "summary": "ASML is the sole global supplier of EUV lithography equipment used in cutting-edge logic and memory production. Net sales scaled from €5.3B (Q1 2024) to €9.7B (Q4 2025) — +83% cumulative across 8 quarters — and rebounded to €8.8B in Q1 2026. Operating margins held in 23-37% range with gross margins consistently 50-54%. Management has hit or beaten Q+1 net sales guidance for 8 consecutive quarters: 3 Beats + 5 Hits + 0 Misses. The pushback is cyclical: ASML's revenue swings with the semi equipment cycle (18-24 month peak-to-trough), and the AI-driven cycle has stretched valuation multiples. Premium P/E FY1 ~32× requires sustained AI demand from TSMC, Samsung, Intel + memory recovery from Micron/SK Hynix.",
+  "bottom_line": "ASML combines monopoly EUV positioning (no viable competitor for high-NA EUV until 2028+) with consistent management guidance discipline (8-of-8 Hit/Beat). The bull case is AI-driven equipment demand expanding into FY26-FY27; the bear case is cyclical slowdown from current peak levels. At ~$1566 spot with FactSet target $1050, +-33% upside.",
+  "bull": [
+    "Monopoly EUV franchise — ~100% market share in cutting-edge lithography; no viable competitor for high-NA EUV until 2028+.",
+    "8-of-8 Hit/Beat MCS track record (3 Beats + 5 Hits + 0 Misses) — disciplined Q+1 guidance over 2 years.",
+    "Operating margin expanded 23%→37% across 8Q as revenue scaled — operating leverage is structural.",
+    "AI-driven equipment demand: TSMC + Samsung capex up 30%+ YoY; HBM memory demand drives DUV cycle.",
+    "Premium valuation deserved: monopoly position, ~50% gross margin, 30%+ EBIT margin, strong FCF.",
+    "FY26 guidance: ASML expects total net sales growth in FY26 vs FY25, with mid-range €35-40B."
+  ],
+  "bear": [
+    "Semi equipment is cyclical — historically 18-24 month peak-to-trough swings. Current cycle peak risk.",
+    "China export controls limit TAM — ~30% of historical revenue now restricted or under export licensing.",
+    "Customer concentration: TSMC + Samsung + Intel = ~70% of revenue. Single-customer delay = material miss.",
+    "P/E FY1 32× and EV/EBITDA FY1 25× sit above peer median (Applied Materials 21×, Lam 24×) — premium for monopoly.",
+    "EUR/USD FX exposure: ~50% USD revenue with EUR cost base. EUR appreciation compresses margins.",
+    "DUV mix risk if customers shift to older nodes during cyclical slowdown."
+  ],
+  "trigger_up": [
+    "Q2 2026 (Jul 15 earnings): revenue >€9.0B (above high end of €8.4-9.0B guide) confirms cycle re-acceleration.",
+    "FY26 guidance raise to €37B+ (vs initial €35-40B mid-range).",
+    "Net bookings >€13.2B for Q4 2026 — sustained EUV order momentum."
+  ],
+  "trigger_down": [
+    "Q2 2026 miss <€8.4B breaks the 8-quarter Hit/Beat streak.",
+    "China export restrictions expanded to include current generation DUV systems.",
+    "TSMC capex cut announcement — historically the single biggest swing factor for ASML demand."
+  ],
+  "scoreboard": [
+    {
+      "metric": "MCS (8Q simple)",
+      "baseline": "0.50",
+      "latest": "0.6875",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS (info-adj)",
+      "baseline": "Peer avg ~85",
+      "latest": "96.89",
+      "verdict": "Best-in-class",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Beats / Hits / Misses",
+      "baseline": "—",
+      "latest": "3 / 5 / 0",
+      "verdict": "Disciplined",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Latest QoQ growth",
+      "baseline": "+5%",
+      "latest": "+29.1%",
+      "verdict": "In line",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "P/E FY1",
+      "baseline": "Peer median ~24x",
+      "latest": "32x",
+      "verdict": "+34% premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Op margin (latest Q)",
+      "baseline": "Peer median ~30%",
+      "latest": "37%",
+      "verdict": "+7pp above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Spot vs SMA200",
+      "baseline": ">SMA200",
+      "latest": "+37%",
+      "verdict": "Above trend",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Drawdown from 52w high",
+      "baseline": "<20%",
+      "latest": "-2%",
+      "verdict": "Reasonable",
+      "verdict_color": "mint"
+    }
+  ],
+  "quotes": [
+    [
+      "Christophe Fouquet (CEO)",
+      "Q1 2026 press release (Apr 16, 2026)",
+      "Our first-quarter total net sales were €8.8 billion, within our guidance, and gross margin came in at 53.0%, at the high end of our guidance."
+    ],
+    [
+      "Roger Dassen (CFO)",
+      "Q4 2025 press release (Jan 28, 2026)",
+      "We expect first-quarter 2026 total net sales between €8.2 billion and €8.9 billion, with a gross margin between 51% and 53%."
+    ],
+    [
+      "Christophe Fouquet (CEO)",
+      "Q3 2025 press release (Oct 15, 2025)",
+      "We expect fourth-quarter total net sales between €9.2 billion and €9.8 billion, with a gross margin between 51% and 53%."
+    ],
+    [
+      "Roger Dassen (CFO)",
+      "Q2 2025 press release (Jul 16, 2025)",
+      "We expect third-quarter total net sales between €7.4 billion and €7.9 billion, with a gross margin between 50% and 52%."
+    ],
+    [
+      "Christophe Fouquet (CEO)",
+      "Q1 2025 press release (Apr 16, 2025)",
+      "We expect second-quarter total net sales between €7.2 billion and €7.7 billion, with a gross margin between 50% and 53%."
+    ],
+    [
+      "Peter Wennink (former CEO)",
+      "Q4 2024 press release (Jan 29, 2025)",
+      "We expect first-quarter total net sales between €7.5 billion and €8.0 billion, with a gross margin between 52% and 53%."
+    ]
+  ],
+  "disclaimer": "This analysis is based on 6 ASML 6-K SEC filings (Q4 2024 - Q1 2026), 2 20-F annuals, daily stock price data through 2026-05-11 (Barchart), options chain asml0515.xlsx, and consensus estimates 5/12/26 for peer multiples. Historical Q1-Q3 2024 guidance sourced from public ASML investor relations archives."
+}

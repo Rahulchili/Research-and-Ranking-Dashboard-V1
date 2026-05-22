@@ -1,0 +1,31 @@
+{
+  "ticker_order": [
+    "META",
+    "AMD",
+    "NVDA",
+    "AVGO",
+    "AAPL",
+    "AMZN",
+    "NFLX",
+    "PLTR",
+    "TSLA",
+    "LLY",
+    "MU",
+    "SNOW",
+    "ASML",
+    "GOOG",
+    "AMAT"
+  ],
+  "summary": {
+    "scored": 4,
+    "pending": 1,
+    "total_claims": 14,
+    "total_beats": 14,
+    "total_misses": 0,
+    "transcripts_count": 16,
+    "filings_count": 19,
+    "avg_mcs": 0.9618,
+    "avg_sob": -0.0382
+  },
+  "scoringModel": {}
+}

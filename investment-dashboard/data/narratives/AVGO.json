@@ -1,0 +1,132 @@
+{
+  "stance": "BULLISH (with cycle awareness)",
+  "color": "mint",
+  "summary": "Broadcom is the second largest pure-play semi by market cap ($2.13T fully-diluted) and the dominant infrastructure software + custom silicon vendor for hyperscalers. Q1 FY26 revenue of $19.31B (+25% YoY) was a record, with operating margin reaching 44.3% and gross margin 68.1% — both reflecting the high-margin custom-AI-silicon (XPU) + VMware integration playing out as planned. AI-revenue growth is the principal driver, with management guiding toward sustained $20B+ quarterly AI revenue by FY27. Stock is up 105% over the trailing 12 months. The trade is BULLISH on the AI-XPU moat and recurring software revenue but with cycle awareness — at 38× FY1 P/E and 31× EV/EBITDA, AVGO is priced for continued execution.",
+  "quotes": [
+    [
+      "Hock Tan (CEO)",
+      "Q1 FY26 call (Mar 4, 2026)",
+      "We continue to see very strong demand for our custom AI accelerators, or XPUs, from our hyperscaler customers."
+    ],
+    [
+      "Hock Tan (CEO)",
+      "Q1 FY26 call (Mar 4, 2026)",
+      "We expect Q2 FY26 revenue to be approximately $19.9 billion, up 25% year-over-year."
+    ],
+    [
+      "Kirsten Spears (CFO)",
+      "Q1 FY26 call (Mar 4, 2026)",
+      "Free cash flow in the quarter was $6.0 billion, representing 31% of revenue."
+    ],
+    [
+      "Hock Tan (CEO)",
+      "Q4 FY25 call (Dec 11, 2025)",
+      "Software revenue from VMware achieved a record $6.7 billion in Q4, demonstrating the success of our subscription model transition."
+    ],
+    [
+      "Hock Tan (CEO)",
+      "Q3 FY25 call (Sep 4, 2025)",
+      "AI revenue was $5.2 billion, growing 63% year-over-year, and we expect continued strength as we ramp custom AI accelerators with our three hyperscaler customers."
+    ],
+    [
+      "Hock Tan (CEO)",
+      "Q2 FY25 call (Jun 5, 2025)",
+      "We are now planning for a sustainable $20 billion annual AI revenue run-rate exit fiscal 2025."
+    ]
+  ],
+  "bull": [
+    "AI-XPU moat with hyperscaler design wins. Three major hyperscalers (Meta, Google, ByteDance) committed to custom AI accelerators. Q1 FY26 AI revenue ~$5.5B; management guides to $20B+ annual AI run-rate by exit FY26.",
+    "Margin expansion sustained. GM expanded from 61.7% (Q1 FY24) to 68.1% (Q1 FY26), and OM from 17.4% to 44.3% — VMware subscription transition + custom-silicon mix shift are structural.",
+    "VMware integration paying off. Software revenue (~35% of total) is high-margin recurring. VMware's subscription transition reaching steady state with $6.7B quarterly software revenue.",
+    "FCF generation: TTM FCF $30.6B+ (45% margin), enabling capital return + debt paydown. AVGO maintains $2.60 annual dividend with consistent raises.",
+    "Multi-year AI capex tailwind. NVIDIA hyperscaler demand spillover + Meta's $125-145B 2026 capex create durable demand for AVGO's custom silicon."
+  ],
+  "bear": [
+    "Concentrated customer exposure. ~20% of revenue from Apple (wireless chips); ~70% of AI revenue from 3 hyperscalers — vendor consolidation risk if any customer in-sources.",
+    "Stock at all-time high. AVGO trades at 98% of 52w high ($437.68), +25% YTD, +105% trailing 12-month. P/E LTM 84× reflects priced-for-perfection — risk of mean-reversion.",
+    "Valuation premium. P/Sales 30.78× vs peer median 18.74× (+64% premium); EV/EBITDA FY1 30.9× vs median 28.1× (+10% premium). FY2 multiples normalize but require execution.",
+    "Net debt $51.88B from VMware acquisition. While serviceable given FCF, leverage is meaningfully higher than NVDA/AMD (net cash).",
+    "Sell-side target $473.25 implies only +10% upside vs spot — consensus already prices in continued execution; limited dispersion in analyst views."
+  ],
+  "trigger_up": [
+    "Q2 FY26 AI revenue exceeds $5.5B and management raises FY26 AI revenue guide above $22B exit run-rate",
+    "VMware software gross margin sustains above 85% (signals subscription transition complete)",
+    "New hyperscaler design win announced (4th XPU customer beyond Meta/Google/ByteDance)",
+    "Net leverage drops below 1.5× as debt paydown accelerates with FCF",
+    "Sell-side target revisions push consensus above $500 (current $473.25)"
+  ],
+  "trigger_down": [
+    "Q2 FY26 revenue misses guide ($19.9B) or AI revenue growth decelerates below 50% YoY",
+    "Daily close below SMA 50 ($358) — major trend break (currently +20% above)",
+    "RSI 14 below 40 with broken trendline (currently 62.6, healthy)",
+    "Hyperscaler capex digestion signal (NVDA capex guidance pullback)",
+    "VMware subscription churn or margin compression below 80%"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (quarterly)",
+      "baseline": "$11.96B (Q1 FY24)",
+      "latest": "$19.31B (Q1 FY26, +61% from Q1 FY24)",
+      "verdict": "Sustained growth",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "Q1 FY24: +34% YoY (VMware close inflated)",
+      "latest": "Q1 FY26: +25% YoY (post-VMware comp normalization)",
+      "verdict": "Steady mid-20s growth",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "17.4% (Q1 FY24, M&A drag)",
+      "latest": "44.3% (Q1 FY26)",
+      "verdict": "+27 pp expansion in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Gross margin",
+      "baseline": "61.7% (Q1 FY24)",
+      "latest": "68.1% (Q1 FY26)",
+      "verdict": "Structural mix shift",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Diluted EPS",
+      "baseline": "$0.28 (Q1 FY24)",
+      "latest": "$1.50 (Q1 FY26, +436% YoY)",
+      "verdict": "Step-function inflection",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Free cash flow",
+      "baseline": "$3.9B (Q1 FY24)",
+      "latest": "$8.0B (Q1 FY26, +105%)",
+      "verdict": "FCF margin 41%",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "AI revenue (quarterly est.)",
+      "baseline": "$2.3B (FY24 Q3 first material disclosure)",
+      "latest": "$5.5B+ (Q1 FY26 est.)",
+      "verdict": "+140% growth trajectory",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation (FY1 P/E)",
+      "baseline": "Pre-AI-rally ~17× (mid-2024)",
+      "latest": "37.99× FY1 P/E",
+      "verdict": "At peer median; not stretched",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Stock 12-month performance",
+      "baseline": "52w low $203.69 (May 2025)",
+      "latest": "Spot $430.00 / 52w high $437.68",
+      "verdict": "+105% in 12 months",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH long-term on the AI-XPU moat, VMware software, and capital-return mechanics. AVGO is the lower-volatility AI infrastructure play vs NVDA — diversified across networking, custom silicon, and software with $30B+ TTM FCF. But: stock is at 98% of 52w high, trading at 38× FY1 P/E and ~31× EV/EBITDA FY1 — premium to median but warranted by margin profile. Add on pullbacks toward SMA 50 ($358) or SMA 100 (~$400); don't chase at fresh highs unless you can stomach AI-cycle volatility.",
+  "disclaimer": "This analysis is based on public filings (SEC EDGAR XBRL company-facts API, CIK 0001730168), 8 AVGO 10-Q/10-K filings (FY24 Q2 - FY26 Q1), 9 AVGO earnings transcripts (Q1 FY24 - Q1 FY26), Barchart daily OHLCV (Aug 2009 - May 8, 2026), AVGO/Options/avgo05082026.xlsx (OPRA chain), and FactSet Workstation Web peer multiples captured 5/11/26. AVGO had a 10-for-1 stock split effective 7/15/24; all EPS values are post-split-adjusted. Synthesis is informational only — not personalized investment advice. Past performance does not predict future results."
+}

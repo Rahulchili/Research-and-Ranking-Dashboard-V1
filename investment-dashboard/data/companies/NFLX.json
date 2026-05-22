@@ -1,0 +1,256 @@
+{
+  "ticker": "NFLX",
+  "n_claims": 8,
+  "mcs_simple": 0.875,
+  "mcs_strict": 0.875,
+  "mcs_information_adjusted": 0.75,
+  "mcs_difficulty_weighted": 0.875,
+  "subscores": {
+    "guide_accuracy_pct": 87.5,
+    "strict_beat_rate_pct": 87.5
+  },
+  "baseline_random": 0.5,
+  "baseline_always_up": 0.5,
+  "skill_over_baseline": 0.375,
+  "beats": 7,
+  "hits": 0,
+  "misses": 1,
+  "rows": [
+    {
+      "claim_id": "NFLX_01",
+      "quarter_made": "2024-Q1",
+      "target_quarter": "2024-Q2",
+      "guided": "$9.490B",
+      "actual": "$9.559B",
+      "pct": 0.73,
+      "bms": 1,
+      "accuracy": 0.9927,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0.73,
+      "source_quote": "Q1 2024 shareholder letter (Apr 18 2024): forecast Q2 revenue $9.49B.",
+      "transcript": "NFLX_Q1_2024_Letter_18-APR-2024.pdf",
+      "note": "Actual $9.559B = BEAT by 0.7%."
+    },
+    {
+      "claim_id": "NFLX_02",
+      "quarter_made": "2024-Q2",
+      "target_quarter": "2024-Q3",
+      "guided": "$9.727B",
+      "actual": "$9.825B",
+      "pct": 1.01,
+      "bms": 1,
+      "accuracy": 0.9899,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 1.01,
+      "source_quote": "Q2 2024 shareholder letter (Jul 18 2024): forecast Q3 revenue $9.727B.",
+      "transcript": "NFLX_Q2_2024_Letter_18-JUL-2024.pdf",
+      "note": "Actual $9.825B = BEAT by 1.0%."
+    },
+    {
+      "claim_id": "NFLX_03",
+      "quarter_made": "2024-Q3",
+      "target_quarter": "2024-Q4",
+      "guided": "$10.128B",
+      "actual": "$10.247B",
+      "pct": 1.17,
+      "bms": 1,
+      "accuracy": 0.9883,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 1.17,
+      "source_quote": "Q3 2024 shareholder letter (Oct 17 2024): forecast Q4 revenue $10.128B.",
+      "transcript": "NFLX_Q3_2024_Letter_17-OCT-2024.pdf",
+      "note": "Actual $10.247B = BEAT by 1.2%."
+    },
+    {
+      "claim_id": "NFLX_04",
+      "quarter_made": "2024-Q4",
+      "target_quarter": "2025-Q1",
+      "guided": "$10.416B",
+      "actual": "$10.543B",
+      "pct": 1.22,
+      "bms": 1,
+      "accuracy": 0.9878,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 1.22,
+      "source_quote": "Q4 2024 shareholder letter (Jan 21 2025): forecast Q1 2025 revenue $10.416B.",
+      "transcript": "NFLX_Q4_2024_Letter_21-JAN-2025.pdf",
+      "note": "Actual $10.543B = BEAT by 1.2%."
+    },
+    {
+      "claim_id": "NFLX_05",
+      "quarter_made": "2025-Q1",
+      "target_quarter": "2025-Q2",
+      "guided": "$11.035B",
+      "actual": "$11.079B",
+      "pct": 0.4,
+      "bms": 1,
+      "accuracy": 0.996,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0.4,
+      "source_quote": "Q1 2025 shareholder letter (Apr 17 2025): forecast Q2 2025 revenue $11.035B.",
+      "transcript": "NFLX_Q1_2025_Letter_17-APR-2025.pdf",
+      "note": "Actual $11.079B = BEAT by 0.4%."
+    },
+    {
+      "claim_id": "NFLX_06",
+      "quarter_made": "2025-Q2",
+      "target_quarter": "2025-Q3",
+      "guided": "$11.526B",
+      "actual": "$11.510B",
+      "pct": -0.14,
+      "bms": -1,
+      "accuracy": 0.9986,
+      "verdict": "Miss",
+      "verdict_score": 0,
+      "delta_vs_high_pct": -0.14,
+      "source_quote": "Q2 2025 shareholder letter (Jul 17 2025): forecast Q3 2025 revenue $11.526B.",
+      "transcript": "NFLX_Q2_2025_Letter_17-JUL-2025.pdf",
+      "note": "Actual $11.510B = MISS by 0.14% (slightly below point forecast)."
+    },
+    {
+      "claim_id": "NFLX_07",
+      "quarter_made": "2025-Q3",
+      "target_quarter": "2025-Q4",
+      "guided": "$11.962B",
+      "actual": "$12.043B",
+      "pct": 0.68,
+      "bms": 1,
+      "accuracy": 0.9932,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0.68,
+      "source_quote": "Q3 2025 shareholder letter (Oct 21 2025): forecast Q4 2025 revenue $11.962B.",
+      "transcript": "NFLX_Q3_2025_Letter_21-OCT-2025.pdf",
+      "note": "Actual $12.043B = BEAT by 0.7%."
+    },
+    {
+      "claim_id": "NFLX_08",
+      "quarter_made": "2025-Q4",
+      "target_quarter": "2026-Q1",
+      "guided": "$12.196B",
+      "actual": "$12.250B",
+      "pct": 0.44,
+      "bms": 1,
+      "accuracy": 0.9956,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0.44,
+      "source_quote": "Q4 2025 shareholder letter (Jan 20 2026): forecast Q1 2026 revenue $12.196B.",
+      "transcript": "NFLX_Q4_2025_Letter_20-JAN-2026.pdf",
+      "note": "Actual $12.250B = BEAT by 0.4%."
+    }
+  ],
+  "summary": {
+    "n_claims": 8,
+    "beats": 7,
+    "hits": 0,
+    "misses": 1,
+    "mcs_weighted": 0.875,
+    "mcs_strict": 0.875
+  },
+  "scoring_methodology": "Strict: BEAT = actual above HIGH end of guidance (1.0); HIT = within range (0.5); MISS = below LOW end (0.0). Reported MCS = weighted average.",
+  "name": "Netflix, Inc.",
+  "sector": "Communication Services",
+  "lens_rationale": {
+    "fundamentals": [
+      "\u2192 F = 60.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.88 (7B / 0H / 1M on 8 tracked forward claims)",
+      "Track record: high credibility",
+      "\u2192 M = 87.5"
+    ],
+    "valuation": [
+      "PE 23.9\u00d7 (peer-set not available, absolute scoring)",
+      "\u2192 V = 55"
+    ],
+    "technicals": [
+      "Spot $87.49 vs SMA200 $103.34 (-15.3%, bearish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 24.1 (oversold)",
+      "90-day return: +6.4%",
+      "1-year return: -24.3%",
+      "Drawdown from 52w high: -34.8%",
+      "\u2192 T = 40.2"
+    ],
+    "options": [
+      "Front-month ATM IV 37.4% (normal)",
+      "P/C OI 0.64 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +3.12pp (put skew)",
+      "\u2192 O = 54.0 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Next earnings: 2026-07-16</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>Sector thesis (Communication Services):</strong> Ad spending normalization + AI-driven engagement reshaping the long-run growth profile."
+        ],
+        "takeaway": "Long-cycle thesis is intact if the next 2\u20134 quarters confirm a stabilization in trajectory."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $87.49 vs SMA50 $95.54</strong> (-8.4%) \u2014 short-term trend is bearish (price has lost the SMA50 line).",
+          "<strong>RSI(14): 24.1</strong> \u2014 oversold \u2014 possible bounce setup.",
+          "<strong>MACD: -2.15 vs signal -1.23</strong> \u2014 bearish crossover.",
+          "<strong>30-day return: -14.3%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 22%</strong> of band width (band width 27.3% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$90.11, support ~$84.87. 21% of 52w range (low $75.01 \u2192 high $134.12)."
+        ],
+        "takeaway": "Short-term trader bias: short (trend + momentum aligned bearish)."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $87.49 vs SMA200 $103.34</strong> (-15.3%) \u2014 long-term trend is in **downtrend**.",
+          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
+          "<strong>1-year return: -24.3%</strong> \u2014 in distribution.",
+          "<strong>Drawdown from 52w high: -34.8%</strong> \u2014 bear-market drawdown (contrarian setup).",
+          "<strong>Cycle S/R:</strong> long-term resistance $134.12 (52w high), structural support $75.01 (52w low).",
+          "<strong>90-day return: +6.4%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: distribute on strength \u2014 trend has rolled over."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 37.4%</strong> \u2014 normal.",
+          "<strong>Put/Call OI: 0.64</strong> \u2014 call-heavy positioning (consensus bullish).",
+          "<strong>30-day implied move: \u00b17.9%</strong> ($78.74 \u2013 $92.16) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: +3.12pp</strong> \u2014 put skew (downside hedges bid).",
+          "<strong>Front-month OI cluster: $1.5</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Calendar spread at $85 strike: short 30 DTE / long 60 DTE</strong>. Mid IV, range-bound \u2192 harvest near-term theta while keeping back-month optionality."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 36.6%</strong> across 11 expiries.",
+          "<strong>Available long-dated expiries:</strong> 11 dates spanning 101\u2013948 DTE.",
+          "<strong>90-day implied move: \u00b118.6%</strong> ($69.52 \u2013 $101.38).",
+          "<strong>220-day implied move: \u00b128.1%</strong> ($61.42 \u2013 $109.48) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Flat term structure</strong> (-0.9pp) \u2014 no near-term event premium; long-dated vol fairly priced."
+        ],
+        "strategy": "<strong>Long 1-year ATM straddle at $85</strong>. Low IV (37%) + range-bound \u2192 buy volatility cheap ahead of a 12-month catalyst window; profits if move >\u00b137%."
+      }
+    }
+  }
+}

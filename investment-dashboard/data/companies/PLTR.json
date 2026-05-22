@@ -1,0 +1,1167 @@
+{
+  "ticker": "PLTR",
+  "n_claims": 8,
+  "mcs_simple": 1,
+  "mcs_information_adjusted": 0.8333,
+  "mcs_difficulty_weighted": 1,
+  "subscores": {
+    "guide_accuracy_pct": 100
+  },
+  "baseline_random": 0.5,
+  "baseline_always_up": 0.5,
+  "skill_over_baseline": 0.5,
+  "beats": 8,
+  "misses": 0,
+  "rows": [
+    {
+      "claim_id": "PLTR_01",
+      "quarter_made": "FY24-Q1",
+      "target_quarter": "FY24-Q2",
+      "guided_revenue_b_low": 0.649,
+      "guided_revenue_b_high": 0.653,
+      "guided_revenue_b": 0.651,
+      "actual_revenue_b": 0.6779,
+      "verdict": "Beat",
+      "delta_pct": 4.13,
+      "source_quote": "\"For Q2 2024, we expect revenue of between $649 million and $653 million...\" (Q1 2024 call, May 6 2024)",
+      "transcript": "PLTR_ER_Q1_2024_6_MAY_2024.docx"
+    },
+    {
+      "claim_id": "PLTR_02",
+      "quarter_made": "FY24-Q2",
+      "target_quarter": "FY24-Q3",
+      "guided_revenue_b_low": 0.697,
+      "guided_revenue_b_high": 0.701,
+      "guided_revenue_b": 0.699,
+      "actual_revenue_b": 0.7259,
+      "verdict": "Beat",
+      "delta_pct": 3.85,
+      "source_quote": "\"For Q3 2024, we expect revenue of between $697 million and $701 million...\" (Q2 2024 call, Aug 5 2024)",
+      "transcript": "PLTR_ER_Q2_2024_5_AUG_2024.docx"
+    },
+    {
+      "claim_id": "PLTR_03",
+      "quarter_made": "FY24-Q3",
+      "target_quarter": "FY24-Q4",
+      "guided_revenue_b_low": 0.767,
+      "guided_revenue_b_high": 0.771,
+      "guided_revenue_b": 0.769,
+      "actual_revenue_b": 0.8278,
+      "verdict": "Beat",
+      "delta_pct": 7.65,
+      "source_quote": "\"For Q4 2024, we expect revenue of between $767 million and $771 million...\" (Q3 2024 call, Nov 4 2024)",
+      "transcript": "PLTR_ER_Q3_2024_4_NOV_2024.docx"
+    },
+    {
+      "claim_id": "PLTR_04",
+      "quarter_made": "FY24-Q4",
+      "target_quarter": "FY25-Q1",
+      "guided_revenue_b_low": 0.858,
+      "guided_revenue_b_high": 0.862,
+      "guided_revenue_b": 0.86,
+      "actual_revenue_b": 0.8838,
+      "verdict": "Beat",
+      "delta_pct": 2.77,
+      "source_quote": "\"For Q1 2025, we expect revenue of between $858 million and $862 million...\" (Q4 2024 call, Feb 3 2025)",
+      "transcript": "PLTR_ER_Q4_2024_3_FEB_2025.docx"
+    },
+    {
+      "claim_id": "PLTR_05",
+      "quarter_made": "FY25-Q1",
+      "target_quarter": "FY25-Q2",
+      "guided_revenue_b_low": 0.934,
+      "guided_revenue_b_high": 0.938,
+      "guided_revenue_b": 0.936,
+      "actual_revenue_b": 1.004,
+      "verdict": "Beat",
+      "delta_pct": 7.26,
+      "source_quote": "\"For Q2 2025, we expect revenue of between $934 million and $938 million...\" (Q1 2025 call, May 5 2025)",
+      "transcript": "PLTR_ER_Q1_2025_5_MAY_2025.docx"
+    },
+    {
+      "claim_id": "PLTR_06",
+      "quarter_made": "FY25-Q2",
+      "target_quarter": "FY25-Q3",
+      "guided_revenue_b_low": 1.083,
+      "guided_revenue_b_high": 1.087,
+      "guided_revenue_b": 1.085,
+      "actual_revenue_b": 1.1811,
+      "verdict": "Beat",
+      "delta_pct": 8.86,
+      "source_quote": "\"For Q3 2025, we expect revenue of between $1.083 billion and $1.087 billion...\" (Q2 2025 call, Aug 4 2025)",
+      "transcript": "PLTR_ER_Q2_2025_4_AUG_2025.docx"
+    },
+    {
+      "claim_id": "PLTR_07",
+      "quarter_made": "FY25-Q3",
+      "target_quarter": "FY25-Q4",
+      "guided_revenue_b_low": 1.327,
+      "guided_revenue_b_high": 1.331,
+      "guided_revenue_b": 1.329,
+      "actual_revenue_b": 1.4068,
+      "verdict": "Beat",
+      "delta_pct": 5.85,
+      "source_quote": "\"For Q4 2025, we expect revenue of between $1.327 billion and $1.331 billion...\" (Q3 2025 call, Nov 3 2025)",
+      "transcript": "PLTR_ER_Q3_2025_3_NOV_2025.docx"
+    },
+    {
+      "claim_id": "PLTR_08",
+      "quarter_made": "FY25-Q4",
+      "target_quarter": "FY26-Q1",
+      "guided_revenue_b_low": 1.532,
+      "guided_revenue_b_high": 1.536,
+      "guided_revenue_b": 1.534,
+      "actual_revenue_b": 1.6328,
+      "verdict": "Beat",
+      "delta_pct": 6.44,
+      "source_quote": "\"For Q1 2026, we expect revenue of between $1.532 [billion] and $1.536 billion...\" (Q4 2025 call, Feb 2 2026)",
+      "transcript": "PLTR_ER_Q4_2025_2_FEB_2026.docx"
+    }
+  ],
+  "fundamentals": {
+    "summary": {
+      "latest_quarter": "FY2026 Q1",
+      "latest_revenue_b": 1.63,
+      "latest_net_income_b": 0.871,
+      "latest_eps": 0.34,
+      "latest_gross_margin_pct": 86.78,
+      "latest_operating_margin_pct": 46.18,
+      "latest_net_margin_pct": 53.32,
+      "latest_fcf_margin_pct": 54.62,
+      "latest_ocf_b": 0.899,
+      "latest_capex_b": 0.007,
+      "latest_fcf_b": 0.892,
+      "latest_equity_b": 8.45,
+      "latest_current_ratio": 6.91,
+      "latest_roe_q_annualized_pct": 41.21,
+      "latest_dso_days": 78.3,
+      "yoy_revenue_growth_pct": null,
+      "n_quarter_cagr_pct": 60.43,
+      "n_quarters_in_series": 9,
+      "ttm_revenue_b": 5.22,
+      "ttm_revenue_yoy_pct": 67.71,
+      "_yoy_supressed_note": "Legacy XBRL extraction captured cumulative YTD as latest-quarter revenue; YoY suppressed to avoid misleading display."
+    },
+    "quarters": [
+      {
+        "fy": 2024,
+        "fq": 1,
+        "rev_q_M": 634.3,
+        "oi_q_M": 80.9,
+        "ni_q_M": 105.5,
+        "ocf_q_M": 129.6,
+        "capex_q_M": 2.7,
+        "fcf_q_M": 126.9,
+        "eps": 0.04,
+        "gross_margin_pct": 81.67,
+        "operating_margin_pct": 12.75,
+        "net_margin_pct": 16.64,
+        "fcf_margin_pct": 20.01,
+        "equity_M": 3775.2,
+        "current_ratio": 5.91,
+        "roe_q_annualized_pct": 11.18,
+        "dso_days": 69.9,
+        "rd_q_M": 110,
+        "gross_profit_q_M": 518.1,
+        "sbc_q_M": 125.7,
+        "shares_diluted_M": 2227,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2024,
+        "fq": 2,
+        "rev_q_M": 678.1,
+        "oi_q_M": 105.3,
+        "ni_q_M": 134.1,
+        "ocf_q_M": 144.2,
+        "capex_q_M": 2.9,
+        "fcf_q_M": 141.3,
+        "eps": 0.06,
+        "gross_margin_pct": 81.04,
+        "operating_margin_pct": 15.53,
+        "net_margin_pct": 19.78,
+        "fcf_margin_pct": 20.84,
+        "equity_M": 4050.5,
+        "current_ratio": 5.92,
+        "roe_q_annualized_pct": 13.25,
+        "dso_days": 88.5,
+        "rd_q_M": 108.8,
+        "gross_profit_q_M": 549.6,
+        "sbc_q_M": 141.8,
+        "shares_diluted_M": 2237.9,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2024,
+        "fq": 3,
+        "rev_q_M": 725.5,
+        "oi_q_M": 113.1,
+        "ni_q_M": 143.5,
+        "ocf_q_M": 419.8,
+        "capex_q_M": 4,
+        "fcf_q_M": 415.8,
+        "eps": 0.06,
+        "gross_margin_pct": 79.79,
+        "operating_margin_pct": 15.59,
+        "net_margin_pct": 19.78,
+        "fcf_margin_pct": 57.31,
+        "equity_M": 4498.1,
+        "current_ratio": 5.67,
+        "roe_q_annualized_pct": 12.76,
+        "dso_days": 83.8,
+        "rd_q_M": 117.6,
+        "gross_profit_q_M": 578.9,
+        "sbc_q_M": 142.4,
+        "shares_diluted_M": 2269.8,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2024,
+        "fq": 4,
+        "rev_q_M": 827.5,
+        "oi_q_M": 11,
+        "ni_q_M": 79,
+        "ocf_q_M": 460.3,
+        "capex_q_M": 3.1,
+        "fcf_q_M": 457.2,
+        "eps": 0.03,
+        "gross_margin_pct": 78.91,
+        "operating_margin_pct": 1.33,
+        "net_margin_pct": 9.55,
+        "fcf_margin_pct": 55.25,
+        "equity_M": 5003.3,
+        "current_ratio": 5.96,
+        "roe_q_annualized_pct": 6.32,
+        "dso_days": 63.2,
+        "rd_q_M": 171.5,
+        "gross_profit_q_M": 653,
+        "sbc_q_M": 281.8,
+        "shares_diluted_M": 2338.8,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 1,
+        "rev_q_M": 883.9,
+        "oi_q_M": 176,
+        "ni_q_M": 214,
+        "ocf_q_M": 310.3,
+        "capex_q_M": 6.2,
+        "fcf_q_M": 304.1,
+        "eps": 0.08,
+        "gross_margin_pct": 80.43,
+        "operating_margin_pct": 19.92,
+        "net_margin_pct": 24.22,
+        "fcf_margin_pct": 34.4,
+        "equity_M": 5424.2,
+        "current_ratio": 6.49,
+        "roe_q_annualized_pct": 15.78,
+        "dso_days": 74.7,
+        "rd_q_M": 134.9,
+        "gross_profit_q_M": 710.9,
+        "sbc_q_M": 155.3,
+        "shares_diluted_M": 2359.7,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 2,
+        "rev_q_M": 1003.7,
+        "oi_q_M": 269.3,
+        "ni_q_M": 326.7,
+        "ocf_q_M": 539.3,
+        "capex_q_M": 7.6,
+        "fcf_q_M": 531.6,
+        "eps": 0.13,
+        "gross_margin_pct": 80.78,
+        "operating_margin_pct": 26.83,
+        "net_margin_pct": 32.55,
+        "fcf_margin_pct": 52.97,
+        "equity_M": 5928.9,
+        "current_ratio": 6.32,
+        "roe_q_annualized_pct": 22.04,
+        "dso_days": 67.8,
+        "rd_q_M": 135,
+        "gross_profit_q_M": 810.8,
+        "sbc_q_M": 160,
+        "shares_diluted_M": 2371.8,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 3,
+        "rev_q_M": 1181.1,
+        "oi_q_M": 393.3,
+        "ni_q_M": 475.6,
+        "ocf_q_M": 507.7,
+        "capex_q_M": 6.8,
+        "fcf_q_M": 500.9,
+        "eps": 0.18,
+        "gross_margin_pct": 82.45,
+        "operating_margin_pct": 33.3,
+        "net_margin_pct": 40.27,
+        "fcf_margin_pct": 42.41,
+        "equity_M": 6590.5,
+        "current_ratio": 6.43,
+        "roe_q_annualized_pct": 28.87,
+        "dso_days": 77.5,
+        "rd_q_M": 144.2,
+        "gross_profit_q_M": 973.8,
+        "sbc_q_M": 172.3,
+        "shares_diluted_M": 2383.3,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2025,
+        "fq": 4,
+        "rev_q_M": 1406.8,
+        "oi_q_M": 575.4,
+        "ni_q_M": 608.7,
+        "ocf_q_M": 777.3,
+        "capex_q_M": 13.3,
+        "fcf_q_M": 764,
+        "eps": 0.23,
+        "gross_margin_pct": 84.65,
+        "operating_margin_pct": 40.9,
+        "net_margin_pct": 43.27,
+        "fcf_margin_pct": 54.31,
+        "equity_M": 7387.3,
+        "current_ratio": 7.11,
+        "roe_q_annualized_pct": 32.96,
+        "dso_days": 67.4,
+        "rd_q_M": 143.6,
+        "gross_profit_q_M": 1190.8,
+        "sbc_q_M": 196.4,
+        "shares_diluted_M": 2391.2,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      },
+      {
+        "fy": 2026,
+        "fq": 1,
+        "rev_q_M": 1632.6,
+        "oi_q_M": 754,
+        "ni_q_M": 870.5,
+        "ocf_q_M": 899.2,
+        "capex_q_M": 7.4,
+        "fcf_q_M": 891.8,
+        "eps": 0.34,
+        "gross_margin_pct": 86.78,
+        "operating_margin_pct": 46.18,
+        "net_margin_pct": 53.32,
+        "fcf_margin_pct": 54.62,
+        "equity_M": 8449.7,
+        "current_ratio": 6.91,
+        "roe_q_annualized_pct": 41.21,
+        "dso_days": 78.3,
+        "rd_q_M": 161,
+        "gross_profit_q_M": 1416.8,
+        "sbc_q_M": 201.6,
+        "shares_diluted_M": 2397.1,
+        "long_debt_to_equity": null,
+        "inventory_M": null
+      }
+    ],
+    "risk_factors": {
+      "Customer concentration / Government dependency": [
+        "Top customer concentration in commercial >40%+ historically; meaningful US Govt revenue (>40%) creates budget cycle and political-administration risk",
+        "Maven contract extensions and FedRAMP authorizations are critical drivers; ceiling expansions are non-guaranteed",
+        "Trump administration software priorities may shift; DoD/IC/civilian agency budgets are appropriation-dependent"
+      ],
+      "Valuation & multiple compression": [
+        "P/E FY1 95\u00d7 vs peer median 38\u00d7 = +152% premium \u2014 needs sustained 50%+ growth to defend",
+        "Any deceleration below ~40% YoY revenue growth would trigger multiple compression risk",
+        "Rule of 40 currently 129% \u2014 historic high; reversion to 60-80% range is statistically likely"
+      ],
+      "Competition": [
+        "Microsoft (Fabric/Copilot/Azure AI), Snowflake, Databricks compete in data platform",
+        "C3.ai, Snorkel AI, Anaconda compete in commercial AIP segment",
+        "Open-source RAG/agent frameworks (LangChain, LlamaIndex) lower switching costs for greenfield"
+      ],
+      "Founder/governance": [
+        "Alex Karp founder-CEO key-person risk; Karp public-political profile creates contract risk in EU/Asia",
+        "Dual-class share structure (Class B founders control voting); minority Class A holders have limited governance influence",
+        "Insider sales by Karp/Thiel/Cohen ongoing through 10b5-1 plans"
+      ],
+      "Macro & operational": [
+        "Recession could compress US Commercial new-logo wins (AIP boot-camps convert at variable rates)",
+        "SBC as % of revenue ~20%; share count dilution offsets buybacks",
+        "Foreign government deals (UK NHS, Greece, Israel, Korea, Japan) face local political risk"
+      ]
+    },
+    "risk_source": "PLTR 10-K (FY2025) Item 1A Risk Factors + Q1 FY26 10-Q",
+    "market_cap_note": "$328.17B basic / $353.28B fully diluted (May 11, 2026)",
+    "audit_note": "All quarterly figures from SEC EDGAR XBRL companyfacts (CIK 0001321655). Revenue uses RevenueFromContractWithCustomerExcludingAssessedTax tag. Q4 standalones derived FY\u22129M where standalone not separately tagged."
+  },
+  "q2q_analysis": {
+    "metadata": {
+      "ticker": "PLTR",
+      "generated": "2026-05-12",
+      "method": "Next-quarter revenue guidance tracked across earnings calls. PLTR provides explicit Q+1 GAAP revenue ranges."
+    },
+    "q_to_q_pairs": [
+      {
+        "made_in": "FY24-Q1",
+        "targets": "FY24-Q2",
+        "target_q_key": "FY24-Q2",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q1_2024_6_MAY_2024.docx",
+        "call_date": "2024-05-06",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 0.649,
+            "guide_high_b": 0.653,
+            "guide_mid_b": 0.651,
+            "actual_b": 0.6779,
+            "delta_vs_mid_pct": 4.13,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q2 2024, we expect revenue of between $649 million and $653 million...\" (Q1 2024 call, May 6 2024)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q1_2024_6_MAY_2024.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2024-06-30.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 0.6779,
+          "revenue_guide_mid_b": 0.651,
+          "revenue_delta_pct": 4.13,
+          "stock_reaction_1d_pct": -15.11,
+          "stock_reaction_5d_pct": -16.94,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2024-04-29",
+              "close": 22.83
+            },
+            {
+              "date": "2024-04-30",
+              "close": 21.97
+            },
+            {
+              "date": "2024-05-01",
+              "close": 22.12
+            },
+            {
+              "date": "2024-05-02",
+              "close": 22.55
+            },
+            {
+              "date": "2024-05-03",
+              "close": 23.33
+            },
+            {
+              "date": "2024-05-06",
+              "close": 25.21
+            },
+            {
+              "date": "2024-05-07",
+              "close": 21.4
+            },
+            {
+              "date": "2024-05-08",
+              "close": 21.56
+            },
+            {
+              "date": "2024-05-09",
+              "close": 21.14
+            },
+            {
+              "date": "2024-05-10",
+              "close": 20.6
+            },
+            {
+              "date": "2024-05-13",
+              "close": 20.94
+            }
+          ],
+          "close_tminus1": 23.33,
+          "close_t": 25.21,
+          "close_tplus1": 21.4
+        }
+      },
+      {
+        "made_in": "FY24-Q2",
+        "targets": "FY24-Q3",
+        "target_q_key": "FY24-Q3",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q2_2024_5_AUG_2024.docx",
+        "call_date": "2024-08-05",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 0.697,
+            "guide_high_b": 0.701,
+            "guide_mid_b": 0.699,
+            "actual_b": 0.7259,
+            "delta_vs_mid_pct": 3.85,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q3 2024, we expect revenue of between $697 million and $701 million...\" (Q2 2024 call, Aug 5 2024)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q2_2024_5_AUG_2024.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2024-09-30.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 0.7259,
+          "revenue_guide_mid_b": 0.699,
+          "revenue_delta_pct": 3.85,
+          "stock_reaction_1d_pct": 10.38,
+          "stock_reaction_5d_pct": 21.96,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2024-07-29",
+              "close": 27.08
+            },
+            {
+              "date": "2024-07-30",
+              "close": 26.37
+            },
+            {
+              "date": "2024-07-31",
+              "close": 26.89
+            },
+            {
+              "date": "2024-08-01",
+              "close": 26.08
+            },
+            {
+              "date": "2024-08-02",
+              "close": 24.74
+            },
+            {
+              "date": "2024-08-05",
+              "close": 24.09
+            },
+            {
+              "date": "2024-08-06",
+              "close": 26.59
+            },
+            {
+              "date": "2024-08-07",
+              "close": 26.32
+            },
+            {
+              "date": "2024-08-08",
+              "close": 29.28
+            },
+            {
+              "date": "2024-08-09",
+              "close": 30.01
+            },
+            {
+              "date": "2024-08-12",
+              "close": 29.38
+            }
+          ],
+          "close_tminus1": 24.74,
+          "close_t": 24.09,
+          "close_tplus1": 26.59
+        }
+      },
+      {
+        "made_in": "FY24-Q3",
+        "targets": "FY24-Q4",
+        "target_q_key": "FY24-Q4",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q3_2024_4_NOV_2024.docx",
+        "call_date": "2024-11-04",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 0.767,
+            "guide_high_b": 0.771,
+            "guide_mid_b": 0.769,
+            "actual_b": 0.8278,
+            "delta_vs_mid_pct": 7.65,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q4 2024, we expect revenue of between $767 million and $771 million...\" (Q3 2024 call, Nov 4 2024)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q3_2024_4_NOV_2024.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2024-12-31.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 0.8278,
+          "revenue_guide_mid_b": 0.769,
+          "revenue_delta_pct": 7.65,
+          "stock_reaction_1d_pct": 23.47,
+          "stock_reaction_5d_pct": 45.47,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2024-10-28",
+              "close": 44.97
+            },
+            {
+              "date": "2024-10-29",
+              "close": 44.93
+            },
+            {
+              "date": "2024-10-30",
+              "close": 43.69
+            },
+            {
+              "date": "2024-10-31",
+              "close": 41.56
+            },
+            {
+              "date": "2024-11-01",
+              "close": 41.92
+            },
+            {
+              "date": "2024-11-04",
+              "close": 41.41
+            },
+            {
+              "date": "2024-11-05",
+              "close": 51.13
+            },
+            {
+              "date": "2024-11-06",
+              "close": 55.53
+            },
+            {
+              "date": "2024-11-07",
+              "close": 55.88
+            },
+            {
+              "date": "2024-11-08",
+              "close": 58.39
+            },
+            {
+              "date": "2024-11-11",
+              "close": 60.24
+            }
+          ],
+          "close_tminus1": 41.92,
+          "close_t": 41.41,
+          "close_tplus1": 51.13
+        }
+      },
+      {
+        "made_in": "FY24-Q4",
+        "targets": "FY25-Q1",
+        "target_q_key": "FY25-Q1",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q4_2024_3_FEB_2025.docx",
+        "call_date": "2025-02-03",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 0.858,
+            "guide_high_b": 0.862,
+            "guide_mid_b": 0.86,
+            "actual_b": 0.8838,
+            "delta_vs_mid_pct": 2.77,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q1 2025, we expect revenue of between $858 million and $862 million...\" (Q4 2024 call, Feb 3 2025)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q4_2024_3_FEB_2025.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2025-03-31.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 0.8838,
+          "revenue_guide_mid_b": 0.86,
+          "revenue_delta_pct": 2.77,
+          "stock_reaction_1d_pct": 23.99,
+          "stock_reaction_5d_pct": 39.3,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-01-27",
+              "close": 75.44
+            },
+            {
+              "date": "2025-01-28",
+              "close": 80.23
+            },
+            {
+              "date": "2025-01-29",
+              "close": 79.76
+            },
+            {
+              "date": "2025-01-30",
+              "close": 81.22
+            },
+            {
+              "date": "2025-01-31",
+              "close": 82.49
+            },
+            {
+              "date": "2025-02-03",
+              "close": 83.74
+            },
+            {
+              "date": "2025-02-04",
+              "close": 103.83
+            },
+            {
+              "date": "2025-02-05",
+              "close": 101.36
+            },
+            {
+              "date": "2025-02-06",
+              "close": 111.28
+            },
+            {
+              "date": "2025-02-07",
+              "close": 110.85
+            },
+            {
+              "date": "2025-02-10",
+              "close": 116.65
+            }
+          ],
+          "close_tminus1": 82.49,
+          "close_t": 83.74,
+          "close_tplus1": 103.83
+        }
+      },
+      {
+        "made_in": "FY25-Q1",
+        "targets": "FY25-Q2",
+        "target_q_key": "FY25-Q2",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q1_2025_5_MAY_2025.docx",
+        "call_date": "2025-05-05",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 0.934,
+            "guide_high_b": 0.938,
+            "guide_mid_b": 0.936,
+            "actual_b": 1.004,
+            "delta_vs_mid_pct": 7.26,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q2 2025, we expect revenue of between $934 million and $938 million...\" (Q1 2025 call, May 5 2025)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q1_2025_5_MAY_2025.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2025-06-30.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 1.004,
+          "revenue_guide_mid_b": 0.936,
+          "revenue_delta_pct": 7.26,
+          "stock_reaction_1d_pct": -12.05,
+          "stock_reaction_5d_pct": -4.29,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-04-28",
+              "close": 114.65
+            },
+            {
+              "date": "2025-04-29",
+              "close": 116.08
+            },
+            {
+              "date": "2025-04-30",
+              "close": 118.44
+            },
+            {
+              "date": "2025-05-01",
+              "close": 116.2
+            },
+            {
+              "date": "2025-05-02",
+              "close": 124.28
+            },
+            {
+              "date": "2025-05-05",
+              "close": 123.77
+            },
+            {
+              "date": "2025-05-06",
+              "close": 108.86
+            },
+            {
+              "date": "2025-05-07",
+              "close": 110.48
+            },
+            {
+              "date": "2025-05-08",
+              "close": 119.15
+            },
+            {
+              "date": "2025-05-09",
+              "close": 117.3
+            },
+            {
+              "date": "2025-05-12",
+              "close": 118.46
+            }
+          ],
+          "close_tminus1": 124.28,
+          "close_t": 123.77,
+          "close_tplus1": 108.86
+        }
+      },
+      {
+        "made_in": "FY25-Q2",
+        "targets": "FY25-Q3",
+        "target_q_key": "FY25-Q3",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q2_2025_4_AUG_2025.docx",
+        "call_date": "2025-08-04",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 1.083,
+            "guide_high_b": 1.087,
+            "guide_mid_b": 1.085,
+            "actual_b": 1.1811,
+            "delta_vs_mid_pct": 8.86,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q3 2025, we expect revenue of between $1.083 billion and $1.087 billion...\" (Q2 2025 call, Aug 4 2025)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q2_2025_4_AUG_2025.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2025-09-30.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 1.1811,
+          "revenue_guide_mid_b": 1.085,
+          "revenue_delta_pct": 8.86,
+          "stock_reaction_1d_pct": 7.85,
+          "stock_reaction_5d_pct": 13.71,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-07-28",
+              "close": 157.88
+            },
+            {
+              "date": "2025-07-29",
+              "close": 156.24
+            },
+            {
+              "date": "2025-07-30",
+              "close": 158.61
+            },
+            {
+              "date": "2025-07-31",
+              "close": 158.35
+            },
+            {
+              "date": "2025-08-01",
+              "close": 154.27
+            },
+            {
+              "date": "2025-08-04",
+              "close": 160.66
+            },
+            {
+              "date": "2025-08-05",
+              "close": 173.27
+            },
+            {
+              "date": "2025-08-06",
+              "close": 179.54
+            },
+            {
+              "date": "2025-08-07",
+              "close": 182.2
+            },
+            {
+              "date": "2025-08-08",
+              "close": 186.96
+            },
+            {
+              "date": "2025-08-11",
+              "close": 182.68
+            }
+          ],
+          "close_tminus1": 154.27,
+          "close_t": 160.66,
+          "close_tplus1": 173.27
+        }
+      },
+      {
+        "made_in": "FY25-Q3",
+        "targets": "FY25-Q4",
+        "target_q_key": "FY25-Q4",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q3_2025_3_NOV_2025.docx",
+        "call_date": "2025-11-03",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 1.327,
+            "guide_high_b": 1.331,
+            "guide_mid_b": 1.329,
+            "actual_b": 1.4068,
+            "delta_vs_mid_pct": 5.85,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q4 2025, we expect revenue of between $1.327 billion and $1.331 billion...\" (Q3 2025 call, Nov 3 2025)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q3_2025_3_NOV_2025.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2025-12-31.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 1.4068,
+          "revenue_guide_mid_b": 1.329,
+          "revenue_delta_pct": 5.85,
+          "stock_reaction_1d_pct": -7.94,
+          "stock_reaction_5d_pct": -6.55,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2025-10-27",
+              "close": 189.18
+            },
+            {
+              "date": "2025-10-28",
+              "close": 189.6
+            },
+            {
+              "date": "2025-10-29",
+              "close": 198.81
+            },
+            {
+              "date": "2025-10-30",
+              "close": 194.55
+            },
+            {
+              "date": "2025-10-31",
+              "close": 200.47
+            },
+            {
+              "date": "2025-11-03",
+              "close": 207.18
+            },
+            {
+              "date": "2025-11-04",
+              "close": 190.74
+            },
+            {
+              "date": "2025-11-05",
+              "close": 187.9
+            },
+            {
+              "date": "2025-11-06",
+              "close": 175.05
+            },
+            {
+              "date": "2025-11-07",
+              "close": 177.93
+            },
+            {
+              "date": "2025-11-10",
+              "close": 193.61
+            }
+          ],
+          "close_tminus1": 200.47,
+          "close_t": 207.18,
+          "close_tplus1": 190.74
+        }
+      },
+      {
+        "made_in": "FY25-Q4",
+        "targets": "FY26-Q1",
+        "target_q_key": "FY26-Q1",
+        "transcript_source": "PLTR/Transcripts/PLTR_ER_Q4_2025_2_FEB_2026.docx",
+        "call_date": "2026-02-02",
+        "narrative": "",
+        "line_items": [
+          {
+            "metric": "Revenue (next-quarter, GAAP)",
+            "metric_kind": "revenue",
+            "guide_low_b": 1.532,
+            "guide_high_b": 1.536,
+            "guide_mid_b": 1.534,
+            "actual_b": 1.6328,
+            "delta_vs_mid_pct": 6.44,
+            "verdict": "Beat (above guide high end)",
+            "guide_quote": "\"For Q1 2026, we expect revenue of between $1.532 [billion] and $1.536 billion...\" (Q4 2025 call, Feb 2 2026)",
+            "guide_source_file": "PLTR/Transcripts/PLTR_ER_Q4_2025_2_FEB_2026.docx",
+            "actual_source_filing": "PLTR/Earnings/PLTR_10-Q_2026-03-31.htm",
+            "horizon": "Next fiscal quarter (Q+1 \u2014 Alex Karp CEO / Dave Glazer CFO call)"
+          }
+        ],
+        "summary_metrics": {
+          "revenue_actual_b": 1.6328,
+          "revenue_guide_mid_b": 1.534,
+          "revenue_delta_pct": 6.44,
+          "stock_reaction_1d_pct": 6.85,
+          "stock_reaction_5d_pct": -3.28,
+          "stock_reaction_window_t5": [
+            {
+              "date": "2026-01-26",
+              "close": 167.47
+            },
+            {
+              "date": "2026-01-27",
+              "close": 165.7
+            },
+            {
+              "date": "2026-01-28",
+              "close": 157.35
+            },
+            {
+              "date": "2026-01-29",
+              "close": 151.86
+            },
+            {
+              "date": "2026-01-30",
+              "close": 146.59
+            },
+            {
+              "date": "2026-02-02",
+              "close": 147.76
+            },
+            {
+              "date": "2026-02-03",
+              "close": 157.88
+            },
+            {
+              "date": "2026-02-04",
+              "close": 139.54
+            },
+            {
+              "date": "2026-02-05",
+              "close": 130.01
+            },
+            {
+              "date": "2026-02-06",
+              "close": 135.9
+            },
+            {
+              "date": "2026-02-09",
+              "close": 142.91
+            }
+          ],
+          "close_tminus1": 146.59,
+          "close_t": 147.76,
+          "close_tplus1": 157.88
+        }
+      }
+    ],
+    "summary": {
+      "n_claims": 8,
+      "beats": 8,
+      "misses": 0,
+      "mcs_simple": 1
+    }
+  },
+  "name": "Palantir Technologies Inc.",
+  "sector": "Information Technology",
+  "lens_rationale": {
+    "fundamentals": [
+      "Net margin 53.3% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 46.2%",
+      "Latest-quarter FCF $0.9B (positive)",
+      "TTM revenue $5B",
+      "\u2192 F = 85.5 (sector-relative)"
+    ],
+    "management": [
+      "MCS 1.00 (8B / 0H / 0M on 8 tracked forward claims)",
+      "Track record: high credibility",
+      "\u2192 M = 100.0"
+    ],
+    "valuation": [
+      "PE 95.4\u00d7 (peer-set not available, absolute scoring)",
+      "\u2192 V = 35"
+    ],
+    "technicals": [
+      "Spot $137.80 vs SMA200 $163.93 (-15.9%, bearish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 41.7 (neutral zone)",
+      "90-day return: +1.4%",
+      "1-year return: +24.7%",
+      "Drawdown from 52w high: -33.6%",
+      "\u2192 T = 41.0"
+    ],
+    "options": [
+      "Front-month ATM IV 57.5% (elevated)",
+      "P/C OI 0.70 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew -27.40pp (call skew)",
+      "\u2192 O = 59.1 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Next-quarter consensus: $1.81B</strong> (+10.8% vs current Q) \u2014 set by 31 broker contributors.",
+          "<strong>EPS consensus next qtr: $0.31</strong> vs current $0.34.",
+          "<strong>Margin context: 53.3% net margin</strong> (46.2% op margin) \u2014 expansion likely.",
+          "<strong>Next earnings: 2026-08-10</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>TTM revenue $5B</strong> (+67.7% TTM YoY) \u2014 strong secular tailwind.",
+          "<strong>9-quarter run-rate CAGR: +60.4%</strong> \u2014 the secular trajectory the market is pricing.",
+          "<strong>Sector thesis (Information Technology):</strong> Multi-year AI/cloud capex cycle remains the dominant secular theme."
+        ],
+        "takeaway": "Long-cycle thesis is intact if the next 2\u20134 quarters confirm a stabilization in trajectory."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $137.80 vs SMA50 $145.70</strong> (-5.4%) \u2014 short-term trend is bearish (price has lost the SMA50 line).",
+          "<strong>RSI(14): 41.7</strong> \u2014 neutral / no edge.",
+          "<strong>MACD: -1.98 vs signal -1.54</strong> \u2014 bearish crossover.",
+          "<strong>30-day return: +5.6%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 33%</strong> of band width (band width 14.2% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$141.93, support ~$133.67. 27% of 52w range (low $112.07 \u2192 high $207.52)."
+        ],
+        "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $137.80 vs SMA200 $163.93</strong> (-15.9%) \u2014 long-term trend is in **downtrend**.",
+          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
+          "<strong>1-year return: +24.7%</strong> \u2014 compounder pace.",
+          "<strong>Drawdown from 52w high: -33.6%</strong> \u2014 bear-market drawdown (contrarian setup).",
+          "<strong>Cycle S/R:</strong> long-term resistance $207.52 (52w high), structural support $112.07 (52w low).",
+          "<strong>90-day return: +1.4%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 57.5%</strong> \u2014 elevated (premium-selling favored).",
+          "<strong>Put/Call OI: 0.70</strong> \u2014 call-heavy positioning (consensus bullish).",
+          "<strong>30-day implied move: \u00b112.7%</strong> ($120.37 \u2013 $155.23) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -27.40pp</strong> \u2014 call skew (upside bid \u2014 bullish positioning).",
+          "<strong>Front-month OI cluster: $150.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Calendar spread at $138 strike: short 30 DTE / long 60 DTE</strong>. Mid IV, range-bound \u2192 harvest near-term theta while keeping back-month optionality."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 54.8%</strong> across 11 expiries.",
+          "<strong>Available long-dated expiries:</strong> 11 dates spanning 101\u2013948 DTE.",
+          "<strong>90-day implied move: \u00b128.2%</strong> ($98.90 \u2013 $176.70).",
+          "<strong>220-day implied move: \u00b142.1%</strong> ($79.80 \u2013 $195.80) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $189 (+37.5% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Flat term structure</strong> (-2.7pp) \u2014 no near-term event premium; long-dated vol fairly priced."
+        ],
+        "strategy": "<strong>Sell 6-month strangle: short $124 put / short $152 call</strong>. Range-bound + high IV \u2192 premium-selling on both sides; profits if spot stays within \u00b110%; manage with rolls or assignment."
+      }
+    }
+  }
+}

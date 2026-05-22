@@ -1,0 +1,105 @@
+{
+  "name": "Zoom Communications, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Zoom Communications, Inc. (ZM, Communication Services) — composite stance BULLISH. Latest reported quarter FY2025 Q4: revenue $1.23B (+5.8% YoY), net margin 49.8%. Valuation 13.5x forward P/E (-7% vs peers). Spot $107.12 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "ZM_ER_Q4_2026_25_FEB_2026.docx",
+      "Thank you, Eric, and hello, everyone. I'm excited to be with you today to share Zoom's Q4 and full FY '26 financial performance.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "ZM_ER_Q4_2026_25_FEB_2026.docx",
+      "Non-GAAP gross margin in Q4 was 79.8%, up 1 point from Q4 of last year. primarily due to continued cost optimization efforts, while we remain focused on investing in the.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "ZM_ER_Q4_2026_25_FEB_2026.docx",
+      "For Q1, we expect deferred revenue to be up 1% to 2% year-over-year. which takes into account the recent trend of larger and longer duration competitive takeouts in Phone and Contact Center that often include credits to defray transition costs.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ZM_ER_Q4_2026_25_FEB_2026.docx",
+      "We expect to recognize 57% of the total RPO as revenue over the next 12 months, down 2 points year-over-year.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ZM_ER_Q4_2026_25_FEB_2026.docx",
+      "Under the current $3.7 billion share buyback plan in Q4, we repurchased 3.8 million shares for approximately $324 million. That brought our total repurchase under the plan to 36.3 million shares for $2.7 billion at the end of Q4.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "ZM_ER_Q4_2026_25_FEB_2026.docx",
+      "And finally, we continue to be strong stewards of shareholder capital. We reduced stock-based compensation expense by 18% in FY '26.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +5.8% YoY in FY2025 Q4 (TTM $4.8B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Profitability premium — net margin of 49.8% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +30.9pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $107.12 sits +27.6% above the 200-DMA ($83.92). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Momentum stretched — RSI at 73 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($85.42) before adding.",
+    "52-week extension — at 95% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 9% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 51.3% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $109.21 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 3% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 47.8% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $69.77 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+5.8% in FY2025 Q4",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "49.8%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 14.5x FY1 P/E",
+      "latest": "13.5x (-7%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$107.12 vs $83.92 (+27.6%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "73.4",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. Zoom Communications, Inc. (ZM) printed $1.23B in revenue in FY2025 Q4 (+5.8% YoY), net margin of 49.8%. Trading at 13.5x forward P/E versus peer median of 14.5x — broadly in line with the group.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($83.92) but RSI 73 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $90 implies -16.0% upside. 30-day implied move is ±18.0%; 90-day is ±28.7%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

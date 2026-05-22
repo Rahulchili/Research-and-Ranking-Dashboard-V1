@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investment Research Priority Dashboard</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div id="dashboard-root" role="main">
+    <noscript>This dashboard requires JavaScript. Open in a browser with JS enabled.</noscript>
+  </div>
+
+  <!-- Data must load BEFORE the app so window.DASHBOARD_DATA is defined when app.js runs. -->
+  <script src="./data/dashboard-data.js"></script>
+  <!-- Per-ticker dossier bundle. Inlining lets the dashboard work when opened
+       as a local file (file://) without fetch()/CORS errors. -->
+  <script src="./data/tickers-bundle.js"></script>
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

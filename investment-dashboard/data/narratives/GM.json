@@ -1,0 +1,110 @@
+{
+  "name": "General Motors Company",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "General Motors Company (GM, Consumer Discretionary) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $4.28B (+2.7% YoY), net margin 0.1%. Management credibility 1.00 on 1 claims. Valuation 5.3x forward P/E (-29% vs peers). Spot $74.04 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "GM_ER_Q4_2025_27_JAN_2026.docx",
+      "Thank you, Ashish, and good morning, everyone. I'm incredibly proud of our global team, including our dealers and suppliers for delivering an exceptional 2025.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "GM_ER_Q4_2025_27_JAN_2026.docx",
+      "As a result, we expect full year EBIT-adjusted margins in North America will be back in the 8% to 10% margin range.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GM_ER_Q4_2025_27_JAN_2026.docx",
+      "We expect our deferred revenue from software and services to be approximately $7.5 billion by the end of this year, up nearly 40% from 2025.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GM_ER_Q4_2025_27_JAN_2026.docx",
+      "Our robotics and AI work will converge at Orion assembly where plant upgrades include advanced vision systems and the installation of 2,500 robots and [ cobots ] controlled by GM design software. Then in 2028, we expect to launch our breakthrough LMR battery chemistry.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GM_ER_Q4_2025_27_JAN_2026.docx",
+      "Finally, I want to mention that we are hosting our call today from our new global headquarters in Hudson's Detroit. This beautiful space is designed for the collaborative and tech-enabled way people work today, while also saving us tens of millions of dollars annually.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "GM_ER_Q4_2025_27_JAN_2026.docx",
+      "Looking ahead to 2026 and 2027, we expect to invest $10 billion to $12 billion annually, including approximately $5 billion to expand U.S. manufacturing capacity for some of the highest demand vehicles and further reduce our tariff exposure.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Management credibility — MCS of 1.00 on 1 tracked forward claims (1B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Range-positioning balanced — at 68% of the 52-week range ($47.25–$86.38), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Valuation discount to peers — 5.3x forward P/E versus peer median 7.5x — a 29% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Growth fading — +2.7% YoY revenue growth in FY2026 Q1 is well below the 5–8% threshold that supports the current multiple. A re-acceleration story needs to develop in the next 2–3 quarters or estimates will need to come down.",
+    "Margin pressure — net margin of 0.1% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 1.6% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 2.0% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $47.25 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+2.7% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "0.1%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 1 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 7.5x FY1 P/E",
+      "latest": "5.3x (-29%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$74.04 vs $71.56 (+3.5%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "36.7",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. General Motors Company (GM) printed $4.28B in revenue in FY2026 Q1 (+2.7% YoY), net margin of 0.1%. Management credibility is strong (MCS 1.00, 1B/0H/0M record), supporting take-up of the forward guide. At 5.3x forward P/E, the stock trades at a 29% discount to peers (7.5x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is constructive: spot $74.04 above the 200-DMA ($71.56, +3.5%) with neutral momentum (RSI 37). Sell-side consensus PT of $67 implies -9.5% upside. 30-day implied move is ±10.0%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

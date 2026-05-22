@@ -1,0 +1,112 @@
+{
+  "name": "CrowdStrike Holdings, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "CrowdStrike Holdings, Inc. (CRWD, Information Technology) — composite stance BULLISH. Latest reported quarter FY2025 Q4: revenue $1.23B (+22.2% YoY). Management credibility 1.00 on 1 claims. Valuation 95.0x forward P/E (+94% vs peers). Spot $647.29 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "CRWD_ER_Q4_2026_3_MAR_2026.docx",
+      "Here's what I see unfolding in the market. We see the AI revolution creating 2 disparate groups of software companies.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "CRWD_ER_Q4_2026_3_MAR_2026.docx",
+      "We saw broad strength across all our major geographic markets with the U.S., Japan, Europe, the Middle East and Africa, all exceeding expectations. Total Q4 non-GAAP gross margin was a record 79% and Q4 non-GAAP subscription gross margin was a record 81% of revenue, primarily as a result of continued cloud optimization.",
+      "Why it matters — margin trajectory. Tests whether revenue growth is dropping to the bottom line."
+    ],
+    [
+      "Management",
+      "CRWD_ER_Q4_2026_3_MAR_2026.docx",
+      "The outperformance was driven by our strong top line performance, gross margin improvement and sales execution, underscoring our commitment to durable profitable growth as we continue to balance strong net new ARR growth and operational excellence. In Q4, we delivered positive GAAP net income attributable to CrowdStrike of $38.7 million.",
+      "Why it matters — margin trajectory. Tests whether revenue growth is dropping to the bottom line."
+    ],
+    [
+      "Management",
+      "CRWD_ER_Q4_2026_3_MAR_2026.docx",
+      "As George mentioned earlier, we see the AI revolution creating 2 disparate groups of software companies, one, those who are now extensionally vulnerable and two, those who will thrive. CrowdStrike is thriving amid the AI revolution as we not only leverage AI within our entire platform, but our platform helps organizations adopt AI safely and securely.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "CRWD_ER_Q4_2026_3_MAR_2026.docx",
+      "As AI adoption accelerates, combined with our record Q1 pipeline and continued platform consolidation momentum, we have strong conviction to once again raise our FY '27 ARR outlook. The outlook we are providing today includes the acquisitions of SGNL and Seraphic, both of which closed in February and are expected to contribute a combined $5 million to $8 million of acquired net",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CRWD_ER_Q4_2026_3_MAR_2026.docx",
+      "We expect FY '27 net new ARR seasonality to remain unchanged relative to FY '26 with approximately 41% in the first half and 59% in the second half.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +22.2% YoY in FY2025 Q4 to $1.23B, with TTM revenue of $4.52B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin trajectory — net margin expanded +2.5pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 1.00 on 1 tracked forward claims (1B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $647.29 sits +39.8% above the 200-DMA ($463.10). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 4.7% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Momentum stretched — RSI at 95 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($454.21) before adding.",
+    "Valuation premium — 95.0x forward P/E vs peer median of 49.0x — a 94% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 25% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $647.29 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 19% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $350.25 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+22.2% in FY2025 Q4",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 1 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 49.0x FY1 P/E",
+      "latest": "95.0x (+94%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$647.29 vs $463.10 (+39.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "95.3",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±4.7% by 2026-05-22",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. CrowdStrike Holdings, Inc. (CRWD) printed $1.23B in revenue in FY2025 Q4 (+22.2% YoY). Management credibility is strong (MCS 1.00, 1B/0H/0M record), supporting take-up of the forward guide. At 95.0x forward P/E, the stock carries a 94% premium to peers (49.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($463.10) but RSI 95 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $540 implies -16.6% upside. The options market is pricing a ±4.7% move by the front-month expiry — a complacent read on near-term risk. 30-day implied move is ±17.1%; 90-day is ±27.0%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

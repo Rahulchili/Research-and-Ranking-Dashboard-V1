@@ -1,0 +1,189 @@
+{
+  "stance": "BULLISH — 8 strict claims · 6 beats + 2 hits · GM expansion through tariff drag",
+  "color": "mint",
+  "summary": "Apple delivered 6 strict BEATs and 2 HITs across 8 independent forward claims (revenue growth + gross margin guidance) — weighted MCS 0.875. Most recent 4 quarters all hit the HIGH end of GM guidance despite $900M-$1.4B tariff drag per quarter. Q1 FY26 was AAPL's best-ever quarter ($143.76B rev, +15.7% YoY) and Q2 FY26 set a March-quarter record at $111.18B. TTM revenue $451.4B (+12.8% YoY); operating margin expanded to 32.3% in Q2 FY26. Q3 FY26 guidance: +14-17% revenue growth, OpEx $18.8-19.1B. Stock at $293.32 (May 8 close) near 52w high $294.76, up +49% over 1 year. Sell-side target $309.75 (+5.6% upside). Tariff/iPhone supply remain headwinds; AI strategic execution is the wild card.",
+  "quotes": [
+    [
+      "Tim Cook (CEO)",
+      "Q2 FY26 call (Apr 30, 2026)",
+      "Today, Apple is proud to report $111.2 billion in revenue, up 17% from a year ago and a March quarter record, which was above the high end of our guidance range despite supply constraints."
+    ],
+    [
+      "Kevan Parekh (CFO)",
+      "Q2 FY26 call (Apr 30, 2026)",
+      "Company gross margin was 49.3%, above the high end of our guidance range and up 110 basis points sequentially."
+    ],
+    [
+      "Kevan Parekh (CFO)",
+      "Q2 FY26 call (Apr 30, 2026)",
+      "We expect our June quarter total company revenue to grow by 14% to 17% year-over-year, which comprehends our best view of constraint supply."
+    ],
+    [
+      "Kevan Parekh (CFO)",
+      "Q4 FY25 call (Oct 30, 2025)",
+      "We expect our December quarter total company revenue to grow by 10% to 12% year-over-year, which will be our best quarter ever."
+    ],
+    [
+      "Kevan Parekh (CFO)",
+      "Q3 FY25 call (Jul 31, 2025)",
+      "We expect gross margin to be between 46% and 47%, which includes the estimated impact of the $1.1 billion tariff-related costs that Tim referred to earlier."
+    ],
+    [
+      "Tim Cook (CEO)",
+      "Q1 FY26 call (Jan 29, 2026)",
+      "We are reporting our best-ever quarter with $143.8 billion in revenue, up 16% from a year ago and exceeding our expectations."
+    ]
+  ],
+  "bull": [
+    [
+      "Strong MCS — 6 BEATs + 2 HITs across 8 strict claims",
+      "Weighted MCS 0.875. Six of eight guidance forecasts (revenue growth + gross margin) beat the HIGH end of the guided range. Average GM beat magnitude is +0.6-1.3pp above the high end.",
+      "Mint"
+    ],
+    [
+      "Best-ever quarters in 5 consecutive prints",
+      "Q1 FY26 ($143.8B) and Q2 FY26 ($111.2B) were record quarters. Q3 FY26 guide of +14-17% YoY would produce another record June-quarter at ~$98-100B (vs $94.04B prior).",
+      "Mint"
+    ],
+    [
+      "Tariff absorption demonstrated",
+      "GM held steady or expanded despite $900M-$1.4B/quarter tariff costs. Q2 FY26 GM 49.27% is highest in the series. Tariff drag absorbed via mix shift to Services and operational leverage.",
+      "Mint"
+    ],
+    [
+      "Services growth + ad ecosystem",
+      "Services revenue ~$26-27B/quarter growing ~14% YoY — highest-margin segment. App Store + Apple Pay + iCloud + Music + TV+ + ads — sticky and accretive to GM.",
+      "Mint"
+    ],
+    [
+      "Apple Intelligence rollout",
+      "Generational hardware refresh tied to Apple Intelligence (Apple's AI). iPhone 17/Pro family expected Sep 2026 with deeper AI features driving upgrade cycle.",
+      "Mint"
+    ],
+    [
+      "$25B+/quarter buyback",
+      "Returning capital aggressively at ~5% of mkt cap annualized. Share count -1-2% YoY supporting EPS growth even without revenue growth.",
+      "Mint"
+    ]
+  ],
+  "bear": [
+    [
+      "Valuation premium",
+      "P/E FY1 33.61× = +44% premium vs Named Competitors median 23.35×. EV/EBITDA FY1 25.69× = +55% premium vs peer median 16.55×. Multiple compression risk if growth slows.",
+      "Crimson"
+    ],
+    [
+      "Tariff escalation risk",
+      "Trump administration tariff policy creates ongoing uncertainty. $1.4B/quarter run rate could escalate if trade tensions intensify (China/India/Vietnam exposure).",
+      "Crimson"
+    ],
+    [
+      "iPhone supply constraints",
+      "Q2 FY26 specifically flagged constrained iPhone supply impacting growth. Q3 FY26 guidance comprehends best view of constraint supply — actual delivery risk.",
+      "Crimson"
+    ],
+    [
+      "AI capability gap",
+      "Apple Intelligence rollout slower than MSFT Copilot / Google Gemini / OpenAI products. Risk of installed-base erosion if AI-native consumer features underwhelm.",
+      "Crimson"
+    ],
+    [
+      "DMA / DOJ regulatory",
+      "EU Digital Markets Act restrictions on App Store; US DOJ ruling against Google search remedies could eliminate ~$20B/year Apple search-default payment.",
+      "Crimson"
+    ],
+    [
+      "Services growth deceleration risk",
+      "Services growth running ~14% YoY but base getting larger; deceleration to single-digits would compress overall growth and multiple.",
+      "Crimson"
+    ]
+  ],
+  "trigger_up": [
+    "Q3 FY26 ER (Jul 30, 2026) revenue above $100B (+15-17%) with GM 48%+",
+    "Apple Intelligence iPhone 17 launch (Sep 2026) drives upgrade cycle acceleration",
+    "Services revenue exceeds $30B/quarter run rate",
+    "China tariff resolution / reduction below $500M/quarter run rate",
+    "Multiple expansion to 35-37× FY1 P/E on accelerating growth"
+  ],
+  "trigger_down": [
+    "Q3 FY26 ER misses revenue guide (sub $97B) on iPhone supply constraints",
+    "Tariff escalation to $2B+/quarter sustained",
+    "Apple Intelligence iPhone 17 reception underwhelms vs Galaxy AI / Pixel",
+    "DOJ Google ruling eliminates Apple's search-default payment",
+    "Multiple compression to 25-28× FY1 P/E"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (Q2 FY26)",
+      "baseline": "$90.75B (Q2 FY24)",
+      "latest": "$111.18B (Q2 FY26, +22.5% from Q2 FY24)",
+      "verdict": "Best March quarter ever",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "+5% (Q3 FY24)",
+      "latest": "+16.6% (Q2 FY26)",
+      "verdict": "Accelerating",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Gross margin",
+      "baseline": "46.58% (Q2 FY24)",
+      "latest": "49.27% (Q2 FY26)",
+      "verdict": "+2.7pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "30.74% (Q2 FY24)",
+      "latest": "32.28% (Q2 FY26)",
+      "verdict": "+1.5pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "26.05% (Q2 FY24)",
+      "latest": "26.60% (Q2 FY26)",
+      "verdict": "Stable elite",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "EPS (Quarterly Diluted)",
+      "baseline": "$1.53 (Q2 FY24)",
+      "latest": "$2.01 (Q2 FY26, +31%)",
+      "verdict": "Buyback support",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS (strict scoring)",
+      "baseline": "50% random",
+      "latest": "0.875 weighted (6 BEAT + 2 HIT / 8 strict)",
+      "verdict": "High delivery",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FCF",
+      "baseline": "$22.5B (Q2 FY24)",
+      "latest": "$26.73B (Q2 FY26, +19%)",
+      "verdict": "Strong capital generation",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Stock vs 52w high",
+      "baseline": "$294.76 (May 8 2026)",
+      "latest": "$293.32 (May 8 2026)",
+      "verdict": "-0.5% (at high)",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation P/E FY1",
+      "baseline": "Peer median 23.35×",
+      "latest": "AAPL 33.61×",
+      "verdict": "+44% premium",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "Apple is delivering an exceptional execution cycle — 6 strict BEATs + 2 HITs across 8 independent forward claims, two consecutive record quarters (Q1 FY26 $143.8B, Q2 FY26 $111.2B), gross margin expanding to 49.3% despite tariff drag, and Q3 FY26 guide of +14-17% YoY. Stock at $293.32 sits just below the 52w high ($294.76) with 49% trailing-year gain. Sell-side target $309.75 implies modest +5.6% upside, reflecting valuation discipline. P/E FY1 33.6× is +44% premium vs peer median but defensible given execution quality. Key catalysts: Apple Intelligence rollout, iPhone 17 launch (Sep 2026), tariff resolution. Stance: BULLISH on execution; valuation premium requires continued operational excellence.",
+  "disclaimer": "Quoted statements verbatim from AAPL earnings calls in /AAPL/Transcripts/ directory. Fundamentals from EDGAR XBRL companyfacts (CIK 0000320193). FactSet peer data captured 2026-05-12. AAPL fiscal year ends late September. MCS uses strict scoring (BEAT = above HIGH end, HIT = within range, MISS = below LOW end). Not investment advice."
+}

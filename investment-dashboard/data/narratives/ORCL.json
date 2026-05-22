@@ -1,0 +1,119 @@
+{
+  "name": "Oracle Corporation",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Oracle Corporation (ORCL, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $17.19B (+21.7% YoY), net margin 21.6%. Management credibility 1.00 on 6 claims. Valuation 35.0x forward P/E (+6% vs peers). Spot $188.16 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "ORCL_ER_Q4_2025_11_JUN_2025.docx",
+      "As on-premise databases migrate to the cloud, either on OCI directly or through our database at cloud services with Azure, Google or AWS, we expect that cloud database revenues collectively will be the third driver of revenue growth alongside OCI and strategic SaaS.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ORCL_ER_Q4_2025_11_JUN_2025.docx",
+      "Since it's the beginning of FY '26, I'd like to comment on the financial acceleration we expect to see in the coming years. Between our 138 billion RPO and even larger pipeline, we have a clear line of sight to future revenue growth.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ORCL_ER_Q4_2025_11_JUN_2025.docx",
+      "We have so much in pipeline right now that -- and of course, we have so much in RPO, meaning those are noncancelable contracts, and we see the demand I am still in a position where our supply is not meeting our demand.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "ORCL_ER_Q4_2025_11_JUN_2025.docx",
+      "You don't have to fit the -- buy a bunch of pieces and make them work together. That has been our strategy for some time, and that's all coming together as a bunch of companies are not successfully navigating this difficult -- admittedly difficult transition from on-premise to the cloud.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "ORCL_ER_Q4_2024_11_JUN_2024.docx",
+      "So I have 2 questions. One is, as you embark on offering this multi-cloud flexibility to customer, when can we see similar partnership with AWS.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "ORCL_ER_Q4_2024_11_JUN_2024.docx",
+      "I can start. Well, we believe in giving customers choice, and customers want choice.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +21.7% YoY in FY2026 Q1 to $17.19B, with TTM revenue of $62.3B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 21.6% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Management credibility — MCS of 1.00 on 6 tracked forward claims (5B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Range-positioning balanced — at 27% of the 52-week range ($136.48–$328.33), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Sell-side target points higher — consensus PT of $290 (vs spot $188.16) implies +54.1% upside. Cross-checked against the peer-median PE FY1 of 33.0x, the discount to fair value looks underwritten by both buy-side and sell-side.",
+    "Options market complacent — front-month implied move of just 5.2% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Trend rolling over — spot $188.16 sits -9.8% relative to the 200-DMA ($208.63). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 25% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 23.1% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 19% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 19.6% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $136.48 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+21.7% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "21.6%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 6 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 33.0x FY1 P/E",
+      "latest": "35.0x (+6%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$188.16 vs $208.63 (-9.8%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "68.3",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±5.2% by 2026-05-22",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. Oracle Corporation (ORCL) printed $17.19B in revenue in FY2026 Q1 (+21.7% YoY), net margin of 21.6%. Management credibility is strong (MCS 1.00, 5B/0H/0M record), supporting take-up of the forward guide. Trading at 35.0x forward P/E versus peer median of 33.0x — broadly in line with the group.\n\nTechnical regime is impaired: spot $188.16 below the 200-DMA ($208.63, -9.8%) — long-term trend has rolled over. Sell-side consensus PT of $290 implies +54.1% upside. The options market is pricing a ±5.2% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±20.1%; 90-day is ±30.6%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Johnson & Johnson",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Johnson & Johnson (JNJ, Health Care) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $15426.0B (+11.2% YoY). Management credibility 0.86 on 11 claims. Valuation 15.5x forward P/E (+48% vs peers). Spot $229.00 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "JNJ_ER_Q4_2025_21_JAN_2026.docx",
+      "To ensure we provide enough time to address your questions, we anticipate the webcast will last up to 75 minutes. With that, I will now turn the call over to Joaquin.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "JNJ_ER_Q4_2025_21_JAN_2026.docx",
+      "In recent years, we have increased our focus on areas of high growth and high unmet need, and we will continue this transformation with the planned separation of our orthopedics business.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "JNJ_ER_Q4_2025_21_JAN_2026.docx",
+      "The foundation for these results and for the acceleration we see ahead is our unrivaled portfolio and pipeline. In 2025 alone, we secured 51 approvals and filed 32 submissions across major markets.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "JNJ_ER_Q4_2025_21_JAN_2026.docx",
+      "Let me now talk about our key areas of focus. In oncology, we are working to cure cancer, and our depth of expertise is unmatched.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "JNJ_ER_Q4_2025_21_JAN_2026.docx",
+      "In fact, we anticipate launching a new catheter every year through the end of the decade as we build an industry-leading portfolio in PFA complemented by at least 2 CARTO updates each year.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "JNJ_ER_Q4_2025_21_JAN_2026.docx",
+      "We also recently announced the FDA de novo submission of our OTTAVA robotic surgery system. With continued innovation in surgical instrumentation, including our recent launch of the ETHICON 4000 stapler, we anticipate continued growth as we reduce complications and elevate the surgical experience across specialties.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +11.2% YoY in FY2026 Q1 to $15426.0B, with TTM revenue of $103012.0B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Management credibility — MCS of 0.86 on 11 tracked forward claims (6B/0H/1M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $229.00 sits +9.3% above the 200-DMA ($209.52). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Valuation premium — 15.5x forward P/E vs peer median of 10.5x — a 48% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 14% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 8% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $149.79 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+11.2% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.86 on 11 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 10.5x FY1 P/E",
+      "latest": "15.5x (+48%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$229.00 vs $209.52 (+9.3%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "52.0",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Johnson & Johnson (JNJ) printed $15426.0B in revenue in FY2026 Q1 (+11.2% YoY). Management credibility is strong (MCS 0.86, 6B/0H/1M record), supporting take-up of the forward guide. At 15.5x forward P/E, the stock carries a 48% premium to peers (10.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $229.00 above the 200-DMA ($209.52, +9.3%) with neutral momentum (RSI 52). Sell-side consensus PT of $185 implies -19.2% upside. 30-day implied move is ±6.0%; 90-day is ±11.9%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

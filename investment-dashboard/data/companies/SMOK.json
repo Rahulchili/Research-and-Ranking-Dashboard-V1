@@ -1,0 +1,81 @@
+{
+  "ticker": "SMOK",
+  "name": "Smoke Test Corp",
+  "sector": "Information Technology",
+  "industry": "Software",
+  "n_claims": 0,
+  "mcs_simple": null,
+  "mcs_information_adjusted": null,
+  "mcs_difficulty_weighted": null,
+  "beats": 0,
+  "hits": 0,
+  "misses": 0,
+  "subscores": {},
+  "rows": [],
+  "fundamentals": {},
+  "q2q_analysis": {
+    "q_to_q_pairs": []
+  },
+  "_generated_by": "add_ticker.py",
+  "_generated_at": "2026-05-17T17:25:43.349191Z",
+  "lens_rationale": {
+    "fundamentals": [
+      "\u2192 F = 60.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 25.0\u00d7 (peer-set not available, absolute scoring)",
+      "\u2192 V = 45"
+    ],
+    "technicals": [
+      "\u2192 T = 60.0"
+    ],
+    "options": [
+      "\u2192 O = 55.0 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [],
+        "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>Sector thesis (Information Technology):</strong> Multi-year AI/cloud capex cycle remains the dominant secular theme."
+        ],
+        "takeaway": "Long-cycle thesis is intact if the next 2\u20134 quarters confirm a stabilization in trajectory."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [],
+        "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [],
+        "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [],
+        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [],
+        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+      }
+    }
+  }
+}

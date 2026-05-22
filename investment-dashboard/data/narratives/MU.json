@@ -1,0 +1,134 @@
+{
+  "stance": "BULLISH (long-term, with cycle-discipline)",
+  "color": "mint",
+  "summary": "Micron is the only US-listed pure-play memory company at the heart of the AI/HBM super-cycle. Q2 FY26 revenue of $23.86B (+196% YoY) was a record, with operating margin reaching 67.6% and gross margin 74.4% — both the highest in MU's history. The HBM TAM has been raised three times in the past year as NVIDIA Blackwell + AMD MI400 demand exceeds memory supply. Stock is up 810% in 12 months. The trade is BULLISH long-term (HBM moat real, FY27 EPS could reach $50+) but DEFER short-term — the rally is parabolic, RSI 88, and analysts haven't caught up to spot. Sell-side target $606.88 sits 21% below current $746.81.",
+  "quotes": [
+    [
+      "Sumit Sadana (Chief Business Officer)",
+      "Q2 FY26 post-earnings analyst call (Mar 18, 2026)",
+      "we see very robust demand for NAND driven by growth in the data center. AI servers are using huge amounts of SSDs, high-capacity SSDs as well as high-performance and this is working really well in our favor because our portfolio is doing exceptionally well."
+    ],
+    [
+      "Sumit Sadana (Chief Business Officer)",
+      "Q3 FY25 post-earnings analyst call (Jun 25, 2025)",
+      "The strength in our view of the AI business, i.e., the data center growth, continues to be pretty robust. And our view of the AI demand is certainly supportive of the forecast that we have provided you for bit growth in calendar '25."
+    ],
+    [
+      "Sumit Sadana (Chief Business Officer)",
+      "Q2 FY25 post-earnings analyst call (Mar 20, 2025)",
+      "our goal is obviously to continue to have our HBM share be approximately in the same range as our DRAM share. So as HBM TAM grows, we definitely intend to"
+    ],
+    [
+      "Sumit Sadana (Chief Business Officer)",
+      "Q3 FY24 post-earnings analyst call (Jun 26, 2024)",
+      "goal is to maintain our market share to grow our HBM share, and sometime in calendar year '25, we will get our HBM share to match our DRAM overall bit share"
+    ],
+    [
+      "Mark Murphy (CFO)",
+      "Q1 FY26 post-earnings analyst call (Dec 17, 2025)",
+      "We're doing that with node transitions as we've said, 160 -- Aaron, I'm sorry, 1-gamma and G9 to get additional bits for DRAM and NAND. And we're pulling in what we can on construction that will help us largely in '27, but we are able to provide growth"
+    ],
+    [
+      "Mark Murphy (CFO)",
+      "Q2 FY26 post-earnings analyst call (Mar 18, 2026)",
+      "this FY '26, we increased our outlook on CapEx to over $25 billion, which was up from the $20 billion we did on the"
+    ]
+  ],
+  "bull": [
+    "HBM/AI super-cycle is real. Q2 FY26 revenue $23.86B (+196% YoY); FY26 H1 already exceeds entire FY25. NVIDIA Blackwell + AMD MI400 + GDDR7 demand outstripping supply.",
+    "Margin expansion is structural. Gross margin 74.4% in Q2 FY26 vs 31.7% trough in FY24 Q1 — +43 pp expansion in 6 quarters. HBM has structurally higher margins than commodity DRAM.",
+    "FCF inflection. OCF Q2 FY26 $11.9B vs $1.4B Q1 FY24 (8.5×); FCF $5.5B+ per quarter — paying down debt aggressively (repaid $3.5B in 2025 notes).",
+    "Management credibility. 8 of 8 quarterly revenue guides hit or beat the range (5 above-range beats, 3 in-range). MCS 0.93 (lower than META's 0.96 because MU's massive +27.6% Q2 FY26 beat reflects the HBM acceleration outpacing forecasts — a positive surprise).",
+    "Capex discipline despite the boom. CapEx FY26 raised to ~$25B (from $20B prior view) with a clear bit-supply narrative; not a build-it-and-they-will-come story.",
+    "Net cash position. As of Feb 26, 2026: $3.50B available revolver, debt repayment underway, EV is $854.87B (slightly less than market cap due to net cash position)."
+  ],
+  "bear": [
+    "Memory cycle peak. Q2 FY26 67% operating margin is unprecedented for memory — the historical mean is 15-25%. Cycle peaks are followed by 50-80% margin compression. Investors expecting current margins to persist will be disappointed.",
+    "Valuation premium on cycle-peak earnings. P/E FY1 13.07× looks 'cheap' but applies cycle-peak earnings; P/E FY2 7.79× implies even higher FY27 earnings — if margins normalize, FY27 EPS could be $25-35 vs current implied $96+.",
+    "Sell-side target $606.88 sits BELOW spot $746.81 (-21%). Analysts haven't caught up to recent rally OR are pricing in normalization.",
+    "Stock at parabolic peak. RSI 14 = 89.0 (overbought), +157% above SMA 200, +14% above SMA 20. ATR 14 = $45.86 (5.8% of price) — daily vol elevated.",
+    "China export controls + CHIPS Act conditionality. Both can change quarter-to-quarter and affect HBM TAM.",
+    "Customer concentration on NVIDIA + AMD AI accelerators. Hyperscaler capex digestion in 2027 could trigger memory pricing softness."
+  ],
+  "trigger_up": [
+    "FY27 revenue maintains $80B+ run-rate (vs FY25 $37B baseline)",
+    "HBM4 ramp continues with sustained 70%+ gross margin",
+    "Sell-side target revisions catch up to spot ($588 → $750+)",
+    "OCF run-rate sustains $10B+ per quarter through FY27",
+    "Successful greenfield NAND fab milestone announcements"
+  ],
+  "trigger_down": [
+    "Gross margin compression below 60% (vs current 74%) signals cycle peak",
+    "Bit growth deceleration to <15% YoY in any quarter",
+    "Daily close below SMA 50 ($456) — major trend break",
+    "RSI 14 below 50 with broken trendline",
+    "Hyperscaler capex moderation signals (NVDA, MSFT, GOOG, META)"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (next-quarter guide vs actual)",
+      "baseline": "$6.40-6.80B → $6.81B (+3.2%)",
+      "latest": "$33.5B mid Q3 FY26 guide",
+      "verdict": "8 of 8 hit or beat",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Quarterly revenue (YoY)",
+      "baseline": "$4.73B (FY24 Q1, +1% YoY)",
+      "latest": "$23.86B (+196% YoY in Q2 FY26)",
+      "verdict": "HBM super-cycle peak",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin (single-quarter)",
+      "baseline": "-23.87% (FY24 Q1 trough)",
+      "latest": "67.62% (Q2 FY26 peak)",
+      "verdict": "+91 pp through cycle",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Diluted EPS (single-quarter)",
+      "baseline": "-$1.12 (FY24 Q1)",
+      "latest": "$12.07 (Q2 FY26)",
+      "verdict": "Cycle inflection",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Free cash flow (single-quarter)",
+      "baseline": "-$395M (FY24 Q1)",
+      "latest": "$5.5B+ (Q2 FY26)",
+      "verdict": "Inflecting",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility Score",
+      "baseline": "—",
+      "latest": "0.9308",
+      "verdict": "5 above-range beats / 3 in-range / 0 misses",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation (FY1 P/E)",
+      "baseline": "Pre-cycle: ~25× FY1 P/E (mid-2024)",
+      "latest": "13.07× FY1 P/E",
+      "verdict": "-30% discount (cycle-peak signal)",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Stock 12-month performance",
+      "baseline": "52w low $76.95 (Mar 2025)",
+      "latest": "Spot $746.81 / 52w high $747.21",
+      "verdict": "+810% in 12 months",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Avg post-earnings 1-day reaction (last 4 calls)",
+      "baseline": "Mixed",
+      "latest": "-19.81%, -7.19%, -1.49%, -1.77% then +6.90%",
+      "verdict": "Sentiment reversed Q1 FY26",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH long-term on the AI/HBM moat with timing discipline. MU is the cleanest US-listed pure-play on the memory super-cycle. Fundamentals deliver: revenue +196% YoY, gross margin 74%, EPS $12.07/quarter, FCF inflecting. But: stock is parabolic (770% 12-month return), at 52-week high, RSI 88, and trades at 'cycle-peak P/E' (13× looks cheap until you realize earnings have spiked 11×). Add at SMA 50 ($456) or SMA 100 ($409) on the inevitable consolidation; don't chase $746+ unless you can stomach a 20-30% drawdown.",
+  "disclaimer": "This analysis is based on public filings (SEC EDGAR XBRL company-facts API, CIK 0000723125), 9 MU/Earnings/*.htm 10-Q/10-K filings, 9 MU/Transcripts/*.docx earnings call Q&A transcripts, MU 8-K Item 2.02 press releases (Sep 2024 → Mar 2026), AMD/Stock Price Data MU_1_JAN_2000_11_MAY_2026.xlsx (Barchart), MU/Options/mu05082026.xlsx (OPRA chain), and FactSet Workstation Web peer multiples captured 5/8/26. Synthesis is informational only — not personalized investment advice. Memory companies are highly cyclical and can experience 50-80% margin compression at cycle peaks. Past performance does not predict future results."
+}

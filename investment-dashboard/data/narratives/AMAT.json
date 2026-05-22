@@ -1,0 +1,177 @@
+{
+  "stance": "Constructive — long-term bullish, near-term neutral",
+  "color": "mint",
+  "summary": "Applied Materials sits at the heart of the AI/HBM, advanced-logic gate-all-around, and DRAM compute-memory cycles. FY26-Q1 printed $7.01B revenue (in-line with guide), and Q2 guide of $7.65B (+9% sequential) signals the first acceleration in 4 quarters. Gross margin guide 49.3% is the highest since FY2000. 8/8 in-line revenue guides over the trailing 8 quarters; 98.6% info-adj MCS.",
+  "bull": [
+    "FY26-Q2 revenue guide $7.65B (+9% sequential, +7% YoY) — first sequential acceleration in 4 quarters; signals trough behind us.",
+    "Gross margin guide 49.3% — highest since FY2000, driven by mix shift to advanced foundry/logic + DRAM.",
+    "CFE e-beam revenue expected to double in CY26 to >$1B; advanced packaging tracking toward $2B run-rate (6x growth from 2023).",
+    "Wins at leading-edge gate-all-around (>50% process equipment share); DRAM revenue up 40%+ in FY25 driven by HBM and DDR5.",
+    "Net cash on balance sheet (~$1.3B net cash) + ongoing buyback program; capital return supports valuation floor.",
+    "8/8 in-line revenue guides — 98.6% info-adj MCS, top-quartile management forecast accuracy across cohort."
+  ],
+  "bear": [
+    "China revenue down 7% YoY; export restrictions a $400M annual headwind that began in FY25-Q2 and continues into FY26.",
+    "FY25-Q4 revenue dipped sequentially to $6.8B due to China softness + nonlinear leading-edge customer timing — durability through cycle troughs unproven.",
+    "Multiple at FY1 P/E 36.2x is modest discount to peer avg 39.4x — but absolute multiple still rich for a cyclical semicap name.",
+    "ICAPS (mature-node) demand flat; structural shift away from non-leading-edge could pressure mix.",
+    "Stock has rallied from $153 (52w low) to $437 (~+185%); near-term technical extension and 9-month sustained uptrend risk.",
+    "Customer concentration (TSMC, Samsung, Intel, SK Hynix, Micron, GFS) — order timing nonlinear and tied to capex cycles."
+  ],
+  "trigger_up": [
+    "FY26-Q2 print on 5/15/26 confirms $7.65B guide hit + GM 49.3% with broad-based growth across foundry/logic + DRAM segments.",
+    "Advanced packaging revenue confirmed crossing $2B run-rate by FY26 end; CFE e-beam doubles to >$1B in CY26.",
+    "China export-restriction headwind annualizes by Q4 FY26 (last comparable Q4 FY25 hit), enabling clean +mid-teens YoY growth in FY27.",
+    "Gate-all-around process equipment share confirmed >50% as TSMC N2/A16 + Samsung 2nm ramp begins late CY26.",
+    "Multiple re-rates to 40x+ as cycle re-acceleration narrative takes hold — would imply $580+ price target."
+  ],
+  "trigger_down": [
+    "FY26-Q2 misses guide (<$7.15B revenue or GM <48%) — would break the perfect 8/8 in-line streak and signal cycle weakness.",
+    "Additional China export restrictions in 2026 broadening the $400M headwind to >$700M annual impact.",
+    "Hyperscaler capex deceleration cuts HBM demand growth from ~50% in FY25 to <20% in FY26, hitting advanced packaging.",
+    "Major customer (TSMC or Samsung) cuts WFE budget by >10% in FY26, slowing leading-edge equipment ramp.",
+    "Geopolitical escalation (Taiwan tension) disrupts customer relationships — would compress multiple toward 25x."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue guide accuracy",
+      "baseline": "50% (in-line random)",
+      "latest": "98.6% (info-adj)",
+      "verdict": "Excellent",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FY26-Q1 revenue",
+      "baseline": "Guide $6.85B ±$0.5B",
+      "latest": "$7.01B reported",
+      "verdict": "In-line (upper)",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FY26-Q1 GM",
+      "baseline": "Guide 48.4%",
+      "latest": "49.1% reported",
+      "verdict": "Beat (+70bps)",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FY26-Q2 revenue guide",
+      "baseline": "$7.15B (-3% YoY)",
+      "latest": "$7.65B (+9% seq)",
+      "verdict": "Acceleration",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Sales FY1→FY2 growth",
+      "baseline": "Peer avg ~+15%",
+      "latest": "+25.1% (FactSet)",
+      "verdict": "Above peers",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FY1 P/E vs peers",
+      "baseline": "Peer avg 39.4x",
+      "latest": "36.2x",
+      "verdict": "-3.2x discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "China revenue % total",
+      "baseline": "~30% (FY24)",
+      "latest": "27% (FY26-Q1)",
+      "verdict": "De-risking",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "52w return",
+      "baseline": "S&P ~+10%",
+      "latest": "+185%",
+      "verdict": "Extended",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "AMAT is the cleanest pick in the semicap basket on management-credibility grounds (8/8 in-line revenue guides, 98.6% info-adj MCS) and is now signaling cycle re-acceleration via the FY26-Q2 guide ($7.65B, +9% sequential, GM 49.3%). FY1 P/E of 36.2x is a modest discount to peer average 39.4x. Near-term risks are technical extension (+185% from 52w low) and lingering China headwinds, but FactSet consensus +25% FY1→FY2 sales growth + advanced-packaging/CFE momentum + capital return support a constructive 3-12 month outlook.",
+  "quotes": [
+    {
+      "quarter": "FY24-Q1",
+      "date": "2024-02-15",
+      "speaker": "Brice Hill (CFO) / Gary Dickerson (CEO)",
+      "text": "We expect non-GAAP gross margin to be approximately 47",
+      "source": "AMAT/Transcripts/AMAT_ER_Q1_2024_15_FEB_2024.docx"
+    },
+    {
+      "quarter": "FY25-Q1",
+      "date": "2025-02-13",
+      "speaker": "Brice Hill (CFO) / Gary Dickerson (CEO)",
+      "text": "for Q2, we expect that China as a percentage of total revenue will be about 5 percentage points lower than in Q1",
+      "source": "AMAT/Transcripts/AMAT_ER_Q1_2025_13_FEB_2025.docx"
+    },
+    {
+      "quarter": "FY26-Q1",
+      "date": "2026-02-12",
+      "speaker": "Brice Hill (CFO) / Gary Dickerson (CEO)",
+      "text": "We expect company revenue of $7.65 billion, plus or minus $500 million, which should be up around 9% sequentially",
+      "source": "AMAT/Transcripts/AMAT_ER_Q1_2026_12_FEB_2026.docx"
+    },
+    {
+      "quarter": "FY24-Q2",
+      "date": "2024-05-16",
+      "speaker": "Brice Hill (CFO) / Gary Dickerson (CEO)",
+      "text": "We expect non-GAAP gross margin to be approximately 47% and non-GAAP operating expenses to be around $1",
+      "source": "AMAT/Transcripts/AMAT_ER_Q2_2024_16_MAY_2024.docx"
+    },
+    {
+      "quarter": "FY24-Q3",
+      "date": "2024-08-15",
+      "speaker": "Brice Hill (CFO) / Gary Dickerson (CEO)",
+      "text": "We expect company revenue of $6.93 billion, plus or minus $400 million and non-GAAP EPS of $2",
+      "source": "AMAT/Transcripts/AMAT_ER_Q3_2024_15_AUG_2024.docx"
+    },
+    {
+      "quarter": "FY25-Q4",
+      "date": "2025-11-13",
+      "speaker": "Brice Hill (CFO) / Gary Dickerson (CEO)",
+      "text": "We expect company revenue of $6.85 billion, plus or minus $500 million, and non-GAAP EPS of $2",
+      "source": "AMAT/Transcripts/AMAT_ER_Q4_2025_13_NOV_2025.docx"
+    },
+    {
+      "quarter": "FY26-Q1",
+      "date": "2026-02-12",
+      "speaker": "Gary Dickerson (CEO)",
+      "text": "In 2026, we are planning to launch more than a dozen new products, including 3 for advanced logic and DRAM.",
+      "source": "AMAT/Transcripts/AMAT_ER_Q1_2026_12_FEB_2026.docx"
+    },
+    {
+      "quarter": "FY25-Q3",
+      "date": "2025-08-14",
+      "speaker": "Brice Hill (CFO)",
+      "text": "We expect revenue and earnings to be sequentially lower in our fourth quarter, primarily due to uncertainties in our China business.",
+      "source": "AMAT/Transcripts/AMAT_ER_Q3_2025_14_AUG_2025.docx"
+    },
+    {
+      "quarter": "FY25-Q1",
+      "date": "2025-02-13",
+      "speaker": "Brice Hill (CFO)",
+      "text": "As a result of the trade controls announced in December and January, we expect to face a headwind to revenue of approximately $400 million in fiscal 2025.",
+      "source": "AMAT/Transcripts/AMAT_ER_Q1_2025_13_FEB_2025.docx"
+    }
+  ],
+  "risks": [
+    "China export-restriction headwind ($400M+ annually) — continuing impact across FY25/FY26.",
+    "Cyclical semicap industry — wafer fab equipment spending volatile across cycles.",
+    "Stock has rallied +185% from 52w low — near-term technical extension risk.",
+    "Concentrated customer base (TSMC, Samsung, Intel, SK Hynix, Micron, GFS) — order timing nonlinear."
+  ],
+  "triggers": [
+    "FY26-Q2 print on 5/15/26 confirms $7.65B guide hit + GM 49.3% with broad-based growth across foundry/logic + DRAM segments.",
+    "Advanced packaging revenue confirmed crossing $2B run-rate by FY26 end; CFE e-beam doubles to >$1B in CY26.",
+    "China export-restriction headwind annualizes by Q4 FY26 (last comparable Q4 FY25 hit), enabling clean +mid-teens YoY growth in FY27.",
+    "Gate-all-around process equipment share confirmed >50% as TSMC N2/A16 + Samsung 2nm ramp begins late CY26.",
+    "Multiple re-rates to 40x+ as cycle re-acceleration narrative takes hold — would imply $580+ price target.",
+    "FY26-Q2 misses guide (<$7.15B revenue or GM <48%) — would break the perfect 8/8 in-line streak and signal cycle weakness.",
+    "Additional China export restrictions in 2026 broadening the $400M headwind to >$700M annual impact.",
+    "Hyperscaler capex deceleration cuts HBM demand growth from ~50% in FY25 to <20% in FY26, hitting advanced packaging.",
+    "Major customer (TSMC or Samsung) cuts WFE budget by >10% in FY26, slowing leading-edge equipment ramp.",
+    "Geopolitical escalation (Taiwan tension) disrupts customer relationships — would compress multiple toward 25x."
+  ]
+}

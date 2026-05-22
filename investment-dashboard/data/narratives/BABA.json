@@ -1,0 +1,134 @@
+{
+  "stance": "Neutral",
+  "color": "amber",
+  "summary": "BABA Q4-FY26: revenue RMB 243B, cloud +40% YoY with AI 30% of cloud revenue. MCS 0.77 (1B/3H/1M).",
+  "quotes": [
+    [
+      "Eddie Wu (CEO)",
+      "Q4-FY26",
+      "Cloud Intelligence Group's external revenue growth accelerated to 40%, with AI-related products accounting for 30% of this revenue."
+    ],
+    [
+      "BABA Press Release",
+      "Q4-FY26",
+      "Customer management revenue grew 8% on a like-for-like basis. We are confident in our business outlook and will continue to invest in AI + Cloud."
+    ],
+    [
+      "BABA Press Release",
+      "Q4-FY26",
+      "AIDC narrowed loss significantly year-over-year, approaching break-even."
+    ],
+    [
+      "Toby Xu (CFO)",
+      "Q3-FY26",
+      "Income from operations was RMB10,645 million, a decrease of 74% year-over-year, primarily due to impairment of goodwill."
+    ]
+  ],
+  "bull": [
+    "Q4-FY26 cloud +40% YoY with AI 30% of cloud — re-acceleration confirmed",
+    "CMR +8% LFL — take-rate stabilizing after years of compression",
+    "Net cash $16.8B — largest in eCommerce comp set, funds buyback",
+    "Analyst target $191.95 implies +44.8% upside",
+    "FY1 EBITDA margin 14% > peer median 12%",
+    "MCS 0.77 on 5 closed claims — 1 beats, 3 hits, 1 miss"
+  ],
+  "bear": [
+    "Q4-FY26 revenue only +2.9% YoY — modest growth",
+    "Q2/Q3-FY26 goodwill impairments compressed op margins to 2-4%",
+    "FY26 FCF outflow RMB 47B on AI/cloud capex acceleration",
+    "EV/EBITDA premium vs peer average — vulnerable if cloud re-decelerates",
+    "PRC platform regulation + PCAOB review structural risks",
+    "JD at P/E 10x — BABA premium could compress on growth scare"
+  ],
+  "trigger_up": [
+    "Q1-FY27 cloud sustains >35% YoY",
+    "Close above 200-DMA",
+    "FCF turns positive",
+    "AIDC break-even",
+    "Buyback expanded"
+  ],
+  "trigger_down": [
+    "Cloud decelerates below 25%",
+    "CMR LFL <5%",
+    "FY27 capex above RMB 126B",
+    "PCAOB action",
+    "Close below 52w low"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Cloud growth YoY (Q4-FY26)",
+      "baseline": "Re-accel needed (>20%)",
+      "latest": "+40%",
+      "verdict": "Acceleration confirmed",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "AI % of cloud",
+      "baseline": "~12% year ago",
+      "latest": "30%",
+      "verdict": "Doubled YoY",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "CMR LFL Q4-FY26",
+      "baseline": "Stabilization",
+      "latest": "+8%",
+      "verdict": "Stabilizing",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Q4-FY26 GM",
+      "baseline": "Q4-FY25 37.4%",
+      "latest": "40.2%",
+      "verdict": "Up YoY",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Q4-FY26 rev YoY",
+      "baseline": "Modest >3%",
+      "latest": "+2.9%",
+      "verdict": "In-line",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "FY26 FCF",
+      "baseline": "FY25 inflow RMB 117B",
+      "latest": "Outflow RMB 46.6B",
+      "verdict": "Capex phase",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Cash + investments",
+      "baseline": "—",
+      "latest": "RMB 521B",
+      "verdict": "Largest in comp set",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS info-adj",
+      "baseline": "Always-up 0.60",
+      "latest": "0.77",
+      "verdict": "Skill +0.17",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "B/H/M",
+      "baseline": "5 closed claims",
+      "latest": "1B · 3H · 1M",
+      "verdict": "Net delivery",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Analyst target",
+      "baseline": "Spot $137.3",
+      "latest": "$191.95",
+      "verdict": "+44.8% upside",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BABA at $137.3 (DD -28.74% from 52w high). FactSet target $191.95 (+44.8%). Q4-FY26 validated cloud re-acceleration (+40% YoY, AI 30% of cloud). MCS 0.77 (1B/3H/1M). Stance: NEUTRAL with bias to add on weakness toward 200-DMA.",
+  "disclaimer": "Institutional research support. Not personalized investment advice. Foreign private issuer (Cayman Islands ADR) — financials in RMB.",
+  "horizon": "6-12m",
+  "risks": [],
+  "triggers": []
+}

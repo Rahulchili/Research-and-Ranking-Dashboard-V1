@@ -1,0 +1,112 @@
+{
+  "name": "Costco Wholesale Corporation",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Costco Wholesale Corporation (COST, Consumer Staples) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $69.6B (+9.2% YoY), net margin 2.9%. Valuation 53.0x forward P/E (+266% vs peers). Spot $1074.01 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "COS_ER_Q4_2025_25_SEP_2025.docx",
+      "We believe our expertise in buying and the flexibility afforded by our limited SKU can give us greater agility to navigate the current environment and minimize the impact of tariffs.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "COS_ER_Q4_2025_25_SEP_2025.docx",
+      "Now with all that being said, as I mentioned a moment ago, we do view the membership renewal rate is an important measure, and we've analyzed it very closely, as you might imagine, because it's something that we take pride in the overall level of membership renewal that we see.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "COS_ER_Q4_2025_25_SEP_2025.docx",
+      "This is [ Sherman ] on for Scott. Kind of a piggyback on the membership question.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COS_ER_Q4_2025_25_SEP_2025.docx",
+      "And then on the commodities front, we see acceleration in inflation currently in commodities like beef and coffee, sugar and corn. But then also, that's partially offset by we're seeing some deceleration in produce, in particular in barriers and avocados and the eggs and butter and cocoa are also slower inflation, too.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COS_ER_Q4_2025_25_SEP_2025.docx",
+      "And we can also, as Rob mentioned earlier, we have the flexibility to change items where we believe if we don't see that the value would be there with the impact of tariffs that we can move our assortment to items that really will deliver that value that our members have come to expect.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COS_ER_Q4_2025_25_SEP_2025.docx",
+      "So I think from what we know today, we feel like there wasn't like a cliff for us. The impact was managed gradually by our teams doing all the things that we've mentioned, and we largely feel like we've worked through the strategies that we needed to mitigate what we see in front of us today.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +9.2% YoY in FY2026 Q1 (TTM $263.83B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Trend regime constructive — spot $1074.01 sits +12.3% above the 200-DMA ($956.49). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 2.2% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Margin pressure — net margin of 2.9% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through.",
+    "Valuation premium — 53.0x forward P/E vs peer median of 14.5x — a 266% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 92% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 12% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 4.4% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $1094.32 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 6% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 2.0% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $850.00 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+9.2% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "2.9%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 14.5x FY1 P/E",
+      "latest": "53.0x (+266%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$1074.01 vs $956.49 (+12.3%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "67.3",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±2.2% by 2026-05-22",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Costco Wholesale Corporation (COST) printed $69.6B in revenue in FY2026 Q1 (+9.2% YoY), net margin of 2.9%. At 53.0x forward P/E, the stock carries a 266% premium to peers (14.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $1074.01 above the 200-DMA ($956.49, +12.3%) with neutral momentum (RSI 67). Sell-side consensus PT of $1050 implies -2.2% upside. The options market is pricing a ±2.2% move by the front-month expiry — a complacent read on near-term risk. 30-day implied move is ±7.3%; 90-day is ±11.9%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

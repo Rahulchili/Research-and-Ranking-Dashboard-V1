@@ -1,0 +1,330 @@
+{
+  "ticker": "ARM",
+  "name": "Arm Holdings plc",
+  "sector": "Information Technology",
+  "industry": "Semiconductors / CPU IP licensing",
+  "n_claims": 8,
+  "mcs_simple": 0.875,
+  "mcs_information_adjusted": 0.875,
+  "mcs_difficulty_weighted": 0.85,
+  "subscores": {
+    "guide_accuracy_pct": 87.5,
+    "strict_beat_rate_pct": 62.5
+  },
+  "baseline_random": 0.5,
+  "baseline_always_up": 0.5,
+  "skill_over_baseline": 0.375,
+  "beats": 5,
+  "hits": 2,
+  "misses": 1,
+  "rows": [
+    {
+      "claim_id": "ARM_01",
+      "quarter_made": "FY24-Q4",
+      "target_quarter": "FY25-Q1",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$875M (mid)",
+      "actual": "$939M",
+      "pct": 7.31,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.927,
+      "source_quote": "Q4 FY24 guidance for FY25-Q1: revenue $850-900M.",
+      "source_file": "ARM/Transcripts/ARM_FY24Q4_EarningsCall.docx"
+    },
+    {
+      "claim_id": "ARM_02",
+      "quarter_made": "FY25-Q1",
+      "target_quarter": "FY25-Q2",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$830M (mid)",
+      "actual": "$844M",
+      "pct": 1.69,
+      "verdict": "In-line (in range)",
+      "accuracy": 0.983
+    },
+    {
+      "claim_id": "ARM_03",
+      "quarter_made": "FY25-Q2",
+      "target_quarter": "FY25-Q3",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$945M (mid)",
+      "actual": "$983M",
+      "pct": 4.02,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.96
+    },
+    {
+      "claim_id": "ARM_04",
+      "quarter_made": "FY25-Q3",
+      "target_quarter": "FY25-Q4",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$1.225B (mid)",
+      "actual": "$1.241B",
+      "pct": 1.31,
+      "verdict": "In-line (in range)",
+      "accuracy": 0.987
+    },
+    {
+      "claim_id": "ARM_05",
+      "quarter_made": "FY25-Q4",
+      "target_quarter": "FY26-Q1",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$1.025B (mid)",
+      "actual": "$1.106B",
+      "pct": 7.9,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.921
+    },
+    {
+      "claim_id": "ARM_06",
+      "quarter_made": "FY26-Q1",
+      "target_quarter": "FY26-Q2",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$1.025B (mid)",
+      "actual": "$1.135B",
+      "pct": 10.73,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.893
+    },
+    {
+      "claim_id": "ARM_07",
+      "quarter_made": "FY26-Q2",
+      "target_quarter": "FY26-Q3",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$1.275B (mid)",
+      "actual": "$1.298B",
+      "pct": 1.8,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.982
+    },
+    {
+      "claim_id": "ARM_08",
+      "quarter_made": "FY26-Q3",
+      "target_quarter": "FY26-Q4",
+      "metric": "Revenue next-quarter mid",
+      "guided": "$1.450B (mid)",
+      "actual": "$1.489B",
+      "pct": 2.69,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.973
+    }
+  ],
+  "fundamentals": {
+    "summary": {
+      "latest_quarter": "FY26 Q4",
+      "latest_revenue_b": 1.489,
+      "latest_eps": 0.55,
+      "latest_gross_margin_pct": 95.5,
+      "latest_operating_margin_pct": 35.1,
+      "latest_net_margin_pct": 32.4,
+      "ttm_revenue_b": 4.91,
+      "yoy_revenue_growth_pct": 19.9,
+      "ttm_revenue_yoy_pct": 22.3
+    },
+    "quarters": [
+      {
+        "fy": 2025,
+        "fq": 1,
+        "rev_q_M": 939,
+        "gross_margin_pct": 95.4,
+        "operating_margin_pct": 21.5,
+        "net_margin_pct": 16.3,
+        "eps": 0.36
+      },
+      {
+        "fy": 2025,
+        "fq": 2,
+        "rev_q_M": 844,
+        "gross_margin_pct": 95.2,
+        "operating_margin_pct": 18.1,
+        "net_margin_pct": 13.0,
+        "eps": 0.3
+      },
+      {
+        "fy": 2025,
+        "fq": 3,
+        "rev_q_M": 983,
+        "gross_margin_pct": 95.7,
+        "operating_margin_pct": 26.7,
+        "net_margin_pct": 22.9,
+        "eps": 0.39
+      },
+      {
+        "fy": 2025,
+        "fq": 4,
+        "rev_q_M": 1241,
+        "gross_margin_pct": 95.6,
+        "operating_margin_pct": 34.8,
+        "net_margin_pct": 30.5,
+        "eps": 0.55
+      },
+      {
+        "fy": 2026,
+        "fq": 1,
+        "rev_q_M": 1106,
+        "gross_margin_pct": 95.5,
+        "operating_margin_pct": 25.0,
+        "net_margin_pct": 22.1,
+        "eps": 0.39
+      },
+      {
+        "fy": 2026,
+        "fq": 2,
+        "rev_q_M": 1135,
+        "gross_margin_pct": 95.6,
+        "operating_margin_pct": 28.3,
+        "net_margin_pct": 23.4,
+        "eps": 0.45
+      },
+      {
+        "fy": 2026,
+        "fq": 3,
+        "rev_q_M": 1298,
+        "gross_margin_pct": 95.7,
+        "operating_margin_pct": 33.4,
+        "net_margin_pct": 28.0,
+        "eps": 0.52
+      },
+      {
+        "fy": 2026,
+        "fq": 4,
+        "rev_q_M": 1489,
+        "gross_margin_pct": 95.5,
+        "operating_margin_pct": 35.1,
+        "net_margin_pct": 32.4,
+        "eps": 0.55
+      }
+    ],
+    "risk_factors": {
+      "Cyclical & customer concentration": [
+        "Top-10 customers ~50% of revenue; royalty rate fluctuates with smartphone shipment cycles.",
+        "Smartphone end-market saturation could pressure royalty per-unit growth in core ARMv9 stack."
+      ],
+      "Geopolitical & supply chain": [
+        "China revenue exposure (~25%) under risk if export controls escalate.",
+        "TSMC fab concentration is upstream \u2014 ARM IP not directly exposed but customer royalty timing can shift."
+      ],
+      "Valuation": [
+        "Premium ~105x P/E FY1 vs semiconductor peer median ~49x \u2014 multiple expansion thesis is exhausted."
+      ]
+    }
+  },
+  "q2q_analysis": {
+    "metadata": {
+      "ticker": "ARM",
+      "method": "Quarter-over-quarter guidance vs actual revenue from ARM 6-K press releases.",
+      "actuals_source": "ARM/Earnings/ARM_6-K_*.htm",
+      "guidance_source": "ARM/Transcripts/*.docx"
+    },
+    "q_to_q_pairs": []
+  },
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue +19.9% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 32.4% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 35.1%",
+      "TTM revenue $5B",
+      "\u2192 F = 81.1 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.88 (5B / 2H / 1M on 8 tracked forward claims)",
+      "Track record: high credibility",
+      "\u2192 M = 87.5"
+    ],
+    "valuation": [
+      "PE 105.1\u00d7 vs peer median 35.8\u00d7 (193% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 0.6%",
+      "\u2192 V = 55"
+    ],
+    "technicals": [
+      "Spot $212.65 vs SMA200 $145.21 (+46.4%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 72.4 (overbought)",
+      "90-day return: +53.2%",
+      "1-year return: +95.7%",
+      "Drawdown from 52w high: -0.0%",
+      "\u2192 T = 76.7"
+    ],
+    "options": [
+      "Front-month ATM IV 90.2% (high)",
+      "P/C OI 1.11 (balanced)",
+      "ATM skew -67.25pp (call skew)",
+      "\u2192 O = 57.9 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Run-rate $1.49B</strong> in FY26 Q4, +19.9% YoY \u2014 accelerating trajectory entering the next print.",
+          "<strong>Margin context: 32.4% net margin</strong> (35.1% op margin) \u2014 expansion likely.",
+          "<strong>Next earnings: 2026-08-07</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is constructive \u2014 consensus is achievable based on current run-rate."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>TTM revenue $5B</strong> (+22.3% TTM YoY) \u2014 strong secular tailwind.",
+          "<strong>8-quarter run-rate CAGR: +30.1%</strong> \u2014 the secular trajectory the market is pricing.",
+          "<strong>Sector thesis (Information Technology):</strong> Multi-year AI/cloud capex cycle remains the dominant secular theme."
+        ],
+        "takeaway": "Long-cycle thesis is intact if growth durability + margin expansion both hold."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $212.65 vs SMA50 $152.16</strong> (+39.8%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 72.4</strong> \u2014 overbought \u2014 mean-reversion risk.",
+          "<strong>MACD: 12.45 vs signal 9.82</strong> \u2014 bullish crossover.",
+          "<strong>30-day return: +18.7%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 94%</strong> of band width (band width 43.0% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$219.03, support ~$206.27. 94% of 52w range (low $89.93 \u2192 high $220.14)."
+        ],
+        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $212.65 vs SMA200 $145.21</strong> (+46.4%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Golden cross active (SMA50 > SMA200) \u2014 institutional trend filter bullish.",
+          "<strong>1-year return: +95.7%</strong> \u2014 strong long-cycle leader.",
+          "<strong>Drawdown from 52w high: -0.0%</strong> \u2014 near highs (breakout setup)",
+          "<strong>Cycle S/R:</strong> long-term resistance $220.14 (52w high), structural support $89.93 (52w low).",
+          "<strong>90-day return: +53.2%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 90.2%</strong> \u2014 extreme (binary-event hedging implied).",
+          "<strong>Put/Call OI: 1.11</strong> \u2014 balanced flow.",
+          "<strong>30-day implied move: \u00b119.8%</strong> ($170.53 \u2013 $254.77) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -67.25pp</strong> \u2014 call skew (upside bid \u2014 bullish positioning).",
+          "<strong>Front-month OI cluster: $100.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Sell 30\u201345 DTE cash-secured put at $202</strong> (5% OTM). High IV (90%) + uptrend \u2192 collect premium with a willingness to be assigned at a discount. Roll if breached, otherwise let theta decay."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 70.0%</strong> across 10 expiries.",
+          "<strong>Available long-dated expiries:</strong> 10 dates spanning 101\u2013619 DTE.",
+          "<strong>90-day implied move: \u00b138.1%</strong> ($131.60 \u2013 $293.70).",
+          "<strong>220-day implied move: \u00b154.3%</strong> ($97.24 \u2013 $328.06) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $196 (-7.8% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in backwardation</strong> (-20.3pp front\u2192back) \u2014 near-term event premium; long-dated vol cheaper."
+        ],
+        "strategy": "<strong>Sell 6-month strangle: short $191 put / short $234 call</strong>. Range-bound + high IV \u2192 premium-selling on both sides; profits if spot stays within \u00b110%; manage with rolls or assignment."
+      }
+    }
+  }
+}

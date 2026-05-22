@@ -1,0 +1,3642 @@
+{
+  "fundamentals": {
+    "summary": {
+      "latest_quarter": "FY2026 Q1",
+      "latest_revenue_b": 10.25,
+      "latest_net_income_b": 1.38,
+      "latest_eps": 0.84,
+      "latest_gross_margin_pct": 52.82,
+      "latest_operating_margin_pct": 14.4,
+      "latest_net_margin_pct": 13.49,
+      "latest_ocf_b": 2.96,
+      "latest_capex_b": 0.39,
+      "latest_fcf_b": 2.57,
+      "latest_equity_b": 64.46,
+      "latest_current_ratio": 2.72,
+      "latest_long_debt_to_equity": 0.04,
+      "latest_roe_q_annualized_pct": 8.58,
+      "latest_dso_days": 53.0,
+      "yoy_revenue_growth_pct": 37.8,
+      "n_quarter_cagr_pct": 8.2,
+      "n_quarters_in_series": 9,
+      "ttm_revenue_b": 37.45,
+      "ttm_revenue_yoy_pct": 35.0
+    },
+    "quarters": [
+      {
+        "fy": 2024,
+        "fq": 1,
+        "rev_q_M": 5473.0,
+        "ni_q_M": 123.0,
+        "oi_q_M": 36.0,
+        "ocf_q_M": 521.0,
+        "capex_q_M": 142.0,
+        "fcf_q_M": 379.0,
+        "eps": 0.07,
+        "gross_margin_pct": 46.78,
+        "operating_margin_pct": 0.66,
+        "net_margin_pct": 2.25,
+        "equity_M": 56198.0,
+        "current_ratio": 2.64,
+        "long_debt_to_equity": 0.03,
+        "roe_q_annualized_pct": 0.88,
+        "dso_days": 82.8,
+        "rd_q_M": 1525.0
+      },
+      {
+        "fy": 2024,
+        "fq": 2,
+        "rev_q_M": 5835.0,
+        "ni_q_M": 265.0,
+        "oi_q_M": 269.0,
+        "ocf_q_M": 593.0,
+        "capex_q_M": 154.0,
+        "fcf_q_M": 439.0,
+        "eps": 0.16,
+        "gross_margin_pct": 49.08,
+        "operating_margin_pct": 4.61,
+        "net_margin_pct": 4.54,
+        "equity_M": 56538.0,
+        "current_ratio": 2.82,
+        "long_debt_to_equity": 0.03,
+        "roe_q_annualized_pct": 1.87,
+        "dso_days": 88.7,
+        "rd_q_M": 1583.0
+      },
+      {
+        "fy": 2024,
+        "fq": 3,
+        "rev_q_M": 6819.0,
+        "ni_q_M": 771.0,
+        "oi_q_M": 724.0,
+        "ocf_q_M": 628.0,
+        "capex_q_M": 132.0,
+        "fcf_q_M": 496.0,
+        "eps": 0.47,
+        "gross_margin_pct": 50.14,
+        "operating_margin_pct": 10.62,
+        "net_margin_pct": 11.31,
+        "equity_M": 56985.0,
+        "current_ratio": 2.5,
+        "long_debt_to_equity": 0.03,
+        "roe_q_annualized_pct": 5.41,
+        "dso_days": 95.6,
+        "rd_q_M": 1636.0
+      },
+      {
+        "fy": 2024,
+        "fq": 4,
+        "rev_q_M": 7658.0,
+        "ni_q_M": 482.0,
+        "oi_q_M": 871.0,
+        "ocf_q_M": 1299.0,
+        "capex_q_M": 208.0,
+        "fcf_q_M": 1091.0,
+        "eps": 0.29,
+        "gross_margin_pct": 50.69,
+        "operating_margin_pct": 11.37,
+        "net_margin_pct": 6.29,
+        "equity_M": 57568.0,
+        "current_ratio": 2.62,
+        "long_debt_to_equity": 0.03,
+        "roe_q_annualized_pct": 3.35,
+        "dso_days": 72.8,
+        "rd_q_M": 1712.0
+      },
+      {
+        "fy": 2025,
+        "fq": 1,
+        "rev_q_M": 7438.0,
+        "ni_q_M": 709.0,
+        "oi_q_M": 806.0,
+        "ocf_q_M": 939.0,
+        "capex_q_M": 212.0,
+        "fcf_q_M": 727.0,
+        "eps": 0.44,
+        "gross_margin_pct": 50.23,
+        "operating_margin_pct": 10.84,
+        "net_margin_pct": 9.53,
+        "equity_M": 57881.0,
+        "current_ratio": 2.8,
+        "long_debt_to_equity": 0.06,
+        "roe_q_annualized_pct": 4.9,
+        "dso_days": 65.9,
+        "rd_q_M": 1728.0
+      },
+      {
+        "fy": 2025,
+        "fq": 2,
+        "rev_q_M": 7685.0,
+        "ni_q_M": 872.0,
+        "oi_q_M": -134.0,
+        "ocf_q_M": 2011.0,
+        "capex_q_M": 282.0,
+        "fcf_q_M": 1729.0,
+        "eps": 0.54,
+        "gross_margin_pct": 39.8,
+        "operating_margin_pct": -1.74,
+        "net_margin_pct": 11.35,
+        "equity_M": 59665.0,
+        "current_ratio": 2.49,
+        "long_debt_to_equity": 0.05,
+        "roe_q_annualized_pct": 5.85,
+        "dso_days": 59.9,
+        "rd_q_M": 1894.0
+      },
+      {
+        "fy": 2025,
+        "fq": 3,
+        "rev_q_M": 9246.0,
+        "ni_q_M": 1243.0,
+        "oi_q_M": 1270.0,
+        "ocf_q_M": 2159.0,
+        "capex_q_M": 258.0,
+        "fcf_q_M": 1901.0,
+        "eps": 0.75,
+        "gross_margin_pct": 51.7,
+        "operating_margin_pct": 13.74,
+        "net_margin_pct": 13.44,
+        "equity_M": 60790.0,
+        "current_ratio": 2.31,
+        "long_debt_to_equity": 0.04,
+        "roe_q_annualized_pct": 8.18,
+        "dso_days": 60.4,
+        "rd_q_M": 2139.0
+      },
+      {
+        "fy": 2025,
+        "fq": 4,
+        "rev_q_M": 10270.0,
+        "ni_q_M": 1511.0,
+        "oi_q_M": 1752.0,
+        "ocf_q_M": 2600.0,
+        "capex_q_M": 222.0,
+        "fcf_q_M": 2378.0,
+        "eps": 0.92,
+        "gross_margin_pct": 54.3,
+        "operating_margin_pct": 17.06,
+        "net_margin_pct": 14.71,
+        "equity_M": 62999.0,
+        "current_ratio": 2.85,
+        "long_debt_to_equity": 0.04,
+        "roe_q_annualized_pct": 9.59,
+        "dso_days": 55.3,
+        "rd_q_M": 2330.0
+      },
+      {
+        "fy": 2026,
+        "fq": 1,
+        "rev_q_M": 10253.0,
+        "ni_q_M": 1383.0,
+        "oi_q_M": 1476.0,
+        "ocf_q_M": 2955.0,
+        "capex_q_M": 389.0,
+        "fcf_q_M": 2566.0,
+        "eps": 0.84,
+        "gross_margin_pct": 52.82,
+        "operating_margin_pct": 14.4,
+        "net_margin_pct": 13.49,
+        "equity_M": 64462.0,
+        "current_ratio": 2.72,
+        "long_debt_to_equity": 0.04,
+        "roe_q_annualized_pct": 8.58,
+        "dso_days": 53.0,
+        "rd_q_M": 2397.0
+      }
+    ],
+    "risk_factors": {
+      "Economic and Strategic Risks": [
+        "The markets in which our products are sold are highly competitive and rapidly evolving",
+        "The semiconductor industry is highly cyclical and has experienced severe downturns",
+        "The demand for our products depends in part on the market conditions in the industries into which they are sold",
+        "The success of our business depends on our ability to introduce products on a timely basis with features and performance levels that provide value to our customers while supporting significant industry transitions",
+        "The loss of a significant customer may have a material adverse effect on us",
+        "Economic and market uncertainty may adversely impact our business and operating results",
+        "Our operating results are subject to quarterly and seasonal sales patterns",
+        "If we cannot adequately protect our technology or other intellectual property through patents, copyrights, trade secrets, trademarks and other measures, we may lose a competitive advantage and incur significant expenses",
+        "Unfavorable currency exchange rate fluctuations could adversely affect us"
+      ],
+      "Operational and Technology Risks": [
+        "We rely on third parties to manufacture our products, and if they are unable to do so on a timely basis in sufficient quantities and using competitive technologies, our business could be materially adversely affected",
+        "Essential equipment, materials, substrates or manufacturing processes may not be available to us",
+        "We may fail to achieve expected manufacturing yields for our products",
+        "Our revenue from our semi-custom System-on-Chip (SoC) products is dependent upon our semi-custom SoC products being incorporated into customers\u2019 products and the success of those products",
+        "Our products may be subject to security vulnerabilities that could have a material adverse effect on us",
+        "Uncertainties involving the ordering and shipment of our products could materially adversely affect us",
+        "Our ability to design and introduce new products includes the use of third-party intellectual property",
+        "We depend on third-party companies for the design, manufacture and supply of motherboards, software, memory and other computer platform components to support our business and products",
+        "If we lose Microsoft Corporation\u2019s support for our products or other software vendors do not design and develop software to run on our products, our ability to sell our products could be materially adversely affected",
+        "Our reliance on third-party distributors and add-in-board (AIB) partners subjects us to certain risks",
+        "Our business depends on the proper functioning of our internal business processes and information systems",
+        "Our products may not be compatible with some or all industry-standard software and hardware",
+        "Costs related to defective products could have a material adverse effect on us",
+        "We may fail to maintain the efficiency of our supply chain as we respond to changes in customer demand",
+        "We outsource to third parties certain supply-chain logistics functions",
+        "We may be unable to effectively control the sales of our products on the gray market",
+        "Climate change may have an impact on our business"
+      ],
+      "Legal and Regulatory Risks": [
+        "Government actions and regulations, including but not limited to export regulations, import tariffs and trade protection measures, may limit our ability to export our products to certain customers",
+        "If we cannot realize our deferred tax assets, our results of operations could be adversely affected",
+        "Our business is subject to potential tax liabilities, including as a result of tax regulation changes",
+        "We are party to litigation and may become a party to other claims or litigation",
+        "We are subject to environmental laws, conflict minerals regulations, as well as a variety of other laws or regulations",
+        "Evolving expectations from governments, investors, customers and other stakeholders regarding corporate responsibility matters could result in additional costs, harm to our reputation and a loss of customers",
+        "Issues related to the responsible use of AI may result in reputational, competitive and financial harm and liability",
+        "The agreements governing our notes, our guarantee of Xilinx\u2019s notes and the Revolving Credit Agreement",
+        "We may be required to satisfy financial obligations under guarantees and other commercial commitments. Merger, Acquisition, Divestiture, and Integration Risks",
+        "Acquisitions, joint ventures, and/or investments, and the failure to integrate acquired businesses may fail to materialize their anticipated benefits and could disrupt our business",
+        "Any impairment of our tangible, definite-lived intangible or indefinite-lived intangible assets, including goodwill, may adversely impact our financial position and results of operations. General Risks",
+        "Our worldwide operations are subject to political, legal and economic risks and natural disasters",
+        "We may incur future impairments of our technology license purchases",
+        "Our inability to continue to attract and retain key employees may hinder our business"
+      ]
+    },
+    "risk_source": "AMD FY2025 10-K, Item 1A Risk Factors Summary \u2014 extracted from AMD_FY2025Q4_0000002488-26-000018_10K.htm",
+    "market_cap_note": "Market cap as of 5/8/26 close: $758.84B (FactSet Snapshot \u00b7 diluted basis \u00b7 1.667B fully-diluted shares \u00d7 $455.19 closing price). Net cash position of $8.49B yields enterprise value of $749.52B. Reconciles cleanly against EDGAR XBRL share count and the user-supplied AMD_1_JAN_24_30_APR_26.xlsx Barchart price file.",
+    "audit_note": "All revenue, OI, NI, EPS, margins reconcile within \u00b11% to SEC EDGAR XBRL company-facts API (CIK 0000002488). Balance-sheet items (StockholdersEquity, AssetsCurrent, LiabilitiesCurrent, AccountsReceivable, LongTermDebt) extracted by matching period_end to AMD fiscal calendar. ROE annualized = (NI_Q \u00d7 4) / Equity. DSO = (AR / Quarterly revenue) \u00d7 90 days. Q4 derived from FY 10-K minus YTD-Q3 10-Q."
+  },
+  "narrative": {
+    "stance": "BULLISH (with timing caution)",
+    "color": "mint",
+    "summary": "AMD has delivered 8 of 8 quarterly revenue beats since Q2 2024 (MCS = 0.9591). YoY revenue growth has been remarkably consistent at +31-38% across the last five quarters, with operating margin expanding (despite Q2 25 distortion from a $800M MI308 export-control charge). Q1 2026 revenue was $10.25B (+37.85% YoY) \u2014 among the strongest growth in the dataset. The data center segment is the principal driver, ramping with hyperscale AI demand. The setup: trailing fundamentals are strong, but the stock has rallied 267% off the 52-week low and trades at substantial premium to semi peers (P/E FY1 62\u00d7 vs median 38\u00d7).",
+    "quotes": [
+      [
+        "Lisa Su (CEO)",
+        "Q4 2025 call (Feb 3, 2026)",
+        "2025 was a defining year for AMD with record revenue, net income and free cash flow driven by broad-based demand for our high-performance computing and AI products."
+      ],
+      [
+        "Lisa Su (CEO)",
+        "Q3 2025 call (Nov 4, 2025)",
+        "We delivered an outstanding quarter with record revenue and profitability, reflecting broad-based demand across our data center AI, server and PC businesses."
+      ],
+      [
+        "Lisa Su (CEO)",
+        "Q3 2025 call (Nov 4, 2025)",
+        "Revenue grew 36% year-over-year to $9.2 billion."
+      ],
+      [
+        "Lisa Su (CEO)",
+        "Q1 2025 call (May 6, 2025)",
+        "While we face some headwinds from the dynamic macro and regulatory environments, including the recently announced export controls for [ Instinct MI308 ] shipments to China, we believe they are more than offset by the powerful tailwinds from our leadership product portfolio."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q4 2025 call (Feb 3, 2026)",
+        "We expect revenue to be approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of MI308 sales to China."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q4 2025 call (Feb 3, 2026)",
+        "AMD executed very well in 2025, delivering record revenue of $34.6 billion, up 34% year-over-year, driven by 32% growth in our Data Center segment and 51% growth in our Client and Gaming segment."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q3 2025 call (Nov 4, 2025)",
+        "we expect revenue to be approximately $9.6 billion, plus or minus $300 million."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q3 2025 call (Nov 4, 2025)",
+        "we expect fourth quarter non-GAAP gross margin to be approximately 54.5%, and we expect non-GAAP operating expenses to be approximately $2.8 billion."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q1 2025 call (May 6, 2025)",
+        "As a reminder, in April, a new export license requirement was put in place for MI308 shipments to China, the impact of which is included in our guidance."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q1 2025 call (May 6, 2025)",
+        "We expect revenue to be approximately $7.4 billion plus or minus $300 million. This includes an estimated $700 million revenue reduction as a result of the new export license requirement."
+      ],
+      [
+        "Jean Hu (CFO)",
+        "Q4 2024 call (Feb 4, 2025)",
+        "We expect revenue to be approximately $7.1 billion plus or minus $300 million, up 30% year-over-year, driven by strong growth in our Data Center and the Client business."
+      ]
+    ],
+    "bull": [
+      "Revenue growth re-accelerating. YoY growth went +35.9% \u2192 +31.7% \u2192 +35.6% \u2192 +34.1% \u2192 +37.85% across the last five quarters. Q1 2026 is the strongest YoY print in the dataset.",
+      "Operating margin expanding ex tax-distortion. Q1 2026 operating margin 14.40%; Q4 2025 was 17.06% (the all-time high in the dataset). Trend is up since Q1 2024 (just 0.66%).",
+      "Forward-guidance accuracy is exceptional. 8 of 8 closed quarters beat the guide midpoint; MCS = 0.9591 \u2248 META's 0.9589.",
+      "Cash flow inflection. OCF Q1 26 $2.96B (vs $521M Q1 24, +467%); FCF $2.57B vs $379M Q1 24.",
+      "Light-asset model. Capex ~$300-400M/quarter \u2014 compares favorably to META's $19B/quarter (1/40th the capex burden); leverages TSMC for fab manufacturing."
+    ],
+    "bear": [
+      "Premium valuation. AMD trades at P/E FY1 62.21\u00d7 vs semi peer median 37.94\u00d7 (+64% premium). EV/EBITDA FY1 58.85\u00d7 vs median 28.14\u00d7 (+109%). Premium is justified by growth, but multiple compression is a real risk if growth misses.",
+      "Sell-side target ($442.49) is BELOW current price ($455.19). Market has run ahead of analyst models \u2014 historically a sign that consensus revisions are coming, but also that the upside-skew is gone.",
+      "Technical setup is parabolic. RSI 14 = 83 (deeply overbought), price +68% above SMA 200, ADX 71 (extreme trend strength). Mean-reversion risk is elevated.",
+      "China export controls remain binding. MI308 only ~$100M of Q1 26 revenue (vs $700M run-rate before April 2025 ban). Q2 25 took an $800M charge. Further export tightening would reduce TAM.",
+      "Q4 2025 earnings reaction was -18.71% \u2014 the largest drop in the dataset. The market has shown willingness to punish on guidance even when results beat."
+    ],
+    "trigger_up": [
+      "FY 2026 revenue growth \u226535% (management's commitment) and gross margin \u226554% (Q4 25 level held).",
+      "MI308 export licenses approved \u2192 unlock ~$600M of stranded China demand.",
+      "Sell-side target revisions catch up to spot ($442 \u2192 $500+).",
+      "Successful MI400 series ramp and design wins at hyperscalers (next gen accelerator)."
+    ],
+    "trigger_down": [
+      "Revenue growth deceleration to <30% YoY in any 2026 quarter.",
+      "Gross margin compression below 50% (was 54.30% in Q4 25 peak).",
+      "Daily close below SMA 200 (~$210) \u2014 major trend break.",
+      "RSI 14 falls below 50 with broken trendline (currently 83)."
+    ],
+    "scoreboard": [
+      {
+        "metric": "Revenue (next-quarter guide vs actual)",
+        "baseline": "$5.4\u20136.0B \u2192 $5.84B (+2.4%)",
+        "latest": "$10.25B actual (Q1 26) vs $9.5\u201310.1B guide (+4.6%)",
+        "verdict": "8 of 8 beats since Q2 24",
+        "verdict_color": "mint"
+      },
+      {
+        "metric": "Quarterly revenue (YoY)",
+        "baseline": "$5.47B (Q1 24, +2% YoY)",
+        "latest": "$10.25B (+37.85% YoY in Q1 26)",
+        "verdict": "Strongest in dataset",
+        "verdict_color": "mint"
+      },
+      {
+        "metric": "Operating margin (single-quarter)",
+        "baseline": "0.66% (Q1 24)",
+        "latest": "14.40% (Q1 26); peak 17.06% (Q4 25)",
+        "verdict": "+13.7 pp expansion in 8 quarters",
+        "verdict_color": "mint"
+      },
+      {
+        "metric": "Diluted EPS (single-quarter)",
+        "baseline": "$0.07 (Q1 24)",
+        "latest": "$0.84 (Q1 26, +91% YoY vs Q1 25 $0.44)",
+        "verdict": "Compounding",
+        "verdict_color": "mint"
+      },
+      {
+        "metric": "Free cash flow (single-quarter)",
+        "baseline": "$379M (Q1 24)",
+        "latest": "$2,566M (Q1 26, +577%)",
+        "verdict": "Inflecting \u2014 light-asset model",
+        "verdict_color": "mint"
+      },
+      {
+        "metric": "Management Credibility Score",
+        "baseline": "\u2014 (no prior dataset)",
+        "latest": "0.9591 (8 beats / 0 misses across 8 guides)",
+        "verdict": "Top-tier execution (\u2248 META 0.9589)",
+        "verdict_color": "mint"
+      },
+      {
+        "metric": "Valuation premium (FY1 P/E)",
+        "baseline": "Pre-rally: ~25\u00d7 FY1 P/E (mid-2024)",
+        "latest": "62.21\u00d7 FY1 P/E (5/8/26)",
+        "verdict": "+64% premium to peer median 37.94\u00d7",
+        "verdict_color": "amber"
+      },
+      {
+        "metric": "Avg post-earnings 5-day reaction (last 2 calls)",
+        "baseline": "Mixed (early period)",
+        "latest": "\u221210.9% trailing two calls (Q3 25 \u22128.5%, Q4 25 \u221213.3%)",
+        "verdict": "Market punishing on guides",
+        "verdict_color": "crimson"
+      }
+    ],
+    "bottom_line": "BULLISH for long-term capital with timing discipline. AMD is delivering everything bulls want: revenue growth at 35%+, operating margin expansion, world-class management credibility (MCS 0.96), and free cash flow inflecting. But the easy money has been made: stock at all-time highs, 67% above SMA 200, and trades at 62\u00d7 FY1 P/E vs 38\u00d7 peer median. Add on pullbacks toward $300-350 (SMA 50), not chase at $455.",
+    "disclaimer": "This analysis is based on public filings (SEC EDGAR XBRL company-facts), 8 AMD earnings transcripts, daily OHLCV stock prices, and FactSet peer multiples captured 5/8/26. Not investment advice. Past performance does not predict future results."
+  },
+  "q2q_analysis": {
+    "metadata": {
+      "ticker": "AMD",
+      "generated": "2026-05-09",
+      "method": "Verbatim guidance from user-supplied AMD transcripts (8 calls, Q1 24 \u2192 Q4 25); actuals from SEC EDGAR XBRL company-facts (CIK 0000002488). Stock reactions from user's AMD_1_JAN_24_30_APR_26.xlsx (Barchart).",
+      "actuals_source": "SEC EDGAR XBRL \u00b7 AMD/Earnings/*.htm 10-Q / 10-K filings",
+      "guidance_source": "AMD/Transcripts/*.docx",
+      "stock_price_source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart)"
+    },
+    "fy_actuals": {
+      "2023": 22680,
+      "2024": 25785,
+      "2025": 34639
+    },
+    "quarterly_revenue_actuals": {
+      "2024Q1": 5473.0,
+      "2024Q2": 5835.0,
+      "2024Q3": 6819.0,
+      "2024Q4": 7658.0,
+      "2025Q1": 7438.0,
+      "2025Q2": 7685.0,
+      "2025Q3": 9246.0,
+      "2025Q4": 10270.0,
+      "2026Q1": 10253.0
+    },
+    "q_to_q_pairs": [
+      {
+        "made_in": "2024-Q1",
+        "targets": "2024-Q2",
+        "target_q_key": "2024-Q2",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2024-_Q1_2024-04-30.docx",
+        "call_date": "2024-04-30",
+        "next_call_date": "2024-07-30",
+        "narrative": "Sequentially, we expect data center segment revenue to increase by double-digit percentage, primarily driven by the data center GPU ramp.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 5.4,
+            "guide_high_b": 6.0,
+            "guide_mid_b": 5.7,
+            "actual_b": 5.835,
+            "delta_vs_mid_pct": 2.3684,
+            "verdict": "In-line (in range)",
+            "guide_quote": "We expect revenue to be approximately $5.7 billion plus or minus $300 million.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q1_2024-04-30.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2024Q2 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 52.0,
+            "guide_high_pct": 54.0,
+            "guide_mid_pct": 53.0,
+            "actual_pct": 53.0,
+            "delta_vs_mid_pp": 0.0,
+            "verdict": "In-line",
+            "guide_quote": "Non-GAAP gross margin to be approximately 53.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q1_2024-04-30.docx",
+            "actual_source_filing": "AMD Q2 2024 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 1.75,
+            "guide_high_b": 1.85,
+            "guide_mid_b": 1.8,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $1.8 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q1_2024-04-30.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q1_2024-04-30.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2024-04-23",
+              "close": 152.27
+            },
+            {
+              "offset": -4,
+              "date": "2024-04-24",
+              "close": 151.74
+            },
+            {
+              "offset": -3,
+              "date": "2024-04-25",
+              "close": 153.76
+            },
+            {
+              "offset": -2,
+              "date": "2024-04-26",
+              "close": 157.4
+            },
+            {
+              "offset": -1,
+              "date": "2024-04-29",
+              "close": 160.2
+            },
+            {
+              "offset": 0,
+              "date": "2024-04-30",
+              "close": 158.38
+            },
+            {
+              "offset": 1,
+              "date": "2024-05-01",
+              "close": 144.27
+            },
+            {
+              "offset": 2,
+              "date": "2024-05-02",
+              "close": 146.16
+            },
+            {
+              "offset": 3,
+              "date": "2024-05-03",
+              "close": 150.6
+            },
+            {
+              "offset": 4,
+              "date": "2024-05-06",
+              "close": 155.78
+            },
+            {
+              "offset": 5,
+              "date": "2024-05-07",
+              "close": 154.43
+            }
+          ],
+          "day_before_date": "2024-04-29",
+          "day_before_close": 160.2,
+          "day_of_date": "2024-04-30",
+          "day_of_close": 158.38,
+          "day_after_date": "2024-05-01",
+          "day_after_close": 144.27,
+          "t_minus_5_date": "2024-04-23",
+          "t_minus_5_close": 152.27,
+          "t_plus_5_date": "2024-05-07",
+          "t_plus_5_close": 154.43,
+          "reaction_1d_pct": -9.94,
+          "reaction_5d_pct": -3.6,
+          "pre_5d_run_pct": 7.78,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2024-Q2",
+          "call_date": "2024-04-30",
+          "stock_reaction_1d_pct": -9.94,
+          "stock_reaction_5d_pct": -3.6,
+          "mcs_pair_accuracy": 0.9763,
+          "revenue_guide_low_b": 5.4,
+          "revenue_guide_high_b": 6.0,
+          "revenue_guide_mid_b": 5.7,
+          "revenue_actual_b": 5.835,
+          "revenue_delta_pct": 2.3684,
+          "net_margin_actual_pct": 4.54,
+          "eps_actual": 0.16,
+          "verdict_revenue": "In-line (in range)",
+          "net_margin_yoy_pp": 4.04,
+          "eps_yoy_pct": 700.0,
+          "gross_margin_actual_pct": 49.08,
+          "operating_margin_actual_pct": 4.61
+        }
+      },
+      {
+        "made_in": "2024-Q2",
+        "targets": "2024-Q3",
+        "target_q_key": "2024-Q3",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2024-_Q2_2024-07-30.docx",
+        "call_date": "2024-07-30",
+        "next_call_date": "2024-10-29",
+        "narrative": "Sequentially, we expect revenue to grow approximately 15%, primarily driven by strong growth in the Data Center and Client segment.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 6.4,
+            "guide_high_b": 7.0,
+            "guide_mid_b": 6.7,
+            "actual_b": 6.819,
+            "delta_vs_mid_pct": 1.7761,
+            "verdict": "In-line (in range)",
+            "guide_quote": "We expect revenue to be approximately $6.7 billion, plus or minus $300 million.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q2_2024-07-30.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2024Q3 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 52.5,
+            "guide_high_pct": 54.5,
+            "guide_mid_pct": 53.5,
+            "actual_pct": 54.0,
+            "delta_vs_mid_pp": 0.5,
+            "verdict": "In-line",
+            "guide_quote": "Non-GAAP gross margin to be approximately 53.5%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q2_2024-07-30.docx",
+            "actual_source_filing": "AMD Q3 2024 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 1.8499999999999999,
+            "guide_high_b": 1.95,
+            "guide_mid_b": 1.9,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $1.9 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q2_2024-07-30.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q2_2024-07-30.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2024-07-23",
+              "close": 154.0
+            },
+            {
+              "offset": -4,
+              "date": "2024-07-24",
+              "close": 144.63
+            },
+            {
+              "offset": -3,
+              "date": "2024-07-25",
+              "close": 138.32
+            },
+            {
+              "offset": -2,
+              "date": "2024-07-26",
+              "close": 139.99
+            },
+            {
+              "offset": -1,
+              "date": "2024-07-29",
+              "close": 139.75
+            },
+            {
+              "offset": 0,
+              "date": "2024-07-30",
+              "close": 138.44
+            },
+            {
+              "offset": 1,
+              "date": "2024-07-31",
+              "close": 144.48
+            },
+            {
+              "offset": 2,
+              "date": "2024-08-01",
+              "close": 132.54
+            },
+            {
+              "offset": 3,
+              "date": "2024-08-02",
+              "close": 132.5
+            },
+            {
+              "offset": 4,
+              "date": "2024-08-05",
+              "close": 134.82
+            },
+            {
+              "offset": 5,
+              "date": "2024-08-06",
+              "close": 130.18
+            }
+          ],
+          "day_before_date": "2024-07-29",
+          "day_before_close": 139.75,
+          "day_of_date": "2024-07-30",
+          "day_of_close": 138.44,
+          "day_after_date": "2024-07-31",
+          "day_after_close": 144.48,
+          "t_minus_5_date": "2024-07-23",
+          "t_minus_5_close": 154.0,
+          "t_plus_5_date": "2024-08-06",
+          "t_plus_5_close": 130.18,
+          "reaction_1d_pct": 3.38,
+          "reaction_5d_pct": -6.85,
+          "pre_5d_run_pct": -10.34,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2024-Q3",
+          "call_date": "2024-07-30",
+          "stock_reaction_1d_pct": 3.38,
+          "stock_reaction_5d_pct": -6.85,
+          "mcs_pair_accuracy": 0.9822,
+          "revenue_guide_low_b": 6.4,
+          "revenue_guide_high_b": 7.0,
+          "revenue_guide_mid_b": 6.7,
+          "revenue_actual_b": 6.819,
+          "revenue_delta_pct": 1.7761,
+          "net_margin_actual_pct": 11.31,
+          "eps_actual": 0.47,
+          "verdict_revenue": "In-line (in range)",
+          "net_margin_yoy_pp": 6.15,
+          "eps_yoy_pct": 161.11,
+          "gross_margin_actual_pct": 50.14,
+          "operating_margin_actual_pct": 10.62
+        }
+      },
+      {
+        "made_in": "2024-Q3",
+        "targets": "2024-Q4",
+        "target_q_key": "2024-Q4",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2024-_Q3_2024-10-29.docx",
+        "call_date": "2024-10-29",
+        "next_call_date": "2025-02-04",
+        "narrative": "Up approximately 10% sequentially, driven primarily by growth in Data Center and Client and the Gaming segment.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 7.2,
+            "guide_high_b": 7.8,
+            "guide_mid_b": 7.5,
+            "actual_b": 7.658,
+            "delta_vs_mid_pct": 2.1067,
+            "verdict": "In-line (in range)",
+            "guide_quote": "We expect revenue to be approximately $7.5 billion, plus or minus $300 million, up 22% year-over-year.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q3_2024-10-29.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2024Q4 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 53.0,
+            "guide_high_pct": 55.0,
+            "guide_mid_pct": 54.0,
+            "actual_pct": 54.0,
+            "delta_vs_mid_pp": 0.0,
+            "verdict": "In-line",
+            "guide_quote": "Non-GAAP gross margin to be approximately 54.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q3_2024-10-29.docx",
+            "actual_source_filing": "AMD Q4 2024 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 1.9999999999999998,
+            "guide_high_b": 2.0999999999999996,
+            "guide_mid_b": 2.05,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $2.05 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q3_2024-10-29.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q3_2024-10-29.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2024-10-22",
+              "close": 154.09
+            },
+            {
+              "offset": -4,
+              "date": "2024-10-23",
+              "close": 152.91
+            },
+            {
+              "offset": -3,
+              "date": "2024-10-24",
+              "close": 153.44
+            },
+            {
+              "offset": -2,
+              "date": "2024-10-25",
+              "close": 156.23
+            },
+            {
+              "offset": -1,
+              "date": "2024-10-28",
+              "close": 159.92
+            },
+            {
+              "offset": 0,
+              "date": "2024-10-29",
+              "close": 166.25
+            },
+            {
+              "offset": 1,
+              "date": "2024-10-30",
+              "close": 148.6
+            },
+            {
+              "offset": 2,
+              "date": "2024-10-31",
+              "close": 144.07
+            },
+            {
+              "offset": 3,
+              "date": "2024-11-01",
+              "close": 141.86
+            },
+            {
+              "offset": 4,
+              "date": "2024-11-04",
+              "close": 140.71
+            },
+            {
+              "offset": 5,
+              "date": "2024-11-05",
+              "close": 141.66
+            }
+          ],
+          "day_before_date": "2024-10-28",
+          "day_before_close": 159.92,
+          "day_of_date": "2024-10-29",
+          "day_of_close": 166.25,
+          "day_after_date": "2024-10-30",
+          "day_after_close": 148.6,
+          "t_minus_5_date": "2024-10-22",
+          "t_minus_5_close": 154.09,
+          "t_plus_5_date": "2024-11-05",
+          "t_plus_5_close": 141.66,
+          "reaction_1d_pct": -7.08,
+          "reaction_5d_pct": -11.42,
+          "pre_5d_run_pct": 1.28,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2024-Q4",
+          "call_date": "2024-10-29",
+          "stock_reaction_1d_pct": -7.08,
+          "stock_reaction_5d_pct": -11.42,
+          "mcs_pair_accuracy": 0.9789,
+          "revenue_guide_low_b": 7.2,
+          "revenue_guide_high_b": 7.8,
+          "revenue_guide_mid_b": 7.5,
+          "revenue_actual_b": 7.658,
+          "revenue_delta_pct": 2.1067,
+          "net_margin_actual_pct": 6.29,
+          "eps_actual": 0.29,
+          "verdict_revenue": "In-line (in range)",
+          "net_margin_yoy_pp": -4.52,
+          "eps_yoy_pct": -29.27,
+          "gross_margin_actual_pct": 50.69,
+          "operating_margin_actual_pct": 11.37
+        }
+      },
+      {
+        "made_in": "2024-Q4",
+        "targets": "2025-Q1",
+        "target_q_key": "2025-Q1",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2024-_Q4_2025-02-04.docx",
+        "call_date": "2025-02-04",
+        "next_call_date": "2025-05-06",
+        "narrative": "More than offsetting a significant decline in our Gaming business and a modest decline in our Embedded business.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 6.8,
+            "guide_high_b": 7.4,
+            "guide_mid_b": 7.1,
+            "actual_b": 7.438,
+            "delta_vs_mid_pct": 4.7606,
+            "verdict": "Beat (above range)",
+            "guide_quote": "We expect revenue to be approximately $7.1 billion plus or minus $300 million, up 30% year-over-year.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q4_2025-02-04.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2025Q1 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 53.0,
+            "guide_high_pct": 55.0,
+            "guide_mid_pct": 54.0,
+            "actual_pct": 54.0,
+            "delta_vs_mid_pp": 0.0,
+            "verdict": "In-line",
+            "guide_quote": "Non-GAAP gross margin to be approximately 54.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q4_2025-02-04.docx",
+            "actual_source_filing": "AMD Q1 2025 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 2.0500000000000003,
+            "guide_high_b": 2.15,
+            "guide_mid_b": 2.1,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $2.1 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q4_2025-02-04.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2024-_Q4_2025-02-04.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2025-01-28",
+              "close": 114.17
+            },
+            {
+              "offset": -4,
+              "date": "2025-01-29",
+              "close": 117.35
+            },
+            {
+              "offset": -3,
+              "date": "2025-01-30",
+              "close": 118.86
+            },
+            {
+              "offset": -2,
+              "date": "2025-01-31",
+              "close": 115.95
+            },
+            {
+              "offset": -1,
+              "date": "2025-02-03",
+              "close": 114.27
+            },
+            {
+              "offset": 0,
+              "date": "2025-02-04",
+              "close": 119.5
+            },
+            {
+              "offset": 1,
+              "date": "2025-02-05",
+              "close": 112.01
+            },
+            {
+              "offset": 2,
+              "date": "2025-02-06",
+              "close": 110.16
+            },
+            {
+              "offset": 3,
+              "date": "2025-02-07",
+              "close": 107.56
+            },
+            {
+              "offset": 4,
+              "date": "2025-02-10",
+              "close": 110.48
+            },
+            {
+              "offset": 5,
+              "date": "2025-02-11",
+              "close": 111.1
+            }
+          ],
+          "day_before_date": "2025-02-03",
+          "day_before_close": 114.27,
+          "day_of_date": "2025-02-04",
+          "day_of_close": 119.5,
+          "day_after_date": "2025-02-05",
+          "day_after_close": 112.01,
+          "t_minus_5_date": "2025-01-28",
+          "t_minus_5_close": 114.17,
+          "t_plus_5_date": "2025-02-11",
+          "t_plus_5_close": 111.1,
+          "reaction_1d_pct": -1.98,
+          "reaction_5d_pct": -2.77,
+          "pre_5d_run_pct": -0.64,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2025-Q1",
+          "call_date": "2025-02-04",
+          "stock_reaction_1d_pct": -1.98,
+          "stock_reaction_5d_pct": -2.77,
+          "mcs_pair_accuracy": 0.9524,
+          "revenue_guide_low_b": 6.8,
+          "revenue_guide_high_b": 7.4,
+          "revenue_guide_mid_b": 7.1,
+          "revenue_actual_b": 7.438,
+          "revenue_delta_pct": 4.7606,
+          "net_margin_actual_pct": 9.53,
+          "eps_actual": 0.44,
+          "verdict_revenue": "Beat (above range)",
+          "net_margin_yoy_pp": 7.28,
+          "eps_yoy_pct": 528.57,
+          "gross_margin_actual_pct": 50.23,
+          "operating_margin_actual_pct": 10.84
+        }
+      },
+      {
+        "made_in": "2025-Q1",
+        "targets": "2025-Q2",
+        "target_q_key": "2025-Q2",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2025-_Q1_2025-05-06.docx",
+        "call_date": "2025-05-06",
+        "next_call_date": "2025-08-05",
+        "narrative": "Despite this headwind, the midpoint of our guidance represents 27% year-over-year revenue growth.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 7.1,
+            "guide_high_b": 7.7,
+            "guide_mid_b": 7.4,
+            "actual_b": 7.685,
+            "delta_vs_mid_pct": 3.8514,
+            "verdict": "In-line (in range)",
+            "guide_quote": "We expect revenue to be approximately $7.4 billion plus or minus $300 million. This includes an estimated $700 million revenue reduction as a result of the new export license requirement.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q1_2025-05-06.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2025Q2 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 42.0,
+            "guide_high_pct": 44.0,
+            "guide_mid_pct": 43.0,
+            "actual_pct": 43.0,
+            "delta_vs_mid_pp": 0.0,
+            "verdict": "In-line",
+            "guide_quote": "Non-GAAP gross margin to be approximately 43.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q1_2025-05-06.docx",
+            "actual_source_filing": "AMD Q2 2025 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 2.25,
+            "guide_high_b": 2.3499999999999996,
+            "guide_mid_b": 2.3,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $2.3 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q1_2025-05-06.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q1_2025-05-06.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2025-04-29",
+              "close": 96.06
+            },
+            {
+              "offset": -4,
+              "date": "2025-04-30",
+              "close": 97.35
+            },
+            {
+              "offset": -3,
+              "date": "2025-05-01",
+              "close": 96.65
+            },
+            {
+              "offset": -2,
+              "date": "2025-05-02",
+              "close": 98.8
+            },
+            {
+              "offset": -1,
+              "date": "2025-05-05",
+              "close": 100.59
+            },
+            {
+              "offset": 0,
+              "date": "2025-05-06",
+              "close": 98.62
+            },
+            {
+              "offset": 1,
+              "date": "2025-05-07",
+              "close": 100.36
+            },
+            {
+              "offset": 2,
+              "date": "2025-05-08",
+              "close": 101.7
+            },
+            {
+              "offset": 3,
+              "date": "2025-05-09",
+              "close": 102.84
+            },
+            {
+              "offset": 4,
+              "date": "2025-05-12",
+              "close": 108.12
+            },
+            {
+              "offset": 5,
+              "date": "2025-05-13",
+              "close": 112.46
+            }
+          ],
+          "day_before_date": "2025-05-05",
+          "day_before_close": 100.59,
+          "day_of_date": "2025-05-06",
+          "day_of_close": 98.62,
+          "day_after_date": "2025-05-07",
+          "day_after_close": 100.36,
+          "t_minus_5_date": "2025-04-29",
+          "t_minus_5_close": 96.06,
+          "t_plus_5_date": "2025-05-13",
+          "t_plus_5_close": 112.46,
+          "reaction_1d_pct": -0.23,
+          "reaction_5d_pct": 11.8,
+          "pre_5d_run_pct": 4.36,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2025-Q2",
+          "call_date": "2025-05-06",
+          "stock_reaction_1d_pct": -0.23,
+          "stock_reaction_5d_pct": 11.8,
+          "mcs_pair_accuracy": 0.9615,
+          "revenue_guide_low_b": 7.1,
+          "revenue_guide_high_b": 7.7,
+          "revenue_guide_mid_b": 7.4,
+          "revenue_actual_b": 7.685,
+          "revenue_delta_pct": 3.8514,
+          "net_margin_actual_pct": 11.35,
+          "eps_actual": 0.54,
+          "verdict_revenue": "In-line (in range)",
+          "net_margin_yoy_pp": 6.81,
+          "eps_yoy_pct": 237.5,
+          "gross_margin_actual_pct": 39.8,
+          "operating_margin_actual_pct": -1.74
+        }
+      },
+      {
+        "made_in": "2025-Q2",
+        "targets": "2025-Q3",
+        "target_q_key": "2025-Q3",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2025-_Q2_2025-08-05.docx",
+        "call_date": "2025-08-05",
+        "next_call_date": "2025-11-04",
+        "narrative": "The midpoint of our guidance represents approximately 28% year-over-year revenue growth, driven by strong double-digit growth in our Client and Gaming and the Data Center segments.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 8.4,
+            "guide_high_b": 9.0,
+            "guide_mid_b": 8.7,
+            "actual_b": 9.246,
+            "delta_vs_mid_pct": 6.2759,
+            "verdict": "Beat (above range)",
+            "guide_quote": "We expect revenue to be approximately $8.7 billion, plus or minus $300 million. Our third quarter outlook does not include any revenue from AMD Instinct MI308 shipment to China.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q2_2025-08-05.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2025Q3 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 53.0,
+            "guide_high_pct": 55.0,
+            "guide_mid_pct": 54.0,
+            "actual_pct": 54.0,
+            "delta_vs_mid_pp": 0.0,
+            "verdict": "In-line",
+            "guide_quote": "Non-GAAP gross margin to be approximately 54.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q2_2025-08-05.docx",
+            "actual_source_filing": "AMD Q3 2025 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 2.5,
+            "guide_high_b": 2.5999999999999996,
+            "guide_mid_b": 2.55,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $2.55 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q2_2025-08-05.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q2_2025-08-05.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2025-07-29",
+              "close": 177.44
+            },
+            {
+              "offset": -4,
+              "date": "2025-07-30",
+              "close": 179.51
+            },
+            {
+              "offset": -3,
+              "date": "2025-07-31",
+              "close": 176.31
+            },
+            {
+              "offset": -2,
+              "date": "2025-08-01",
+              "close": 171.7
+            },
+            {
+              "offset": -1,
+              "date": "2025-08-04",
+              "close": 176.78
+            },
+            {
+              "offset": 0,
+              "date": "2025-08-05",
+              "close": 174.31
+            },
+            {
+              "offset": 1,
+              "date": "2025-08-06",
+              "close": 163.12
+            },
+            {
+              "offset": 2,
+              "date": "2025-08-07",
+              "close": 172.4
+            },
+            {
+              "offset": 3,
+              "date": "2025-08-08",
+              "close": 172.76
+            },
+            {
+              "offset": 4,
+              "date": "2025-08-11",
+              "close": 172.28
+            },
+            {
+              "offset": 5,
+              "date": "2025-08-12",
+              "close": 174.95
+            }
+          ],
+          "day_before_date": "2025-08-04",
+          "day_before_close": 176.78,
+          "day_of_date": "2025-08-05",
+          "day_of_close": 174.31,
+          "day_after_date": "2025-08-06",
+          "day_after_close": 163.12,
+          "t_minus_5_date": "2025-07-29",
+          "t_minus_5_close": 177.44,
+          "t_plus_5_date": "2025-08-12",
+          "t_plus_5_close": 174.95,
+          "reaction_1d_pct": -7.73,
+          "reaction_5d_pct": -1.04,
+          "pre_5d_run_pct": 1.8,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2025-Q3",
+          "call_date": "2025-08-05",
+          "stock_reaction_1d_pct": -7.73,
+          "stock_reaction_5d_pct": -1.04,
+          "mcs_pair_accuracy": 0.9372,
+          "revenue_guide_low_b": 8.4,
+          "revenue_guide_high_b": 9.0,
+          "revenue_guide_mid_b": 8.7,
+          "revenue_actual_b": 9.246,
+          "revenue_delta_pct": 6.2759,
+          "net_margin_actual_pct": 13.44,
+          "eps_actual": 0.75,
+          "verdict_revenue": "Beat (above range)",
+          "net_margin_yoy_pp": 2.13,
+          "eps_yoy_pct": 59.57,
+          "gross_margin_actual_pct": 51.7,
+          "operating_margin_actual_pct": 13.74
+        }
+      },
+      {
+        "made_in": "2025-Q3",
+        "targets": "2025-Q4",
+        "target_q_key": "2025-Q4",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2025-_Q3_2025-11-04.docx",
+        "call_date": "2025-11-04",
+        "next_call_date": "2026-02-03",
+        "narrative": "The midpoint represents approximately 25% year-over-year revenue growth driven by strong double-digit growth in our Data Center, and Client and Gaming segment.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 9.3,
+            "guide_high_b": 9.9,
+            "guide_mid_b": 9.6,
+            "actual_b": 10.27,
+            "delta_vs_mid_pct": 6.9792,
+            "verdict": "Beat (above range)",
+            "guide_quote": "We expect revenue to be approximately $9.6 billion, plus or minus $300 million. Our fourth quarter outlook does not include any revenue from AMD Instinct MI308 shipment to China.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q3_2025-11-04.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2025Q4 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 53.5,
+            "guide_high_pct": 55.5,
+            "guide_mid_pct": 54.5,
+            "actual_pct": 57.0,
+            "delta_vs_mid_pp": 2.5,
+            "verdict": "Beat",
+            "guide_quote": "Non-GAAP gross margin to be approximately 54.5%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q3_2025-11-04.docx",
+            "actual_source_filing": "AMD Q4 2025 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 2.75,
+            "guide_high_b": 2.8499999999999996,
+            "guide_mid_b": 2.8,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $2.8 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q3_2025-11-04.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q3_2025-11-04.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2025-10-28",
+              "close": 258.01
+            },
+            {
+              "offset": -4,
+              "date": "2025-10-29",
+              "close": 264.33
+            },
+            {
+              "offset": -3,
+              "date": "2025-10-30",
+              "close": 254.84
+            },
+            {
+              "offset": -2,
+              "date": "2025-10-31",
+              "close": 256.12
+            },
+            {
+              "offset": -1,
+              "date": "2025-11-03",
+              "close": 259.65
+            },
+            {
+              "offset": 0,
+              "date": "2025-11-04",
+              "close": 250.05
+            },
+            {
+              "offset": 1,
+              "date": "2025-11-05",
+              "close": 256.33
+            },
+            {
+              "offset": 2,
+              "date": "2025-11-06",
+              "close": 237.7
+            },
+            {
+              "offset": 3,
+              "date": "2025-11-07",
+              "close": 233.54
+            },
+            {
+              "offset": 4,
+              "date": "2025-11-10",
+              "close": 243.98
+            },
+            {
+              "offset": 5,
+              "date": "2025-11-11",
+              "close": 237.52
+            }
+          ],
+          "day_before_date": "2025-11-03",
+          "day_before_close": 259.65,
+          "day_of_date": "2025-11-04",
+          "day_of_close": 250.05,
+          "day_after_date": "2025-11-05",
+          "day_after_close": 256.33,
+          "t_minus_5_date": "2025-10-28",
+          "t_minus_5_close": 258.01,
+          "t_plus_5_date": "2025-11-11",
+          "t_plus_5_close": 237.52,
+          "reaction_1d_pct": -1.28,
+          "reaction_5d_pct": -8.52,
+          "pre_5d_run_pct": -0.01,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2025-Q4",
+          "call_date": "2025-11-04",
+          "stock_reaction_1d_pct": -1.28,
+          "stock_reaction_5d_pct": -8.52,
+          "mcs_pair_accuracy": 0.9302,
+          "revenue_guide_low_b": 9.3,
+          "revenue_guide_high_b": 9.9,
+          "revenue_guide_mid_b": 9.6,
+          "revenue_actual_b": 10.27,
+          "revenue_delta_pct": 6.9792,
+          "net_margin_actual_pct": 14.71,
+          "eps_actual": 0.92,
+          "verdict_revenue": "Beat (above range)",
+          "net_margin_yoy_pp": 8.42,
+          "eps_yoy_pct": 217.24,
+          "gross_margin_actual_pct": 54.3,
+          "operating_margin_actual_pct": 17.06
+        }
+      },
+      {
+        "made_in": "2025-Q4",
+        "targets": "2026-Q1",
+        "target_q_key": "2026-Q1",
+        "transcript_source": "AMD/Transcripts/AMD_ER_2025-_Q4_2026-02-03.docx",
+        "call_date": "2026-02-03",
+        "next_call_date": "2026-04-29",
+        "narrative": "At the midpoint, revenue is up 32% year-over-year, driven by strong growth in our Data Center and Client and Gaming segments.",
+        "key_events": "",
+        "line_items": [
+          {
+            "metric": "Total revenue (next quarter)",
+            "metric_kind": "revenue",
+            "guide_low_b": 9.5,
+            "guide_high_b": 10.1,
+            "guide_mid_b": 9.8,
+            "actual_b": 10.253,
+            "delta_vs_mid_pct": 4.6224,
+            "verdict": "Beat (above range)",
+            "guide_quote": "We expect revenue to be approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of MI308 sales to China.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q4_2026-02-03.docx",
+            "actual_source_filing": "SEC EDGAR XBRL \u00b7 2026Q1 10-Q",
+            "horizon": "Next quarter (Q+1, Jean Hu CFO explicitly stated)"
+          },
+          {
+            "metric": "Non-GAAP gross margin (next quarter)",
+            "metric_kind": "fy_tax",
+            "guide_low_pct": 54.0,
+            "guide_high_pct": 56.0,
+            "guide_mid_pct": 55.0,
+            "actual_pct": 54.0,
+            "delta_vs_mid_pp": -1.0,
+            "verdict": "Miss",
+            "guide_quote": "Non-GAAP gross margin to be approximately 55.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q4_2026-02-03.docx",
+            "actual_source_filing": "AMD Q1 2026 earnings transcript (next call)",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP operating expenses (next quarter)",
+            "metric_kind": "fy_expense",
+            "guide_low_b": 3.0,
+            "guide_high_b": 3.0999999999999996,
+            "guide_mid_b": 3.05,
+            "actual_b": null,
+            "delta_vs_mid_pct": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP operating expenses to be approximately $3.05 billion.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q4_2026-02-03.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          },
+          {
+            "metric": "Non-GAAP effective tax rate",
+            "metric_kind": "q_tax",
+            "guide_low_pct": 13.0,
+            "guide_high_pct": 13.0,
+            "guide_mid_pct": 13.0,
+            "actual_pct": null,
+            "delta_vs_mid_pp": null,
+            "verdict": "Pending review",
+            "guide_quote": "Non-GAAP effective tax rate to be 13.0%.",
+            "guide_source_file": "AMD/Transcripts/AMD_ER_2025-_Q4_2026-02-03.docx",
+            "actual_source_filing": "Cross-reference with subsequent transcript",
+            "horizon": "Next quarter (Q+1)"
+          }
+        ],
+        "status": null,
+        "stock_reaction": {
+          "series": [
+            {
+              "offset": -5,
+              "date": "2026-01-27",
+              "close": 252.03
+            },
+            {
+              "offset": -4,
+              "date": "2026-01-28",
+              "close": 252.74
+            },
+            {
+              "offset": -3,
+              "date": "2026-01-29",
+              "close": 252.18
+            },
+            {
+              "offset": -2,
+              "date": "2026-01-30",
+              "close": 236.73
+            },
+            {
+              "offset": -1,
+              "date": "2026-02-02",
+              "close": 246.27
+            },
+            {
+              "offset": 0,
+              "date": "2026-02-03",
+              "close": 242.11
+            },
+            {
+              "offset": 1,
+              "date": "2026-02-04",
+              "close": 200.19
+            },
+            {
+              "offset": 2,
+              "date": "2026-02-05",
+              "close": 192.5
+            },
+            {
+              "offset": 3,
+              "date": "2026-02-06",
+              "close": 208.44
+            },
+            {
+              "offset": 4,
+              "date": "2026-02-09",
+              "close": 216.0
+            },
+            {
+              "offset": 5,
+              "date": "2026-02-10",
+              "close": 213.57
+            }
+          ],
+          "day_before_date": "2026-02-02",
+          "day_before_close": 246.27,
+          "day_of_date": "2026-02-03",
+          "day_of_close": 242.11,
+          "day_after_date": "2026-02-04",
+          "day_after_close": 200.19,
+          "t_minus_5_date": "2026-01-27",
+          "t_minus_5_close": 252.03,
+          "t_plus_5_date": "2026-02-10",
+          "t_plus_5_close": 213.57,
+          "reaction_1d_pct": -18.71,
+          "reaction_5d_pct": -13.28,
+          "pre_5d_run_pct": -2.01,
+          "source": "AMD/Stock Price Data/AMD_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+        },
+        "summary_metrics": {
+          "target_q": "2026-Q1",
+          "call_date": "2026-02-03",
+          "stock_reaction_1d_pct": -18.71,
+          "stock_reaction_5d_pct": -13.28,
+          "mcs_pair_accuracy": 0.9538,
+          "revenue_guide_low_b": 9.5,
+          "revenue_guide_high_b": 10.1,
+          "revenue_guide_mid_b": 9.8,
+          "revenue_actual_b": 10.253,
+          "revenue_delta_pct": 4.6224,
+          "net_margin_actual_pct": 13.49,
+          "eps_actual": 0.84,
+          "verdict_revenue": "Beat (above range)",
+          "net_margin_yoy_pp": 3.96,
+          "eps_yoy_pct": 90.91,
+          "gross_margin_actual_pct": 52.82,
+          "operating_margin_actual_pct": 14.4
+        }
+      }
+    ],
+    "stock_prices_available": true,
+    "stock_prices_source": "AMD_1_JAN_24_30_APR_26.xlsx",
+    "stock_prices_provider": "Barchart",
+    "spot_latest": 354.49,
+    "spot_date": "2026-04-30",
+    "high_52w": 354.49,
+    "low_52w": 96.65,
+    "summary_metrics": [
+      {
+        "period": "2024Q1",
+        "label": "Q1 2024",
+        "revenue_M": 5473.0,
+        "rev_yoy_pct": null,
+        "gross_margin_pct": 46.78,
+        "operating_margin_pct": 0.66,
+        "net_margin_pct": 2.25,
+        "eps_diluted": 0.07,
+        "eps_yoy_pct": null,
+        "ocf_M": 521.0,
+        "capex_M": 142.0,
+        "fcf_M": 379.0,
+        "rd_M": 1525.0,
+        "rd_intensity_pct": 27.86,
+        "reaction_pre_to_post_pct": -9.94,
+        "reaction_5d_pct": -3.6,
+        "call_date": "2024-04-30"
+      },
+      {
+        "period": "2024Q2",
+        "label": "Q2 2024",
+        "revenue_M": 5835.0,
+        "rev_yoy_pct": null,
+        "gross_margin_pct": 49.08,
+        "operating_margin_pct": 4.61,
+        "net_margin_pct": 4.54,
+        "eps_diluted": 0.16,
+        "eps_yoy_pct": null,
+        "ocf_M": 593.0,
+        "capex_M": 154.0,
+        "fcf_M": 439.0,
+        "rd_M": 1583.0,
+        "rd_intensity_pct": 27.13,
+        "reaction_pre_to_post_pct": 3.38,
+        "reaction_5d_pct": -6.85,
+        "call_date": "2024-07-30"
+      },
+      {
+        "period": "2024Q3",
+        "label": "Q3 2024",
+        "revenue_M": 6819.0,
+        "rev_yoy_pct": null,
+        "gross_margin_pct": 50.14,
+        "operating_margin_pct": 10.62,
+        "net_margin_pct": 11.31,
+        "eps_diluted": 0.47,
+        "eps_yoy_pct": null,
+        "ocf_M": 628.0,
+        "capex_M": 132.0,
+        "fcf_M": 496.0,
+        "rd_M": 1636.0,
+        "rd_intensity_pct": 23.99,
+        "reaction_pre_to_post_pct": -7.08,
+        "reaction_5d_pct": -11.42,
+        "call_date": "2024-10-29"
+      },
+      {
+        "period": "2024Q4",
+        "label": "Q4 2024",
+        "revenue_M": 7658.0,
+        "rev_yoy_pct": null,
+        "gross_margin_pct": 50.69,
+        "operating_margin_pct": 11.37,
+        "net_margin_pct": 6.29,
+        "eps_diluted": 0.29,
+        "eps_yoy_pct": null,
+        "ocf_M": 1299.0,
+        "capex_M": 208.0,
+        "fcf_M": 1091.0,
+        "rd_M": 1712.0,
+        "rd_intensity_pct": 22.36,
+        "reaction_pre_to_post_pct": -1.98,
+        "reaction_5d_pct": -2.77,
+        "call_date": "2025-02-04"
+      },
+      {
+        "period": "2025Q1",
+        "label": "Q1 2025",
+        "revenue_M": 7438.0,
+        "rev_yoy_pct": 35.9,
+        "gross_margin_pct": 50.23,
+        "operating_margin_pct": 10.84,
+        "net_margin_pct": 9.53,
+        "eps_diluted": 0.44,
+        "eps_yoy_pct": 528.57,
+        "ocf_M": 939.0,
+        "capex_M": 212.0,
+        "fcf_M": 727.0,
+        "rd_M": 1728.0,
+        "rd_intensity_pct": 23.23,
+        "reaction_pre_to_post_pct": -0.23,
+        "reaction_5d_pct": 11.8,
+        "call_date": "2025-05-06"
+      },
+      {
+        "period": "2025Q2",
+        "label": "Q2 2025",
+        "revenue_M": 7685.0,
+        "rev_yoy_pct": 31.71,
+        "gross_margin_pct": 39.8,
+        "operating_margin_pct": -1.74,
+        "net_margin_pct": 11.35,
+        "eps_diluted": 0.54,
+        "eps_yoy_pct": 237.5,
+        "ocf_M": 2011.0,
+        "capex_M": 282.0,
+        "fcf_M": 1729.0,
+        "rd_M": 1894.0,
+        "rd_intensity_pct": 24.65,
+        "reaction_pre_to_post_pct": -7.73,
+        "reaction_5d_pct": -1.04,
+        "call_date": "2025-08-05"
+      },
+      {
+        "period": "2025Q3",
+        "label": "Q3 2025",
+        "revenue_M": 9246.0,
+        "rev_yoy_pct": 35.59,
+        "gross_margin_pct": 51.7,
+        "operating_margin_pct": 13.74,
+        "net_margin_pct": 13.44,
+        "eps_diluted": 0.75,
+        "eps_yoy_pct": 59.57,
+        "ocf_M": 2159.0,
+        "capex_M": 258.0,
+        "fcf_M": 1901.0,
+        "rd_M": 2139.0,
+        "rd_intensity_pct": 23.13,
+        "reaction_pre_to_post_pct": -1.28,
+        "reaction_5d_pct": -8.52,
+        "call_date": "2025-11-04"
+      },
+      {
+        "period": "2025Q4",
+        "label": "Q4 2025",
+        "revenue_M": 10270.0,
+        "rev_yoy_pct": 34.11,
+        "gross_margin_pct": 54.3,
+        "operating_margin_pct": 17.06,
+        "net_margin_pct": 14.71,
+        "eps_diluted": 0.92,
+        "eps_yoy_pct": 217.24,
+        "ocf_M": 2600.0,
+        "capex_M": 222.0,
+        "fcf_M": 2378.0,
+        "rd_M": 2330.0,
+        "rd_intensity_pct": 22.69,
+        "reaction_pre_to_post_pct": -18.71,
+        "reaction_5d_pct": -13.28,
+        "call_date": "2026-02-03"
+      },
+      {
+        "period": "2026Q1",
+        "label": "Q1 2026",
+        "revenue_M": 10253.0,
+        "rev_yoy_pct": 37.85,
+        "gross_margin_pct": 52.82,
+        "operating_margin_pct": 14.4,
+        "net_margin_pct": 13.49,
+        "eps_diluted": 0.84,
+        "eps_yoy_pct": 90.91,
+        "ocf_M": 2955.0,
+        "capex_M": 389.0,
+        "fcf_M": 2566.0,
+        "rd_M": 2397.0,
+        "rd_intensity_pct": 23.38,
+        "reaction_pre_to_post_pct": 9.68,
+        "reaction_5d_pct": null,
+        "call_date": "2026-04-29"
+      }
+    ]
+  },
+  "mcs": {
+    "ticker": "AMD",
+    "n_claims": 8,
+    "mcs_simple": 0.9591,
+    "mcs_information_adjusted": 0.9591,
+    "mcs_difficulty_weighted": 0.9543,
+    "subscores": {
+      "revenue": 0.9591,
+      "margin": null,
+      "eps": null,
+      "fcf": null,
+      "strategic": null
+    },
+    "baseline_random": 0.4913,
+    "baseline_always_up": 1.0,
+    "skill_over_baseline": -0.0409,
+    "beats": 8,
+    "misses": 0,
+    "rows": [
+      {
+        "claim_id": "AMD_01",
+        "quarter_made": "AMD-2024-Q1",
+        "target_quarter": "AMD-2024-Q2",
+        "guided": 5700,
+        "actual": 5835.0,
+        "pct": 2.37,
+        "accuracy": 0.9763,
+        "bms": 1,
+        "difficulty": 0,
+        "source_quote": "Jean Hu, Q1 2024 call (Apr 30 2024): 'we expect revenue to be approximately $5.7 billion plus or minus $300 million'"
+      },
+      {
+        "claim_id": "AMD_02",
+        "quarter_made": "AMD-2024-Q2",
+        "target_quarter": "AMD-2024-Q3",
+        "guided": 6700,
+        "actual": 6819.0,
+        "pct": 1.78,
+        "accuracy": 0.9822,
+        "bms": 1,
+        "difficulty": 0,
+        "source_quote": "Jean Hu, Q2 2024 call (Jul 30 2024): 'we expect revenue to be approximately $6.7 billion, plus or minus $300 million'"
+      },
+      {
+        "claim_id": "AMD_03",
+        "quarter_made": "AMD-2024-Q3",
+        "target_quarter": "AMD-2024-Q4",
+        "guided": 7500,
+        "actual": 7658.0,
+        "pct": 2.11,
+        "accuracy": 0.9789,
+        "bms": 1,
+        "difficulty": 0,
+        "source_quote": "Jean Hu, Q3 2024 call (Oct 29 2024): 'we expect revenue to be approximately $7.5 billion, plus or minus $300 million'"
+      },
+      {
+        "claim_id": "AMD_04",
+        "quarter_made": "AMD-2024-Q4",
+        "target_quarter": "AMD-2025-Q1",
+        "guided": 7100,
+        "actual": 7438.0,
+        "pct": 4.76,
+        "accuracy": 0.9524,
+        "bms": 1,
+        "difficulty": 0,
+        "source_quote": "Jean Hu, Q4 2024 call (Feb 4 2025): 'we expect revenue to be approximately $7.1 billion plus or minus $300 million'"
+      },
+      {
+        "claim_id": "AMD_05",
+        "quarter_made": "AMD-2025-Q1",
+        "target_quarter": "AMD-2025-Q2",
+        "guided": 7400,
+        "actual": 7685.0,
+        "pct": 3.85,
+        "accuracy": 0.9615,
+        "bms": 1,
+        "difficulty": 1,
+        "source_quote": "Jean Hu, Q1 2025 call (May 6 2025): 'we expect revenue to be approximately $7.4 billion plus or minus $300 million; This includes an estimated $700 million revenue reduction as a result of the new export license requirement [MI308 to China]'"
+      },
+      {
+        "claim_id": "AMD_06",
+        "quarter_made": "AMD-2025-Q2",
+        "target_quarter": "AMD-2025-Q3",
+        "guided": 8700,
+        "actual": 9246.0,
+        "pct": 6.28,
+        "accuracy": 0.9372,
+        "bms": 1,
+        "difficulty": 2,
+        "source_quote": "Jean Hu, Q2 2025 call (Aug 5 2025): 'we expect revenue to be approximately $8.7 billion, plus or minus $300 million; our third quarter outlook does not include any revenue from AMD Instinct MI308 shipment to China'"
+      },
+      {
+        "claim_id": "AMD_07",
+        "quarter_made": "AMD-2025-Q3",
+        "target_quarter": "AMD-2025-Q4",
+        "guided": 9600,
+        "actual": 10270.0,
+        "pct": 6.98,
+        "accuracy": 0.9302,
+        "bms": 1,
+        "difficulty": 2,
+        "source_quote": "Jean Hu, Q3 2025 call (Nov 4 2025): 'we expect revenue to be approximately $9.6 billion, plus or minus $300 million; our fourth quarter outlook does not include any revenue from AMD Instinct MI308 shipment to China'"
+      },
+      {
+        "claim_id": "AMD_08",
+        "quarter_made": "AMD-2025-Q4",
+        "target_quarter": "AMD-2026-Q1",
+        "guided": 9800,
+        "actual": 10253.0,
+        "pct": 4.62,
+        "accuracy": 0.9538,
+        "bms": 1,
+        "difficulty": 1,
+        "source_quote": "Jean Hu, Q4 2025 call (Feb 3 2026): 'we expect revenue to be approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of MI308 sales to China'"
+      }
+    ]
+  },
+  "options_metrics": {
+    "spot": 455.19,
+    "total_call_oi": 1517583.0,
+    "total_put_oi": 1571570.0,
+    "total_call_vol": 434416.0,
+    "total_put_vol": 258254.0,
+    "pcr_oi": 1.036,
+    "pcr_vol": 0.594,
+    "top_oi_strikes": [
+      {
+        "strike": 200.0,
+        "call_oi": 52509.0,
+        "put_oi": 99101.0,
+        "total": 151610.0
+      },
+      {
+        "strike": 250.0,
+        "call_oi": 54944.0,
+        "put_oi": 55532.0,
+        "total": 110476.0
+      },
+      {
+        "strike": 300.0,
+        "call_oi": 61209.0,
+        "put_oi": 33906.0,
+        "total": 95115.0
+      },
+      {
+        "strike": 240.0,
+        "call_oi": 44566.0,
+        "put_oi": 42010.0,
+        "total": 86576.0
+      },
+      {
+        "strike": 400.0,
+        "call_oi": 69466.0,
+        "put_oi": 12514.0,
+        "total": 81980.0
+      },
+      {
+        "strike": 180.0,
+        "call_oi": 15264.0,
+        "put_oi": 64221.0,
+        "total": 79485.0
+      },
+      {
+        "strike": 150.0,
+        "call_oi": 19124.0,
+        "put_oi": 60000.0,
+        "total": 79124.0
+      },
+      {
+        "strike": 260.0,
+        "call_oi": 52622.0,
+        "put_oi": 26072.0,
+        "total": 78694.0
+      },
+      {
+        "strike": 210.0,
+        "call_oi": 33013.0,
+        "put_oi": 44598.0,
+        "total": 77611.0
+      },
+      {
+        "strike": 170.0,
+        "call_oi": 13088.0,
+        "put_oi": 64182.0,
+        "total": 77270.0
+      }
+    ],
+    "term_structure": [
+      {
+        "expiry": "2026-05-15",
+        "dte": 6,
+        "atm_strike": 455.0,
+        "atm_iv": 60.53
+      },
+      {
+        "expiry": "2026-05-22",
+        "dte": 13,
+        "atm_strike": 455.0,
+        "atm_iv": 64.8
+      },
+      {
+        "expiry": "2026-05-29",
+        "dte": 20,
+        "atm_strike": 455.0,
+        "atm_iv": 61.72
+      },
+      {
+        "expiry": "2026-06-05",
+        "dte": 27,
+        "atm_strike": 455.0,
+        "atm_iv": 62.43
+      },
+      {
+        "expiry": "2026-06-12",
+        "dte": 34,
+        "atm_strike": 455.0,
+        "atm_iv": 62.08
+      },
+      {
+        "expiry": "2026-06-18",
+        "dte": 40,
+        "atm_strike": 460.0,
+        "atm_iv": 61.75
+      },
+      {
+        "expiry": "2026-06-26",
+        "dte": 48,
+        "atm_strike": 455.0,
+        "atm_iv": 61.07
+      },
+      {
+        "expiry": "2026-07-17",
+        "dte": 69,
+        "atm_strike": 460.0,
+        "atm_iv": 62.16
+      },
+      {
+        "expiry": "2026-08-21",
+        "dte": 104,
+        "atm_strike": 460.0,
+        "atm_iv": 65.92
+      },
+      {
+        "expiry": "2026-09-18",
+        "dte": 132,
+        "atm_strike": 460.0,
+        "atm_iv": 65.78
+      },
+      {
+        "expiry": "2026-10-16",
+        "dte": 160,
+        "atm_strike": 460.0,
+        "atm_iv": 65.05
+      },
+      {
+        "expiry": "2026-11-20",
+        "dte": 195,
+        "atm_strike": 460.0,
+        "atm_iv": 65.74
+      },
+      {
+        "expiry": "2026-12-18",
+        "dte": 223,
+        "atm_strike": 460.0,
+        "atm_iv": 64.99
+      },
+      {
+        "expiry": "2027-01-15",
+        "dte": 251,
+        "atm_strike": 460.0,
+        "atm_iv": 64.16
+      },
+      {
+        "expiry": "2027-03-19",
+        "dte": 314,
+        "atm_strike": 460.0,
+        "atm_iv": 64.01
+      },
+      {
+        "expiry": "2027-06-17",
+        "dte": 404,
+        "atm_strike": 460.0,
+        "atm_iv": 63.74
+      },
+      {
+        "expiry": "2027-12-17",
+        "dte": 587,
+        "atm_strike": 460.0,
+        "atm_iv": 63.45
+      },
+      {
+        "expiry": "2028-01-21",
+        "dte": 622,
+        "atm_strike": 460.0,
+        "atm_iv": 63.37
+      },
+      {
+        "expiry": "2028-06-16",
+        "dte": 769,
+        "atm_strike": 460.0,
+        "atm_iv": 63.35
+      },
+      {
+        "expiry": "2028-12-15",
+        "dte": 951,
+        "atm_strike": 460.0,
+        "atm_iv": 63.35
+      }
+    ],
+    "skew_25d_per_expiry": [
+      {
+        "expiry": "2026-05-15",
+        "dte": 6,
+        "skew": -12.58
+      },
+      {
+        "expiry": "2026-05-22",
+        "dte": 13,
+        "skew": -8.39
+      },
+      {
+        "expiry": "2026-05-29",
+        "dte": 20,
+        "skew": -6.52
+      },
+      {
+        "expiry": "2026-06-05",
+        "dte": 27,
+        "skew": -6.0
+      },
+      {
+        "expiry": "2026-06-12",
+        "dte": 34,
+        "skew": -5.63
+      },
+      {
+        "expiry": "2026-06-18",
+        "dte": 40,
+        "skew": -3.77
+      },
+      {
+        "expiry": "2026-06-26",
+        "dte": 48,
+        "skew": -5.35
+      },
+      {
+        "expiry": "2026-07-17",
+        "dte": 69,
+        "skew": -3.65
+      },
+      {
+        "expiry": "2026-08-21",
+        "dte": 104,
+        "skew": -2.91
+      },
+      {
+        "expiry": "2026-09-18",
+        "dte": 132,
+        "skew": -2.76
+      },
+      {
+        "expiry": "2026-10-16",
+        "dte": 160,
+        "skew": -2.18
+      },
+      {
+        "expiry": "2026-11-20",
+        "dte": 195,
+        "skew": -2.13
+      },
+      {
+        "expiry": "2026-12-18",
+        "dte": 223,
+        "skew": -1.37
+      },
+      {
+        "expiry": "2027-01-15",
+        "dte": 251,
+        "skew": -1.52
+      },
+      {
+        "expiry": "2027-03-19",
+        "dte": 314,
+        "skew": -0.79
+      },
+      {
+        "expiry": "2027-06-17",
+        "dte": 404,
+        "skew": -1.28
+      }
+    ],
+    "max_pain_by_exp": [
+      {
+        "expiry": "2026-05-15",
+        "dte": 6,
+        "max_pain": 280.0
+      },
+      {
+        "expiry": "2026-05-22",
+        "dte": 13,
+        "max_pain": 347.5
+      },
+      {
+        "expiry": "2026-05-29",
+        "dte": 20,
+        "max_pain": 320.0
+      },
+      {
+        "expiry": "2026-06-05",
+        "dte": 27,
+        "max_pain": 340.0
+      },
+      {
+        "expiry": "2026-06-12",
+        "dte": 34,
+        "max_pain": 380.0
+      },
+      {
+        "expiry": "2026-06-18",
+        "dte": 40,
+        "max_pain": 210.0
+      },
+      {
+        "expiry": "2026-06-26",
+        "dte": 48,
+        "max_pain": 400.0
+      },
+      {
+        "expiry": "2026-07-17",
+        "dte": 69,
+        "max_pain": 250.0
+      },
+      {
+        "expiry": "2026-08-21",
+        "dte": 104,
+        "max_pain": 250.0
+      },
+      {
+        "expiry": "2026-09-18",
+        "dte": 132,
+        "max_pain": 230.0
+      },
+      {
+        "expiry": "2026-10-16",
+        "dte": 160,
+        "max_pain": 260.0
+      },
+      {
+        "expiry": "2026-11-20",
+        "dte": 195,
+        "max_pain": 240.0
+      },
+      {
+        "expiry": "2026-12-18",
+        "dte": 223,
+        "max_pain": 175.0
+      },
+      {
+        "expiry": "2027-01-15",
+        "dte": 251,
+        "max_pain": 170.0
+      },
+      {
+        "expiry": "2027-03-19",
+        "dte": 314,
+        "max_pain": 280.0
+      },
+      {
+        "expiry": "2027-06-17",
+        "dte": 404,
+        "max_pain": 220.0
+      },
+      {
+        "expiry": "2027-12-17",
+        "dte": 587,
+        "max_pain": 165.0
+      },
+      {
+        "expiry": "2028-01-21",
+        "dte": 622,
+        "max_pain": 195.0
+      },
+      {
+        "expiry": "2028-06-16",
+        "dte": 769,
+        "max_pain": 250.0
+      },
+      {
+        "expiry": "2028-12-15",
+        "dte": 951,
+        "max_pain": 150.0
+      }
+    ],
+    "gex_estimate": {
+      "front_month": 0.04
+    }
+  },
+  "ta_levels": {
+    "spot": 354.49,
+    "spot_date": "2026-04-30",
+    "sma20": 277.743,
+    "sma50": 232.2334,
+    "sma100": 226.3836,
+    "sma200": 210.38029999999998,
+    "rsi14": 83.06047242191747,
+    "macd": 33.23746527551299,
+    "macd_signal": 26.221643296029228,
+    "macd_hist": 7.015821979483761,
+    "atr14": 17.354285714285716,
+    "adx14": 71.17041194426594,
+    "plus_di": 71.01816348930308,
+    "minus_di": 14.040004286050912,
+    "stoch_k": 99.58381298149298,
+    "stoch_d": 87.08793103742194,
+    "high_52w": 354.49,
+    "high_52w_date": "2026-04-30",
+    "low_52w": 96.65,
+    "drawdown_from_52w_high_pct": 0.0,
+    "sma50_above_sma200": true,
+    "last_cross_date": "2025-07-16",
+    "last_cross_type": "Golden",
+    "obv_60d_change_M": 473.638559,
+    "price_60d_change_pct": 77.0767770617913
+  },
+  "factset_peers": {
+    "captured": "2026-05-09 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Semiconductors peer set",
+    "as_of_close": "2026-05-08",
+    "currency": "USD (Local)",
+    "target": {
+      "ticker": "AMD-US",
+      "fiscal_period": "03/28/2026",
+      "price": 455.19,
+      "target_price": 442.49,
+      "ev_B": 749.52,
+      "mkt_cap_B": 758.84,
+      "net_debt_M": -8487.0,
+      "PS_LTM": 20.05,
+      "EV_Sales_LTM": 20.01,
+      "EV_EBITDA_FY1": 58.85,
+      "EV_EBITDA_FY2": 30.49,
+      "PE_FY1": 62.21,
+      "PE_FY2": 35.41,
+      "P_FCF_FY1": 87.22,
+      "P_FCF_FY2": 48.54,
+      "FCF_Yield_pct": 1.91,
+      "Div_Yield_pct": 0.0,
+      "rating": "Buy (1.24)",
+      "sales_FY1_M": 49260.0,
+      "sales_FY2_M": 74546.5,
+      "ebitda_FY1_M": 12735.5,
+      "ebitda_FY2_M": 24580.5,
+      "ebitda_margin_FY1": 25.9,
+      "ebitda_margin_FY2": 33.0,
+      "ebit_FY1_M": 13687.1,
+      "ebit_FY2_M": 24090.2,
+      "ebit_margin_FY1": 27.8,
+      "ebit_margin_FY2": 32.3,
+      "fcf_FY1_M": 8533.4,
+      "fcf_FY2_M": 15952.1,
+      "broker_contributors": 59
+    },
+    "peers": [
+      {
+        "ticker": "INTC-US",
+        "name": "Intel",
+        "fiscal_period": "03/28/2026",
+        "price": 124.92,
+        "target_price": 90.2,
+        "ev_B": 682.44,
+        "mkt_cap_B": 664.31,
+        "net_debt_M": 12242.0,
+        "PS_LTM": 11.81,
+        "EV_Sales_LTM": 12.69,
+        "EV_EBITDA_FY1": 35.0,
+        "EV_EBITDA_FY2": 27.92,
+        "PE_FY1": 116.33,
+        "PE_FY2": 83.7,
+        "P_FCF_FY1": null,
+        "P_FCF_FY2": 1943.2,
+        "FCF_Yield_pct": -3.02,
+        "Div_Yield_pct": 0.0,
+        "rating": "Hold (1.77)",
+        "sales_FY1_M": 58316.5,
+        "sales_FY2_M": 64466.9,
+        "ebitda_FY1_M": 19500.4,
+        "ebitda_FY2_M": 24443.3,
+        "ebitda_margin_FY1": 33.4,
+        "ebitda_margin_FY2": 37.9,
+        "ebit_FY1_M": 7082.8,
+        "ebit_FY2_M": 10164.2,
+        "ebit_margin_FY1": 12.1,
+        "ebit_margin_FY2": 15.8,
+        "fcf_FY1_M": -5294.3,
+        "fcf_FY2_M": -2792.2,
+        "broker_contributors": 45
+      },
+      {
+        "ticker": "AVGO-US",
+        "name": "Broadcom",
+        "fiscal_period": "02/01/2026",
+        "price": 430.0,
+        "target_price": 473.25,
+        "ev_B": 2177.2,
+        "mkt_cap_B": 2125.3,
+        "net_debt_M": 51883.0,
+        "PS_LTM": 30.78,
+        "EV_Sales_LTM": 31.89,
+        "EV_EBITDA_FY1": 30.9,
+        "EV_EBITDA_FY2": 19.51,
+        "PE_FY1": 37.99,
+        "PE_FY2": 23.9,
+        "P_FCF_FY1": 39.01,
+        "P_FCF_FY2": 23.55,
+        "FCF_Yield_pct": 1.5,
+        "Div_Yield_pct": 0.6,
+        "rating": "Buy (1.14)",
+        "sales_FY1_M": 103639.3,
+        "sales_FY2_M": 161135.8,
+        "ebitda_FY1_M": 70453.4,
+        "ebitda_FY2_M": 111605.3,
+        "ebitda_margin_FY1": 68.0,
+        "ebitda_margin_FY2": 69.3,
+        "ebit_FY1_M": 69077.4,
+        "ebit_FY2_M": 108364.9,
+        "ebit_margin_FY1": 66.7,
+        "ebit_margin_FY2": 67.3,
+        "fcf_FY1_M": 50524.6,
+        "fcf_FY2_M": 84679.5,
+        "broker_contributors": 55
+      },
+      {
+        "ticker": "TXN-US",
+        "name": "Texas Instruments",
+        "fiscal_period": "03/31/2026",
+        "price": 287.8,
+        "target_price": 282.9,
+        "ev_B": 276.0,
+        "mkt_cap_B": 267.0,
+        "net_debt_M": 8947.0,
+        "PS_LTM": 14.27,
+        "EV_Sales_LTM": 14.97,
+        "EV_EBITDA_FY1": 25.37,
+        "EV_EBITDA_FY2": 21.92,
+        "PE_FY1": 37.88,
+        "PE_FY2": 32.44,
+        "P_FCF_FY1": 36.88,
+        "P_FCF_FY2": 31.33,
+        "FCF_Yield_pct": 1.64,
+        "Div_Yield_pct": 1.97,
+        "rating": "Overweight (1.68)",
+        "sales_FY1_M": 20889.5,
+        "sales_FY2_M": 23198.2,
+        "ebitda_FY1_M": 10880.7,
+        "ebitda_FY2_M": 12592.3,
+        "ebitda_margin_FY1": 52.1,
+        "ebitda_margin_FY2": 54.3,
+        "ebit_FY1_M": 8369.7,
+        "ebit_FY2_M": 9733.2,
+        "ebit_margin_FY1": 40.1,
+        "ebit_margin_FY2": 42.0,
+        "fcf_FY1_M": 7369.1,
+        "fcf_FY2_M": 8626.5,
+        "broker_contributors": 42
+      },
+      {
+        "ticker": "QCOM-US",
+        "name": "Qualcomm",
+        "fiscal_period": "03/29/2026",
+        "price": 219.09,
+        "target_price": 176.72,
+        "ev_B": 242.5,
+        "mkt_cap_B": 237.0,
+        "net_debt_M": 5471.0,
+        "PS_LTM": 5.28,
+        "EV_Sales_LTM": 5.45,
+        "EV_EBITDA_FY1": 16.34,
+        "EV_EBITDA_FY2": 16.98,
+        "PE_FY1": 20.36,
+        "PE_FY2": 20.61,
+        "P_FCF_FY1": 20.34,
+        "P_FCF_FY2": 22.55,
+        "FCF_Yield_pct": 6.86,
+        "Div_Yield_pct": 1.68,
+        "rating": "Hold (1.80)",
+        "sales_FY1_M": 42695.8,
+        "sales_FY2_M": 42868.5,
+        "ebitda_FY1_M": 14840.3,
+        "ebitda_FY2_M": 14286.2,
+        "ebitda_margin_FY1": 34.8,
+        "ebitda_margin_FY2": 33.3,
+        "ebit_FY1_M": 13346.8,
+        "ebit_FY2_M": 12748.5,
+        "ebit_margin_FY1": 31.3,
+        "ebit_margin_FY2": 29.7,
+        "fcf_FY1_M": 11767.0,
+        "fcf_FY2_M": 10651.9,
+        "broker_contributors": 35
+      },
+      {
+        "ticker": "ADI-US",
+        "name": "Analog Devices",
+        "fiscal_period": "01/31/2026",
+        "price": 416.52,
+        "target_price": 402.52,
+        "ev_B": 210.28,
+        "mkt_cap_B": 205.55,
+        "net_debt_M": 4633.4,
+        "PS_LTM": 17.42,
+        "EV_Sales_LTM": 17.89,
+        "EV_EBITDA_FY1": 24.74,
+        "EV_EBITDA_FY2": 22.94,
+        "PE_FY1": 36.48,
+        "PE_FY2": 31.71,
+        "P_FCF_FY1": 37.43,
+        "P_FCF_FY2": 31.41,
+        "FCF_Yield_pct": 3.68,
+        "Div_Yield_pct": 1.06,
+        "rating": "Overweight (1.26)",
+        "sales_FY1_M": 14012.8,
+        "sales_FY2_M": 15381.7,
+        "ebitda_FY1_M": 8500.1,
+        "ebitda_FY2_M": 9166.9,
+        "ebitda_margin_FY1": 60.7,
+        "ebitda_margin_FY2": 59.6,
+        "ebit_FY1_M": 6637.8,
+        "ebit_FY2_M": 7499.2,
+        "ebit_margin_FY1": 47.4,
+        "ebit_margin_FY2": 48.8,
+        "fcf_FY1_M": 5504.3,
+        "fcf_FY2_M": 6331.7,
+        "broker_contributors": 33
+      },
+      {
+        "ticker": "MRVL-US",
+        "name": "Marvell Technology",
+        "fiscal_period": "01/2026",
+        "price": 170.13,
+        "target_price": 129.79,
+        "ev_B": 153.86,
+        "mkt_cap_B": 152.03,
+        "net_debt_M": 2396.0,
+        "PS_LTM": 18.06,
+        "EV_Sales_LTM": 18.78,
+        "EV_EBITDA_FY1": 35.81,
+        "EV_EBITDA_FY2": 25.61,
+        "PE_FY1": 44.32,
+        "PE_FY2": 31.13,
+        "P_FCF_FY1": 52.64,
+        "P_FCF_FY2": 39.0,
+        "FCF_Yield_pct": 2.03,
+        "Div_Yield_pct": 0.14,
+        "rating": "Buy (1.22)",
+        "sales_FY1_M": 10871.7,
+        "sales_FY2_M": 14884.1,
+        "ebitda_FY1_M": 4296.6,
+        "ebitda_FY2_M": 6008.5,
+        "ebitda_margin_FY1": 39.5,
+        "ebitda_margin_FY2": 40.4,
+        "ebit_FY1_M": 3970.9,
+        "ebit_FY2_M": 5649.2,
+        "ebit_margin_FY1": 36.5,
+        "ebit_margin_FY2": 38.0,
+        "fcf_FY1_M": 2974.2,
+        "fcf_FY2_M": 3953.5,
+        "broker_contributors": 38
+      },
+      {
+        "ticker": "NVDA-US",
+        "name": "NVIDIA Corp",
+        "fiscal_period": "01/2026",
+        "price": 215.2,
+        "target_price": 269.82,
+        "ev_B": 5215.9,
+        "mkt_cap_B": 5270.0,
+        "net_debt_M": -51148.0,
+        "PS_LTM": 24.43,
+        "EV_Sales_LTM": 24.15,
+        "EV_EBITDA_FY1": 21.44,
+        "EV_EBITDA_FY2": 16.59,
+        "PE_FY1": 26.0,
+        "PE_FY2": 19.33,
+        "P_FCF_FY1": 27.65,
+        "P_FCF_FY2": 21.55,
+        "FCF_Yield_pct": 1.82,
+        "Div_Yield_pct": 0.02,
+        "rating": "Buy (1.18)",
+        "sales_FY1_M": 368297.8,
+        "sales_FY2_M": 486161.8,
+        "ebitda_FY1_M": 243279.1,
+        "ebitda_FY2_M": 314398.6,
+        "ebitda_margin_FY1": 66.1,
+        "ebitda_margin_FY2": 64.7,
+        "ebit_FY1_M": 240934.8,
+        "ebit_FY2_M": 318549.7,
+        "ebit_margin_FY1": 65.4,
+        "ebit_margin_FY2": 65.5,
+        "fcf_FY1_M": 180629.3,
+        "fcf_FY2_M": 236013.7,
+        "broker_contributors": 61
+      }
+    ],
+    "peer_aggregates": {
+      "average": {
+        "PS_LTM": 17.76,
+        "EV_Sales_LTM": 18.33,
+        "EV_EBITDA_FY1": 31.06,
+        "EV_EBITDA_FY2": 22.74,
+        "PE_FY1": 47.7,
+        "PE_FY2": 34.78,
+        "P_FCF_FY1": 43.02,
+        "P_FCF_FY2": 270.14,
+        "FCF_Yield_pct": 2.05,
+        "Div_Yield_pct": 0.68,
+        "ebitda_margin_FY1": 47.5,
+        "ebitda_margin_FY2": 49.0,
+        "ebit_margin_FY1": 40.9,
+        "ebit_margin_FY2": 42.4
+      },
+      "median": {
+        "PS_LTM": 17.74,
+        "EV_Sales_LTM": 18.33,
+        "EV_EBITDA_FY1": 28.14,
+        "EV_EBITDA_FY2": 22.43,
+        "PE_FY1": 37.94,
+        "PE_FY2": 31.42,
+        "P_FCF_FY1": 37.43,
+        "P_FCF_FY2": 31.37,
+        "FCF_Yield_pct": 1.87,
+        "Div_Yield_pct": 0.37,
+        "ebitda_margin_FY1": 45.8,
+        "ebitda_margin_FY2": 47.3,
+        "ebit_margin_FY1": 38.3,
+        "ebit_margin_FY2": 40.0
+      }
+    },
+    "premium_discount_vs_peer_median": {
+      "PE_FY1": "AMD 62.21x vs median 37.94x = +64.0% premium",
+      "PE_FY2": "AMD 35.41x vs median 31.42x = +12.7% premium",
+      "EV_EBITDA_FY1": "AMD 58.85x vs median 28.14x = +109.1% premium",
+      "EV_EBITDA_FY2": "AMD 30.49x vs median 22.43x = +35.9% premium",
+      "P_Sales": "AMD 20.05x vs median 17.74x = +13.0% premium",
+      "FCF_Yield": "AMD 1.91% vs median 1.87% = ~in line"
+    },
+    "interpretation": "AMD trades at significant premium to semi peers on FY1 multiples (P/E +64%, EV/EBITDA +109%), reflecting market expectation of exponential earnings inflection \u2014 FY2 multiples compress toward peer median (P/E +13% premium, EV/EBITDA +36%) implying market pricing material earnings growth from FY1 to FY2. Sell-side target ($442.49) sits BELOW current price ($455.19), implying analysts haven't yet caught up to the recent rally."
+  },
+  "options_chain_recs_count": 2343,
+  "options_chain_expirations": [
+    "2026-05-15",
+    "2026-05-22",
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-18",
+    "2026-06-26",
+    "2026-07-17",
+    "2026-08-21",
+    "2026-09-18",
+    "2026-10-16",
+    "2026-11-20",
+    "2026-12-18",
+    "2027-01-15",
+    "2027-03-19",
+    "2027-06-17",
+    "2027-09-17",
+    "2027-12-17",
+    "2028-01-21",
+    "2028-06-16",
+    "2028-12-15"
+  ],
+  "reactions": [
+    {
+      "call_date": "2024-04-30",
+      "label": "Q1 2024",
+      "window": {
+        "-5": {
+          "date": "2024-04-23",
+          "close": 152.27,
+          "open": 151.65,
+          "high": 153.495,
+          "low": 150.35,
+          "volume": 46051900.0
+        },
+        "-4": {
+          "date": "2024-04-24",
+          "close": 151.74,
+          "open": 156.56,
+          "high": 157.6598,
+          "low": 150.63,
+          "volume": 43412500.0
+        },
+        "-3": {
+          "date": "2024-04-25",
+          "close": 153.76,
+          "open": 149.15,
+          "high": 155.14,
+          "low": 146.75,
+          "volume": 41471400.0
+        },
+        "-2": {
+          "date": "2024-04-26",
+          "close": 157.4,
+          "open": 154.24,
+          "high": 158.63,
+          "low": 153.4252,
+          "volume": 42510700.0
+        },
+        "-1": {
+          "date": "2024-04-29",
+          "close": 160.2,
+          "open": 159.08,
+          "high": 160.77,
+          "low": 156.26,
+          "volume": 43478200.0
+        },
+        "0": {
+          "date": "2024-04-30",
+          "close": 158.38,
+          "open": 160.63,
+          "high": 162.29,
+          "low": 158.35,
+          "volume": 60742800.0
+        },
+        "1": {
+          "date": "2024-05-01",
+          "close": 144.27,
+          "open": 148.11,
+          "high": 151.37,
+          "low": 142.14,
+          "volume": 89413100.0
+        },
+        "2": {
+          "date": "2024-05-02",
+          "close": 146.16,
+          "open": 145.51,
+          "high": 147.62,
+          "low": 141.155,
+          "volume": 50034700.0
+        },
+        "3": {
+          "date": "2024-05-03",
+          "close": 150.6,
+          "open": 148.75,
+          "high": 150.79,
+          "low": 147.2384,
+          "volume": 49361000.0
+        },
+        "4": {
+          "date": "2024-05-06",
+          "close": 155.78,
+          "open": 153.1,
+          "high": 156.65,
+          "low": 151.26,
+          "volume": 44624500.0
+        },
+        "5": {
+          "date": "2024-05-07",
+          "close": 154.43,
+          "open": 156.32,
+          "high": 157.7,
+          "low": 153.66,
+          "volume": 37374900.0
+        }
+      },
+      "t_minus_1_close": 160.2,
+      "t_close": 158.38,
+      "t_plus_1_close": 144.27,
+      "t_plus_5_close": 154.43,
+      "pre_to_post_pct": -9.94,
+      "five_day_pct": -3.6
+    },
+    {
+      "call_date": "2024-07-30",
+      "label": "Q2 2024",
+      "window": {
+        "-5": {
+          "date": "2024-07-23",
+          "close": 154.0,
+          "open": 154.95,
+          "high": 157.05,
+          "low": 153.8,
+          "volume": 31950500.0
+        },
+        "-4": {
+          "date": "2024-07-24",
+          "close": 144.63,
+          "open": 152.72,
+          "high": 153.68,
+          "low": 144.53,
+          "volume": 49203100.0
+        },
+        "-3": {
+          "date": "2024-07-25",
+          "close": 138.32,
+          "open": 144.07,
+          "high": 144.75,
+          "low": 136.81,
+          "volume": 60578500.0
+        },
+        "-2": {
+          "date": "2024-07-26",
+          "close": 139.99,
+          "open": 140.32,
+          "high": 141.29,
+          "low": 138.27,
+          "volume": 49435800.0
+        },
+        "-1": {
+          "date": "2024-07-29",
+          "close": 139.75,
+          "open": 141.19,
+          "high": 144.585,
+          "low": 138.75,
+          "volume": 47447100.0
+        },
+        "0": {
+          "date": "2024-07-30",
+          "close": 138.44,
+          "open": 139.88,
+          "high": 141.7,
+          "low": 134.05,
+          "volume": 68801700.0
+        },
+        "1": {
+          "date": "2024-07-31",
+          "close": 144.48,
+          "open": 150.73,
+          "high": 153.603,
+          "low": 140.03,
+          "volume": 114306700.0
+        },
+        "2": {
+          "date": "2024-08-01",
+          "close": 132.54,
+          "open": 145.0,
+          "high": 147.29,
+          "low": 130.24,
+          "volume": 94731900.0
+        },
+        "3": {
+          "date": "2024-08-02",
+          "close": 132.5,
+          "open": 133.5,
+          "high": 137.1,
+          "low": 131.33,
+          "volume": 78562000.0
+        },
+        "4": {
+          "date": "2024-08-05",
+          "close": 134.82,
+          "open": 122.16,
+          "high": 139.14,
+          "low": 121.825,
+          "volume": 76089300.0
+        },
+        "5": {
+          "date": "2024-08-06",
+          "close": 130.18,
+          "open": 135.15,
+          "high": 136.44,
+          "low": 129.1,
+          "volume": 64455600.0
+        }
+      },
+      "t_minus_1_close": 139.75,
+      "t_close": 138.44,
+      "t_plus_1_close": 144.48,
+      "t_plus_5_close": 130.18,
+      "pre_to_post_pct": 3.38,
+      "five_day_pct": -6.85
+    },
+    {
+      "call_date": "2024-10-29",
+      "label": "Q3 2024",
+      "window": {
+        "-5": {
+          "date": "2024-10-22",
+          "close": 154.09,
+          "open": 156.6,
+          "high": 156.74,
+          "low": 151.91,
+          "volume": 34997300.0
+        },
+        "-4": {
+          "date": "2024-10-23",
+          "close": 152.91,
+          "open": 153.0,
+          "high": 153.445,
+          "low": 150.52,
+          "volume": 26095900.0
+        },
+        "-3": {
+          "date": "2024-10-24",
+          "close": 153.44,
+          "open": 154.74,
+          "high": 155.19,
+          "low": 152.35,
+          "volume": 22877000.0
+        },
+        "-2": {
+          "date": "2024-10-25",
+          "close": 156.23,
+          "open": 155.4,
+          "high": 158.91,
+          "low": 155.05,
+          "volume": 29758400.0
+        },
+        "-1": {
+          "date": "2024-10-28",
+          "close": 159.92,
+          "open": 158.5,
+          "high": 160.28,
+          "low": 157.045,
+          "volume": 36010100.0
+        },
+        "0": {
+          "date": "2024-10-29",
+          "close": 166.25,
+          "open": 161.1,
+          "high": 167.5099,
+          "low": 158.94,
+          "volume": 71896000.0
+        },
+        "1": {
+          "date": "2024-10-30",
+          "close": 148.6,
+          "open": 153.01,
+          "high": 153.12,
+          "low": 148.1,
+          "volume": 87701600.0
+        },
+        "2": {
+          "date": "2024-10-31",
+          "close": 144.07,
+          "open": 147.8,
+          "high": 148.68,
+          "low": 143.33,
+          "volume": 44386500.0
+        },
+        "3": {
+          "date": "2024-11-01",
+          "close": 141.86,
+          "open": 144.44,
+          "high": 144.54,
+          "low": 141.32,
+          "volume": 39027400.0
+        },
+        "4": {
+          "date": "2024-11-04",
+          "close": 140.71,
+          "open": 141.7,
+          "high": 143.64,
+          "low": 139.72,
+          "volume": 29117400.0
+        },
+        "5": {
+          "date": "2024-11-05",
+          "close": 141.66,
+          "open": 141.94,
+          "high": 143.08,
+          "low": 140.8,
+          "volume": 27067300.0
+        }
+      },
+      "t_minus_1_close": 159.92,
+      "t_close": 166.25,
+      "t_plus_1_close": 148.6,
+      "t_plus_5_close": 141.66,
+      "pre_to_post_pct": -7.08,
+      "five_day_pct": -11.42
+    },
+    {
+      "call_date": "2025-02-04",
+      "label": "Q4 2024",
+      "window": {
+        "-5": {
+          "date": "2025-01-28",
+          "close": 114.17,
+          "open": 115.18,
+          "high": 116.15,
+          "low": 112.95,
+          "volume": 40554700.0
+        },
+        "-4": {
+          "date": "2025-01-29",
+          "close": 117.35,
+          "open": 115.77,
+          "high": 118.52,
+          "low": 114.96,
+          "volume": 40199000.0
+        },
+        "-3": {
+          "date": "2025-01-30",
+          "close": 118.86,
+          "open": 118.53,
+          "high": 120.44,
+          "low": 117.09,
+          "volume": 29788300.0
+        },
+        "-2": {
+          "date": "2025-01-31",
+          "close": 115.95,
+          "open": 119.14,
+          "high": 119.565,
+          "low": 115.33,
+          "volume": 40533500.0
+        },
+        "-1": {
+          "date": "2025-02-03",
+          "close": 114.27,
+          "open": 113.88,
+          "high": 115.16,
+          "low": 112.98,
+          "volume": 34586000.0
+        },
+        "0": {
+          "date": "2025-02-04",
+          "close": 119.5,
+          "open": 115.45,
+          "high": 119.85,
+          "low": 114.79,
+          "volume": 69399800.0
+        },
+        "1": {
+          "date": "2025-02-05",
+          "close": 112.01,
+          "open": 107.61,
+          "high": 112.09,
+          "low": 106.5,
+          "volume": 110609300.0
+        },
+        "2": {
+          "date": "2025-02-06",
+          "close": 110.16,
+          "open": 110.93,
+          "high": 112.56,
+          "low": 109.02,
+          "volume": 50426500.0
+        },
+        "3": {
+          "date": "2025-02-07",
+          "close": 107.56,
+          "open": 109.13,
+          "high": 109.92,
+          "low": 106.79,
+          "volume": 46082500.0
+        },
+        "4": {
+          "date": "2025-02-10",
+          "close": 110.48,
+          "open": 108.44,
+          "high": 111.4,
+          "low": 108.15,
+          "volume": 34905300.0
+        },
+        "5": {
+          "date": "2025-02-11",
+          "close": 111.1,
+          "open": 108.98,
+          "high": 113.07,
+          "low": 108.94,
+          "volume": 35033700.0
+        }
+      },
+      "t_minus_1_close": 114.27,
+      "t_close": 119.5,
+      "t_plus_1_close": 112.01,
+      "t_plus_5_close": 111.1,
+      "pre_to_post_pct": -1.98,
+      "five_day_pct": -2.77
+    },
+    {
+      "call_date": "2025-05-06",
+      "label": "Q1 2025",
+      "window": {
+        "-5": {
+          "date": "2025-04-29",
+          "close": 96.06,
+          "open": 95.75,
+          "high": 97.1767,
+          "low": 95.33,
+          "volume": 20700600.0
+        },
+        "-4": {
+          "date": "2025-04-30",
+          "close": 97.35,
+          "open": 92.81,
+          "high": 97.55,
+          "low": 91.87,
+          "volume": 29730700.0
+        },
+        "-3": {
+          "date": "2025-05-01",
+          "close": 96.65,
+          "open": 99.26,
+          "high": 100.1,
+          "low": 96.45,
+          "volume": 29591500.0
+        },
+        "-2": {
+          "date": "2025-05-02",
+          "close": 98.8,
+          "open": 98.4,
+          "high": 99.88,
+          "low": 98.3,
+          "volume": 29957800.0
+        },
+        "-1": {
+          "date": "2025-05-05",
+          "close": 100.59,
+          "open": 99.0,
+          "high": 102.05,
+          "low": 98.76,
+          "volume": 41268800.0
+        },
+        "0": {
+          "date": "2025-05-06",
+          "close": 98.62,
+          "open": 98.41,
+          "high": 100.07,
+          "low": 97.44,
+          "volume": 54261500.0
+        },
+        "1": {
+          "date": "2025-05-07",
+          "close": 100.36,
+          "open": 100.75,
+          "high": 103.42,
+          "low": 96.88,
+          "volume": 86648700.0
+        },
+        "2": {
+          "date": "2025-05-08",
+          "close": 101.7,
+          "open": 101.92,
+          "high": 105.44,
+          "low": 101.56,
+          "volume": 54231300.0
+        },
+        "3": {
+          "date": "2025-05-09",
+          "close": 102.84,
+          "open": 102.58,
+          "high": 103.54,
+          "low": 101.6,
+          "volume": 31704200.0
+        },
+        "4": {
+          "date": "2025-05-12",
+          "close": 108.12,
+          "open": 110.42,
+          "high": 110.667,
+          "low": 106.98,
+          "volume": 50543400.0
+        },
+        "5": {
+          "date": "2025-05-13",
+          "close": 112.46,
+          "open": 109.6,
+          "high": 113.1277,
+          "low": 109.0,
+          "volume": 55659500.0
+        }
+      },
+      "t_minus_1_close": 100.59,
+      "t_close": 98.62,
+      "t_plus_1_close": 100.36,
+      "t_plus_5_close": 112.46,
+      "pre_to_post_pct": -0.23,
+      "five_day_pct": 11.8
+    },
+    {
+      "call_date": "2025-08-05",
+      "label": "Q2 2025",
+      "window": {
+        "-5": {
+          "date": "2025-07-29",
+          "close": 177.44,
+          "open": 175.21,
+          "high": 182.31,
+          "low": 174.68,
+          "volume": 108154800.0
+        },
+        "-4": {
+          "date": "2025-07-30",
+          "close": 179.51,
+          "open": 175.6,
+          "high": 180.37,
+          "low": 173.8,
+          "volume": 64820200.0
+        },
+        "-3": {
+          "date": "2025-07-31",
+          "close": 176.31,
+          "open": 182.01,
+          "high": 182.5,
+          "low": 173.0,
+          "volume": 71765200.0
+        },
+        "-2": {
+          "date": "2025-08-01",
+          "close": 171.7,
+          "open": 170.16,
+          "high": 174.4,
+          "low": 166.82,
+          "volume": 75396100.0
+        },
+        "-1": {
+          "date": "2025-08-04",
+          "close": 176.78,
+          "open": 174.605,
+          "high": 177.86,
+          "low": 173.56,
+          "volume": 52951000.0
+        },
+        "0": {
+          "date": "2025-08-05",
+          "close": 174.31,
+          "open": 177.57,
+          "high": 177.99,
+          "low": 171.8,
+          "volume": 88808500.0
+        },
+        "1": {
+          "date": "2025-08-06",
+          "close": 163.12,
+          "open": 165.05,
+          "high": 166.18,
+          "low": 157.8,
+          "volume": 133641800.0
+        },
+        "2": {
+          "date": "2025-08-07",
+          "close": 172.4,
+          "open": 166.835,
+          "high": 175.75,
+          "low": 166.7,
+          "volume": 95448300.0
+        },
+        "3": {
+          "date": "2025-08-08",
+          "close": 172.76,
+          "open": 174.04,
+          "high": 176.48,
+          "low": 170.52,
+          "volume": 68866600.0
+        },
+        "4": {
+          "date": "2025-08-11",
+          "close": 172.28,
+          "open": 170.04,
+          "high": 178.82,
+          "low": 169.38,
+          "volume": 70651000.0
+        },
+        "5": {
+          "date": "2025-08-12",
+          "close": 174.95,
+          "open": 173.32,
+          "high": 175.16,
+          "low": 168.5,
+          "volume": 52335700.0
+        }
+      },
+      "t_minus_1_close": 176.78,
+      "t_close": 174.31,
+      "t_plus_1_close": 163.12,
+      "t_plus_5_close": 174.95,
+      "pre_to_post_pct": -7.73,
+      "five_day_pct": -1.04
+    },
+    {
+      "call_date": "2025-11-04",
+      "label": "Q3 2025",
+      "window": {
+        "-5": {
+          "date": "2025-10-28",
+          "close": 258.01,
+          "open": 259.14,
+          "high": 264.58,
+          "low": 257.0,
+          "volume": 47448600.0
+        },
+        "-4": {
+          "date": "2025-10-29",
+          "close": 264.33,
+          "open": 264.19,
+          "high": 267.0799,
+          "low": 257.4044,
+          "volume": 49335500.0
+        },
+        "-3": {
+          "date": "2025-10-30",
+          "close": 254.84,
+          "open": 259.92,
+          "high": 263.88,
+          "low": 252.31,
+          "volume": 45162400.0
+        },
+        "-2": {
+          "date": "2025-10-31",
+          "close": 256.12,
+          "open": 259.6,
+          "high": 262.13,
+          "low": 253.4064,
+          "volume": 34449200.0
+        },
+        "-1": {
+          "date": "2025-11-03",
+          "close": 259.65,
+          "open": 259.33,
+          "high": 260.91,
+          "low": 253.89,
+          "volume": 36351400.0
+        },
+        "0": {
+          "date": "2025-11-04",
+          "close": 250.05,
+          "open": 250.35,
+          "high": 257.38,
+          "low": 247.39,
+          "volume": 56485000.0
+        },
+        "1": {
+          "date": "2025-11-05",
+          "close": 256.33,
+          "open": 243.24,
+          "high": 259.65,
+          "low": 242.8,
+          "volume": 67365500.0
+        },
+        "2": {
+          "date": "2025-11-06",
+          "close": 237.7,
+          "open": 253.46,
+          "high": 253.51,
+          "low": 235.74,
+          "volume": 66049700.0
+        },
+        "3": {
+          "date": "2025-11-07",
+          "close": 233.54,
+          "open": 230.94,
+          "high": 235.87,
+          "low": 224.6401,
+          "volume": 52162500.0
+        },
+        "4": {
+          "date": "2025-11-10",
+          "close": 243.98,
+          "open": 242.13,
+          "high": 248.9,
+          "low": 240.5,
+          "volume": 43361600.0
+        },
+        "5": {
+          "date": "2025-11-11",
+          "close": 237.52,
+          "open": 241.65,
+          "high": 248.46,
+          "low": 234.64,
+          "volume": 61336700.0
+        }
+      },
+      "t_minus_1_close": 259.65,
+      "t_close": 250.05,
+      "t_plus_1_close": 256.33,
+      "t_plus_5_close": 237.52,
+      "pre_to_post_pct": -1.28,
+      "five_day_pct": -8.52
+    },
+    {
+      "call_date": "2026-02-03",
+      "label": "Q4 2025",
+      "window": {
+        "-5": {
+          "date": "2026-01-27",
+          "close": 252.03,
+          "open": 252.16,
+          "high": 255.55,
+          "low": 247.96,
+          "volume": 25691500.0
+        },
+        "-4": {
+          "date": "2026-01-28",
+          "close": 252.74,
+          "open": 254.13,
+          "high": 257.4,
+          "low": 250.21,
+          "volume": 27061100.0
+        },
+        "-3": {
+          "date": "2026-01-29",
+          "close": 252.18,
+          "open": 254.65,
+          "high": 260.5298,
+          "low": 240.91,
+          "volume": 31685100.0
+        },
+        "-2": {
+          "date": "2026-01-30",
+          "close": 236.73,
+          "open": 236.93,
+          "high": 245.24,
+          "low": 234.55,
+          "volume": 40035600.0
+        },
+        "-1": {
+          "date": "2026-02-02",
+          "close": 246.27,
+          "open": 235.77,
+          "high": 249.97,
+          "low": 235.0,
+          "volume": 36308100.0
+        },
+        "0": {
+          "date": "2026-02-03",
+          "close": 242.11,
+          "open": 251.55,
+          "high": 252.65,
+          "low": 237.0376,
+          "volume": 53097000.0
+        },
+        "1": {
+          "date": "2026-02-04",
+          "close": 200.19,
+          "open": 215.0,
+          "high": 218.58,
+          "low": 199.1501,
+          "volume": 107173200.0
+        },
+        "2": {
+          "date": "2026-02-05",
+          "close": 192.5,
+          "open": 201.85,
+          "high": 204.04,
+          "low": 190.72,
+          "volume": 62196400.0
+        },
+        "3": {
+          "date": "2026-02-06",
+          "close": 208.44,
+          "open": 197.13,
+          "high": 209.27,
+          "low": 196.43,
+          "volume": 54504400.0
+        },
+        "4": {
+          "date": "2026-02-09",
+          "close": 216.0,
+          "open": 206.9,
+          "high": 217.6,
+          "low": 204.15,
+          "volume": 38810800.0
+        },
+        "5": {
+          "date": "2026-02-10",
+          "close": 213.57,
+          "open": 215.14,
+          "high": 219.39,
+          "low": 213.13,
+          "volume": 25326600.0
+        }
+      },
+      "t_minus_1_close": 246.27,
+      "t_close": 242.11,
+      "t_plus_1_close": 200.19,
+      "t_plus_5_close": 213.57,
+      "pre_to_post_pct": -18.71,
+      "five_day_pct": -13.28
+    },
+    {
+      "call_date": "2026-04-29",
+      "label": "Q1 2026",
+      "window": {
+        "-5": {
+          "date": "2026-04-22",
+          "close": 303.46,
+          "open": 291.21,
+          "high": 304.25,
+          "low": 286.14,
+          "volume": 49054200.0
+        },
+        "-4": {
+          "date": "2026-04-23",
+          "close": 305.33,
+          "open": 302.01,
+          "high": 310.22,
+          "low": 299.76,
+          "volume": 45619700.0
+        },
+        "-3": {
+          "date": "2026-04-24",
+          "close": 347.81,
+          "open": 336.76,
+          "high": 352.99,
+          "low": 334.54,
+          "volume": 81616600.0
+        },
+        "-2": {
+          "date": "2026-04-27",
+          "close": 334.63,
+          "open": 346.32,
+          "high": 349.21,
+          "low": 328.81,
+          "volume": 50585300.0
+        },
+        "-1": {
+          "date": "2026-04-28",
+          "close": 323.21,
+          "open": 311.86,
+          "high": 327.5,
+          "low": 310.0,
+          "volume": 43002400.0
+        },
+        "0": {
+          "date": "2026-04-29",
+          "close": 337.11,
+          "open": 326.58,
+          "high": 340.17,
+          "low": 318.86,
+          "volume": 44704300.0
+        },
+        "1": {
+          "date": "2026-04-30",
+          "close": 354.49,
+          "open": 341.36,
+          "high": 354.96,
+          "low": 332.6,
+          "volume": 42115300.0
+        }
+      },
+      "t_minus_1_close": 323.21,
+      "t_close": 337.11,
+      "t_plus_1_close": 354.49,
+      "t_plus_5_close": null,
+      "pre_to_post_pct": 9.68,
+      "five_day_pct": null
+    }
+  ]
+}

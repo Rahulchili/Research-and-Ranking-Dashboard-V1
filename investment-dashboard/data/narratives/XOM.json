@@ -1,0 +1,93 @@
+{
+  "name": "Exxon Mobil Corporation",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "Exxon Mobil Corporation (XOM, Energy) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $85.14B (-5.4% YoY). Valuation 14.5x forward P/E (+26% vs peers). Spot $152.78 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "XOM_ER_Q4_2025_30_JAN_2026.docx",
+      "Our strategy, our advantages and the structural value we're creating puts us in a league of our own.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "XOM_ER_Q4_2025_30_JAN_2026.docx",
+      "We expect to reach our 2030 methane intensity reductions by the end of this year. Upstream production averaged 4.7 million oil equivalent barrels per day with unit earnings more than double those in 2019 on a constant price basis.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "XOM_ER_Q4_2025_30_JAN_2026.docx",
+      "We expect that number to reach 50% of new wells by the end of this year. With more than 40 stackable technologies in various stages of testing and deployment, we expect to continue growing production at lower capital cost far into the future.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "XOM_ER_Q4_2025_30_JAN_2026.docx",
+      "Our growth trajectory remains robust, and we expect to exceed 2.5 million oil equivalent barrels a day beyond 2030.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "XOM_ER_Q4_2025_30_JAN_2026.docx",
+      "Our strategy is working, and the benefits are evident in operating performance, cash generation and shareholder returns. We're capturing more value from every barrel and molecule we produce and building growth platforms with scale.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "XOM_ER_Q4_2025_30_JAN_2026.docx",
+      "If you look at the annual production that we had in the Permian, that was a significant improvement year on year, and we expect to see that significant improvement going into 2026 versus 2025 on an annual basis. And I think what you saw in the fourth quarter demonstrates that capability.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Trend regime constructive — spot $152.78 sits +17.8% above the 200-DMA ($129.64). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Range-positioning balanced — at 73% of the 52-week range ($101.83–$171.47), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Top-line in contraction — revenue down -5.4% YoY in FY2026 Q1. The question is whether this is the trough of a cyclical drawdown or the start of secular decline. Without a stabilization read in the next 1–2 quarters, the multiple is at risk of de-rating before earnings catches a bid.",
+    "Valuation premium — 14.5x forward P/E vs peer median of 11.5x — a 26% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $101.83 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "-5.4% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 11.5x FY1 P/E",
+      "latest": "14.5x (+26%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$152.78 vs $129.64 (+17.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "56.5",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. Exxon Mobil Corporation (XOM) printed $85.14B in revenue in FY2026 Q1 (-5.4% YoY). At 14.5x forward P/E, the stock carries a 26% premium to peers (11.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $152.78 above the 200-DMA ($129.64, +17.8%) with neutral momentum (RSI 56). Sell-side consensus PT of $130 implies -14.9% upside. 30-day implied move is ±8.2%; 90-day is ±15.9%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Datadog, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Datadog, Inc. (DDOG, Information Technology) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $1.01B (+32.2% YoY), net margin 5.2%. Valuation 62.0x forward P/E (+0% vs peers). Spot $212.24 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "DDOG_ER_Q4_2025_10_FEB_2026.docx",
+      "Regarding our Q4 financial performance and key metrics, revenue was $953 million, an increase of 29% year-over-year and above the high end of our guidance range. We ended Q4 with about 32,700 customers, up from about 30,000 a year ago.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DDOG_ER_Q4_2025_10_FEB_2026.docx",
+      "Moving on to R&D and what we built in 2025. We believe over 400 new features and capabilities this year.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DDOG_ER_Q4_2025_10_FEB_2026.docx",
+      "In software delivery, in January, we launched future plans. They combined with our real-time observability to enable canary rollouts, so teams can deploy new code with confidence.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DDOG_ER_Q4_2025_10_FEB_2026.docx",
+      "As a reminder, we based our guidance on trends observed in recent months. and apply conservatism on these growth trends.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DDOG_ER_Q4_2025_10_FEB_2026.docx",
+      "First, we expect net interest and other income for the fiscal year 2026 to be approximately $140 million.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DDOG_ER_Q4_2025_10_FEB_2026.docx",
+      "Next, we expect cash taxes in 2026 to be about $30 million to $40 million and we continue to apply a 21% non-GAAP tax rate for 2026 and beyond.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +32.2% YoY in FY2026 Q1 to $1.01B, with TTM revenue of $3.67B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin trajectory — net margin expanded +2.0pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $212.24 sits +50.5% above the 200-DMA ($141.06). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 5.1% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Margin pressure — net margin of 5.2% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through.",
+    "Momentum stretched — RSI at 89 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($141.25) before adding.",
+    "52-week extension — at 97% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 35% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 6.7% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $215.15 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 29% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 3.2% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $102.61 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+32.2% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "5.2%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 62.0x FY1 P/E",
+      "latest": "62.0x (+0%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$212.24 vs $141.06 (+50.5%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "89.4",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±5.1% by 2026-05-22",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Datadog, Inc. (DDOG) printed $1.01B in revenue in FY2026 Q1 (+32.2% YoY), net margin of 5.2%. Trading at 62.0x forward P/E versus peer median of 62.0x — broadly in line with the group.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($141.06) but RSI 89 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $155 implies -27.0% upside. The options market is pricing a ±5.1% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±16.3%; 90-day is ±32.0%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Cisco Systems, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Cisco Systems, Inc. (CSCO, Information Technology) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $15.35B (+9.7% YoY), net margin 20.7%. Management credibility 0.00 on 2 claims. Valuation 16.0x forward P/E (+3% vs peers). Spot $117.76 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "CSCO_ER_Q4_2025  13_AUG_2025.docx",
+      "We will discuss product results in terms of revenue and geographic and customer results in terms of product orders, unless stated otherwise. All comparisons will be made on a year-over-year basis.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "CSCO_ER_Q4_2025  13_AUG_2025.docx",
+      "Thanks, Sami, and thank you all for joining us today. We had a strong close to fiscal '25, delivering revenue and gross margin at the high end of our guidance ranges for the fourth quarter.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CSCO_ER_Q4_2025  13_AUG_2025.docx",
+      "Continued operating leverage across our business produced strong profitability with earnings per share above the high end of our guidance.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CSCO_ER_Q4_2025  13_AUG_2025.docx",
+      "The introduction of our new switches marks the beginning of a major multiyear refresh cycle opportunity for Cisco's large installed campus switching base. Orders for our industrial IoT portfolio comprised of ruggedized catalyst products grew double digits for the fifth consecutive quarter, and we see solid demand signals continuing into FY '26 and as countries around the world ",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "CSCO_ER_Q4_2025  13_AUG_2025.docx",
+      "Our newly forged Middle East strategic partnerships, including Humane, G42 and Stargate UAE are all progressing as planned, and we expect the sovereign AI opportunity to build momentum in the second half of fiscal year '26. We believe Cisco will be a core system provider for these significant AI training and inference cluster build-outs and integral to their development and eve",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CSCO_ER_Q4_2025  13_AUG_2025.docx",
+      "First, AI training infrastructure for web-scale customers. combinations of our Cisco 8-K, Silicon 1 optics and optical systems are being deployed by the largest web scalers, and we expect demand for these technologies from neo cloud providers and sovereign customers to increase in fiscal year 2026.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +9.7% YoY in FY2026 Q1 (TTM $58.37B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Profitability premium — net margin of 20.7% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +5.8pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $117.76 sits +53.1% above the 200-DMA ($76.90). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Management credibility impaired — MCS of 0.00 on 2 tracked claims (0B/0H/1M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "Momentum stretched — RSI at 92 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($86.70) before adding.",
+    "52-week extension — at 99% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly.",
+    "Put skew elevated — ATM put IV running +47.4pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 13% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 22.2% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $118.21 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 7% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 18.7% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $63.04 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+9.7% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "20.7%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.00 on 2 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 15.5x FY1 P/E",
+      "latest": "16.0x (+3%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$117.76 vs $76.90 (+53.1%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "91.6",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Cisco Systems, Inc. (CSCO) printed $15.35B in revenue in FY2026 Q1 (+9.7% YoY), net margin of 20.7%. Management credibility is weak (MCS 0.00, 0B/0H/1M record) — forward claims should be discounted in valuation models. Trading at 16.0x forward P/E versus peer median of 15.5x — broadly in line with the group.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($76.90) but RSI 92 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $72 implies -38.9% upside. 30-day implied move is ±10.0%; 90-day is ±21.1%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

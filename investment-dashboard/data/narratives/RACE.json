@@ -1,0 +1,56 @@
+{
+  "name": "Ferrari N.V.",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "Ferrari N.V. (RACE, Consumer Discretionary) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $1.85B (+3.2% YoY). Valuation 50.0x forward P/E (+614% vs peers). Spot $332.21 (below 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Stable growth profile — revenue at +3.2% YoY in FY2026 Q1 (TTM $17.92B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Sell-side target points higher — consensus PT of $520 (vs spot $332.21) implies +56.5% upside. Cross-checked against the peer-median PE FY1 of 7.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Trend rolling over — spot $332.21 sits -15.2% relative to the 200-DMA ($391.75). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Valuation premium — 50.0x forward P/E vs peer median of 7.0x — a 614% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $314.63 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+3.2% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 7.0x FY1 P/E",
+      "latest": "50.0x (+614%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$332.21 vs $391.75 (-15.2%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "36.9",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. Ferrari N.V. (RACE) printed $1.85B in revenue in FY2026 Q1 (+3.2% YoY). At 50.0x forward P/E, the stock carries a 614% premium to peers (7.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is impaired: spot $332.21 below the 200-DMA ($391.75, -15.2%) — long-term trend has rolled over. Sell-side consensus PT of $520 implies +56.5% upside. 30-day implied move is ±9.2%; 90-day is ±17.8%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,120 @@
+{
+  "name": "AppLovin Corporation",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "AppLovin Corporation (APP, Communication Services) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1.84B (+24.2% YoY), net margin 65.4%. Management credibility 1.00 on 1 claims. Valuation 42.0x forward P/E (+5% vs peers). Spot $478.82 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "APP_ER_Q4_2025_11_FEB_2026.docx",
+      "On culture, we embrace being underestimated. A skeptical market sharpens our focus and pushes our teams to execute.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "APP_ER_Q4_2025_11_FEB_2026.docx",
+      "As of the end of the year, we had a remaining share repurchase authorization of approximately $3.28 billion.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "APP_ER_Q4_2025_11_FEB_2026.docx",
+      "Our share repurchase program reflects our conviction in the value and durability of the business.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "APP_ER_Q4_2025_11_FEB_2026.docx",
+      "We expect revenue between $1.745 billion and $1.775 billion, representing 5% to 7% sequential growth. Adjusted EBITDA is expected to be between $1.465 billion and $1.495 billion with an adjusted EBITDA margin of approximately 84%, maintaining best-in-class profitability as we continue to scale.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "APP_ER_Q4_2025_11_FEB_2026.docx",
+      "To close, AppLovin represents a combination that is exceedingly rare, sustained hyper growth, exceptional margins, massive free cash flow generation and disciplined capital returns. We believe this puts us in a category of our own and positions us to continue delivering outsized value for shareholders over the long term.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "APP_ER_Q4_2025_11_FEB_2026.docx",
+      "So it does correlate to the count of advertisers that we have on the platform, but we're just starting out. We can't build a P times Q model in a period of time that we expect to have really outsized growth.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +24.2% YoY in FY2026 Q1 to $1.84B, with TTM revenue of $5.84B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 65.4% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +36.7pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 1.00 on 1 tracked forward claims (1B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Range-positioning balanced — at 38% of the 52-week range ($324.70–$733.60), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Sell-side target points higher — consensus PT of $520 (vs spot $478.82) implies +8.6% upside. Cross-checked against the peer-median PE FY1 of 40.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Trend rolling over — spot $478.82 sits -10.2% relative to the 200-DMA ($533.01). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Put skew elevated — ATM put IV running +8.1pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 27% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 66.9% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 21% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 63.4% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $324.70 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+24.2% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "65.4%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 1 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 40.0x FY1 P/E",
+      "latest": "42.0x (+5%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$478.82 vs $533.01 (-10.2%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "56.9",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±6.2% by 2026-05-22",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. AppLovin Corporation (APP) printed $1.84B in revenue in FY2026 Q1 (+24.2% YoY), net margin of 65.4%. Management credibility is strong (MCS 1.00, 1B/0H/0M record), supporting take-up of the forward guide. Trading at 42.0x forward P/E versus peer median of 40.0x — broadly in line with the group.\n\nTechnical regime is impaired: spot $478.82 below the 200-DMA ($533.01, -10.2%) — long-term trend has rolled over. Sell-side consensus PT of $520 implies +8.6% upside. The options market is pricing a ±6.2% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±19.1%; 90-day is ±36.4%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

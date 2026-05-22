@@ -1,0 +1,100 @@
+[
+  {
+    "ticker": "AMD",
+    "entity": "ADVANCED MICRO DEVICES, INC",
+    "ttm_rev_M": 37454.0,
+    "ttm_oi_M": 4364.0,
+    "ttm_ni_M": 5009.0,
+    "ttm_op_margin_pct": 11.65,
+    "ttm_net_margin_pct": 13.37,
+    "last_q_period": "2026Q1",
+    "last_q_rev_M": 10253.0,
+    "rev_yoy_pct": 37.85,
+    "last_q_op_margin_pct": 14.4,
+    "last_q_net_margin_pct": 13.49
+  },
+  {
+    "ticker": "NVDA",
+    "entity": "NVIDIA CORP",
+    "ttm_rev_M": 182893.0,
+    "ttm_oi_M": 107957.0,
+    "ttm_ni_M": 96416.0,
+    "ttm_op_margin_pct": 59.03,
+    "ttm_net_margin_pct": 52.72,
+    "last_q_period": "2025-10-26",
+    "last_q_rev_M": 57006.0,
+    "rev_yoy_pct": 89.77
+  },
+  {
+    "ticker": "INTC",
+    "entity": "INTEL CORP",
+    "ttm_rev_M": 52756.0,
+    "ttm_oi_M": -5930.0,
+    "ttm_ni_M": -3404.0,
+    "ttm_op_margin_pct": -11.24,
+    "ttm_net_margin_pct": -6.45,
+    "last_q_period": "2026-03-28",
+    "last_q_rev_M": 13577.0,
+    "rev_yoy_pct": 2.21
+  },
+  {
+    "ticker": "AVGO",
+    "entity": "Broadcom Inc.",
+    "ttm_rev_M": 65183.0,
+    "ttm_oi_M": 26539.0,
+    "ttm_ni_M": 3073.0,
+    "ttm_op_margin_pct": 40.71,
+    "ttm_net_margin_pct": 4.71,
+    "last_q_period": "2026-02-01",
+    "last_q_rev_M": 19311.0,
+    "rev_yoy_pct": 47.73
+  },
+  {
+    "ticker": "MRVL",
+    "entity": "MARVELL TECHNOLOGY, INC.",
+    "ttm_rev_M": 7492.0,
+    "ttm_oi_M": 215.7,
+    "ttm_ni_M": 1597.7,
+    "ttm_op_margin_pct": 2.88,
+    "ttm_net_margin_pct": 21.33,
+    "last_q_period": "2025-11-01",
+    "last_q_rev_M": 2074.5,
+    "rev_yoy_pct": 62.97
+  },
+  {
+    "ticker": "QCOM",
+    "entity": "QUALCOMM INC/DE",
+    "ttm_rev_M": 44195.0,
+    "ttm_oi_M": 11557.0,
+    "ttm_ni_M": 15852.0,
+    "ttm_op_margin_pct": 26.15,
+    "ttm_net_margin_pct": 35.87,
+    "last_q_period": "2026-03-29",
+    "last_q_rev_M": 10599.0,
+    "rev_yoy_pct": -9.17
+  },
+  {
+    "ticker": "TXN",
+    "entity": "TEXAS INSTRUMENTS INCORPORATED",
+    "ttm_rev_M": 18084.0,
+    "ttm_oi_M": 6358.0,
+    "ttm_ni_M": 5383.0,
+    "ttm_op_margin_pct": 35.16,
+    "ttm_net_margin_pct": 29.77,
+    "last_q_period": "2026-03-31",
+    "last_q_rev_M": 4825.0,
+    "rev_yoy_pct": 16.24
+  },
+  {
+    "ticker": "ARM",
+    "entity": "ARM HOLDINGS PLC /UK",
+    "ttm_rev_M": 4413.0,
+    "ttm_oi_M": 637.0,
+    "ttm_ni_M": 843.0,
+    "ttm_op_margin_pct": 14.43,
+    "ttm_net_margin_pct": 19.1,
+    "last_q_period": "2025-12-31",
+    "last_q_rev_M": 1242.0,
+    "rev_yoy_pct": 47.16
+  }
+]

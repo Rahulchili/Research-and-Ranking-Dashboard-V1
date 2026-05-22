@@ -1,0 +1,124 @@
+{
+  "stance": "Constructive (consumption-cyclical caveat)",
+  "color": "mint",
+  "thesis": "Perfect 8-of-8 Beat track record on Q+1 product revenue, accelerating growth (28%→30% YoY), and best-in-class management credibility. Premium valuation and recent drawdown from $281 to $151 (-46%) reflect multiple-compression risk on any growth slowdown.",
+  "summary": "Snowflake operates the leading cloud-native data warehouse platform, with consumption-based revenue scaling from $738M (FY24-Q4) to $1.23B (FY26-Q4) — +66% cumulative across 8 quarters. Management has beat the high end of every quarterly product revenue guide for 8 consecutive quarters (8B / 0H / 0M). Information-adjusted MCS = 0.9594 — the cohort's highest, though note SNOW guides narrow $5M ranges and consistently beats by 2-5%, which is partly sandbagging discipline rather than upside surprise. Growth re-accelerated from 26% YoY in Q1 FY26 to 30% YoY in Q4 FY26, driven by core data warehouse durability plus AI/data-engineering workload expansion (Cortex, Snowpark). The pushback is valuation (P/E FY1 ~87× on consensus, EV/Sales ~11×) and the death-cross technical setup (spot $151 < SMA50 $156 < SMA200 $205).",
+  "bottom_line": "SNOW combines a strong management credibility track record (8B/0H/0M, info-adjusted MCS 0.96) with re-accelerating revenue growth and structural AI tailwinds. The death-cross technical setup and -46% drawdown from highs create an attractive entry point for long-term investors with consumption-cycle stomach. Premium valuation (P/E FY1 87×) requires sustained 25%+ growth; any deceleration triggers material multiple compression.",
+  "bull": [
+    "Perfect 8-of-8 Beat MCS (1.000) — only ticker in cohort with zero Hits or Misses across trailing 8 quarters; CFO/CEO have delivered consistently above the high end of guidance.",
+    "Growth re-acceleration confirmed: 26% YoY (Q1 FY26) → 32% (Q2) → 29% (Q3) → 30% (Q4). Multi-quarter momentum.",
+    "Cortex AI + Snowpark + AI workloads driving step-up: FY27 product revenue guided $5.66B (+27% YoY) with Observe acquisition contributing ~1pp.",
+    "Best-in-class non-GAAP gross margin (~75%) and adjusted FCF margin (~25-44% range); RPO $9.77B (+42% YoY) signals strong forward bookings.",
+    "$3.1B net cash position, zero long-term debt; capital-light asset model with sub-2% capex intensity.",
+    "Technical setup: $151 spot vs $281 52w high creates margin of safety; capitulation level near $118 52w low if AI thesis fails."
+  ],
+  "bear": [
+    "GAAP operating margin remains negative (-30%); SBC ~35-40% of revenue is the principal earnings drag.",
+    "Death-cross alignment (spot < SMA50 < SMA200) is the strongest technical sell signal; ADX 10 confirms no momentum.",
+    "Consumption-cycle exposure — product efficiency improvements directly reduce customer spend per CFO commentary on recurring transcripts.",
+    "Hyperscaler competition (Redshift, BigQuery, Synapse) + Databricks compresses pricing power over time.",
+    "P/E FY1 ~87× and EV/Sales LTM ~11× leave little margin for guidance miss; -46% drawdown from $281 to $151 shows that compression in action.",
+    "AI/Cortex revenue not broken out separately; growth thesis is partially faith-based on hyperscaler comparison."
+  ],
+  "trigger_up": [
+    "Q1 FY27 (May 28, 2026): product revenue >$1.27B (above high end of guide) extends the 8-quarter perfect Beat streak.",
+    "Cortex AI revenue first-disclosure crossing $200M+ run rate — validates the AI thesis.",
+    "Death-cross resolution: spot reclaiming SMA50 ($156) and breaking $170 = technical re-acceleration setup."
+  ],
+  "trigger_down": [
+    "Q1 FY27 miss: revenue <$1.21B (low end of guide) breaks 8-quarter perfect MCS record — material multiple compression risk.",
+    "FY27 full-year guide cut from $5.66B → <$5.50B would invalidate growth re-acceleration thesis.",
+    "Spot breaking $130 (10% below current) opens path to retest of 52w low ($118); breakdown of multi-year consolidation."
+  ],
+  "scoreboard": [
+    {
+      "metric": "MCS (info-adjusted)",
+      "baseline": "Peer avg ~85",
+      "latest": "95.94",
+      "verdict": "Best in cohort (vs NVDA 94.6, AMD 96.5)",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Beats / Hits / Misses",
+      "baseline": "—",
+      "latest": "8 / 0 / 0",
+      "verdict": "Best in cohort",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Latest QoQ growth",
+      "baseline": "+2-5%",
+      "latest": "+6.0% (Q4)",
+      "verdict": "Above trend",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Latest YoY growth",
+      "baseline": "+25%",
+      "latest": "+30%",
+      "verdict": "Above guide",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "P/E FY1",
+      "baseline": "Peer median ~78x",
+      "latest": "~87x",
+      "verdict": "Modest premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Op margin (non-GAAP)",
+      "baseline": "Peer median 22%",
+      "latest": "8%",
+      "verdict": "-14pp below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Spot vs SMA200",
+      "baseline": ">SMA200",
+      "latest": "-26%",
+      "verdict": "Death cross",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Drawdown from 52w high",
+      "baseline": "<20%",
+      "latest": "-46%",
+      "verdict": "Severe drawdown",
+      "verdict_color": "crimson"
+    }
+  ],
+  "quotes": [
+    [
+      "Sridhar Ramaswamy (CEO)",
+      "Q4 FY26 post-earnings call (Feb 25, 2026)",
+      "Product revenue grew 30% year-over-year. Our results were driven by stable growth in our core business and a step-up in growth contribution from data engineering and AI workloads."
+    ],
+    [
+      "Mike Gannon (CFO)",
+      "Q3 FY26 post-earnings call (Dec 3, 2025)",
+      "For Q4, we expect product revenue between $1.195 billion and $1.2 billion, representing a 27% year-over-year growth."
+    ],
+    [
+      "Sridhar Ramaswamy (CEO)",
+      "Q2 FY26 post-earnings call (Aug 27, 2025)",
+      "Product revenue for Q2 was $1.09 billion, up strong 32% year-over-year, demonstrating an acceleration in growth from last quarter."
+    ],
+    [
+      "Sridhar Ramaswamy (CEO)",
+      "Q1 FY26 post-earnings call (May 21, 2025)",
+      "Excluding the impact of leap year, product revenue grew 28% year-over-year. Our growth rate was stable quarter-over-quarter, showing no deceleration."
+    ],
+    [
+      "Mike Scarpelli (CFO, retiring)",
+      "Q4 FY25 post-earnings call (Feb 26, 2025)",
+      "In FY '25 product revenue grew 30% year-over-year to reach $3.5 billion. Our core business is strong. We continue to see stable consumption patterns."
+    ],
+    [
+      "Mike Scarpelli (CFO)",
+      "Q3 FY25 post-earnings call (Nov 20, 2024)",
+      "Product revenue for the quarter was $900 million, up a strong 29% year-on-year. Remaining performance obligations totaled $5.7 billion, with year-over-year growth accelerating to 55%."
+    ]
+  ],
+  "disclaimer": "This analysis is based on 8 SEC filings (2 10-K + 6 10-Q), 9 SNOW earnings transcripts (FY24-Q4 → FY26-Q4), daily stock data through 2026-05-11, SNOW0512 options chain, and FactSet-equivalent consensus estimates (5/12/26) for peer multiples."
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Taiwan Semiconductor Manufacturing Company Limited",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Taiwan Semiconductor Manufacturing Company Limited (TSM, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1134.1B (+35.1% YoY), net margin 50.5%. Valuation 24.0x forward P/E (+37% vs peers). Spot $401.62 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "TSM_ER_Q4_2024_16_JAN_2025.docx",
+      "The format for today's event will be as follows: first, TSMC's senior vice president and CFO, Mr. Wendell Huang, will summarize our operations in the fourth quarter 2024, followed by our guidance for the first quarter 2025.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TSM_ER_Q4_2024_16_JAN_2025.docx",
+      "We paid TWD 363 billion in cash dividends in 2024, up 24.5% year over year. I've finished my financial summary.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "TSM_ER_Q4_2024_16_JAN_2025.docx",
+      "Based on the current business outlook, we expect our first quarter revenue to be between USD 25 billion and USD 25.8 billion, which represents a 5.5% sequential decline or a 34.7% year-over-year increase at the midpoint. Based on the exchange rate assumption of USD 1 to TWD 32.8, gross margin is expected to be between 57% and 59%, operating margin between 46.5% and 48.5%.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TSM_ER_Q4_2024_16_JAN_2025.docx",
+      "For 2025, we expect our effective tax rate to be between 16% and 17%. This concludes my financial presentation.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TSM_ER_Q4_2024_16_JAN_2025.docx",
+      "Looking at full year 2025, given the 6 factors, there are a few puts and takes I would like to share. On the one hand, we are working hard to increase our value.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "C.C. Wei -- Chief Executive Officer",
+      "TSM_ER_Q4_2024_16_JAN_2025.docx",
+      "With our strategy of continuous enhancement, we also introduced N2P as an extension of N2 family. N2P features further performance and power benefits on top of N2.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +35.1% YoY in FY2026 Q1 to $1134.1B, with TTM revenue of $4103.9B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 50.5% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +7.3pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $401.62 sits +27.1% above the 200-DMA ($316.10). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 4.2% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Valuation premium — 24.0x forward P/E vs peer median of 17.5x — a 37% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 92% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 38% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 52.0% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $419.50 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 32% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 48.5% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $191.76 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+35.1% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "50.5%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 17.5x FY1 P/E",
+      "latest": "24.0x (+37%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$401.62 vs $316.10 (+27.1%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "52.4",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±4.2% by 2026-05-22",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Taiwan Semiconductor Manufacturing Company Limited (TSM) printed $1134.1B in revenue in FY2026 Q1 (+35.1% YoY), net margin of 50.5%. At 24.0x forward P/E, the stock carries a 37% premium to peers (17.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $401.62 above the 200-DMA ($316.10, +27.1%) with neutral momentum (RSI 52). Sell-side consensus PT of $250 implies -37.8% upside. The options market is pricing a ±4.2% move by the front-month expiry — a complacent read on near-term risk. 30-day implied move is ±12.3%; 90-day is ±23.0%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

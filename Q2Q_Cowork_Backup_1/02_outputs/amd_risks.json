@@ -1,0 +1,48 @@
+{
+  "Economic and Strategic Risks": [
+    "The markets in which our products are sold are highly competitive and rapidly evolving",
+    "The semiconductor industry is highly cyclical and has experienced severe downturns",
+    "The demand for our products depends in part on the market conditions in the industries into which they are sold",
+    "The success of our business depends on our ability to introduce products on a timely basis with features and performance levels that provide value to our customers while supporting significant industry transitions",
+    "The loss of a significant customer may have a material adverse effect on us",
+    "Economic and market uncertainty may adversely impact our business and operating results",
+    "Our operating results are subject to quarterly and seasonal sales patterns",
+    "If we cannot adequately protect our technology or other intellectual property through patents, copyrights, trade secrets, trademarks and other measures, we may lose a competitive advantage and incur significant expenses",
+    "Unfavorable currency exchange rate fluctuations could adversely affect us"
+  ],
+  "Operational and Technology Risks": [
+    "We rely on third parties to manufacture our products, and if they are unable to do so on a timely basis in sufficient quantities and using competitive technologies, our business could be materially adversely affected",
+    "Essential equipment, materials, substrates or manufacturing processes may not be available to us",
+    "We may fail to achieve expected manufacturing yields for our products",
+    "Our revenue from our semi-custom System-on-Chip (SoC) products is dependent upon our semi-custom SoC products being incorporated into customers\u2019 products and the success of those products",
+    "Our products may be subject to security vulnerabilities that could have a material adverse effect on us",
+    "Uncertainties involving the ordering and shipment of our products could materially adversely affect us",
+    "Our ability to design and introduce new products includes the use of third-party intellectual property",
+    "We depend on third-party companies for the design, manufacture and supply of motherboards, software, memory and other computer platform components to support our business and products",
+    "If we lose Microsoft Corporation\u2019s support for our products or other software vendors do not design and develop software to run on our products, our ability to sell our products could be materially adversely affected",
+    "Our reliance on third-party distributors and add-in-board (AIB) partners subjects us to certain risks",
+    "Our business depends on the proper functioning of our internal business processes and information systems",
+    "Our products may not be compatible with some or all industry-standard software and hardware",
+    "Costs related to defective products could have a material adverse effect on us",
+    "We may fail to maintain the efficiency of our supply chain as we respond to changes in customer demand",
+    "We outsource to third parties certain supply-chain logistics functions",
+    "We may be unable to effectively control the sales of our products on the gray market",
+    "Climate change may have an impact on our business"
+  ],
+  "Legal and Regulatory Risks": [
+    "Government actions and regulations, including but not limited to export regulations, import tariffs and trade protection measures, may limit our ability to export our products to certain customers",
+    "If we cannot realize our deferred tax assets, our results of operations could be adversely affected",
+    "Our business is subject to potential tax liabilities, including as a result of tax regulation changes",
+    "We are party to litigation and may become a party to other claims or litigation",
+    "We are subject to environmental laws, conflict minerals regulations, as well as a variety of other laws or regulations",
+    "Evolving expectations from governments, investors, customers and other stakeholders regarding corporate responsibility matters could result in additional costs, harm to our reputation and a loss of customers",
+    "Issues related to the responsible use of AI may result in reputational, competitive and financial harm and liability",
+    "The agreements governing our notes, our guarantee of Xilinx\u2019s notes and the Revolving Credit Agreement",
+    "We may be required to satisfy financial obligations under guarantees and other commercial commitments. Merger, Acquisition, Divestiture, and Integration Risks",
+    "Acquisitions, joint ventures, and/or investments, and the failure to integrate acquired businesses may fail to materialize their anticipated benefits and could disrupt our business",
+    "Any impairment of our tangible, definite-lived intangible or indefinite-lived intangible assets, including goodwill, may adversely impact our financial position and results of operations. General Risks",
+    "Our worldwide operations are subject to political, legal and economic risks and natural disasters",
+    "We may incur future impairments of our technology license purchases",
+    "Our inability to continue to attract and retain key employees may hinder our business"
+  ]
+}

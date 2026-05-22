@@ -1,0 +1,119 @@
+{
+  "name": "KLA Corporation",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "KLA Corporation (KLAC, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $3.42B (+11.5% YoY), net margin 35.2%. Management credibility 1.00 on 6 claims. Valuation 24.0x forward P/E (-1% vs peers). Spot $1829.47 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "KLAC_ER_Q4_2025_31_JUL_2025.docx",
+      "Thanks, Kevin. I'm going to cover KLA's business highlights for the June 2025 quarter, including commentary on KLA's relevance in the AI infrastructure build-out for the June quarter, KLA's results were strong across the board, and we were at or above the high end of our guidance ranges.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KLAC_ER_Q4_2025_31_JUL_2025.docx",
+      "Total capital return in the June quarter was $680 million, comprised of $426 million in share repurchases and $254 million in dividends. Total capital return over the past 12 months was $3.05 million.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "KLAC_ER_Q4_2025_31_JUL_2025.docx",
+      "Our recent actions emphasize our commitment to capital returns and our confidence in the long-term shareholder value accretion of KLA. On April 30, 2025, we announced the 16th consecutive annual dividend increase, which was up 12% to $1.90 per share per quarter or an annualized dividend of $7.60 per share.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "KLAC_ER_Q4_2025_31_JUL_2025.docx",
+      "I'll now turn to the outlook. It remains driven by increasing investment in leading-edge logic, high bandwidth memory and advanced packaging.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KLAC_ER_Q4_2025_31_JUL_2025.docx",
+      "In conclusion, our near-term revenue guidance remained stable, indicating the continuation of current business levels and our customer discussions support this outlook. Based on conversations with customers, we anticipate continued solid growth in calendar 2025.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "KLAC_ER_Q4_2025_31_JUL_2025.docx",
+      "Given the revenue commentary for the remainder of the calendar year, we expect to meaningfully outperform the mid-single-digit WFE growth rate. KLA focus is on delivering a differentiated product portfolio that addresses customer technology road map requirements, which are driving our longer-term relevance and growth expectations.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +11.5% YoY in FY2026 Q1 to $3.42B, with TTM revenue of $12.98B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 35.2% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +1.9pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 1.00 on 6 tracked forward claims (2B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $1829.47 sits +38.7% above the 200-DMA ($1318.54). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "52-week extension — at 91% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly.",
+    "Options market pricing risk — front-month implied move of 15.1% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 14% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 36.7% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 8% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 33.2% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $756.88 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+11.5% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "35.2%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 6 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.3x FY1 P/E",
+      "latest": "24.0x (-1%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$1829.47 vs $1318.54 (+38.7%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "55.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±15.1% by 2026-06-18",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "BULLISH. KLA Corporation (KLAC) printed $3.42B in revenue in FY2026 Q1 (+11.5% YoY), net margin of 35.2%. Management credibility is strong (MCS 1.00, 2B/0H/0M record), supporting take-up of the forward guide. Trading at 24.0x forward P/E versus peer median of 24.3x — broadly in line with the group.\n\nTechnical regime is constructive: spot $1829.47 above the 200-DMA ($1318.54, +38.7%) with neutral momentum (RSI 56). Sell-side consensus PT of $920 implies -49.7% upside. The options market is pricing a ±15.1% move by the front-month expiry — elevated, reflecting binary-event hedging. 30-day implied move is ±15.1%; 90-day is ±29.1%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

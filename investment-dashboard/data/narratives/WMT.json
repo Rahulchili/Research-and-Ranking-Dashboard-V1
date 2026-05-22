@@ -1,0 +1,103 @@
+{
+  "name": "Walmart Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Walmart Inc. (WMT, Consumer Staples) — composite stance CONSTRUCTIVE. Latest reported quarter FY2025 Q4: revenue $179.5B (+6.0% YoY), net margin 3.4%. Valuation 35.0x forward P/E (+106% vs peers). Spot $127.59 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "WMT_ER_Q4_2026_19_FEB_2026.docx",
+      "Across our customer base, spending continues to be resilient. In the U.S., we see the customers choiceful in their spending.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "WMT_ER_Q4_2026_19_FEB_2026.docx",
+      "And as we expand Sparky across experiences like voice, in-store and through services, we expect continued acceleration in customer adoption and the impact on commerce.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "WMT_ER_Q4_2026_19_FEB_2026.docx",
+      "Importantly, the strategies that drove our results throughout FY '26 are consistent with what we expect to support our financial framework in FY '27.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "WMT_ER_Q4_2026_19_FEB_2026.docx",
+      "And third, to orient us to move faster at lower cost, we're now aligned globally to leverage common platforms in tech, AI and digital businesses. We believe this will result in our growth continuing to come at a much lower marginal cost than what it has historically.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "WMT_ER_Q4_2026_19_FEB_2026.docx",
+      "Our goal is to outperform this guidance, but we believe it's prudent to start the year with a level of conservatism given the backdrop is still somewhat unstable. We're assuming continued margin expansion driven by favorable business mix, automation benefits and productivity and less headwinds from merchandise category mix.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "WMT_ER_Q4_2026_19_FEB_2026.docx",
+      "Given our confidence in the ability to continue to generate strong cash flows and consistency in our multiyear capital investment plans, our Board authorized a $30 billion share repurchase program, our largest to date.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +6.0% YoY in FY2025 Q4 (TTM $692.1B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Trend regime constructive — spot $127.59 sits +12.5% above the 200-DMA ($113.40). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Margin pressure — net margin of 3.4% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through.",
+    "Valuation premium — 35.0x forward P/E vs peer median of 17.0x — a 106% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 9% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 4.9% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $133.89 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 3% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 2.0% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $94.25 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+6.0% in FY2025 Q4",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "3.4%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 17.0x FY1 P/E",
+      "latest": "35.0x (+106%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$127.59 vs $113.40 (+12.5%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "44.1",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Walmart Inc. (WMT) printed $179.5B in revenue in FY2025 Q4 (+6.0% YoY), net margin of 3.4%. At 35.0x forward P/E, the stock carries a 106% premium to peers (17.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $127.59 above the 200-DMA ($113.40, +12.5%) with neutral momentum (RSI 44). Sell-side consensus PT of $85 implies -33.4% upside. 30-day implied move is ±9.0%; 90-day is ±15.4%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,121 @@
+{
+  "name": "First Solar, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "First Solar, Inc. (FSLR, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1.04B (+23.6% YoY), net margin 33.2%. Management credibility 0.00 on 5 claims. Valuation 11.5x forward P/E (-39% vs peers). Spot $237.86 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "FSLR_ER_Q4_2025_24_FEB_2026.docx",
+      "Full year diluted EPS was within our most recent guidance range at $14.21 per share. We ended the year with $2.9 billion of gross cash and $2.4 billion of net cash, coming in above our guidance range.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FSLR_ER_Q4_2025_24_FEB_2026.docx",
+      "We expect production from this facility to begin in Q4 of 2026 and ramp through the first half of 2027.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FSLR_ER_Q4_2025_24_FEB_2026.docx",
+      "Our focus remains on efficiency, energy attributes, reliability and a scalable path to high-volume, low-cost manufacturing of this potentially transformational thin film. We launched the perovskite development line at our Perrysburg campus and reached full in-line processing capabilities in Q3, marking an important step in the lab-to-fab transferability and enabling production ",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "FSLR_ER_Q4_2025_24_FEB_2026.docx",
+      "In late 2025, we initiated sourcing for perovskite Series 6 module form factor pilot line, which we expect to reach operational readiness in early 2027.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FSLR_ER_Q4_2025_24_FEB_2026.docx",
+      "As an update on warranty-related matters, we've resolved certain claims and have continued to advance negotiations with additional customers regarding warranty claims for select Series 7 modules produced prior to 2025. Based on our settlement experience, the estimated number of effective modules and projected remediation costs, we believe a reasonable estimate of potential futu",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "FSLR_ER_Q4_2025_24_FEB_2026.docx",
+      "For the full year 2025, earnings per diluted share were $14.21 compared to $12.02 in 2024 and within our guidance range.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +23.6% YoY in FY2026 Q1 to $1.04B, with TTM revenue of $4.58B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 33.2% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Trend regime constructive — spot $237.86 sits +5.8% above the 200-DMA ($224.89). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Range-positioning balanced — at 67% of the 52-week range ($143.67–$284.59), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Options market complacent — front-month implied move of just 5.4% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available.",
+    "Valuation discount to peers — 11.5x forward P/E versus peer median 19.0x — a 39% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Margin trajectory deteriorating — net margin compressed -1.4pp over the trailing quarters. This typically precedes a guidance reset by 1–2 quarters as management gets ahead of the cost-curve issue.",
+    "Management credibility impaired — MCS of 0.00 on 5 tracked claims (0B/0H/4M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "Momentum stretched — RSI at 71 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($203.47) before adding."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 27% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 34.7% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 21% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 31.2% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $143.67 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+23.6% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "33.2%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.00 on 5 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 19.0x FY1 P/E",
+      "latest": "11.5x (-39%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$237.86 vs $224.89 (+5.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "70.8",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±5.4% by 2026-05-22",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. First Solar, Inc. (FSLR) printed $1.04B in revenue in FY2026 Q1 (+23.6% YoY), net margin of 33.2%. Management credibility is weak (MCS 0.00, 0B/0H/4M record) — forward claims should be discounted in valuation models. At 11.5x forward P/E, the stock trades at a 39% discount to peers (19.0x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($224.89) but RSI 71 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $225 implies -5.4% upside. The options market is pricing a ±5.4% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±16.0%; 90-day is ±30.0%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

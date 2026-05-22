@@ -1,0 +1,92 @@
+{
+  "name": "Chevron Corporation",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "Chevron Corporation (CVX, Energy) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $48.61B (-4.1% YoY). Valuation 14.0x forward P/E (+17% vs peers). Spot $186.64 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "CVX_Q1_2026_1_MAY_2026.docx",
+      "We continue to optimize flows across our value chains to maintain high utilization and reliable supply into the market. In the second quarter, we expect global equity crude throughput to more than double to year-over-year to 40%.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CVX_Q1_2026_1_MAY_2026.docx",
+      "The effect was evenly split between inventory valuation and mark-to-market accounting on paper derivative positions linked to physical cargoes. We anticipate approximately $1 million of the paper positions to unwind in the second quarter with the majority of related cargoes delivered in April.",
+      "Why it matters — operational tightness. Connects unit volume to margin sustainability."
+    ],
+    [
+      "Management",
+      "CVX_Q1_2026_1_MAY_2026.docx",
+      "Over the period, more than $5 billion in commercial paper was issued to manage liquidity and general business needs, about half has already been paid down in April, and we expect these short-term balances declined further throughout the second quarter.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CVX_Q1_2026_1_MAY_2026.docx",
+      "So we can create predictable and growing shareholder distributions. We've got great visibility through 2030.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "CVX_Q1_2026_1_MAY_2026.docx",
+      "As I said, we expect to be over 40% in Asia, north of 50 and much higher than some refineries in the U.S.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CVX_Q1_2026_1_MAY_2026.docx",
+      "The balance sheet is in great health. The balance sheet will get stronger with higher cash generation.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ]
+  ],
+  "bull": [
+    "Trend regime constructive — spot $186.64 sits +11.1% above the 200-DMA ($168.03). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Range-positioning balanced — at 68% of the 52-week range ($135.29–$211.15), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Top-line in contraction — revenue down -4.1% YoY in FY2026 Q1. The question is whether this is the trough of a cyclical drawdown or the start of secular decline. Without a stabilization read in the next 1–2 quarters, the multiple is at risk of de-rating before earnings catches a bid."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $135.29 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "-4.1% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 12.0x FY1 P/E",
+      "latest": "14.0x (+17%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$186.64 vs $168.03 (+11.1%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "52.4",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. Chevron Corporation (CVX) printed $48.61B in revenue in FY2026 Q1 (-4.1% YoY). At 14.0x forward P/E, the stock carries a 17% premium to peers (12.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $186.64 above the 200-DMA ($168.03, +11.1%) with neutral momentum (RSI 52). Sell-side consensus PT of $175 implies -6.2% upside. 30-day implied move is ±7.5%; 90-day is ±14.7%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

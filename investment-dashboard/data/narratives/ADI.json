@@ -1,0 +1,119 @@
+{
+  "name": "Analog Devices, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Analog Devices, Inc. (ADI, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q2: revenue $3.62B (+37.2% YoY), net margin 32.5%. Management credibility 0.80 on 6 claims. Valuation 29.5x forward P/E (+23% vs peers). Spot $398.05 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "AD_ER_Q1_2025_19_FEB_2025.docx",
+      "Our track record of resilience and profitability through cycles, combined with our strong balance sheet supports our long-standing robust capital return program. I'm delighted to share that we've increased our dividend for the 21st consecutive year, and that over just the past 5 years, we have returned more than $16 billion or roughly 15% of our current market cap to shareholde",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "AD_ER_Q1_2025_19_FEB_2025.docx",
+      "Within the automatic test equipment market, the growth of AI has significantly increased our signal chain and power content. In some cases, by up to 300% across memory test systems.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "AD_ER_Q1_2025_19_FEB_2025.docx",
+      "Finally, in consumer, design wins secured in recent years at multiple customers across numerous applications, including premium handsets, hearables, wearables and gaming systems, began to drive robust diversified growth in the second half of fiscal '24, with even more content in upcoming launches, we expect a strong year ahead and beyond in consumer. Collectively, we anticipate",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "AD_ER_Q1_2025_19_FEB_2025.docx",
+      "In addition, our Board has authorized an incremental $10 billion for share repurchases resulting in roughly $11.5 billion of remaining buyback potential under our current program.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "AD_ER_Q1_2025_19_FEB_2025.docx",
+      "Second quarter revenue is expected to be $2.5 billion, plus or minus $100 million. On a sequential basis, at the midpoint, we expect Industrial to lead our growth and automotive to grow, while communications and consumer decline.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "AD_ER_Q1_2025_19_FEB_2025.docx",
+      "As we've talked about in our recent calls, we have flagged that we have stronger share and content position at major Chinese EV OEMs with multiple products, again, including our audio and video connectivity solutions, functionally safe power and BMS. And this is coming through in the results, and we expect it to continue into Q2.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +37.2% YoY in FY2026 Q2 to $3.62B, with TTM revenue of $12.74B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 32.5% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +15.5pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 0.80 on 6 tracked forward claims (4B/0H/1M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $398.05 sits +35.8% above the 200-DMA ($293.05). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 4.3% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Put skew elevated — ATM put IV running +2.9pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 40% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 34.0% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 34% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 30.5% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $210.47 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+37.2% in FY2026 Q2",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "32.5%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.80 on 6 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.0x FY1 P/E",
+      "latest": "29.5x (+23%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$398.05 vs $293.05 (+35.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "47.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±4.3% by 2026-05-22",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Analog Devices, Inc. (ADI) printed $3.62B in revenue in FY2026 Q2 (+37.2% YoY), net margin of 32.5%. Management credibility is strong (MCS 0.80, 4B/0H/1M record), supporting take-up of the forward guide. At 29.5x forward P/E, the stock carries a 23% premium to peers (24.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $398.05 above the 200-DMA ($293.05, +35.8%) with neutral momentum (RSI 48). Sell-side consensus PT of $275 implies -30.9% upside. The options market is pricing a ±4.3% move by the front-month expiry — a complacent read on near-term risk. 30-day implied move is ±12.1%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

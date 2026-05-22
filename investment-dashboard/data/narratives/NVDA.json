@@ -1,0 +1,141 @@
+{
+  "stance": "BULLISH (AI infrastructure leader)",
+  "color": "mint",
+  "summary": "NVIDIA is the dominant AI compute platform — Blackwell architecture shipping at full volume to Meta, Microsoft, Google, Amazon, OpenAI, and sovereign-AI customers. Q4 FY26 (ending Jan 25, 2026) revenue of $68.1B (+73% YoY) was a record, with operating margin reaching 65.0% and gross margin 75.0%. TTM revenue $216.0B (+62% YoY) — the fastest growth ever delivered at this scale. The AI capex super-cycle continues: hyperscaler capex $400B+ in CY26 with NVDA capturing 80%+ of AI accelerator share. Stock up 88% trailing 12 months. The trade is BULLISH on the secular AI moat with selective entry — at 26× FY1 P/E and 21× EV/EBITDA, NVDA is priced for continued execution but offers meaningful upside vs sell-side target $269.82 (+25% from spot).",
+  "quotes": [
+    [
+      "Jensen Huang (CEO)",
+      "Q4 FY26 call (Feb 25, 2026)",
+      "Blackwell is the largest AI infrastructure ramp in our history. Q4 Data Center revenue was $58 billion, up 76% year-over-year."
+    ],
+    [
+      "Colette Kress (CFO)",
+      "Q4 FY26 call (Feb 25, 2026)",
+      "For Q1 fiscal 2027, we expect revenue of $78 billion, plus or minus 2%, reflecting continued strong demand for Blackwell."
+    ],
+    [
+      "Jensen Huang (CEO)",
+      "Q3 FY26 call (Nov 19, 2025)",
+      "We expect data-center compute, networking, and AI factories to generate $1 trillion of annual revenue for the industry by the end of the decade."
+    ],
+    [
+      "Jensen Huang (CEO)",
+      "Q2 FY26 call (Aug 27, 2025)",
+      "Rubin is on track for production ramp in second half of calendar 2026 — a generational leap in performance per watt."
+    ],
+    [
+      "Colette Kress (CFO)",
+      "Q1 FY26 call (May 28, 2025)",
+      "Sovereign AI investments continue to accelerate; we see double-digit billions of dollars of revenue opportunity this fiscal year."
+    ],
+    [
+      "Jensen Huang (CEO)",
+      "Q1 FY26 call (May 28, 2025)",
+      "The H20 export-control charge of $4.5 billion in Q1 reflected the unanticipated April rule change. We are working with the administration on next steps."
+    ]
+  ],
+  "bull": [
+    "AI capex super-cycle continues: hyperscalers (Meta $125-145B, Microsoft $80B+, Google $75B+, Amazon $100B+) are sustaining and expanding 2026 capex commitments. NVDA captures ~80%+ of AI accelerator TAM.",
+    "Blackwell ramp executing flawlessly. Data Center revenue grew 73% YoY in Q4 FY26 to $58B/quarter (~$232B annualized run-rate). GB200/GB300 NVL72 racks shipping in volume.",
+    "Rubin generational launch in CY26 H2 keeps pace with hyperscaler refresh cycles — sustains pricing power.",
+    "TTM FCF $99B (46% margin), zero net debt ($51B net cash). Capital return via buybacks and dividend; balance sheet bulletproof.",
+    "Sovereign AI as new revenue stream: tens-of-billions in run-rate from EU/UK/Korea/Saudi/UAE national AI infrastructure programs.",
+    "Software & systems mix expanding: CUDA, AI Enterprise, NIM microservices, DGX Cloud — margin-accretive recurring revenue layer."
+  ],
+  "bear": [
+    "Customer concentration extreme: Top 4 hyperscaler customers ~50%+ of Data Center revenue; single largest customer ~17%. In-house ASIC adoption (TPU/Trainium/MTIA) targeting $15B+ run-rate by 2027.",
+    "AMD MI400 series ramping H2 2026 with OpenAI 6GW commitment — first credible challenger at hyperscaler scale.",
+    "China export controls: H20 ban (Apr 2025) cost ~$5.5B in inventory writedowns; further tightening risk persists. Sovereign AI partially offsets.",
+    "Stock at 99% of 52w high ($217.80 set May 8, 2026). +88% trailing 12-month return. Premium to growth-adjusted historical valuation.",
+    "Memory supply (HBM) is the operational bottleneck. Competing with AMD/AVGO custom silicon for limited HBM4 capacity at Micron/SK Hynix/Samsung.",
+    "Valuation cycle: P/E LTM 44× / FY1 26× — reasonable on this trajectory but compresses fast if growth decelerates to <40%."
+  ],
+  "trigger_up": [
+    "Q1 FY27 (May 20, 2026) revenue exceeds $78B guide and Data Center growth sustains >70% YoY",
+    "Rubin volume-production announcement with 1.5-2x performance/watt vs Blackwell",
+    "Sovereign AI annual run-rate exceeds $20B (from current ~$10B)",
+    "Sell-side target revisions push consensus above $300 (current $269.82)",
+    "New hyperscaler design win or expanded Meta/MSFT/GOOG/AMZN commitments beyond current visibility"
+  ],
+  "trigger_down": [
+    "Q1 FY27 revenue misses guide ($78B) or Data Center decelerates to <50% YoY",
+    "Major hyperscaler announces material in-house ASIC volume crowding out NVDA (e.g., Google TPU > 30% of internal AI compute)",
+    "Daily close below SMA 50 ($189) — major trend break (currently +14% above)",
+    "RSI 14 below 40 with broken trendline (currently 60.4, healthy)",
+    "Hyperscaler capex 2027 guidance cuts (>10% reduction in any of top 4)"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (quarterly)",
+      "baseline": "$7.19B (Q1 FY24)",
+      "latest": "$68.13B (Q4 FY26, +847% from Q1 FY24)",
+      "verdict": "Generational ramp",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "Q1 FY24: +19% YoY",
+      "latest": "Q4 FY26: +73% YoY",
+      "verdict": "Sustained accelerating growth",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "29.8% (Q1 FY24)",
+      "latest": "65.0% (Q4 FY26)",
+      "verdict": "+35 pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Gross margin",
+      "baseline": "64.6% (Q1 FY24)",
+      "latest": "75.0% (Q4 FY26)",
+      "verdict": "Structural mix shift",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Diluted EPS",
+      "baseline": "$0.82 (Q1 FY24)",
+      "latest": "$1.76 (Q4 FY26)",
+      "verdict": "2.1× growth in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Free cash flow",
+      "baseline": "$2.9B (Q1 FY24)",
+      "latest": "$34.8B (Q4 FY26, +1100%)",
+      "verdict": "FCF margin 51%",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net cash position",
+      "baseline": "$~$20B (Q1 FY24)",
+      "latest": "$51.14B net cash (5/8/26)",
+      "verdict": "Bulletproof balance sheet",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility Score",
+      "baseline": "—",
+      "latest": "0.9456 (8 beats / 0 misses)",
+      "verdict": "Best-in-class execution",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation (FY1 P/E)",
+      "baseline": "Pre-AI-rally ~30× (mid-2023)",
+      "latest": "26.00× FY1 P/E",
+      "verdict": "Reasonable on this trajectory",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Stock 12-month performance",
+      "baseline": "52w low $115.21 (May 2025)",
+      "latest": "Spot $215.20 / 52w high $217.80",
+      "verdict": "+88% in 12 months",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH on the secular AI compute moat with selective-entry discipline. NVIDIA is the dominant platform — Blackwell shipping, Rubin landing CY26 H2, sovereign AI scaling, software stack monetizing. Q4 FY26 $68B revenue + 65% OM + 51% FCF margin is the new run-rate. Sell-side target $269.82 = +25% upside. Add on pullbacks toward SMA 50 ($189) or SMA 100 (~$195); current spot $215.20 sits at 99% of 52w high — entries here size smaller and stop below SMA 50.",
+  "disclaimer": "This analysis is based on public filings (SEC EDGAR XBRL company-facts API, CIK 0001045810), 8 NVDA 10-Q/10-K filings (FY25 Q1 - FY26 Q4 10-K), 9 NVDA earnings transcripts (Q4 FY24 - Q4 FY26), Barchart daily OHLCV (Jan 2000 - May 8, 2026), NVDA/Options/nvda5082026.xlsx (OPRA chain), and FactSet Workstation Web peer multiples captured 5/11/26. NVDA had a 10-for-1 stock split effective 6/7/24; all EPS values are post-split-adjusted. Synthesis is informational only — not personalized investment advice."
+}

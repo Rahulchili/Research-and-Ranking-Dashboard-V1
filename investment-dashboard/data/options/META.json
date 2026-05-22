@@ -1,0 +1,11 @@
+{
+  "spot": null,
+  "format": "not_available",
+  "n_expiries": 0,
+  "expiries_count": 0,
+  "expiries": [],
+  "term_structure": [],
+  "implied_moves": [],
+  "top_oi_strikes": [],
+  "_note": "META options chain not provided in the workspace folder; Options tab is intentionally empty for this ticker."
+}

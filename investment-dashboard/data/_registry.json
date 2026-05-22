@@ -1,0 +1,194 @@
+{
+  "GOOG": {
+    "taKey": "GOOG_TA_LEVELS",
+    "fsKey": "GOOG_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "googSummaryPage",
+      "fundamental": "googFundamentalPage",
+      "technical": "googTechnicalPage",
+      "options": "googOptionsPage",
+      "valuation": "googValuationPage",
+      "consolidated": "googConsolidatedPage"
+    }
+  },
+  "ASML": {
+    "taKey": "ASML_TA_LEVELS",
+    "fsKey": "ASML_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "asmlSummaryPage",
+      "fundamental": "asmlFundamentalPage",
+      "technical": "asmlTechnicalPage",
+      "options": "asmlOptionsPage",
+      "valuation": "asmlValuationPage",
+      "consolidated": "asmlConsolidatedPage"
+    }
+  },
+  "SNOW": {
+    "taKey": "SNOW_TA_LEVELS",
+    "fsKey": "SNOW_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "snowSummaryPage",
+      "fundamental": "snowFundamentalPage",
+      "technical": "snowTechnicalPage",
+      "options": "snowOptionsPage",
+      "valuation": "snowValuationPage",
+      "consolidated": "snowConsolidatedPage"
+    }
+  },
+  "ARM": {
+    "taKey": "ARM_TA_LEVELS",
+    "fsKey": "ARM_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "armSummaryPage",
+      "fundamental": "armFundamentalPage",
+      "technical": "armTechnicalPage",
+      "options": "armOptionsPage",
+      "valuation": "armValuationPage",
+      "consolidated": "armConsolidatedPage"
+    }
+  },
+  "META": {
+    "taKey": "META_TA_LEVELS",
+    "fsKey": "META_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "metaSummaryPage",
+      "fundamental": "metaFundamentalPage",
+      "technical": "metaTechnicalPage",
+      "options": "metaOptionsPage",
+      "valuation": "metaValuationPage",
+      "consolidated": "metaConsolidatedPage"
+    }
+  },
+  "AMD": {
+    "taKey": "AMD_TA_LEVELS",
+    "fsKey": "AMD_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "amdSummaryPage",
+      "fundamental": "amdFundamentalPage",
+      "technical": "amdTechnicalPage",
+      "options": "amdOptionsPage",
+      "valuation": "amdValuationPage",
+      "consolidated": "amdConsolidatedPage"
+    }
+  },
+  "NVDA": {
+    "taKey": "NVDA_TA_LEVELS",
+    "fsKey": "NVDA_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "nvdaSummaryPage",
+      "fundamental": "nvdaFundamentalPage",
+      "technical": "nvdaTechnicalPage",
+      "options": "nvdaOptionsPage",
+      "valuation": "nvdaValuationPage",
+      "consolidated": "nvdaConsolidatedPage"
+    }
+  },
+  "AVGO": {
+    "taKey": "AVGO_TA_LEVELS",
+    "fsKey": "AVGO_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "avgoSummaryPage",
+      "fundamental": "avgoFundamentalPage",
+      "technical": "avgoTechnicalPage",
+      "options": "avgoOptionsPage",
+      "valuation": "avgoValuationPage",
+      "consolidated": "avgoConsolidatedPage"
+    }
+  },
+  "TSLA": {
+    "taKey": "TSLA_TA_LEVELS",
+    "fsKey": "TSLA_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "tslaSummaryPage",
+      "fundamental": "tslaFundamentalPage",
+      "technical": "tslaTechnicalPage",
+      "options": "tslaOptionsPage",
+      "valuation": "tslaValuationPage",
+      "consolidated": "tslaConsolidatedPage"
+    }
+  },
+  "LLY": {
+    "taKey": "LLY_TA_LEVELS",
+    "fsKey": "LLY_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "llySummaryPage",
+      "fundamental": "llyFundamentalPage",
+      "technical": "llyTechnicalPage",
+      "options": "llyOptionsPage",
+      "valuation": "llyValuationPage",
+      "consolidated": "llyConsolidatedPage"
+    }
+  },
+  "MU": {
+    "taKey": "MU_TA_LEVELS",
+    "fsKey": "MU_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "muSummaryPage",
+      "fundamental": "muFundamentalPage",
+      "technical": "muTechnicalPage",
+      "options": "muOptionsPage",
+      "valuation": "muValuationPage",
+      "consolidated": "muConsolidatedPage"
+    }
+  },
+  "PLTR": {
+    "taKey": "PLTR_TA_LEVELS",
+    "fsKey": "PLTR_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "pltrSummaryPage",
+      "fundamental": "pltrFundamentalPage",
+      "technical": "pltrTechnicalPage",
+      "options": "pltrOptionsPage",
+      "valuation": "pltrValuationPage",
+      "consolidated": "pltrConsolidatedPage"
+    }
+  },
+  "NFLX": {
+    "taKey": "NFLX_TA_LEVELS",
+    "fsKey": "NFLX_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "nflxSummaryPage",
+      "fundamental": "nflxFundamentalPage",
+      "technical": "nflxTechnicalPage",
+      "options": "nflxOptionsPage",
+      "valuation": "nflxValuationPage",
+      "consolidated": "nflxConsolidatedPage"
+    }
+  },
+  "AAPL": {
+    "taKey": "AAPL_TA_LEVELS",
+    "fsKey": "AAPL_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "aaplSummaryPage",
+      "fundamental": "aaplFundamentalPage",
+      "technical": "aaplTechnicalPage",
+      "options": "aaplOptionsPage",
+      "valuation": "aaplValuationPage",
+      "consolidated": "aaplConsolidatedPage"
+    }
+  },
+  "AMZN": {
+    "taKey": "AMZN_TA_LEVELS",
+    "fsKey": "AMZN_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "amznSummaryPage",
+      "fundamental": "amznFundamentalPage",
+      "technical": "amznTechnicalPage",
+      "options": "amznOptionsPage",
+      "valuation": "amznValuationPage",
+      "consolidated": "amznConsolidatedPage"
+    }
+  },
+  "AMAT": {
+    "taKey": "AMAT_TA_LEVELS",
+    "fsKey": "AMAT_FACTSET_PEERS",
+    "pageFns": {
+      "summary": "amatSummaryPage",
+      "fundamental": "amatFundamentalPage",
+      "technical": "amatTechnicalPage",
+      "options": "amatOptionsPage",
+      "valuation": "amatValuationPage",
+      "consolidated": "amatConsolidatedPage"
+    }
+  }
+}

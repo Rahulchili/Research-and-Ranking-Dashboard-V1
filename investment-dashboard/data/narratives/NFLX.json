@@ -1,0 +1,189 @@
+{
+  "stance": "NEUTRAL — High MCS (2 strict beats + 1 in-range hit), post-drawdown technical, growth deceleration",
+  "color": "amber",
+  "summary": "Netflix delivered 2 strict BEATs (actual above HIGH end of guide) and 1 HIT (within range) across 3 independent FY revenue guidance claims since Q3 FY24. Weighted MCS 0.833 (above the 0.50 random baseline but below PLTR/AMD/META/NVDA perfect-track-record cohort). FY25 actual revenue of $45.18B exceeded the original $43-44B framing by 2.7-5.1%, but landed within the raised $44.8-45.2B range. FY26 guidance is $51B (+13% YoY), down from FY25's 16% growth. Operating margins expanded to 30% in FY25 and guide 31.5% for FY26. The stock has corrected -34.8% from the June 30, 2025 high (post 10:1 split) to $87.49 on May 8, 2026, reflecting growth deceleration and 10:1 split absorption. RSI 24.15 signals oversold; death cross active since 2025-12-05.",
+  "quotes": [
+    [
+      "Ted Sarandos (Co-CEO)",
+      "Q4 FY25 call (Jan 20, 2026)",
+      "We delivered 16% revenue growth, roughly 30% operating profit growth, expanding margins, growing free cash flow, ad sales 2.5x in 2025, we expect that business to roughly double again in 2026 to about $3 billion."
+    ],
+    [
+      "Spencer Neumann (CFO)",
+      "Q4 FY25 call (Jan 20, 2026)",
+      "We forecast 2026 revenue at $51 billion, which is up 14% year-on-year."
+    ],
+    [
+      "Spencer Neumann (CFO)",
+      "Q2 FY25 call (Jul 17, 2025)",
+      "So as you saw on the letter, we increased our full year revenue guidance to $44.8 [billion] to $45.2 billion."
+    ],
+    [
+      "Spencer Neumann (CFO)",
+      "Q3 FY24 call (Oct 17, 2024)",
+      "So we expect to deliver roughly $43 billion to $44 billion of revenue next year based on FX rates at the end of Q3."
+    ],
+    [
+      "Spencer Neumann (CFO)",
+      "Q1 FY26 call (Apr 16, 2026)",
+      "So given that, we are maintaining our guidance, our strong outlook for organic growth that we established for 2026."
+    ],
+    [
+      "Spencer Neumann (CFO)",
+      "Q2 FY25 call (Jul 17, 2025)",
+      "since 2020, our content amort has grown more than 50%, from under $11 billion to more than $16 billion that we expect to do this year."
+    ]
+  ],
+  "bull": [
+    [
+      "Strong MCS — 2 strict BEATs + 1 HIT on 3 independent forecasts",
+      "Of the 3 independent FY revenue guidance points: Q3 FY24 INITIAL ($43-44B) and Q4 FY24 REFINED ($43.5-44.5B) were both beat above HIGH end. Q2 FY25 RAISED guide ($44.8-45.2B) was met within the range (HIT). Weighted MCS 0.833 (Beat=1, Hit=0.5).",
+      "Mint"
+    ],
+    [
+      "Operating margin expansion",
+      "Operating margin expanded from 28% in FY24 to 30% in FY25; FY26 guidance 31.5% (~50bp y/y). Content amort growth of ~10% in FY26 vs revenue growth of ~14% = continued leverage.",
+      "Mint"
+    ],
+    [
+      "Ad-tier ramping",
+      "Ads revenue 2.5x in 2025 and management guides ~doubling again in 2026 to ~$3B. Achieved critical scale in all 12 ad-supported countries.",
+      "Mint"
+    ],
+    [
+      "FCF + balance sheet",
+      "FY25 FCF $8B+ delivered. Q1 FY26 alone generated $5.09B FCF (54.6% FCF margin). Active $10B+ share repurchase program reducing share count.",
+      "Mint"
+    ],
+    [
+      "Oversold technical bounce setup",
+      "RSI 24.15 deeply oversold (below 30 = textbook bounce zone). -34.8% drawdown from 52w high creates statistical mean-reversion opportunity. Sell-side cautiously constructive.",
+      "Mint"
+    ],
+    [
+      "Premium content slate",
+      "2026 slate frontloaded (vs 2025 back-half weighted): Stranger Things final season, Wednesday S2, Knives Out 3, Squid Game S3. Live events (NFL Christmas Day, Mike Tyson). FY26 ad doubling supports ARM expansion.",
+      "Mint"
+    ]
+  ],
+  "bear": [
+    [
+      "Growth deceleration",
+      "FY26 guide $51B = +13% YoY, vs FY25 +16%. Q1 FY26 actual +16% YoY but slowing. Mid-teens growth no longer commands hyper-growth multiples.",
+      "Crimson"
+    ],
+    [
+      "Death cross + bearish technical",
+      "SMA50 below SMA200 since 2025-12-05; -34.8% drawdown from 52w high $134.12. MACD bearish, ADX 21.5 (developing downtrend). Stock failed to hold $100 support.",
+      "Crimson"
+    ],
+    [
+      "Content amortization arms race",
+      "Content amort >$16B in 2025, guidance +10% in 2026 to ~$18B. Risk if engagement plateaus and global content ROI compresses — particularly with YouTube/short-form competition.",
+      "Crimson"
+    ],
+    [
+      "FX & emerging market exposure",
+      ">50% of revenue international. Q3 FY25 Brazil $619M tax expense one-off. BRL/ARS/TRY/JPY weakness reduces reported revenue growth meaningfully when stripped of FX.",
+      "Crimson"
+    ],
+    [
+      "WBD M&A speculation overhang",
+      "$275M cost carry for M&A activity flagged in Q4 FY25 and Q1 FY26. Potential WBD studio acquisition could impair margins meaningfully and require significant capital outlay.",
+      "Crimson"
+    ],
+    [
+      "Subscriber metric opacity",
+      "Stopped reporting subscribers Q1 2025 — buy-side lost the most-used unit-economics anchor. Forces reliance on revenue growth + margin guidance, reducing fundamental transparency.",
+      "Crimson"
+    ]
+  ],
+  "trigger_up": [
+    "Q2 FY26 ER (Jul 16, 2026) raises FY26 revenue guide above $51.5B AND OM above 31.5%",
+    "Ad revenue tracks above $3B FY26 trajectory (e.g. Q2 FY26 ad rev annualized >$3.5B)",
+    "Live sports/event rights expansion (e.g. NBA International, NFL packages) accretive economics",
+    "Recovery above SMA200 ($103.34) breaks death-cross structure",
+    "Pricing power demonstrated in Q3/Q4 2026 without churn acceleration"
+  ],
+  "trigger_down": [
+    "Q2 FY26 guide flat or cut to $50B; FY26 OM trimmed below 30%",
+    "WBD acquisition confirmed with dilutive financing (>$30B at significant premium)",
+    "Ad revenue undershoots $3B FY26 trajectory in Q2 print",
+    "Break below 52w low $75.01 — would target $70 area on technical extension",
+    "Engagement metrics show YouTube share gains accelerating in core US/UK markets"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (Q1 FY26)",
+      "baseline": "$9.37B (Q1 FY24)",
+      "latest": "$12.25B (Q1 FY26, +31% from Q1 FY24)",
+      "verdict": "+31% in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "+15% (Q1 FY24)",
+      "latest": "+16.2% (Q1 FY26)",
+      "verdict": "Stable / decelerating mildly",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "28.09% (Q1 FY24)",
+      "latest": "32.30% (Q1 FY26)",
+      "verdict": "+4.2pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "24.86% (Q1 FY24)",
+      "latest": "43.13% (Q1 FY26)",
+      "verdict": "+18pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FCF margin",
+      "baseline": "22.8% (Q1 FY24)",
+      "latest": "41.6% (Q1 FY26)",
+      "verdict": "+19pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FCF",
+      "baseline": "$2.14B (Q1 FY24)",
+      "latest": "$5.09B (Q1 FY26, +138%)",
+      "verdict": "2.4x in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS (FY guide tracking)",
+      "baseline": "50% random",
+      "latest": "0.833 weighted (2 strict BEAT + 1 HIT / 3 independent)",
+      "verdict": "Above baseline, not perfect",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating income",
+      "baseline": "$2.63B (Q1 FY24)",
+      "latest": "$3.96B (Q1 FY26, +50%)",
+      "verdict": "OI expanding faster than revenue",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Stock vs 52w high",
+      "baseline": "$134.12 (Jun 30 2025 post-split)",
+      "latest": "$87.49 (May 8 2026)",
+      "verdict": "-34.8% drawdown",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation EV/EBITDA LTM",
+      "baseline": "Peer median 24.57x",
+      "latest": "NFLX 11.69x",
+      "verdict": "-52% discount (rare)",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "Netflix is a 'transition' setup: 2 strict BEATs and 1 in-range HIT on 3 independent FY revenue guidance points (weighted MCS 0.833), 16% growth that's normalizing to 13% in FY26, expanding margins to 31.5% target, doubling ad business to ~$3B. RSI 24.15 deeply oversold creates short-term bounce setup; sell-side maintains constructive ratings. Fundamental story intact, multiple has compressed (-52% discount on EV/EBITDA vs peer median). Tactical bias: NEUTRAL with mild bullish tilt — accumulate below $85, scale up on recovery above $100. Key catalyst: Q2 FY26 ER on Jul 16, 2026. NOTE: The previous \"perfect 5/5\" MCS was methodologically inflated — it counted 5 sequential restatements of the same FY25 target as independent claims, and applied loose scoring (any beat-vs-midpoint counted as BEAT). Corrected to 3 truly independent forecasts using strict BEAT-vs-HIGH-end methodology.",
+  "disclaimer": "Quoted statements verbatim from NFLX earnings calls. Fundamentals from EDGAR XBRL companyfacts (CIK 0001065280). FactSet 2026-05-12. NFLX completed a 10:1 stock split in late 2025 — pre/post split EPS values are not directly comparable. MCS uses strict scoring: BEAT (actual above HIGH end of guidance range) = 1.0, HIT (within range) = 0.5, MISS (below LOW end) = 0. Only INDEPENDENT new-information forecasts tracked; mere reaffirmations of existing guidance excluded. Not investment advice."
+}

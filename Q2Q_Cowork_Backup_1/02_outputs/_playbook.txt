@@ -1,0 +1,1973 @@
+Claude Code / Claude Cowork Playbook   •   Eight-Quarter Confidence Scoring v2.1.1
+CLAUDE CODE / CLAUDE COWORK
+IMPLEMENTATION PLAYBOOK
+Eight-Quarter Management Guidance
+Confidence Scoring v2.0
+Stack-agnostic implementation instructions for Claude Cowork (with Python and JavaScript paths)
+
+Table of Contents
+Right-click and select “Update Field” in Word to populate.
+TOC	
+
+0. How to Use This Playbook
+This document is the operating manual for a Claude Cowork session (or Claude Code session) that will implement the v2.0 confidence-scoring refinement in Rahul's dashboard codebase. Load it as the working brief at the start of the session, alongside the companion PRD.
+0.1 What is Different in v2.1
+This revision (v2.1) of the implementation playbook fixes scope and correctness issues found while reviewing the v1.0 playbook against the v2.0 PRD. Specifically:
+Language-agnostic. The PRD says the implementation surface is a local HTML/JS dashboard. The v1.0 playbook assumed a Python backend without checking. v2.1 requires Pass 1 to confirm the actual stack first, and provides parallel reference implementations for both Python and JavaScript.
+Dashboard contract preserved. v1.0 silently renamed PRD-mandated JSON field names (e.g. delivery_verdict → verdict) and dropped count fields the dashboard reads. v2.1 enforces an output-shape contract that matches PRD Section 10.2 / 10.3 / 10.4 exactly.
+Direction-of-favorable fixed. v1.0 applied the tolerance band symmetrically for all categories. For revenue/EPS/margin/FCF, above-range is favorable; for capex/opex/tax-rate, below-range is favorable. v2.1 makes this explicit per category.
+Recency weighting default aligned with PRD. v1.0 defaulted use_recency_weighting=True; PRD §11.1 specifies default false. v2.1 matches the PRD.
+Pair-ID format normalized to the PRD example (Q1_TO_Q2) — not the double-underscore form.
+Open-ended guidance (e.g. "at least $10B") now has explicit handling in the scoring spec, per PRD §9.
+Adapter responsibilities are spelled out so the dashboard JSON consumer keeps working through cutover.
+Patch-level changes in v2.1.1 (full PRD coverage audit against the v2.0 PRD). These are corrections to v2.1, not new functionality:
+Tolerance band honored in discrete scoring. PRD §6.1.1 and Glossary §4 define in-line as "within the guided range, or within the tolerance band around a point estimate." v2.1's discrete_verdict ignored the tolerance band on point estimates, which made the discrete and continuous scores disagree on point-estimate cases just below the point. Fixed in both Python and TypeScript reference implementations.
+Test expected-values corrected. Pass 3 cases S3, S6, S12, and S16 had expected continuous-score numbers that did not match the PRD §6.1.2 formula (the formula uses midpoint as the denominator; earlier expected values appeared to use various other denominators). Recomputed end-to-end: S3 ≈ 0.71, S6 = 0.90, S12 = 0.60, S16 = 0.70 with the arithmetic shown inline.
+Three missing edge-case flags wired into the pipeline. v2.1 defined PRE_ANNOUNCEMENT_USED, REVISED_GUIDANCE_DETECTED, and FISCAL_CALENDAR_CHANGE as DataQualityFlag values but never set them anywhere — test T13 in particular would have failed. v2.1.1 adds carrier fields on QuarterRecord (actuals_source_kind, fiscal_calendar_changed) for the adapter to populate, and emits each flag in the pipeline based on the carried signal. Revised guidance is detected via a non-empty ClaimRecord.revisions list.
+Forbidden-copy anti-grep extended to cover the rest of PRD §13 (100% confidence, Latest guidance delivered/missed, 8 verified quarters, Based on 10 quarters), not only the 10 quarters family.
+PRD §10.2 flat-field claim schema honored on output. v2.1 modeled the guidance bounds as a nested GuidanceRange object on ClaimRecord, which gave clean validation but emitted claim.guidance.low instead of the flat claim.guidance_low / guidance_high / guidance_midpoint / guidance_unit fields PRD §10.2 documents. The adapter's result_to_dashboard_json now flattens these on the way out so the dashboard reads exactly the PRD shape.
+0.2 Reading Order
+Read Sections 0 through 3 in full before touching any file.
+Read the relevant Pass section (4 through 11) immediately before executing that pass.
+Treat Appendix A as authoritative for file skeletons; do not invent alternative module layouts.
+Treat Appendix B as the canonical test fixture format.
+Appendix G is the Cowork bootstrap prompt — paste it into Cowork to start the session.
+0.3 The 8-Pass Refinement Loop
+Implementation proceeds in 8 sequential passes. Each pass has a single primary goal, a definition of done, and a pass gate that must be cleared before advancing. Do not interleave passes.
+0.4 Stop-and-Surface Triggers
+Claude Cowork must stop and surface to the human reviewer — not guess — in any of the following situations:
+Pass 1 reveals the primary implementation language differs from what the user expected, or there is no clear backend at all.
+The codebase contains a confidence-scoring module structurally different from what Section 3 anticipates.
+The existing data model uses field names or types that conflict with the schemas in Section 5.
+Any existing test would need to be deleted (vs. updated) to make the new code pass.
+Any file outside the new confidence/ source folder and its test folder would need to be modified for integration, beyond the single adapter shim authorized in Pass 8.
+Removing or renaming a JSON field the dashboard currently reads — this is always a stop-and-surface, never a silent change.
+The PRD wording in the UI layer would need to change beyond what PRD §13 authorizes.
+1. Mission and Scope
+1.1 One-Paragraph Mission
+Implement the v2.0 confidence-scoring module specified in the companion PRD as a new package under the existing dashboard codebase, replacing the existing confidence logic. The new module must correctly handle the n-quarter / (n−1)-pair invariant, magnitude-aware claim scoring with direction-of-favorable by category, claim weighting by materiality, withdrawn guidance, statistical uncertainty (SE and 95% CI), sandbagging detection, and the full set of edge cases enumerated in PRD §9. The module must integrate into the existing pipeline behind a stable public API, expose the JSON contract specified in PRD §10, and be exercised by a test suite that maps 1:1 to the PRD's QA test cases T1 through T15.
+1.2 In-Scope vs Out-of-Scope
+2. Operating Principles for Claude Cowork
+2.1 Code Behavior Rules
+Discovery before code. No file is created or modified before Pass 1 completes.
+Read before write. Every file Cowork modifies must first be read in full; the reasoning for the change is quoted in the commit message or a code comment.
+Tests-first within each pass. Each pass writes its test fixtures and test signatures before the implementation, then makes them pass.
+Branch per pass. Each pass is a separate git branch named feature/v2-confidence-pass-N, merged into a v2-confidence integration branch after its gate clears.
+Run gates after every edit. Test runner and linter after every meaningful save; strict type checker at the end of each pass.
+No silent type coercion. Pydantic v2 models use strict=True; TypeScript uses "strict": true.
+Output contract is sacred. The JSON shape consumed by dashboard/ may gain fields but never lose them or have them renamed without an explicit ADR.
+Surface ambiguity. If a spec in this playbook conflicts with the PRD, surface and ask. The PRD is the semantic authority; this playbook is the implementation guide.
+2.2 Allowed Dependencies
+Use only these libraries. Do not introduce others without explicit human approval.
+Python path
+**Why numpy and not statistics:** either works. Use numpy only if it is already imported elsewhere in the repo. If not, use `statistics.stdev` and `math.sqrt` and note the substitution in the discovery report.
+JavaScript path
+**Why zod and not plain TypeScript interfaces:** the dashboard consumes JSON. We need runtime validation at the package boundary, not just compile-time types. If the repo already standardizes on a different validator (yup, valibot, io-ts), use that and document the substitution.
+2.3 Style & Type Conventions (Python)
+Python 3.11+ syntax; use match statements and exception groups where natural.
+Full type annotations on every public function and method.
+Use Pydantic v2 BaseModel for all data records; do not mix in dataclasses.
+StrEnum subclasses for fixed-vocabulary fields (status, verdict, category).
+Docstrings: Google style, with an Invariants section listing what the function guarantees.
+No mutable default arguments. Ever.
+ruff format and ruff check --fix run before every commit.
+2.4 Style & Type Conventions (JavaScript)
+TypeScript with "strict": true; no implicit any.
+ES modules; no CommonJS in new code.
+Zod schemas as the source of truth; types derived via z.infer.
+Pure functions for scoring math; no class instances on the hot path.
+Use number | null for missing values, never undefined, because the JSON contract requires explicit nulls.
+ESLint + Prettier before every commit.
+3. Repository Assumptions
+This playbook is written assuming a conventional layout. The discovery pass will confirm or contradict each assumption. Where the actual repo diverges, document the divergence in the discovery report; do not silently adapt.
+3.1 Assumed Layout
+<repo_root>/
+├── src/                   # Python source (or top-level packages) OR
+├── ts/ or app/            # TypeScript source (if JS path)
+│   └── <existing_modules>
+├── tests/                 # Existing test suite
+├── data/                  # Quarterly data, transcripts, filings (JSON or CSV)
+├── dashboard/             # HTML + JS dashboard files (always present)
+├── scripts/               # Pipeline orchestration entry points
+├── pyproject.toml         # Python path
+├── package.json           # JS path (likely also present even on Python repos for dashboard deps)
+└── README.md
+3.2 Existing Confidence Logic (Hypothesis)
+Pass 1 must verify, but the going-in hypothesis is:
+There is a module (likely scoring.py, confidence.py, analysis.py, or scoring.js / confidence.ts) that contains the current confidence-scoring logic.
+There may be hardcoded constants like NUM_QUARTERS = 10 or VERIFIED_PAIRS = 10 somewhere.
+Quarterly records are likely persisted as JSON under data/ or rebuilt from raw transcripts on each run.
+The dashboard reads computed JSON outputs (the Confidence Object from PRD §10.4).
+3.3 Things That Must Not Move
+To keep this refinement bounded to the confidence layer:
+Existing module names and import paths for non-confidence modules stay unchanged.
+The dashboard's input JSON contract stays compatible: we add fields, never remove or rename.
+Existing data files under data/ are not deleted or renamed.
+Configuration files (pyproject.toml, package.json, ruff.toml, mypy.ini, tsconfig.json) are extended, never rewritten.
+
+PASS 1 • Repository Discovery & Inventory
+4.1 Goal
+Produce a single document, `docs/v2-discovery.md`, that catalogs everything Cowork needs to know about the existing codebase to implement v2.0 cleanly. No source files are modified in this pass.
+4.2 Discovery Commands
+Run these commands and save the raw outputs as appendices in the discovery doc:
+# 0. Language detection (NEW in v2.1 — gates which path we follow)
+ls -la pyproject.toml setup.py requirements.txt package.json tsconfig.json 2>/dev/null
+find . -name "*.py" -not -path "*/.*" -not -path "*/venv/*" \
+  -not -path "*/node_modules/*" | wc -l
+find . -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.mjs" \
+  -not -path "*/.*" -not -path "*/node_modules/*" | wc -l
+ 
+# 1. Project shape
+find . -name "*.py" -o -name "*.ts" -o -name "*.js" \
+  -not -path "*/.*" -not -path "*/venv/*" -not -path "*/node_modules/*" \
+  | head -200
+ 
+# 2. Confidence-related code (search both languages)
+grep -rn "confidence" --include="*.py" --include="*.ts" --include="*.js" -l
+grep -rn "MCS\|management.credibility\|credibility.score" \
+  --include="*.py" --include="*.ts" --include="*.js"
+grep -rn "guidance" --include="*.py" --include="*.ts" --include="*.js" -l
+ 
+# 3. Hardcoded quarter assumptions (the bug we're hunting)
+grep -rn "10.quarters\|ten_quarters\|TEN_QUARTERS" \
+  --include="*.py" --include="*.js" --include="*.ts" --include="*.html"
+grep -rn "NUM_QUARTERS\|N_QUARTERS\|TOTAL_QUARTERS" \
+  --include="*.py" --include="*.ts" --include="*.js"
+grep -rn "expected_quarters\|verified_quarters\|confidence_denominator" \
+  --include="*.py" --include="*.js" --include="*.ts"
+grep -rn "= 8\|= 7\|= 10" --include="*.py" --include="*.ts" --include="*.js" \
+  | grep -i "quarter\|pair\|confidence"
+ 
+# 4. Existing data model
+grep -rn "class.*Quarter\|class.*Claim\|class.*Pair\|class.*Confidence" \
+  --include="*.py" --include="*.ts"
+grep -rn "BaseModel\|@dataclass\|TypedDict\|interface\|z\.object" \
+  --include="*.py" --include="*.ts"
+ 
+# 5. Pipeline entry points
+grep -rn "def compute_\|def calculate_\|def score_\|def analyze_" \
+  --include="*.py"
+grep -rn "function compute\|function calculate\|function score\|export.*compute" \
+  --include="*.ts" --include="*.js"
+ 
+# 6. Existing tests touching confidence
+find tests test __tests__ -name "*.py" -o -name "*.ts" -o -name "*.js" 2>/dev/null \
+  | xargs grep -l "confidence\|guidance\|MCS" 2>/dev/null
+ 
+# 7. Dashboard JSON contract (CRITICAL)
+grep -rn "confidence_level\|delivery_verdict\|mcs_pct\|pair_score" \
+  dashboard/ 2>/dev/null
+grep -rn "JSON.parse\|fetch(.*confidence\|require.*confidence" \
+  dashboard/ 2>/dev/null
+ 
+# 8. Configuration
+cat pyproject.toml 2>/dev/null
+cat package.json 2>/dev/null
+cat tsconfig.json 2>/dev/null
+cat ruff.toml 2>/dev/null
+cat mypy.ini 2>/dev/null || grep -A 5 "\[tool.mypy\]" pyproject.toml
+4.3 Trace the Current Confidence Calculation
+Find every file that touches the confidence calculation, then walk the path from raw inputs to the final emitted JSON. Record:
+Entry point: the function or script the dashboard pipeline calls.
+Data flow: input file → parsed model → scoring function(s) → output file.
+Constants: every literal that participates in the score (counts, thresholds, weights, percentages).
+UI bindings: every JSON field the dashboard consumes from the confidence output — the most critical inventory item.
+4.4 The Bug Hunt
+The PRD identifies a likely "10 quarters" assumption somewhere. Find it. Document where. Suspect locations:
+Top-of-module constants in the confidence module.
+Hardcoded slice operations like quarters[-10:] or len(...) == 10 checks (Python) / quarters.slice(-10) or quarters.length === 10 (JS).
+Division by literal counts: total / 10, total / 8.
+Loop ranges: range(10), range(1, 9), for (let i = 0; i < 10; i++).
+Test fixtures that bake in the wrong count.
+JSON config files (config.json, settings.yaml) carrying the count as data.
+Dashboard HTML/JS reading a count from somewhere and rendering it.
+4.5 Discovery Report Contents
+`docs/v2-discovery.md` must contain the following sections, in order:
+Primary language decision with evidence (counts of .py vs .ts/.js source files in the confidence path; which one the dashboard pipeline entry point is written in). One clear sentence: 'Confidence logic lives in <Python | JavaScript>.'
+Project layout (output of step 1 of §4.2).
+Inventory of confidence-related files (one row per file, with summary).
+Existing data model diagram (class/interface names, relationships, persistence format).
+Current scoring algorithm in plain English (≤ 10 bullet points).
+List of hardcoded quarter / pair constants found, with file and line number.
+**Dashboard JSON contract: every field currently consumed by dashboard/, with the file:line that reads it. This drives the field-alias decisions in Pass 8.**
+Existing test inventory for confidence logic.
+Integration points: the exact functions the new compute_confidence() must replace or wrap.
+Dependency snapshot (pinned versions of pydantic, numpy, pytest, or their JS equivalents).
+Open questions or ambiguities to surface before Pass 2 starts.
+
+PASS 2 • Schemas & Type Definitions
+5.1 Goal
+Create the full schema set in the chosen language. No business logic yet — only data definitions, validators, and helpers that belong on the models themselves.
+5.2 Schema Inventory
+5.3 Reference Implementation — Python (`models.py`)
+This is the binding contract for the schemas. Names, types, and field semantics are exact; default values match the PRD.
+# src/confidence/models.py
+from __future__ import annotations
+ 
+from datetime import datetime, timezone
+from enum import StrEnum
+from typing import Annotated, Optional
+ 
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    NonNegativeFloat,
+    NonNegativeInt,
+    field_validator,
+    model_validator,
+)
+ 
+ 
+SCHEMA_VERSION = "2.0"
+ 
+ 
+class ClaimCategory(StrEnum):
+    REVENUE = "revenue"
+    EPS = "eps"
+    GROSS_MARGIN = "gross_margin"
+    OPERATING_MARGIN = "operating_margin"
+    FREE_CASH_FLOW = "free_cash_flow"
+    SEGMENT_REVENUE = "segment_revenue"
+    CAPEX = "capex"
+    OPERATING_EXPENSE = "operating_expense"
+    TAX_RATE = "tax_rate"
+    PRODUCT_LAUNCH = "product_launch"
+    CUSTOMER_MILESTONE = "customer_milestone"
+    OTHER = "other"
+ 
+ 
+class ClaimDirection(StrEnum):
+    """Which side of the guided range is favorable for this metric.
+ 
+    Revenue beat = above range (UP_IS_GOOD).
+    Capex under-spend = below range (DOWN_IS_GOOD).
+    Tax rate below guide = below range (DOWN_IS_GOOD).
+    """
+    UP_IS_GOOD = "up_is_good"
+    DOWN_IS_GOOD = "down_is_good"
+ 
+ 
+# Mapping is authoritative; do not duplicate in scoring.py
+DIRECTION_BY_CATEGORY: dict[ClaimCategory, ClaimDirection] = {
+    ClaimCategory.REVENUE: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.EPS: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.GROSS_MARGIN: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.OPERATING_MARGIN: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.FREE_CASH_FLOW: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.SEGMENT_REVENUE: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.PRODUCT_LAUNCH: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.CUSTOMER_MILESTONE: ClaimDirection.UP_IS_GOOD,
+    ClaimCategory.CAPEX: ClaimDirection.DOWN_IS_GOOD,
+    ClaimCategory.OPERATING_EXPENSE: ClaimDirection.DOWN_IS_GOOD,
+    ClaimCategory.TAX_RATE: ClaimDirection.DOWN_IS_GOOD,
+    ClaimCategory.OTHER: ClaimDirection.UP_IS_GOOD,
+}
+ 
+ 
+class DeliveryVerdict(StrEnum):
+    DELIVERED = "delivered"   # in-range or beat in the favorable direction (capped at 1.00)
+    PARTIAL = "partial"       # 0%–5% miss in the unfavorable direction
+    MISSED = "missed"         # > 5% miss in the unfavorable direction
+    WITHDRAWN = "withdrawn"   # rescinded before target quarter reported
+    PENDING = "pending"       # target quarter not yet reported
+ 
+ 
+class PairStatus(StrEnum):
+    CLOSED = "closed"
+    PENDING = "pending"
+    INSUFFICIENT = "insufficient"
+ 
+ 
+class DataQualityFlag(StrEnum):
+    MISSING_TRANSCRIPT = "missing_transcript"
+    MISSING_ACTUALS = "missing_actuals"
+    INSUFFICIENT_WINDOW = "insufficient_window"
+    NO_GUIDANCE_ISSUED = "no_guidance_issued"
+    REVISED_GUIDANCE_DETECTED = "revised_guidance_detected"
+    PRE_ANNOUNCEMENT_USED = "pre_announcement_used"
+    FISCAL_CALENDAR_CHANGE = "fiscal_calendar_change"
+ 
+ 
+class GuidanceRange(BaseModel):
+    """Guided range or point estimate.
+ 
+    Open-ended guidance ("at least $10B") is represented as
+    `high=None` — the scoring code treats it as one-sided.
+    """
+    model_config = ConfigDict(strict=True, extra="forbid")
+ 
+    low: float
+    high: float | None = None        # None for one-sided open-ended
+    midpoint: float | None = None
+    unit: str = ""
+ 
+    @model_validator(mode="after")
+    def _fill_and_validate(self) -> "GuidanceRange":
+        if self.high is not None and self.low > self.high:
+            raise ValueError(f"low ({self.low}) must be <= high ({self.high})")
+        if self.midpoint is None:
+            if self.high is None:
+                # Open-ended: midpoint defaults to the low end for sandbag math
+                self.midpoint = self.low
+            else:
+                self.midpoint = (self.low + self.high) / 2.0
+        return self
+ 
+ 
+class ClaimRecord(BaseModel):
+    """A single measurable forward-looking management claim.
+ 
+    Serialization aliases match PRD §10.2 exactly so the dashboard
+    JSON consumer sees the field names it expects.
+    """
+    model_config = ConfigDict(
+        strict=True, extra="forbid", populate_by_name=True,
+    )
+ 
+    claim_id: str
+    ticker: str
+    guidance_quarter: str
+    target_quarter: str
+    category: ClaimCategory
+    weight: NonNegativeFloat
+    guidance: GuidanceRange
+    tolerance_pct: NonNegativeFloat = 0.02
+    evidence_quote: str
+    evidence_source: str
+    evidence_speaker: str = ""
+    actual: float | None = None
+    actual_source: str = ""
+ 
+    # PRD-mandated field name is "delivery_verdict"; we expose it
+    # under that name in JSON. The Python attribute is kept short.
+    verdict: DeliveryVerdict = Field(
+        default=DeliveryVerdict.PENDING, alias="delivery_verdict",
+    )
+    delivery_score_discrete: float | None = None
+    delivery_score_continuous: float | None = None
+    signed_beat_pct: float | None = None
+    revisions: list[dict] = Field(default_factory=list)
+    withdrawn_reason: str = ""
+    computed_at: datetime | None = None
+ 
+    @field_validator("delivery_score_discrete", "delivery_score_continuous")
+    @classmethod
+    def _bounded(cls, v: float | None) -> float | None:
+        if v is None:
+            return v
+        if not 0.0 <= v <= 1.0:
+            raise ValueError(f"score must be in [0, 1], got {v}")
+        return v
+ 
+ 
+class QuarterRecord(BaseModel):
+    """One fiscal quarter of data for one ticker.
+ 
+    The actuals_source_kind and fiscal_calendar_changed fields are
+    populated by the adapter from the legacy data. The pipeline reads
+    them to emit the matching DataQualityFlag values per PRD §9.
+    """
+    model_config = ConfigDict(strict=True, extra="forbid")
+ 
+    ticker: str
+    fiscal_label: str
+    calendar_period_end: datetime | None = None
+    transcript_available: bool = True
+    actuals_available: bool = True
+    forward_claims: list[ClaimRecord] = Field(default_factory=list)
+    actuals_by_category: dict[str, float] = Field(default_factory=dict)
+ 
+    # PRD §9 — pre-announcement: when the company released numbers
+    # before the official 10-Q. The adapter sets this; the pipeline
+    # emits PRE_ANNOUNCEMENT_USED when any quarter uses it.
+    actuals_source_kind: str = "official"  # "official" | "pre_announcement"
+ 
+    # PRD §9 — fiscal calendar change: if this quarter is the first
+    # under a new fiscal calendar, the adapter sets this True and
+    # the pipeline emits FISCAL_CALENDAR_CHANGE.
+    fiscal_calendar_changed: bool = False
+ 
+ 
+class PairRecord(BaseModel):
+    """One guidance-to-actual pair.
+ 
+    Field names match PRD §10.3 exactly. Per-verdict count fields
+    are populated so the dashboard audit table can render without
+    additional lookups.
+    """
+    model_config = ConfigDict(strict=True, extra="forbid")
+ 
+    pair_id: str
+    guidance_quarter: str
+    target_quarter: str
+    status: PairStatus
+    claims: list[ClaimRecord] = Field(default_factory=list)
+    claim_count: NonNegativeInt = 0
+    scorable_claim_count: NonNegativeInt = 0
+    delivered_claims: NonNegativeInt = 0     # PRD §10.3
+    partial_claims: NonNegativeInt = 0       # PRD §10.3
+    missed_claims: NonNegativeInt = 0        # PRD §10.3
+    withdrawn_claims: NonNegativeInt = 0     # PRD §10.3
+    pair_score: float | None = None
+    pair_score_continuous: float | None = None
+    summary: str = ""
+ 
+    @field_validator("pair_score", "pair_score_continuous")
+    @classmethod
+    def _bounded_pair(cls, v: float | None) -> float | None:
+        if v is None:
+            return v
+        if not 0.0 <= v <= 1.0:
+            raise ValueError(f"pair score must be in [0, 1], got {v}")
+        return v
+ 
+ 
+class ConfidenceConfig(BaseModel):
+    """Tunable thresholds; defaults match PRD §11.1 exactly."""
+    model_config = ConfigDict(strict=True, extra="forbid")
+ 
+    min_closed_pairs_for_label: int = 3
+    min_claims_per_pair: int = 2
+    tolerance_pct_default: float = 0.02
+    recency_window: int = 3
+    trend_delta: float = 0.05
+    high_threshold: float = 0.80
+    medium_threshold: float = 0.60
+    # PRD §11.1 says default false; v2.1 corrects v1.0's incorrect default
+    use_recency_weighting: bool = False
+    sandbag_high_threshold: float = 0.05
+    sandbag_mild_threshold: float = 0.015
+ 
+ 
+class ConfidenceResult(BaseModel):
+    """Dashboard-facing output. Field names match PRD §10.4 exactly."""
+    model_config = ConfigDict(strict=True, extra="forbid")
+ 
+    schema_version: str = SCHEMA_VERSION
+    ticker: str
+    as_of_date: str
+    quarters_analyzed: NonNegativeInt
+    closed_pairs_used: NonNegativeInt
+    pending_pairs_excluded: NonNegativeInt
+    insufficient_pairs_excluded: NonNegativeInt
+    mcs: float | None
+    mcs_pct: float | None
+    mcs_recency_weighted: float | None = None
+    mcs_recency_weighted_pct: float | None = None
+    standard_error: float | None = None
+    ci95_low_pct: float | None = None
+    ci95_high_pct: float | None = None
+    confidence_level: str
+    label_sensitive: bool = False
+    recent_trend: str
+    sandbag_index: float | None = None
+    sandbag_label: str = ""
+    method_note: str = ""
+    pairs: list[PairRecord] = Field(default_factory=list)
+    data_quality_flags: list[DataQualityFlag] = Field(default_factory=list)
+    computed_at: datetime = Field(
+        default_factory=lambda: datetime.now(timezone.utc),
+    )
+5.4 Reference Implementation — TypeScript (`models.ts`)
+Use this if Pass 1 declares the implementation language to be JavaScript / TypeScript.
+// src/confidence/models.ts
+import { z } from "zod";
+ 
+export const SCHEMA_VERSION = "2.0" as const;
+ 
+export const ClaimCategory = z.enum([
+  "revenue", "eps", "gross_margin", "operating_margin", "free_cash_flow",
+  "segment_revenue", "capex", "operating_expense", "tax_rate",
+  "product_launch", "customer_milestone", "other",
+]);
+export type ClaimCategory = z.infer<typeof ClaimCategory>;
+ 
+export const ClaimDirection = z.enum(["up_is_good", "down_is_good"]);
+export type ClaimDirection = z.infer<typeof ClaimDirection>;
+ 
+export const DIRECTION_BY_CATEGORY: Record<ClaimCategory, ClaimDirection> = {
+  revenue: "up_is_good",
+  eps: "up_is_good",
+  gross_margin: "up_is_good",
+  operating_margin: "up_is_good",
+  free_cash_flow: "up_is_good",
+  segment_revenue: "up_is_good",
+  product_launch: "up_is_good",
+  customer_milestone: "up_is_good",
+  capex: "down_is_good",
+  operating_expense: "down_is_good",
+  tax_rate: "down_is_good",
+  other: "up_is_good",
+};
+ 
+export const DeliveryVerdict = z.enum([
+  "delivered", "partial", "missed", "withdrawn", "pending",
+]);
+export type DeliveryVerdict = z.infer<typeof DeliveryVerdict>;
+ 
+export const PairStatus = z.enum(["closed", "pending", "insufficient"]);
+export type PairStatus = z.infer<typeof PairStatus>;
+ 
+export const DataQualityFlag = z.enum([
+  "missing_transcript", "missing_actuals", "insufficient_window",
+  "no_guidance_issued", "revised_guidance_detected",
+  "pre_announcement_used", "fiscal_calendar_change",
+]);
+export type DataQualityFlag = z.infer<typeof DataQualityFlag>;
+ 
+export const GuidanceRange = z.object({
+  low: z.number(),
+  high: z.number().nullable().default(null),  // null = open-ended
+  midpoint: z.number().nullable().default(null),
+  unit: z.string().default(""),
+}).superRefine((v, ctx) => {
+  if (v.high !== null && v.low > v.high) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom,
+      message: `low (${v.low}) must be <= high (${v.high})` });
+  }
+}).transform((v) => {
+  if (v.midpoint === null) {
+    v.midpoint = v.high === null ? v.low : (v.low + v.high) / 2;
+  }
+  return v;
+});
+export type GuidanceRange = z.infer<typeof GuidanceRange>;
+ 
+const ScoreBounded = z.number().min(0).max(1).nullable();
+ 
+export const ClaimRecord = z.object({
+  claim_id: z.string(),
+  ticker: z.string(),
+  guidance_quarter: z.string(),
+  target_quarter: z.string(),
+  category: ClaimCategory,
+  weight: z.number().nonnegative(),
+  guidance: GuidanceRange,
+  tolerance_pct: z.number().nonnegative().default(0.02),
+  evidence_quote: z.string(),
+  evidence_source: z.string(),
+  evidence_speaker: z.string().default(""),
+  actual: z.number().nullable().default(null),
+  actual_source: z.string().default(""),
+  // Field name matches PRD §10.2 exactly:
+  delivery_verdict: DeliveryVerdict.default("pending"),
+  delivery_score_discrete: ScoreBounded.default(null),
+  delivery_score_continuous: ScoreBounded.default(null),
+  signed_beat_pct: z.number().nullable().default(null),
+  revisions: z.array(z.record(z.string(), z.unknown())).default([]),
+  withdrawn_reason: z.string().default(""),
+  computed_at: z.string().datetime().nullable().default(null),
+});
+export type ClaimRecord = z.infer<typeof ClaimRecord>;
+ 
+export const QuarterRecord = z.object({
+  ticker: z.string(),
+  fiscal_label: z.string(),
+  calendar_period_end: z.string().datetime().nullable().default(null),
+  transcript_available: z.boolean().default(true),
+  actuals_available: z.boolean().default(true),
+  forward_claims: z.array(ClaimRecord).default([]),
+  actuals_by_category: z.record(z.string(), z.number()).default({}),
+  // PRD §9 carriers — set by the adapter. The pipeline aggregates
+  // these into PRE_ANNOUNCEMENT_USED and FISCAL_CALENDAR_CHANGE flags.
+  actuals_source_kind: z.enum(["official", "pre_announcement"]).default("official"),
+  fiscal_calendar_changed: z.boolean().default(false),
+});
+export type QuarterRecord = z.infer<typeof QuarterRecord>;
+ 
+export const PairRecord = z.object({
+  pair_id: z.string(),
+  guidance_quarter: z.string(),
+  target_quarter: z.string(),
+  status: PairStatus,
+  claims: z.array(ClaimRecord).default([]),
+  claim_count: z.number().int().nonnegative().default(0),
+  scorable_claim_count: z.number().int().nonnegative().default(0),
+  delivered_claims: z.number().int().nonnegative().default(0),
+  partial_claims: z.number().int().nonnegative().default(0),
+  missed_claims: z.number().int().nonnegative().default(0),
+  withdrawn_claims: z.number().int().nonnegative().default(0),
+  pair_score: ScoreBounded.default(null),
+  pair_score_continuous: ScoreBounded.default(null),
+  summary: z.string().default(""),
+});
+export type PairRecord = z.infer<typeof PairRecord>;
+ 
+export const ConfidenceConfig = z.object({
+  minClosedPairsForLabel: z.number().int().default(3),
+  minClaimsPerPair: z.number().int().default(2),
+  tolerancePctDefault: z.number().default(0.02),
+  recencyWindow: z.number().int().default(3),
+  trendDelta: z.number().default(0.05),
+  highThreshold: z.number().default(0.80),
+  mediumThreshold: z.number().default(0.60),
+  useRecencyWeighting: z.boolean().default(false),  // matches PRD §11.1
+  sandbagHighThreshold: z.number().default(0.05),
+  sandbagMildThreshold: z.number().default(0.015),
+});
+export type ConfidenceConfig = z.infer<typeof ConfidenceConfig>;
+ 
+export const ConfidenceResult = z.object({
+  schema_version: z.literal("2.0").default("2.0"),
+  ticker: z.string(),
+  as_of_date: z.string(),
+  quarters_analyzed: z.number().int().nonnegative(),
+  closed_pairs_used: z.number().int().nonnegative(),
+  pending_pairs_excluded: z.number().int().nonnegative(),
+  insufficient_pairs_excluded: z.number().int().nonnegative(),
+  mcs: z.number().nullable(),
+  mcs_pct: z.number().nullable(),
+  mcs_recency_weighted: z.number().nullable().default(null),
+  mcs_recency_weighted_pct: z.number().nullable().default(null),
+  standard_error: z.number().nullable().default(null),
+  ci95_low_pct: z.number().nullable().default(null),
+  ci95_high_pct: z.number().nullable().default(null),
+  confidence_level: z.enum(["High", "Medium", "Low", "N/A"]),
+  label_sensitive: z.boolean().default(false),
+  recent_trend: z.enum(["Improving", "Stable", "Deteriorating", "Insufficient Data"]),
+  sandbag_index: z.number().nullable().default(null),
+  sandbag_label: z.string().default(""),
+  method_note: z.string().default(""),
+  pairs: z.array(PairRecord).default([]),
+  data_quality_flags: z.array(DataQualityFlag).default([]),
+  computed_at: z.string().datetime(),
+});
+export type ConfidenceResult = z.infer<typeof ConfidenceResult>;
+
+PASS 3 • Core Claim-Level Scoring Math
+6.1 Goal
+Implement the claim-level scoring functions in `src/confidence/scoring.py` (or `scoring.ts`). This is pure math on individual `ClaimRecord` instances. No aggregation here.
+6.2 Function Inventory
+6.3 Reference Implementation — Python (`scoring.py`)
+This is the most error-prone module. Implement it exactly as specified:
+# src/confidence/scoring.py
+from __future__ import annotations
+ 
+from copy import deepcopy
+ 
+from confidence.models import (
+    ClaimDirection,
+    ClaimRecord,
+    ConfidenceConfig,
+    DIRECTION_BY_CATEGORY,
+    DeliveryVerdict,
+)
+ 
+EPS = 1e-9
+ 
+ 
+def _direction(claim: ClaimRecord) -> ClaimDirection:
+    return DIRECTION_BY_CATEGORY.get(claim.category, ClaimDirection.UP_IS_GOOD)
+ 
+ 
+def continuous_score(claim: ClaimRecord) -> float | None:
+    """Magnitude-aware delivery score in [0, 1].
+ 
+    PRD §6.1.2 with direction-of-favorable correction:
+        - UP_IS_GOOD:   above range = full credit; below range = shortfall.
+        - DOWN_IS_GOOD: below range = full credit; above range = overspend.
+    Open-ended guidance (high=None) is treated as one-sided around `low`.
+ 
+    Returns None if claim is pending; 0.25 if withdrawn.
+ 
+    Invariants:
+        - return value is None, 0.25, or in [0.0, 1.0]
+        - never raises for valid input
+    """
+    if claim.actual is None:
+        return None
+    if claim.verdict == DeliveryVerdict.WITHDRAWN:
+        return 0.25
+ 
+    g = claim.guidance
+    direction = _direction(claim)
+    a = claim.actual
+    midpoint = g.midpoint if g.midpoint is not None else g.low
+    denom = max(abs(midpoint), EPS)
+ 
+    # Tolerance applies only to point guidance (low == high or high is None)
+    is_point = (g.high is None) or (g.low == g.high)
+    t_abs = claim.tolerance_pct * denom if is_point else 0.0
+ 
+    if direction == ClaimDirection.UP_IS_GOOD:
+        effective_low = g.low - t_abs
+        # For UP_IS_GOOD, beats above high are still full credit
+        if a >= effective_low:
+            return 1.0
+        shortfall_pct = (effective_low - a) / denom
+        raw = 1.0 - 10.0 * shortfall_pct
+        return max(0.0, min(1.0, raw))
+ 
+    # DOWN_IS_GOOD: a below the range high is good; above is bad
+    if g.high is None:
+        # Open-ended "at most X": treat low as the ceiling
+        effective_high = g.low + t_abs
+    else:
+        effective_high = g.high + t_abs
+    if a <= effective_high:
+        return 1.0
+    overshoot_pct = (a - effective_high) / denom
+    raw = 1.0 - 10.0 * overshoot_pct
+    return max(0.0, min(1.0, raw))
+ 
+ 
+def discrete_verdict(claim: ClaimRecord) -> DeliveryVerdict:
+    """v1.0-compatible discrete verdict, direction-aware.
+ 
+    Per PRD §6.1.1 and Glossary §4, an actual that falls *within the
+    tolerance band around a point estimate* is in-line / delivered. The
+    tolerance band is applied here so the discrete and continuous scores
+    agree on point-estimate cases.
+ 
+    Buckets:
+        delivered:  actual is on the favorable side of the range,
+                    or within the tolerance band around a point estimate
+        partial:    miss is 0-5% beyond the tolerance band (unfavorable)
+        missed:     miss is > 5% beyond the tolerance band (unfavorable)
+        withdrawn:  preserved if already set
+        pending:    actual is None
+    """
+    if claim.actual is None:
+        return DeliveryVerdict.PENDING
+    if claim.verdict == DeliveryVerdict.WITHDRAWN:
+        return DeliveryVerdict.WITHDRAWN
+ 
+    g = claim.guidance
+    direction = _direction(claim)
+    a = claim.actual
+    midpoint = g.midpoint if g.midpoint is not None else g.low
+    denom = max(abs(midpoint), EPS)
+ 
+    # Tolerance applies only to point guidance (low == high or open-ended).
+    is_point = (g.high is None) or (g.low == g.high)
+    t_abs = claim.tolerance_pct * denom if is_point else 0.0
+ 
+    if direction == ClaimDirection.UP_IS_GOOD:
+        effective_low = g.low - t_abs
+        if a >= effective_low:
+            return DeliveryVerdict.DELIVERED
+        shortfall_pct = (effective_low - a) / denom
+        if shortfall_pct <= 0.05:
+            return DeliveryVerdict.PARTIAL
+        return DeliveryVerdict.MISSED
+ 
+    # DOWN_IS_GOOD
+    high_bound = g.high if g.high is not None else g.low
+    effective_high = high_bound + t_abs
+    if a <= effective_high:
+        return DeliveryVerdict.DELIVERED
+    overshoot_pct = (a - effective_high) / denom
+    if overshoot_pct <= 0.05:
+        return DeliveryVerdict.PARTIAL
+    return DeliveryVerdict.MISSED
+ 
+ 
+def discrete_score(verdict: DeliveryVerdict) -> float | None:
+    """v1.0-compatible discrete score."""
+    return {
+        DeliveryVerdict.DELIVERED: 1.00,
+        DeliveryVerdict.PARTIAL: 0.50,
+        DeliveryVerdict.MISSED: 0.00,
+        DeliveryVerdict.WITHDRAWN: 0.25,
+        DeliveryVerdict.PENDING: None,
+    }[verdict]
+ 
+ 
+def signed_beat_pct(claim: ClaimRecord) -> float | None:
+    """(actual - midpoint) / |midpoint|. Raw sign, not direction-adjusted.
+ 
+    None when pending. The sandbag module is responsible for flipping
+    the sign on DOWN_IS_GOOD metrics if it ever needs to combine them
+    (currently sandbag only inspects revenue and EPS, both UP_IS_GOOD).
+    """
+    if claim.actual is None:
+        return None
+    g = claim.guidance
+    midpoint = g.midpoint if g.midpoint is not None else g.low
+    denom = max(abs(midpoint), EPS)
+    return (claim.actual - midpoint) / denom
+ 
+ 
+def score_claim(claim: ClaimRecord, config: ConfidenceConfig) -> ClaimRecord:
+    """Pure function: return a scored copy of `claim`. Never mutates input."""
+    out = deepcopy(claim)
+    verdict = discrete_verdict(out)
+    out.verdict = verdict
+    out.delivery_score_discrete = discrete_score(verdict)
+    out.delivery_score_continuous = continuous_score(out)
+    out.signed_beat_pct = signed_beat_pct(out)
+    return out
+6.4 Reference Implementation — TypeScript (`scoring.ts`)
+// src/confidence/scoring.ts
+import {
+  ClaimRecord, ConfidenceConfig, DIRECTION_BY_CATEGORY,
+  type DeliveryVerdict,
+} from "./models";
+ 
+const EPS = 1e-9;
+ 
+function direction(c: ClaimRecord) {
+  return DIRECTION_BY_CATEGORY[c.category] ?? "up_is_good";
+}
+ 
+export function continuousScore(c: ClaimRecord): number | null {
+  if (c.actual === null) return null;
+  if (c.delivery_verdict === "withdrawn") return 0.25;
+ 
+  const g = c.guidance;
+  const a = c.actual;
+  const midpoint = g.midpoint ?? g.low;
+  const denom = Math.max(Math.abs(midpoint), EPS);
+ 
+  const isPoint = g.high === null || g.low === g.high;
+  const tAbs = isPoint ? c.tolerance_pct * denom : 0;
+ 
+  if (direction(c) === "up_is_good") {
+    const effectiveLow = g.low - tAbs;
+    if (a >= effectiveLow) return 1.0;
+    const shortfallPct = (effectiveLow - a) / denom;
+    return Math.max(0, Math.min(1, 1 - 10 * shortfallPct));
+  }
+ 
+  // down_is_good
+  const high = g.high ?? g.low;
+  const effectiveHigh = high + tAbs;
+  if (a <= effectiveHigh) return 1.0;
+  const overshootPct = (a - effectiveHigh) / denom;
+  return Math.max(0, Math.min(1, 1 - 10 * overshootPct));
+}
+ 
+export function discreteVerdict(c: ClaimRecord): DeliveryVerdict {
+  if (c.actual === null) return "pending";
+  if (c.delivery_verdict === "withdrawn") return "withdrawn";
+ 
+  const g = c.guidance;
+  const a = c.actual;
+  const midpoint = g.midpoint ?? g.low;
+  const denom = Math.max(Math.abs(midpoint), EPS);
+ 
+  // PRD §6.1.1 / Glossary §4: an actual within the tolerance band
+  // around a point estimate is in-line. Discrete and continuous
+  // verdicts must agree on this case.
+  const isPoint = g.high === null || g.low === g.high;
+  const tAbs = isPoint ? c.tolerance_pct * denom : 0;
+ 
+  if (direction(c) === "up_is_good") {
+    const effectiveLow = g.low - tAbs;
+    if (a >= effectiveLow) return "delivered";
+    const shortfallPct = (effectiveLow - a) / denom;
+    return shortfallPct <= 0.05 ? "partial" : "missed";
+  }
+  const high = g.high ?? g.low;
+  const effectiveHigh = high + tAbs;
+  if (a <= effectiveHigh) return "delivered";
+  const overshootPct = (a - effectiveHigh) / denom;
+  return overshootPct <= 0.05 ? "partial" : "missed";
+}
+ 
+export function discreteScore(v: DeliveryVerdict): number | null {
+  return ({
+    delivered: 1.0, partial: 0.5, missed: 0.0,
+    withdrawn: 0.25, pending: null,
+  } as const)[v];
+}
+ 
+export function signedBeatPct(c: ClaimRecord): number | null {
+  if (c.actual === null) return null;
+  const g = c.guidance;
+  const midpoint = g.midpoint ?? g.low;
+  const denom = Math.max(Math.abs(midpoint), EPS);
+  return (c.actual - midpoint) / denom;
+}
+ 
+export function scoreClaim(c: ClaimRecord, _cfg: ConfidenceConfig): ClaimRecord {
+  const out = structuredClone(c);
+  out.delivery_verdict = discreteVerdict(out);
+  out.delivery_score_discrete = discreteScore(out.delivery_verdict);
+  out.delivery_score_continuous = continuousScore(out);
+  out.signed_beat_pct = signedBeatPct(out);
+  return out;
+}
+6.5 Test Cases for Pass 3
+Write the test file before tweaking the implementation. Required cases:
+
+PASS 4 • Pair-Level Weighting & Scoring
+7.1 Goal
+Implement the category-weight table and the pair construction / scoring functions. Pair scoring is a weighted average of claim scores, with the minimum-claim threshold applied. **Pair-level per-verdict counts (delivered_claims, partial_claims, missed_claims, withdrawn_claims) must be populated** so the dashboard's audit table renders without extra lookups.
+7.2 weights.py
+# src/confidence/weights.py
+from __future__ import annotations
+from confidence.models import ClaimCategory
+ 
+DEFAULT_WEIGHTS: dict[ClaimCategory, float] = {
+    ClaimCategory.REVENUE: 2.00,
+    ClaimCategory.EPS: 2.00,
+    ClaimCategory.GROSS_MARGIN: 1.50,
+    ClaimCategory.OPERATING_MARGIN: 1.50,
+    ClaimCategory.FREE_CASH_FLOW: 1.25,
+    ClaimCategory.SEGMENT_REVENUE: 1.00,
+    ClaimCategory.CAPEX: 0.75,
+    ClaimCategory.OPERATING_EXPENSE: 0.75,
+    ClaimCategory.TAX_RATE: 0.50,
+    ClaimCategory.PRODUCT_LAUNCH: 1.00,
+    ClaimCategory.CUSTOMER_MILESTONE: 1.00,
+    ClaimCategory.OTHER: 0.50,
+}
+ 
+def weight_for(category: ClaimCategory) -> float:
+    return DEFAULT_WEIGHTS.get(category, 0.50)
+7.3 pair.py
+# src/confidence/pair.py
+from __future__ import annotations
+from collections import Counter
+ 
+from confidence.models import (
+    ClaimRecord, ConfidenceConfig, DeliveryVerdict,
+    PairRecord, PairStatus, QuarterRecord,
+)
+from confidence.scoring import score_claim
+from confidence.weights import weight_for
+ 
+ 
+def _pair_id(guidance_quarter: str, target_quarter: str) -> str:
+    # Format matches PRD §10.3 example: "Q1_TO_Q2"
+    g = guidance_quarter.replace(" ", "")
+    t = target_quarter.replace(" ", "")
+    return f"{g}_TO_{t}"
+ 
+ 
+def _counts(claims: list[ClaimRecord]) -> dict[DeliveryVerdict, int]:
+    c: Counter[DeliveryVerdict] = Counter()
+    for cl in claims:
+        c[cl.verdict] += 1
+    return c
+ 
+ 
+def build_pair(
+    guidance_q: QuarterRecord,
+    target_q: QuarterRecord | None,
+    config: ConfidenceConfig,
+) -> PairRecord:
+    """Construct a PairRecord from a guidance quarter and its target."""
+    pair_id = _pair_id(
+        guidance_q.fiscal_label,
+        target_q.fiscal_label if target_q else "next",
+    )
+    # Defensive copy — never mutate the caller's quarter records
+    claims_in: list[ClaimRecord] = [c.model_copy() for c in guidance_q.forward_claims]
+ 
+    # Pending: no target, or target has no actuals
+    if target_q is None or not target_q.actuals_available:
+        for c in claims_in:
+            c.verdict = DeliveryVerdict.PENDING
+            c.weight = weight_for(c.category)
+        return PairRecord(
+            pair_id=pair_id,
+            guidance_quarter=guidance_q.fiscal_label,
+            target_quarter=target_q.fiscal_label if target_q else "next",
+            status=PairStatus.PENDING,
+            claims=claims_in,
+            claim_count=len(claims_in),
+            scorable_claim_count=0,
+            summary="Awaiting target quarter actuals.",
+        )
+ 
+    # Closed: score each claim against its category's actual
+    scored: list[ClaimRecord] = []
+    for c in claims_in:
+        actual = target_q.actuals_by_category.get(c.category.value)
+        c.actual = actual
+        c.weight = weight_for(c.category)
+        scored.append(score_claim(c, config))
+ 
+    scorable = [
+        s for s in scored
+        if s.delivery_score_discrete is not None
+        and s.verdict != DeliveryVerdict.WITHDRAWN
+    ]
+    averageable = [s for s in scored if s.delivery_score_discrete is not None]
+    counts = _counts(scored)
+ 
+    base_kwargs = dict(
+        pair_id=pair_id,
+        guidance_quarter=guidance_q.fiscal_label,
+        target_quarter=target_q.fiscal_label,
+        claims=scored,
+        claim_count=len(scored),
+        scorable_claim_count=len(scorable),
+        delivered_claims=counts.get(DeliveryVerdict.DELIVERED, 0),
+        partial_claims=counts.get(DeliveryVerdict.PARTIAL, 0),
+        missed_claims=counts.get(DeliveryVerdict.MISSED, 0),
+        withdrawn_claims=counts.get(DeliveryVerdict.WITHDRAWN, 0),
+    )
+ 
+    if len(scorable) < config.min_claims_per_pair:
+        return PairRecord(
+            **base_kwargs,
+            status=PairStatus.INSUFFICIENT,
+            summary=(
+                f"Only {len(scorable)} scorable claim(s); "
+                f"below threshold of {config.min_claims_per_pair}."
+            ),
+        )
+ 
+    total_weight = sum(s.weight for s in averageable) or 1.0
+    pair_score = sum(
+        s.weight * s.delivery_score_discrete for s in averageable
+    ) / total_weight
+    pair_score_cont = sum(
+        s.weight * (s.delivery_score_continuous or 0.0) for s in averageable
+    ) / total_weight
+ 
+    return PairRecord(
+        **base_kwargs,
+        status=PairStatus.CLOSED,
+        pair_score=round(pair_score, 6),
+        pair_score_continuous=round(pair_score_cont, 6),
+        summary=_summarize(scored),
+    )
+ 
+ 
+def _summarize(claims: list[ClaimRecord]) -> str:
+    return "; ".join(f"{c.category.value}: {c.verdict.value}" for c in claims)
+ 
+ 
+def build_all_pairs(
+    quarters: list[QuarterRecord], config: ConfidenceConfig,
+) -> list[PairRecord]:
+    """Build n pairs from n quarters: n-1 closed/insufficient and 1 pending."""
+    pairs: list[PairRecord] = []
+    for i in range(len(quarters) - 1):
+        pairs.append(build_pair(quarters[i], quarters[i + 1], config))
+    if quarters:
+        pairs.append(build_pair(quarters[-1], None, config))
+    return pairs
+7.4 Test Cases for Pass 4
+
+PASS 5 • Aggregation: MCS, SE, CI, Label
+8.1 Goal
+Implement `src/confidence/aggregation.py`. Inputs are scored `PairRecord` instances; outputs are the MCS, the recency-weighted MCS, the standard error, the 95% CI, the confidence label, and the label-sensitivity flag.
+8.2 Reference Implementation
+# src/confidence/aggregation.py
+from __future__ import annotations
+ 
+import math
+import statistics
+from typing import Sequence
+ 
+from confidence.models import ConfidenceConfig, PairRecord, PairStatus
+ 
+ 
+def _scorable_pair_scores(pairs: Sequence[PairRecord]) -> list[float]:
+    return [
+        p.pair_score for p in pairs
+        if p.status == PairStatus.CLOSED and p.pair_score is not None
+    ]
+ 
+ 
+def mcs(pairs: Sequence[PairRecord]) -> float | None:
+    scores = _scorable_pair_scores(pairs)
+    return sum(scores) / len(scores) if scores else None
+ 
+ 
+def mcs_recency_weighted(
+    pairs: Sequence[PairRecord], config: ConfidenceConfig,
+) -> float | None:
+    """Linear-decay weighted mean.
+ 
+    PRD §6.4.1 specifies weights [0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8] for n=7.
+    We generalize: linear from 0.6 (oldest) to 1.8 (newest) for any n >= 2.
+    """
+    scores = _scorable_pair_scores(pairs)
+    if not scores:
+        return None
+    n = len(scores)
+    if n == 1:
+        return scores[0]
+    weights = [0.6 + (1.8 - 0.6) * i / (n - 1) for i in range(n)]
+    total_w = sum(weights)
+    return sum(w * s for w, s in zip(weights, scores)) / total_w
+ 
+ 
+def standard_error(pairs: Sequence[PairRecord]) -> float | None:
+    scores = _scorable_pair_scores(pairs)
+    if len(scores) < 2:
+        return None
+    sd = statistics.stdev(scores)
+    return sd / math.sqrt(len(scores))
+ 
+ 
+def ci95(pairs: Sequence[PairRecord]) -> tuple[float, float] | None:
+    m = mcs(pairs)
+    se = standard_error(pairs)
+    if m is None or se is None:
+        return None
+    return (max(0.0, m - 1.96 * se), min(1.0, m + 1.96 * se))
+ 
+ 
+def label_from_mcs(value: float | None, config: ConfidenceConfig) -> str:
+    """Round to 1 decimal place, then bucket. Rounded-first prevents flicker."""
+    if value is None:
+        return "N/A"
+    pct = round(value * 100, 1)
+    if pct >= config.high_threshold * 100:
+        return "High"
+    if pct >= config.medium_threshold * 100:
+        return "Medium"
+    return "Low"
+ 
+ 
+def label_sensitive(
+    pairs: Sequence[PairRecord], config: ConfidenceConfig,
+) -> bool:
+    """True when the 95% CI spans two different labels."""
+    interval = ci95(pairs)
+    if interval is None:
+        return False
+    return label_from_mcs(interval[0], config) != label_from_mcs(interval[1], config)
+8.3 Test Cases for Pass 5
+
+PASS 6 • Trend and Sandbagging Diagnostics
+9.1 Goal
+Implement `trend.py` and `sandbag.py`. Both are diagnostics layered on top of the same pair scores already produced.
+9.2 trend.py
+# src/confidence/trend.py
+from __future__ import annotations
+from typing import Sequence
+ 
+from confidence.aggregation import _scorable_pair_scores, mcs
+from confidence.models import ConfidenceConfig, PairRecord
+ 
+ 
+def recent_trend(
+    pairs: Sequence[PairRecord], config: ConfidenceConfig,
+) -> str:
+    """Improving | Stable | Deteriorating | Insufficient Data.
+ 
+    Guard: requires >= recency_window scorable closed pairs.
+    """
+    scores = _scorable_pair_scores(pairs)
+    if len(scores) < config.recency_window:
+        return "Insufficient Data"
+ 
+    recent = scores[-config.recency_window:]
+    recent_avg = sum(recent) / len(recent)
+    overall = mcs(pairs)
+    if overall is None:
+        return "Insufficient Data"
+ 
+    delta = recent_avg - overall
+    if delta >= config.trend_delta:
+        return "Improving"
+    if delta <= -config.trend_delta:
+        return "Deteriorating"
+    return "Stable"
+9.3 sandbag.py
+# src/confidence/sandbag.py
+from __future__ import annotations
+from typing import Sequence
+ 
+from confidence.models import (
+    ClaimCategory, ConfidenceConfig, PairRecord, PairStatus,
+)
+ 
+# PRD §8.4: sandbag diagnostic is computed for revenue and EPS only.
+SANDBAG_CATEGORIES = {ClaimCategory.REVENUE, ClaimCategory.EPS}
+ 
+ 
+def sandbag_index(pairs: Sequence[PairRecord]) -> float | None:
+    """Mean signed_beat_pct across revenue and EPS claims in closed pairs."""
+    beats: list[float] = []
+    for p in pairs:
+        if p.status != PairStatus.CLOSED:
+            continue
+        for c in p.claims:
+            if c.category in SANDBAG_CATEGORIES and c.signed_beat_pct is not None:
+                beats.append(c.signed_beat_pct)
+    return sum(beats) / len(beats) if beats else None
+ 
+ 
+def sandbag_label(value: float | None, config: ConfidenceConfig) -> str:
+    if value is None:
+        return ""
+    if value >= config.sandbag_high_threshold:
+        return "Likely sandbagging — chronic large beats"
+    if value >= config.sandbag_mild_threshold:
+        return "Mild conservatism"
+    if value <= -config.sandbag_mild_threshold:
+        return "Optimistic guidance — chronic shortfalls"
+    return "Calibrated guidance"
+
+PASS 7 • Pipeline Orchestration & Data Quality
+10.1 Goal
+Implement `src/confidence/pipeline.py` exposing the single public function `compute_confidence()`. This is the function the rest of the codebase imports.
+10.2 Reference Implementation
+# src/confidence/pipeline.py
+from __future__ import annotations
+ 
+from datetime import datetime, timezone
+from typing import Sequence
+ 
+from confidence.aggregation import (
+    ci95, label_from_mcs, label_sensitive, mcs,
+    mcs_recency_weighted, standard_error,
+)
+from confidence.models import (
+    SCHEMA_VERSION,
+    ConfidenceConfig, ConfidenceResult, DataQualityFlag,
+    PairStatus, QuarterRecord,
+)
+from confidence.pair import build_all_pairs
+from confidence.sandbag import sandbag_index, sandbag_label
+from confidence.trend import recent_trend
+ 
+ 
+def compute_confidence(
+    quarters: Sequence[QuarterRecord],
+    config: ConfidenceConfig | None = None,
+    ticker: str | None = None,
+) -> ConfidenceResult:
+    """Top-level entry point for the v2.0 confidence pipeline.
+ 
+    Args:
+        quarters: chronological ascending list of QuarterRecord
+        config: tunable thresholds; defaults if None
+        ticker: optional override; otherwise read from quarters[0]
+ 
+    Returns:
+        ConfidenceResult — always; never raises for shape issues.
+        Data-quality problems surface as data_quality_flags on the result.
+    """
+    cfg = config or ConfidenceConfig()
+    flags: list[DataQualityFlag] = []
+    tkr = ticker or (quarters[0].ticker if quarters else "UNKNOWN")
+    today = datetime.now(timezone.utc).date().isoformat()
+ 
+    # --- Shape & coverage flags --------------------------------------
+    n = len(quarters)
+    if n < 4:
+        flags.append(DataQualityFlag.INSUFFICIENT_WINDOW)
+    if quarters and not quarters[-1].transcript_available:
+        flags.append(DataQualityFlag.MISSING_TRANSCRIPT)
+    for q in quarters[:-1]:
+        if not q.actuals_available:
+            flags.append(DataQualityFlag.MISSING_ACTUALS)
+            break
+    if quarters and all(len(q.forward_claims) == 0 for q in quarters):
+        flags.append(DataQualityFlag.NO_GUIDANCE_ISSUED)
+ 
+    # PRD §9 — pre-announcement actuals were used somewhere in the window.
+    if any(q.actuals_source_kind == "pre_announcement" for q in quarters):
+        flags.append(DataQualityFlag.PRE_ANNOUNCEMENT_USED)
+ 
+    # PRD §9 — fiscal calendar change occurred inside the window.
+    if any(q.fiscal_calendar_changed for q in quarters):
+        flags.append(DataQualityFlag.FISCAL_CALENDAR_CHANGE)
+ 
+    # PRD §8.3 — revised guidance was detected on any claim. The
+    # adapter populates ClaimRecord.revisions with the prior versions
+    # and keeps the most recent revision as the scored claim.
+    if any(
+        bool(c.revisions)
+        for q in quarters
+        for c in q.forward_claims
+    ):
+        flags.append(DataQualityFlag.REVISED_GUIDANCE_DETECTED)
+ 
+    # --- Build pairs --------------------------------------------------
+    pairs = build_all_pairs(list(quarters), cfg)
+    closed = [p for p in pairs if p.status == PairStatus.CLOSED]
+    pending = [p for p in pairs if p.status == PairStatus.PENDING]
+    insufficient = [p for p in pairs if p.status == PairStatus.INSUFFICIENT]
+ 
+    # --- Aggregate ----------------------------------------------------
+    m = mcs(pairs)
+    if DataQualityFlag.NO_GUIDANCE_ISSUED in flags:
+        label = "N/A"
+    elif len(closed) >= cfg.min_closed_pairs_for_label:
+        label = label_from_mcs(m, cfg)
+    else:
+        label = "N/A"
+ 
+    se = standard_error(pairs)
+    ci = ci95(pairs)
+    sensitive = label_sensitive(pairs, cfg) if label != "N/A" else False
+    m_rw = (
+        mcs_recency_weighted(pairs, cfg)
+        if cfg.use_recency_weighting else None
+    )
+    trend = recent_trend(pairs, cfg)
+    sbi = sandbag_index(pairs)
+    sbl = sandbag_label(sbi, cfg)
+ 
+    return ConfidenceResult(
+        schema_version=SCHEMA_VERSION,
+        ticker=tkr,
+        as_of_date=today,
+        quarters_analyzed=n,
+        closed_pairs_used=len(closed),
+        pending_pairs_excluded=len(pending),
+        insufficient_pairs_excluded=len(insufficient),
+        mcs=round(m, 6) if m is not None else None,
+        mcs_pct=round(m * 100, 1) if m is not None else None,
+        mcs_recency_weighted=round(m_rw, 6) if m_rw is not None else None,
+        mcs_recency_weighted_pct=round(m_rw * 100, 1) if m_rw is not None else None,
+        standard_error=round(se, 6) if se is not None else None,
+        ci95_low_pct=round(ci[0] * 100, 1) if ci else None,
+        ci95_high_pct=round(ci[1] * 100, 1) if ci else None,
+        confidence_level=label,
+        label_sensitive=sensitive,
+        recent_trend=trend,
+        sandbag_index=round(sbi, 6) if sbi is not None else None,
+        sandbag_label=sbl,
+        method_note=(
+            f"MCS computed from {len(closed)} closed guidance-to-actual "
+            f"pairs across the last {n} quarters. Latest forward guidance "
+            f"is pending and excluded."
+        ),
+        pairs=pairs,
+        data_quality_flags=flags,
+    )
+10.3 Edge Cases Handled Here
+This pipeline is where every PRD §9 edge case is enforced. Verify each one:
+n < 4 → label='N/A', flag=INSUFFICIENT_WINDOW.
+Latest transcript missing → flag emitted; closed pairs still scored.
+Target actuals missing → pair is PENDING, excluded from score.
+Zero or one measurable claim in a pair → pair is INSUFFICIENT, excluded.
+No guidance issued at all → flag NO_GUIDANCE_ISSUED; label='N/A'.
+Withdrawn claims score 0.25; counted in withdrawn_claims.
+Single closed pair → MCS computed; SE=None; trend='Insufficient Data'; label='N/A' (below floor of 3).
+Open-ended guidance ("at least $10B") handled inside continuous_score and discrete_verdict — pipeline does nothing special.
+Capex/opex/tax-rate direction handled inside scoring — pipeline is direction-agnostic.
+Pre-announcement used (PRD §9) → adapter sets QuarterRecord.actuals_source_kind = "pre_announcement" so the pipeline emits PRE_ANNOUNCEMENT_USED.
+Revised guidance mid-quarter (PRD §8.3) → adapter places prior versions in ClaimRecord.revisions and the latest revision in the scored claim; the pipeline emits REVISED_GUIDANCE_DETECTED whenever any claim has a non-empty revisions list.
+Fiscal calendar change (PRD §9) → adapter sets QuarterRecord.fiscal_calendar_changed = True on the first quarter under the new calendar; pipeline emits FISCAL_CALENDAR_CHANGE. Scoring continues on the new calendar — periods are never blended.
+Multi-year guidance (PRD §9) → excluded at the adapter; never appears as a ClaimRecord in this pipeline.
+
+PASS 8 • Test Suite, Integration & Documentation
+11.1 Goal
+Three deliverables: the full test suite mapping 1:1 to the PRD's 15 QA tests; the integration shim wiring `compute_confidence()` into the existing pipeline **without breaking the dashboard JSON contract**; and `docs/v2-methodology.md`, an analyst-readable explanation Megha can hand to her team.
+11.2 Test Suite — Required Tests
+Each row maps to a QA case in PRD §15. Implement them all.
+11.3 Property Tests (hypothesis / fast-check)
+# tests/confidence/test_property.py
+from hypothesis import given, strategies as st
+# ... build a fixed 7-pair input strategy ...
+ 
+@given(scores=st.lists(st.floats(0.0, 1.0), min_size=7, max_size=7))
+def test_mcs_bounded(scores):
+    result = pipeline_with_scores(scores)
+    assert 0.0 <= result.mcs <= 1.0
+ 
+@given(scores=st.lists(st.floats(0.0, 1.0), min_size=7, max_size=7))
+def test_label_consistency(scores):
+    result = pipeline_with_scores(scores)
+    if result.mcs_pct >= 80.0:
+        assert result.confidence_level == "High"
+    elif result.mcs_pct >= 60.0:
+        assert result.confidence_level == "Medium"
+    else:
+        assert result.confidence_level == "Low"
+ 
+@given(...)
+def test_monotonicity(scores, bump_idx, bump_amt):
+    base = pipeline_with_scores(scores)
+    bumped = list(scores)
+    bumped[bump_idx] = min(1.0, bumped[bump_idx] + bump_amt)
+    bumped_result = pipeline_with_scores(bumped)
+    assert bumped_result.mcs >= base.mcs - 1e-9
+11.4 Integration Adapter — The Dashboard Contract Boundary
+The adapter is the **only** file allowed to know about the legacy data shape. It converts legacy → QuarterRecord on the way in, and is responsible for any field-name aliasing the dashboard needs on the way out.
+# src/confidence/adapter.py
+"""Adapter from existing data structures to v2.0 inputs and outputs.
+ 
+This is the only file that knows about the legacy shape. The rest of
+the confidence package operates on QuarterRecord exclusively.
+ 
+On the OUTPUT side, this module also handles any field-name aliasing
+the dashboard requires during the deprecation window. If the v1.0
+dashboard reads, e.g., `verdict` on a claim and PRD §10.2 says
+`delivery_verdict`, this adapter emits BOTH names until the dashboard
+is updated.
+"""
+from __future__ import annotations
+from typing import Any
+ 
+from confidence.models import (
+    ClaimCategory, ClaimRecord, ConfidenceResult,
+    GuidanceRange, QuarterRecord,
+)
+ 
+ 
+def quarters_from_legacy(legacy: list[dict[str, Any]]) -> list[QuarterRecord]:
+    """Convert legacy quarter records into QuarterRecord.
+ 
+    Pass 1 discovery documents the legacy shape. Update this function
+    accordingly. Keep the conversion lossless where possible; where
+    lossy, emit a debug log.
+    """
+    out: list[QuarterRecord] = []
+    for q in legacy:
+        # ... mapping driven by docs/v2-discovery.md ...
+        out.append(QuarterRecord(...))
+    return out
+ 
+ 
+# Legacy field names the v1.0 dashboard may still read.
+# Populate this dict from docs/v2-discovery.md Section 7 (Dashboard Contract).
+LEGACY_OUTPUT_ALIASES: dict[str, str] = {
+    # "verdict": "delivery_verdict",         # example
+    # "score": "delivery_score_discrete",    # example
+}
+ 
+ 
+def result_to_dashboard_json(result: ConfidenceResult) -> dict[str, Any]:
+    """Serialize a ConfidenceResult to the JSON the dashboard expects.
+ 
+    Emits PRD §10.4 field names. Flattens each claim's nested
+    GuidanceRange into the four flat fields PRD §10.2 specifies
+    (guidance_low, guidance_high, guidance_midpoint, guidance_unit)
+    so the dashboard reads exactly what the PRD documents.
+ 
+    If LEGACY_OUTPUT_ALIASES is non-empty, duplicates each value under
+    the legacy key so old dashboard code continues to work for one
+    release cycle.
+    """
+    data = result.model_dump(mode="json", by_alias=True)
+ 
+    # PRD §10.2: flatten nested guidance object to the four flat fields.
+    for pair in data.get("pairs", []):
+        for claim in pair.get("claims", []):
+            g = claim.pop("guidance", None)
+            if g is not None:
+                claim["guidance_low"] = g.get("low")
+                claim["guidance_high"] = g.get("high")
+                claim["guidance_midpoint"] = g.get("midpoint")
+                claim["guidance_unit"] = g.get("unit", "")
+ 
+            # Carry both old and new field names for one release cycle.
+            for legacy_key, new_key in LEGACY_OUTPUT_ALIASES.items():
+                if new_key in claim and legacy_key not in claim:
+                    claim[legacy_key] = claim[new_key]
+    return data
+11.5 Cutover Procedure
+Keep the legacy confidence module importable for one release cycle. Add a DeprecationWarning on import.
+In the script that the dashboard pipeline calls, replace the old call with result_to_dashboard_json(compute_confidence(quarters_from_legacy(...))).
+Run the dashboard end-to-end on a known ticker; compare the new confidence card against the v1.0 card.
+Diff expectations: differences in headline numbers are expected (weighting, magnitude, CI). The numerical values that should match exactly are claim_count, scorable_claim_count, and the pair count (n−1 closed + 1 pending).
+Visually confirm in the browser that every existing dashboard field still renders — no undefined cells, no console errors, no removed columns in the audit table.
+11.6 Analyst-Readable Docs
+`docs/v2-methodology.md` is one page Megha can hand to her team. Required content:
+The n → n−1 invariant in two sentences.
+The label thresholds (80, 60) with one-line interpretations.
+Why the 95% CI matters and how to read label_sensitive.
+The sandbag diagnostic and how to combine it with the headline label.
+A worked example mirroring PRD Appendix A.
+A table of every data_quality_flag and what it means for the score.
+Direction-of-favorable note: why a 'low capex actual' is good and how the score reflects that.
+
+12. Final Acceptance & Anti-Patterns
+12.1 Final Acceptance Commands (Python path)
+# Type and lint gates
+ruff format --check .
+ruff check .
+mypy --strict src/confidence
+ 
+# Test gate
+pytest tests/confidence -v --cov=src/confidence \
+    --cov-report=term-missing --cov-fail-under=90
+ 
+# Bug-hunt gate (must produce zero matches)
+! grep -rn "10 quarters\|ten_quarters\|TEN_QUARTERS\|verified_quarters" \
+    --include="*.py" src/
+ 
+# Forbidden-copy gate (PRD §13 — applies to any UI strings the
+# confidence module exposes: method_note, label values, etc.)
+! grep -rnE "8 verified quarters|Based on 10 quarters|100% confidence|Latest guidance (delivered|missed)" \
+    --include="*.py" src/
+ 
+# Contract gate (NEW in v2.1)
+python -c "from confidence import compute_confidence, ConfidenceResult; \
+  import json; \
+  fields = set(ConfidenceResult.model_fields.keys()); \
+  expected = {'schema_version','ticker','as_of_date','quarters_analyzed',\
+              'closed_pairs_used','pending_pairs_excluded',\
+              'insufficient_pairs_excluded','mcs','mcs_pct',\
+              'mcs_recency_weighted','mcs_recency_weighted_pct',\
+              'standard_error','ci95_low_pct','ci95_high_pct',\
+              'confidence_level','label_sensitive','recent_trend',\
+              'sandbag_index','sandbag_label','method_note',\
+              'pairs','data_quality_flags','computed_at'}; \
+  missing = expected - fields; \
+  assert not missing, f'Missing PRD fields: {missing}'"
+ 
+# Integration smoke test (if a dashboard script exists)
+test -f scripts/run_dashboard_pipeline.py && \
+  python scripts/run_dashboard_pipeline.py --ticker MU --dry-run
+ 
+# Schema check
+python -c "from confidence.models import SCHEMA_VERSION; \
+  assert SCHEMA_VERSION == '2.0'"
+12.2 Final Acceptance Commands (JavaScript path)
+# Type and lint gates
+npx tsc --noEmit
+npx eslint src/confidence tests/confidence
+ 
+# Test gate
+npx vitest run --coverage --coverage.thresholds.lines=90 \
+  tests/confidence
+ 
+# Bug-hunt gate (must produce zero matches)
+! grep -rn "10 quarters\|ten_quarters\|TEN_QUARTERS\|verified_quarters" \
+    --include="*.ts" --include="*.js" src/
+ 
+# Forbidden-copy gate (PRD §13 — applies to any UI strings the
+# confidence module exposes: method_note, label values, etc.)
+! grep -rnE "8 verified quarters|Based on 10 quarters|100% confidence|Latest guidance (delivered|missed)" \
+    --include="*.ts" --include="*.js" src/
+ 
+# Schema check
+node -e "const m = require('./src/confidence/models'); \
+  if (m.SCHEMA_VERSION !== '2.0') { process.exit(1); }"
+12.3 Anti-Patterns (Will Reject a Pass)
+12.4 Deliverables Checklist
+At the end of Pass 8, the following artifacts must exist on the `v2-confidence` branch:
+src/confidence/__init__.py (exporting compute_confidence and key models)
+src/confidence/models.py (or models.ts)
+src/confidence/weights.py
+src/confidence/scoring.py
+src/confidence/pair.py
+src/confidence/aggregation.py
+src/confidence/trend.py
+src/confidence/sandbag.py
+src/confidence/pipeline.py
+src/confidence/adapter.py
+tests/confidence/ with test_models, test_scoring, test_pair, test_aggregation, test_trend, test_sandbag, test_pipeline, test_property, **test_dashboard_contract**
+tests/confidence/fixtures/ with at least 5 JSON fixtures covering complete, pending, insufficient, withdrawn, capex-direction, and sandbag scenarios
+docs/v2-discovery.md (from Pass 1)
+docs/v2-methodology.md (analyst-readable)
+CHANGELOG.md entry under [2.0] Unreleased
+pyproject.toml (or package.json) updates for any new dev dependencies
+
+Appendix A — Package Skeleton
+Exact `__init__` export list. Stable public surface for the rest of the codebase.
+# src/confidence/__init__.py
+from confidence.models import (
+    ClaimCategory, ClaimDirection, ClaimRecord,
+    ConfidenceConfig, ConfidenceResult, DataQualityFlag,
+    DeliveryVerdict, DIRECTION_BY_CATEGORY,
+    GuidanceRange, PairRecord, PairStatus,
+    QuarterRecord, SCHEMA_VERSION,
+)
+from confidence.pipeline import compute_confidence
+from confidence.adapter import quarters_from_legacy, result_to_dashboard_json
+ 
+__all__ = [
+    "ClaimCategory", "ClaimDirection", "ClaimRecord",
+    "ConfidenceConfig", "ConfidenceResult", "DataQualityFlag",
+    "DeliveryVerdict", "DIRECTION_BY_CATEGORY",
+    "GuidanceRange", "PairRecord", "PairStatus",
+    "QuarterRecord", "SCHEMA_VERSION",
+    "compute_confidence",
+    "quarters_from_legacy", "result_to_dashboard_json",
+]
+Appendix B — Test Fixture Example
+`tests/confidence/fixtures/eight_quarter_complete.json` — the canonical happy-path fixture used by T1. All 8 quarters present, 7 closed pairs, 1 pending.
+{
+  "ticker": "MU",
+  "quarters": [
+    {
+      "ticker": "MU",
+      "fiscal_label": "FY2024 Q1",
+      "transcript_available": true,
+      "actuals_available": true,
+      "forward_claims": [
+        {
+          "claim_id": "MU_FY2024Q1_REV",
+          "ticker": "MU",
+          "guidance_quarter": "FY2024 Q1",
+          "target_quarter": "FY2024 Q2",
+          "category": "revenue",
+          "weight": 2.0,
+          "guidance": {"low": 10000, "high": 11000, "unit": "USD millions"},
+          "evidence_quote": "Q2 revenue $10B to $11B",
+          "evidence_source": "MU FY24 Q1 earnings call",
+          "evidence_speaker": "CFO"
+        }
+      ],
+      "actuals_by_category": {}
+    },
+    {
+      "ticker": "MU",
+      "fiscal_label": "FY2024 Q2",
+      "transcript_available": true,
+      "actuals_available": true,
+      "forward_claims": [/* ... */],
+      "actuals_by_category": {"revenue": 11200}
+    }
+    /* ... 6 more quarters ... */
+  ]
+}
+Appendix C — pyproject.toml Additions (Python path)
+# pyproject.toml — ADD or VERIFY these blocks; do not remove existing config
+ 
+[project.optional-dependencies]
+confidence = [
+    "pydantic>=2.5",
+    "numpy>=1.26",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "hypothesis>=6.100",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+ 
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+ 
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF", "SIM", "TCH"]
+ignore = ["E501"]
+ 
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unreachable = true
+files = ["src/confidence", "tests/confidence"]
+ 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --strict-config"
+Appendix D — package.json Additions (JS path)
+{
+  "scripts": {
+    "test:confidence": "vitest run tests/confidence",
+    "test:confidence:cov": "vitest run --coverage tests/confidence",
+    "lint:confidence": "eslint src/confidence tests/confidence",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "zod": "^3.23.0",
+    "vitest": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "fast-check": "^3.19.0",
+    "typescript": "^5.4.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0"
+  }
+}
+Appendix E — Common Pitfalls Cheat Sheet
+Appendix F — Pass Commit Templates
+Use these commit messages exactly. They make the audit log self-documenting.
+pass-1: discovery — confidence module inventory
+ 
+- Inventoried N source files touching confidence logic
+- Confirmed primary language: <Python | JavaScript>
+- Identified bug location: <file>:<line>
+- Mapped existing data model: <classes>
+- Captured dashboard JSON contract (<K> fields)
+- Surfaced M open questions (see docs/v2-discovery.md)
+ 
+pass-2: schemas
+ 
+- Added confidence/models.<py|ts> with N models
+- Strict type check clean
+- Round-trip tests for all models
+- PRD §10 field names verified
+ 
+pass-3: claim-level scoring math (direction-aware)
+ 
+- Implemented continuous_score, discrete_verdict, discrete_score,
+  signed_beat_pct, score_claim
+- Direction-of-favorable per category honored (capex/opex/tax)
+- Open-ended guidance handled
+- test_scoring: 16 cases, all green
+- Coverage on scoring module: 100%
+ 
+pass-4: pair-level weighting
+ 
+- Implemented weights and pair modules
+- Per-verdict count fields (delivered/partial/missed/withdrawn) populated
+- test_pair: 9 cases, all green
+- Worked example reproduces PRD §6.3 numbers
+ 
+pass-5: aggregation, SE, CI, label
+ 
+- Implemented aggregation module
+- Worked example reproduces PRD Appendix A to 4 decimal places
+- Boundary tests for 79.94 / 79.95 pass
+ 
+pass-6: trend and sandbag diagnostics
+ 
+- Implemented trend and sandbag modules
+- Division-by-zero guards verified
+- Sandbag thresholds match PRD §8.4
+ 
+pass-7: pipeline orchestration
+ 
+- Implemented pipeline with compute_confidence()
+- All §9 edge cases handled
+- Data quality flags emitted, never raised
+ 
+pass-8: full suite + integration + docs
+ 
+- 17/17 PRD QA + contract tests green
+- Property tests green
+- Coverage 9X% on confidence module
+- docs/v2-methodology.md committed
+- Adapter wired in; legacy module deprecated
+- Dashboard renders end-to-end on MU smoke test
+Appendix G — Single-Prompt Bootstrap for Claude Cowork
+Paste this prompt verbatim into Claude Cowork along with the companion PRD and this playbook to start the session.
+You are implementing the v2.0 confidence-scoring refinement specified
+in the attached PRD, following the 8-pass refinement loop in the
+attached v2.1.1 Implementation Playbook.
+ 
+Operating contract:
+ 
+1. Read the playbook Sections 0 through 3 in full before any file action.
+ 
+2. Execute Pass 1 only. Do not proceed past the Pass 1 gate without
+   explicit human confirmation. Pass 1 is pure discovery — no source
+   files are modified.
+ 
+3. The single most important Pass 1 output is the language decision.
+   State in one sentence: "Confidence logic lives in <Python |
+   JavaScript>." Show me your evidence (file counts, dashboard entry
+   point language) before proceeding.
+ 
+4. Capture every JSON field the dashboard currently reads from the
+   confidence output. List file:line for each. This drives field-alias
+   decisions in Pass 8.
+ 
+5. Surface every ambiguity rather than guess. The PRD is the semantic
+   authority; this playbook is the implementation guide.
+ 
+6. Commit at the end of every pass with the template from Appendix F.
+ 
+7. Never modify a file outside src/confidence/ (or the JS equivalent),
+   tests/confidence/, docs/, or the single adapter shim authorized in
+   Pass 8 — and even then, only after surfacing for confirmation.
+ 
+8. Do not rename or remove any JSON field the dashboard currently
+   reads. Add fields; alias via the adapter.
+ 
+Start by running the discovery commands in Section 4.2 and producing
+docs/v2-discovery.md. Stop at the Pass 1 gate.
+
+Closing Note
+This playbook is sized to be read in one sitting and executed across two or three focused Claude Cowork sessions. The 8 passes are not artificial milestones — each one ends at a natural commit boundary where the code is in a runnable, tested state. If you find yourself wanting to merge two passes, that is almost always a signal that you are skipping a gate.
+Build the math first, then the orchestration, then the integration. Test every layer against the worked example from PRD Appendix A — if those numbers don't reproduce to four decimal places, no other test result matters yet.
+Two things make v2.1 of this playbook different from v1.0. First: the language path is decided by the codebase, not by the playbook. Second: the dashboard JSON contract is a hard boundary — we add fields, we never rename them, and the adapter carries the legacy names for one release cycle. Get those two right and the math is the easy part.
+The PRD tells you what the right answer looks like. This playbook tells you how to get there without breaking what is already running. Together, they are the contract.
+
+[Table 0]
+Field | Value
+Companion PRD | Eight-Quarter Confidence Scoring PRD v2.0
+Target Codebase | Local stock research dashboard (HTML/JS frontend; Python or JS backend — discovered in Pass 1)
+Primary Language | To be determined in Pass 1. Python path and JavaScript path are both specified.
+Execution Model | 8-pass refinement loop (Pass 1 → Pass 8)
+Estimated Effort | 8–14 hours of focused Cowork session time
+Branch Strategy | feature/v2-confidence-pass-{N} per pass; merge to v2-confidence after each gate
+Acceptance Owner | Rahul (technical) + Megha (semantic)
+Document Version | v2.1.1 (revised for Claude Cowork; PRD coverage audit applied)
+Date | 2026-05-14
+
+[Table 1]
+Pass | Primary Goal | Gate
+1 | Repository discovery, language detection, and inventory | docs/v2-discovery.md is committed; the primary implementation language is confirmed; every artifact listed in Section 4.5 is present.
+2 | Schemas & type definitions in the chosen language | Schema file imports cleanly; type checker (mypy --strict / tsc --strict) is green.
+3 | Core claim-level scoring math (with directional favorability) | test_scoring is green; all functions in scoring module have 100% line coverage.
+4 | Pair-level weighting & scoring | test_pair is green; weighting matches the table in PRD §6.2; pair-level count fields populated per PRD §10.3.
+5 | Aggregation (MCS, SE, CI, label) | test_aggregation is green; numerical agreement with PRD Appendix A worked example to 4 decimal places.
+6 | Trend & sandbagging diagnostics | test_trend and test_sandbag green; division-by-zero guards verified.
+7 | Pipeline orchestration & data-quality flags | compute_confidence top-level handles every edge case in PRD §9 without raising.
+8 | Full test suite, integration, & docs (dashboard verified end-to-end) | All 15 PRD QA tests + property tests pass; coverage ≥ 90%; dashboard renders the new card with no breaking JSON-contract changes.
+
+[Table 2]
+★ KEY POINT
+Each pass ends with a git commit whose message starts with pass-N: and lists the artifacts produced. If a pass is interrupted, the next session can pick up from the last committed state.
+
+[Table 3]
+In Scope | Out of Scope
+New confidence/ source package (Python or JS — language confirmed in Pass 1) | Modifying valuation, options, or technical-analysis modules
+New confidence/ test suite | Adding new dependencies beyond those listed in §2.2
+Replacing all hardcoded 10 / 8 / 7 quarter constants | Refactoring the broader HTML/JS dashboard layer beyond reading the new fields
+Schemas (Pydantic v2 / TypeScript) for claim, pair, confidence | Building a sector-calibration system (deferred to v3)
+compute_confidence() top-level entry point (PRD §11.1 contract) | Cross-company benchmarking (deferred to v3)
+Backward-compat shim and field aliases for one release cycle | Database/storage layer changes
+docs/v2-methodology.md analyst-readable doc | Authentication, deployment, or DevOps changes
+Dashboard JSON contract: new fields only, no renames, no removals | Changing PRD-approved UI copy (see PRD §13)
+
+[Table 4]
+Library | Min Version | Purpose
+pydantic | 2.5 | Schemas, validation, serialization
+numpy | 1.26 | Standard deviation, square root (only — and only if already present in the repo)
+pytest | 8.0 | Test runner
+pytest-cov | 5.0 | Coverage reporting
+hypothesis | 6.100 | Property-based testing
+ruff | 0.4 | Linting + formatting
+mypy | 1.10 | Static type checking
+
+[Table 5]
+Library | Min Version | Purpose
+zod | 3.23 | Runtime schemas + TypeScript inference
+vitest | 1.6 | Test runner (or jest if already in repo)
+fast-check | 3.19 | Property-based testing
+eslint + @typescript-eslint | 8.0 | Linting
+typescript | 5.4 | Static type checking
+
+[Table 6]
+⚠ WARNING
+If Pass 1 reveals that the dashboard reads JSON field names that conflict with PRD §10 (e.g. the dashboard reads verdict and the PRD uses delivery_verdict), the adapter in Pass 8 is responsible for emitting both names during the deprecation window. Surface this and confirm before writing any schema code in Pass 2.
+
+[Table 7]
+NOTE
+**If you find no 10** — that's still a finding. Document explicitly that no hardcoded 10 was found, then verify whether the bug is instead a wrong denominator or a wrong slicing. The PRD's observation is empirical; if the symptom exists but the cause isn't a literal 10, find the actual cause.
+
+[Table 8]
+★ KEY POINT
+Pass 1 Gate: docs/v2-discovery.md is committed on a feature branch. Every required section is present. The primary implementation language is declared in one sentence. At least one concrete cause for the v1.0 bug is identified and documented with a file:line citation. The full list of dashboard-consumed JSON fields is in the report.
+
+[Table 9]
+Type | Kind | Purpose
+ClaimCategory | Enum | Revenue, EPS, gross margin, etc. (12 values, see PRD §6.2)
+ClaimDirection | Enum (NEW in v2.1) | UP_IS_GOOD (revenue, EPS, margins, FCF, milestones) | DOWN_IS_GOOD (capex, opex, tax-rate)
+DeliveryVerdict | Enum | delivered │ partial │ missed │ withdrawn │ pending
+PairStatus | Enum | closed │ pending │ insufficient
+DataQualityFlag | Enum | missing_transcript │ missing_actuals │ insufficient_window │ no_guidance_issued │ revised_guidance_detected │ pre_announcement_used │ fiscal_calendar_change
+GuidanceRange | Model | low, high, midpoint, unit; midpoint computed if absent; supports open-ended ("at least X") via high=None
+ClaimRecord | Model | One forward-looking claim with evidence, actual, verdict, score
+QuarterRecord | Model | One fiscal quarter: label, transcript_available, actuals_available, claims
+PairRecord | Model | One guidance-to-actual pair; includes the per-verdict count fields from PRD §10.3
+ConfidenceConfig | Model | All tunable thresholds with defaults from PRD
+ConfidenceResult | Model | Final output object (PRD §10.4) — field names match PRD exactly
+
+[Table 10]
+★ KEY POINT
+Pass 2 Gate: schema file imports cleanly. Strict type check passes with zero errors. A trivial round-trip test (parse → serialize → parse) succeeds for every model. JSON output for ConfidenceResult uses exactly the field names in PRD §10.4.
+
+[Table 11]
+Function | Contract
+continuous_score(claim) → float | None | Returns score in [0, 1] using the magnitude-aware formula from PRD §6.1.2, respecting direction-of-favorable per category.
+discrete_verdict(claim) → DeliveryVerdict | Maps actual vs guidance to delivered/partial/missed, respecting direction-of-favorable.
+discrete_score(verdict) → float | None | Maps verdict to {1.00, 0.50, 0.00, 0.25, None}.
+signed_beat_pct(claim) → float | None | Computes (actual - midpoint) / |midpoint|. Sign convention is always raw mathematical, not direction-adjusted; the sandbag module flips the sign for DOWN_IS_GOOD metrics.
+score_claim(claim, config) → ClaimRecord | Pure function: returns a copy of claim with all three score fields populated. Does not mutate the input.
+
+[Table 12]
+# | Scenario | Expected
+S1 | Revenue (UP) guidance [$10B, $11B], actual $11.2B | verdict=delivered, discrete=1.00, continuous=1.00
+S2 | Revenue guidance [$10B, $11B], actual $10.5B | verdict=delivered, discrete=1.00, continuous=1.00
+S3 | Revenue guidance [$10B, $11B], actual $9.7B | verdict=partial (2.86% shortfall vs $10B floor, midpoint $10.5B), discrete=0.50, continuous≈0.714 (1 − 10·0.02857)
+S4 | Revenue guidance [$10B, $11B], actual $8.5B | verdict=missed (>5% shortfall), discrete=0.00, continuous=0.00 (clipped)
+S5 | Point revenue $5.00 (low=high=5.00), actual $5.05 | tolerance 2% ⇒ effective range [$4.90, $5.10]. delivered, discrete=1.00, continuous=1.00
+S6 | Point revenue $5.00, actual $4.85 | tolerance 2% ⇒ effective floor $4.90; shortfall=(4.90−4.85)/5.00 = 1%. verdict=partial, discrete=0.50, continuous=0.90
+S7 | Withdrawn claim | verdict=withdrawn, discrete=0.25, continuous=0.25
+S8 | Pending claim (actual=None) | verdict=pending, all scores=None
+S9 | Beat by 50% (actual=$15B on $10B–$11B) | discrete=1.00, continuous=1.00 (capped), signed_beat_pct≈+0.43
+S10 | Degenerate low=high=0 | EPS guard prevents div-by-zero; score returned
+S11 *(new)* | Capex (DOWN) guidance $2B–$3B, actual $2.5B | verdict=delivered, discrete=1.00, continuous=1.00 (in-range)
+S12 *(new)* | Capex guidance $2B–$3B, actual $3.1B | DOWN_IS_GOOD; overshoot=(3.1−3)/midpoint(2.5)=4%. verdict=partial, discrete=0.50, continuous=0.60
+S13 *(new)* | Capex guidance $2B–$3B, actual $4B | overshoot=40% → verdict=missed, discrete=0.00, continuous=0.00
+S14 *(new)* | Tax rate guidance 21%–22%, actual 20.5% | DOWN_IS_GOOD; below range = good. verdict=delivered, discrete=1.00, continuous=1.00
+S15 *(new)* | Open-ended: "at least $10B" (high=None), actual $11B | verdict=delivered, discrete=1.00, continuous=1.00
+S16 *(new)* | Open-ended: "at least $10B", actual $9.5B | open-ended is point-like; tolerance 2% ⇒ effective floor $9.80; shortfall=(9.80−9.5)/10=3%. verdict=partial, discrete=0.50, continuous=0.70
+
+[Table 13]
+★ KEY POINT
+Pass 3 Gate: pytest tests/confidence/test_scoring.py -v (or vitest run scoring) shows green. Coverage on scoring.py / scoring.ts is 100%. Cases S11–S16 (direction-of-favorable and open-ended) must pass — these are the regressions v2.1 fixes from v1.0.
+
+[Table 14]
+# | Scenario | Expected
+P1 | 4-claim pair, all delivered, equal weights | status=closed, pair_score=1.00, delivered_claims=4
+P2 | 4 claims: 3 delivered, 1 missed, equal weights | pair_score=0.75, delivered_claims=3, missed_claims=1
+P3 | Same as P2 but missed claim is revenue (weight 2.0) vs other 1.0 each | Weighted pair_score=(1×3+0×2)/(3+2)=0.60, lower than 0.75
+P4 | 1 measurable claim only | status=insufficient, pair_score=None
+P5 | 0 measurable claims | status=insufficient, scorable_claim_count=0
+P6 | Target quarter has no actuals | status=pending, pair_score=None, all claims verdict=pending
+P7 | build_all_pairs with 8 quarters | Returns 8 pairs; last is pending; first 7 are closed (if actuals available)
+P8 *(new)* | Pair with 1 withdrawn + 3 delivered, equal weights | pair_score = (3×1.00 + 1×0.25) / 4 = 0.8125; withdrawn_claims=1
+P9 *(new)* | Pair ID format check | pair_id == "FY2024Q1_TO_FY2024Q2" (no double underscores)
+
+[Table 15]
+★ KEY POINT
+Pass 4 Gate: test_pair is green. Worked example: a pair with 4 equal-weight claims scoring [1.00, 1.00, 0.50, 0.00] yields pair_score = 0.625, matching PRD §6.3. The four count fields (delivered_claims, partial_claims, missed_claims, withdrawn_claims) are populated on every closed/insufficient pair.
+
+[Table 16]
+# | Scenario | Expected
+A1 | PRD App. A: [0.875, 0.850, 1.000, 0.750, 0.800, 0.950, 0.900] | mcs ≈ 0.8786; mcs_pct = 87.9; SE ≈ 0.0327; CI ≈ [0.8145, 0.9427]; label=High; sensitive=False
+A2 | Single closed pair [0.85] | mcs=0.85; SE=None; ci95=None; label=High; sensitive=False
+A3 | Empty input | mcs=None; label=N/A
+A4 | Boundary: mcs=0.7995 → 80.0% | label=High
+A5 | Boundary: mcs=0.7994 → 79.9% | label=Medium
+A6 | High variance: [1.0, 0.5, 1.0, 0.5, 1.0] | mcs=0.80; SE>0; CI spans Medium and High → label_sensitive=True
+A7 | Recency-weighting improving trend: [0.6, 0.7, 0.8, 0.9, 1.0] | mcs_recency > mcs
+
+[Table 17]
+★ KEY POINT
+Pass 5 Gate: worked-example test A1 reproduces PRD Appendix A numbers to 4 decimal places. Boundary tests A4/A5 pass with strict equality on the label string.
+
+[Table 18]
+★ KEY POINT
+Pass 6 Gate: test_trend.py and test_sandbag.py green. Specifically: trend with < 3 scorable pairs returns 'Insufficient Data' (no division-by-zero). Sandbag index over the worked example returns ≈ +1.8% → label='Mild conservatism'.
+
+[Table 19]
+★ KEY POINT
+Pass 7 Gate: compute_confidence() handles every §9 edge case without raising. Each edge case has an explicit test in test_pipeline.py. confidence_level is always one of: "High", "Medium", "Low", "N/A".
+
+[Table 20]
+PRD QA # | Test name | Assertion
+T1 | test_complete_8_quarter_dataset | closed_pairs_used == 7, pending_pairs_excluded == 1, mcs is not None
+T2 | test_pending_latest_quarter | last pair status == PENDING, pair_score is None
+T3 | test_no_10_quarter_assumption | grep across src/ for hardcoded '10' related to quarters → zero matches
+T4 | test_missing_mid_window_transcript | DataQualityFlag.MISSING_TRANSCRIPT present; mcs still computed
+T5 | test_missing_actuals | affected pair status == PENDING; excluded from score
+T6 | test_withdrawn_guidance | verdict == WITHDRAWN, delivery_score_discrete == 0.25
+T7 | test_boundary_high_label | mcs=0.7995 → label=='High'
+T8 | test_boundary_medium_label | mcs=0.7994 → label=='Medium'
+T9 | test_ci_spans_bands | label_sensitive == True when ci95 straddles a threshold
+T10 | test_sandbagging_detected | sandbag_index >= 0.05 → sandbag_label includes 'Likely sandbagging'
+T11 | test_no_guidance_issuer | all empty forward_claims → label='N/A', flag NO_GUIDANCE_ISSUED
+T12 | test_three_quarter_window | n=3 → 2 pairs, below floor → label='N/A'
+T13 | test_preannouncement | DataQualityFlag.PRE_ANNOUNCEMENT_USED present
+T14 | test_schema_version_migration | input with schema_version='1.x' → output is '2.0'
+T15 | test_property_monotonicity | hypothesis: increasing any claim score never decreases MCS
+T16 (NEW) | test_dashboard_contract_preserved | **every field name in the adapter-emitted JSON matches PRD §10.4 verbatim, AND every claim has the flat guidance_low / guidance_high / guidance_midpoint / guidance_unit fields from PRD §10.2 (no nested guidance object)**
+T17 (NEW) | test_capex_direction | capex actual under guidance → delivered, not missed
+
+[Table 21]
+★ KEY POINT
+Pass 8 Gate: pytest -q passes with all 15 + 2 PRD tests and all property tests green. ruff check clean. mypy --strict src/confidence passes. Coverage ≥ 90%. docs/v2-methodology.md committed. Dashboard renders end-to-end with no missing fields, no console errors.
+
+[Table 22]
+Anti-Pattern | Why It's Rejected
+Any hardcoded 7, 8, or 10 in the confidence module | The whole point of v2.0 is to derive these from quarters.length.
+raise from inside compute_confidence() | Shape problems must surface as flags, not exceptions. Only programmer errors raise.
+Mutable default arguments (def f(x=[])) | Standard Python footgun; ruff catches it.
+Catching BaseException or bare except | Hides KeyboardInterrupt and SystemExit; never do this.
+Adding pandas / polars / sklearn as new dependencies | Out of scope; statistics + numpy (or none) is sufficient.
+Mutating a Pydantic / zod input model in place | All scoring functions take and return new instances.
+UI label strings other than 'High' / 'Medium' / 'Low' / 'N/A' | These are exact PRD copy. Casing matters.
+Renaming a JSON field the dashboard already reads | This breaks the dashboard. Add fields; never rename. Use the adapter to alias.
+Tests that write to disk without using tmp_path / os.tmpdir() | Pollutes the repo and breaks parallel test runs.
+Using float equality (a == b) on scores | Use math.isclose(a, b, abs_tol=1e-6) in tests.
+Assuming capex/opex actual > guidance is a miss | Direction-of-favorable; under-spending capex is a delivery.
+
+[Table 23]
+Pitfall | Defense
+Forgetting to recompute mid-quarter when guidance is revised | ClaimRecord.revisions is a list; always score the most recent. Add a fixture in test_pipeline.py.
+Confusing the two MCS variants | Display both fields when use_recency_weighting=True; the equal-weighted is the canonical headline number.
+CI clipping at [0, 1] | ci95 must clip; don't let SE produce negative lower bound or > 1 upper bound.
+Boundary rounding flicker | Always round to 1 decimal before comparing to thresholds, never compare on raw float.
+Sandbag false positive on a single great quarter | sandbag_index is a mean across all claims; one outlier doesn't trip the threshold.
+Withdrawn at 0.25 in discrete but missing on continuous | Verify both fields are set, not just one. test_scoring T7 catches this.
+Hardcoded fiscal-quarter parsing breaking on calendar shifts | fiscal_label is opaque; pipeline never parses it. Calendar mapping lives elsewhere.
+Pre-announcement actuals overwriting official 10-Q numbers later | If both available, prefer 10-Q; log PRE_ANNOUNCEMENT_USED only when 10-Q is absent.
+Capex / opex direction inverted | **DIRECTION_BY_CATEGORY is the single source of truth. Tests S11–S14 catch this.**
+**Dashboard breaks after cutover (undefined cells)** | **Pass 1 must inventory every dashboard JSON field; adapter.LEGACY_OUTPUT_ALIASES carries the old names for one release.**

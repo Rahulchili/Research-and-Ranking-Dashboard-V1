@@ -1,0 +1,101 @@
+{
+  "name": "AT&T Inc.",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "AT&T Inc. (T, Communication Services) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $31.51B (+4.3% YoY), net margin 13.3%. Valuation 9.0x forward P/E (-13% vs peers). Spot $24.65 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "T_ER_Q4_2025_28_JAN_2026.docx",
+      "During the first half of the year, we achieved our target of net debt to adjusted EBITDA in the 2.5x range and commenced a share repurchase program. Overall, we returned over $12 billion to our shareholders through dividends and buybacks, which was more than a 50% increase from 2024.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "T_ER_Q4_2025_28_JAN_2026.docx",
+      "Our investments in 5G and fiber, both organically and through our acquisitions, have positioned us to accelerate and scale the execution of our strategy in 2026. This includes the pace of our fiber expansion.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "T_ER_Q4_2025_28_JAN_2026.docx",
+      "We also expect to accelerate the availability of our fiber Internet services outside of these areas following our acquisition of Lumen's fiber assets and build capabilities. Including Gigapower and the fiber assets that we're acquiring from Lumen, we expect to reach over 40 million customer locations with our fiber services by the end of this year, up from 32 million at the end",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "T_ER_Q4_2025_28_JAN_2026.docx",
+      "We expect this to drive rapid expansion of our opportunity to sell fiber and 5G together to both households and businesses at unmatched scale.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "T_ER_Q4_2025_28_JAN_2026.docx",
+      "Over the past 2 years, in an inflationary environment, our average deployment cost per fiber passing has increased by approximately 2% annually, and we expect a similar trend over the next 3 years.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "T_ER_Q4_2025_28_JAN_2026.docx",
+      "As we accelerate the expansion of our fiber availability, this is how we expect to go to market, with offers and marketing strategies that yield attractive returns by driving deeper fiber penetration and growth in high-value converged customer relationships.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +4.3% YoY in FY2026 Q1 (TTM $123.69B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Margin discipline — 13.3% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup."
+  ],
+  "bear": [
+    "Trend rolling over — spot $24.65 sits -7.4% relative to the 200-DMA ($26.62). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 14.8% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 1% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 11.3% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $23.00 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+4.3% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "13.3%",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 10.3x FY1 P/E",
+      "latest": "9.0x (-13%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$24.65 vs $26.62 (-7.4%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "31.1",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. AT&T Inc. (T) printed $31.51B in revenue in FY2026 Q1 (+4.3% YoY), net margin of 13.3%. At 9.0x forward P/E, the stock trades at a 13% discount to peers (10.3x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is impaired: spot $24.65 below the 200-DMA ($26.62, -7.4%) — long-term trend has rolled over. Sell-side consensus PT of $24 implies -2.6% upside. 30-day implied move is ±6.2%; 90-day is ±13.6%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

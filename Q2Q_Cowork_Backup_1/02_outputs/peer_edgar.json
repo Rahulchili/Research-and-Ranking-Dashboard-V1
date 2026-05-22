@@ -1,0 +1,146 @@
+{
+  "META": {
+    "cik": "0001326801",
+    "ttm_revenue_B": 214.963,
+    "ttm_op_income_B": 88.593,
+    "ttm_op_margin_pct": 41.213139005317196,
+    "ttm_net_income_B": 70.587,
+    "ttm_net_margin_pct": 32.83681377725469,
+    "ttm_eps_diluted": 27.53003120124805,
+    "diluted_shares_M": 2564.0,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "RevenueFromContractWithCustomerExcludingAssessedTax"
+  },
+  "GOOGL": {
+    "cik": "0001652044",
+    "ttm_revenue_B": 422.498,
+    "ttm_op_income_B": 138.129,
+    "ttm_op_margin_pct": 32.693409199570176,
+    "ttm_net_income_B": 160.208,
+    "ttm_net_margin_pct": 37.91923275376451,
+    "ttm_eps_diluted": 13.091027945742768,
+    "diluted_shares_M": 12238.0,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "Revenues"
+  },
+  "MSFT": {
+    "cik": "0000789019",
+    "ttm_revenue_B": 318.273,
+    "ttm_op_income_B": 148.957,
+    "ttm_op_margin_pct": 46.80164512855316,
+    "ttm_net_income_B": 125.216,
+    "ttm_net_margin_pct": 39.342325613545604,
+    "ttm_eps_diluted": 16.81880456682337,
+    "diluted_shares_M": 7445.0,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "RevenueFromContractWithCustomerExcludingAssessedTax"
+  },
+  "AMZN": {
+    "cik": "0001018724",
+    "ttm_revenue_B": 742.776,
+    "ttm_op_income_B": 85.422,
+    "ttm_op_margin_pct": 11.500371579049403,
+    "ttm_net_income_B": 90.798,
+    "ttm_net_margin_pct": 12.224142944844745,
+    "ttm_eps_diluted": 8.350009196247932,
+    "diluted_shares_M": 10874.0,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "RevenueFromContractWithCustomerExcludingAssessedTax"
+  },
+  "AAPL": {
+    "cik": "0000320193",
+    "ttm_revenue_B": 451.442,
+    "ttm_op_income_B": 147.366,
+    "ttm_op_margin_pct": 32.643396050876966,
+    "ttm_net_income_B": 122.575,
+    "ttm_net_margin_pct": 27.151882190846223,
+    "ttm_eps_diluted": 8.323784946400123,
+    "diluted_shares_M": 14725.873,
+    "rev_period_end": "2026-03-28",
+    "rev_quarters": [
+      "2025-06-28",
+      "2025-09-27",
+      "2025-12-27",
+      "2026-03-28"
+    ],
+    "rev_concept": "RevenueFromContractWithCustomerExcludingAssessedTax"
+  },
+  "NFLX": {
+    "cik": "0001065280",
+    "ttm_revenue_B": 46.889992,
+    "ttm_op_income_B": 13.936601,
+    "ttm_op_margin_pct": 29.721909528156882,
+    "ttm_net_income_B": 13.373641,
+    "ttm_net_margin_pct": 28.521312181072666,
+    "ttm_eps_diluted": 3.111279983863902,
+    "diluted_shares_M": 4298.437,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "Revenues"
+  },
+  "SNAP": {
+    "cik": "0001564408",
+    "ttm_revenue_B": 6.097021,
+    "ttm_op_income_B": -0.41277,
+    "ttm_op_margin_pct": -6.770027526557641,
+    "ttm_net_income_B": -0.409853,
+    "ttm_net_margin_pct": -6.722184489769677,
+    "ttm_eps_diluted": -0.24285426480609132,
+    "diluted_shares_M": 1687.65,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "RevenueFromContractWithCustomerExcludingAssessedTax"
+  },
+  "PINS": {
+    "cik": "0001506293",
+    "ttm_revenue_B": 4.374293,
+    "ttm_op_income_B": 0.275068,
+    "ttm_op_margin_pct": 6.288284758245504,
+    "ttm_net_income_B": 0.334346,
+    "ttm_net_margin_pct": 7.643429463915655,
+    "ttm_eps_diluted": 0.525217331201126,
+    "diluted_shares_M": 636.586,
+    "rev_period_end": "2026-03-31",
+    "rev_quarters": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ],
+    "rev_concept": "RevenueFromContractWithCustomerExcludingAssessedTax"
+  }
+}

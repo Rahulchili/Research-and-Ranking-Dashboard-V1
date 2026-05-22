@@ -1,0 +1,103 @@
+{
+  "name": "Starbucks Corporation",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Starbucks Corporation (SBUX, Consumer Discretionary) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $9.53B (+1.4% YoY). Management credibility 1.00 on 3 claims. Valuation 26.0x forward P/E (+16% vs peers). Spot $106.40 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "SBUX_ER_Q4_2025_29_OCT_2025.docx",
+      "Our international segment continued to demonstrate the resilience of our brand, delivering 3% comp sales growth in the fourth quarter, led by strength across our top markets, including Japan, which bounced back into positive comp territory in the quarter as well as China, the U.K. and Mexico.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "SBUX_ER_Q4_2025_29_OCT_2025.docx",
+      "As I've said before, we expect to grow the top line first and then earnings will follow.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "SBUX_ER_Q4_2025_29_OCT_2025.docx",
+      "As a result, for the full year in fiscal 2025, our North America company-operated store counts declined by approximately 1% on a net basis. With a healthier base of coffee houses, we see meaningful opportunity for growth.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "SBUX_ER_Q4_2025_29_OCT_2025.docx",
+      "We expect to retain a meaningful stake in Starbucks China and remain confident in the long-term growth potential in the region.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "SBUX_ER_Q4_2025_29_OCT_2025.docx",
+      "Our strategy is only as good as the people who are executing. And over the past year, we underwent significant change and fast.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "SBUX_ER_Q4_2025_29_OCT_2025.docx",
+      "Thank you, Brian. I'll start where Brian ended by also thanking our partners around the world for their focus and commitment to building back a better Starbucks.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ]
+  ],
+  "bull": [
+    "Management credibility — MCS of 1.00 on 3 tracked forward claims (1B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $106.40 sits +17.4% above the 200-DMA ($90.63). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Growth fading — +1.4% YoY revenue growth in FY2026 Q1 is well below the 5–8% threshold that supports the current multiple. A re-acceleration story needs to develop in the next 2–3 quarters or estimates will need to come down.",
+    "Momentum stretched — RSI at 71 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($98.38) before adding.",
+    "52-week extension — at 99% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly.",
+    "Put skew elevated — ATM put IV running +2.4pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $106.58 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $78.46 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+1.4% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 3 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 22.5x FY1 P/E",
+      "latest": "26.0x (+16%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$106.40 vs $90.63 (+17.4%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "71.0",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. Starbucks Corporation (SBUX) printed $9.53B in revenue in FY2026 Q1 (+1.4% YoY). Management credibility is strong (MCS 1.00, 1B/0H/0M record), supporting take-up of the forward guide. At 26.0x forward P/E, the stock carries a 16% premium to peers (22.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($90.63) but RSI 71 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $110 implies +3.4% upside. 30-day implied move is ±8.0%; 90-day is ±16.9%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

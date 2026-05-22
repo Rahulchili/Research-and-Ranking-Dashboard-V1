@@ -1,0 +1,101 @@
+{
+  "name": "The Goldman Sachs Group, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "The Goldman Sachs Group, Inc. (GS, Financials) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $17.23B (+14.4% YoY). Valuation 13.1x forward P/E (+7% vs peers). Spot $982.12 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "GS_ER_Q4_2025_15_JAN_2026.docx",
+      "Before we review our financials in detail, I want to discuss our longer-term performance and provide an update to you on our strategy. Beginning on Page 1.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "GS_ER_Q4_2025_15_JAN_2026.docx",
+      "Over the last year, we've seen high levels of client engagement across our investment banking franchise, and we expect the activity to accelerate in 2026.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GS_ER_Q4_2025_15_JAN_2026.docx",
+      "On the public side, we are optimistic about the outlook for equity debt underwriting, particularly amid the resurgence in the IPO market and a higher acquisition finance-related activity where we have a long-standing track record and leading market positions.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GS_ER_Q4_2025_15_JAN_2026.docx",
+      "We see even more opportunities to further strengthen our franchise. This includes investing to improve our market-making capabilities and broaden offerings for active and passive ETF issuers.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "GS_ER_Q4_2025_15_JAN_2026.docx",
+      "To sharpen our focus on future growth in wealth management, we are introducing a new target of 5% long-term fee-based net inflows annually across the platform.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "GS_ER_Q4_2025_15_JAN_2026.docx",
+      "Given our success in strengthening and growing our alternative platforms, we believe we can raise between $75 million and $100 billion annually on a sustainable basis.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ]
+  ],
+  "bull": [
+    "Revenue mix re-accelerating — back half of the trailing 4Q stack averaging +3.1% above the front half. Both NII and fee income lines are contributing, reducing reliance on a single revenue lever.",
+    "Trend regime constructive — spot $982.12 sits +16.1% above the 200-DMA ($845.81). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Options market complacent — front-month implied move of just 2.8% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise — limited downside priced, full upside available."
+  ],
+  "bear": [
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Loan-loss provisions decline or normalize on next earnings — credit-cycle tailwind to bottom line.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $982.12 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "CET1 ratio prints below 11.0% on next quarter — capital constraint reduces buyback authority.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $593.46 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+14.4% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 12.3x FY1 P/E",
+      "latest": "13.1x (+7%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$982.12 vs $845.81 (+16.1%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "64.4",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±2.8% by 2026-05-22",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. The Goldman Sachs Group, Inc. (GS) printed $17.23B in total revenue in FY2026 Q1 (+14.4% YoY), with NII running at $3.6B. Trading at 13.1x forward P/E versus peer median of 12.3x — broadly in line with the group.\n\nTechnical regime is constructive: spot $982.12 above the 200-DMA ($845.81, +16.1%) with neutral momentum (RSI 64). Sell-side consensus PT of $650 implies -33.8% upside. The options market is pricing a ±2.8% move by the front-month expiry — a complacent read on near-term risk. 30-day implied move is ±8.6%; 90-day is ±15.9%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

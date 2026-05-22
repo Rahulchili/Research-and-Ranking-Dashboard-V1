@@ -1,0 +1,112 @@
+{
+  "name": "NIKE, Inc.",
+  "stance": "CAUTIOUS",
+  "color": "amber",
+  "summary": "NIKE, Inc. (NKE, Consumer Discretionary) — composite stance CAUTIOUS. Latest reported quarter FY2026 Q1: revenue $5.03B (-3.0% YoY), net margin 10.3%. Management credibility 0.00 on 2 claims. Valuation 27.0x forward P/E (+12% vs peers). Spot $42.39 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "NK_ER_Q4_2025_26_JUN_2025.docx",
+      "Specifically to our business, the results we're reporting today in Q4 and in FY '25 are not up to the NIKE standard. But as we said 90 days ago, the work we're doing to reposition the business through our Win Now actions is having an impact.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "NK_ER_Q4_2025_26_JUN_2025.docx",
+      "As we put the sport offense in place, we're building a full pipeline of innovative products and driving momentum in the marketplace. I see a clear path to recovery ahead.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "NK_ER_Q4_2025_26_JUN_2025.docx",
+      "We expect the headwinds to revenue and gross margin to begin to moderate from here.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "NK_ER_Q4_2025_26_JUN_2025.docx",
+      "Today, I will review our financial results, highlighting progress made against our Win Now actions. Then I will explain our approach to the newly issued tariffs.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "NK_ER_Q4_2025_26_JUN_2025.docx",
+      "Our priority in Greater China is to refresh the monobrand marketplace, creating greater brand distinction through sport-led consumer concepts and full price growth.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "NK_ER_Q4_2025_26_JUN_2025.docx",
+      "Currently, China represents roughly 16% of the footwear we import into the United States, and we expect this to reduce to the high single-digit range by the end of fiscal '26 with supply from China reallocated to other countries around the world.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Margin discipline — 10.3% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup.",
+    "Sell-side target points higher — consensus PT of $85 (vs spot $42.39) implies +100.5% upside. Cross-checked against the peer-median PE FY1 of 24.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Top-line in contraction — revenue down -3.0% YoY in FY2026 Q1. The question is whether this is the trough of a cyclical drawdown or the start of secular decline. Without a stabilization read in the next 1–2 quarters, the multiple is at risk of de-rating before earnings catches a bid.",
+    "Margin trajectory deteriorating — net margin compressed -11.4pp over the trailing quarters. This typically precedes a guidance reset by 1–2 quarters as management gets ahead of the cost-curve issue.",
+    "Management credibility impaired — MCS of 0.00 on 2 tracked claims (0B/0H/0M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "Trend rolling over — spot $42.39 sits -32.8% relative to the 200-DMA ($63.11). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Put skew elevated — ATM put IV running +2.8pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 11.8% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 8.3% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $42.39 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "-3.0% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "10.3%",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.00 on 2 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.0x FY1 P/E",
+      "latest": "27.0x (+12%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$42.39 vs $63.11 (-32.8%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "24.0",
+      "verdict": "Oversold",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CAUTIOUS. NIKE, Inc. (NKE) printed $5.03B in revenue in FY2026 Q1 (-3.0% YoY), net margin of 10.3%. Management credibility is weak (MCS 0.00, 0B/0H/0M record) — forward claims should be discounted in valuation models. At 27.0x forward P/E, the stock carries a 12% premium to peers (24.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is impaired: spot $42.39 below the 200-DMA ($63.11, -32.8%) — long-term trend has rolled over. Sell-side consensus PT of $85 implies +100.5% upside. 30-day implied move is ±10.1%; 90-day is ±23.3%. Underweight or pair-traded against a long in the sector. Re-evaluate after the next earnings print resets either the growth profile or the multiple.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

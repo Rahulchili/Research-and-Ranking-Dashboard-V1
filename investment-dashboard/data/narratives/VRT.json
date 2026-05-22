@@ -1,0 +1,106 @@
+{
+  "name": "Vertiv Holdings Co",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Vertiv Holdings Co (VRT, Industrials) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $2.65B (+30.1% YoY). Management credibility 0.50 on 2 claims. Valuation 36.0x forward P/E (+44% vs peers). Spot $315.67 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "VRT_ER_Q4_2025_11_FEB_2026.docx",
+      "Our focus on engineering innovation, capacity expansion and deep customer partnerships is translating directly into results. Gio and his team are doing an outstanding job executing our strategy, and I'm impressed with how they are navigating both opportunities and challenges.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "VRT_ER_Q4_2025_11_FEB_2026.docx",
+      "For '26, we are projecting adjusted diluted EPS of $6.02 on organic sales growth of 28% with adjusted operating margin of 22.5%. But let me give you some color on what we see regionally and for that, we go to Slide 4.",
+      "Why it matters — margin trajectory. Tests whether revenue growth is dropping to the bottom line."
+    ],
+    [
+      "Management",
+      "VRT_ER_Q4_2025_11_FEB_2026.docx",
+      "Our guidance assumes sales growth in the high [ 30s ]. Americas led acceleration and that momentum continues.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "VRT_ER_Q4_2025_11_FEB_2026.docx",
+      "If we go to EMEA, well, we can say that the coiled spring is uncoiling. The market sentiment has significantly improved.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "VRT_ER_Q4_2025_11_FEB_2026.docx",
+      "When it comes to APAC, well, that is accelerating. Despite China remaining muted, we saw strong Q4 order growth, and we expect China's soft growth rate to persist in '26.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "VRT_ER_Q4_2025_11_FEB_2026.docx",
+      "Pricing continues to be favorable. 2025 pricing exceeded inflation, and we expect the same in '26.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +30.1% YoY in FY2026 Q1 to $2.65B, with TTM revenue of $10.84B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Trend regime constructive — spot $315.67 sits +53.3% above the 200-DMA ($205.87). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Valuation premium — 36.0x forward P/E vs peer median of 25.0x — a 44% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 33% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 27% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $103.61 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+30.1% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.50 on 2 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 25.0x FY1 P/E",
+      "latest": "36.0x (+44%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$315.67 vs $205.87 (+53.3%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "45.7",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±7.3% by 2026-05-22",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Vertiv Holdings Co (VRT) printed $2.65B in revenue in FY2026 Q1 (+30.1% YoY). Management credibility is weak (MCS 0.50, 1B/0H/1M record) — forward claims should be discounted in valuation models. At 36.0x forward P/E, the stock carries a 44% premium to peers (25.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $315.67 above the 200-DMA ($205.87, +53.3%) with neutral momentum (RSI 46). Sell-side consensus PT of $160 implies -49.3% upside. The options market is pricing a ±7.3% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±19.3%; 90-day is ±34.4%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

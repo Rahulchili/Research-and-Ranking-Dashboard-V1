@@ -1,0 +1,1543 @@
+{
+  "spot": 436.62,
+  "format": "opra_dual_side",
+  "n_expiries": 19,
+  "expiries_count": 19,
+  "expiries": [
+    {
+      "expiry": "2026-05-15",
+      "expiry_label": "15 MAY 26  (1)  100",
+      "dte": 1,
+      "atm_strike": 437.5,
+      "atm_iv": 1.61965,
+      "call_iv": 1.3499,
+      "put_iv": 1.8894,
+      "call_oi_total": 44004.0,
+      "put_oi_total": 41687.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.9473456958458322,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 37.01505239181909,
+      "implied_move_pct": 8.477635562232397,
+      "top_oi_strikes": [
+        {
+          "strike": 450.0,
+          "call_oi": 4093.0,
+          "put_oi": 84.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 1.4245,
+          "put_iv": 1.955
+        },
+        {
+          "strike": 460.0,
+          "call_oi": 3582.0,
+          "put_oi": 75.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 1.4446,
+          "put_iv": 2.0026
+        },
+        {
+          "strike": 430.0,
+          "call_oi": 2527.0,
+          "put_oi": 492.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 1.3078,
+          "put_iv": 1.8281
+        },
+        {
+          "strike": 400.0,
+          "call_oi": 1360.0,
+          "put_oi": 1643.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.6936
+        },
+        {
+          "strike": 470.0,
+          "call_oi": 2811.0,
+          "put_oi": 41.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 1.4915,
+          "put_iv": 2.1055
+        }
+      ],
+      "n_strikes": 133
+    },
+    {
+      "expiry": "2026-05-22",
+      "expiry_label": "22 MAY 26  (8)  100 (Weeklys)",
+      "dte": 8,
+      "atm_strike": 437.5,
+      "atm_iv": 0.8773500000000001,
+      "call_iv": 0.7582,
+      "put_iv": 0.9965,
+      "call_oi_total": 5688.0,
+      "put_oi_total": 8116.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.4268635724331926,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 56.712013534774876,
+      "implied_move_pct": 12.988872139337381,
+      "top_oi_strikes": [
+        {
+          "strike": 230.0,
+          "call_oi": 2.0,
+          "put_oi": 749.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.9939
+        },
+        {
+          "strike": 240.0,
+          "call_oi": 0.0,
+          "put_oi": 632.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.9237
+        },
+        {
+          "strike": 200.0,
+          "call_oi": 0.0,
+          "put_oi": 587.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 2.6666
+        },
+        {
+          "strike": 400.0,
+          "call_oi": 269.0,
+          "put_oi": 262.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5912,
+          "put_iv": 0.9328
+        },
+        {
+          "strike": 350.0,
+          "call_oi": 322.0,
+          "put_oi": 148.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.9857
+        }
+      ],
+      "n_strikes": 134
+    },
+    {
+      "expiry": "2026-05-29",
+      "expiry_label": "29 MAY 26  (15)  100 (Weeklys)",
+      "dte": 15,
+      "atm_strike": 437.5,
+      "atm_iv": 0.73715,
+      "call_iv": 0.6527,
+      "put_iv": 0.8216,
+      "call_oi_total": 4575.0,
+      "put_oi_total": 7216.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.5772677595628415,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 65.24672123450189,
+      "implied_move_pct": 14.94359425461543,
+      "top_oi_strikes": [
+        {
+          "strike": 430.0,
+          "call_oi": 172.0,
+          "put_oi": 1261.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6412,
+          "put_iv": 0.8019
+        },
+        {
+          "strike": 460.0,
+          "call_oi": 752.0,
+          "put_oi": 21.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6792,
+          "put_iv": 0.8425
+        },
+        {
+          "strike": 450.0,
+          "call_oi": 120.0,
+          "put_oi": 534.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.667,
+          "put_iv": 0.8429
+        },
+        {
+          "strike": 435.0,
+          "call_oi": 408.0,
+          "put_oi": 101.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6452,
+          "put_iv": 0.8187
+        },
+        {
+          "strike": 475.0,
+          "call_oi": 420.0,
+          "put_oi": 0.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6915,
+          "put_iv": 0.8787
+        }
+      ],
+      "n_strikes": 88
+    },
+    {
+      "expiry": "2026-06-05",
+      "expiry_label": "5 JUN 26  (22)  100 (Weeklys)",
+      "dte": 22,
+      "atm_strike": 435.0,
+      "atm_iv": 0.68945,
+      "call_iv": 0.6189,
+      "put_iv": 0.76,
+      "call_oi_total": 2636.0,
+      "put_oi_total": 3216.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.220030349013657,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 73.90457254332902,
+      "implied_move_pct": 16.926520210555864,
+      "top_oi_strikes": [
+        {
+          "strike": 450.0,
+          "call_oi": 455.0,
+          "put_oi": 9.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6307,
+          "put_iv": 0.7682
+        },
+        {
+          "strike": 430.0,
+          "call_oi": 343.0,
+          "put_oi": 84.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6141,
+          "put_iv": 0.7382
+        },
+        {
+          "strike": 255.0,
+          "call_oi": 15.0,
+          "put_oi": 263.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.1402
+        },
+        {
+          "strike": 410.0,
+          "call_oi": 62.0,
+          "put_oi": 214.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5803,
+          "put_iv": 0.7298
+        },
+        {
+          "strike": 220.0,
+          "call_oi": 1.0,
+          "put_oi": 256.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.395
+        }
+      ],
+      "n_strikes": 77
+    },
+    {
+      "expiry": "2026-06-12",
+      "expiry_label": "12 JUN 26  (29)  100 (Weeklys)",
+      "dte": 29,
+      "atm_strike": 435.0,
+      "atm_iv": 0.6672,
+      "call_iv": 0.605,
+      "put_iv": 0.7294,
+      "call_oi_total": 1250.0,
+      "put_oi_total": 1621.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.2968,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 82.11305866520287,
+      "implied_move_pct": 18.806527109432203,
+      "top_oi_strikes": [
+        {
+          "strike": 445.0,
+          "call_oi": 245.0,
+          "put_oi": 139.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6163,
+          "put_iv": 0.7352
+        },
+        {
+          "strike": 220.0,
+          "call_oi": 0.0,
+          "put_oi": 237.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.27
+        },
+        {
+          "strike": 500.0,
+          "call_oi": 218.0,
+          "put_oi": 0.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6393,
+          "put_iv": 0.7823
+        },
+        {
+          "strike": 425.0,
+          "call_oi": 16.0,
+          "put_oi": 185.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.604,
+          "put_iv": 0.7262
+        },
+        {
+          "strike": 435.0,
+          "call_oi": 22.0,
+          "put_oi": 155.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.605,
+          "put_iv": 0.7294
+        }
+      ],
+      "n_strikes": 77
+    },
+    {
+      "expiry": "2026-06-18",
+      "expiry_label": "18 JUN 26  (35)  100",
+      "dte": 35,
+      "atm_strike": 440.0,
+      "atm_iv": 0.6495500000000001,
+      "call_iv": 0.602,
+      "put_iv": 0.6971,
+      "call_oi_total": 36176.0,
+      "put_oi_total": 36835.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.018216497125166,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 87.82209689145346,
+      "implied_move_pct": 20.11408018218438,
+      "top_oi_strikes": [
+        {
+          "strike": 490.0,
+          "call_oi": 7233.0,
+          "put_oi": 1.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.6176,
+          "put_iv": 0.738
+        },
+        {
+          "strike": 240.0,
+          "call_oi": 1286.0,
+          "put_oi": 1817.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.9101
+        },
+        {
+          "strike": 230.0,
+          "call_oi": 991.0,
+          "put_oi": 2022.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.9882
+        },
+        {
+          "strike": 340.0,
+          "call_oi": 617.0,
+          "put_oi": 2315.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.0003,
+          "put_iv": 0.7105
+        },
+        {
+          "strike": 200.0,
+          "call_oi": 1352.0,
+          "put_oi": 1242.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 1.1151
+        }
+      ],
+      "n_strikes": 72
+    },
+    {
+      "expiry": "2026-06-26",
+      "expiry_label": "26 JUN 26  (43)  100 (Weeklys)",
+      "dte": 43,
+      "atm_strike": 435.0,
+      "atm_iv": 0.63765,
+      "call_iv": 0.586,
+      "put_iv": 0.6893,
+      "call_oi_total": 250.0,
+      "put_oi_total": 434.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.736,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 95.5594815574209,
+      "implied_move_pct": 21.886189720448193,
+      "top_oi_strikes": [
+        {
+          "strike": 250.0,
+          "call_oi": 2.0,
+          "put_oi": 62.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.8404
+        },
+        {
+          "strike": 355.0,
+          "call_oi": 0.0,
+          "put_oi": 52.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.4858,
+          "put_iv": 0.6701
+        },
+        {
+          "strike": 260.0,
+          "call_oi": 0.0,
+          "put_oi": 47.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.8045
+        },
+        {
+          "strike": 430.0,
+          "call_oi": 29.0,
+          "put_oi": 7.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5836,
+          "put_iv": 0.6895
+        },
+        {
+          "strike": 440.0,
+          "call_oi": 26.0,
+          "put_oi": 5.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5865,
+          "put_iv": 0.6924
+        }
+      ],
+      "n_strikes": 75
+    },
+    {
+      "expiry": "2026-07-17",
+      "expiry_label": "17 JUL 26  (64)  100",
+      "dte": 64,
+      "atm_strike": 440.0,
+      "atm_iv": 0.61625,
+      "call_iv": 0.5784,
+      "put_iv": 0.6541,
+      "call_oi_total": 9630.0,
+      "put_oi_total": 8896.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.9237798546209761,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 112.66891506910017,
+      "implied_move_pct": 25.804799383697535,
+      "top_oi_strikes": [
+        {
+          "strike": 390.0,
+          "call_oi": 709.0,
+          "put_oi": 677.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5499,
+          "put_iv": 0.6455
+        },
+        {
+          "strike": 330.0,
+          "call_oi": 880.0,
+          "put_oi": 407.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.4653,
+          "put_iv": 0.6577
+        },
+        {
+          "strike": 380.0,
+          "call_oi": 570.0,
+          "put_oi": 411.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5425,
+          "put_iv": 0.6397
+        },
+        {
+          "strike": 260.0,
+          "call_oi": 29.0,
+          "put_oi": 888.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.6855
+        },
+        {
+          "strike": 350.0,
+          "call_oi": 341.0,
+          "put_oi": 567.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5122,
+          "put_iv": 0.6464
+        }
+      ],
+      "n_strikes": 57
+    },
+    {
+      "expiry": "2026-08-21",
+      "expiry_label": "21 AUG 26  (99)  100",
+      "dte": 99,
+      "atm_strike": 440.0,
+      "atm_iv": 0.62095,
+      "call_iv": 0.5951,
+      "put_iv": 0.6468,
+      "call_oi_total": 2674.0,
+      "put_oi_total": 3330.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.2453253552729993,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 141.19893524529428,
+      "implied_move_pct": 32.33909011160603,
+      "top_oi_strikes": [
+        {
+          "strike": 400.0,
+          "call_oi": 194.0,
+          "put_oi": 601.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5828,
+          "put_iv": 0.6458
+        },
+        {
+          "strike": 380.0,
+          "call_oi": 69.0,
+          "put_oi": 498.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5763,
+          "put_iv": 0.6455
+        },
+        {
+          "strike": 430.0,
+          "call_oi": 303.0,
+          "put_oi": 107.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.588,
+          "put_iv": 0.6479
+        },
+        {
+          "strike": 450.0,
+          "call_oi": 330.0,
+          "put_oi": 18.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5956,
+          "put_iv": 0.6496
+        },
+        {
+          "strike": 310.0,
+          "call_oi": 4.0,
+          "put_oi": 327.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5254,
+          "put_iv": 0.6663
+        }
+      ],
+      "n_strikes": 48
+    },
+    {
+      "expiry": "2026-09-18",
+      "expiry_label": "18 SEP 26  (127)  100",
+      "dte": 127,
+      "atm_strike": 440.0,
+      "atm_iv": 0.6075,
+      "call_iv": 0.5812,
+      "put_iv": 0.6338,
+      "call_oi_total": 12578.0,
+      "put_oi_total": 14434.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.1475592304022897,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 156.46072409867008,
+      "implied_move_pct": 35.83452981967616,
+      "top_oi_strikes": [
+        {
+          "strike": 300.0,
+          "call_oi": 499.0,
+          "put_oi": 1076.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5335,
+          "put_iv": 0.6572
+        },
+        {
+          "strike": 250.0,
+          "call_oi": 992.0,
+          "put_oi": 423.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.0002,
+          "put_iv": 0.7195
+        },
+        {
+          "strike": 350.0,
+          "call_oi": 268.0,
+          "put_oi": 1047.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5573,
+          "put_iv": 0.6325
+        },
+        {
+          "strike": 180.0,
+          "call_oi": 90.0,
+          "put_oi": 1207.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.8298
+        },
+        {
+          "strike": 280.0,
+          "call_oi": 825.0,
+          "put_oi": 236.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5005,
+          "put_iv": 0.665
+        }
+      ],
+      "n_strikes": 63
+    },
+    {
+      "expiry": "2026-10-16",
+      "expiry_label": "16 OCT 26  (155)  100",
+      "dte": 155,
+      "atm_strike": 440.0,
+      "atm_iv": 0.6012,
+      "call_iv": 0.5762,
+      "put_iv": 0.6262,
+      "call_oi_total": 3552.0,
+      "put_oi_total": 4606.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.2967342342342343,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 171.0574580671967,
+      "implied_move_pct": 39.177650604002714,
+      "top_oi_strikes": [
+        {
+          "strike": 380.0,
+          "call_oi": 28.0,
+          "put_oi": 1103.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5662,
+          "put_iv": 0.6246
+        },
+        {
+          "strike": 440.0,
+          "call_oi": 589.0,
+          "put_oi": 6.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5762,
+          "put_iv": 0.6262
+        },
+        {
+          "strike": 410.0,
+          "call_oi": 45.0,
+          "put_oi": 517.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5731,
+          "put_iv": 0.6228
+        },
+        {
+          "strike": 400.0,
+          "call_oi": 109.0,
+          "put_oi": 313.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5706,
+          "put_iv": 0.6218
+        },
+        {
+          "strike": 520.0,
+          "call_oi": 117.0,
+          "put_oi": 300.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5853,
+          "put_iv": 0.6323
+        }
+      ],
+      "n_strikes": 46
+    },
+    {
+      "expiry": "2026-11-20",
+      "expiry_label": "20 NOV 26  (190)  100",
+      "dte": 190,
+      "atm_strike": 440.0,
+      "atm_iv": 0.5992500000000001,
+      "call_iv": 0.5784,
+      "put_iv": 0.6201,
+      "call_oi_total": 4071.0,
+      "put_oi_total": 2374.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.5831491034143945,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 188.77393824156908,
+      "implied_move_pct": 43.23529344546038,
+      "top_oi_strikes": [
+        {
+          "strike": 610.0,
+          "call_oi": 571.0,
+          "put_oi": 0.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5928,
+          "put_iv": 0.6437
+        },
+        {
+          "strike": 450.0,
+          "call_oi": 361.0,
+          "put_oi": 19.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5799,
+          "put_iv": 0.621
+        },
+        {
+          "strike": 270.0,
+          "call_oi": 16.0,
+          "put_oi": 317.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5501,
+          "put_iv": 0.6535
+        },
+        {
+          "strike": 300.0,
+          "call_oi": 84.0,
+          "put_oi": 235.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5607,
+          "put_iv": 0.6374
+        },
+        {
+          "strike": 380.0,
+          "call_oi": 269.0,
+          "put_oi": 26.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5722,
+          "put_iv": 0.62
+        }
+      ],
+      "n_strikes": 53
+    },
+    {
+      "expiry": "2026-12-18",
+      "expiry_label": "18 DEC 26  (218)  100",
+      "dte": 218,
+      "atm_strike": 440.0,
+      "atm_iv": 0.5895,
+      "call_iv": 0.5693,
+      "put_iv": 0.6097,
+      "call_oi_total": 10743.0,
+      "put_oi_total": 13994.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 1.3026156567066927,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 198.91578559405843,
+      "implied_move_pct": 45.55810214696039,
+      "top_oi_strikes": [
+        {
+          "strike": 300.0,
+          "call_oi": 317.0,
+          "put_oi": 1680.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5562,
+          "put_iv": 0.6267
+        },
+        {
+          "strike": 250.0,
+          "call_oi": 303.0,
+          "put_oi": 1633.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5367,
+          "put_iv": 0.6615
+        },
+        {
+          "strike": 170.0,
+          "call_oi": 151.0,
+          "put_oi": 1216.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.0001,
+          "put_iv": 0.726
+        },
+        {
+          "strike": 350.0,
+          "call_oi": 1045.0,
+          "put_oi": 118.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5663,
+          "put_iv": 0.6165
+        },
+        {
+          "strike": 180.0,
+          "call_oi": 122.0,
+          "put_oi": 989.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.0001,
+          "put_iv": 0.7131
+        }
+      ],
+      "n_strikes": 67
+    },
+    {
+      "expiry": "2027-01-15",
+      "expiry_label": "15 JAN 27  (246)  100",
+      "dte": 246,
+      "atm_strike": 440.0,
+      "atm_iv": 0.58125,
+      "call_iv": 0.5631,
+      "put_iv": 0.5994,
+      "call_oi_total": 24752.0,
+      "put_oi_total": 23387.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.9448529411764706,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 208.34722121560924,
+      "implied_move_pct": 47.71820375054035,
+      "top_oi_strikes": [
+        {
+          "strike": 230.0,
+          "call_oi": 2277.0,
+          "put_oi": 600.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5262,
+          "put_iv": 0.6529
+        },
+        {
+          "strike": 200.0,
+          "call_oi": 445.0,
+          "put_oi": 2119.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.4366,
+          "put_iv": 0.6649
+        },
+        {
+          "strike": 210.0,
+          "call_oi": 952.0,
+          "put_oi": 965.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.4906,
+          "put_iv": 0.657
+        },
+        {
+          "strike": 150.0,
+          "call_oi": 823.0,
+          "put_oi": 922.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": null,
+          "put_iv": 0.7133
+        },
+        {
+          "strike": 500.0,
+          "call_oi": 879.0,
+          "put_oi": 860.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5708,
+          "put_iv": 0.6039
+        }
+      ],
+      "n_strikes": 70
+    },
+    {
+      "expiry": "2027-02-19",
+      "expiry_label": "19 FEB 27  (281)  100",
+      "dte": 281,
+      "atm_strike": 440.0,
+      "atm_iv": 0.58485,
+      "call_iv": 0.5689,
+      "put_iv": 0.6008,
+      "call_oi_total": 123.0,
+      "put_oi_total": 114.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.926829268292683,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 224.0551069071721,
+      "implied_move_pct": 51.315813958859444,
+      "top_oi_strikes": [
+        {
+          "strike": 460.0,
+          "call_oi": 66.0,
+          "put_oi": 0.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5686,
+          "put_iv": 0.6013
+        },
+        {
+          "strike": 430.0,
+          "call_oi": 3.0,
+          "put_oi": 43.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5684,
+          "put_iv": 0.5996
+        },
+        {
+          "strike": 400.0,
+          "call_oi": 0.0,
+          "put_oi": 39.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5676,
+          "put_iv": 0.5986
+        },
+        {
+          "strike": 450.0,
+          "call_oi": 22.0,
+          "put_oi": 0.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.568,
+          "put_iv": 0.601
+        },
+        {
+          "strike": 250.0,
+          "call_oi": 3.0,
+          "put_oi": 15.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5679,
+          "put_iv": 0.6395
+        }
+      ],
+      "n_strikes": 44
+    },
+    {
+      "expiry": "2027-03-19",
+      "expiry_label": "19 MAR 27  (309)  100",
+      "dte": 309,
+      "atm_strike": 440.0,
+      "atm_iv": 0.57885,
+      "call_iv": 0.5626,
+      "put_iv": 0.5951,
+      "call_oi_total": 1923.0,
+      "put_oi_total": 1242.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.6458658346333853,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 232.54257136568563,
+      "implied_move_pct": 53.25971585490487,
+      "top_oi_strikes": [
+        {
+          "strike": 420.0,
+          "call_oi": 209.0,
+          "put_oi": 62.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5616,
+          "put_iv": 0.5962
+        },
+        {
+          "strike": 540.0,
+          "call_oi": 239.0,
+          "put_oi": 4.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5669,
+          "put_iv": 0.6015
+        },
+        {
+          "strike": 400.0,
+          "call_oi": 153.0,
+          "put_oi": 15.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5627,
+          "put_iv": 0.5941
+        },
+        {
+          "strike": 310.0,
+          "call_oi": 103.0,
+          "put_oi": 56.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5628,
+          "put_iv": 0.6088
+        },
+        {
+          "strike": 430.0,
+          "call_oi": 84.0,
+          "put_oi": 65.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5634,
+          "put_iv": 0.5958
+        }
+      ],
+      "n_strikes": 45
+    },
+    {
+      "expiry": "2027-06-17",
+      "expiry_label": "17 JUN 27  (399)  100",
+      "dte": 399,
+      "atm_strike": 440.0,
+      "atm_iv": 0.5721499999999999,
+      "call_iv": 0.5604,
+      "put_iv": 0.5839,
+      "call_oi_total": 9843.0,
+      "put_oi_total": 4346.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.4415320532358021,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 261.1881944499541,
+      "implied_move_pct": 59.82048336080666,
+      "top_oi_strikes": [
+        {
+          "strike": 175.0,
+          "call_oi": 1876.0,
+          "put_oi": 138.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.533,
+          "put_iv": 0.6673
+        },
+        {
+          "strike": 200.0,
+          "call_oi": 659.0,
+          "put_oi": 269.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5674,
+          "put_iv": 0.6526
+        },
+        {
+          "strike": 400.0,
+          "call_oi": 678.0,
+          "put_oi": 9.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5636,
+          "put_iv": 0.5861
+        },
+        {
+          "strike": 420.0,
+          "call_oi": 578.0,
+          "put_oi": 23.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5623,
+          "put_iv": 0.5845
+        },
+        {
+          "strike": 440.0,
+          "call_oi": 565.0,
+          "put_oi": 15.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5604,
+          "put_iv": 0.5839
+        }
+      ],
+      "n_strikes": 65
+    },
+    {
+      "expiry": "2027-12-17",
+      "expiry_label": "17 DEC 27  (582)  100",
+      "dte": 582,
+      "atm_strike": 440.0,
+      "atm_iv": 0.56245,
+      "call_iv": 0.556,
+      "put_iv": 0.5689,
+      "call_oi_total": 4897.0,
+      "put_oi_total": 4523.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.9236267102307535,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 310.1005999857251,
+      "implied_move_pct": 71.02299482060491,
+      "top_oi_strikes": [
+        {
+          "strike": 100.0,
+          "call_oi": 93.0,
+          "put_oi": 568.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.0001,
+          "put_iv": 0.6843
+        },
+        {
+          "strike": 220.0,
+          "call_oi": 252.0,
+          "put_oi": 205.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5741,
+          "put_iv": 0.6059
+        },
+        {
+          "strike": 150.0,
+          "call_oi": 116.0,
+          "put_oi": 284.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5446,
+          "put_iv": 0.6539
+        },
+        {
+          "strike": 160.0,
+          "call_oi": 230.0,
+          "put_oi": 130.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5562,
+          "put_iv": 0.6382
+        },
+        {
+          "strike": 200.0,
+          "call_oi": 274.0,
+          "put_oi": 47.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5742,
+          "put_iv": 0.6208
+        }
+      ],
+      "n_strikes": 67
+    },
+    {
+      "expiry": "2028-01-21",
+      "expiry_label": "21 JAN 28  (617)  100",
+      "dte": 617,
+      "atm_strike": 440.0,
+      "atm_iv": 0.5599000000000001,
+      "call_iv": 0.5533,
+      "put_iv": 0.5665,
+      "call_oi_total": 6023.0,
+      "put_oi_total": 4873.0,
+      "call_vol_total": 0,
+      "put_vol_total": 0,
+      "put_call_oi_ratio": 0.8090652498754773,
+      "put_call_vol_ratio": null,
+      "implied_move_abs": 317.8412372311169,
+      "implied_move_pct": 72.79584930399818,
+      "top_oi_strikes": [
+        {
+          "strike": 370.0,
+          "call_oi": 1325.0,
+          "put_oi": 36.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5566,
+          "put_iv": 0.5691
+        },
+        {
+          "strike": 100.0,
+          "call_oi": 19.0,
+          "put_oi": 610.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.0001,
+          "put_iv": 0.6893
+        },
+        {
+          "strike": 280.0,
+          "call_oi": 60.0,
+          "put_oi": 495.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.568,
+          "put_iv": 0.5917
+        },
+        {
+          "strike": 410.0,
+          "call_oi": 267.0,
+          "put_oi": 268.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5559,
+          "put_iv": 0.5653
+        },
+        {
+          "strike": 500.0,
+          "call_oi": 436.0,
+          "put_oi": 8.0,
+          "call_vol": null,
+          "put_vol": null,
+          "call_iv": 0.5562,
+          "put_iv": 0.5671
+        }
+      ],
+      "n_strikes": 60
+    }
+  ],
+  "term_structure": [
+    {
+      "expiry": "2026-05-15",
+      "dte": 1,
+      "atm_strike": 437.5,
+      "atm_iv": 161.965
+    },
+    {
+      "expiry": "2026-05-22",
+      "dte": 8,
+      "atm_strike": 437.5,
+      "atm_iv": 87.73500000000001
+    },
+    {
+      "expiry": "2026-05-29",
+      "dte": 15,
+      "atm_strike": 437.5,
+      "atm_iv": 73.715
+    },
+    {
+      "expiry": "2026-06-05",
+      "dte": 22,
+      "atm_strike": 435.0,
+      "atm_iv": 68.94500000000001
+    },
+    {
+      "expiry": "2026-06-12",
+      "dte": 29,
+      "atm_strike": 435.0,
+      "atm_iv": 66.72
+    },
+    {
+      "expiry": "2026-06-18",
+      "dte": 35,
+      "atm_strike": 440.0,
+      "atm_iv": 64.95500000000001
+    },
+    {
+      "expiry": "2026-06-26",
+      "dte": 43,
+      "atm_strike": 435.0,
+      "atm_iv": 63.76500000000001
+    },
+    {
+      "expiry": "2026-07-17",
+      "dte": 64,
+      "atm_strike": 440.0,
+      "atm_iv": 61.625
+    },
+    {
+      "expiry": "2026-08-21",
+      "dte": 99,
+      "atm_strike": 440.0,
+      "atm_iv": 62.095
+    },
+    {
+      "expiry": "2026-09-18",
+      "dte": 127,
+      "atm_strike": 440.0,
+      "atm_iv": 60.75000000000001
+    },
+    {
+      "expiry": "2026-10-16",
+      "dte": 155,
+      "atm_strike": 440.0,
+      "atm_iv": 60.12
+    },
+    {
+      "expiry": "2026-11-20",
+      "dte": 190,
+      "atm_strike": 440.0,
+      "atm_iv": 59.925000000000004
+    }
+  ],
+  "implied_moves": [
+    {
+      "expiry": "2026-05-15",
+      "dte": 1,
+      "atm_iv_pct": 161.965,
+      "implied_move_pct": 8.477635562232397,
+      "implied_move_abs": 37.01505239181909
+    },
+    {
+      "expiry": "2026-05-22",
+      "dte": 8,
+      "atm_iv_pct": 87.73500000000001,
+      "implied_move_pct": 12.988872139337381,
+      "implied_move_abs": 56.712013534774876
+    },
+    {
+      "expiry": "2026-05-29",
+      "dte": 15,
+      "atm_iv_pct": 73.715,
+      "implied_move_pct": 14.94359425461543,
+      "implied_move_abs": 65.24672123450189
+    },
+    {
+      "expiry": "2026-06-05",
+      "dte": 22,
+      "atm_iv_pct": 68.94500000000001,
+      "implied_move_pct": 16.926520210555864,
+      "implied_move_abs": 73.90457254332902
+    },
+    {
+      "expiry": "2026-06-12",
+      "dte": 29,
+      "atm_iv_pct": 66.72,
+      "implied_move_pct": 18.806527109432203,
+      "implied_move_abs": 82.11305866520287
+    },
+    {
+      "expiry": "2026-06-18",
+      "dte": 35,
+      "atm_iv_pct": 64.95500000000001,
+      "implied_move_pct": 20.11408018218438,
+      "implied_move_abs": 87.82209689145346
+    },
+    {
+      "expiry": "2026-06-26",
+      "dte": 43,
+      "atm_iv_pct": 63.76500000000001,
+      "implied_move_pct": 21.886189720448193,
+      "implied_move_abs": 95.5594815574209
+    },
+    {
+      "expiry": "2026-07-17",
+      "dte": 64,
+      "atm_iv_pct": 61.625,
+      "implied_move_pct": 25.804799383697535,
+      "implied_move_abs": 112.66891506910017
+    },
+    {
+      "expiry": "2026-08-21",
+      "dte": 99,
+      "atm_iv_pct": 62.095,
+      "implied_move_pct": 32.33909011160603,
+      "implied_move_abs": 141.19893524529428
+    },
+    {
+      "expiry": "2026-09-18",
+      "dte": 127,
+      "atm_iv_pct": 60.75000000000001,
+      "implied_move_pct": 35.83452981967616,
+      "implied_move_abs": 156.46072409867008
+    },
+    {
+      "expiry": "2026-10-16",
+      "dte": 155,
+      "atm_iv_pct": 60.12,
+      "implied_move_pct": 39.177650604002714,
+      "implied_move_abs": 171.0574580671967
+    },
+    {
+      "expiry": "2026-11-20",
+      "dte": 190,
+      "atm_iv_pct": 59.925000000000004,
+      "implied_move_pct": 43.23529344546038,
+      "implied_move_abs": 188.77393824156908
+    },
+    {
+      "expiry": "2026-12-18",
+      "dte": 218,
+      "atm_iv_pct": 58.95,
+      "implied_move_pct": 45.55810214696039,
+      "implied_move_abs": 198.91578559405843
+    },
+    {
+      "expiry": "2027-01-15",
+      "dte": 246,
+      "atm_iv_pct": 58.12500000000001,
+      "implied_move_pct": 47.71820375054035,
+      "implied_move_abs": 208.34722121560924
+    },
+    {
+      "expiry": "2027-02-19",
+      "dte": 281,
+      "atm_iv_pct": 58.485,
+      "implied_move_pct": 51.315813958859444,
+      "implied_move_abs": 224.0551069071721
+    },
+    {
+      "expiry": "2027-03-19",
+      "dte": 309,
+      "atm_iv_pct": 57.885,
+      "implied_move_pct": 53.25971585490487,
+      "implied_move_abs": 232.54257136568563
+    },
+    {
+      "expiry": "2027-06-17",
+      "dte": 399,
+      "atm_iv_pct": 57.214999999999996,
+      "implied_move_pct": 59.82048336080666,
+      "implied_move_abs": 261.1881944499541
+    },
+    {
+      "expiry": "2027-12-17",
+      "dte": 582,
+      "atm_iv_pct": 56.245,
+      "implied_move_pct": 71.02299482060491,
+      "implied_move_abs": 310.1005999857251
+    }
+  ],
+  "top_oi_strikes": [
+    {
+      "strike": 490.0,
+      "call_oi": 7233.0,
+      "put_oi": 1.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 7234.0
+    },
+    {
+      "strike": 200.0,
+      "call_oi": 2730.0,
+      "put_oi": 4264.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 6994.0
+    },
+    {
+      "strike": 230.0,
+      "call_oi": 3270.0,
+      "put_oi": 3371.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 6641.0
+    },
+    {
+      "strike": 450.0,
+      "call_oi": 5381.0,
+      "put_oi": 664.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 6045.0
+    },
+    {
+      "strike": 400.0,
+      "call_oi": 2763.0,
+      "put_oi": 2882.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 5645.0
+    },
+    {
+      "strike": 430.0,
+      "call_oi": 3461.0,
+      "put_oi": 2059.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 5520.0
+    },
+    {
+      "strike": 460.0,
+      "call_oi": 4400.0,
+      "put_oi": 96.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 4496.0
+    },
+    {
+      "strike": 300.0,
+      "call_oi": 900.0,
+      "put_oi": 2991.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 3891.0
+    },
+    {
+      "strike": 350.0,
+      "call_oi": 1976.0,
+      "put_oi": 1880.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 3856.0
+    },
+    {
+      "strike": 240.0,
+      "call_oi": 1286.0,
+      "put_oi": 2449.0,
+      "call_vol": 0.0,
+      "put_vol": 0.0,
+      "total": 3735.0
+    }
+  ],
+  "put_call_ratio_oi": 1.0585557879197933,
+  "put_call_ratio_vol": 0.0,
+  "pcr_oi": 1.0585557879197933,
+  "pcr_vol": 0.0,
+  "atm_iv_front_pct": 161.965,
+  "skew_25d_pp": 53.94999999999999,
+  "skew_atm_pct": 53.94999999999999,
+  "total_contracts": 370632.0,
+  "summary": {
+    "front_expiry": "2026-05-15",
+    "front_dte": 1,
+    "front_implied_move_pct": 8.477635562232397,
+    "n_expiries": 19,
+    "total_oi_call": 185388.0,
+    "total_oi_put": 185244.0
+  }
+}

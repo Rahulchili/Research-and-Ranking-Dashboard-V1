@@ -1,0 +1,189 @@
+{
+  "stance": "BULLISH (AIP-driven hyper-growth) — high MCS, premium valuation",
+  "color": "mint",
+  "summary": "Palantir is the highest-growth and highest-MCS name in the coverage universe: 8 consecutive next-quarter revenue guidance beats (MCS 1.000 simple / 0.83 info-adjusted) with revenue accelerating from +21% YoY (Q1 FY24) to +84.7% YoY (Q1 FY26). FY26 guidance was raised in Q1 to $7.65-7.66B representing +71% growth and a Rule of 40 score of 129%. Operating margin expanded from 12.7% (Q1 FY24) to 46.2% (Q1 FY26). The risk is valuation: P/E FY1 95× sits +152% above peer median and EV/EBITDA FY1 75× is +154% above peer median — the multiple requires sustained 50%+ growth to defend. Stock has corrected -33.6% from $207.52 ATH (Nov 3 2025) to $137.80 (May 8 2026); MACD bearish, sma50 < sma200 since 2026-02-27. Sell-side target $189.46 = +38.4% upside; 31 brokers, Overweight (1.47).",
+  "quotes": [
+    [
+      "Alex Karp (CEO)",
+      "Q1 FY26 call (May 4, 2026)",
+      "On the back of this continued strength in the U.S., we are raising our full year 2026 revenue guidance midpoint to $7.656 billion, representing 71% growth year-over-year, a 10-point increase over our full year 2026 revenue guidance from last quarter and our largest ever full year revenue guidance raise."
+    ],
+    [
+      "Dave Glazer (CFO)",
+      "Q1 FY26 call (May 4, 2026)",
+      "We are raising our adjusted free cash flow guidance to between $4.2 billion and $4.4 billion, and we continue to expect GAAP operating income and net income in each quarter of this year."
+    ],
+    [
+      "Alex Karp (CEO)",
+      "Q3 FY25 call (Nov 3, 2025)",
+      "We also generated our highest ever reported revenue growth rate of 63% year-over-year exceeding the high end of our prior guidance, a 1,300 basis points and representing a 3,300 basis point increase compared to the growth rate in Q3 of last year."
+    ],
+    [
+      "Alex Karp (CEO)",
+      "Q2 FY25 call (Aug 4, 2025)",
+      "We are also raising our full year 2025 revenue guidance midpoint to $4.146 billion, representing a 45% year-over-year growth rate, a 9-point increase over our full year 2025 revenue guidance last quarter, and our largest ever full year revenue guidance raise."
+    ],
+    [
+      "Shyam Sankar (CTO)",
+      "Q2 FY25 call (Aug 4, 2025)",
+      "The ceiling for our Maven Smart System contract was increased by $795 million to prepare for what they expect will be significant demand from combatant commands for our AI-powered software capabilities over the next 4 years."
+    ],
+    [
+      "Dave Glazer (CFO)",
+      "Q1 FY26 call (May 4, 2026)",
+      "With our 2026 revenue and adjusted operating income guidance, we are guiding to a Rule of 40 score of 129% for the full year."
+    ]
+  ],
+  "bull": [
+    [
+      "Perfect MCS — 8/8 beats",
+      "Eight consecutive next-quarter revenue guidance beats, all above the high end of the range. Average beat magnitude +5.85% over the high end. MCS 1.000 simple, 0.83 information-adjusted — the highest in coverage.",
+      "Mint"
+    ],
+    [
+      "Hyper-growth accelerating",
+      "Revenue growth went from +21% YoY (Q1 FY24) to +84.7% YoY (Q1 FY26). Q4 FY25 actual +75% YoY. US Commercial growth guidance for FY26 raised to +120%.",
+      "Mint"
+    ],
+    [
+      "Operating leverage inflection",
+      "Operating margin expanded 33.5pp from 12.7% (Q1 FY24) to 46.2% (Q1 FY26). FCF margin reached 54.6% in Q1 FY26 — among the highest in software.",
+      "Mint"
+    ],
+    [
+      "AIP commercial momentum",
+      "AIP boot-camps converting at high rates; US Commercial revenue trajectory drove the FY26 guide raise. Foundry + AIP at $1B+ ARR runrate.",
+      "Mint"
+    ],
+    [
+      "Maven Smart System / DoD",
+      "Maven ceiling raised $795M in Q2 FY25 for combatant command demand. PLTR remains the dominant software platform for DoD AI deployments.",
+      "Mint"
+    ],
+    [
+      "Strong balance sheet",
+      "$8.45B stockholders equity; $7.8B+ net cash (Net Debt -$7,824M per FactSet). Current ratio 6.91× — flush with capital and no refinancing risk.",
+      "Mint"
+    ]
+  ],
+  "bear": [
+    [
+      "Extreme valuation premium",
+      "P/E FY1 95× = +152% premium vs Software peer median 37.87×. EV/EBITDA FY1 75× = +154% premium vs 29.56×. Multiple compression risk if growth decelerates below 50%.",
+      "Crimson"
+    ],
+    [
+      "Sell-side target below history",
+      "FactSet target $189.46 = +38.4% upside, but well below the $207.52 ATH (Nov 2025). Implied analyst caution despite ratings averaging Overweight (1.47).",
+      "Crimson"
+    ],
+    [
+      "MACD/SMA bearish",
+      "Death cross (SMA50 below SMA200) on 2026-02-27 still active. Stock -33.6% from ATH. RSI 41.7 — pressured. ADX 11.25 = no strong trend (sideways/down).",
+      "Crimson"
+    ],
+    [
+      "Govt/customer concentration",
+      "US Govt >40% of revenue. Maven, ICE, DoD contracts subject to administration changes, appropriation cycles. Top commercial customers >20% concentration.",
+      "Crimson"
+    ],
+    [
+      "SBC dilution",
+      "SBC running ~$300M+/quarter (~20% of revenue). Share count growth offsets buybacks; dual-class structure limits minority influence.",
+      "Crimson"
+    ],
+    [
+      "Founder/governance risk",
+      "Karp's public political profile creates contract risk in EU/Asia. Continued insider sales (10b5-1 plans) by Karp/Thiel/Cohen. Limited Class A voting rights.",
+      "Crimson"
+    ]
+  ],
+  "trigger_up": [
+    "Q2 FY26 ER (Aug 10, 2026) beats guide AND raises FY26 above $7.66B midpoint",
+    "Operating margin sustains above 45% — confirming structural leverage",
+    "US Commercial revenue acceleration (>100% YoY for 2 consecutive quarters)",
+    "New Maven / Tradewinds / IL6 ceiling expansions disclosed",
+    "Recovery above SMA200 ($163.93) confirms trend resumption to $200+"
+  ],
+  "trigger_down": [
+    "Q2 FY26 guide raise <$1.8B at low end (current guide $1.797-1.801B) — signaling deceleration",
+    "Rule of 40 score falls below 110% on FY27 outlook (vs current 129%)",
+    "US Govt budget freeze or Maven contract scaling delays",
+    "Break below 52w low $112.07 — major technical breakdown to $90 area",
+    "PE FY1 reverts toward 60× (~38% downside) on growth deceleration concerns"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (Q1 FY26)",
+      "baseline": "$634M (Q1 FY24)",
+      "latest": "$1,633M (Q1 FY26, +158% from Q1 FY24)",
+      "verdict": "2.6x in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "+21% (Q1 FY24)",
+      "latest": "+84.7% (Q1 FY26)",
+      "verdict": "Accelerating",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "12.75% (Q1 FY24)",
+      "latest": "46.18% (Q1 FY26)",
+      "verdict": "+33.4pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "16.59% (Q1 FY24)",
+      "latest": "53.32% (Q1 FY26)",
+      "verdict": "Elite",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "FCF margin",
+      "baseline": "20.0% (Q1 FY24)",
+      "latest": "54.62% (Q1 FY26)",
+      "verdict": "Best-in-class SaaS",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "EPS (Quarterly Diluted)",
+      "baseline": "$0.04 (Q1 FY24)",
+      "latest": "$0.34 (Q1 FY26, +750%)",
+      "verdict": "8.5x in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS (next-Q guidance accuracy)",
+      "baseline": "50% random",
+      "latest": "100% (8 beats / 8 claims)",
+      "verdict": "Highest in coverage",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Rule of 40 (FY26 guide)",
+      "baseline": "40% standard",
+      "latest": "129%",
+      "verdict": "3.2x standard",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Stock vs 52w high",
+      "baseline": "$207.52 (Nov 3 2025)",
+      "latest": "$137.80 (May 8 2026)",
+      "verdict": "-33.6% drawdown",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation P/E FY1",
+      "baseline": "Peer median 37.87x",
+      "latest": "PLTR 95.43x",
+      "verdict": "+152% premium",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "Palantir is the highest-conviction operational story in coverage — 8/8 MCS, +85% accelerating revenue growth, 46% operating margins, Rule-of-40 of 129% — but it is also the most expensive (P/E FY1 95×, +152% premium vs Software peers). The 33.6% drawdown from November 2025 highs has reduced near-term technical risk but the bearish MACD/SMA cross is still active. Sell-side target $189.46 = +38.4% upside reflects analyst caution on valuation. Key catalyst: Q2 FY26 ER on Aug 10, 2026, where a $1.8B+ guide and FY26 raise above $7.66B midpoint would defend the multiple. A guide miss or deceleration to <50% YoY growth would compress the multiple meaningfully. Tactical bias: BULLISH on operational quality, MIXED on entry timing given valuation; scale-in below $130 looks favorable risk/reward.",
+  "disclaimer": "Quoted statements verbatim from PLTR earnings calls in /PLTR/Transcripts/ directory. Fundamentals from EDGAR XBRL companyfacts (CIK 0001321655). FactSet peer data captured 2026-05-12. Not investment advice."
+}

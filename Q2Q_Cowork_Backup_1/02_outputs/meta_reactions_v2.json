@@ -1,0 +1,92 @@
+{
+  "2024-04-24": {
+    "day_before_date": "2024-04-23",
+    "day_before_close": 496.1,
+    "day_of_date": "2024-04-24",
+    "day_of_close": 493.5,
+    "day_after_date": "2024-04-25",
+    "day_after_close": 441.38,
+    "reaction_pct": -10.56,
+    "pre_to_post_pct": -11.03
+  },
+  "2024-07-31": {
+    "day_before_date": "2024-07-30",
+    "day_before_close": 463.19,
+    "day_of_date": "2024-07-31",
+    "day_of_close": 474.83,
+    "day_after_date": "2024-08-01",
+    "day_after_close": 497.74,
+    "reaction_pct": 4.82,
+    "pre_to_post_pct": 7.46
+  },
+  "2024-10-30": {
+    "day_before_date": "2024-10-29",
+    "day_before_close": 593.28,
+    "day_of_date": "2024-10-30",
+    "day_of_close": 591.8,
+    "day_after_date": "2024-10-31",
+    "day_after_close": 567.58,
+    "reaction_pct": -4.09,
+    "pre_to_post_pct": -4.33
+  },
+  "2025-01-29": {
+    "day_before_date": "2025-01-28",
+    "day_before_close": 674.33,
+    "day_of_date": "2025-01-29",
+    "day_of_close": 676.49,
+    "day_after_date": "2025-01-30",
+    "day_after_close": 687.0,
+    "reaction_pct": 1.55,
+    "pre_to_post_pct": 1.88
+  },
+  "2025-04-30": {
+    "day_before_date": "2025-04-29",
+    "day_before_close": 554.44,
+    "day_of_date": "2025-04-30",
+    "day_of_close": 549.0,
+    "day_after_date": "2025-05-01",
+    "day_after_close": 572.21,
+    "reaction_pct": 4.23,
+    "pre_to_post_pct": 3.21
+  },
+  "2025-07-30": {
+    "day_before_date": "2025-07-29",
+    "day_before_close": 700.0,
+    "day_of_date": "2025-07-30",
+    "day_of_close": 695.21,
+    "day_after_date": "2025-07-31",
+    "day_after_close": 773.44,
+    "reaction_pct": 11.25,
+    "pre_to_post_pct": 10.49
+  },
+  "2025-10-29": {
+    "day_before_date": "2025-10-28",
+    "day_before_close": 751.44,
+    "day_of_date": "2025-10-29",
+    "day_of_close": 751.67,
+    "day_after_date": "2025-10-30",
+    "day_after_close": 666.47,
+    "reaction_pct": -11.33,
+    "pre_to_post_pct": -11.31
+  },
+  "2026-01-28": {
+    "day_before_date": "2026-01-27",
+    "day_before_close": 672.97,
+    "day_of_date": "2026-01-28",
+    "day_of_close": 668.73,
+    "day_after_date": "2026-01-29",
+    "day_after_close": 738.31,
+    "reaction_pct": 10.4,
+    "pre_to_post_pct": 9.71
+  },
+  "2026-04-29": {
+    "day_before_date": "2026-04-28",
+    "day_before_close": 671.34,
+    "day_of_date": "2026-04-29",
+    "day_of_close": 669.12,
+    "day_after_date": "2026-04-30",
+    "day_after_close": 611.91,
+    "reaction_pct": -8.55,
+    "pre_to_post_pct": -8.85
+  }
+}

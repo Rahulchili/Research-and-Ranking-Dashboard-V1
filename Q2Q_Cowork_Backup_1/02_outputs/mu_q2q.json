@@ -1,0 +1,1466 @@
+{
+  "metadata": {
+    "ticker": "MU",
+    "generated": "2026-05-10",
+    "method": "Verbatim guidance from MU 8-K press releases (Item 2.02, exhibit 99.1) + actual results from MU/Earnings/*.htm 10-Q/10-K filings (verified vs SEC EDGAR XBRL CIK 0000723125). Stock reactions from user's MU_1_JAN_24_30_APR_26.xlsx (Barchart).",
+    "actuals_source": "SEC EDGAR XBRL \u00b7 MU/Earnings/*.htm 10-Q / 10-K filings",
+    "guidance_source": "MU 8-K press releases (formally issued at quarter close) + MU/Transcripts/*.docx (post-earnings Q&A for color)",
+    "stock_price_source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart export)"
+  },
+  "fy_actuals": {
+    "2023": 15540,
+    "2024": 25111,
+    "2025": 37378
+  },
+  "quarterly_revenue_actuals": {
+    "2024Q1": 4726.0,
+    "2024Q2": 5824.0,
+    "2024Q3": 6811.0,
+    "2024Q4": 7750.0,
+    "2025Q1": 8709.0,
+    "2025Q2": 8053.0,
+    "2025Q3": 9301.0,
+    "2025Q4": 11315.0,
+    "2026Q1": 13643.0,
+    "2026Q2": 23860.0
+  },
+  "q_to_q_pairs": [
+    {
+      "made_in": "FQ2-FY24",
+      "targets": "2024Q3",
+      "target_q_key": "2024Q3",
+      "transcript_source": "MU/Transcripts/MU_ER_Q2_FY24_*.docx + MU 8-K press release",
+      "call_date": "2024-03-20",
+      "next_call_date": "2024-06-26",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 6.4,
+          "guide_high_b": 6.8,
+          "guide_mid_b": 6.6,
+          "actual_b": 6.811,
+          "delta_vs_mid_pct": 3.2,
+          "verdict": "Beat (above range)",
+          "guide_quote": "FQ3-24 Non-GAAP guidance: Revenue $6.60 billion \u00b1 $200 million; Gross margin 26.5% \u00b1 1.5%; Operating expenses $990 million \u00b1 $15 million; Diluted EPS $0.45 \u00b1 $0.07",
+          "guide_source_file": "mu_8k/Q2_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q3_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 25.5,
+          "guide_high_pct": 27.5,
+          "guide_mid_pct": 26.5,
+          "actual_pct": 26.9,
+          "delta_vs_mid_pp": 0.4,
+          "verdict": "In-line",
+          "guide_quote": "FQ guide: gross margin 26.5% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 26.9%.",
+          "guide_source_file": "mu_8k/Q2_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q3_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 0.35,
+          "guide_high_b": 0.55,
+          "guide_mid_b": 0.45,
+          "actual_b": 0.3,
+          "delta_vs_mid_pct": -33.33,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $0.45 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $0.3",
+          "guide_source_file": "mu_8k/Q2_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q3_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 0.975,
+          "guide_high_b": 1.005,
+          "guide_mid_b": 0.99,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $0.99 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q2_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q3_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2024-03-13",
+            "close": 94.16
+          },
+          {
+            "offset": -4,
+            "date": "2024-03-14",
+            "close": 91.43
+          },
+          {
+            "offset": -3,
+            "date": "2024-03-15",
+            "close": 93.25
+          },
+          {
+            "offset": -2,
+            "date": "2024-03-18",
+            "close": 93.78
+          },
+          {
+            "offset": -1,
+            "date": "2024-03-19",
+            "close": 94.0
+          },
+          {
+            "offset": 0,
+            "date": "2024-03-20",
+            "close": 96.25
+          },
+          {
+            "offset": 1,
+            "date": "2024-03-21",
+            "close": 109.85
+          },
+          {
+            "offset": 2,
+            "date": "2024-03-22",
+            "close": 110.21
+          },
+          {
+            "offset": 3,
+            "date": "2024-03-25",
+            "close": 117.13
+          },
+          {
+            "offset": 4,
+            "date": "2024-03-26",
+            "close": 118.8
+          },
+          {
+            "offset": 5,
+            "date": "2024-03-27",
+            "close": 119.25
+          }
+        ],
+        "day_before_date": "2024-03-19",
+        "day_before_close": 94.0,
+        "day_of_date": "2024-03-20",
+        "day_of_close": 96.25,
+        "day_after_date": "2024-03-21",
+        "day_after_close": 109.85,
+        "t_minus_5_date": "2024-03-13",
+        "t_minus_5_close": 94.16,
+        "t_plus_5_date": "2024-03-27",
+        "t_plus_5_close": 119.25,
+        "reaction_1d_pct": 16.86,
+        "reaction_5d_pct": 26.86,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2024Q3",
+        "call_date": "2024-03-20",
+        "stock_reaction_1d_pct": 16.86,
+        "stock_reaction_5d_pct": 26.86,
+        "mcs_pair_accuracy": 0.968,
+        "revenue_guide_low_b": 6.4,
+        "revenue_guide_high_b": 6.8,
+        "revenue_guide_mid_b": 6.6,
+        "revenue_actual_b": 6.811,
+        "revenue_delta_pct": 3.2,
+        "net_margin_actual_pct": 4.87,
+        "eps_actual": 0.3,
+        "verdict_revenue": "Beat (above range)",
+        "gross_margin_actual_pct": 26.9,
+        "operating_margin_actual_pct": 10.56
+      }
+    },
+    {
+      "made_in": "FQ3-FY24",
+      "targets": "2024Q4",
+      "target_q_key": "2024Q4",
+      "transcript_source": "MU/Transcripts/MU_ER_Q3_FY24_*.docx + MU 8-K press release",
+      "call_date": "2024-06-26",
+      "next_call_date": "2024-09-25",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 7.4,
+          "guide_high_b": 7.8,
+          "guide_mid_b": 7.6,
+          "actual_b": 7.75,
+          "delta_vs_mid_pct": 1.97,
+          "verdict": "In-line (in range)",
+          "guide_quote": "FQ4-24 Non-GAAP guidance: Revenue $7.60 billion \u00b1 $200 million; Gross margin 34.5% \u00b1 1.0%; Operating expenses $1.06 billion \u00b1 $15 million; Diluted EPS $1.08 \u00b1 $0.08",
+          "guide_source_file": "mu_8k/Q3_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q4_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 33.5,
+          "guide_high_pct": 35.5,
+          "guide_mid_pct": 34.5,
+          "actual_pct": 35.32,
+          "delta_vs_mid_pp": 0.82,
+          "verdict": "In-line",
+          "guide_quote": "FQ guide: gross margin 34.5% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 35.32%.",
+          "guide_source_file": "mu_8k/Q3_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q4_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 0.9800000000000001,
+          "guide_high_b": 1.1800000000000002,
+          "guide_mid_b": 1.08,
+          "actual_b": 0.79,
+          "delta_vs_mid_pct": -26.85,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $1.08 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $0.79",
+          "guide_source_file": "mu_8k/Q3_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q4_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.045,
+          "guide_high_b": 1.075,
+          "guide_mid_b": 1.06,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.06 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q3_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2024Q4_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2024-06-18",
+            "close": 153.45
+          },
+          {
+            "offset": -4,
+            "date": "2024-06-20",
+            "close": 144.19
+          },
+          {
+            "offset": -3,
+            "date": "2024-06-21",
+            "close": 139.54
+          },
+          {
+            "offset": -2,
+            "date": "2024-06-24",
+            "close": 139.01
+          },
+          {
+            "offset": -1,
+            "date": "2024-06-25",
+            "close": 141.12
+          },
+          {
+            "offset": 0,
+            "date": "2024-06-26",
+            "close": 142.36
+          },
+          {
+            "offset": 1,
+            "date": "2024-06-27",
+            "close": 132.23
+          },
+          {
+            "offset": 2,
+            "date": "2024-06-28",
+            "close": 131.53
+          },
+          {
+            "offset": 3,
+            "date": "2024-07-01",
+            "close": 131.52
+          },
+          {
+            "offset": 4,
+            "date": "2024-07-02",
+            "close": 132.59
+          },
+          {
+            "offset": 5,
+            "date": "2024-07-03",
+            "close": 136.82
+          }
+        ],
+        "day_before_date": "2024-06-25",
+        "day_before_close": 141.12,
+        "day_of_date": "2024-06-26",
+        "day_of_close": 142.36,
+        "day_after_date": "2024-06-27",
+        "day_after_close": 132.23,
+        "t_minus_5_date": "2024-06-18",
+        "t_minus_5_close": 153.45,
+        "t_plus_5_date": "2024-07-03",
+        "t_plus_5_close": 136.82,
+        "reaction_1d_pct": -6.3,
+        "reaction_5d_pct": -3.05,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2024Q4",
+        "call_date": "2024-06-26",
+        "stock_reaction_1d_pct": -6.3,
+        "stock_reaction_5d_pct": -3.05,
+        "mcs_pair_accuracy": 0.9803,
+        "revenue_guide_low_b": 7.4,
+        "revenue_guide_high_b": 7.8,
+        "revenue_guide_mid_b": 7.6,
+        "revenue_actual_b": 7.75,
+        "revenue_delta_pct": 1.97,
+        "net_margin_actual_pct": 11.45,
+        "eps_actual": 0.79,
+        "verdict_revenue": "In-line (in range)",
+        "gross_margin_actual_pct": 35.32,
+        "operating_margin_actual_pct": 19.64
+      }
+    },
+    {
+      "made_in": "FQ4-FY24",
+      "targets": "2025Q1",
+      "target_q_key": "2025Q1",
+      "transcript_source": "MU/Transcripts/MU_ER_Q4_FY24_*.docx + MU 8-K press release",
+      "call_date": "2024-09-25",
+      "next_call_date": "2024-12-18",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 8.5,
+          "guide_high_b": 8.9,
+          "guide_mid_b": 8.7,
+          "actual_b": 8.709,
+          "delta_vs_mid_pct": 0.1,
+          "verdict": "In-line (in range)",
+          "guide_quote": "FQ1-25 Non-GAAP guidance: Revenue $8.70 billion \u00b1 $200 million; Gross margin 39.5% \u00b1 1.0%; Operating expenses $1.085 billion \u00b1 $15 million; Diluted EPS $1.74 \u00b1 $0.08",
+          "guide_source_file": "mu_8k/Q4_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q1_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 38.5,
+          "guide_high_pct": 40.5,
+          "guide_mid_pct": 39.5,
+          "actual_pct": 38.44,
+          "delta_vs_mid_pp": -1.06,
+          "verdict": "Miss",
+          "guide_quote": "FQ guide: gross margin 39.5% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 38.44%.",
+          "guide_source_file": "mu_8k/Q4_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q1_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.64,
+          "guide_high_b": 1.84,
+          "guide_mid_b": 1.74,
+          "actual_b": 1.67,
+          "delta_vs_mid_pct": -4.02,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $1.74 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $1.67",
+          "guide_source_file": "mu_8k/Q4_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q1_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.07,
+          "guide_high_b": 1.1,
+          "guide_mid_b": 1.085,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.08 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q4_FY2024_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q1_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2024-09-18",
+            "close": 87.35
+          },
+          {
+            "offset": -4,
+            "date": "2024-09-19",
+            "close": 89.25
+          },
+          {
+            "offset": -3,
+            "date": "2024-09-20",
+            "close": 90.9
+          },
+          {
+            "offset": -2,
+            "date": "2024-09-23",
+            "close": 93.57
+          },
+          {
+            "offset": -1,
+            "date": "2024-09-24",
+            "close": 94.0
+          },
+          {
+            "offset": 0,
+            "date": "2024-09-25",
+            "close": 95.77
+          },
+          {
+            "offset": 1,
+            "date": "2024-09-26",
+            "close": 109.88
+          },
+          {
+            "offset": 2,
+            "date": "2024-09-27",
+            "close": 107.5
+          },
+          {
+            "offset": 3,
+            "date": "2024-09-30",
+            "close": 103.71
+          },
+          {
+            "offset": 4,
+            "date": "2024-10-01",
+            "close": 100.31
+          },
+          {
+            "offset": 5,
+            "date": "2024-10-02",
+            "close": 99.85
+          }
+        ],
+        "day_before_date": "2024-09-24",
+        "day_before_close": 94.0,
+        "day_of_date": "2024-09-25",
+        "day_of_close": 95.77,
+        "day_after_date": "2024-09-26",
+        "day_after_close": 109.88,
+        "t_minus_5_date": "2024-09-18",
+        "t_minus_5_close": 87.35,
+        "t_plus_5_date": "2024-10-02",
+        "t_plus_5_close": 99.85,
+        "reaction_1d_pct": 16.89,
+        "reaction_5d_pct": 6.22,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2025Q1",
+        "call_date": "2024-09-25",
+        "stock_reaction_1d_pct": 16.89,
+        "stock_reaction_5d_pct": 6.22,
+        "mcs_pair_accuracy": 0.999,
+        "revenue_guide_low_b": 8.5,
+        "revenue_guide_high_b": 8.9,
+        "revenue_guide_mid_b": 8.7,
+        "revenue_actual_b": 8.709,
+        "revenue_delta_pct": 0.1,
+        "net_margin_actual_pct": 21.47,
+        "eps_actual": 1.67,
+        "verdict_revenue": "In-line (in range)",
+        "gross_margin_actual_pct": 38.44,
+        "operating_margin_actual_pct": 24.96,
+        "net_margin_yoy_pp": 47.58,
+        "eps_yoy_pct": -249.11
+      }
+    },
+    {
+      "made_in": "FQ1-FY25",
+      "targets": "2025Q2",
+      "target_q_key": "2025Q2",
+      "transcript_source": "MU/Transcripts/MU_ER_Q1_FY25_*.docx + MU 8-K press release",
+      "call_date": "2024-12-18",
+      "next_call_date": "2025-03-20",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 7.7,
+          "guide_high_b": 8.1,
+          "guide_mid_b": 7.9,
+          "actual_b": 8.053,
+          "delta_vs_mid_pct": 1.94,
+          "verdict": "In-line (in range)",
+          "guide_quote": "FQ2-25 Non-GAAP guidance: Revenue $7.90 billion \u00b1 $200 million; Gross margin 38.5% \u00b1 1.0%; Operating expenses $1.10 billion \u00b1 $15 million; Diluted EPS $1.43 \u00b1 $0.10",
+          "guide_source_file": "mu_8k/Q1_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q2_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 37.5,
+          "guide_high_pct": 39.5,
+          "guide_mid_pct": 38.5,
+          "actual_pct": 36.79,
+          "delta_vs_mid_pp": -1.71,
+          "verdict": "Miss",
+          "guide_quote": "FQ guide: gross margin 38.5% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 36.79%.",
+          "guide_source_file": "mu_8k/Q1_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q2_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.3299999999999998,
+          "guide_high_b": 1.53,
+          "guide_mid_b": 1.43,
+          "actual_b": 1.41,
+          "delta_vs_mid_pct": -1.4,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $1.43 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $1.41",
+          "guide_source_file": "mu_8k/Q1_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q2_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.085,
+          "guide_high_b": 1.115,
+          "guide_mid_b": 1.1,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.10 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q1_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q2_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2024-12-11",
+            "close": 102.055
+          },
+          {
+            "offset": -4,
+            "date": "2024-12-12",
+            "close": 98.24
+          },
+          {
+            "offset": -3,
+            "date": "2024-12-13",
+            "close": 102.5
+          },
+          {
+            "offset": -2,
+            "date": "2024-12-16",
+            "close": 108.26
+          },
+          {
+            "offset": -1,
+            "date": "2024-12-17",
+            "close": 108.6
+          },
+          {
+            "offset": 0,
+            "date": "2024-12-18",
+            "close": 103.9
+          },
+          {
+            "offset": 1,
+            "date": "2024-12-19",
+            "close": 87.09
+          },
+          {
+            "offset": 2,
+            "date": "2024-12-20",
+            "close": 90.12
+          },
+          {
+            "offset": 3,
+            "date": "2024-12-23",
+            "close": 89.72
+          },
+          {
+            "offset": 4,
+            "date": "2024-12-24",
+            "close": 89.28
+          },
+          {
+            "offset": 5,
+            "date": "2024-12-26",
+            "close": 89.82
+          }
+        ],
+        "day_before_date": "2024-12-17",
+        "day_before_close": 108.6,
+        "day_of_date": "2024-12-18",
+        "day_of_close": 103.9,
+        "day_after_date": "2024-12-19",
+        "day_after_close": 87.09,
+        "t_minus_5_date": "2024-12-11",
+        "t_minus_5_close": 102.055,
+        "t_plus_5_date": "2024-12-26",
+        "t_plus_5_close": 89.82,
+        "reaction_1d_pct": -19.81,
+        "reaction_5d_pct": -17.29,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2025Q2",
+        "call_date": "2024-12-18",
+        "stock_reaction_1d_pct": -19.81,
+        "stock_reaction_5d_pct": -17.29,
+        "mcs_pair_accuracy": 0.9806,
+        "revenue_guide_low_b": 7.7,
+        "revenue_guide_high_b": 8.1,
+        "revenue_guide_mid_b": 7.9,
+        "revenue_actual_b": 8.053,
+        "revenue_delta_pct": 1.94,
+        "net_margin_actual_pct": 19.66,
+        "eps_actual": 1.41,
+        "verdict_revenue": "In-line (in range)",
+        "gross_margin_actual_pct": 36.79,
+        "operating_margin_actual_pct": 22.02,
+        "net_margin_yoy_pp": 6.04,
+        "eps_yoy_pct": 98.59
+      }
+    },
+    {
+      "made_in": "FQ2-FY25",
+      "targets": "2025Q3",
+      "target_q_key": "2025Q3",
+      "transcript_source": "MU/Transcripts/MU_ER_Q2_FY25_*.docx + MU 8-K press release",
+      "call_date": "2025-03-20",
+      "next_call_date": "2025-06-25",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 8.6,
+          "guide_high_b": 9.0,
+          "guide_mid_b": 8.8,
+          "actual_b": 9.301,
+          "delta_vs_mid_pct": 5.69,
+          "verdict": "Beat (above range)",
+          "guide_quote": "FQ3-25 Non-GAAP guidance: Revenue $8.80 billion \u00b1 $200 million; Gross margin 36.5% \u00b1 1.0%; Operating expenses $1.13 billion \u00b1 $15 million; Diluted EPS $1.57 \u00b1 $0.10",
+          "guide_source_file": "mu_8k/Q2_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q3_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 35.5,
+          "guide_high_pct": 37.5,
+          "guide_mid_pct": 36.5,
+          "actual_pct": 37.72,
+          "delta_vs_mid_pp": 1.22,
+          "verdict": "Beat",
+          "guide_quote": "FQ guide: gross margin 36.5% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 37.72%.",
+          "guide_source_file": "mu_8k/Q2_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q3_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.47,
+          "guide_high_b": 1.6700000000000002,
+          "guide_mid_b": 1.57,
+          "actual_b": 1.68,
+          "delta_vs_mid_pct": 7.01,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $1.57 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $1.68",
+          "guide_source_file": "mu_8k/Q2_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q3_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.115,
+          "guide_high_b": 1.145,
+          "guide_mid_b": 1.13,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.13 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q2_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q3_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2025-03-13",
+            "close": 94.88
+          },
+          {
+            "offset": -4,
+            "date": "2025-03-14",
+            "close": 100.79
+          },
+          {
+            "offset": -3,
+            "date": "2025-03-17",
+            "close": 103.11
+          },
+          {
+            "offset": -2,
+            "date": "2025-03-18",
+            "close": 101.72
+          },
+          {
+            "offset": -1,
+            "date": "2025-03-19",
+            "close": 102.06
+          },
+          {
+            "offset": 0,
+            "date": "2025-03-20",
+            "close": 103.0
+          },
+          {
+            "offset": 1,
+            "date": "2025-03-21",
+            "close": 94.72
+          },
+          {
+            "offset": 2,
+            "date": "2025-03-24",
+            "close": 96.94
+          },
+          {
+            "offset": 3,
+            "date": "2025-03-25",
+            "close": 94.18
+          },
+          {
+            "offset": 4,
+            "date": "2025-03-26",
+            "close": 92.13
+          },
+          {
+            "offset": 5,
+            "date": "2025-03-27",
+            "close": 91.16
+          }
+        ],
+        "day_before_date": "2025-03-19",
+        "day_before_close": 102.06,
+        "day_of_date": "2025-03-20",
+        "day_of_close": 103.0,
+        "day_after_date": "2025-03-21",
+        "day_after_close": 94.72,
+        "t_minus_5_date": "2025-03-13",
+        "t_minus_5_close": 94.88,
+        "t_plus_5_date": "2025-03-27",
+        "t_plus_5_close": 91.16,
+        "reaction_1d_pct": -7.19,
+        "reaction_5d_pct": -10.68,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2025Q3",
+        "call_date": "2025-03-20",
+        "stock_reaction_1d_pct": -7.19,
+        "stock_reaction_5d_pct": -10.68,
+        "mcs_pair_accuracy": 0.9431,
+        "revenue_guide_low_b": 8.6,
+        "revenue_guide_high_b": 9.0,
+        "revenue_guide_mid_b": 8.8,
+        "revenue_actual_b": 9.301,
+        "revenue_delta_pct": 5.69,
+        "net_margin_actual_pct": 20.27,
+        "eps_actual": 1.68,
+        "verdict_revenue": "Beat (above range)",
+        "gross_margin_actual_pct": 37.72,
+        "operating_margin_actual_pct": 23.32,
+        "net_margin_yoy_pp": 15.4,
+        "eps_yoy_pct": 460.0
+      }
+    },
+    {
+      "made_in": "FQ3-FY25",
+      "targets": "2025Q4",
+      "target_q_key": "2025Q4",
+      "transcript_source": "MU/Transcripts/MU_ER_Q3_FY25_*.docx + MU 8-K press release",
+      "call_date": "2025-06-25",
+      "next_call_date": "2025-09-23",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 10.4,
+          "guide_high_b": 11.0,
+          "guide_mid_b": 10.7,
+          "actual_b": 11.315,
+          "delta_vs_mid_pct": 5.75,
+          "verdict": "Beat (above range)",
+          "guide_quote": "FQ4-25 Non-GAAP guidance: Revenue $10.7 billion \u00b1 $300 million; Gross margin 42.0% \u00b1 1.0%; Operating expenses $1.20 billion \u00b1 $20 million; Diluted EPS $2.50 \u00b1 $0.15",
+          "guide_source_file": "mu_8k/Q3_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q4_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 41.0,
+          "guide_high_pct": 43.0,
+          "guide_mid_pct": 42.0,
+          "actual_pct": 44.67,
+          "delta_vs_mid_pp": 2.67,
+          "verdict": "Beat",
+          "guide_quote": "FQ guide: gross margin 42.0% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 44.67%.",
+          "guide_source_file": "mu_8k/Q3_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q4_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 2.4,
+          "guide_high_b": 2.6,
+          "guide_mid_b": 2.5,
+          "actual_b": 2.85,
+          "delta_vs_mid_pct": 14.0,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $2.5 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $2.85",
+          "guide_source_file": "mu_8k/Q3_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q4_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.185,
+          "guide_high_b": 1.215,
+          "guide_mid_b": 1.2,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.20 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q3_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2025Q4_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2025-06-17",
+            "close": 120.34
+          },
+          {
+            "offset": -4,
+            "date": "2025-06-18",
+            "close": 121.82
+          },
+          {
+            "offset": -3,
+            "date": "2025-06-20",
+            "close": 123.6
+          },
+          {
+            "offset": -2,
+            "date": "2025-06-23",
+            "close": 122.08
+          },
+          {
+            "offset": -1,
+            "date": "2025-06-24",
+            "close": 127.91
+          },
+          {
+            "offset": 0,
+            "date": "2025-06-25",
+            "close": 127.25
+          },
+          {
+            "offset": 1,
+            "date": "2025-06-26",
+            "close": 126.0
+          },
+          {
+            "offset": 2,
+            "date": "2025-06-27",
+            "close": 124.76
+          },
+          {
+            "offset": 3,
+            "date": "2025-06-30",
+            "close": 123.25
+          },
+          {
+            "offset": 4,
+            "date": "2025-07-01",
+            "close": 120.89
+          },
+          {
+            "offset": 5,
+            "date": "2025-07-02",
+            "close": 121.74
+          }
+        ],
+        "day_before_date": "2025-06-24",
+        "day_before_close": 127.91,
+        "day_of_date": "2025-06-25",
+        "day_of_close": 127.25,
+        "day_after_date": "2025-06-26",
+        "day_after_close": 126.0,
+        "t_minus_5_date": "2025-06-17",
+        "t_minus_5_close": 120.34,
+        "t_plus_5_date": "2025-07-02",
+        "t_plus_5_close": 121.74,
+        "reaction_1d_pct": -1.49,
+        "reaction_5d_pct": -4.82,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2025Q4",
+        "call_date": "2025-06-25",
+        "stock_reaction_1d_pct": -1.49,
+        "stock_reaction_5d_pct": -4.82,
+        "mcs_pair_accuracy": 0.9425,
+        "revenue_guide_low_b": 10.4,
+        "revenue_guide_high_b": 11.0,
+        "revenue_guide_mid_b": 10.7,
+        "revenue_actual_b": 11.315,
+        "revenue_delta_pct": 5.75,
+        "net_margin_actual_pct": 28.29,
+        "eps_actual": 2.85,
+        "verdict_revenue": "Beat (above range)",
+        "gross_margin_actual_pct": 44.67,
+        "operating_margin_actual_pct": 32.29,
+        "net_margin_yoy_pp": 16.84,
+        "eps_yoy_pct": 260.76
+      }
+    },
+    {
+      "made_in": "FQ4-FY25",
+      "targets": "2026Q1",
+      "target_q_key": "2026Q1",
+      "transcript_source": "MU/Transcripts/MU_ER_Q4_FY25_*.docx + MU 8-K press release",
+      "call_date": "2025-09-23",
+      "next_call_date": "2025-12-17",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 12.2,
+          "guide_high_b": 12.8,
+          "guide_mid_b": 12.5,
+          "actual_b": 13.643,
+          "delta_vs_mid_pct": 9.14,
+          "verdict": "Beat (above range)",
+          "guide_quote": "FQ1-26 Non-GAAP guidance: Revenue $12.50 billion \u00b1 $300 million; Gross margin 51.5% \u00b1 1.0%; Operating expenses $1.34 billion \u00b1 $20 million; Diluted EPS $3.75 \u00b1 $0.15",
+          "guide_source_file": "mu_8k/Q4_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q1_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 50.5,
+          "guide_high_pct": 52.5,
+          "guide_mid_pct": 51.5,
+          "actual_pct": 56.04,
+          "delta_vs_mid_pp": 4.54,
+          "verdict": "Beat",
+          "guide_quote": "FQ guide: gross margin 51.5% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 56.04%.",
+          "guide_source_file": "mu_8k/Q4_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q1_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 3.65,
+          "guide_high_b": 3.85,
+          "guide_mid_b": 3.75,
+          "actual_b": 4.6,
+          "delta_vs_mid_pct": 22.67,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $3.75 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $4.6",
+          "guide_source_file": "mu_8k/Q4_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q1_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.325,
+          "guide_high_b": 1.355,
+          "guide_mid_b": 1.34,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.34 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q4_FY2025_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q1_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2025-09-16",
+            "close": 158.82
+          },
+          {
+            "offset": -4,
+            "date": "2025-09-17",
+            "close": 159.99
+          },
+          {
+            "offset": -3,
+            "date": "2025-09-18",
+            "close": 168.89
+          },
+          {
+            "offset": -2,
+            "date": "2025-09-19",
+            "close": 162.73
+          },
+          {
+            "offset": -1,
+            "date": "2025-09-22",
+            "close": 164.62
+          },
+          {
+            "offset": 0,
+            "date": "2025-09-23",
+            "close": 166.41
+          },
+          {
+            "offset": 1,
+            "date": "2025-09-24",
+            "close": 161.71
+          },
+          {
+            "offset": 2,
+            "date": "2025-09-25",
+            "close": 156.83
+          },
+          {
+            "offset": 3,
+            "date": "2025-09-26",
+            "close": 157.27
+          },
+          {
+            "offset": 4,
+            "date": "2025-09-29",
+            "close": 163.9
+          },
+          {
+            "offset": 5,
+            "date": "2025-09-30",
+            "close": 167.32
+          }
+        ],
+        "day_before_date": "2025-09-22",
+        "day_before_close": 164.62,
+        "day_of_date": "2025-09-23",
+        "day_of_close": 166.41,
+        "day_after_date": "2025-09-24",
+        "day_after_close": 161.71,
+        "t_minus_5_date": "2025-09-16",
+        "t_minus_5_close": 158.82,
+        "t_plus_5_date": "2025-09-30",
+        "t_plus_5_close": 167.32,
+        "reaction_1d_pct": -1.77,
+        "reaction_5d_pct": 1.64,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2026Q1",
+        "call_date": "2025-09-23",
+        "stock_reaction_1d_pct": -1.77,
+        "stock_reaction_5d_pct": 1.64,
+        "mcs_pair_accuracy": 0.9086,
+        "revenue_guide_low_b": 12.2,
+        "revenue_guide_high_b": 12.8,
+        "revenue_guide_mid_b": 12.5,
+        "revenue_actual_b": 13.643,
+        "revenue_delta_pct": 9.14,
+        "net_margin_actual_pct": 38.41,
+        "eps_actual": 4.6,
+        "verdict_revenue": "Beat (above range)",
+        "gross_margin_actual_pct": 56.04,
+        "operating_margin_actual_pct": 44.98,
+        "net_margin_yoy_pp": 16.94,
+        "eps_yoy_pct": 175.45
+      }
+    },
+    {
+      "made_in": "FQ1-FY26",
+      "targets": "2026Q2",
+      "target_q_key": "2026Q2",
+      "transcript_source": "MU/Transcripts/MU_ER_Q1_FY26_*.docx + MU 8-K press release",
+      "call_date": "2025-12-17",
+      "next_call_date": "2026-03-18",
+      "narrative": "",
+      "line_items": [
+        {
+          "metric": "Revenue (next-quarter, non-GAAP)",
+          "metric_kind": "revenue",
+          "guide_low_b": 18.3,
+          "guide_high_b": 19.1,
+          "guide_mid_b": 18.7,
+          "actual_b": 23.86,
+          "delta_vs_mid_pct": 27.59,
+          "verdict": "Beat (above range)",
+          "guide_quote": "FQ2-26 Non-GAAP guidance: Revenue $18.70 billion \u00b1 $400 million; Gross margin 68.0% \u00b1 1.0%; Operating expenses $1.38 billion \u00b1 $20 million; Diluted EPS $8.42 \u00b1 $0.20",
+          "guide_source_file": "mu_8k/Q1_FY2026_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q2_*.htm (10-Q/10-K)",
+          "horizon": "Next fiscal quarter (Q+1 \u2014 Mark Murphy CFO press release)"
+        },
+        {
+          "metric": "Non-GAAP gross margin (next-quarter)",
+          "metric_kind": "fy_tax",
+          "guide_low_pct": 67.0,
+          "guide_high_pct": 69.0,
+          "guide_mid_pct": 68.0,
+          "actual_pct": 74.41,
+          "delta_vs_mid_pp": 6.41,
+          "verdict": "Beat",
+          "guide_quote": "FQ guide: gross margin 68.0% \u00b1 1.0% (non-GAAP). Actual reported gross margin (GAAP, from 10-Q): 74.41%.",
+          "guide_source_file": "mu_8k/Q1_FY2026_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q2_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Diluted EPS (next-quarter, non-GAAP)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 8.32,
+          "guide_high_b": 8.52,
+          "guide_mid_b": 8.42,
+          "actual_b": 12.07,
+          "delta_vs_mid_pct": 43.35,
+          "verdict": "Pending GAAP/non-GAAP reconciliation",
+          "guide_quote": "FQ guide: diluted EPS $8.42 \u00b1 $0.10 (non-GAAP). Actual reported diluted EPS (GAAP, 10-Q): $12.07",
+          "guide_source_file": "mu_8k/Q1_FY2026_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q2_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        },
+        {
+          "metric": "Non-GAAP operating expenses (next-quarter)",
+          "metric_kind": "fy_expense",
+          "guide_low_b": 1.365,
+          "guide_high_b": 1.395,
+          "guide_mid_b": 1.38,
+          "actual_b": null,
+          "delta_vs_mid_pct": null,
+          "verdict": "Reconciliation pending \u2014 see 10-Q",
+          "guide_quote": "FQ guide: non-GAAP operating expenses $1.38 billion \u00b1 $15 million.",
+          "guide_source_file": "mu_8k/Q1_FY2026_press_release.htm",
+          "actual_source_filing": "MU/Earnings/MU_FY2026Q2_*.htm",
+          "horizon": "Next fiscal quarter (Q+1)"
+        }
+      ],
+      "stock_reaction": {
+        "series": [
+          {
+            "offset": -5,
+            "date": "2025-12-10",
+            "close": 263.71
+          },
+          {
+            "offset": -4,
+            "date": "2025-12-11",
+            "close": 258.46
+          },
+          {
+            "offset": -3,
+            "date": "2025-12-12",
+            "close": 241.14
+          },
+          {
+            "offset": -2,
+            "date": "2025-12-15",
+            "close": 237.5
+          },
+          {
+            "offset": -1,
+            "date": "2025-12-16",
+            "close": 232.51
+          },
+          {
+            "offset": 0,
+            "date": "2025-12-17",
+            "close": 225.52
+          },
+          {
+            "offset": 1,
+            "date": "2025-12-18",
+            "close": 248.55
+          },
+          {
+            "offset": 2,
+            "date": "2025-12-19",
+            "close": 265.92
+          },
+          {
+            "offset": 3,
+            "date": "2025-12-22",
+            "close": 276.59
+          },
+          {
+            "offset": 4,
+            "date": "2025-12-23",
+            "close": 276.27
+          },
+          {
+            "offset": 5,
+            "date": "2025-12-24",
+            "close": 286.68
+          }
+        ],
+        "day_before_date": "2025-12-16",
+        "day_before_close": 232.51,
+        "day_of_date": "2025-12-17",
+        "day_of_close": 225.52,
+        "day_after_date": "2025-12-18",
+        "day_after_close": 248.55,
+        "t_minus_5_date": "2025-12-10",
+        "t_minus_5_close": 263.71,
+        "t_plus_5_date": "2025-12-24",
+        "t_plus_5_close": 286.68,
+        "reaction_1d_pct": 6.9,
+        "reaction_5d_pct": 23.3,
+        "pre_5d_run_pct": null,
+        "source": "MU/Stock Price Data/MU_1_JAN_24_30_APR_26.xlsx (Barchart)"
+      },
+      "summary_metrics": {
+        "target_q": "2026Q2",
+        "call_date": "2025-12-17",
+        "stock_reaction_1d_pct": 6.9,
+        "stock_reaction_5d_pct": 23.3,
+        "mcs_pair_accuracy": 0.7241,
+        "revenue_guide_low_b": 18.3,
+        "revenue_guide_high_b": 19.1,
+        "revenue_guide_mid_b": 18.7,
+        "revenue_actual_b": 23.86,
+        "revenue_delta_pct": 27.59,
+        "net_margin_actual_pct": 57.77,
+        "eps_actual": 12.07,
+        "verdict_revenue": "Beat (above range)",
+        "gross_margin_actual_pct": 74.41,
+        "operating_margin_actual_pct": 67.62,
+        "net_margin_yoy_pp": 38.11,
+        "eps_yoy_pct": 756.03
+      }
+    }
+  ],
+  "stock_prices_available": true,
+  "stock_prices_source": "MU_1_JAN_24_30_APR_26.xlsx",
+  "stock_prices_provider": "Barchart",
+  "spot_latest": 517.16,
+  "spot_date": "2026-04-30",
+  "high_52w": 524.56,
+  "low_52w": 76.95,
+  "summary_metrics": [
+    {
+      "period": "2024Q1",
+      "label": "FY2024 Q1",
+      "revenue_M": 4726.0,
+      "rev_yoy_pct": null,
+      "gross_margin_pct": -0.74,
+      "operating_margin_pct": -23.87,
+      "net_margin_pct": -26.11,
+      "eps_diluted": -1.12,
+      "eps_yoy_pct": null,
+      "ocf_M": 1401.0,
+      "capex_M": 1796.0,
+      "fcf_M": -395.0,
+      "rd_M": 845.0,
+      "rd_intensity_pct": 17.88
+    },
+    {
+      "period": "2024Q2",
+      "label": "FY2024 Q2",
+      "revenue_M": 5824.0,
+      "rev_yoy_pct": null,
+      "gross_margin_pct": 18.53,
+      "operating_margin_pct": 3.28,
+      "net_margin_pct": 13.62,
+      "eps_diluted": 0.71,
+      "eps_yoy_pct": null,
+      "ocf_M": 1219.0,
+      "capex_M": 1384.0,
+      "fcf_M": -165.0,
+      "rd_M": 832.0,
+      "rd_intensity_pct": 14.29
+    },
+    {
+      "period": "2024Q3",
+      "label": "FY2024 Q3",
+      "revenue_M": 6811.0,
+      "rev_yoy_pct": null,
+      "gross_margin_pct": 26.9,
+      "operating_margin_pct": 10.56,
+      "net_margin_pct": 4.87,
+      "eps_diluted": 0.3,
+      "eps_yoy_pct": null,
+      "ocf_M": 2482.0,
+      "capex_M": 2086.0,
+      "fcf_M": 396.0,
+      "rd_M": 850.0,
+      "rd_intensity_pct": 12.48
+    },
+    {
+      "period": "2024Q4",
+      "label": "FY2024 Q4",
+      "revenue_M": 7750.0,
+      "rev_yoy_pct": null,
+      "gross_margin_pct": 35.32,
+      "operating_margin_pct": 19.64,
+      "net_margin_pct": 11.45,
+      "eps_diluted": 0.79,
+      "eps_yoy_pct": null,
+      "ocf_M": 3405.0,
+      "capex_M": 3120.0,
+      "fcf_M": 285.0,
+      "rd_M": 903.0,
+      "rd_intensity_pct": 11.65
+    },
+    {
+      "period": "2025Q1",
+      "label": "FY2025 Q1",
+      "revenue_M": 8709.0,
+      "rev_yoy_pct": 84.28,
+      "gross_margin_pct": 38.44,
+      "operating_margin_pct": 24.96,
+      "net_margin_pct": 21.47,
+      "eps_diluted": 1.67,
+      "eps_yoy_pct": -249.11,
+      "ocf_M": 3244.0,
+      "capex_M": 3206.0,
+      "fcf_M": 38.0,
+      "rd_M": 888.0,
+      "rd_intensity_pct": 10.2
+    },
+    {
+      "period": "2025Q2",
+      "label": "FY2025 Q2",
+      "revenue_M": 8053.0,
+      "rev_yoy_pct": 38.27,
+      "gross_margin_pct": 36.79,
+      "operating_margin_pct": 22.02,
+      "net_margin_pct": 19.66,
+      "eps_diluted": 1.41,
+      "eps_yoy_pct": 98.59,
+      "ocf_M": 3942.0,
+      "capex_M": 4055.0,
+      "fcf_M": -113.0,
+      "rd_M": 898.0,
+      "rd_intensity_pct": 11.15
+    },
+    {
+      "period": "2025Q3",
+      "label": "FY2025 Q3",
+      "revenue_M": 9301.0,
+      "rev_yoy_pct": 36.56,
+      "gross_margin_pct": 37.72,
+      "operating_margin_pct": 23.32,
+      "net_margin_pct": 20.27,
+      "eps_diluted": 1.68,
+      "eps_yoy_pct": 460.0,
+      "ocf_M": 4609.0,
+      "capex_M": 2938.0,
+      "fcf_M": 1671.0,
+      "rd_M": 965.0,
+      "rd_intensity_pct": 10.38
+    },
+    {
+      "period": "2025Q4",
+      "label": "FY2025 Q4",
+      "revenue_M": 11315.0,
+      "rev_yoy_pct": 46.0,
+      "gross_margin_pct": 44.67,
+      "operating_margin_pct": 32.29,
+      "net_margin_pct": 28.29,
+      "eps_diluted": 2.85,
+      "eps_yoy_pct": 260.76,
+      "ocf_M": 5730.0,
+      "capex_M": 5658.0,
+      "fcf_M": 72.0,
+      "rd_M": 1047.0,
+      "rd_intensity_pct": 9.25
+    },
+    {
+      "period": "2026Q1",
+      "label": "FY2026 Q1",
+      "revenue_M": 13643.0,
+      "rev_yoy_pct": 56.65,
+      "gross_margin_pct": 56.04,
+      "operating_margin_pct": 44.98,
+      "net_margin_pct": 38.41,
+      "eps_diluted": 4.6,
+      "eps_yoy_pct": 175.45,
+      "ocf_M": 8411.0,
+      "capex_M": 5389.0,
+      "fcf_M": 3022.0,
+      "rd_M": 1171.0,
+      "rd_intensity_pct": 8.58
+    },
+    {
+      "period": "2026Q2",
+      "label": "FY2026 Q2",
+      "revenue_M": 23860.0,
+      "rev_yoy_pct": 196.29,
+      "gross_margin_pct": 74.41,
+      "operating_margin_pct": 67.62,
+      "net_margin_pct": 57.77,
+      "eps_diluted": 12.07,
+      "eps_yoy_pct": 756.03,
+      "ocf_M": 11903.0,
+      "capex_M": 6387.0,
+      "fcf_M": 5516.0,
+      "rd_M": 1250.0,
+      "rd_intensity_pct": 5.24
+    }
+  ]
+}

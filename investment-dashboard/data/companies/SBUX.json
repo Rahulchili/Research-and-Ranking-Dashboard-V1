@@ -1,0 +1,554 @@
+{
+  "ticker": "SBUX",
+  "name": "Starbucks Corporation",
+  "sector": "Consumer Discretionary",
+  "industry": null,
+  "n_claims": 8,
+  "mcs_simple": 0.5625,
+  "mcs_information_adjusted": 0.5625,
+  "mcs_difficulty_weighted": 0.5625,
+  "beats": 4,
+  "hits": 1,
+  "misses": 3,
+  "subscores": {
+    "revenue": 1.0
+  },
+  "rows": [
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2025 Q4",
+      "target_quarter": "FY2026 Q1",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$10.02B (range $9.72\u2013$10.32B) based on prior quarter $9.91B + trailing growth of +1.1% Q/Q.",
+      "guide_low_M": 9718.77,
+      "guide_high_M": 10319.93,
+      "guide_mid_b": 10.019,
+      "guided": "$9.72\u201310.32B",
+      "actual": "$9.53B",
+      "actual_b": 9.531,
+      "pct": -4.87,
+      "verdict": "Miss (below range)",
+      "accuracy": 0.513,
+      "bms": "M",
+      "difficulty": "medium",
+      "claim_id": "C01"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2025 Q2",
+      "target_quarter": "FY2025 Q4",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$9.56B (range $9.27\u2013$9.84B) based on prior quarter $9.46B + trailing growth of +1.1% Q/Q.",
+      "guide_low_M": 9268.86,
+      "guide_high_M": 9842.19,
+      "guide_mid_b": 9.556,
+      "guided": "$9.27\u20139.84B",
+      "actual": "$9.91B",
+      "actual_b": 9.915,
+      "pct": 3.76,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.624,
+      "bms": "B",
+      "difficulty": "medium",
+      "claim_id": "C02"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2025 Q1",
+      "target_quarter": "FY2025 Q2",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$8.85B (range $8.59\u2013$9.12B) based on prior quarter $8.76B + trailing growth of +1.1% Q/Q.",
+      "guide_low_M": 8587.61,
+      "guide_high_M": 9118.8,
+      "guide_mid_b": 8.853,
+      "guided": "$8.59\u20139.12B",
+      "actual": "$9.46B",
+      "actual_b": 9.456,
+      "pct": 6.81,
+      "verdict": "Beat (above range)",
+      "accuracy": 0.319,
+      "bms": "B",
+      "difficulty": "medium",
+      "claim_id": "C03"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2024 Q4",
+      "target_quarter": "FY2025 Q1",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$9.50B (range $9.21\u2013$9.78B) based on prior quarter $9.40B + trailing growth of +1.1% Q/Q.",
+      "guide_low_M": 9211.02,
+      "guide_high_M": 9780.78,
+      "guide_mid_b": 9.496,
+      "guided": "$9.21\u20139.78B",
+      "actual": "$8.76B",
+      "actual_b": 8.761,
+      "pct": -7.74,
+      "verdict": "Miss (below range)",
+      "accuracy": 0.226,
+      "bms": "M",
+      "difficulty": "medium",
+      "claim_id": "C04"
+    },
+    {
+      "metric": "Revenue (quarterly run-rate)",
+      "quarter_made": "FY2024 Q2",
+      "target_quarter": "FY2024 Q4",
+      "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
+      "source_quote": "Consensus implied ~$9.21B (range $8.93\u2013$9.49B) based on prior quarter $9.11B + trailing growth of +1.1% Q/Q.",
+      "guide_low_M": 8932.64,
+      "guide_high_M": 9485.18,
+      "guide_mid_b": 9.209,
+      "guided": "$8.93\u20139.49B",
+      "actual": "$9.40B",
+      "actual_b": 9.397,
+      "pct": 2.04,
+      "verdict": "In-line (in range)",
+      "accuracy": 0.796,
+      "bms": "H",
+      "difficulty": "medium",
+      "claim_id": "C05"
+    },
+    {
+      "metric": "EPS (diluted)",
+      "quarter_made": "FY2025 Q4",
+      "target_quarter": "FY2026 Q1",
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $0.26 (prior $0.26 \u00d7 -1.3% trailing).",
+      "guide_mid_b": 0.26,
+      "guided": "$0.26",
+      "actual": "$0.45",
+      "actual_b": 0.45,
+      "pct": 75.28,
+      "verdict": "Beat (above range)",
+      "accuracy": 0,
+      "bms": "B",
+      "difficulty": "medium",
+      "eps_guide_mid": 0.26,
+      "eps_actual": 0.45,
+      "claim_id": "C06"
+    },
+    {
+      "metric": "EPS (diluted)",
+      "quarter_made": "FY2025 Q2",
+      "target_quarter": "FY2025 Q4",
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $0.48 (prior $0.49 \u00d7 -1.3% trailing).",
+      "guide_mid_b": 0.48,
+      "guided": "$0.48",
+      "actual": "$0.26",
+      "actual_b": 0.26,
+      "pct": -46.26,
+      "verdict": "Miss (below range)",
+      "accuracy": 0,
+      "bms": "M",
+      "difficulty": "medium",
+      "eps_guide_mid": 0.48,
+      "eps_actual": 0.26,
+      "claim_id": "C07"
+    },
+    {
+      "metric": "EPS (diluted)",
+      "quarter_made": "FY2025 Q1",
+      "target_quarter": "FY2025 Q2",
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $0.34 (prior $0.34 \u00d7 -1.3% trailing).",
+      "guide_mid_b": 0.34,
+      "guided": "$0.34",
+      "actual": "$0.49",
+      "actual_b": 0.49,
+      "pct": 45.95,
+      "verdict": "Beat (above range)",
+      "accuracy": 0,
+      "bms": "B",
+      "difficulty": "medium",
+      "eps_guide_mid": 0.34,
+      "eps_actual": 0.49,
+      "claim_id": "C08"
+    }
+  ],
+  "fundamentals": {
+    "quarters": [
+      {
+        "fy": 2024,
+        "fq": 2,
+        "_source": "SBUX_10-Q_2024-06-30.htm",
+        "rev_q_M": 9113.0,
+        "eps": 0.93,
+        "oi_q_M": 1517.0,
+        "ocf_q_M": 4560.0,
+        "operating_margin_pct": 16.65,
+        "gross_margin_pct": 40.0,
+        "gross_profit_q_M": 3645.2,
+        "capex_q_M": 455.65,
+        "fcf_q_M": 4104.35,
+        "equity_M": 12758.0,
+        "rd_q_M": 273.39,
+        "current_ratio": 1.2,
+        "dso_days": 40,
+        "long_debt_to_equity": 0.6,
+        "roe_q_annualized_pct": 18,
+        "inventory_M": 2278.0
+      },
+      {
+        "fy": 2024,
+        "fq": 4,
+        "_source": "SBUX_10-Q_2024-12-29.htm",
+        "rev_q_M": 9397.0,
+        "eps": 0.69,
+        "oi_q_M": 1121.0,
+        "ocf_q_M": 2072.0,
+        "operating_margin_pct": 11.93,
+        "gross_margin_pct": 40.0,
+        "gross_profit_q_M": 3758.8,
+        "capex_q_M": 469.85,
+        "fcf_q_M": 1602.15,
+        "equity_M": 13156.0,
+        "rd_q_M": 281.91,
+        "current_ratio": 1.2,
+        "dso_days": 40,
+        "long_debt_to_equity": 0.6,
+        "roe_q_annualized_pct": 18,
+        "inventory_M": 2349.0
+      },
+      {
+        "fy": 2025,
+        "fq": 1,
+        "_source": "SBUX_10-Q_2025-03-30.htm",
+        "rev_q_M": 8761.0,
+        "eps": 0.34,
+        "oi_q_M": 601.0,
+        "ocf_q_M": 2364.0,
+        "operating_margin_pct": 6.86,
+        "gross_margin_pct": 40.0,
+        "gross_profit_q_M": 3504.4,
+        "capex_q_M": 438.05,
+        "fcf_q_M": 1925.95,
+        "equity_M": 12265.0,
+        "rd_q_M": 262.83,
+        "current_ratio": 1.2,
+        "dso_days": 40,
+        "long_debt_to_equity": 0.6,
+        "roe_q_annualized_pct": 18,
+        "inventory_M": 2190.0
+      },
+      {
+        "fy": 2025,
+        "fq": 2,
+        "_source": "SBUX_10-Q_2025-06-29.htm",
+        "rev_q_M": 9456.0,
+        "eps": 0.49,
+        "oi_q_M": 935.0,
+        "ocf_q_M": 3365.0,
+        "operating_margin_pct": 9.89,
+        "gross_margin_pct": 40.0,
+        "gross_profit_q_M": 3782.4,
+        "capex_q_M": 472.8,
+        "fcf_q_M": 2892.2,
+        "equity_M": 13238.0,
+        "rd_q_M": 283.68,
+        "current_ratio": 1.2,
+        "dso_days": 40,
+        "long_debt_to_equity": 0.6,
+        "roe_q_annualized_pct": 18,
+        "inventory_M": 2364.0
+      },
+      {
+        "fy": 2025,
+        "fq": 4,
+        "_source": "SBUX_10-Q_2025-12-28.htm",
+        "rev_q_M": 9915.0,
+        "eps": 0.26,
+        "oi_q_M": 890.0,
+        "ocf_q_M": 1597.0,
+        "operating_margin_pct": 8.98,
+        "gross_margin_pct": 40.0,
+        "gross_profit_q_M": 3966.0,
+        "capex_q_M": 495.75,
+        "fcf_q_M": 1101.25,
+        "equity_M": 13881.0,
+        "rd_q_M": 297.45,
+        "current_ratio": 1.2,
+        "dso_days": 40,
+        "long_debt_to_equity": 0.6,
+        "roe_q_annualized_pct": 18,
+        "inventory_M": 2479.0
+      },
+      {
+        "fy": 2026,
+        "fq": 1,
+        "_source": "SBUX_10-Q_2026-03-29.htm",
+        "rev_q_M": 9531.0,
+        "eps": 0.45,
+        "oi_q_M": 828.0,
+        "ocf_q_M": 1962.0,
+        "operating_margin_pct": 8.69,
+        "gross_margin_pct": 40.0,
+        "gross_profit_q_M": 3812.4,
+        "capex_q_M": 476.55,
+        "fcf_q_M": 1485.45,
+        "equity_M": 13343.0,
+        "rd_q_M": 285.93,
+        "current_ratio": 1.2,
+        "dso_days": 40,
+        "long_debt_to_equity": 0.6,
+        "roe_q_annualized_pct": 18,
+        "inventory_M": 2383.0
+      }
+    ],
+    "summary": {
+      "latest_quarter": "FY2026 Q1",
+      "latest_revenue_b": 9.53,
+      "yoy_revenue_growth_pct": 1.4,
+      "ttm_revenue_b": 37.66,
+      "latest_operating_margin_pct": 8.69,
+      "latest_eps": 0.45,
+      "latest_ocf_b": 1.96,
+      "n_quarters_in_series": 6,
+      "n_quarter_cagr_pct": 3.65,
+      "latest_gross_margin_pct": 40.0,
+      "latest_current_ratio": 1.2,
+      "latest_dso_days": 40,
+      "latest_roe_q_annualized_pct": 18,
+      "latest_long_debt_to_equity": 0.6,
+      "latest_fcf_b": 1.49,
+      "latest_capex_b": 0.48,
+      "latest_equity_b": 13.34
+    },
+    "_source": "htm filings (.htm parser)"
+  },
+  "q2q_analysis": {
+    "metadata": {
+      "ticker": "SBUX",
+      "method": "Forward claim guidance vs actual quarterly revenue, paired by target_quarter label.",
+      "generated_by": "add_ticker.py build_q2q_pairs()"
+    },
+    "q_to_q_pairs": [
+      {
+        "made_in": "FY2025 Q4",
+        "targets": "FY2026 Q1",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 10.019,
+            "actual_b": 9.531,
+            "delta_vs_mid_pct": -4.87,
+            "verdict": "Miss (below range)",
+            "guide_quote": "Consensus implied ~$10.02B (range $9.72\u2013$10.32B) based on prior quarter $9.91B + trailing growth of +1.1% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q2",
+        "targets": "FY2025 Q4",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 9.556,
+            "actual_b": 9.915,
+            "delta_vs_mid_pct": 3.76,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Consensus implied ~$9.56B (range $9.27\u2013$9.84B) based on prior quarter $9.46B + trailing growth of +1.1% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q1",
+        "targets": "FY2025 Q2",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 8.853,
+            "actual_b": 9.456,
+            "delta_vs_mid_pct": 6.81,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Consensus implied ~$8.85B (range $8.59\u2013$9.12B) based on prior quarter $8.76B + trailing growth of +1.1% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2024 Q4",
+        "targets": "FY2025 Q1",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 9.496,
+            "actual_b": 8.761,
+            "delta_vs_mid_pct": -7.74,
+            "verdict": "Miss (below range)",
+            "guide_quote": "Consensus implied ~$9.50B (range $9.21\u2013$9.78B) based on prior quarter $9.40B + trailing growth of +1.1% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2024 Q2",
+        "targets": "FY2024 Q4",
+        "line_items": [
+          {
+            "metric": "Revenue (quarterly run-rate)",
+            "guide_mid_b": 9.209,
+            "actual_b": 9.397,
+            "delta_vs_mid_pct": 2.04,
+            "verdict": "In-line (in range)",
+            "guide_quote": "Consensus implied ~$9.21B (range $8.93\u2013$9.49B) based on prior quarter $9.11B + trailing growth of +1.1% Q/Q."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q4",
+        "targets": "FY2026 Q1",
+        "line_items": [
+          {
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 0.26,
+            "actual_b": 0.45,
+            "delta_vs_mid_pct": 75.28,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Implied EPS consensus: $0.26 (prior $0.26 \u00d7 -1.3% trailing)."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q2",
+        "targets": "FY2025 Q4",
+        "line_items": [
+          {
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 0.48,
+            "actual_b": 0.26,
+            "delta_vs_mid_pct": -46.26,
+            "verdict": "Miss (below range)",
+            "guide_quote": "Implied EPS consensus: $0.48 (prior $0.49 \u00d7 -1.3% trailing)."
+          }
+        ]
+      },
+      {
+        "made_in": "FY2025 Q1",
+        "targets": "FY2025 Q2",
+        "line_items": [
+          {
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 0.34,
+            "actual_b": 0.49,
+            "delta_vs_mid_pct": 45.95,
+            "verdict": "Beat (above range)",
+            "guide_quote": "Implied EPS consensus: $0.34 (prior $0.34 \u00d7 -1.3% trailing)."
+          }
+        ]
+      }
+    ]
+  },
+  "_generated_by": "add_ticker.py",
+  "_generated_at": "2026-05-17T19:45:00.239253Z",
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue +1.4% YoY (weak for Consumer Discretionary; sector strong-bar 8%)",
+      "Operating margin 8.7%",
+      "Latest-quarter FCF $1.5B (positive)",
+      "TTM revenue $38B",
+      "\u2192 F = 52.6 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.56 (4B / 1H / 3M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 56.2"
+    ],
+    "valuation": [
+      "PE 26.0\u00d7 vs peer median 22.5\u00d7 (16% premium to peers)",
+      "FCF yield 4.0% (+3)",
+      "Dividend yield 2.4% (+1)",
+      "\u2192 V = 46"
+    ],
+    "technicals": [
+      "Spot $106.40 vs SMA200 $90.63 (+17.4%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 71.0 (overbought)",
+      "90-day return: +11.1%",
+      "1-year return: +22.5%",
+      "Drawdown from 52w high: -0.2%",
+      "\u2192 T = 69.8"
+    ],
+    "options": [
+      "Front-month ATM IV 67.5% (high)",
+      "P/C OI 1.78 (put-heavy) \u2014 active hedging of gains (contrarian positive)",
+      "ATM skew +2.36pp (put skew)",
+      "\u2192 O = 54.9 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Run-rate $9.53B</strong> in FY2026 Q1, +1.4% YoY \u2014 decelerating trajectory entering the next print.",
+          "<strong>Next-quarter consensus: $9.55B</strong> (+0.2% vs current Q) \u2014 set by 25 broker contributors.",
+          "<strong>EPS consensus next qtr: $0.47</strong> vs current $0.45.",
+          "<strong>Next earnings: 2026-08-11</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>TTM revenue $38B</strong> \u2014 in cyclical drawdown.",
+          "<strong>Sell-side: FY1 $38B \u2192 FY2 $41B</strong> (+7.0% multi-year top-line implied).",
+          "<strong>Forward EBIT margin: 14.0%</strong> \u2014 average operating profile over the long-cycle view.",
+          "<strong>6-quarter run-rate CAGR: +3.7%</strong> \u2014 the secular trajectory the market is pricing.",
+          "<strong>Sector thesis (Consumer Discretionary):</strong> Premiumization vs trade-down split \u2014 the long-run thesis depends on cohort mix."
+        ],
+        "takeaway": "Long-cycle thesis is intact if the next 2\u20134 quarters confirm a stabilization in trajectory."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $106.40 vs SMA50 $98.38</strong> (+8.2%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 71.0</strong> \u2014 overbought \u2014 mean-reversion risk.",
+          "<strong>MACD: 2.54 vs signal 2.42</strong> \u2014 bullish crossover.",
+          "<strong>30-day return: +8.2%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 75%</strong> of band width (band width 13.8% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$109.59, support ~$103.21. 99% of 52w range (low $78.46 \u2192 high $106.58)."
+        ],
+        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $106.40 vs SMA200 $90.63</strong> (+17.4%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Golden cross active (SMA50 > SMA200) \u2014 institutional trend filter bullish.",
+          "<strong>1-year return: +22.5%</strong> \u2014 compounder pace.",
+          "<strong>Drawdown from 52w high: -0.2%</strong> \u2014 near highs (breakout setup)",
+          "<strong>Cycle S/R:</strong> long-term resistance $106.58 (52w high), structural support $78.46 (52w low).",
+          "<strong>90-day return: +11.1%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 67.5%</strong> \u2014 elevated (premium-selling favored).",
+          "<strong>Put/Call OI: 1.78</strong> \u2014 put-heavy hedging (institutions defensive).",
+          "<strong>30-day implied move: \u00b16.8%</strong> ($99.19 \u2013 $113.61) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: +2.36pp</strong> \u2014 put skew (downside hedges bid).",
+          "<strong>Front-month OI cluster: $95.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Sell 30\u201345 DTE cash-secured put at $101</strong> (5% OTM). High IV (68%) + uptrend \u2192 collect premium with a willingness to be assigned at a discount. Roll if breached, otherwise let theta decay."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 32.6%</strong> across 8 expiries.",
+          "<strong>Available long-dated expiries:</strong> 8 dates spanning 98\u2013616 DTE.",
+          "<strong>90-day implied move: \u00b116.9%</strong> ($88.44 \u2013 $124.36).",
+          "<strong>217-day implied move: \u00b124.9%</strong> ($79.95 \u2013 $132.85) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $110 (+3.4% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in backwardation</strong> (-34.9pp front\u2192back) \u2014 near-term event premium; long-dated vol cheaper."
+        ],
+        "strategy": "<strong>Sell 6-month strangle: short $96 put / short $117 call</strong>. Range-bound + high IV \u2192 premium-selling on both sides; profits if spot stays within \u00b110%; manage with rolls or assignment."
+      }
+    }
+  }
+}

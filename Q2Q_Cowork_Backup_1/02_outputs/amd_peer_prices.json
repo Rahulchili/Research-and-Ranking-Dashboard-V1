@@ -1,0 +1,50 @@
+{
+  "AMD": {
+    "price": 455.19,
+    "prev_close": 360.54,
+    "currency": "USD",
+    "as_of": 1778270400
+  },
+  "NVDA": {
+    "price": 215.2,
+    "prev_close": 198.45,
+    "currency": "USD",
+    "as_of": 1778270402
+  },
+  "INTC": {
+    "price": 124.92,
+    "prev_close": 99.62,
+    "currency": "USD",
+    "as_of": 1778270402
+  },
+  "AVGO": {
+    "price": 430.0,
+    "prev_close": 421.28,
+    "currency": "USD",
+    "as_of": 1778270401
+  },
+  "MRVL": {
+    "price": 170.13,
+    "prev_close": 164.95,
+    "currency": "USD",
+    "as_of": 1778270401
+  },
+  "QCOM": {
+    "price": 219.09,
+    "prev_close": 177.01,
+    "currency": "USD",
+    "as_of": 1778270400
+  },
+  "TXN": {
+    "price": 287.8,
+    "prev_close": 281.02,
+    "currency": "USD",
+    "as_of": 1778270400
+  },
+  "ARM": {
+    "price": 213.27,
+    "prev_close": 211.18,
+    "currency": "USD",
+    "as_of": 1778270401
+  }
+}

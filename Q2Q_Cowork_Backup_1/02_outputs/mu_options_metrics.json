@@ -1,0 +1,378 @@
+{
+  "spot": 746.81,
+  "total_call_oi": 1226671.0,
+  "total_put_oi": 1380091.0,
+  "total_call_vol": 414763.0,
+  "total_put_vol": 326586.0,
+  "pcr_oi": 1.125,
+  "pcr_vol": 0.787,
+  "top_oi_strikes": [
+    {
+      "strike": 400.0,
+      "call_oi": 51826.0,
+      "put_oi": 57788.0,
+      "total": 109614.0
+    },
+    {
+      "strike": 300.0,
+      "call_oi": 13126.0,
+      "put_oi": 58038.0,
+      "total": 71164.0
+    },
+    {
+      "strike": 500.0,
+      "call_oi": 48960.0,
+      "put_oi": 20002.0,
+      "total": 68962.0
+    },
+    {
+      "strike": 450.0,
+      "call_oi": 32015.0,
+      "put_oi": 31803.0,
+      "total": 63818.0
+    },
+    {
+      "strike": 200.0,
+      "call_oi": 10629.0,
+      "put_oi": 47330.0,
+      "total": 57959.0
+    },
+    {
+      "strike": 600.0,
+      "call_oi": 38062.0,
+      "put_oi": 18064.0,
+      "total": 56126.0
+    },
+    {
+      "strike": 350.0,
+      "call_oi": 13441.0,
+      "put_oi": 39394.0,
+      "total": 52835.0
+    },
+    {
+      "strike": 700.0,
+      "call_oi": 48134.0,
+      "put_oi": 3445.0,
+      "total": 51579.0
+    },
+    {
+      "strike": 550.0,
+      "call_oi": 30067.0,
+      "put_oi": 15364.0,
+      "total": 45431.0
+    },
+    {
+      "strike": 370.0,
+      "call_oi": 15624.0,
+      "put_oi": 29236.0,
+      "total": 44860.0
+    }
+  ],
+  "term_structure": [
+    {
+      "expiry": "2026-05-15",
+      "dte": 6,
+      "atm_strike": 747.5,
+      "atm_iv": 79.99
+    },
+    {
+      "expiry": "2026-05-22",
+      "dte": 13,
+      "atm_strike": 745.0,
+      "atm_iv": 83.54
+    },
+    {
+      "expiry": "2026-05-29",
+      "dte": 20,
+      "atm_strike": 750.0,
+      "atm_iv": 80.37
+    },
+    {
+      "expiry": "2026-06-05",
+      "dte": 27,
+      "atm_strike": 750.0,
+      "atm_iv": 80.25
+    },
+    {
+      "expiry": "2026-06-12",
+      "dte": 34,
+      "atm_strike": 750.0,
+      "atm_iv": 80.23
+    },
+    {
+      "expiry": "2026-06-18",
+      "dte": 40,
+      "atm_strike": 750.0,
+      "atm_iv": 80.66
+    },
+    {
+      "expiry": "2026-06-26",
+      "dte": 48,
+      "atm_strike": 750.0,
+      "atm_iv": 83.28
+    },
+    {
+      "expiry": "2026-07-17",
+      "dte": 69,
+      "atm_strike": 750.0,
+      "atm_iv": 82.58
+    },
+    {
+      "expiry": "2026-08-21",
+      "dte": 104,
+      "atm_strike": 750.0,
+      "atm_iv": 81.3
+    },
+    {
+      "expiry": "2026-09-18",
+      "dte": 132,
+      "atm_strike": 750.0,
+      "atm_iv": 80.55
+    },
+    {
+      "expiry": "2026-10-16",
+      "dte": 160,
+      "atm_strike": 740.0,
+      "atm_iv": 81.15
+    },
+    {
+      "expiry": "2026-11-20",
+      "dte": 195,
+      "atm_strike": 750.0,
+      "atm_iv": 80.44
+    },
+    {
+      "expiry": "2026-12-18",
+      "dte": 223,
+      "atm_strike": 750.0,
+      "atm_iv": 79.73
+    },
+    {
+      "expiry": "2027-01-15",
+      "dte": 251,
+      "atm_strike": 750.0,
+      "atm_iv": 79.26
+    },
+    {
+      "expiry": "2027-03-19",
+      "dte": 314,
+      "atm_strike": 750.0,
+      "atm_iv": 78.78
+    },
+    {
+      "expiry": "2027-06-17",
+      "dte": 404,
+      "atm_strike": 750.0,
+      "atm_iv": 77.83
+    },
+    {
+      "expiry": "2027-09-17",
+      "dte": 496,
+      "atm_strike": 750.0,
+      "atm_iv": 77.07
+    },
+    {
+      "expiry": "2027-12-17",
+      "dte": 587,
+      "atm_strike": 750.0,
+      "atm_iv": 76.9
+    },
+    {
+      "expiry": "2028-01-21",
+      "dte": 622,
+      "atm_strike": 750.0,
+      "atm_iv": 76.77
+    },
+    {
+      "expiry": "2028-06-16",
+      "dte": 769,
+      "atm_strike": 750.0,
+      "atm_iv": 75.96
+    },
+    {
+      "expiry": "2028-12-15",
+      "dte": 951,
+      "atm_strike": 750.0,
+      "atm_iv": 75.28
+    }
+  ],
+  "skew_25d_per_expiry": [
+    {
+      "expiry": "2026-05-15",
+      "dte": 6,
+      "skew": -12.27
+    },
+    {
+      "expiry": "2026-05-22",
+      "dte": 13,
+      "skew": -6.55
+    },
+    {
+      "expiry": "2026-05-29",
+      "dte": 20,
+      "skew": -5.07
+    },
+    {
+      "expiry": "2026-06-05",
+      "dte": 27,
+      "skew": -4.21
+    },
+    {
+      "expiry": "2026-06-12",
+      "dte": 34,
+      "skew": -4.43
+    },
+    {
+      "expiry": "2026-06-18",
+      "dte": 40,
+      "skew": -2.35
+    },
+    {
+      "expiry": "2026-06-26",
+      "dte": 48,
+      "skew": -2.7
+    },
+    {
+      "expiry": "2026-07-17",
+      "dte": 69,
+      "skew": -1.75
+    },
+    {
+      "expiry": "2026-08-21",
+      "dte": 104,
+      "skew": -1.91
+    },
+    {
+      "expiry": "2026-09-18",
+      "dte": 132,
+      "skew": -1.13
+    },
+    {
+      "expiry": "2026-10-16",
+      "dte": 160,
+      "skew": -0.88
+    },
+    {
+      "expiry": "2026-11-20",
+      "dte": 195,
+      "skew": -1.36
+    },
+    {
+      "expiry": "2026-12-18",
+      "dte": 223,
+      "skew": -0.98
+    },
+    {
+      "expiry": "2027-01-15",
+      "dte": 251,
+      "skew": -1.37
+    }
+  ],
+  "max_pain_by_exp": [
+    {
+      "expiry": "2026-05-15",
+      "dte": 6,
+      "max_pain": 487.5
+    },
+    {
+      "expiry": "2026-05-22",
+      "dte": 13,
+      "max_pain": 530.0
+    },
+    {
+      "expiry": "2026-05-29",
+      "dte": 20,
+      "max_pain": 520.0
+    },
+    {
+      "expiry": "2026-06-05",
+      "dte": 27,
+      "max_pain": 575.0
+    },
+    {
+      "expiry": "2026-06-12",
+      "dte": 34,
+      "max_pain": 600.0
+    },
+    {
+      "expiry": "2026-06-18",
+      "dte": 40,
+      "max_pain": 400.0
+    },
+    {
+      "expiry": "2026-06-26",
+      "dte": 48,
+      "max_pain": 650.0
+    },
+    {
+      "expiry": "2026-07-17",
+      "dte": 69,
+      "max_pain": 420.0
+    },
+    {
+      "expiry": "2026-08-21",
+      "dte": 104,
+      "max_pain": 400.0
+    },
+    {
+      "expiry": "2026-09-18",
+      "dte": 132,
+      "max_pain": 400.0
+    },
+    {
+      "expiry": "2026-10-16",
+      "dte": 160,
+      "max_pain": 430.0
+    },
+    {
+      "expiry": "2026-11-20",
+      "dte": 195,
+      "max_pain": 440.0
+    },
+    {
+      "expiry": "2026-12-18",
+      "dte": 223,
+      "max_pain": 360.0
+    },
+    {
+      "expiry": "2027-01-15",
+      "dte": 251,
+      "max_pain": 320.0
+    },
+    {
+      "expiry": "2027-03-19",
+      "dte": 314,
+      "max_pain": 480.0
+    },
+    {
+      "expiry": "2027-06-17",
+      "dte": 404,
+      "max_pain": 290.0
+    },
+    {
+      "expiry": "2027-09-17",
+      "dte": 496,
+      "max_pain": 5.0
+    },
+    {
+      "expiry": "2027-12-17",
+      "dte": 587,
+      "max_pain": 100.0
+    },
+    {
+      "expiry": "2028-01-21",
+      "dte": 622,
+      "max_pain": 300.0
+    },
+    {
+      "expiry": "2028-06-16",
+      "dte": 769,
+      "max_pain": 380.0
+    },
+    {
+      "expiry": "2028-12-15",
+      "dte": 951,
+      "max_pain": 300.0
+    }
+  ]
+}

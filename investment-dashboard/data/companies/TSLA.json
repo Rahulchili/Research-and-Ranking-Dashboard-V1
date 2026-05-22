@@ -1,0 +1,267 @@
+{
+  "ticker": "TSLA",
+  "n_claims": 8,
+  "mcs_simple": 0.5625,
+  "mcs_strict": 0.5,
+  "mcs_information_adjusted": 0.5,
+  "mcs_difficulty_weighted": 0.5625,
+  "subscores": {
+    "guide_accuracy_pct": 56.2,
+    "strict_beat_rate_pct": 50
+  },
+  "baseline_random": 0.5,
+  "baseline_always_up": 0.5,
+  "skill_over_baseline": 0.0625,
+  "beats": 4,
+  "hits": 1,
+  "misses": 3,
+  "rows": [
+    {
+      "claim_id": "TSLA_01",
+      "quarter_made": "FY24-Q1",
+      "target_quarter": "FY24-Q2/Q3",
+      "metric": "FSD V12 wide release",
+      "guided": "Wide V12 rollout within months",
+      "actual": "V12.3.x rolled to fleet Q2-Q3 2024",
+      "pct": 0,
+      "bms": 1,
+      "accuracy": 1,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0,
+      "source_quote": "Q1 2024 call (Apr 23 2024): Musk committed to FSD V12 rollout to broader fleet within months.",
+      "transcript": "TSLA_ER_Q1_2024_23-APR-2024.docx",
+      "note": "Milestone HIT \u2014 V12 reached fleet by Q3 2024."
+    },
+    {
+      "claim_id": "TSLA_02",
+      "quarter_made": "FY23-Q4",
+      "target_quarter": "FY2024",
+      "metric": "Vehicle delivery growth notably lower than 2023",
+      "guided": "Directional: 2024 < 2023",
+      "actual": "2024 deliveries 1.79M vs 1.81M = -1.1%",
+      "pct": 0,
+      "bms": 1,
+      "accuracy": 1,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0,
+      "source_quote": "Q4 2023 call (Jan 24 2024): \"2024 vehicle volume growth rate may be notably lower than the growth rate achieved in 2023.\"",
+      "transcript": "TSLA_ER_Q4_2023_24-JAN-2024.docx",
+      "note": "Directional forecast was correct \u2014 2024 deliveries flat to down vs 2023."
+    },
+    {
+      "claim_id": "TSLA_03",
+      "quarter_made": "FY24-Q2",
+      "target_quarter": "FY24-Q4",
+      "metric": "Robotaxi unveil event in October 2024",
+      "guided": "Robotaxi unveil October 10, 2024",
+      "actual": "We Robot event held October 10, 2024",
+      "pct": 0,
+      "bms": 1,
+      "accuracy": 1,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0,
+      "source_quote": "Q2 2024 call (Jul 23 2024): Robotaxi unveil postponed to October 10 2024.",
+      "transcript": "TSLA_ER_Q2_2024_23-JUL-2024.docx",
+      "note": "Milestone DELIVERED on schedule."
+    },
+    {
+      "claim_id": "TSLA_04",
+      "quarter_made": "FY24-Q3",
+      "target_quarter": "FY2025",
+      "metric": "2025 vehicle delivery growth 20-30%",
+      "guided": "20-30% YoY growth in 2025",
+      "actual": "FY25 deliveries ~ -1% YoY",
+      "pct": -103.7,
+      "bms": -1,
+      "accuracy": 0,
+      "verdict": "Miss",
+      "verdict_score": 0,
+      "delta_vs_high_pct": -103.7,
+      "source_quote": "Q3 2024 call (Oct 23 2024): Musk projected 20-30% vehicle delivery growth in 2025.",
+      "transcript": "TSLA_ER_Q3_2024_23-OCT-2024.docx",
+      "note": "Massive MISS \u2014 2025 deliveries declined ~1% YoY vs +20-30% guide."
+    },
+    {
+      "claim_id": "TSLA_05",
+      "quarter_made": "FY24-Q4",
+      "target_quarter": "FY25-Q2",
+      "metric": "Unsupervised FSD paid ride-hail launch in Austin June 2025",
+      "guided": "Paid ride-hail Austin June 2025",
+      "actual": "Robotaxi service launched June 22, 2025",
+      "pct": 0,
+      "bms": 1,
+      "accuracy": 1,
+      "verdict": "Beat",
+      "verdict_score": 1,
+      "delta_vs_high_pct": 0,
+      "source_quote": "Q4 2024 call (Jan 29 2025): paid autonomous ride-hail to launch in Austin June 2025.",
+      "transcript": "TSLA_ER_Q4_2024_29-JAN-2025.docx",
+      "note": "Milestone HIT \u2014 Robotaxi service in Austin June 22, 2025."
+    },
+    {
+      "claim_id": "TSLA_06",
+      "quarter_made": "FY24-Q4",
+      "target_quarter": "FY2025",
+      "metric": "Optimus production ~10,000 units in 2025",
+      "guided": "~10,000 Optimus units in 2025",
+      "actual": "Hundreds of units produced",
+      "pct": -95,
+      "bms": -1,
+      "accuracy": 0,
+      "verdict": "Miss",
+      "verdict_score": 0,
+      "delta_vs_high_pct": -95,
+      "source_quote": "Q4 2024 call (Jan 29 2025): \"target a production goal of 10,000 Optimus units in 2025.\"",
+      "transcript": "TSLA_ER_Q4_2024_29-JAN-2025.docx",
+      "note": "Massive MISS \u2014 Optimus production fell far short of 10K target."
+    },
+    {
+      "claim_id": "TSLA_07",
+      "quarter_made": "FY25-Q1",
+      "target_quarter": "FY2026",
+      "metric": "Cybercab volume production starting 2026",
+      "guided": "Cybercab volume production 2026",
+      "actual": "Prototypes only, no high-volume manufacturing",
+      "pct": -50,
+      "bms": -1,
+      "accuracy": 0,
+      "verdict": "Miss",
+      "verdict_score": 0,
+      "delta_vs_high_pct": -50,
+      "source_quote": "Q1 2025 call (Apr 22 2025): Cybercab volume production targeted for 2026.",
+      "transcript": "TSLA_ER_Q1_2025_22-APR-2025.docx",
+      "note": "As of May 2026, Cybercab volume production has slipped \u2014 prototypes only."
+    },
+    {
+      "claim_id": "TSLA_08",
+      "quarter_made": "FY25-Q2",
+      "target_quarter": "FY25-Q4/FY26-Q1",
+      "metric": "Affordable Model Y variant production H2 2025",
+      "guided": "Affordable Model Y production H2 2025",
+      "actual": "Began production late 2025 at lower volume",
+      "pct": 0,
+      "bms": 0,
+      "accuracy": 0.5,
+      "verdict": "Hit",
+      "verdict_score": 0.5,
+      "delta_vs_high_pct": 0,
+      "source_quote": "Q2 2025 call (Jul 23 2025): more affordable Model Y variant to begin production H2 2025.",
+      "transcript": "TSLA_ER_Q2_2025_23-JUL-2025.docx",
+      "note": "Partial credit \u2014 production started but at lower volumes than promised."
+    }
+  ],
+  "summary": {
+    "n_claims": 8,
+    "beats": 4,
+    "hits": 1,
+    "misses": 3,
+    "mcs_weighted": 0.5625,
+    "mcs_strict": 0.5
+  },
+  "scoring_methodology": "Strict: BEAT = actual above HIGH end of guidance (1.0); HIT = within range (0.5); MISS = below LOW end (0.0). Reported MCS = weighted average.",
+  "name": "Tesla, Inc.",
+  "sector": "Consumer Discretionary",
+  "lens_rationale": {
+    "fundamentals": [
+      "\u2192 F = 60.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.56 (4B / 1H / 3M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 56.2"
+    ],
+    "valuation": [
+      "PE 221.9\u00d7 (peer-set not available, absolute scoring)",
+      "\u2192 V = 35"
+    ],
+    "technicals": [
+      "Spot $428.35 vs SMA200 $404.39 (+5.9%, bullish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 69.2 (neutral zone)",
+      "90-day return: +4.2%",
+      "1-year return: +55.1%",
+      "Drawdown from 52w high: -14.1%",
+      "\u2192 T = 63.8"
+    ],
+    "options": [
+      "Front-month ATM IV 37.5% (normal)",
+      "P/C OI 0.78 (balanced)",
+      "ATM skew -1.85pp (call skew)",
+      "\u2192 O = 66.1 (trend-aligned)"
+    ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Next-quarter consensus: $24.34B</strong> \u2014 set by 56 broker contributors.",
+          "<strong>EPS consensus next qtr: $0.29</strong>.",
+          "<strong>Next earnings: 2026-07-29</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>Sector thesis (Consumer Discretionary):</strong> Premiumization vs trade-down split \u2014 the long-run thesis depends on cohort mix."
+        ],
+        "takeaway": "Long-cycle thesis is intact if the next 2\u20134 quarters confirm a stabilization in trajectory."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $428.35 vs SMA50 $383.19</strong> (+11.8%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 69.2</strong> \u2014 constructive momentum.",
+          "<strong>MACD: 7.90 vs signal 2.83</strong> \u2014 bullish crossover.",
+          "<strong>30-day return: +23.9%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 113%</strong> of band width (band width 17.1% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$441.2, support ~$415.5. 69% of 52w range (low $273.21 \u2192 high $498.83)."
+        ],
+        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $428.35 vs SMA200 $404.39</strong> (+5.9%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
+          "<strong>1-year return: +55.1%</strong> \u2014 strong long-cycle leader.",
+          "<strong>Drawdown from 52w high: -14.1%</strong> \u2014 mild pullback",
+          "<strong>Cycle S/R:</strong> long-term resistance $498.83 (52w high), structural support $273.21 (52w low).",
+          "<strong>90-day return: +4.2%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 37.5%</strong> \u2014 normal.",
+          "<strong>Put/Call OI: 0.78</strong> \u2014 balanced flow.",
+          "<strong>30-day implied move: \u00b110.0%</strong> ($385.54 \u2013 $471.16) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -1.85pp</strong> \u2014 call skew (upside bid \u2014 bullish positioning).",
+          "<strong>Front-month OI cluster: $400.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Bull call spread 30 DTE: long $428 / short $450</strong>. Mid IV (38%) + uptrend \u2192 defined-risk directional with reasonable cost basis."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 48.9%</strong> across 12 expiries.",
+          "<strong>Available long-dated expiries:</strong> 12 dates spanning 104\u2013951 DTE.",
+          "<strong>90-day implied move: \u00b125.1%</strong> ($320.93 \u2013 $535.77).",
+          "<strong>223-day implied move: \u00b137.8%</strong> ($266.47 \u2013 $590.23) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $400 (-6.6% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in contango</strong> (+11.3pp front\u2192back) \u2014 market pricing greater uncertainty further out."
+        ],
+        "strategy": "<strong>Sell 90-day cash-secured put at $398</strong> (7% OTM). Uptrend + acceptable IV \u2192 income strategy with willingness to take ownership at lower cost basis. Roll if untested; assigned position becomes long-term hold."
+      }
+    }
+  }
+}

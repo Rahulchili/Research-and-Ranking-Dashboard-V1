@@ -1,0 +1,189 @@
+{
+  "stance": "BULLISH (GLP-1 leader; orforglipron Q2 2026 launch)",
+  "color": "mint",
+  "summary": "Eli Lilly is the dominant GLP-1 franchise (Mounjaro+Zepbound) with the largest pipeline in pharma history (42 active Phase III programs as of Q1 FY26) and a category-defining oral GLP-1 (orforglipron) submitted in 40+ countries and expected to launch in Q2 2026. TTM revenue $72.25B is growing +47.4% YoY with operating margins recently above 49%. Management raised FY26 revenue guidance by $2B at the Q1 call to $82-85B, implying ~26-31% growth on top of FY25's +44.7% growth. The valuation is rich (P/E FY1 26.1x vs peer median ~19x) but defensible given the growth differential. Manufacturing build-out exceeds $55B since 2020, the largest in company history. Stock pulled back 16% from $1,134 52w high to $948, creating a more reasonable entry into a compounder.",
+  "quotes": [
+    [
+      "David Ricks (CEO)",
+      "Q4 FY25 call (Feb 4, 2026)",
+      "Since 2020, we've committed over $55 billion, the largest manufacturing build-out in company history."
+    ],
+    [
+      "Lucas Montarce (CFO)",
+      "Q4 FY25 call (Feb 4, 2026)",
+      "We expect revenue to be between $80 billion and $83 billion. 2026 revenue guidance is $15 to $20 billion higher than that delivered in 2025."
+    ],
+    [
+      "David Ricks (CEO)",
+      "Q1 FY26 call (Apr 30, 2026)",
+      "We have increased the top and the bottom end of the revenue range by $2 billion and now expect full year revenue to be between $82 [billion] and $85 billion."
+    ],
+    [
+      "Daniel Skovronsky (CSO)",
+      "Q4 FY25 call (Feb 4, 2026)",
+      "We submitted Orforglipron for obesity in the US and in more than 40 countries globally."
+    ],
+    [
+      "David Ricks (CEO)",
+      "Q1 FY26 call (Apr 30, 2026)",
+      "Finally, in cardiometabolic, Mounjaro and Suven global revenue was $12.8 billion combined, contributing $6.7 billion of growth compared to Q1 2025."
+    ],
+    [
+      "Lucas Montarce (CFO)",
+      "Q4 FY25 call (Feb 4, 2026)",
+      "Q4 revenue growth -- 43% year over year, led by volume expansion in Mounjaro and Zepbound."
+    ]
+  ],
+  "bull": [
+    [
+      "GLP-1 category dominance",
+      "Mounjaro+Zepbound exited Q4 FY25 with ~55% share of new US Type 2 diabetes incretin prescriptions and ~70% share of new branded obesity prescriptions. Both indications still in early innings of penetration globally.",
+      "Mint"
+    ],
+    [
+      "Orforglipron launch Q2 2026",
+      "First scalable oral GLP-1 small molecule submitted in 40+ countries. ATTAIN-1 showed 12.4% weight loss vs placebo; ATTAIN-MAINTAIN proved switching from injectable semaglutide maintained loss with only 0.9 kg average difference.",
+      "Mint"
+    ],
+    [
+      "Manufacturing capacity moat",
+      "$55B+ committed since 2020 — largest pharma manufacturing build-out in history. New sites in Wisconsin and North Carolina operational; 1.8x more incretin doses produced in 2025 vs 2024 target met.",
+      "Mint"
+    ],
+    [
+      "Pipeline depth",
+      "42 active Phase III programs as of Q1 FY26; 14 new Phase III programs initiated in recent months; 39 BD deals completed in 2025. Behind incretins: oloralintide (selective amylin), bimrenepatide, retatrutide (triple agonist).",
+      "Mint"
+    ],
+    [
+      "Operating leverage",
+      "Op margin expanded from 16.4% (FY24 Q1) to 49.4% (FY26 Q1), a 33pp expansion. Net margin moved 25.6% → 37.4% in same window. Gross margin steady at 80%+.",
+      "Mint"
+    ],
+    [
+      "FY26 guide raised",
+      "Q1 FY26 raise of $2B at both ends to $82-85B (vs prior $80-83B) signals sustained confidence in volume ramp and absorbing tariff/pricing headwinds.",
+      "Mint"
+    ]
+  ],
+  "bear": [
+    [
+      "Valuation premium",
+      "P/E FY1 26.1x represents +35% premium vs peer median (~19x). EV/EBITDA 25.7x is +86% premium vs peer median 13.8x. Multiple compression risk if growth decelerates.",
+      "Crimson"
+    ],
+    [
+      "GLP-1 competition",
+      "Novo Nordisk (NVO) launching oral semaglutide; CVS/Caremark excluded Zepbound from template formularies (Jul 2025); generic semaglutide in some international markets pressuring international Mounjaro pricing.",
+      "Crimson"
+    ],
+    [
+      "Pricing & Medicare exposure",
+      "US net pricing declined 7-8% in recent quarters. New Medicare access for obesity meds effective by Jul 2026 — Lilly's $50 out-of-pocket Part D access creates new headwinds while expanding TAM.",
+      "Crimson"
+    ],
+    [
+      "Capex intensity",
+      "Quarterly CapEx running $2-2.5B/quarter; FCF often well below OCF; Q4 FY25 FCF only $0.68B vs OCF $3.22B. Manufacturing investment is necessary but suppresses near-term free cash flow.",
+      "Crimson"
+    ],
+    [
+      "Cycle drawdown risk",
+      "Stock down 16% from $1,134 52w high; 1-year RSI shows price below SMA100 ($998) and bouncing off SMA200 ($916). ADX 18.7 = weak trend; momentum unclear.",
+      "Crimson"
+    ],
+    [
+      "Patent cliff timing",
+      "Tirzepatide composition-of-matter patents in US expire ~2036, but secondary patents (formulation, methods of use) could be challenged earlier. Generic competition expected in some OUS markets even earlier given different IP regimes.",
+      "Crimson"
+    ]
+  ],
+  "trigger_up": [
+    "Orforglipron FDA approval Q2 2026 and launch execution",
+    "FY26 revenue raised again at Q2 FY26 call (Aug 5, 2026) above $85B high end",
+    "Retatrutide (triple agonist) Phase III data — successor to Zepbound with superior efficacy",
+    "Operating margin sustaining above 50%",
+    "Recovery to $1,000+ with break above SMA100 confirms uptrend resumption"
+  ],
+  "trigger_down": [
+    "Orforglipron FDA delay or efficacy concerns at launch",
+    "FY26 revenue guide cut or held flat at next call",
+    "Novo Nordisk gains share with oral semaglutide international launch",
+    "Tariff/pricing impact exceeds Lilly's current factored guidance assumptions",
+    "Break below $900 SMA200 — would invalidate uptrend and signal multiple compression"
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue (TTM)",
+      "baseline": "$45.04B (FY24)",
+      "latest": "$72.25B (TTM Q1 FY26, +60% from FY24)",
+      "verdict": "Sustained acceleration",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "YoY revenue growth",
+      "baseline": "+33% (Q1 FY24)",
+      "latest": "+55.6% (Q1 FY26)",
+      "verdict": "Accelerating",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Operating margin",
+      "baseline": "16.4% (Q1 FY24)",
+      "latest": "49.4% (Q1 FY26)",
+      "verdict": "+33pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "25.6% (Q1 FY24)",
+      "latest": "37.4% (Q1 FY26)",
+      "verdict": "+11.8pp expansion",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "EPS (Quarterly Diluted)",
+      "baseline": "$2.48 (Q1 FY24)",
+      "latest": "$8.26 (Q1 FY26, +233%)",
+      "verdict": "3.3x in 8 quarters",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "ROE annualized",
+      "baseline": "77.6% (Q1 FY24)",
+      "latest": "94.8% (Q1 FY26)",
+      "verdict": "Elite returns",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Gross margin",
+      "baseline": "81.4% (Q1 FY24)",
+      "latest": "81.9% (Q1 FY26)",
+      "verdict": "Stable elite",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "MCS (FY guide accuracy)",
+      "baseline": "50% random",
+      "latest": "71.4% (5 beats / 7 claims)",
+      "verdict": "Above baseline",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Stock vs 52w high",
+      "baseline": "$1,133.95 (Jan 8 2026)",
+      "latest": "$948.45 (May 8 2026)",
+      "verdict": "-16.4% drawdown",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation P/E FY1",
+      "baseline": "Peer median ~19.4x",
+      "latest": "LLY 26.1x",
+      "verdict": "+35% premium",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "LLY is the clear category leader in obesity/diabetes (Mounjaro/Zepbound 70% obesity / 55% T2D share) with the strongest pipeline in pharma (42 Phase III programs, orforglipron oral GLP-1 launching Q2 2026). Management's 71.4% FY guidance hit-rate over 7 claims is above the 50% random baseline. The 16% drawdown from $1,134 to $948 creates entry into a structural compounder, though P/E FY1 of 26x prices in continued execution. We rate the setup as BULLISH with key catalysts: orforglipron approval/launch, FY26 guide revision at Q2 call (Aug 5, 2026), and operating margin sustainability above 50%.",
+  "disclaimer": "Quoted statements verbatim from LLY earnings calls in /LLY/Transcripts/ directory. Fundamentals computed from EDGAR XBRL companyfacts (CIK 0000059478). FactSet peer data captured 2026-05-11. Not investment advice."
+}

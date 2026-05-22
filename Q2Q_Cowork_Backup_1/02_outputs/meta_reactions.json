@@ -1,0 +1,92 @@
+{
+  "2024-04-24": {
+    "pre_date": "2024-04-24",
+    "pre_close": 493.5,
+    "post1_date": "2024-04-25",
+    "post1_close": 441.38,
+    "reaction_1d_pct": -10.56,
+    "post5_date": "2024-05-01",
+    "post5_close": 439.19,
+    "reaction_5d_pct": -11.01
+  },
+  "2024-07-31": {
+    "pre_date": "2024-07-31",
+    "pre_close": 474.83,
+    "post1_date": "2024-08-01",
+    "post1_close": 497.74,
+    "reaction_1d_pct": 4.82,
+    "post5_date": "2024-08-07",
+    "post5_close": 488.92,
+    "reaction_5d_pct": 2.97
+  },
+  "2024-10-30": {
+    "pre_date": "2024-10-30",
+    "pre_close": 591.8,
+    "post1_date": "2024-10-31",
+    "post1_close": 567.58,
+    "reaction_1d_pct": -4.09,
+    "post5_date": "2024-11-06",
+    "post5_close": 572.05,
+    "reaction_5d_pct": -3.34
+  },
+  "2025-01-29": {
+    "pre_date": "2025-01-29",
+    "pre_close": 676.49,
+    "post1_date": "2025-01-30",
+    "post1_close": 687.0,
+    "reaction_1d_pct": 1.55,
+    "post5_date": "2025-02-05",
+    "post5_close": 704.87,
+    "reaction_5d_pct": 4.2
+  },
+  "2025-04-30": {
+    "pre_date": "2025-04-30",
+    "pre_close": 549.0,
+    "post1_date": "2025-05-01",
+    "post1_close": 572.21,
+    "reaction_1d_pct": 4.23,
+    "post5_date": "2025-05-07",
+    "post5_close": 596.81,
+    "reaction_5d_pct": 8.71
+  },
+  "2025-07-30": {
+    "pre_date": "2025-07-30",
+    "pre_close": 695.21,
+    "post1_date": "2025-07-31",
+    "post1_close": 773.44,
+    "reaction_1d_pct": 11.25,
+    "post5_date": "2025-08-06",
+    "post5_close": 771.99,
+    "reaction_5d_pct": 11.04
+  },
+  "2025-10-29": {
+    "pre_date": "2025-10-29",
+    "pre_close": 751.67,
+    "post1_date": "2025-10-30",
+    "post1_close": 666.47,
+    "reaction_1d_pct": -11.33,
+    "post5_date": "2025-11-05",
+    "post5_close": 635.95,
+    "reaction_5d_pct": -15.4
+  },
+  "2026-01-28": {
+    "pre_date": "2026-01-28",
+    "pre_close": 668.73,
+    "post1_date": "2026-01-29",
+    "post1_close": 738.31,
+    "reaction_1d_pct": 10.4,
+    "post5_date": "2026-02-04",
+    "post5_close": 668.99,
+    "reaction_5d_pct": 0.04
+  },
+  "2026-04-29": {
+    "pre_date": "2026-04-29",
+    "pre_close": 669.12,
+    "post1_date": "2026-04-30",
+    "post1_close": 611.91,
+    "reaction_1d_pct": -8.55,
+    "post5_date": "2026-05-06",
+    "post5_close": 612.88,
+    "reaction_5d_pct": -8.41
+  }
+}

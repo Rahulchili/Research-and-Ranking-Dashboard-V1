@@ -1,0 +1,111 @@
+{
+  "name": "RTX Corporation",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "RTX Corporation (RTX, Industrials) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $22.08B (+8.7% YoY), net margin 9.8%. Management credibility 0.71 on 9 claims. Valuation 22.0x forward P/E (+19% vs peers). Spot $175.68 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "RTX_ER_Q4_2025_27_JAN_2026.docx",
+      "We will walk you through the details of the fourth quarter and our 2026 outlook in a few minutes. But first, let me briefly comment on the operating environment that we see today.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "RTX_ER_Q4_2025_27_JAN_2026.docx",
+      "On the commercial OE front, given the substantial airframe or backlogs, we expect OEM production rates to increase again this year, particularly on the A320neo, 737 MAX and 787 platforms as well as on business jet and general aviation aircraft, all platforms where we have significant content.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "RTX_ER_Q4_2025_27_JAN_2026.docx",
+      "For 2026, we expect adjusted sales to be between $92 billion and $93 billion, with 5% to 6% organic growth year-over-year. Increased volume, along with pricing and our continued focus on productivity and our cost structure, will support another year of consolidated segment margin expansion.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "RTX_ER_Q4_2025_27_JAN_2026.docx",
+      "We expect adjusted EPS to be between $6.60 and $6.80 with between $8.25 billion and $8.75 billion of free cash flow for the year. Consistent with 2025, our performance will be underpinned by our strategic priorities and our relentless focus on operational execution.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "RTX_ER_Q4_2025_27_JAN_2026.docx",
+      "In 2026, we expect to significantly increase output again on these programs as well as on other critical munitions, including SM-6 and Tomahawk. We're also continuing to deploy our proprietary data analytics and AI tools across our factories to monitor daily key performance indicators, identify bottlenecks to reduce work in process and track equipment health and performance, al",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "RTX_ER_Q4_2025_27_JAN_2026.docx",
+      "As planned, PW1100 [ AOGs ] declined in the fourth quarter, and we expect this trend to continue as we move throughout the year. MRO output was up 39% in the fourth quarter and up 26% for the full year, even as heavier shop visits increased 40% in 2025.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +8.7% YoY in FY2026 Q1 (TTM $90.37B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Margin discipline — 9.8% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup.",
+    "Margin trajectory — net margin expanded +8.9pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 0.71 on 9 tracked forward claims (5B/0H/2M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Range-positioning balanced — at 55% of the 52-week range ($130.79–$212.16), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Trend rolling over — spot $175.68 sits -2.3% relative to the 200-DMA ($179.74). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 12% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 11.3% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 6% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 7.8% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $130.79 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+8.7% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "9.8%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.71 on 9 claims",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 18.5x FY1 P/E",
+      "latest": "22.0x (+19%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$175.68 vs $179.74 (-2.3%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "53.1",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. RTX Corporation (RTX) printed $22.08B in revenue in FY2026 Q1 (+8.7% YoY), net margin of 9.8%. Management credibility is strong (MCS 0.71, 5B/0H/2M record), supporting take-up of the forward guide. At 22.0x forward P/E, the stock carries a 19% premium to peers (18.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is impaired: spot $175.68 below the 200-DMA ($179.74, -2.3%) — long-term trend has rolled over. Sell-side consensus PT of $145 implies -17.5% upside. 30-day implied move is ±7.7%; 90-day is ±15.6%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}
