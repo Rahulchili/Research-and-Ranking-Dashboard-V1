@@ -203,6 +203,9 @@
           <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);"><span class="bucket bucket-${stance}" style="font-size:9.5px;padding:2px 6px;">${c.priorityBucket}</span></td>
           ${tdNum(((c.confidence?.score || 0) * 100).toFixed(0) + '%', 'var(--muted)', '500')}
           <td style="padding:8px 6px;text-align:center;border-bottom:1px solid var(--border);"><span style="display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--accent);background:rgba(99,102,241,.10);border:1px solid rgba(99,102,241,.35);padding:2px 8px;border-radius:4px;">${escapeHtml(c.category || 'FTMO')}</span></td>
+          <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);color:var(--muted);font-size:11px;">${escapeHtml(c.col_F || '')}</td>
+          <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);color:var(--muted);font-size:11px;">${escapeHtml(c.col_J || '')}</td>
+          <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);color:var(--muted);font-size:11px;">${escapeHtml(c.col_O || '')}</td>
         </tr>`;
     }).join("");
     // Re-define `cell` to maintain compatibility (unused now, but referenced earlier in scope)
@@ -233,7 +236,7 @@
         </button>
       </header>
       <section class="card" style="overflow-x:auto;padding:0;">
-        <table class="leaderboard-v2" style="width:100%;min-width:1060px;border-collapse:collapse;table-layout:fixed;font-size:12.5px;">
+        <table class="leaderboard-v2" style="width:100%;min-width:1180px;border-collapse:collapse;table-layout:fixed;font-size:12.5px;">
           <colgroup>
             <col style="width:36px;">
             <col style="width:64px;">
@@ -244,6 +247,7 @@
             <col style="width:88px;">
             <col style="width:56px;">
             <col style="width:80px;">
+            <col style="width:40px;"><col style="width:40px;"><col style="width:40px;">
           </colgroup>
           <thead>
             <tr style="background:var(--bg);">
@@ -260,6 +264,9 @@
               <th style="text-align:center;padding:10px 6px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border);">Tier</th>
               <th style="text-align:right;padding:10px 8px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border);">Conf</th>
               <th style="text-align:center;padding:10px 6px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border);">Category</th>
+              <th style="text-align:center;padding:10px 4px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border);">F</th>
+              <th style="text-align:center;padding:10px 4px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border);">J</th>
+              <th style="text-align:center;padding:10px 4px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border);">O</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
@@ -308,6 +315,7 @@
           `Technicals (${wFmt('technicals')})`,
           `Options (${wFmt('options')})`,
           "Tier", "Confidence", "Category",
+          "F", "J", "O",
         ];
         const rowsOut = companies.slice().sort((a, b) => a.rank - b.rank).map(c => {
           const s = c.scores || {};
@@ -319,6 +327,7 @@
             fmtLens(s.fundamentals), fmtLens(s.management), fmtLens(s.valuation),
             fmtLens(s.technicals),   fmtLens(s.options),
             c.priorityBucket || "", conf, c.category || "FTMO",
+            c.col_F || "", c.col_J || "", c.col_O || "",
           ];
         });
         const csv = [headers, ...rowsOut].map(r => r.map(esc).join(",")).join("\r\n");
