@@ -1,0 +1,114 @@
+{
+  "name": "Fortinet, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Fortinet, Inc. (FTNT, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1.85B (+20.1% YoY), net margin 28.9%. Management credibility 1.00 on 12 claims. Valuation 34.0x forward P/E (-48% vs peers). Spot $133.93 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "FTN_ER_Q2_202_6_AUG_2025.docx",
+      "Operating margin of 33.1% decreased by 200 basis points, while being 60 basis points above the high end of our guidance range. The year-over-year decline reflects increased investments in sales headcount, the absorption of costs from recent acquisitions and foreign exchange headwinds stemming from a weaker U.S.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FTN_ER_Q2_202_6_AUG_2025.docx",
+      "We repurchased approximately 4.6 million shares of our common stock for an aggregate cost of $401 million in the second quarter. The remaining share buyback authorization as of today is approximately $1.6 billion.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "FTN_ER_Q2_202_6_AUG_2025.docx",
+      "We estimate that we are approximately 40% to 50% of the way through the 2026 upgrade cycle at the end of the second quarter based on the remaining active units and service contracts, and we expect continued upgrade activity for the remaining devices over the next 6 quarters.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FTN_ER_Q2_202_6_AUG_2025.docx",
+      "Our focus and open communication regarding the refresh allow us and our channel partners to have conversations with our customers around both, the upgrade and the customers' overall security strategy, benefiting us longer term.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "FTN_ER_Q2_202_6_AUG_2025.docx",
+      "For the third quarter, we expect billings in the range of USD 1.76 billion to USD 1.84 billion, which at the midpoint represents growth of 14%. Revenue in the range of USD 1.67 billion to USD 1.73 billion, which at the midpoint represents growth of 13%.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "FTN_ER_Q2_202_6_AUG_2025.docx",
+      "For the full year, we expect billings in the range of USD 7.325 billion to USD 7.475 billion, which at the midpoint represents growth of 13%. Revenue in the range of USD 6.675 billion to USD 6.825 billion, which at the midpoint represents growth of [ 13% ].",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +20.1% YoY in FY2026 Q1 to $1.85B, with TTM revenue of $7.11B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 28.9% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +2.4pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Management credibility — MCS of 1.00 on 12 tracked forward claims (7B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $133.93 sits +59.3% above the 200-DMA ($84.09). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Valuation discount to peers — 34.0x forward P/E versus peer median 65.5x — a 48% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Momentum stretched — RSI at 96 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($92.25) before adding.",
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 23% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 30.4% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $133.93 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 17% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 26.9% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $74.39 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+20.1% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "28.9%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 12 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 65.5x FY1 P/E",
+      "latest": "34.0x (-48%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$133.93 vs $84.09 (+59.3%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "95.7",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. Fortinet, Inc. (FTNT) printed $1.85B in revenue in FY2026 Q1 (+20.1% YoY), net margin of 28.9%. Management credibility is strong (MCS 1.00, 7B/0H/0M record), supporting take-up of the forward guide. At 34.0x forward P/E, the stock trades at a 48% discount to peers (65.5x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($84.09) but RSI 96 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $92 implies -31.3% upside. 30-day implied move is ±10.2%; 90-day is ±23.4%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

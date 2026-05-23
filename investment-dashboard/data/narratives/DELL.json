@@ -1,0 +1,107 @@
+{
+  "name": "Dell Technologies Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Dell Technologies Inc. (DELL, Information Technology) — composite stance CONSTRUCTIVE. Latest reported quarter FY2025 Q4: revenue $27.0B (+10.8% YoY), net margin 5.7%. Valuation 15.5x forward P/E (+29% vs peers). Spot $295.19 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "DEL_ER_Q2_2026_28_AUG_2025.docx",
+      "Our focus remains on driving not only growth but also expanding profitability and storage by increasing our mix of DLIP storage and improving margins within each product.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "DEL_ER_Q2_2026_28_AUG_2025.docx",
+      "We expect moderate growth as the PC refresh continues, driven by an aging installed base in the Windows 10 end of life, which is now 48 days away. -- to fully seize the refresh opportunity, we have taken steps to improve execution and expand our PC TAM.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DEL_ER_Q2_2026_28_AUG_2025.docx",
+      "Given our engineering differentiation and integration, we expect our AI margin rates to improve in the second half.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DEL_ER_Q2_2026_28_AUG_2025.docx",
+      "Our core leverage ratio is at our target of 1.5x. We returned $1.3 billion of capital to shareholders, with 8 million shares of stock repurchased at an average price of $114 per share and paid a dividend of roughly $0.53 per share.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "DEL_ER_Q2_2026_28_AUG_2025.docx",
+      "We expect the demand environment we saw in the second quarter for traditional servers and storage to persist into the second half. In CSG, as the PC refresh cycle continues, we are focused on improving our execution to grow revenue and gain share.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DEL_ER_Q2_2026_28_AUG_2025.docx",
+      "Given that backdrop, we expect Q3 revenue to be between $26.5 billion and $27.5 billion, up 11% at the midpoint of $27 billion. ISG and CSG combined are expected to grow 13% at the midpoint with ISG in the low 20s and CSG up mid-single digits.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +10.8% YoY in FY2025 Q4 to $27.0B, with TTM revenue of $104.53B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin trajectory — net margin expanded +1.4pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $295.19 sits +96.4% above the 200-DMA ($150.27). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Margin pressure — net margin of 5.7% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through.",
+    "Momentum stretched — RSI at 75 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($201.10) before adding.",
+    "Valuation premium — 15.5x forward P/E vs peer median of 12.0x — a 29% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly.",
+    "Put skew elevated — ATM put IV running +7.6pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 14% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 7.2% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $295.19 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 8% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 3.7% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $108.08 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+10.8% in FY2025 Q4",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "5.7%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 12.0x FY1 P/E",
+      "latest": "15.5x (+29%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$295.19 vs $150.27 (+96.4%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "74.7",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Dell Technologies Inc. (DELL) printed $27.0B in revenue in FY2025 Q4 (+10.8% YoY), net margin of 5.7%. At 15.5x forward P/E, the stock carries a 29% premium to peers (12.0x median) — the multiple needs continued execution to defend.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($150.27) but RSI 75 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $150 implies -49.2% upside. 30-day implied move is ±21.9%; 90-day is ±35.2%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

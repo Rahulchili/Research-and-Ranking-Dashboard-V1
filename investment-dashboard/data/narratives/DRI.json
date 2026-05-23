@@ -1,0 +1,108 @@
+{
+  "name": "Darden Restaurants, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Darden Restaurants, Inc. (DRI, Consumer Discretionary) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $0.65B (+2.2% YoY). Management credibility 0.00 on 5 claims. Valuation 17.5x forward P/E (-33% vs peers). Spot $203.51 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "DRI_ER_Q4_2025_20_JUN_2025.docx",
+      "Our strategy remains the right one for the company, and we will continue to execute it to drive growth and long-term shareholder value.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "DRI_ER_Q4_2025_20_JUN_2025.docx",
+      "As I mentioned earlier, we permanently closed 15 underperforming Bahama Breeze restaurants as well as a few restaurants at other brands. These closures will result in a headwind to our fiscal 2026 total sales growth but are expected to be slightly positive to earnings.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DRI_ER_Q4_2025_20_JUN_2025.docx",
+      "Our dividend remains a priority, and the target payout ratio range of 50% to 60% remains unchanged. Share repurchase is being updated from a dollar range to a percentage range of contribution to shareholder return.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "DRI_ER_Q4_2025_20_JUN_2025.docx",
+      "The dividend payout ratio of 58% is near the top end of the range and share repurchase contribution to shareholder return was 1%, culminating in total cash return of 4.1% despite the issuance of 9 million shares of common stock in fiscal 2020. Total shareholder return as defined by EPS growth plus dividend yield was 11.6% and within our targeted range.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "DRI_ER_Q4_2025_20_JUN_2025.docx",
+      "As we look across what's been going on over the last 5 or 6 years, as you recall, we've been very prudent in keeping our pricing below inflation because we knew that over time, pricing matters, if you take it too much. And what we believe is happening right now in the casual dining space is consumers are figuring out that casual dining is a great value.",
+      "Why it matters — pricing power. Differentiates real franchise economics from commodity exposure."
+    ],
+    [
+      "Management",
+      "DRI_ER_Q4_2025_20_JUN_2025.docx",
+      "Yes, Eric, I'd say from -- when you look at 60 to 65, you're right, it could imply 2.7% to 3%. But as you look at actually how we're ramping up growth from where we're starting.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ]
+  ],
+  "bull": [
+    "Range-positioning balanced — at 61% of the 52-week range ($169.21–$225.78), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Valuation discount to peers — 17.5x forward P/E versus peer median 26.0x — a 33% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Growth fading — +2.2% YoY revenue growth in FY2026 Q1 is well below the 5–8% threshold that supports the current multiple. A re-acceleration story needs to develop in the next 2–3 quarters or estimates will need to come down.",
+    "Management credibility impaired — MCS of 0.00 on 5 tracked claims (0B/0H/3M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "Options market pricing risk — front-month implied move of 8.2% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $169.21 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+2.2% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.00 on 5 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 26.0x FY1 P/E",
+      "latest": "17.5x (-33%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$203.51 vs $196.03 (+3.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "68.6",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±8.2% by 2026-06-18",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Darden Restaurants, Inc. (DRI) printed $0.65B in revenue in FY2026 Q1 (+2.2% YoY). Management credibility is weak (MCS 0.00, 0B/0H/3M record) — forward claims should be discounted in valuation models. At 17.5x forward P/E, the stock trades at a 33% discount to peers (26.0x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is constructive: spot $203.51 above the 200-DMA ($196.03, +3.8%) with neutral momentum (RSI 69). Sell-side consensus PT of $195 implies -4.2% upside. The options market is pricing a ±8.2% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±8.2%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

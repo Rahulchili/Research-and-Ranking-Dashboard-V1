@@ -1,0 +1,111 @@
+{
+  "name": "Deere & Company",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Deere & Company (DE, Industrials) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $8.0B (+17.5% YoY), net margin 8.2%. Management credibility 1.00 on 9 claims. Valuation 16.5x forward P/E (+32% vs peers). Spot $529.15 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "DE_ER_Q4_2025_26_NOV_2025.docx",
+      "Our teams continue to manage this downturn effectively by focusing on what we can control. And we believe the progress we have made throughout this past fiscal year positions us well as we enter fiscal year 2026.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "DE_ER_Q4_2025_26_NOV_2025.docx",
+      "Looking ahead to 2026, we anticipate that large ag in North America will continue to be subdued.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DE_ER_Q4_2025_26_NOV_2025.docx",
+      "However, there are indications of stabilization, and we also see areas of optimism emerging in other segments and geographies. Notably, we see opportunities for growth ahead in our small Ag and Turf and Construction & Forestry businesses.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DE_ER_Q4_2025_26_NOV_2025.docx",
+      "We expect industry sales of large equipment in the U.S. and Canada to be down 15% to 20%.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DE_ER_Q4_2025_26_NOV_2025.docx",
+      "Additionally, a modest recovery in Turf is anticipated, following a rebound in the housing market and growth in the overall economy. In Europe, the industry is projected to be flat to up 5%.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DE_ER_Q4_2025_26_NOV_2025.docx",
+      "In addition, margin for arable farmers are strengthening as crop yields recover in major European ag markets. Within South America, we anticipate industry sales of tractors and combines will remain flat in 2026.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +17.5% YoY in FY2026 Q1 to $8.0B, with TTM revenue of $36.34B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin discipline — 8.2% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup.",
+    "Management credibility — MCS of 1.00 on 9 tracked forward claims (5B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Range-positioning balanced — at 40% of the 52-week range ($439.11–$662.49), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Margin trajectory deteriorating — net margin compressed -9.2pp over the trailing quarters. This typically precedes a guidance reset by 1–2 quarters as management gets ahead of the cost-curve issue.",
+    "Valuation premium — 16.5x forward P/E vs peer median of 12.5x — a 32% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 20% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 9.7% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 14% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 6.2% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $439.11 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+17.5% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "8.2%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 9 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 12.5x FY1 P/E",
+      "latest": "16.5x (+32%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$529.15 vs $520.67 (+1.6%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "29.4",
+      "verdict": "Oversold",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. Deere & Company (DE) printed $8.0B in revenue in FY2026 Q1 (+17.5% YoY), net margin of 8.2%. Management credibility is strong (MCS 1.00, 5B/0H/0M record), supporting take-up of the forward guide. At 16.5x forward P/E, the stock carries a 32% premium to peers (12.5x median) — the multiple needs continued execution to defend.\n\nSell-side consensus PT of $520 implies -1.7% upside. 30-day implied move is ±7.6%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

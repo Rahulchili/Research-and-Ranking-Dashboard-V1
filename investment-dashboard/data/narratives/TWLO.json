@@ -1,0 +1,111 @@
+{
+  "name": "Twilio Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Twilio Inc. (TWLO, Communication Services) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1.41B (+20.0% YoY), net margin 6.4%. Management credibility 0.80 on 9 claims. Valuation 22.0x forward P/E (+54% vs peers). Spot $187.88 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "TWLO_ER_Q4_2025_12_FEB_2026.docx",
+      "Our ending share count was $152 million, down slightly year-over-year and down 18% since we initiated our share repurchase efforts in 2023.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "TWLO_ER_Q4_2025_12_FEB_2026.docx",
+      "For the full year, we expect reported revenue growth of 11.5% to 12.5% and organic revenue growth of 8% to 9%, above our 2025 Investor Day framework though we continue to orient the business to double-digit organic revenue growth.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TWLO_ER_Q4_2025_12_FEB_2026.docx",
+      "In addition, we expect full year non-GAAP gross profit dollar growth to be similar to our organic revenue growth rate.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TWLO_ER_Q4_2025_12_FEB_2026.docx",
+      "For Q1, we expect non-GAAP income from operations of $240 million to $250 million.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TWLO_ER_Q4_2025_12_FEB_2026.docx",
+      "And really congrats on a solid end to the year. Maybe just the first one for me is, can you break out what drove some of the voice strength in Q4?",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "TWLO_ER_Q4_2025_12_FEB_2026.docx",
+      "Yes, I'll start with Q1. I mean we feel really good about our guidance coming into Q1.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +20.0% YoY in FY2026 Q1 to $1.41B, with TTM revenue of $5.11B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Management credibility — MCS of 0.80 on 9 tracked forward claims (4B/0H/1M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $187.88 sits +48.3% above the 200-DMA ($126.66). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Margin pressure — net margin of 6.4% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through.",
+    "Valuation premium — 22.0x forward P/E vs peer median of 14.3x — a 54% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 87% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 23% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 7.9% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 17% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 4.4% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $92.44 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+20.0% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "6.4%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.80 on 9 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 14.3x FY1 P/E",
+      "latest": "22.0x (+54%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$187.88 vs $126.66 (+48.3%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "48.4",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Twilio Inc. (TWLO) printed $1.41B in revenue in FY2026 Q1 (+20.0% YoY), net margin of 6.4%. Management credibility is strong (MCS 0.80, 4B/0H/1M record), supporting take-up of the forward guide. At 22.0x forward P/E, the stock carries a 54% premium to peers (14.3x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $187.88 above the 200-DMA ($126.66, +48.3%) with neutral momentum (RSI 48). Sell-side consensus PT of $98 implies -47.8% upside. 30-day implied move is ±13.2%; 90-day is ±29.8%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

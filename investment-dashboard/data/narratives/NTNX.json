@@ -1,0 +1,121 @@
+{
+  "name": "Nutanix, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Nutanix, Inc. (NTNX, Information Technology) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $0.65B (+15.8% YoY), net margin 8.6%. Management credibility 0.40 on 9 claims. Valuation 52.0x forward P/E (-16% vs peers). Spot $47.12 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "NTNX_ER_Q4_2025_27_AUG_2025.docx",
+      "Results in Q4 '25 were above the high end of our guidance range across all guided metrics. In Q4, we reported quarterly revenue of $653 million, higher than the guided range of $635 million to $645 million, representing a year-over-year growth rate of 19%.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "NTNX_ER_Q4_2025_27_AUG_2025.docx",
+      "Moving to capital allocation. In Q4, we repurchased $50 million worth of common stock under our existing share repurchase authorization and used about $44 million of cash to retire shares related to our employees' tax liability for their quarterly RSU vesting.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "NTNX_ER_Q4_2025_27_AUG_2025.docx",
+      "I will now provide several points of commentary regarding our fiscal year '26 guidance. One, we expect to continue landing new customers onto our platform at a rate of approximately mid- to high 3 digits of new logos a quarter in fiscal year '26.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "NTNX_ER_Q4_2025_27_AUG_2025.docx",
+      "Two, we expect the renewals ACV cohort or the available to renew pool in fiscal year '26 to grow year-over-year but at a slower pace than in fiscal year '25 as the overall renewal base gets larger over time.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "NTNX_ER_Q4_2025_27_AUG_2025.docx",
+      "We expect this solution to have a small but growing contribution to fiscal year '26 revenue.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "NTNX_ER_Q4_2025_27_AUG_2025.docx",
+      "Six, with regard to operating expenses, in addition to the annualized run rate of employees we hired during the course of fiscal year '25 that we have discussed in prior calls, we have some delayed hiring from fiscal year '25, which we expect to be approximately $25 million in expenses in fiscal year '26.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +15.8% YoY in FY2026 Q1 to $0.65B, with TTM revenue of $2.34B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin discipline — 8.6% net margin holds the company in the upper half of its peer set. Operating-cost growth continues to lag revenue growth — the classic margin-expansion setup.",
+    "Margin trajectory — net margin expanded +2.8pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Range-positioning balanced — at 27% of the 52-week range ($34.41–$81.12), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Sell-side target points higher — consensus PT of $88 (vs spot $47.12) implies +86.8% upside. Cross-checked against the peer-median PE FY1 of 62.0x, the discount to fair value looks underwritten by both buy-side and sell-side.",
+    "Valuation discount to peers — 52.0x forward P/E versus peer median 62.0x — a 16% discount. Unless there is a fundamental quality gap that justifies the discount, the gap should compress over time as the cycle plays out."
+  ],
+  "bear": [
+    "Management credibility impaired — MCS of 0.40 on 9 tracked claims (2B/0H/3M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "Trend rolling over — spot $47.12 sits -12.6% relative to the 200-DMA ($53.94). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Options market pricing risk — front-month implied move of 20.3% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 19% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 10.1% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 13% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 6.6% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $34.41 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+15.8% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "8.6%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.40 on 9 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 62.0x FY1 P/E",
+      "latest": "52.0x (-16%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$47.12 vs $53.94 (-12.6%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "61.3",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "±20.3% by 2026-06-18",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Nutanix, Inc. (NTNX) printed $0.65B in revenue in FY2026 Q1 (+15.8% YoY), net margin of 8.6%. Management credibility is weak (MCS 0.40, 2B/0H/3M record) — forward claims should be discounted in valuation models. At 52.0x forward P/E, the stock trades at a 16% discount to peers (62.0x median) — the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.\n\nTechnical regime is impaired: spot $47.12 below the 200-DMA ($53.94, -12.6%) — long-term trend has rolled over. Sell-side consensus PT of $88 implies +86.8% upside. The options market is pricing a ±20.3% move by the front-month expiry — elevated, reflecting binary-event hedging. 30-day implied move is ±20.3%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

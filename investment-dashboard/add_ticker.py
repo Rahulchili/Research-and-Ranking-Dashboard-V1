@@ -84,6 +84,22 @@ TICKER_METADATA: dict[str, tuple[str, str]] = {
     "VRT":  ("Vertiv Holdings Co", "Industrials"),
     "FSLR": ("First Solar, Inc.", "Information Technology"),
     "ORCL": ("Oracle Corporation", "Information Technology"),
+    "ZS":   ("Zscaler, Inc.", "Information Technology"),
+    "ANET": ("Arista Networks, Inc.", "Information Technology"),
+    "LRCX": ("Lam Research Corporation", "Information Technology"),
+    "DE":   ("Deere & Company", "Industrials"),
+    "TXN":  ("Texas Instruments Incorporated", "Information Technology"),
+    "CAH":  ("Cardinal Health, Inc.", "Health Care"),
+    "TWLO": ("Twilio Inc.", "Communication Services"),
+    "DRI":  ("Darden Restaurants, Inc.", "Consumer Discretionary"),
+    "GILD": ("Gilead Sciences, Inc.", "Health Care"),
+    "NTAP": ("NetApp, Inc.", "Information Technology"),
+    "ROST": ("Ross Stores, Inc.", "Consumer Discretionary"),
+    "RBRK": ("Rubrik, Inc.", "Information Technology"),
+    "NTNX": ("Nutanix, Inc.", "Information Technology"),
+    "DELL": ("Dell Technologies Inc.", "Information Technology"),
+    "FTNT": ("Fortinet, Inc.", "Information Technology"),
+    "COHR": ("Coherent Corp.", "Information Technology"),
     "AMZN": ("Amazon.com, Inc.", "Consumer Discretionary"),
     "ARM":  ("Arm Holdings plc", "Information Technology"),
     "ASML": ("ASML Holding N.V.", "Information Technology"),
@@ -515,6 +531,265 @@ DEFAULT_PEER_SETS: dict[str, dict[str, Any]] = {
     },
 
     # === INFORMATION TECHNOLOGY — Semiconductors (mobile / IP licensing) ===
+    # === INFORMATION TECHNOLOGY — Cybersecurity (zero-trust SASE) ===
+    "ZS": {
+        "target": {"ticker":"ZS-US","name":"Zscaler","fiscal_period":"07/2026","price":215.0,"target_price":250.0,"mkt_cap_B":34.0,"ev_B":31.0,"net_debt_M":-3000,
+            "PE_FY1":75.0,"PE_FY2":58.0,"PE_LTM":None,"EV_EBITDA_FY1":50.0,"EV_EBITDA_FY2":40.0,"EV_EBITDA_LTM":62.0,"EV_Sales_LTM":13.0,"PS_LTM":12.0,
+            "FCF_Yield_pct":3.0,"Div_Yield_pct":0.0,"rating":"Buy (1.95)","broker_contributors":28,"Beta_3Y":1.35,"WACC_pct":11.0,
+            "sales_FY1_M":2700,"sales_FY2_M":3300,"ebitda_FY1_M":620,"ebitda_FY2_M":775,"rev_consensus_next_qtr_M":700,"eps_consensus_next_qtr":0.85,"next_earnings_date":"2026-09-03"},
+        "peers":[
+            {"ticker":"CRWD-US","name":"CrowdStrike","fiscal_period":"01/2027","price":485.0,"target_price":540.0,"mkt_cap_B":118.0,"PE_FY1":95.0,"PE_FY2":74.0,"EV_EBITDA_FY1":62.0,"EV_Sales_LTM":24.0,"Div_Yield_pct":0.0},
+            {"ticker":"PANW-US","name":"Palo Alto Networks","fiscal_period":"07/2026","price":210.0,"target_price":235.0,"mkt_cap_B":138.0,"PE_FY1":56.0,"PE_FY2":47.0,"EV_EBITDA_FY1":38.0,"EV_Sales_LTM":15.0,"Div_Yield_pct":0.0},
+            {"ticker":"FTNT-US","name":"Fortinet","fiscal_period":"12/2026","price":82.0,"target_price":92.0,"mkt_cap_B":63.0,"PE_FY1":34.0,"PE_FY2":30.0,"EV_EBITDA_FY1":24.0,"EV_Sales_LTM":9.5,"Div_Yield_pct":0.0},
+            {"ticker":"NET-US","name":"Cloudflare","fiscal_period":"12/2026","price":98.0,"target_price":110.0,"mkt_cap_B":34.0,"PE_FY1":140.0,"PE_FY2":95.0,"EV_EBITDA_FY1":75.0,"EV_Sales_LTM":17.0,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":75.5,"PE_FY2":60.5,"EV_EBITDA_FY1":50.0,"EV_Sales_LTM":16.0},"mean":{"PE_FY1":81.3,"PE_FY2":61.5,"EV_EBITDA_FY1":49.8,"EV_Sales_LTM":16.4}},
+        "interpretation":("ZS trades roughly in-line with cybersecurity peers on forward P/E (~75x vs ~76x median). The thesis is SASE platform leadership + Zero Trust mandate adoption driving sustained 20%+ growth."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Networking (AI/data-center) ===
+    "ANET": {
+        "target": {"ticker":"ANET-US","name":"Arista Networks","fiscal_period":"12/2026","price":98.0,"target_price":110.0,"mkt_cap_B":120.0,"ev_B":113.0,"net_debt_M":-7000,
+            "PE_FY1":40.0,"PE_FY2":34.0,"PE_LTM":45.0,"EV_EBITDA_FY1":34.0,"EV_EBITDA_FY2":28.0,"EV_EBITDA_LTM":38.0,"EV_Sales_LTM":15.0,"PS_LTM":14.0,
+            "FCF_Yield_pct":2.8,"Div_Yield_pct":0.0,"rating":"Buy (2.05)","broker_contributors":26,"Beta_3Y":1.30,"WACC_pct":9.5,
+            "sales_FY1_M":8200,"sales_FY2_M":9500,"ebitda_FY1_M":3300,"ebitda_FY2_M":4050,"rev_consensus_next_qtr_M":2120,"eps_consensus_next_qtr":0.72,"next_earnings_date":"2026-08-04"},
+        "peers":[
+            {"ticker":"CSCO-US","name":"Cisco Systems","fiscal_period":"07/2026","price":67.0,"target_price":72.0,"mkt_cap_B":268.0,"PE_FY1":16.0,"PE_FY2":14.5,"EV_EBITDA_FY1":12.0,"EV_Sales_LTM":4.5,"Div_Yield_pct":2.4},
+            {"ticker":"JNPR-US","name":"Juniper Networks","fiscal_period":"12/2026","price":39.5,"target_price":40.0,"mkt_cap_B":13.0,"PE_FY1":15.0,"PE_FY2":13.5,"EV_EBITDA_FY1":10.5,"EV_Sales_LTM":2.5,"Div_Yield_pct":2.3},
+            {"ticker":"NVDA-US","name":"NVIDIA Corporation","fiscal_period":"01/2027","price":215.0,"target_price":270.0,"mkt_cap_B":5200.0,"PE_FY1":42.0,"PE_FY2":32.0,"EV_EBITDA_FY1":38.0,"EV_Sales_LTM":24.0,"Div_Yield_pct":0.0},
+            {"ticker":"AVGO-US","name":"Broadcom Inc.","fiscal_period":"10/2026","price":430.0,"target_price":480.0,"mkt_cap_B":2000.0,"PE_FY1":35.0,"PE_FY2":29.0,"EV_EBITDA_FY1":26.0,"EV_Sales_LTM":18.0,"Div_Yield_pct":1.2},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":25.5,"PE_FY2":21.8,"EV_EBITDA_FY1":19.0,"EV_Sales_LTM":11.3},"mean":{"PE_FY1":27.0,"PE_FY2":22.3,"EV_EBITDA_FY1":21.6,"EV_Sales_LTM":12.3}},
+        "interpretation":("ANET trades at a premium to legacy-networking peers (~40x FY1 P/E vs ~25.5x median) reflecting hyperscaler AI fabric demand. EV/sales ~15x is in-line with high-growth AI infrastructure plays."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Semicap (etch/deposition) ===
+    "LRCX": {
+        "target": {"ticker":"LRCX-US","name":"Lam Research","fiscal_period":"06/2026","price":1080.0,"target_price":1175.0,"mkt_cap_B":135.0,"ev_B":133.0,"net_debt_M":-2000,
+            "PE_FY1":23.5,"PE_FY2":21.0,"PE_LTM":26.0,"EV_EBITDA_FY1":18.0,"EV_EBITDA_FY2":16.0,"EV_EBITDA_LTM":20.0,"EV_Sales_LTM":7.0,"PS_LTM":7.2,
+            "FCF_Yield_pct":4.5,"Div_Yield_pct":0.8,"rating":"Buy (1.95)","broker_contributors":26,"Beta_3Y":1.40,"WACC_pct":9.5,
+            "sales_FY1_M":18500,"sales_FY2_M":20500,"ebitda_FY1_M":7400,"ebitda_FY2_M":8300,"rev_consensus_next_qtr_M":4900,"eps_consensus_next_qtr":11.50,"next_earnings_date":"2026-07-30"},
+        "peers":[
+            {"ticker":"AMAT-US","name":"Applied Materials","fiscal_period":"10/2026","price":265.0,"target_price":285.0,"mkt_cap_B":220.0,"PE_FY1":22.0,"PE_FY2":20.0,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.5,"Div_Yield_pct":0.7},
+            {"ticker":"KLAC-US","name":"KLA Corporation","fiscal_period":"06/2026","price":850.0,"target_price":920.0,"mkt_cap_B":113.0,"PE_FY1":24.0,"PE_FY2":20.5,"EV_EBITDA_FY1":18.5,"EV_Sales_LTM":9.5,"Div_Yield_pct":0.8},
+            {"ticker":"ASML-US","name":"ASML Holding","fiscal_period":"12/2026","price":820.0,"target_price":900.0,"mkt_cap_B":325.0,"PE_FY1":28.0,"PE_FY2":24.0,"EV_EBITDA_FY1":22.0,"EV_Sales_LTM":10.0,"Div_Yield_pct":1.2},
+            {"ticker":"TER-US","name":"Teradyne","fiscal_period":"12/2026","price":135.0,"target_price":150.0,"mkt_cap_B":22.0,"PE_FY1":25.0,"PE_FY2":21.0,"EV_EBITDA_FY1":19.0,"EV_Sales_LTM":6.5,"Div_Yield_pct":0.4},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":24.5,"PE_FY2":20.8,"EV_EBITDA_FY1":18.8,"EV_Sales_LTM":8.5},"mean":{"PE_FY1":24.8,"PE_FY2":21.4,"EV_EBITDA_FY1":19.1,"EV_Sales_LTM":8.4}},
+        "interpretation":("LRCX trades in-line with semicap peers on forward P/E (~23.5x vs ~24.5x median) and at a discount on EV/sales (~7x vs ~8.5x). NAND recovery + advanced-packaging growth drive the thesis."),
+    },
+
+    # === INDUSTRIALS — Heavy ag/construction equipment ===
+    "DE": {
+        "target": {"ticker":"DE-US","name":"Deere & Company","fiscal_period":"10/2026","price":482.0,"target_price":520.0,"mkt_cap_B":134.0,"ev_B":195.0,"net_debt_M":61000,
+            "PE_FY1":16.5,"PE_FY2":14.5,"PE_LTM":19.0,"EV_EBITDA_FY1":12.5,"EV_EBITDA_FY2":11.0,"EV_EBITDA_LTM":14.0,"EV_Sales_LTM":3.5,"PS_LTM":2.4,
+            "FCF_Yield_pct":4.5,"Div_Yield_pct":1.4,"rating":"Buy (2.15)","broker_contributors":24,"Beta_3Y":0.95,"WACC_pct":8.5,
+            "sales_FY1_M":55500,"sales_FY2_M":59500,"ebitda_FY1_M":15600,"ebitda_FY2_M":17700,"rev_consensus_next_qtr_M":15300,"eps_consensus_next_qtr":7.25,"next_earnings_date":"2026-08-13"},
+        "peers":[
+            {"ticker":"CAT-US","name":"Caterpillar","fiscal_period":"12/2026","price":385.0,"target_price":405.0,"mkt_cap_B":190.0,"PE_FY1":17.5,"PE_FY2":15.5,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":3.2,"Div_Yield_pct":1.5},
+            {"ticker":"AGCO-US","name":"AGCO Corporation","fiscal_period":"12/2026","price":108.0,"target_price":125.0,"mkt_cap_B":8.0,"PE_FY1":10.5,"PE_FY2":9.0,"EV_EBITDA_FY1":7.5,"EV_Sales_LTM":0.8,"Div_Yield_pct":1.2},
+            {"ticker":"CNHI-US","name":"CNH Industrial","fiscal_period":"12/2026","price":13.5,"target_price":15.5,"mkt_cap_B":17.0,"PE_FY1":11.0,"PE_FY2":9.5,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":1.0,"Div_Yield_pct":3.0},
+            {"ticker":"PCAR-US","name":"PACCAR","fiscal_period":"12/2026","price":108.0,"target_price":118.0,"mkt_cap_B":57.0,"PE_FY1":14.0,"PE_FY2":12.5,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":1.5,"Div_Yield_pct":1.2},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":12.5,"PE_FY2":11.0,"EV_EBITDA_FY1":9.3,"EV_Sales_LTM":1.3},"mean":{"PE_FY1":13.3,"PE_FY2":11.6,"EV_EBITDA_FY1":9.8,"EV_Sales_LTM":1.6}},
+        "interpretation":("DE trades at a premium to ag-machinery peers on forward P/E (~16.5x vs ~12.5x median) reflecting precision-ag/autonomy leadership and superior aftermarket margins."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Analog semis ===
+    "TXN": {
+        "target": {"ticker":"TXN-US","name":"Texas Instruments","fiscal_period":"12/2026","price":188.0,"target_price":195.0,"mkt_cap_B":170.0,"ev_B":175.0,"net_debt_M":5000,
+            "PE_FY1":29.0,"PE_FY2":25.0,"PE_LTM":33.0,"EV_EBITDA_FY1":18.5,"EV_EBITDA_FY2":16.5,"EV_EBITDA_LTM":21.0,"EV_Sales_LTM":10.5,"PS_LTM":10.0,
+            "FCF_Yield_pct":3.0,"Div_Yield_pct":3.0,"rating":"Hold (2.85)","broker_contributors":34,"Beta_3Y":1.10,"WACC_pct":8.5,
+            "sales_FY1_M":17000,"sales_FY2_M":18500,"ebitda_FY1_M":9500,"ebitda_FY2_M":10600,"rev_consensus_next_qtr_M":4350,"eps_consensus_next_qtr":1.65,"next_earnings_date":"2026-07-22"},
+        "peers":[
+            {"ticker":"ADI-US","name":"Analog Devices","fiscal_period":"10/2026","price":252.0,"target_price":275.0,"mkt_cap_B":125.0,"PE_FY1":29.5,"PE_FY2":25.0,"EV_EBITDA_FY1":21.0,"EV_Sales_LTM":12.0,"Div_Yield_pct":1.7},
+            {"ticker":"MCHP-US","name":"Microchip Technology","fiscal_period":"03/2026","price":58.0,"target_price":65.0,"mkt_cap_B":31.0,"PE_FY1":24.0,"PE_FY2":17.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.0,"Div_Yield_pct":3.1},
+            {"ticker":"ON-US","name":"ON Semiconductor","fiscal_period":"12/2026","price":68.0,"target_price":78.0,"mkt_cap_B":29.0,"PE_FY1":17.0,"PE_FY2":13.5,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":3.8,"Div_Yield_pct":0.0},
+            {"ticker":"NXPI-US","name":"NXP Semiconductors","fiscal_period":"12/2026","price":230.0,"target_price":255.0,"mkt_cap_B":58.0,"PE_FY1":15.5,"PE_FY2":13.5,"EV_EBITDA_FY1":11.5,"EV_Sales_LTM":4.5,"Div_Yield_pct":1.9},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":20.5,"PE_FY2":15.5,"EV_EBITDA_FY1":14.3,"EV_Sales_LTM":5.8},"mean":{"PE_FY1":21.5,"PE_FY2":17.4,"EV_EBITDA_FY1":15.1,"EV_Sales_LTM":6.8}},
+        "interpretation":("TXN trades at a premium to analog peers on forward P/E (~29x vs ~20.5x median) and EV/sales (~10.5x vs ~5.8x). Premium reflects industrial-end-market resilience + best-in-class capital returns; cyclical headwind in 2026 weighing on multiple."),
+    },
+
+    # === HEALTH CARE — Pharma distribution ===
+    "CAH": {
+        "target": {"ticker":"CAH-US","name":"Cardinal Health","fiscal_period":"06/2026","price":118.0,"target_price":130.0,"mkt_cap_B":28.0,"ev_B":32.0,"net_debt_M":4500,
+            "PE_FY1":15.0,"PE_FY2":13.5,"PE_LTM":17.0,"EV_EBITDA_FY1":11.0,"EV_EBITDA_FY2":10.0,"EV_EBITDA_LTM":12.5,"EV_Sales_LTM":0.13,"PS_LTM":0.11,
+            "FCF_Yield_pct":5.5,"Div_Yield_pct":1.7,"rating":"Buy (2.10)","broker_contributors":19,"Beta_3Y":0.80,"WACC_pct":8.0,
+            "sales_FY1_M":248000,"sales_FY2_M":262000,"ebitda_FY1_M":3050,"ebitda_FY2_M":3300,"rev_consensus_next_qtr_M":61500,"eps_consensus_next_qtr":2.10,"next_earnings_date":"2026-08-12"},
+        "peers":[
+            {"ticker":"MCK-US","name":"McKesson","fiscal_period":"03/2026","price":620.0,"target_price":665.0,"mkt_cap_B":81.0,"PE_FY1":18.0,"PE_FY2":16.0,"EV_EBITDA_FY1":13.5,"EV_Sales_LTM":0.27,"Div_Yield_pct":0.4},
+            {"ticker":"COR-US","name":"Cencora","fiscal_period":"09/2026","price":275.0,"target_price":300.0,"mkt_cap_B":52.0,"PE_FY1":17.0,"PE_FY2":15.5,"EV_EBITDA_FY1":13.5,"EV_Sales_LTM":0.20,"Div_Yield_pct":0.8},
+            {"ticker":"CVS-US","name":"CVS Health","fiscal_period":"12/2026","price":58.0,"target_price":68.0,"mkt_cap_B":73.0,"PE_FY1":9.5,"PE_FY2":8.5,"EV_EBITDA_FY1":7.5,"EV_Sales_LTM":0.30,"Div_Yield_pct":4.6},
+            {"ticker":"WBA-US","name":"Walgreens Boots","fiscal_period":"08/2026","price":11.0,"target_price":13.0,"mkt_cap_B":9.5,"PE_FY1":7.5,"PE_FY2":7.0,"EV_EBITDA_FY1":6.5,"EV_Sales_LTM":0.10,"Div_Yield_pct":9.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":13.3,"PE_FY2":12.0,"EV_EBITDA_FY1":10.5,"EV_Sales_LTM":0.24},"mean":{"PE_FY1":13.0,"PE_FY2":11.8,"EV_EBITDA_FY1":10.3,"EV_Sales_LTM":0.22}},
+        "interpretation":("CAH trades at a slight premium to drug-distribution peers on forward P/E (~15x vs ~13.3x median) reflecting recent margin recovery, the OptiFreight + Specialty growth story, and improved capital returns."),
+    },
+
+    # === COMMUNICATION SERVICES — Communications APIs ===
+    "TWLO": {
+        "target": {"ticker":"TWLO-US","name":"Twilio","fiscal_period":"12/2026","price":78.0,"target_price":98.0,"mkt_cap_B":12.0,"ev_B":10.0,"net_debt_M":-2000,
+            "PE_FY1":22.0,"PE_FY2":18.0,"PE_LTM":42.0,"EV_EBITDA_FY1":14.0,"EV_EBITDA_FY2":11.0,"EV_EBITDA_LTM":18.0,"EV_Sales_LTM":2.4,"PS_LTM":2.5,
+            "FCF_Yield_pct":7.0,"Div_Yield_pct":0.0,"rating":"Buy (2.20)","broker_contributors":24,"Beta_3Y":1.65,"WACC_pct":11.0,
+            "sales_FY1_M":4400,"sales_FY2_M":4750,"ebitda_FY1_M":725,"ebitda_FY2_M":915,"rev_consensus_next_qtr_M":1145,"eps_consensus_next_qtr":1.10,"next_earnings_date":"2026-07-30"},
+        "peers":[
+            {"ticker":"BAND-US","name":"Bandwidth","fiscal_period":"12/2026","price":18.0,"target_price":22.0,"mkt_cap_B":0.6,"PE_FY1":18.0,"PE_FY2":13.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":0.6,"Div_Yield_pct":0.0},
+            {"ticker":"FIVN-US","name":"Five9","fiscal_period":"12/2026","price":31.0,"target_price":38.0,"mkt_cap_B":2.3,"PE_FY1":14.5,"PE_FY2":12.0,"EV_EBITDA_FY1":10.5,"EV_Sales_LTM":2.0,"Div_Yield_pct":0.0},
+            {"ticker":"RNG-US","name":"RingCentral","fiscal_period":"12/2026","price":32.0,"target_price":40.0,"mkt_cap_B":3.0,"PE_FY1":7.5,"PE_FY2":6.5,"EV_EBITDA_FY1":7.0,"EV_Sales_LTM":1.2,"Div_Yield_pct":0.0},
+            {"ticker":"ZM-US","name":"Zoom Communications","fiscal_period":"01/2027","price":82.0,"target_price":90.0,"mkt_cap_B":25.0,"PE_FY1":14.0,"PE_FY2":13.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":4.0,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":14.3,"PE_FY2":12.5,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":1.6},"mean":{"PE_FY1":13.5,"PE_FY2":11.1,"EV_EBITDA_FY1":9.4,"EV_Sales_LTM":1.9}},
+        "interpretation":("TWLO trades at a premium to communication-API peers on forward P/E (~22x vs ~14.3x median) reflecting recent margin expansion, segment-CDP traction, and AI-driven cross-sell narrative."),
+    },
+
+    # === CONSUMER DISCRETIONARY — Restaurants (casual dining) ===
+    "DRI": {
+        "target": {"ticker":"DRI-US","name":"Darden Restaurants","fiscal_period":"05/2026","price":172.0,"target_price":195.0,"mkt_cap_B":20.0,"ev_B":24.0,"net_debt_M":4000,
+            "PE_FY1":17.5,"PE_FY2":16.0,"PE_LTM":19.0,"EV_EBITDA_FY1":12.0,"EV_EBITDA_FY2":11.0,"EV_EBITDA_LTM":13.5,"EV_Sales_LTM":2.0,"PS_LTM":1.7,
+            "FCF_Yield_pct":5.0,"Div_Yield_pct":3.5,"rating":"Buy (2.10)","broker_contributors":22,"Beta_3Y":1.05,"WACC_pct":8.5,
+            "sales_FY1_M":12100,"sales_FY2_M":12900,"ebitda_FY1_M":2000,"ebitda_FY2_M":2150,"rev_consensus_next_qtr_M":3200,"eps_consensus_next_qtr":2.85,"next_earnings_date":"2026-06-19"},
+        "peers":[
+            {"ticker":"MCD-US","name":"McDonald's","fiscal_period":"12/2026","price":318.0,"target_price":340.0,"mkt_cap_B":228.0,"PE_FY1":24.5,"PE_FY2":22.5,"EV_EBITDA_FY1":18.5,"EV_Sales_LTM":10.5,"Div_Yield_pct":2.5},
+            {"ticker":"SBUX-US","name":"Starbucks","fiscal_period":"09/2026","price":100.0,"target_price":110.0,"mkt_cap_B":113.0,"PE_FY1":26.0,"PE_FY2":22.0,"EV_EBITDA_FY1":16.0,"EV_Sales_LTM":3.3,"Div_Yield_pct":2.5},
+            {"ticker":"CMG-US","name":"Chipotle Mexican Grill","fiscal_period":"12/2026","price":50.0,"target_price":58.0,"mkt_cap_B":68.0,"PE_FY1":42.0,"PE_FY2":35.0,"EV_EBITDA_FY1":32.0,"EV_Sales_LTM":6.5,"Div_Yield_pct":0.0},
+            {"ticker":"EAT-US","name":"Brinker International","fiscal_period":"06/2026","price":145.0,"target_price":160.0,"mkt_cap_B":6.5,"PE_FY1":18.0,"PE_FY2":16.5,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":1.5,"Div_Yield_pct":0.0},
+            {"ticker":"TXRH-US","name":"Texas Roadhouse","fiscal_period":"12/2026","price":205.0,"target_price":225.0,"mkt_cap_B":14.0,"PE_FY1":29.0,"PE_FY2":26.0,"EV_EBITDA_FY1":19.0,"EV_Sales_LTM":2.6,"Div_Yield_pct":1.5},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":26.0,"PE_FY2":22.5,"EV_EBITDA_FY1":18.5,"EV_Sales_LTM":3.3},"mean":{"PE_FY1":27.9,"PE_FY2":24.4,"EV_EBITDA_FY1":19.3,"EV_Sales_LTM":4.9}},
+        "interpretation":("DRI trades at a discount to restaurant peers on forward P/E (~17.5x vs ~26x median) and EV/sales (~2x vs ~3.3x). Reflects casual-dining cyclical exposure + thinner franchise mix vs. higher-margin peers."),
+    },
+
+    # === HEALTH CARE — Biotech (HIV / antiviral) ===
+    "GILD": {
+        "target": {"ticker":"GILD-US","name":"Gilead Sciences","fiscal_period":"12/2026","price":92.0,"target_price":105.0,"mkt_cap_B":115.0,"ev_B":135.0,"net_debt_M":20000,
+            "PE_FY1":11.0,"PE_FY2":10.0,"PE_LTM":13.5,"EV_EBITDA_FY1":8.0,"EV_EBITDA_FY2":7.5,"EV_EBITDA_LTM":9.0,"EV_Sales_LTM":4.5,"PS_LTM":3.9,
+            "FCF_Yield_pct":8.0,"Div_Yield_pct":3.5,"rating":"Buy (2.05)","broker_contributors":26,"Beta_3Y":0.55,"WACC_pct":8.0,
+            "sales_FY1_M":29500,"sales_FY2_M":30800,"ebitda_FY1_M":15800,"ebitda_FY2_M":16500,"rev_consensus_next_qtr_M":7400,"eps_consensus_next_qtr":2.10,"next_earnings_date":"2026-08-07"},
+        "peers":[
+            {"ticker":"PFE-US","name":"Pfizer Inc.","fiscal_period":"12/2026","price":26.0,"target_price":30.0,"mkt_cap_B":147.0,"PE_FY1":9.5,"PE_FY2":9.0,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":2.4,"Div_Yield_pct":6.5},
+            {"ticker":"MRK-US","name":"Merck & Co.","fiscal_period":"12/2026","price":92.0,"target_price":105.0,"mkt_cap_B":233.0,"PE_FY1":10.5,"PE_FY2":9.5,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":3.8,"Div_Yield_pct":3.7},
+            {"ticker":"BMY-US","name":"Bristol-Myers Squibb","fiscal_period":"12/2026","price":50.0,"target_price":58.0,"mkt_cap_B":100.0,"PE_FY1":7.5,"PE_FY2":7.0,"EV_EBITDA_FY1":6.5,"EV_Sales_LTM":2.3,"Div_Yield_pct":4.8},
+            {"ticker":"VRTX-US","name":"Vertex Pharmaceuticals","fiscal_period":"12/2026","price":485.0,"target_price":525.0,"mkt_cap_B":125.0,"PE_FY1":21.0,"PE_FY2":18.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":11.0,"Div_Yield_pct":0.0},
+            {"ticker":"BIIB-US","name":"Biogen","fiscal_period":"12/2026","price":195.0,"target_price":225.0,"mkt_cap_B":29.0,"PE_FY1":12.5,"PE_FY2":11.0,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":3.2,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":10.5,"PE_FY2":9.5,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":3.2},"mean":{"PE_FY1":12.2,"PE_FY2":11.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":4.5}},
+        "interpretation":("GILD trades roughly in-line with large pharma peers on forward P/E (~11x vs ~10.5x median). Strong FCF + dividend yield support a quality-yield thesis; oncology pipeline + Veklury durability drive longer-term."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Storage / data services ===
+    "NTAP": {
+        "target": {"ticker":"NTAP-US","name":"NetApp, Inc.","fiscal_period":"04/2026","price":118.0,"target_price":130.0,"mkt_cap_B":24.0,"ev_B":23.0,"net_debt_M":-1000,
+            "PE_FY1":17.0,"PE_FY2":15.5,"PE_LTM":18.5,"EV_EBITDA_FY1":13.0,"EV_EBITDA_FY2":11.5,"EV_EBITDA_LTM":14.0,"EV_Sales_LTM":3.5,"PS_LTM":3.6,
+            "FCF_Yield_pct":4.5,"Div_Yield_pct":1.8,"rating":"Hold (2.65)","broker_contributors":22,"Beta_3Y":1.10,"WACC_pct":9.0,
+            "sales_FY1_M":6500,"sales_FY2_M":6900,"ebitda_FY1_M":1800,"ebitda_FY2_M":2000,"rev_consensus_next_qtr_M":1675,"eps_consensus_next_qtr":1.65,"next_earnings_date":"2026-08-26"},
+        "peers":[
+            {"ticker":"PSTG-US","name":"Pure Storage","fiscal_period":"01/2027","price":62.0,"target_price":72.0,"mkt_cap_B":21.0,"PE_FY1":40.0,"PE_FY2":33.0,"EV_EBITDA_FY1":29.0,"EV_Sales_LTM":6.0,"Div_Yield_pct":0.0},
+            {"ticker":"DELL-US","name":"Dell Technologies","fiscal_period":"01/2026","price":138.0,"target_price":150.0,"mkt_cap_B":97.0,"PE_FY1":15.5,"PE_FY2":13.5,"EV_EBITDA_FY1":11.5,"EV_Sales_LTM":1.2,"Div_Yield_pct":1.6},
+            {"ticker":"STX-US","name":"Seagate Technology","fiscal_period":"06/2026","price":135.0,"target_price":150.0,"mkt_cap_B":28.0,"PE_FY1":13.0,"PE_FY2":10.5,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":3.0,"Div_Yield_pct":2.1},
+            {"ticker":"HPE-US","name":"Hewlett Packard Enterprise","fiscal_period":"10/2026","price":22.0,"target_price":24.0,"mkt_cap_B":29.0,"PE_FY1":11.0,"PE_FY2":10.5,"EV_EBITDA_FY1":7.0,"EV_Sales_LTM":1.0,"Div_Yield_pct":2.4},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":14.3,"PE_FY2":12.0,"EV_EBITDA_FY1":10.5,"EV_Sales_LTM":2.1},"mean":{"PE_FY1":19.9,"PE_FY2":16.9,"EV_EBITDA_FY1":14.3,"EV_Sales_LTM":2.8}},
+        "interpretation":("NTAP trades at a slight premium to legacy-storage peers on forward P/E (~17x vs ~14.3x median). Cloud-storage transition (ONTAP Cloud) + AI-tied flash demand are the bull case."),
+    },
+
+    # === CONSUMER DISCRETIONARY — Off-price retail ===
+    "ROST": {
+        "target": {"ticker":"ROST-US","name":"Ross Stores","fiscal_period":"01/2027","price":158.0,"target_price":175.0,"mkt_cap_B":53.0,"ev_B":55.0,"net_debt_M":2000,
+            "PE_FY1":22.5,"PE_FY2":20.5,"PE_LTM":24.0,"EV_EBITDA_FY1":15.0,"EV_EBITDA_FY2":13.5,"EV_EBITDA_LTM":16.0,"EV_Sales_LTM":2.4,"PS_LTM":2.3,
+            "FCF_Yield_pct":3.5,"Div_Yield_pct":1.0,"rating":"Buy (2.20)","broker_contributors":25,"Beta_3Y":0.95,"WACC_pct":8.0,
+            "sales_FY1_M":22500,"sales_FY2_M":24000,"ebitda_FY1_M":3675,"ebitda_FY2_M":4075,"rev_consensus_next_qtr_M":5400,"eps_consensus_next_qtr":1.65,"next_earnings_date":"2026-08-20"},
+        "peers":[
+            {"ticker":"TJX-US","name":"TJX Companies","fiscal_period":"01/2027","price":138.0,"target_price":150.0,"mkt_cap_B":155.0,"PE_FY1":28.0,"PE_FY2":25.5,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":2.7,"Div_Yield_pct":1.2},
+            {"ticker":"BURL-US","name":"Burlington Stores","fiscal_period":"01/2027","price":280.0,"target_price":310.0,"mkt_cap_B":18.0,"PE_FY1":29.0,"PE_FY2":24.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":1.8,"Div_Yield_pct":0.0},
+            {"ticker":"DLTR-US","name":"Dollar Tree","fiscal_period":"01/2027","price":98.0,"target_price":115.0,"mkt_cap_B":21.0,"PE_FY1":17.0,"PE_FY2":14.0,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":0.9,"Div_Yield_pct":0.0},
+            {"ticker":"TGT-US","name":"Target","fiscal_period":"01/2027","price":118.0,"target_price":135.0,"mkt_cap_B":54.0,"PE_FY1":14.0,"PE_FY2":13.0,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":0.6,"Div_Yield_pct":3.6},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":22.5,"PE_FY2":19.0,"EV_EBITDA_FY1":14.5,"EV_Sales_LTM":1.4},"mean":{"PE_FY1":22.0,"PE_FY2":19.1,"EV_EBITDA_FY1":13.9,"EV_Sales_LTM":1.5}},
+        "interpretation":("ROST trades in-line with off-price retail peers on forward P/E (~22.5x vs ~22.5x median). Quality-compounder thesis: low-end consumer trade-down tailwind + best-in-class inventory turns."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Cybersecurity (data backup/recovery) ===
+    "RBRK": {
+        "target": {"ticker":"RBRK-US","name":"Rubrik, Inc.","fiscal_period":"01/2027","price":62.0,"target_price":78.0,"mkt_cap_B":11.5,"ev_B":11.0,"net_debt_M":-500,
+            "PE_FY1":None,"PE_FY2":None,"PE_LTM":None,"EV_EBITDA_FY1":None,"EV_EBITDA_FY2":80.0,"EV_EBITDA_LTM":None,"EV_Sales_LTM":11.0,"PS_LTM":11.5,
+            "FCF_Yield_pct":None,"Div_Yield_pct":0.0,"rating":"Buy (2.00)","broker_contributors":17,"Beta_3Y":None,"WACC_pct":12.0,
+            "sales_FY1_M":1050,"sales_FY2_M":1300,"ebitda_FY1_M":-50,"ebitda_FY2_M":140,"rev_consensus_next_qtr_M":270,"eps_consensus_next_qtr":-0.10,"next_earnings_date":"2026-09-04"},
+        "peers":[
+            {"ticker":"CRWD-US","name":"CrowdStrike","fiscal_period":"01/2027","price":485.0,"target_price":540.0,"mkt_cap_B":118.0,"PE_FY1":95.0,"PE_FY2":74.0,"EV_EBITDA_FY1":62.0,"EV_Sales_LTM":24.0,"Div_Yield_pct":0.0},
+            {"ticker":"S-US","name":"SentinelOne","fiscal_period":"01/2027","price":24.0,"target_price":28.0,"mkt_cap_B":8.0,"PE_FY1":None,"PE_FY2":140.0,"EV_EBITDA_FY1":None,"EV_Sales_LTM":7.5,"Div_Yield_pct":0.0},
+            {"ticker":"CFLT-US","name":"Confluent","fiscal_period":"12/2026","price":28.0,"target_price":34.0,"mkt_cap_B":9.0,"PE_FY1":120.0,"PE_FY2":78.0,"EV_EBITDA_FY1":80.0,"EV_Sales_LTM":8.0,"Div_Yield_pct":0.0},
+            {"ticker":"NTNX-US","name":"Nutanix","fiscal_period":"07/2026","price":78.0,"target_price":88.0,"mkt_cap_B":21.0,"PE_FY1":52.0,"PE_FY2":42.0,"EV_EBITDA_FY1":36.0,"EV_Sales_LTM":8.5,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":95.0,"PE_FY2":76.0,"EV_EBITDA_FY1":62.0,"EV_Sales_LTM":8.3},"mean":{"PE_FY1":89.0,"PE_FY2":83.5,"EV_EBITDA_FY1":59.3,"EV_Sales_LTM":12.0}},
+        "interpretation":("RBRK trades at a premium to cyber-resilience peers on EV/sales (~11x vs ~8.3x median); company is not yet profitable. Pure-play on cyber-resilience / ransomware-recovery TAM; bull case = subscription mix-shift + AI-driven attack defense."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Hybrid-cloud infrastructure software ===
+    "NTNX": {
+        "target": {"ticker":"NTNX-US","name":"Nutanix","fiscal_period":"07/2026","price":78.0,"target_price":88.0,"mkt_cap_B":21.0,"ev_B":20.5,"net_debt_M":-500,
+            "PE_FY1":52.0,"PE_FY2":42.0,"PE_LTM":None,"EV_EBITDA_FY1":36.0,"EV_EBITDA_FY2":29.0,"EV_EBITDA_LTM":48.0,"EV_Sales_LTM":8.5,"PS_LTM":8.8,
+            "FCF_Yield_pct":3.5,"Div_Yield_pct":0.0,"rating":"Buy (2.10)","broker_contributors":21,"Beta_3Y":1.35,"WACC_pct":10.5,
+            "sales_FY1_M":2450,"sales_FY2_M":2820,"ebitda_FY1_M":570,"ebitda_FY2_M":710,"rev_consensus_next_qtr_M":665,"eps_consensus_next_qtr":0.45,"next_earnings_date":"2026-08-26"},
+        "peers":[
+            {"ticker":"VMW-US","name":"VMware (Broadcom)","fiscal_period":"10/2026","price":None,"target_price":None,"mkt_cap_B":None,"PE_FY1":None,"PE_FY2":None,"EV_EBITDA_FY1":None,"EV_Sales_LTM":None,"Div_Yield_pct":None},
+            {"ticker":"DDOG-US","name":"Datadog","fiscal_period":"12/2026","price":135.0,"target_price":155.0,"mkt_cap_B":47.0,"PE_FY1":62.0,"PE_FY2":50.0,"EV_EBITDA_FY1":48.0,"EV_Sales_LTM":13.0,"Div_Yield_pct":0.0},
+            {"ticker":"NET-US","name":"Cloudflare","fiscal_period":"12/2026","price":98.0,"target_price":110.0,"mkt_cap_B":34.0,"PE_FY1":140.0,"PE_FY2":95.0,"EV_EBITDA_FY1":75.0,"EV_Sales_LTM":17.0,"Div_Yield_pct":0.0},
+            {"ticker":"MDB-US","name":"MongoDB","fiscal_period":"01/2027","price":260.0,"target_price":300.0,"mkt_cap_B":21.0,"PE_FY1":62.0,"PE_FY2":47.0,"EV_EBITDA_FY1":50.0,"EV_Sales_LTM":11.0,"Div_Yield_pct":0.0},
+            {"ticker":"PSTG-US","name":"Pure Storage","fiscal_period":"01/2027","price":62.0,"target_price":72.0,"mkt_cap_B":21.0,"PE_FY1":40.0,"PE_FY2":33.0,"EV_EBITDA_FY1":29.0,"EV_Sales_LTM":6.0,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":62.0,"PE_FY2":48.5,"EV_EBITDA_FY1":49.0,"EV_Sales_LTM":12.0},"mean":{"PE_FY1":76.0,"PE_FY2":56.3,"EV_EBITDA_FY1":50.5,"EV_Sales_LTM":11.8}},
+        "interpretation":("NTNX trades at a slight discount to hybrid-cloud / data-platform peers on forward P/E (~52x vs ~62x median). VMware-Broadcom disruption is a major tailwind for displacement; bull case = hyperconverged + GPT-N agentic workloads."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Enterprise hardware / AI servers ===
+    "DELL": {
+        "target": {"ticker":"DELL-US","name":"Dell Technologies","fiscal_period":"01/2027","price":138.0,"target_price":150.0,"mkt_cap_B":97.0,"ev_B":120.0,"net_debt_M":23000,
+            "PE_FY1":15.5,"PE_FY2":13.5,"PE_LTM":18.0,"EV_EBITDA_FY1":11.5,"EV_EBITDA_FY2":10.0,"EV_EBITDA_LTM":13.0,"EV_Sales_LTM":1.2,"PS_LTM":1.0,
+            "FCF_Yield_pct":7.5,"Div_Yield_pct":1.6,"rating":"Buy (2.05)","broker_contributors":21,"Beta_3Y":1.30,"WACC_pct":9.0,
+            "sales_FY1_M":98000,"sales_FY2_M":110000,"ebitda_FY1_M":10400,"ebitda_FY2_M":12000,"rev_consensus_next_qtr_M":24500,"eps_consensus_next_qtr":1.85,"next_earnings_date":"2026-08-27"},
+        "peers":[
+            {"ticker":"HPE-US","name":"Hewlett Packard Enterprise","fiscal_period":"10/2026","price":22.0,"target_price":24.0,"mkt_cap_B":29.0,"PE_FY1":11.0,"PE_FY2":10.5,"EV_EBITDA_FY1":7.0,"EV_Sales_LTM":1.0,"Div_Yield_pct":2.4},
+            {"ticker":"SMCI-US","name":"Super Micro Computer","fiscal_period":"06/2026","price":52.0,"target_price":58.0,"mkt_cap_B":29.0,"PE_FY1":13.0,"PE_FY2":11.0,"EV_EBITDA_FY1":9.0,"EV_Sales_LTM":1.6,"Div_Yield_pct":0.0},
+            {"ticker":"NTAP-US","name":"NetApp, Inc.","fiscal_period":"04/2026","price":118.0,"target_price":130.0,"mkt_cap_B":24.0,"PE_FY1":17.0,"PE_FY2":15.5,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":3.5,"Div_Yield_pct":1.8},
+            {"ticker":"HPQ-US","name":"HP Inc.","fiscal_period":"10/2026","price":35.0,"target_price":38.0,"mkt_cap_B":33.0,"PE_FY1":10.0,"PE_FY2":9.5,"EV_EBITDA_FY1":7.5,"EV_Sales_LTM":0.7,"Div_Yield_pct":3.4},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":12.0,"PE_FY2":10.8,"EV_EBITDA_FY1":8.3,"EV_Sales_LTM":1.3},"mean":{"PE_FY1":12.8,"PE_FY2":11.6,"EV_EBITDA_FY1":9.1,"EV_Sales_LTM":1.7}},
+        "interpretation":("DELL trades at a premium to enterprise-hardware peers on forward P/E (~15.5x vs ~12x median) reflecting AI-server backlog momentum + ISG segment hyperscaler wins. Mid-teens earnings growth + 7-8% FCF yield are the floor."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Cybersecurity (network firewall) ===
+    "FTNT": {
+        "target": {"ticker":"FTNT-US","name":"Fortinet","fiscal_period":"12/2026","price":82.0,"target_price":92.0,"mkt_cap_B":63.0,"ev_B":59.0,"net_debt_M":-4000,
+            "PE_FY1":34.0,"PE_FY2":30.0,"PE_LTM":38.0,"EV_EBITDA_FY1":24.0,"EV_EBITDA_FY2":21.0,"EV_EBITDA_LTM":26.0,"EV_Sales_LTM":9.5,"PS_LTM":9.5,
+            "FCF_Yield_pct":5.5,"Div_Yield_pct":0.0,"rating":"Buy (2.20)","broker_contributors":31,"Beta_3Y":1.05,"WACC_pct":9.5,
+            "sales_FY1_M":6300,"sales_FY2_M":7000,"ebitda_FY1_M":2475,"ebitda_FY2_M":2800,"rev_consensus_next_qtr_M":1610,"eps_consensus_next_qtr":0.62,"next_earnings_date":"2026-08-06"},
+        "peers":[
+            {"ticker":"CRWD-US","name":"CrowdStrike","fiscal_period":"01/2027","price":485.0,"target_price":540.0,"mkt_cap_B":118.0,"PE_FY1":95.0,"PE_FY2":74.0,"EV_EBITDA_FY1":62.0,"EV_Sales_LTM":24.0,"Div_Yield_pct":0.0},
+            {"ticker":"PANW-US","name":"Palo Alto Networks","fiscal_period":"07/2026","price":210.0,"target_price":235.0,"mkt_cap_B":138.0,"PE_FY1":56.0,"PE_FY2":47.0,"EV_EBITDA_FY1":38.0,"EV_Sales_LTM":15.0,"Div_Yield_pct":0.0},
+            {"ticker":"ZS-US","name":"Zscaler","fiscal_period":"07/2026","price":215.0,"target_price":250.0,"mkt_cap_B":34.0,"PE_FY1":75.0,"PE_FY2":58.0,"EV_EBITDA_FY1":50.0,"EV_Sales_LTM":13.0,"Div_Yield_pct":0.0},
+            {"ticker":"CHKP-US","name":"Check Point Software","fiscal_period":"12/2026","price":190.0,"target_price":205.0,"mkt_cap_B":21.0,"PE_FY1":19.0,"PE_FY2":17.0,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":7.5,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":65.5,"PE_FY2":52.5,"EV_EBITDA_FY1":44.0,"EV_Sales_LTM":14.0},"mean":{"PE_FY1":61.3,"PE_FY2":49.0,"EV_EBITDA_FY1":41.3,"EV_Sales_LTM":14.9}},
+        "interpretation":("FTNT trades at a discount to cybersecurity SaaS peers on forward P/E (~34x vs ~65.5x median) reflecting firewall-heavy product mix and lower secular subscription growth. Bull case = SecOps/SASE convergence + best-in-class margins."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Photonics / optical components ===
+    "COHR": {
+        "target": {"ticker":"COHR-US","name":"Coherent Corp.","fiscal_period":"06/2026","price":118.0,"target_price":138.0,"mkt_cap_B":18.0,"ev_B":22.0,"net_debt_M":4000,
+            "PE_FY1":28.0,"PE_FY2":22.0,"PE_LTM":48.0,"EV_EBITDA_FY1":15.0,"EV_EBITDA_FY2":12.0,"EV_EBITDA_LTM":20.0,"EV_Sales_LTM":3.5,"PS_LTM":2.9,
+            "FCF_Yield_pct":4.5,"Div_Yield_pct":0.0,"rating":"Buy (2.00)","broker_contributors":18,"Beta_3Y":1.55,"WACC_pct":10.5,
+            "sales_FY1_M":6300,"sales_FY2_M":7100,"ebitda_FY1_M":1450,"ebitda_FY2_M":1820,"rev_consensus_next_qtr_M":1630,"eps_consensus_next_qtr":1.20,"next_earnings_date":"2026-08-13"},
+        "peers":[
+            {"ticker":"LITE-US","name":"Lumentum Holdings","fiscal_period":"06/2026","price":68.0,"target_price":80.0,"mkt_cap_B":4.5,"PE_FY1":18.0,"PE_FY2":13.0,"EV_EBITDA_FY1":12.0,"EV_Sales_LTM":2.5,"Div_Yield_pct":0.0},
+            {"ticker":"FN-US","name":"Fabrinet","fiscal_period":"06/2026","price":225.0,"target_price":250.0,"mkt_cap_B":8.0,"PE_FY1":21.0,"PE_FY2":18.0,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":2.4,"Div_Yield_pct":0.0},
+            {"ticker":"IPGP-US","name":"IPG Photonics","fiscal_period":"12/2026","price":75.0,"target_price":85.0,"mkt_cap_B":3.5,"PE_FY1":28.0,"PE_FY2":21.0,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":3.5,"Div_Yield_pct":0.0},
+            {"ticker":"CIEN-US","name":"Ciena Corporation","fiscal_period":"10/2026","price":78.0,"target_price":92.0,"mkt_cap_B":11.0,"PE_FY1":18.0,"PE_FY2":14.0,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":2.3,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":19.5,"PE_FY2":16.0,"EV_EBITDA_FY1":12.5,"EV_Sales_LTM":2.5},"mean":{"PE_FY1":21.3,"PE_FY2":16.5,"EV_EBITDA_FY1":12.8,"EV_Sales_LTM":2.7}},
+        "interpretation":("COHR trades at a premium to photonics peers on forward P/E (~28x vs ~19.5x median) and EV/sales (~3.5x vs ~2.5x) — reflecting AI-driven optical transceiver demand from hyperscalers. Bull case = 800G/1.6T optics + datacom mix shift."),
+    },
+
     # === INFORMATION TECHNOLOGY — Analog semis ===
     "ADI": {
         "target": {"ticker":"ADI-US","name":"Analog Devices, Inc.","fiscal_period":"10/2026","price":252.0,"target_price":275.0,"mkt_cap_B":125.0,"ev_B":135.0,"net_debt_M":10000,

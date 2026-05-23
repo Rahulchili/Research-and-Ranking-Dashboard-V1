@@ -316,6 +316,78 @@
       }
     },
     {
+      "compositeScore": 73.695,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Texas Instruments Incorporated",
+      "options": null,
+      "priorityBucket": "Medium",
+      "rank": 8,
+      "scores": {
+        "fundamentals": 84.1,
+        "management": 62.5,
+        "options": 49.9,
+        "technicals": 76.7,
+        "valuation": 61.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "TXN",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
+      "compositeScore": 72.86,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Fortinet, Inc.",
+      "options": null,
+      "priorityBucket": "Medium",
+      "rank": 9,
+      "scores": {
+        "fundamentals": 81.1,
+        "management": 50.0,
+        "options": 60.8,
+        "technicals": 76.7,
+        "valuation": 81.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "FTNT",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 7,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
       "compositeScore": 72.66,
       "confidence": {
         "basis": {
@@ -331,7 +403,7 @@
       "name": "Applied Materials, Inc.",
       "options": null,
       "priorityBucket": "Medium",
-      "rank": 8,
+      "rank": 10,
       "scores": {
         "fundamentals": 80.0,
         "management": 56.2,
@@ -385,6 +457,42 @@
       }
     },
     {
+      "compositeScore": 72.505,
+      "confidence": {
+        "basis": {
+          "claimCount": 6,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 6
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.7167
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Coherent Corp.",
+      "options": null,
+      "priorityBucket": "Medium",
+      "rank": 11,
+      "scores": {
+        "fundamentals": 94.0,
+        "management": 25.0,
+        "options": 53.4,
+        "technicals": 78.9,
+        "valuation": 58.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "COHR",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 1,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
       "compositeScore": 72.465,
       "confidence": {
         "basis": {
@@ -400,7 +508,7 @@
       "name": "The Goldman Sachs Group, Inc.",
       "options": null,
       "priorityBucket": "Medium",
-      "rank": 9,
+      "rank": 12,
       "scores": {
         "fundamentals": 90.0,
         "management": 41.7,
@@ -413,6 +521,42 @@
       "technicals": null,
       "thesis": null,
       "ticker": "GS",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
+      "compositeScore": 72.015,
+      "confidence": {
+        "basis": {
+          "claimCount": 5,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 5
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.6333
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Ross Stores, Inc.",
+      "options": null,
+      "priorityBucket": "Medium",
+      "rank": 13,
+      "scores": {
+        "fundamentals": 77.3,
+        "management": 50.0,
+        "options": 57.9,
+        "technicals": 81.2,
+        "valuation": 65.0
+      },
+      "sector": "Consumer Discretionary",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "ROST",
       "valuation": null,
       "verdictBreakdown": {
         "beats": 0,
@@ -436,7 +580,7 @@
       "name": "Vertiv Holdings Co",
       "options": null,
       "priorityBucket": "Medium",
-      "rank": 10,
+      "rank": 14,
       "scores": {
         "fundamentals": 90.0,
         "management": 33.3,
@@ -472,7 +616,7 @@
       "name": "Micron Technology, Inc.",
       "options": null,
       "priorityBucket": "Medium",
-      "rank": 11,
+      "rank": 15,
       "scores": {
         "fundamentals": 89.5,
         "management": 25.0,
@@ -541,7 +685,7 @@
       "name": "Zoom Communications, Inc.",
       "options": null,
       "priorityBucket": "Medium",
-      "rank": 12,
+      "rank": 16,
       "scores": {
         "fundamentals": 72.7,
         "management": 56.2,
@@ -577,7 +721,7 @@
       "name": "KLA Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 13,
+      "rank": 17,
       "scores": {
         "fundamentals": 78.5,
         "management": 37.5,
@@ -613,7 +757,7 @@
       "name": "Datadog, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 14,
+      "rank": 18,
       "scores": {
         "fundamentals": 72.1,
         "management": 56.2,
@@ -649,7 +793,7 @@
       "name": "ASML Holding NV",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 15,
+      "rank": 19,
       "scores": {
         "fundamentals": 71.0,
         "management": 62.5,
@@ -699,6 +843,42 @@
       }
     },
     {
+      "compositeScore": 68.61,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Arista Networks, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 20,
+      "scores": {
+        "fundamentals": 79.4,
+        "management": 50.0,
+        "options": 57.9,
+        "technicals": 70.8,
+        "valuation": 55.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "ANET",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 2,
+        "hits": 0,
+        "misses": 2
+      }
+    },
+    {
       "compositeScore": 68.59,
       "confidence": {
         "basis": {
@@ -714,7 +894,7 @@
       "name": "First Solar, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 16,
+      "rank": 21,
       "scores": {
         "fundamentals": 87.5,
         "management": 50.0,
@@ -750,7 +930,7 @@
       "name": "CrowdStrike Holdings, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 17,
+      "rank": 22,
       "scores": {
         "fundamentals": 75.0,
         "management": 50.0,
@@ -786,7 +966,7 @@
       "name": "Visa Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 18,
+      "rank": 23,
       "scores": {
         "fundamentals": 91.8,
         "management": 56.2,
@@ -807,6 +987,42 @@
       }
     },
     {
+      "compositeScore": 68.225,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Lam Research Corporation",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 24,
+      "scores": {
+        "fundamentals": 67.6,
+        "management": 56.2,
+        "options": 52.7,
+        "technicals": 78.9,
+        "valuation": 65.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "LRCX",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 5
+      }
+    },
+    {
       "compositeScore": 68.055,
       "confidence": {
         "basis": {
@@ -822,7 +1038,7 @@
       "name": "Advanced Micro Devices, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 19,
+      "rank": 25,
       "scores": {
         "fundamentals": 73.0,
         "management": 50.0,
@@ -887,7 +1103,7 @@
       "name": "Johnson & Johnson",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 20,
+      "rank": 26,
       "scores": {
         "fundamentals": 79.0,
         "management": 58.3,
@@ -908,6 +1124,42 @@
       }
     },
     {
+      "compositeScore": 68.035,
+      "confidence": {
+        "basis": {
+          "claimCount": 5,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 5
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.6333
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Twilio Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 27,
+      "scores": {
+        "fundamentals": 67.6,
+        "management": 50.0,
+        "options": 62.1,
+        "technicals": 78.9,
+        "valuation": 61.0
+      },
+      "sector": "Communication Services",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "TWLO",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 4,
+        "hits": 0,
+        "misses": 1
+      }
+    },
+    {
       "compositeScore": 67.445,
       "confidence": {
         "basis": {
@@ -923,7 +1175,7 @@
       "name": "Broadcom Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 21,
+      "rank": 28,
       "scores": {
         "fundamentals": 72.1,
         "management": 31.2,
@@ -990,7 +1242,7 @@
       "name": "Palantir Technologies Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 22,
+      "rank": 29,
       "scores": {
         "fundamentals": 85.5,
         "management": 100.0,
@@ -1026,7 +1278,7 @@
       "name": "Cisco Systems, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 23,
+      "rank": 30,
       "scores": {
         "fundamentals": 70.2,
         "management": 50.0,
@@ -1062,7 +1314,7 @@
       "name": "AppLovin Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 24,
+      "rank": 31,
       "scores": {
         "fundamentals": 91.8,
         "management": 50.0,
@@ -1098,7 +1350,7 @@
       "name": "Costco Wholesale Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 25,
+      "rank": 32,
       "scores": {
         "fundamentals": 76.3,
         "management": 43.8,
@@ -1134,7 +1386,7 @@
       "name": "Walmart Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 26,
+      "rank": 33,
       "scores": {
         "fundamentals": 74.3,
         "management": 50.0,
@@ -1155,6 +1407,42 @@
       }
     },
     {
+      "compositeScore": 65.765,
+      "confidence": {
+        "basis": {
+          "claimCount": 5,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 5
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.6333
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Rubrik, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 34,
+      "scores": {
+        "fundamentals": 90.0,
+        "management": 50.0,
+        "options": 43.4,
+        "technicals": 55.5,
+        "valuation": 60.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "RBRK",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 2,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
       "compositeScore": 65.285,
       "confidence": {
         "basis": {
@@ -1170,7 +1458,7 @@
       "name": "Palo Alto Networks, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 27,
+      "rank": 35,
       "scores": {
         "fundamentals": 67.8,
         "management": 50.0,
@@ -1206,7 +1494,7 @@
       "name": "JPM",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 28,
+      "rank": 36,
       "scores": {
         "fundamentals": 79.3,
         "management": 62.5,
@@ -1227,6 +1515,42 @@
       }
     },
     {
+      "compositeScore": 65.09,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "NetApp, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 37,
+      "scores": {
+        "fundamentals": 62.3,
+        "management": 56.2,
+        "options": 67.6,
+        "technicals": 73.7,
+        "valuation": 46.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "NTAP",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 3,
+        "hits": 0,
+        "misses": 1
+      }
+    },
+    {
       "compositeScore": 64.695,
       "confidence": {
         "basis": {
@@ -1242,7 +1566,7 @@
       "name": "Microsoft Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 29,
+      "rank": 38,
       "scores": {
         "fundamentals": 90.2,
         "management": 50.0,
@@ -1278,7 +1602,7 @@
       "name": "MongoDB, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 30,
+      "rank": 39,
       "scores": {
         "fundamentals": 75.0,
         "management": 60.0,
@@ -1314,7 +1638,7 @@
       "name": "Meta Platforms, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 31,
+      "rank": 40,
       "scores": {
         "fundamentals": 89.7,
         "management": 56.2,
@@ -1351,6 +1675,42 @@
       }
     },
     {
+      "compositeScore": 64.12,
+      "confidence": {
+        "basis": {
+          "claimCount": 7,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 7
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Gilead Sciences, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 41,
+      "scores": {
+        "fundamentals": 77.7,
+        "management": 57.1,
+        "options": 51.1,
+        "technicals": 58.0,
+        "valuation": 59.0
+      },
+      "sector": "Health Care",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "GILD",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 6,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
       "compositeScore": 63.625,
       "confidence": {
         "basis": {
@@ -1366,7 +1726,7 @@
       "name": "Eli Lilly and Company",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 32,
+      "rank": 42,
       "scores": {
         "fundamentals": 83.5,
         "management": 50.0,
@@ -1402,7 +1762,7 @@
       "name": "FedEx Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 33,
+      "rank": 43,
       "scores": {
         "fundamentals": 61.8,
         "management": 43.8,
@@ -1438,7 +1798,7 @@
       "name": "GE Aerospace",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 34,
+      "rank": 44,
       "scores": {
         "fundamentals": 90.0,
         "management": 50.0,
@@ -1474,7 +1834,7 @@
       "name": "Bank of America Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 35,
+      "rank": 45,
       "scores": {
         "fundamentals": 78.5,
         "management": 50.0,
@@ -1510,7 +1870,7 @@
       "name": "The Boeing Company",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 36,
+      "rank": 46,
       "scores": {
         "fundamentals": 73.9,
         "management": 60.0,
@@ -1546,7 +1906,7 @@
       "name": "QUALCOMM Incorporated",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 37,
+      "rank": 47,
       "scores": {
         "fundamentals": 62.4,
         "management": 37.5,
@@ -1582,7 +1942,7 @@
       "name": "Sandisk Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 38,
+      "rank": 48,
       "scores": {
         "fundamentals": 60.0,
         "management": 40.0,
@@ -1618,7 +1978,7 @@
       "name": "The Coca-Cola Company",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 39,
+      "rank": 49,
       "scores": {
         "fundamentals": 68.0,
         "management": 31.2,
@@ -1654,7 +2014,7 @@
       "name": "Intel Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 40,
+      "rank": 50,
       "scores": {
         "fundamentals": 48.4,
         "management": 66.7,
@@ -1675,6 +2035,42 @@
       }
     },
     {
+      "compositeScore": 60.505,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Nutanix, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 51,
+      "scores": {
+        "fundamentals": 65.7,
+        "management": 62.5,
+        "options": 50.6,
+        "technicals": 55.5,
+        "valuation": 73.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "NTNX",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 2,
+        "hits": 0,
+        "misses": 3
+      }
+    },
+    {
       "compositeScore": 60.455,
       "confidence": {
         "basis": {
@@ -1690,7 +2086,7 @@
       "name": "Chevron Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 41,
+      "rank": 52,
       "scores": {
         "fundamentals": 58.9,
         "management": 43.8,
@@ -1726,7 +2122,7 @@
       "name": "Tesla, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 42,
+      "rank": 53,
       "scores": {
         "fundamentals": 60.0,
         "management": 56.2,
@@ -1747,6 +2143,42 @@
       }
     },
     {
+      "compositeScore": 60.105,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Dell Technologies Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 54,
+      "scores": {
+        "fundamentals": 57.7,
+        "management": 37.5,
+        "options": 49.9,
+        "technicals": 76.7,
+        "valuation": 49.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "DELL",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
       "compositeScore": 59.845,
       "confidence": {
         "basis": {
@@ -1762,7 +2194,7 @@
       "name": "Exxon Mobil Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 43,
+      "rank": 55,
       "scores": {
         "fundamentals": 56.3,
         "management": 56.2,
@@ -1798,7 +2230,7 @@
       "name": "RTX Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 44,
+      "rank": 56,
       "scores": {
         "fundamentals": 70.0,
         "management": 56.2,
@@ -1834,7 +2266,7 @@
       "name": "Alibaba Group Holding Limited",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 45,
+      "rank": 57,
       "scores": {
         "fundamentals": 80.6,
         "management": 43.8,
@@ -1870,7 +2302,7 @@
       "name": "Starbucks Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 46,
+      "rank": 58,
       "scores": {
         "fundamentals": 52.6,
         "management": 56.2,
@@ -1906,7 +2338,7 @@
       "name": "Synopsys, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 47,
+      "rank": 59,
       "scores": {
         "fundamentals": 65.7,
         "management": 37.5,
@@ -1942,7 +2374,7 @@
       "name": "Oracle Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 48,
+      "rank": 60,
       "scores": {
         "fundamentals": 76.5,
         "management": 37.5,
@@ -1978,7 +2410,7 @@
       "name": "AstraZeneca plc",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 49,
+      "rank": 61,
       "scores": {
         "fundamentals": 77.0,
         "management": 20.0,
@@ -2014,7 +2446,7 @@
       "name": "McDonald's Corporation",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 50,
+      "rank": 62,
       "scores": {
         "fundamentals": 81.8,
         "management": 43.8,
@@ -2027,6 +2459,42 @@
       "technicals": null,
       "thesis": null,
       "ticker": "MCD",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
+      "compositeScore": 57.72,
+      "confidence": {
+        "basis": {
+          "claimCount": 5,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 5
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.6333
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Zscaler, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 63,
+      "scores": {
+        "fundamentals": 78.3,
+        "management": 50.0,
+        "options": 43.4,
+        "technicals": 43.5,
+        "valuation": 65.0
+      },
+      "sector": "Information Technology",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "ZS",
       "valuation": null,
       "verdictBreakdown": {
         "beats": 0,
@@ -2050,7 +2518,7 @@
       "name": "MicroStrategy Incorporated",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 51,
+      "rank": 64,
       "scores": {
         "fundamentals": 66.4,
         "management": 56.2,
@@ -2071,6 +2539,78 @@
       }
     },
     {
+      "compositeScore": 57.255,
+      "confidence": {
+        "basis": {
+          "claimCount": 8,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 8
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.8833
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Deere & Company",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 65,
+      "scores": {
+        "fundamentals": 78.5,
+        "management": 31.2,
+        "options": 61.3,
+        "technicals": 49.2,
+        "valuation": 35.0
+      },
+      "sector": "Industrials",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "DE",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 5,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
+      "compositeScore": 57.1,
+      "confidence": {
+        "basis": {
+          "claimCount": 5,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 5
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.6333
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Cardinal Health, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 66,
+      "scores": {
+        "fundamentals": 64.6,
+        "management": 40.0,
+        "options": 54.9,
+        "technicals": 58.0,
+        "valuation": 54.0
+      },
+      "sector": "Health Care",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "CAH",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
       "compositeScore": 56.925,
       "confidence": {
         "basis": {
@@ -2086,7 +2626,7 @@
       "name": "AT&T Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 52,
+      "rank": 67,
       "scores": {
         "fundamentals": 68.5,
         "management": 50.0,
@@ -2107,6 +2647,42 @@
       }
     },
     {
+      "compositeScore": 56.475,
+      "confidence": {
+        "basis": {
+          "claimCount": 5,
+          "dataCompleteness": 0.65,
+          "quartersCovered": 5
+        },
+        "notes": "Confidence reflects evidentiary depth (claim count, quarters covered, data completeness), not model certainty. A high composite paired with low confidence indicates limited evidence supporting the score.",
+        "score": 0.6333
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "Darden Restaurants, Inc.",
+      "options": null,
+      "priorityBucket": "Low",
+      "rank": 68,
+      "scores": {
+        "fundamentals": 56.3,
+        "management": 50.0,
+        "options": 55.4,
+        "technicals": 55.8,
+        "valuation": 84.0
+      },
+      "sector": "Consumer Discretionary",
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "DRI",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 3
+      }
+    },
+    {
       "compositeScore": 56.345,
       "confidence": {
         "basis": {
@@ -2122,7 +2698,7 @@
       "name": "Netflix, Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 53,
+      "rank": 69,
       "scores": {
         "fundamentals": 60.0,
         "management": 87.5,
@@ -2158,7 +2734,7 @@
       "name": "Pfizer Inc.",
       "options": null,
       "priorityBucket": "Low",
-      "rank": 54,
+      "rank": 70,
       "scores": {
         "fundamentals": 53.2,
         "management": 50.0,
@@ -2194,7 +2770,7 @@
       "name": "GameStop Corp.",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 55,
+      "rank": 71,
       "scores": {
         "fundamentals": 61.8,
         "management": 37.5,
@@ -2230,7 +2806,7 @@
       "name": "Berkshire Hathaway Inc. Class B",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 56,
+      "rank": 72,
       "scores": {
         "fundamentals": 54.5,
         "management": 50.0,
@@ -2266,7 +2842,7 @@
       "name": "Ferrari N.V.",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 57,
+      "rank": 73,
       "scores": {
         "fundamentals": 61.4,
         "management": 62.5,
@@ -2302,7 +2878,7 @@
       "name": "General Motors Company",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 58,
+      "rank": 74,
       "scores": {
         "fundamentals": 38.0,
         "management": 43.8,
@@ -2338,7 +2914,7 @@
       "name": "Snowflake Inc.",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 59,
+      "rank": 75,
       "scores": {
         "fundamentals": 55.9,
         "management": 56.2,
@@ -2403,7 +2979,7 @@
       "name": "Lockheed Martin Corporation",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 60,
+      "rank": 76,
       "scores": {
         "fundamentals": 38.3,
         "management": 68.8,
@@ -2439,7 +3015,7 @@
       "name": "NIKE, Inc.",
       "options": null,
       "priorityBucket": "Watchlist",
-      "rank": 61,
+      "rank": 77,
       "scores": {
         "fundamentals": 58.6,
         "management": 50.0,
@@ -2461,7 +3037,7 @@
     }
   ],
   "dashboardVersion": "1.0.0",
-  "generatedAt": "2026-05-22T15:39:20.772029Z",
+  "generatedAt": "2026-05-23T15:04:22.768304Z",
   "generatedBy": "generate_data.py",
   "pipelineRunId": "",
   "schemaVersion": "1.0.0",
@@ -2490,8 +3066,8 @@
     "avoidCount": 0,
     "generatedForPeriod": "2026-Q2 cycle",
     "highPriorityCount": 0,
-    "lowPriorityCount": 42,
-    "mediumPriorityCount": 12,
+    "lowPriorityCount": 54,
+    "mediumPriorityCount": 16,
     "topRankedTickers": [
       "GOOG",
       "TSM",
@@ -2499,7 +3075,7 @@
       "ARM",
       "AAPL"
     ],
-    "totalCompanies": 61,
+    "totalCompanies": 77,
     "watchlistCount": 7
   },
   "universeDescription": "Priority ranking dashboard for growth-stock and options research.",

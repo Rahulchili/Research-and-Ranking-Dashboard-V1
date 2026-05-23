@@ -5,6 +5,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "AMAT": {"F": 80.0, "M": 56.2, "V": 65, "T": 81.2, "O": 45.6},
     "AMD": {"F": 73.0, "M": 50.0, "V": 55, "T": 76.7, "O": 54.1},
     "AMZN": {"F": 80.5, "M": 75.0, "V": 45, "T": 72.8, "O": 72.7},
+    "ANET": {"F": 79.4, "M": 50.0, "V": 55, "T": 70.8, "O": 57.9},
     "APP": {"F": 91.8, "M": 50.0, "V": 50, "T": 55.5, "O": 47.7},
     "ARM": {"F": 81.1, "M": 87.5, "V": 55, "T": 76.7, "O": 57.9},
     "ASML": {"F": 71.0, "M": 62.5, "V": 45, "T": 78.2, "O": 52.0},
@@ -14,14 +15,21 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "BABA": {"F": 80.6, "M": 43.8, "V": 82, "T": 44.5, "O": 47.7},
     "BAC": {"F": 78.5, "M": 50.0, "V": 57, "T": 52.8, "O": 64.1},
     "BRKB": {"F": 54.5, "M": 50.0, "V": 38, "T": 55.8, "O": 56.3},
+    "CAH": {"F": 64.6, "M": 40.0, "V": 54, "T": 58.0, "O": 54.9},
+    "COHR": {"F": 94.0, "M": 25.0, "V": 58, "T": 78.9, "O": 53.4},
     "COST": {"F": 76.3, "M": 43.8, "V": 32, "T": 72.0, "O": 62.0},
     "CRWD": {"F": 75.0, "M": 50.0, "V": 55, "T": 73.7, "O": 59.9},
     "CSCO": {"F": 70.2, "M": 50.0, "V": 54, "T": 76.7, "O": 49.9},
     "CVX": {"F": 58.9, "M": 43.8, "V": 51, "T": 67.0, "O": 72.7},
     "DDOG": {"F": 72.1, "M": 56.2, "V": 65, "T": 76.7, "O": 57.9},
+    "DE": {"F": 78.5, "M": 31.2, "V": 35, "T": 49.2, "O": 61.3},
+    "DELL": {"F": 57.7, "M": 37.5, "V": 49, "T": 76.7, "O": 49.9},
+    "DRI": {"F": 56.3, "M": 50.0, "V": 84, "T": 55.8, "O": 55.4},
     "FDX": {"F": 61.8, "M": 43.8, "V": 82, "T": 70.9, "O": 63.4},
     "FSLR": {"F": 87.5, "M": 50.0, "V": 84, "T": 58.5, "O": 57.9},
+    "FTNT": {"F": 81.1, "M": 50.0, "V": 81, "T": 76.7, "O": 60.8},
     "GE": {"F": 90.0, "M": 50.0, "V": 32, "T": 49.0, "O": 55.7},
+    "GILD": {"F": 77.7, "M": 57.1, "V": 59, "T": 58.0, "O": 51.1},
     "GM": {"F": 38.0, "M": 43.8, "V": 84, "T": 55.8, "O": 59.1},
     "GME": {"F": 61.8, "M": 37.5, "V": 60.0, "T": 55.0, "O": 43.4},
     "GOOG": {"F": 93.5, "M": 68.8, "V": 81, "T": 76.7, "O": 68.4},
@@ -33,6 +41,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "KO": {"F": 68.0, "M": 31.2, "V": 66, "T": 66.8, "O": 64.1},
     "LLY": {"F": 83.5, "M": 50.0, "V": 45, "T": 55.0, "O": 54.0},
     "LMT": {"F": 38.3, "M": 68.8, "V": 66, "T": 50.0, "O": 47.7},
+    "LRCX": {"F": 67.6, "M": 56.2, "V": 65, "T": 78.9, "O": 52.7},
     "MCD": {"F": 81.8, "M": 43.8, "V": 66, "T": 43.2, "O": 47.7},
     "MDB": {"F": 75.0, "M": 60.0, "V": 78, "T": 55.5, "O": 60.0},
     "META": {"F": 89.7, "M": 56.2, "V": 70, "T": 43.8, "O": 55.0},
@@ -41,6 +50,8 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "MU": {"F": 89.5, "M": 25.0, "V": 70, "T": 76.7, "O": 49.9},
     "NFLX": {"F": 60.0, "M": 87.5, "V": 55, "T": 40.2, "O": 54.0},
     "NKE": {"F": 58.6, "M": 50.0, "V": 54, "T": 31.2, "O": 56.9},
+    "NTAP": {"F": 62.3, "M": 56.2, "V": 46, "T": 73.7, "O": 67.6},
+    "NTNX": {"F": 65.7, "M": 62.5, "V": 73, "T": 55.5, "O": 50.6},
     "NVDA": {"F": 95.5, "M": 56.2, "V": 78, "T": 74.2, "O": 69.9},
     "ORCL": {"F": 76.5, "M": 37.5, "V": 50, "T": 53.2, "O": 53.4},
     "PANW": {"F": 67.8, "M": 50.0, "V": 53, "T": 73.7, "O": 56.1},
@@ -48,6 +59,8 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "PLTR": {"F": 85.5, "M": 100.0, "V": 35, "T": 41.0, "O": 59.1},
     "QCOM": {"F": 62.4, "M": 37.5, "V": 82, "T": 70.7, "O": 57.0},
     "RACE": {"F": 61.4, "M": 62.5, "V": 36, "T": 37.8, "O": 51.4},
+    "RBRK": {"F": 90.0, "M": 50.0, "V": 60.0, "T": 55.5, "O": 43.4},
+    "ROST": {"F": 77.3, "M": 50.0, "V": 65, "T": 81.2, "O": 57.9},
     "RTX": {"F": 70.0, "M": 56.2, "V": 46, "T": 53.0, "O": 59.1},
     "SBUX": {"F": 52.6, "M": 56.2, "V": 46, "T": 69.8, "O": 54.9},
     "SMOK": {"F": 60.0, "M": 50.0, "V": 45, "T": 60.0, "O": 55.0},
@@ -57,11 +70,14 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "T": {"F": 68.5, "M": 50.0, "V": 76, "T": 46.2, "O": 54.8},
     "TSLA": {"F": 60.0, "M": 56.2, "V": 35, "T": 63.8, "O": 66.1},
     "TSM": {"F": 95.8, "M": 68.8, "V": 58, "T": 75.2, "O": 56.9},
+    "TWLO": {"F": 67.6, "M": 50.0, "V": 61, "T": 78.9, "O": 62.1},
+    "TXN": {"F": 84.1, "M": 62.5, "V": 61, "T": 76.7, "O": 49.9},
     "V": {"F": 91.8, "M": 56.2, "V": 38, "T": 58.0, "O": 55.0},
     "VRT": {"F": 90.0, "M": 33.3, "V": 58, "T": 73.9, "O": 55.7},
     "WMT": {"F": 74.3, "M": 50.0, "V": 55, "T": 69.2, "O": 56.0},
     "XOM": {"F": 56.3, "M": 56.2, "V": 41, "T": 67.0, "O": 62.1},
     "ZM": {"F": 72.7, "M": 56.2, "V": 68, "T": 76.7, "O": 59.0},
+    "ZS": {"F": 78.3, "M": 50.0, "V": 65, "T": 43.5, "O": 43.4},
 }
 
 LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
@@ -238,6 +254,42 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "P/C OI 0.60 (call-heavy) \u2014 genuine bullish positioning (trend confirms)",
       "ATM skew -31.18pp (call skew)",
       "\u2192 O = 72.7 (trend-aligned)"
+    ]
+  },
+  "ANET": {
+    "fundamentals": [
+      "Revenue +35.2% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 37.7% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 1.0%",
+      "TTM revenue $10B",
+      "\u2192 F = 79.4 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (1B / 6H / 1M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 40.0\u00d7 vs peer median 25.5\u00d7 (57% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 2.8%",
+      "\u2192 V = 55"
+    ],
+    "technicals": [
+      "Spot $154.03 vs SMA200 $139.80 (+10.2%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 37.1 (neutral zone)",
+      "90-day return: +18.3%",
+      "1-year return: +66.6%",
+      "Drawdown from 52w high: -13.3%",
+      "\u2192 T = 70.8"
+    ],
+    "options": [
+      "Front-month ATM IV 67.7% (high)",
+      "P/C OI 1.01 (balanced)",
+      "ATM skew -7.28pp (call skew)",
+      "\u2192 O = 57.9 (trend-aligned)"
     ]
   },
   "APP": {
@@ -549,6 +601,74 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 56.3 (trend-aligned)"
     ]
   },
+  "CAH": {
+    "fundamentals": [
+      "Revenue +11.0% YoY (strong for Health Care; sector strong-bar 10%)",
+      "Operating margin 0.8%",
+      "TTM revenue $245B",
+      "\u2192 F = 64.6 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.40 (1B / 2H / 2M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 40.0"
+    ],
+    "valuation": [
+      "PE 15.0\u00d7 vs peer median 13.2\u00d7 (13% premium to peers)",
+      "FCF yield 5.5% (+3)",
+      "Dividend yield 1.7% (+1)",
+      "\u2192 V = 54"
+    ],
+    "technicals": [
+      "Spot $200.68 vs SMA200 $191.95 (+4.5%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 55.2 (neutral zone)",
+      "90-day return: -11.6%",
+      "1-year return: +30.9%",
+      "Drawdown from 52w high: -12.7%",
+      "\u2192 T = 58.0"
+    ],
+    "options": [
+      "Front-month ATM IV 54.9% (elevated)",
+      "P/C OI 1.51 (put-heavy) \u2014 bearish hedging (trend confirms)",
+      "ATM skew -39.87pp (call skew)",
+      "\u2192 O = 54.9 (trend-aligned)"
+    ]
+  },
+  "COHR": {
+    "fundamentals": [
+      "Revenue +101.2% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "TTM revenue $5970B",
+      "\u2192 F = 94.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.25 (1B / 1H / 4M on 6 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 25.0"
+    ],
+    "valuation": [
+      "PE 28.0\u00d7 vs peer median 19.5\u00d7 (44% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 4.5% (+3)",
+      "\u2192 V = 58"
+    ],
+    "technicals": [
+      "Spot $377.57 vs SMA200 $197.97 (+90.7%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 61.2 (neutral zone)",
+      "90-day return: +50.9%",
+      "1-year return: +374.6%",
+      "Drawdown from 52w high: -6.8%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 143.3% (extreme)",
+      "P/C OI 1.69 (put-heavy) \u2014 active hedging of gains (contrarian positive)",
+      "ATM skew -0.95pp (call skew)",
+      "\u2192 O = 53.4 (trend-aligned)"
+    ]
+  },
   "COST": {
     "fundamentals": [
       "Revenue +9.2% YoY (strong for Consumer Staples; sector strong-bar 5%)",
@@ -720,6 +840,108 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 57.9 (trend-aligned)"
     ]
   },
+  "DE": {
+    "fundamentals": [
+      "Revenue +17.5% YoY (strong for Industrials; sector strong-bar 8%)",
+      "Net margin 8.2% (acceptable for Industrials; sector strong-bar 10%)",
+      "TTM revenue $36B",
+      "\u2192 F = 78.5 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.31 (2B / 1H / 5M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 31.2"
+    ],
+    "valuation": [
+      "PE 16.5\u00d7 vs peer median 12.5\u00d7 (32% premium to peers)",
+      "FCF yield 4.5% (+3)",
+      "\u2192 V = 35"
+    ],
+    "technicals": [
+      "Spot $529.15 vs SMA200 $520.67 (+1.6%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 29.4 (oversold)",
+      "90-day return: -14.6%",
+      "1-year return: +2.8%",
+      "Drawdown from 52w high: -20.1%",
+      "\u2192 T = 49.2"
+    ],
+    "options": [
+      "Front-month ATM IV 58.2% (elevated)",
+      "P/C OI 1.12 (balanced)",
+      "ATM skew -26.16pp (call skew)",
+      "\u2192 O = 61.3 (trend-aligned)"
+    ]
+  },
+  "DELL": {
+    "fundamentals": [
+      "Revenue +10.8% YoY (acceptable for Information Technology; sector strong-bar 15%)",
+      "Net margin 5.7% (thin for Information Technology; sector strong-bar 18%)",
+      "Operating margin 7.8%",
+      "TTM revenue $105B",
+      "\u2192 F = 57.7 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.38 (3B / 0H / 5M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 37.5"
+    ],
+    "valuation": [
+      "PE 15.5\u00d7 vs peer median 12.0\u00d7 (29% premium to peers)",
+      "FCF yield 7.5% (+6 bonus)",
+      "Dividend yield 1.6% (+1)",
+      "\u2192 V = 49"
+    ],
+    "technicals": [
+      "Spot $295.19 vs SMA200 $150.27 (+96.4%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 74.7 (overbought)",
+      "90-day return: +143.1%",
+      "1-year return: +163.7%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 76.7"
+    ],
+    "options": [
+      "Front-month ATM IV 109.9% (extreme)",
+      "P/C OI 0.73 (balanced)",
+      "ATM skew +7.59pp (put skew)",
+      "\u2192 O = 49.9 (trend-aligned)"
+    ]
+  },
+  "DRI": {
+    "fundamentals": [
+      "Revenue +2.2% YoY (weak for Consumer Discretionary; sector strong-bar 8%)",
+      "Operating margin 62.1%",
+      "TTM revenue $2B",
+      "\u2192 F = 56.3 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (2B / 1H / 2M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 17.5\u00d7 vs peer median 26.0\u00d7 (33% discount to peers)",
+      "FCF yield 5.0% (+3)",
+      "Dividend yield 3.5% (+3)",
+      "\u2192 V = 84"
+    ],
+    "technicals": [
+      "Spot $203.51 vs SMA200 $196.03 (+3.8%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 68.6 (neutral zone)",
+      "90-day return: -5.3%",
+      "1-year return: +0.2%",
+      "Drawdown from 52w high: -9.9%",
+      "\u2192 T = 55.8"
+    ],
+    "options": [
+      "Front-month ATM IV 30.0% (normal)",
+      "P/C OI 1.43 (put-heavy) \u2014 bearish hedging (trend confirms)",
+      "ATM skew -1.42pp (call skew)",
+      "\u2192 O = 55.4 (trend-aligned)"
+    ]
+  },
   "FDX": {
     "fundamentals": [
       "Revenue +10.3% YoY (strong for Industrials; sector strong-bar 8%)",
@@ -789,6 +1011,39 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 57.9 (trend-aligned)"
     ]
   },
+  "FTNT": {
+    "fundamentals": [
+      "Revenue +20.1% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 28.9% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 31.4%",
+      "TTM revenue $7B",
+      "\u2192 F = 81.1 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (2B / 4H / 2M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 34.0\u00d7 vs peer median 65.5\u00d7 (48% discount to peers)",
+      "FCF yield 5.5% (+3)",
+      "\u2192 V = 81"
+    ],
+    "technicals": [
+      "Spot $133.93 vs SMA200 $84.09 (+59.3%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 95.7 (overbought)",
+      "90-day return: +69.1%",
+      "1-year return: +30.2%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 76.7"
+    ],
+    "options": [
+      "Front-month ATM IV 53.5% (elevated)",
+      "P/C OI 1.41 (put-heavy) \u2014 active hedging of gains (contrarian positive)",
+      "\u2192 O = 60.8 (trend-aligned)"
+    ]
+  },
   "GE": {
     "fundamentals": [
       "Revenue +24.7% YoY (strong for Industrials; sector strong-bar 8%)",
@@ -819,6 +1074,41 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "P/C OI 0.42 (call-heavy) \u2014 apathy (no trend support)",
       "ATM skew -22.48pp (call skew)",
       "\u2192 O = 55.7 (trend-aligned)"
+    ]
+  },
+  "GILD": {
+    "fundamentals": [
+      "Revenue +4.4% YoY (acceptable for Health Care; sector strong-bar 10%)",
+      "Net margin 29.0% (best-in-class for Health Care; sector strong-bar 15%)",
+      "Operating margin 37.2%",
+      "TTM revenue $30B",
+      "\u2192 F = 77.7 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.57 (3B / 2H / 2M on 7 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 57.1"
+    ],
+    "valuation": [
+      "PE 11.0\u00d7 vs peer median 10.5\u00d7 (5% premium to peers)",
+      "FCF yield 8.0% (+6 bonus)",
+      "Dividend yield 3.5% (+3)",
+      "\u2192 V = 59"
+    ],
+    "technicals": [
+      "Spot $134.36 vs SMA200 $128.32 (+4.7%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 53.7 (neutral zone)",
+      "90-day return: -6.5%",
+      "1-year return: +24.7%",
+      "Drawdown from 52w high: -13.8%",
+      "\u2192 T = 58.0"
+    ],
+    "options": [
+      "Front-month ATM IV 54.6% (elevated)",
+      "P/C OI 0.56 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +32.07pp (put skew)",
+      "\u2192 O = 51.1 (trend-aligned)"
     ]
   },
   "GM": {
@@ -1191,6 +1481,40 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 47.7 (trend-aligned)"
     ]
   },
+  "LRCX": {
+    "fundamentals": [
+      "Revenue +0.0% YoY (weak for Information Technology; sector strong-bar 15%)",
+      "Net margin 3725428.6% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 4177583.7%",
+      "Latest-quarter FCF $4.3B (positive)",
+      "\u2192 F = 67.6 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.56 (2B / 5H / 1M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 56.2"
+    ],
+    "valuation": [
+      "PE 23.5\u00d7 vs peer median 24.5\u00d7 (4% discount to peers)",
+      "FCF yield 4.5% (+3)",
+      "\u2192 V = 65"
+    ],
+    "technicals": [
+      "Spot $305.35 vs SMA200 $188.52 (+62.0%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 67.5 (neutral zone)",
+      "90-day return: +27.7%",
+      "1-year return: +268.8%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 79.5% (high)",
+      "P/C OI 1.08 (balanced)",
+      "ATM skew +1.30pp (put skew)",
+      "\u2192 O = 52.7 (trend-aligned)"
+    ]
+  },
   "MCD": {
     "fundamentals": [
       "Revenue +9.4% YoY (strong for Consumer Discretionary; sector strong-bar 8%)",
@@ -1455,6 +1779,75 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 56.9 (trend-aligned)"
     ]
   },
+  "NTAP": {
+    "fundamentals": [
+      "Revenue +4.4% YoY (weak for Information Technology; sector strong-bar 15%)",
+      "Net margin 19.5% (strong for Information Technology; sector strong-bar 18%)",
+      "Operating margin 25.3%",
+      "TTM revenue $7B",
+      "\u2192 F = 62.3 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.56 (4B / 1H / 3M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 56.2"
+    ],
+    "valuation": [
+      "PE 17.0\u00d7 vs peer median 14.2\u00d7 (19% premium to peers)",
+      "FCF yield 4.5% (+3)",
+      "Dividend yield 1.8% (+1)",
+      "\u2192 V = 46"
+    ],
+    "technicals": [
+      "Spot $139.36 vs SMA200 $109.98 (+26.7%, bullish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 85.5 (overbought)",
+      "90-day return: +40.6%",
+      "1-year return: +40.0%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 73.7"
+    ],
+    "options": [
+      "Front-month ATM IV 55.1% (elevated)",
+      "P/C OI 0.32 (call-heavy) \u2014 genuine bullish positioning (trend confirms)",
+      "ATM skew -2.71pp (call skew)",
+      "\u2192 O = 67.6 (trend-aligned)"
+    ]
+  },
+  "NTNX": {
+    "fundamentals": [
+      "Revenue +15.8% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 8.6% (acceptable for Information Technology; sector strong-bar 18%)",
+      "Operating margin 10.0%",
+      "TTM revenue $2B",
+      "\u2192 F = 65.7 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.62 (4B / 2H / 2M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 62.5"
+    ],
+    "valuation": [
+      "PE 52.0\u00d7 vs peer median 62.0\u00d7 (16% discount to peers)",
+      "FCF yield 3.5% (+3)",
+      "\u2192 V = 73"
+    ],
+    "technicals": [
+      "Spot $47.12 vs SMA200 $53.94 (-12.6%, bearish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 61.3 (neutral zone)",
+      "90-day return: +17.9%",
+      "1-year return: -41.1%",
+      "Drawdown from 52w high: -41.9%",
+      "\u2192 T = 55.5"
+    ],
+    "options": [
+      "Front-month ATM IV 74.6% (high)",
+      "P/C OI 0.20 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +0.04pp (put skew)",
+      "\u2192 O = 50.6 (trend-aligned)"
+    ]
+  },
   "NVDA": {
     "fundamentals": [
       "Revenue +73.2% YoY (strong for Information Technology; sector strong-bar 15%)",
@@ -1696,6 +2089,69 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "P/C OI 0.61 (call-heavy) \u2014 apathy (no trend support)",
       "ATM skew -42.03pp (call skew)",
       "\u2192 O = 51.4 (trend-aligned)"
+    ]
+  },
+  "RBRK": {
+    "fundamentals": [
+      "Revenue +48.3% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "TTM revenue $1B",
+      "\u2192 F = 90.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (1B / 3H / 1M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "\u2192 V = 60.0"
+    ],
+    "technicals": [
+      "Spot $66.59 vs SMA200 $68.46 (-2.7%, neutral)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 70.2 (overbought)",
+      "90-day return: +22.6%",
+      "1-year return: -24.1%",
+      "Drawdown from 52w high: -33.2%",
+      "\u2192 T = 55.5"
+    ],
+    "options": [
+      "Front-month ATM IV 148.7% (extreme)",
+      "P/C OI 0.12 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +144.49pp (put skew)",
+      "\u2192 O = 43.4 (trend-aligned)"
+    ]
+  },
+  "ROST": {
+    "fundamentals": [
+      "Revenue +10.4% YoY (strong for Consumer Discretionary; sector strong-bar 8%)",
+      "Operating margin 11.6%",
+      "TTM revenue $21186B",
+      "\u2192 F = 77.3 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (2B / 1H / 2M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 22.5\u00d7 vs peer median 22.5\u00d7 (0% premium to peers)",
+      "FCF yield 3.5% (+3)",
+      "\u2192 V = 65"
+    ],
+    "technicals": [
+      "Spot $234.81 vs SMA200 $183.49 (+28.0%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 57.6 (neutral zone)",
+      "90-day return: +15.4%",
+      "1-year return: +53.8%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 81.2"
+    ],
+    "options": [
+      "Front-month ATM IV 80.4% (high)",
+      "P/C OI 1.11 (balanced)",
+      "ATM skew -11.48pp (call skew)",
+      "\u2192 O = 57.9 (trend-aligned)"
     ]
   },
   "RTX": {
@@ -1989,6 +2445,78 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 O = 56.9 (trend-aligned)"
     ]
   },
+  "TWLO": {
+    "fundamentals": [
+      "Revenue +20.0% YoY (strong for Communication Services; sector strong-bar 10%)",
+      "Net margin 6.4% (thin for Communication Services; sector strong-bar 15%)",
+      "Operating margin 7.7%",
+      "TTM revenue $5B",
+      "\u2192 F = 67.6 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (0B / 5H / 0M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 22.0\u00d7 vs peer median 14.2\u00d7 (54% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 7.0% (+6 bonus)",
+      "\u2192 V = 61"
+    ],
+    "technicals": [
+      "Spot $187.88 vs SMA200 $126.66 (+48.3%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 48.4 (neutral zone)",
+      "90-day return: +57.1%",
+      "1-year return: +64.0%",
+      "Drawdown from 52w high: -6.8%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 78.0% (high)",
+      "P/C OI 0.75 (balanced)",
+      "ATM skew -4.49pp (call skew)",
+      "\u2192 O = 62.1 (trend-aligned)"
+    ]
+  },
+  "TXN": {
+    "fundamentals": [
+      "Revenue +22.2% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 39.4% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "TTM revenue $15B",
+      "\u2192 F = 84.1 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.62 (5B / 0H / 3M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 62.5"
+    ],
+    "valuation": [
+      "PE 29.0\u00d7 vs peer median 20.5\u00d7 (41% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 3.0% (+3)",
+      "Dividend yield 3.0% (+3)",
+      "\u2192 V = 61"
+    ],
+    "technicals": [
+      "Spot $309.21 vs SMA200 $200.73 (+54.0%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 70.2 (overbought)",
+      "90-day return: +45.4%",
+      "1-year return: +66.8%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 76.7"
+    ],
+    "options": [
+      "Front-month ATM IV 61.4% (high)",
+      "P/C OI 1.01 (balanced)",
+      "ATM skew +20.39pp (put skew)",
+      "\u2192 O = 49.9 (trend-aligned)"
+    ]
+  },
   "V": {
     "fundamentals": [
       "Revenue +17.1% YoY (strong for Financials; sector strong-bar 6%)",
@@ -2157,6 +2685,39 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "Front-month ATM IV 110.7% (extreme)",
       "P/C OI 0.69 (call-heavy) \u2014 genuine bullish positioning (trend confirms)",
       "\u2192 O = 59.0 (trend-aligned)"
+    ]
+  },
+  "ZS": {
+    "fundamentals": [
+      "Revenue +24.3% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Operating margin 9.1%",
+      "TTM revenue $7B",
+      "\u2192 F = 78.3 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (2B / 1H / 2M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 75.0\u00d7 vs peer median 75.5\u00d7 (1% discount to peers)",
+      "FCF yield 3.0% (+3)",
+      "\u2192 V = 65"
+    ],
+    "technicals": [
+      "Spot $182.37 vs SMA200 $224.08 (-18.6%, bearish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 79.3 (overbought)",
+      "90-day return: +9.0%",
+      "1-year return: -26.7%",
+      "Drawdown from 52w high: -45.8%",
+      "\u2192 T = 43.5"
+    ],
+    "options": [
+      "Front-month ATM IV 115.1% (extreme)",
+      "P/C OI 0.67 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +31.60pp (put skew)",
+      "\u2192 O = 43.4 (trend-aligned)"
     ]
   }
 }

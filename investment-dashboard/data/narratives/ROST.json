@@ -1,0 +1,93 @@
+{
+  "name": "Ross Stores, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Ross Stores, Inc. (ROST, Consumer Discretionary) — composite stance CONSTRUCTIVE. Latest reported quarter FY2025 Q4: revenue $5600.95B (+10.4% YoY). Valuation 22.5x forward P/E (+0% vs peers). Spot $234.81 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "ROST_ER_Q4_2026_3_MAR_2026.docx",
+      "We are also quite pleased with the increase in customer traffic and believe that this positions us well for continued growth as we look ahead. In our stores, we have made meaningful merchandising and operational improvements which we believe also contributed to the outsized sales growth.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "ROST_ER_Q4_2026_3_MAR_2026.docx",
+      "Additionally, the supply chain organization executed extremely well during the peak season, which enabled us to drive exceptional sales growth through fresh receipts and fast turning inventory. Overall, we are encouraged by the positive impact these initiatives have had on our recent performance, and we see opportunities to build on these learnings to support our growth plans i",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "ROST_ER_Q4_2026_3_MAR_2026.docx",
+      "As we enter the new year, we are seeing a very strong start to the first quarter, which gives us confidence that our focus on improving our connection with the customer is taking hold.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "ROST_ER_Q4_2026_3_MAR_2026.docx",
+      "For Ross, we see an opportunity to open 85 new stores this year, slightly above last year.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "ROST_ER_Q4_2026_3_MAR_2026.docx",
+      "In terms of the outlook going forward, right now, a lot of things are performing quite well. And I would imagine we're going to see continued strength in that business going forward, certainly in the first half of 2026.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ROST_ER_Q4_2026_3_MAR_2026.docx",
+      "Lorraine, on inventory, we did mention in our remarks that inventory grew 8%. Obviously, that's 1 point in the quarter, but that's slower than our overall sales growth.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +10.4% YoY in FY2025 Q4 to $5600.95B, with TTM revenue of $21186.42B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Trend regime constructive — spot $234.81 sits +28.0% above the 200-DMA ($183.49). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 13% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $234.81 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 7% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $126.62 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+10.4% in FY2025 Q4",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 22.5x FY1 P/E",
+      "latest": "22.5x (+0%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$234.81 vs $183.49 (+28.0%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "57.6",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Ross Stores, Inc. (ROST) printed $5600.95B in revenue in FY2025 Q4 (+10.4% YoY). Trading at 22.5x forward P/E versus peer median of 22.5x — broadly in line with the group.\n\nTechnical regime is constructive: spot $234.81 above the 200-DMA ($183.49, +28.0%) with neutral momentum (RSI 58). Sell-side consensus PT of $175 implies -25.5% upside. 30-day implied move is ±7.0%; 90-day is ±14.2%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

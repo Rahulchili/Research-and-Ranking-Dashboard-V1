@@ -1,0 +1,92 @@
+{
+  "name": "Cardinal Health, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Cardinal Health, Inc. (CAH, Health Care) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $60.94B (+11.0% YoY). Valuation 15.0x forward P/E (+13% vs peers). Spot $200.68 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "CAH_ER_Q4_2025_12_AUG_2025.docx",
+      "As we outlined at Investor Day, our strategy is clear, and we continue to deliver on our commitments, reflecting disciplined execution across each of our operating segments.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "CAH_ER_Q4_2025_12_AUG_2025.docx",
+      "We're thrilled to announce the acquisition of Solaris Health, the country's leading urology managed services organization. This greatly accelerates our progress in building the Specialty Alliances multi-specialty MSO platform, significantly expanding the reach of our urology alliance physician network.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "CAH_ER_Q4_2025_12_AUG_2025.docx",
+      "In GMPD, our improvement plan initiatives are driving results, delivering $70 million in profit for the fourth quarter. The team continues to navigate the current environment to optimize our global footprint and increase supply chain resiliency for our customers.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "CAH_ER_Q4_2025_12_AUG_2025.docx",
+      "Fourth quarter average diluted shares outstanding were $240 million, 2% lower than a year ago due to our share repurchase efforts earlier in the year. The net result was fourth quarter EPS of $2.08, growth of 13%.",
+      "Why it matters — capital return signal. Watch run-rate vs cash flow to size sustainability."
+    ],
+    [
+      "Management",
+      "CAH_ER_Q4_2025_12_AUG_2025.docx",
+      "While we expect the acquisition to be slightly accretive to EPS within the first 12 months post-close as is our practice, we will update guidance following the close of that acquisition.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "CAH_ER_Q4_2025_12_AUG_2025.docx",
+      "Slide 15 shows our updated fiscal '26 outlook for our segments. Beginning with Pharma.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +11.0% YoY in FY2026 Q1 to $60.94B, with TTM revenue of $245.45B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Range-positioning balanced — at 65% of the 52-week range ($146.04–$229.88), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Risk-symmetry — the extracted dataset doesn't flag obvious red lines at this snapshot. Watch sector beta exposure, regulatory headlines, and any acceleration of capex without commensurate revenue follow-through."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 14% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 8% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $146.04 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+11.0% in FY2026 Q1",
+      "verdict": "OK",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 13.3x FY1 P/E",
+      "latest": "15.0x (+13%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$200.68 vs $191.95 (+4.5%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "55.2",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Cardinal Health, Inc. (CAH) printed $60.94B in revenue in FY2026 Q1 (+11.0% YoY). At 15.0x forward P/E, the stock carries a 13% premium to peers (13.3x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $200.68 above the 200-DMA ($191.95, +4.5%) with neutral momentum (RSI 55). Sell-side consensus PT of $130 implies -35.2% upside. 30-day implied move is ±7.3%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

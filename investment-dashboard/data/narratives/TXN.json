@@ -1,0 +1,107 @@
+{
+  "name": "Texas Instruments Incorporated",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Texas Instruments Incorporated (TXN, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $3.92B (+22.2% YoY), net margin 39.4%. Valuation 29.0x forward P/E (+41% vs peers). Spot $309.21 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "TXN_ER_Q4_2025_27_JAN_2026.docx",
+      "Lastly, Rafael will cover the financial results and our guidance for first quarter 2026.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TXN_ER_Q4_2025_27_JAN_2026.docx",
+      "Before I walk through our results, I'd like to share an update we've made to our end markets. To better reflect the growth opportunities we see for our Analog and Embedded products, we reorganized our end markets to include data center which includes sectors related to data center compute, data center networking and [ rack ] power and thermal management.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "TXN_ER_Q4_2025_27_JAN_2026.docx",
+      "In summary, industrial, automotive and data center combined made up about 75% of TI's revenue in 2025, up from about 43% in [ 2013. ] We see good opportunities in all of our markets, but we place additional strategic emphasis on industrial, automotive and data center.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "TXN_ER_Q4_2025_27_JAN_2026.docx",
+      "Our free cash flow growth reflects the strength of our business model as well as our decisions to invest in 300-millimeter manufacturing assets and inventory. This supports our overall objective to maximize long-term free cash flow per share growth, which we believe is the primary driver of long-term value.",
+      "Why it matters — operational tightness. Connects unit volume to margin sustainability."
+    ],
+    [
+      "Management",
+      "TXN_ER_Q4_2025_27_JAN_2026.docx",
+      "We expect TI revenue in the range of $4.32 billion to $4.68 billion and earnings per share to be in the range of $1.22 to $1.48.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "TXN_ER_Q4_2025_27_JAN_2026.docx",
+      "We will continue to strengthen disadvantages through disciplined capital allocation and by focusing on the best opportunities, which we believe will enable us to continue to deliver free cash flow per share growth over the long term.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +22.2% YoY in FY2026 Q1 to $3.92B, with TTM revenue of $14.72B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium — net margin of 39.4% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +9.9pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $309.21 sits +54.0% above the 200-DMA ($200.73). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Momentum stretched — RSI at 70 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($242.04) before adding.",
+    "Valuation premium — 29.0x forward P/E vs peer median of 20.5x — a 41% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly.",
+    "Put skew elevated — ATM put IV running +20.4pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 25% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 40.9% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $309.21 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 19% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 37.4% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $153.33 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+22.2% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "39.4%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 20.5x FY1 P/E",
+      "latest": "29.0x (+41%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$309.21 vs $200.73 (+54.0%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "70.2",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "BULLISH. Texas Instruments Incorporated (TXN) printed $3.92B in revenue in FY2026 Q1 (+22.2% YoY), net margin of 39.4%. At 29.0x forward P/E, the stock carries a 41% premium to peers (20.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is mixed: trend is intact above the 200-DMA ($200.73) but RSI 70 signals near-term overbought conditions — consider entry timing. Sell-side consensus PT of $195 implies -36.9% upside. 30-day implied move is ±11.6%; 90-day is ±24.2%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

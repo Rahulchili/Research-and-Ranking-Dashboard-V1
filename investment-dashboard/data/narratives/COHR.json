@@ -1,0 +1,101 @@
+{
+  "name": "Coherent Corp.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Coherent Corp. (COHR, Information Technology) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1805.64B (+101.2% YoY). Management credibility 1.00 on 4 claims. Valuation 28.0x forward P/E (+44% vs peers). Spot $377.57 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "COHR_ER_Q4_2025_13_AUG_2025.docx",
+      "We expect revenue from this expanded partnership with Apple to begin in the second half of calendar '26. VCSEL's for Apple are manufactured in our Sherman, Texas and will help support the long-term growth and utilization of the site.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "COHR_ER_Q4_2025_13_AUG_2025.docx",
+      "In particular, our 100-gig ZR product family is ramping rapidly. Driven by strong customer attraction for this uniquely differentiated solution, we productized multiple variants and have several more in development across multiple applications.",
+      "Why it matters — strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COHR_ER_Q4_2025_13_AUG_2025.docx",
+      "As we discussed at our Investor Day, we continue to expand the installed base of our industrial lasers and we expect the recurring service revenue stream to continue to become a larger component of our overall industrial revenue over time, which is a tailwind for our gross margin.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "COHR_ER_Q4_2025_13_AUG_2025.docx",
+      "On closing, we plan to use the proceeds of the sale to pay down additional debt, and we expect the sale to be accretive to our EPS. We made the decision to sell our A&D business because it was not aligned with our long-term strategic focus areas and it did not support our long-term financial targets.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "COHR_ER_Q4_2025_13_AUG_2025.docx",
+      "Regarding the current tariff policy environment, unchanged from last quarter, we do not expect significant impact from tariffs to this quarter. Though we do not have full details yet, we believe President Trump's recent announcement regarding semiconductor tariffs may present a competitive advantage for our business.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ],
+    [
+      "Management",
+      "COHR_ER_Q4_2025_13_AUG_2025.docx",
+      "And as a company with significant U.S. manufacturing operations today and new investments planned for our Sherman, Texas Easton, Pennsylvania and other U.S.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +101.2% YoY in FY2026 Q1 to $1805.64B, with TTM revenue of $5969.97B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Management credibility — MCS of 1.00 on 4 tracked forward claims (1B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Trend regime constructive — spot $377.57 sits +90.7% above the 200-DMA ($197.97). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "Valuation premium — 28.0x forward P/E vs peer median of 19.5x — a 44% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "52-week extension — at 92% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 104% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 98% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $75.63 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+101.2% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 4 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 19.5x FY1 P/E",
+      "latest": "28.0x (+44%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$377.57 vs $197.97 (+90.7%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "61.2",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Coherent Corp. (COHR) printed $1805.64B in revenue in FY2026 Q1 (+101.2% YoY). Management credibility is strong (MCS 1.00, 1B/0H/0M record), supporting take-up of the forward guide. At 28.0x forward P/E, the stock carries a 44% premium to peers (19.5x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $377.57 above the 200-DMA ($197.97, +90.7%) with neutral momentum (RSI 61). Sell-side consensus PT of $138 implies -63.5% upside. 30-day implied move is ±23.5%; 90-day is ±44.9%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

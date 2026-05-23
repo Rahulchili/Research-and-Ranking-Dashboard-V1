@@ -1,0 +1,111 @@
+{
+  "name": "Gilead Sciences, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Gilead Sciences, Inc. (GILD, Health Care) — composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $6.96B (+4.4% YoY), net margin 29.0%. Management credibility 1.00 on 8 claims. Valuation 11.0x forward P/E (+5% vs peers). Spot $134.36 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "GILD_ER_Q4_2025_10_FEB_2026.docx",
+      "Yeztugo, our twice yearly HIV prevention injectable has already exceeded our coverage goals and is rapidly gaining market share in addition to expanding the reach of HIV prevention to new users. With its unique potential to bend the curve of the HIV epidemic, Yeztugo is a transformative medicine that we expect to drive durable, steady and long-term growth in our HIV prevention ",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GILD_ER_Q4_2025_10_FEB_2026.docx",
+      "Lastly, we expect an update on the Phase III IDEAL study, evaluating Livdelzi in second-line primary biliary cholangitis patients with only incomplete response to UDCA.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GILD_ER_Q4_2025_10_FEB_2026.docx",
+      "Similarly, Yeztugo continues to perform strongly across several key launch indicators. Yeztugo fourth quarter sales were $96 million, and full year Yeztugo sales were $150 million, in line with our guidance we shared in the third quarter.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GILD_ER_Q4_2025_10_FEB_2026.docx",
+      "We expect this DTC campaign to broaden awareness of Yeztugo and contribute to a consistent build in Yeztugo sales in the coming quarters.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GILD_ER_Q4_2025_10_FEB_2026.docx",
+      "Given our expectations for a steady, durable and long-term build in sales, we expect full year 2026 Yeztugo revenue of approximately $800 million compared to $150 million in 2025. And highlighting that Yeztugo is well on its way to achieving blockbuster status.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "GILD_ER_Q4_2025_10_FEB_2026.docx",
+      "Our goal this year is to continue to drive rapid adoption of HIV prevention, and we expect both brands to demonstrate robust growth in 2026.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Stable growth profile — revenue at +4.4% YoY in FY2026 Q1 (TTM $29.74B). Not a hyper-growth story but the durability of the print — combined with the cash-flow profile — supports a value-with-modest-growth thesis.",
+    "Profitability premium — net margin of 29.0% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Management credibility — MCS of 1.00 on 8 tracked forward claims (6B/0H/0M record). When management says they will deliver, they typically do — a meaningful re-rating support that is often overlooked in quantitative screens.",
+    "Range-positioning balanced — at 57% of the 52-week range ($105.93–$155.80), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+  ],
+  "bear": [
+    "Margin trajectory deteriorating — net margin compressed -78.3pp over the trailing quarters. This typically precedes a guidance reset by 1–2 quarters as management gets ahead of the cost-curve issue.",
+    "Put skew elevated — ATM put IV running +32.1pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 30.5% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 1% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 27.0% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $105.93 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+4.4% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "29.0%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "1.00 on 8 claims",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 10.5x FY1 P/E",
+      "latest": "11.0x (+5%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$134.36 vs $128.32 (+4.7%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "53.7",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "BULLISH. Gilead Sciences, Inc. (GILD) printed $6.96B in revenue in FY2026 Q1 (+4.4% YoY), net margin of 29.0%. Management credibility is strong (MCS 1.00, 6B/0H/0M record), supporting take-up of the forward guide. Trading at 11.0x forward P/E versus peer median of 10.5x — broadly in line with the group.\n\nTechnical regime is constructive: spot $134.36 above the 200-DMA ($128.32, +4.7%) with neutral momentum (RSI 54). Sell-side consensus PT of $105 implies -21.9% upside. 30-day implied move is ±7.3%; 90-day is ±14.7%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

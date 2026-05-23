@@ -1,0 +1,95 @@
+{
+  "name": "Zscaler, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Zscaler, Inc. (ZS, Information Technology) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $1.98B (+24.3% YoY). Valuation 75.0x forward P/E (-1% vs peers). Spot $182.37 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "ZS_ER_Q4_2025_2_SEP_2025.docx",
+      "Thank you, Ashwin. We had an outstanding Q4 and I am very pleased to share our strong growth, which once again exceeded our guidance.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ZS_ER_Q4_2025_2_SEP_2025.docx",
+      "Our Q4 results represent a strong finish to fiscal '25, reinforcing the demand for our solutions and our operational scale. We operated at Rule of 50 in fiscal '25, demonstrating our commitment to profitable growth.",
+      "Why it matters — rate sensitivity. Models the curve-shape exposure that drives net interest income."
+    ],
+    [
+      "Management",
+      "ZS_ER_Q4_2025_2_SEP_2025.docx",
+      "For the full fiscal year, total revenue reached $2.7 billion, representing 23% year-over-year growth and surpassing our guidance.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ZS_ER_Q4_2025_2_SEP_2025.docx",
+      "Given the onetime nature of this shipment, we expect gross margin to move back up to 80% in Q1.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "ZS_ER_Q4_2025_2_SEP_2025.docx",
+      "Looking ahead, we are shifting our focus from billings to full year ARR as our primary growth metric.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "ZS_ER_Q4_2025_2_SEP_2025.docx",
+      "Regarding seasonality, we anticipate net new ARR will remain weighted towards the second half of the year, with approximately 46.5% to 47% in the first half, including the contribution from Red Canary and consistent with historical trends.",
+      "Why it matters — AI/data-center tailwind. Confirm capex pace and customer concentration."
+    ]
+  ],
+  "bull": [
+    "Top-line momentum — revenue grew +24.3% YoY in FY2026 Q1 to $1.98B, with TTM revenue of $7.2B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Range-positioning balanced — at 29% of the 52-week range ($118.05–$336.27), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Sell-side target points higher — consensus PT of $250 (vs spot $182.37) implies +37.1% upside. Cross-checked against the peer-median PE FY1 of 75.5x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Trend rolling over — spot $182.37 sits -18.6% relative to the 200-DMA ($224.08). The break-down of long-term trend often precedes earnings disappointment by 1–2 quarters as smart-money distribution leads the fundamental print.",
+    "Momentum stretched — RSI at 79 in overbought territory. Near-term mean-reversion risk elevated; consider waiting for a pullback toward the 50-DMA ($144.35) before adding.",
+    "Put skew elevated — ATM put IV running +31.6pp above call IV. The options market is paying up for downside protection — a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 27% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 21% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $118.05 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+24.3% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 75.5x FY1 P/E",
+      "latest": "75.0x (-1%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$182.37 vs $224.08 (-18.6%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "79.3",
+      "verdict": "Overbought",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Zscaler, Inc. (ZS) printed $1.98B in revenue in FY2026 Q1 (+24.3% YoY). Trading at 75.0x forward P/E versus peer median of 75.5x — broadly in line with the group.\n\nTechnical regime is impaired: spot $182.37 below the 200-DMA ($224.08, -18.6%) — long-term trend has rolled over. Sell-side consensus PT of $250 implies +37.1% upside. 30-day implied move is ±23.0%; 90-day is ±34.2%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

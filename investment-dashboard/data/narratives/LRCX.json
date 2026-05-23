@@ -1,0 +1,113 @@
+{
+  "name": "Lam Research Corporation",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "Lam Research Corporation (LRCX, Information Technology) — composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $0.0B (+0.0% YoY), net margin 3725428.6%. Management credibility 0.00 on 9 claims. Valuation 23.5x forward P/E (-4% vs peers). Spot $305.35 (above 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "LRCX_ER_Q4_2025_30_JUL_2025.docx",
+      "We expect wafer fabrication equipment, or WFE spending to be in the $105 billion range up from our prior view of approximately $100 billion, predominantly due to an uptick in domestic China related spending.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "LRCX_ER_Q4_2025_30_JUL_2025.docx",
+      "We see non-China investments remaining broadly consistent with our prior view. Currently, we expect WFE in the second half of the calendar year to be roughly flat with the first half.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "LRCX_ER_Q4_2025_30_JUL_2025.docx",
+      "We expect moly adoption to increase broadly as more customers convert NAND capacity to 200 layers and higher in the next few years. Ram is leading the industry transition to ALD Moly not only in NAND, but also in foundry logic.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "LRCX_ER_Q4_2025_30_JUL_2025.docx",
+      "Our June quarter financial results came in above the midpoint of all of our guidance ranges with earnings per share actually exceeding the guidance range.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "LRCX_ER_Q4_2025_30_JUL_2025.docx",
+      "We continue to encourage you to think of NAND investments focused primarily on upgrades, which we anticipate will require an investment of roughly $40 billion over several years.",
+      "Why it matters — capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "LRCX_ER_Q4_2025_30_JUL_2025.docx",
+      "R&D accounted for 69% of total operating expenses. The June quarter operating margin was 34.4% and near the high end of our guidance.",
+      "Why it matters — forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "Profitability premium — net margin of 3725428.6% in the latest quarter sits well above the cross-sector ~10–15% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory — net margin expanded +1399503.6pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive — spot $305.35 sits +62.0% above the 200-DMA ($188.52). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Sell-side target points higher — consensus PT of $1175 (vs spot $305.35) implies +284.8% upside. Cross-checked against the peer-median PE FY1 of 24.5x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Growth fading — +0.0% YoY revenue growth in FY2026 Q1 is well below the 5–8% threshold that supports the current multiple. A re-acceleration story needs to develop in the next 2–3 quarters or estimates will need to come down.",
+    "Management credibility impaired — MCS of 0.00 on 9 tracked claims (0B/0H/5M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "52-week extension — at 100% of the 52-week range, the stock is one bad print away from a 10–15% reset back into the middle of the range. Position size accordingly."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 3725430.1% — confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call — direct upward revision to consensus.",
+    "Clean breakout above $305.35 (52-week high) on volume confirmation — technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 0% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 3725426.6% — flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
+    "Decisive break below the 52-week low at $80.79 — technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5–8%",
+      "latest": "+0.0% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10–15%",
+      "latest": "3725428.6%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.00 on 9 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.5x FY1 P/E",
+      "latest": "23.5x (-4%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$305.35 vs $188.52 (+62.0%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "67.5",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. Lam Research Corporation (LRCX) printed $0.0B in revenue in FY2026 Q1 (+0.0% YoY), net margin of 3725428.6%. Management credibility is weak (MCS 0.00, 0B/0H/5M record) — forward claims should be discounted in valuation models. Trading at 23.5x forward P/E versus peer median of 24.5x — broadly in line with the group.\n\nTechnical regime is constructive: spot $305.35 above the 200-DMA ($188.52, +62.0%) with neutral momentum (RSI 68). Sell-side consensus PT of $1175 implies +284.8% upside. 30-day implied move is ±16.7%; 90-day is ±32.7%. Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+}
