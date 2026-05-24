@@ -1,0 +1,50 @@
+{
+  "name": "Cadence Design Systems, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Cadence Design Systems, Inc. (CDNS, Information Technology) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $1.47B (+18.7% YoY), net margin 22.8%. Valuation 50.0x forward P/E (+41% vs peers).",
+  "quotes": [],
+  "bull": [
+    "Top-line momentum \u2014 revenue grew +18.7% YoY in FY2026 Q1 to $1.47B, with TTM revenue of $5.53B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium \u2014 net margin of 22.8% in the latest quarter sits well above the cross-sector ~10\u201315% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory \u2014 net margin expanded +1.1pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release."
+  ],
+  "bear": [
+    "Valuation premium \u2014 50.0x forward P/E vs peer median of 35.5x \u2014 a 41% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 22% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 24.3% \u2014 confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 16% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 20.8% \u2014 flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+18.7% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10\u201315%",
+      "latest": "22.8%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 35.5x FY1 P/E",
+      "latest": "50.0x (+41%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Cadence Design Systems, Inc. (CDNS) printed $1.47B in revenue in FY2026 Q1 (+18.7% YoY), net margin of 22.8%. At 50.0x forward P/E, the stock carries a 41% premium to peers (35.5x median) \u2014 the multiple needs continued execution to defend.A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

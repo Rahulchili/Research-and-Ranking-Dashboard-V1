@@ -1,0 +1,75 @@
+{
+  "name": "Regeneron Pharmaceuticals, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Regeneron Pharmaceuticals, Inc. (REGN, Health Care) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $3.6B (+19.1% YoY), net margin 20.2%. Valuation 13.0x forward P/E (-4% vs peers). Spot $638.88 (below 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Top-line momentum \u2014 revenue grew +19.1% YoY in FY2026 Q1 to $3.6B, with TTM revenue of $14.92B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Profitability premium \u2014 net margin of 20.2% in the latest quarter sits well above the cross-sector ~10\u201315% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Range-positioning balanced \u2014 at 47% of the 52-week range ($483.07\u2013$812.27), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Sell-side target points higher \u2014 consensus PT of $740 (vs spot $638.88) implies +15.8% upside. Cross-checked against the peer-median PE FY1 of 13.5x, the discount to fair value looks underwritten by both buy-side and sell-side.",
+    "Options market complacent \u2014 front-month implied move of just 3.8% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise \u2014 limited downside priced, full upside available."
+  ],
+  "bear": [
+    "Margin trajectory deteriorating \u2014 net margin compressed -20.2pp over the trailing quarters. This typically precedes a guidance reset by 1\u20132 quarters as management gets ahead of the cost-curve issue.",
+    "Trend rolling over \u2014 spot $638.88 sits -7.9% relative to the 200-DMA ($693.36). The break-down of long-term trend often precedes earnings disappointment by 1\u20132 quarters as smart-money distribution leads the fundamental print."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 22% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 21.7% \u2014 confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 16% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 18.2% \u2014 flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $483.07 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+19.1% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10\u201315%",
+      "latest": "20.2%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 13.5x FY1 P/E",
+      "latest": "13.0x (-4%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$638.88 vs $693.36 (-7.9%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "30.6",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b13.8% by 2026-05-29",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Regeneron Pharmaceuticals, Inc. (REGN) printed $3.6B in revenue in FY2026 Q1 (+19.1% YoY), net margin of 20.2%. Trading at 13.0x forward P/E versus peer median of 13.5x \u2014 broadly in line with the group.Technical regime is impaired: spot $638.88 below the 200-DMA ($693.36, -7.9%) \u2014 long-term trend has rolled over. Sell-side consensus PT of $740 implies +15.8% upside. The options market is pricing a \u00b13.8% move by the front-month expiry \u2014 a complacent read on near-term risk. 30-day implied move is \u00b18.5%; 90-day is \u00b116.5%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

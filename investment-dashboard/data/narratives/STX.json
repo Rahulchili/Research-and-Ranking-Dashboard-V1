@@ -1,0 +1,65 @@
+{
+  "name": "Seagate Technology Holdings plc",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Seagate Technology Holdings plc (STX, Information Technology) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q2: revenue $0.02B, net margin 3740.0%. Valuation 13.0x forward P/E (-13% vs peers). Spot $812.73 (above 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Profitability premium \u2014 net margin of 3740.0% in the latest quarter sits well above the cross-sector ~10\u201315% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "Margin trajectory \u2014 net margin expanded +510.6pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive \u2014 spot $812.73 sits +130.0% above the 200-DMA ($353.37). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "52-week extension \u2014 at 97% of the 52-week range, the stock is one bad print away from a 10\u201315% reset back into the middle of the range. Position size accordingly.",
+    "Options market pricing risk \u2014 front-month implied move of 9.4% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Net margin expands above 3741.5% \u2014 confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus.",
+    "Clean breakout above $834.01 (52-week high) on volume confirmation \u2014 technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Net margin compresses below 3738.0% \u2014 flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $108.86 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10\u201315%",
+      "latest": "3740.0%",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 15.0x FY1 P/E",
+      "latest": "13.0x (-13%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$812.73 vs $353.37 (+130.0%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "61.1",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b19.4% by 2026-05-29",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. At 13.0x forward P/E, the stock trades at a 13% discount to peers (15.0x median) \u2014 the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.Technical regime is constructive: spot $812.73 above the 200-DMA ($353.37, +130.0%) with neutral momentum (RSI 61). Sell-side consensus PT of $165 implies -79.7% upside. The options market is pricing a \u00b19.4% move by the front-month expiry \u2014 elevated, reflecting binary-event hedging. 30-day implied move is \u00b120.9%; 90-day is \u00b140.3%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

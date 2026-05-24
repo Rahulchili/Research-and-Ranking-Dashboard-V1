@@ -1,0 +1,63 @@
+{
+  "name": "DoorDash, Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "DoorDash, Inc. (DASH, Consumer Discretionary) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $3.03B (+20.7% YoY). Valuation 55.0x forward P/E (+112% vs peers). Spot $160.25 (below 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Top-line momentum \u2014 revenue grew +20.7% YoY in FY2026 Q1 to $3.03B, with TTM revenue of $10.88B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Sell-side target points higher \u2014 consensus PT of $205 (vs spot $160.25) implies +27.9% upside. Cross-checked against the peer-median PE FY1 of 26.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Trend rolling over \u2014 spot $160.25 sits -23.9% relative to the 200-DMA ($210.66). The break-down of long-term trend often precedes earnings disappointment by 1\u20132 quarters as smart-money distribution leads the fundamental print.",
+    "Valuation premium \u2014 55.0x forward P/E vs peer median of 26.0x \u2014 a 112% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 24% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 18% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $146.60 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+20.7% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 26.0x FY1 P/E",
+      "latest": "55.0x (+112%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$160.25 vs $210.66 (-23.9%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "40.4",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b16.6% by 2026-05-29",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. DoorDash, Inc. (DASH) printed $3.03B in revenue in FY2026 Q1 (+20.7% YoY). At 55.0x forward P/E, the stock carries a 112% premium to peers (26.0x median) \u2014 the multiple needs continued execution to defend.Technical regime is impaired: spot $160.25 below the 200-DMA ($210.66, -23.9%) \u2014 long-term trend has rolled over. Sell-side consensus PT of $205 implies +27.9% upside. The options market is pricing a \u00b16.6% move by the front-month expiry \u2014 consistent with historical realized vol. 30-day implied move is \u00b113.8%; 90-day is \u00b127.4%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -1,0 +1,8 @@
+{
+  "ticker": "TTWO",
+  "spot": null,
+  "expiries": [],
+  "iv_term_structure": [],
+  "oi_strikes": [],
+  "_note": "Options chain not parsed — source spreadsheet not available"
+}

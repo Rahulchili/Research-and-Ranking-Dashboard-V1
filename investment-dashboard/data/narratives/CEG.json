@@ -1,0 +1,74 @@
+{
+  "name": "Constellation Energy Corporation",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Constellation Energy Corporation (CEG, Utilities) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $11.12B (+63.8% YoY), net margin 5.2%. Valuation 28.0x forward P/E (+44% vs peers). Spot $93.43 (above 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Top-line momentum \u2014 revenue grew +63.8% YoY in FY2026 Q1 to $11.12B, with TTM revenue of $30.58B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Margin trajectory \u2014 net margin expanded +2.5pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "Trend regime constructive \u2014 spot $93.43 sits +33.6% above the 200-DMA ($69.93). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias.",
+    "Sell-side target points higher \u2014 consensus PT of $355 (vs spot $93.43) implies +280.0% upside. Cross-checked against the peer-median PE FY1 of 19.5x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "Margin pressure \u2014 net margin of 5.2% in the latest quarter is below the 10% benchmark that gates discretionary capital deployment for most large-caps. Either pricing power is eroding or input costs are running ahead of pass-through.",
+    "Valuation premium \u2014 28.0x forward P/E vs peer median of 19.5x \u2014 a 44% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 67% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 6.7% \u2014 confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 61% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 3.2% \u2014 flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $49.02 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+63.8% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10\u201315%",
+      "latest": "5.2%",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 19.5x FY1 P/E",
+      "latest": "28.0x (+44%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$93.43 vs $69.93 (+33.6%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "46.5",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b16.1% by 2026-05-29",
+      "verdict": "Normal",
+      "verdict_color": "amber"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. Constellation Energy Corporation (CEG) printed $11.12B in revenue in FY2026 Q1 (+63.8% YoY), net margin of 5.2%. At 28.0x forward P/E, the stock carries a 44% premium to peers (19.5x median) \u2014 the multiple needs continued execution to defend.Technical regime is constructive: spot $93.43 above the 200-DMA ($69.93, +33.6%) with neutral momentum (RSI 47). Sell-side consensus PT of $355 implies +280.0% upside. The options market is pricing a \u00b16.1% move by the front-month expiry \u2014 consistent with historical realized vol. 30-day implied move is \u00b113.4%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

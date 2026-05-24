@@ -1,0 +1,64 @@
+{
+  "name": "Marvell Technology, Inc.",
+  "stance": "BULLISH",
+  "color": "mint",
+  "summary": "Marvell Technology, Inc. (MRVL, Information Technology) \u2014 composite stance BULLISH. Latest reported quarter FY2025 Q4: revenue $2.07B (+36.8% YoY). Valuation 24.0x forward P/E (+0% vs peers). Spot $196.33 (above 200-DMA).",
+  "quotes": [],
+  "bull": [
+    "Top-line momentum \u2014 revenue grew +36.8% YoY in FY2025 Q4 to $2.07B, with TTM revenue of $7.49B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Trend regime constructive \u2014 spot $196.33 sits +104.7% above the 200-DMA ($95.91). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
+  ],
+  "bear": [
+    "52-week extension \u2014 at 100% of the 52-week range, the stock is one bad print away from a 10\u201315% reset back into the middle of the range. Position size accordingly.",
+    "Options market pricing risk \u2014 front-month implied move of 16.9% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 40% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus.",
+    "Clean breakout above $196.33 (52-week high) on volume confirmation \u2014 technical signal that institutional accumulation is sustained."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 34% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $60.19 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+36.8% in FY2025 Q4",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.0x FY1 P/E",
+      "latest": "24.0x (+0%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$196.33 vs $95.91 (+104.7%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "66.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b116.9% by 2026-05-29",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
+    }
+  ],
+  "bottom_line": "BULLISH. Marvell Technology, Inc. (MRVL) printed $2.07B in revenue in FY2025 Q4 (+36.8% YoY). Trading at 24.0x forward P/E versus peer median of 24.0x \u2014 broadly in line with the group.Technical regime is constructive: spot $196.33 above the 200-DMA ($95.91, +104.7%) with neutral momentum (RSI 67). Sell-side consensus PT of $72 implies -63.3% upside. The options market is pricing a \u00b116.9% move by the front-month expiry \u2014 elevated, reflecting binary-event hedging. 30-day implied move is \u00b125.3%; 90-day is \u00b139.6%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

@@ -34,6 +34,40 @@
       "\u2192 O = 68.4 (trend-aligned)"
     ]
   },
+  "ABNB": {
+    "fundamentals": [
+      "Revenue +6.1% YoY (acceptable for Consumer Discretionary; sector strong-bar 8%)",
+      "Net margin 6.8% (acceptable for Consumer Discretionary; sector strong-bar 8%)",
+      "Operating margin 1.7%",
+      "TTM revenue $10B",
+      "\u2192 F = 55.6 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.62 (5B / 0H / 3M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 62.5"
+    ],
+    "valuation": [
+      "PE 26.0\u00d7 vs peer median 21.0\u00d7 (24% premium to peers)",
+      "FCF yield 5.5% (+3)",
+      "\u2192 V = 45"
+    ],
+    "technicals": [
+      "Spot $132.35 vs SMA200 $128.33 (+3.1%, neutral)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 36.9 (neutral zone)",
+      "90-day return: -3.4%",
+      "1-year return: +3.8%",
+      "Drawdown from 52w high: -8.2%",
+      "\u2192 T = 58.8"
+    ],
+    "options": [
+      "Front-month ATM IV 35.6% (normal)",
+      "P/C OI 0.96 (balanced)",
+      "ATM skew +0.55pp (put skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
+    ]
+  },
   "ADI": {
     "fundamentals": [
       "Revenue +37.2% YoY (strong for Information Technology; sector strong-bar 15%)",
@@ -553,6 +587,67 @@
       "\u2192 O = 54.9 (trend-aligned)"
     ]
   },
+  "CDNS": {
+    "fundamentals": [
+      "Revenue +18.7% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 22.8% (strong for Information Technology; sector strong-bar 18%)",
+      "Operating margin 29.3%",
+      "TTM revenue $6B",
+      "\u2192 F = 75.7 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.44 (2B / 3H / 3M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 43.8"
+    ],
+    "valuation": [
+      "PE 50.0\u00d7 vs peer median 35.5\u00d7 (41% premium to peers)",
+      "FCF yield 2.2%",
+      "\u2192 V = 32"
+    ],
+    "technicals": [
+      "\u2192 T = 60.0"
+    ],
+    "options": [
+      "\u2192 O = 55.0 (trend-aligned)"
+    ]
+  },
+  "CEG": {
+    "fundamentals": [
+      "Revenue +63.8% YoY (strong for Utilities; sector strong-bar 10%)",
+      "Net margin 5.2% (thin for Utilities; sector strong-bar 15%)",
+      "Operating margin 8.7%",
+      "TTM revenue $31B",
+      "\u2192 F = 68.5 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.38 (2B / 2H / 4M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 37.5"
+    ],
+    "valuation": [
+      "PE 28.0\u00d7 vs peer median 19.5\u00d7 (44% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 2.8%",
+      "\u2192 V = 55"
+    ],
+    "technicals": [
+      "Spot $93.43 vs SMA200 $69.93 (+33.6%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 46.5 (neutral zone)",
+      "90-day return: +24.6%",
+      "1-year return: +57.7%",
+      "Drawdown from 52w high: -9.2%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 47.3% (elevated)",
+      "P/C OI 0.79 (balanced)",
+      "ATM skew -0.36pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
+    ]
+  },
   "COHR": {
     "fundamentals": [
       "Revenue +101.2% YoY (strong for Information Technology; sector strong-bar 15%)",
@@ -725,6 +820,39 @@
       "\u2192 O = 72.7 (trend-aligned)"
     ]
   },
+  "DASH": {
+    "fundamentals": [
+      "Revenue +20.7% YoY (strong for Consumer Discretionary; sector strong-bar 8%)",
+      "Operating margin 5.1%",
+      "TTM revenue $11B",
+      "\u2192 F = 78.3 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (2B / 1H / 2M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 55.0\u00d7 vs peer median 26.0\u00d7 (112% premium to peers)",
+      "FCF yield 3.2% (+3)",
+      "\u2192 V = 35"
+    ],
+    "technicals": [
+      "Spot $160.25 vs SMA200 $210.66 (-23.9%, bearish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 40.4 (neutral zone)",
+      "90-day return: -11.2%",
+      "1-year return: -21.7%",
+      "Drawdown from 52w high: -43.1%",
+      "\u2192 T = 40.0"
+    ],
+    "options": [
+      "Front-month ATM IV 51.3% (elevated)",
+      "P/C OI 0.48 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew -0.61pp (call skew)",
+      "\u2192 O = 56.9 (trend-aligned)"
+    ]
+  },
   "DDOG": {
     "fundamentals": [
       "Revenue +32.2% YoY (strong for Information Technology; sector strong-bar 15%)",
@@ -858,6 +986,31 @@
       "P/C OI 1.43 (put-heavy) \u2014 bearish hedging (trend confirms)",
       "ATM skew -1.42pp (call skew)",
       "\u2192 O = 55.4 (trend-aligned)"
+    ]
+  },
+  "FANG": {
+    "fundamentals": [
+      "Revenue +4.7% YoY (acceptable for Energy; sector strong-bar 5%)",
+      "Operating margin 0.7%",
+      "TTM revenue $15B",
+      "\u2192 F = 56.8 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.33 (2B / 0H / 4M on 6 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 33.3"
+    ],
+    "valuation": [
+      "PE 9.5\u00d7 vs peer median 10.5\u00d7 (10% discount to peers)",
+      "FCF yield 11.5% (+6 bonus)",
+      "Dividend yield 2.8% (+1)",
+      "\u2192 V = 69"
+    ],
+    "technicals": [
+      "\u2192 T = 60.0"
+    ],
+    "options": [
+      "\u2192 O = 55.0 (trend-aligned)"
     ]
   },
   "FDX": {
@@ -1433,6 +1586,40 @@
       "\u2192 O = 52.7 (trend-aligned)"
     ]
   },
+  "MAR": {
+    "fundamentals": [
+      "Revenue +12.4% YoY (strong for Consumer Discretionary; sector strong-bar 8%)",
+      "Net margin 45.2% (best-in-class for Consumer Discretionary; sector strong-bar 8%)",
+      "Operating margin 74.2%",
+      "TTM revenue $6B",
+      "\u2192 F = 91.8 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.75 (6B / 0H / 2M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 75.0"
+    ],
+    "valuation": [
+      "PE 28.0\u00d7 vs peer median 23.0\u00d7 (22% premium to peers)",
+      "FCF yield 3.8% (+3)",
+      "\u2192 V = 45"
+    ],
+    "technicals": [
+      "Spot $373.59 vs SMA200 $322.61 (+15.8%, bullish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 65.8 (neutral zone)",
+      "90-day return: +25.5%",
+      "1-year return: +17.6%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 72.0"
+    ],
+    "options": [
+      "Front-month ATM IV 50.3% (elevated)",
+      "P/C OI 0.97 (balanced)",
+      "ATM skew -1.03pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
+    ]
+  },
   "MCD": {
     "fundamentals": [
       "Revenue +9.4% YoY (strong for Consumer Discretionary; sector strong-bar 8%)",
@@ -1467,6 +1654,32 @@
       "P/C OI 0.56 (call-heavy) \u2014 apathy (no trend support)",
       "ATM skew +47.87pp (put skew)",
       "\u2192 O = 47.7 (trend-aligned)"
+    ]
+  },
+  "MCHP": {
+    "fundamentals": [
+      "Revenue -4.5% YoY (contracting for Information Technology; sector strong-bar 15%)",
+      "Net margin 7.0% (thin for Information Technology; sector strong-bar 18%)",
+      "Operating margin 12.3%",
+      "TTM revenue $4B",
+      "\u2192 F = 44.8 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.69 (5B / 1H / 2M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 68.8"
+    ],
+    "valuation": [
+      "PE 24.0\u00d7 vs peer median 24.0\u00d7 (0% premium to peers)",
+      "FCF yield 3.5% (+3)",
+      "Dividend yield 3.1% (+3)",
+      "\u2192 V = 68"
+    ],
+    "technicals": [
+      "\u2192 T = 60.0"
+    ],
+    "options": [
+      "\u2192 O = 55.0 (trend-aligned)"
     ]
   },
   "MDB": {
@@ -1529,6 +1742,38 @@
     ],
     "options": [
       "\u2192 O = 55.0 (trend-aligned)"
+    ]
+  },
+  "MRVL": {
+    "fundamentals": [
+      "Revenue +36.8% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "TTM revenue $7B",
+      "\u2192 F = 90.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (2B / 1H / 2M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 24.0\u00d7 vs peer median 24.0\u00d7 (0% premium to peers)",
+      "FCF yield 3.0% (+3)",
+      "\u2192 V = 65"
+    ],
+    "technicals": [
+      "Spot $196.33 vs SMA200 $95.91 (+104.7%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 66.8 (neutral zone)",
+      "90-day return: +147.6%",
+      "1-year return: +226.6%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 131.6% (extreme)",
+      "P/C OI 1.23 (balanced)",
+      "ATM skew -9.51pp (call skew)",
+      "\u2192 O = 53.6 (trend-aligned)"
     ]
   },
   "MSFT": {
@@ -1801,6 +2046,42 @@
       "\u2192 O = 69.9 (trend-aligned)"
     ]
   },
+  "NXPI": {
+    "fundamentals": [
+      "Revenue +12.4% YoY (acceptable for Information Technology; sector strong-bar 15%)",
+      "Net margin 13.7% (acceptable for Information Technology; sector strong-bar 18%)",
+      "Operating margin 23.9%",
+      "Latest-quarter FCF $0.0B (negative)",
+      "TTM revenue $0B",
+      "\u2192 F = 63.8 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.69 (4B / 3H / 1M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 68.8"
+    ],
+    "valuation": [
+      "PE 15.5\u00d7 vs peer median 24.0\u00d7 (35% discount to peers)",
+      "FCF yield 5.8% (+3)",
+      "Dividend yield 1.9% (+1)",
+      "\u2192 V = 82"
+    ],
+    "technicals": [
+      "Spot $316.47 vs SMA200 $226.22 (+39.9%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 61.6 (neutral zone)",
+      "90-day return: +36.3%",
+      "1-year return: +54.1%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 81.2"
+    ],
+    "options": [
+      "Front-month ATM IV 48.3% (elevated)",
+      "P/C OI 0.66 (call-heavy) \u2014 genuine bullish positioning (trend confirms)",
+      "ATM skew -0.39pp (call skew)",
+      "\u2192 O = 67.6 (trend-aligned)"
+    ]
+  },
   "ORCL": {
     "fundamentals": [
       "Revenue +21.7% YoY (strong for Information Technology; sector strong-bar 15%)",
@@ -2039,6 +2320,41 @@
       "\u2192 O = 43.4 (trend-aligned)"
     ]
   },
+  "REGN": {
+    "fundamentals": [
+      "Revenue +19.1% YoY (strong for Health Care; sector strong-bar 10%)",
+      "Net margin 20.2% (strong for Health Care; sector strong-bar 15%)",
+      "Operating margin 17.8%",
+      "Latest-quarter FCF $0.9B (positive)",
+      "TTM revenue $15B",
+      "\u2192 F = 79.1 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.50 (3B / 2H / 3M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 13.0\u00d7 vs peer median 13.5\u00d7 (4% discount to peers)",
+      "FCF yield 7.0% (+6 bonus)",
+      "\u2192 V = 68"
+    ],
+    "technicals": [
+      "Spot $638.88 vs SMA200 $693.36 (-7.9%, bearish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 30.6 (neutral zone)",
+      "90-day return: -17.1%",
+      "1-year return: +5.7%",
+      "Drawdown from 52w high: -21.4%",
+      "\u2192 T = 43.2"
+    ],
+    "options": [
+      "Front-month ATM IV 29.5% (normal)",
+      "P/C OI 1.53 (put-heavy) \u2014 bearish hedging (trend confirms)",
+      "ATM skew -2.68pp (call skew)",
+      "\u2192 O = 55.4 (trend-aligned)"
+    ]
+  },
   "ROST": {
     "fundamentals": [
       "Revenue +10.4% YoY (strong for Consumer Discretionary; sector strong-bar 8%)",
@@ -2263,6 +2579,40 @@
       "\u2192 O = 66.4 (trend-aligned)"
     ]
   },
+  "STX": {
+    "fundamentals": [
+      "Net margin 3740.0% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 4990.0%",
+      "TTM revenue $0B",
+      "\u2192 F = 93.1 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.44 (3B / 1H / 4M on 8 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 43.8"
+    ],
+    "valuation": [
+      "PE 13.0\u00d7 vs peer median 15.0\u00d7 (13% discount to peers)",
+      "FCF yield 6.5% (+6 bonus)",
+      "Dividend yield 1.9% (+1)",
+      "\u2192 V = 77"
+    ],
+    "technicals": [
+      "Spot $812.73 vs SMA200 $353.37 (+130.0%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 61.1 (neutral zone)",
+      "90-day return: +98.4%",
+      "1-year return: +678.3%",
+      "Drawdown from 52w high: -2.5%",
+      "\u2192 T = 81.2"
+    ],
+    "options": [
+      "Front-month ATM IV 73.3% (high)",
+      "P/C OI 0.96 (balanced)",
+      "ATM skew -5.59pp (call skew)",
+      "\u2192 O = 62.1 (trend-aligned)"
+    ]
+  },
   "T": {
     "fundamentals": [
       "Revenue +4.3% YoY (acceptable for Communication Services; sector strong-bar 10%)",
@@ -2361,6 +2711,29 @@
       "P/C OI 2.03 (put-heavy) \u2014 active hedging of gains (contrarian positive)",
       "ATM skew -1.56pp (call skew)",
       "\u2192 O = 56.9 (trend-aligned)"
+    ]
+  },
+  "TTWO": {
+    "fundamentals": [
+      "Revenue +25.0% YoY (strong for Communication Services; sector strong-bar 10%)",
+      "TTM revenue $6B",
+      "\u2192 F = 90.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.40 (2B / 0H / 3M on 5 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 40.0"
+    ],
+    "valuation": [
+      "PE 42.0\u00d7 vs peer median 20.0\u00d7 (110% premium to peers)",
+      "FCF yield 1.8%",
+      "\u2192 V = 32"
+    ],
+    "technicals": [
+      "\u2192 T = 60.0"
+    ],
+    "options": [
+      "\u2192 O = 55.0 (trend-aligned)"
     ]
   },
   "TWLO": {
@@ -2498,6 +2871,40 @@
       "P/C OI 2.55 (put-heavy) \u2014 active hedging of gains (contrarian positive)",
       "ATM skew -3.45pp (call skew)",
       "\u2192 O = 55.7 (trend-aligned)"
+    ]
+  },
+  "WDC": {
+    "fundamentals": [
+      "Net margin 96.0% (best-in-class for Information Technology; sector strong-bar 18%)",
+      "Operating margin 35.7%",
+      "Latest-quarter FCF $2.4B (positive)",
+      "TTM revenue $11B",
+      "\u2192 F = 80.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS 0.75 (6B / 0H / 2M on 8 tracked forward claims)",
+      "Track record: average",
+      "\u2192 M = 75.0"
+    ],
+    "valuation": [
+      "PE 14.0\u00d7 vs peer median 15.0\u00d7 (7% discount to peers)",
+      "FCF yield 5.5% (+3)",
+      "\u2192 V = 65"
+    ],
+    "technicals": [
+      "Spot $484.28 vs SMA200 $221.42 (+118.7%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 59.7 (neutral zone)",
+      "90-day return: +71.6%",
+      "1-year return: +878.5%",
+      "Drawdown from 52w high: -6.1%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 75.9% (high)",
+      "P/C OI 1.16 (balanced)",
+      "ATM skew -5.14pp (call skew)",
+      "\u2192 O = 57.9 (trend-aligned)"
     ]
   },
   "WMT": {

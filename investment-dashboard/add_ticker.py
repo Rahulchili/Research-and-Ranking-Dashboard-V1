@@ -132,6 +132,20 @@ TICKER_METADATA: dict[str, tuple[str, str]] = {
     "WMT":  ("Walmart Inc.", "Consumer Staples"),
     "XOM":  ("Exxon Mobil Corporation", "Energy"),
     "ZM":   ("Zoom Communications, Inc.", "Communication Services"),
+    # === Batch added 2026-05-24 ===
+    "STX":  ("Seagate Technology Holdings plc", "Information Technology"),
+    "NXPI": ("NXP Semiconductors N.V.", "Information Technology"),
+    "MAR":  ("Marriott International, Inc.", "Consumer Discretionary"),
+    "CDNS": ("Cadence Design Systems, Inc.", "Information Technology"),
+    "FANG": ("Diamondback Energy, Inc.", "Energy"),
+    "TTWO": ("Take-Two Interactive Software, Inc.", "Communication Services"),
+    "REGN": ("Regeneron Pharmaceuticals, Inc.", "Health Care"),
+    "WDC":  ("Western Digital Corporation", "Information Technology"),
+    "MRVL": ("Marvell Technology, Inc.", "Information Technology"),
+    "CEG":  ("Constellation Energy Corporation", "Utilities"),
+    "MCHP": ("Microchip Technology Incorporated", "Information Technology"),
+    "ABNB": ("Airbnb, Inc.", "Consumer Discretionary"),
+    "DASH": ("DoorDash, Inc.", "Consumer Discretionary"),
 }
 
 # Built-in peer comp registry — sector-appropriate peer sets with rough
@@ -1051,6 +1065,224 @@ DEFAULT_PEER_SETS: dict[str, dict[str, Any]] = {
         ],
         "peer_aggregates":{"median":{"PE_FY1":26.5,"PE_FY2":21.3,"EV_EBITDA_FY1":18.3,"EV_Sales_LTM":8.8},"mean":{"PE_FY1":26.2,"PE_FY2":21.2,"EV_EBITDA_FY1":18.7,"EV_Sales_LTM":9.8}},
         "interpretation":("QCOM trades at a steep discount to semiconductor peers on forward P/E (~15x vs ~26x median) and EV/sales (~4.8x vs ~8.8x), reflecting concerns over Apple modem in-sourcing risk, mobile cycle maturity, and lower exposure to AI compute. Auto + IoT + edge-AI diversification and dividend yield of 2.1% support a value-quality thesis."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Storage / HDD ===
+    "STX": {
+        "target": {"ticker":"STX-US","name":"Seagate Technology Holdings plc","fiscal_period":"06/2026","price":150.0,"target_price":165.0,"mkt_cap_B":31.5,"ev_B":36.5,"net_debt_M":5000,
+            "PE_FY1":13.0,"PE_FY2":10.5,"PE_LTM":17.0,"EV_EBITDA_FY1":8.5,"EV_EBITDA_FY2":7.2,"EV_EBITDA_LTM":11.0,"EV_Sales_LTM":3.6,"PS_LTM":3.4,
+            "FCF_Yield_pct":6.5,"Div_Yield_pct":1.9,"rating":"Buy (2.20)","broker_contributors":24,"Beta_3Y":1.45,"WACC_pct":10.5,
+            "sales_FY1_M":10100,"sales_FY2_M":11200,"ebitda_FY1_M":4300,"ebitda_FY2_M":5100,"rev_consensus_next_qtr_M":2780,"eps_consensus_next_qtr":2.95,"next_earnings_date":"2026-07-28"},
+        "peers":[
+            {"ticker":"WDC-US","name":"Western Digital","fiscal_period":"06/2026","price":80.0,"target_price":90.0,"mkt_cap_B":28.0,"PE_FY1":14.0,"PE_FY2":11.0,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":2.6,"Div_Yield_pct":0.0},
+            {"ticker":"SNDK-US","name":"Sandisk Corporation","fiscal_period":"06/2026","price":85.0,"target_price":95.0,"mkt_cap_B":12.0,"PE_FY1":15.0,"PE_FY2":12.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":2.0,"Div_Yield_pct":0.0},
+            {"ticker":"MU-US","name":"Micron Technology","fiscal_period":"08/2026","price":135.0,"target_price":160.0,"mkt_cap_B":150.0,"PE_FY1":9.0,"PE_FY2":7.0,"EV_EBITDA_FY1":5.5,"EV_Sales_LTM":4.0,"Div_Yield_pct":0.3},
+            {"ticker":"NTAP-US","name":"NetApp, Inc.","fiscal_period":"04/2026","price":120.0,"target_price":135.0,"mkt_cap_B":25.0,"PE_FY1":15.0,"PE_FY2":13.5,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":3.8,"Div_Yield_pct":1.8},
+            {"ticker":"DELL-US","name":"Dell Technologies","fiscal_period":"01/2027","price":140.0,"target_price":155.0,"mkt_cap_B":100.0,"PE_FY1":15.5,"PE_FY2":13.0,"EV_EBITDA_FY1":11.5,"EV_Sales_LTM":1.1,"Div_Yield_pct":1.5},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":15.0,"PE_FY2":12.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":2.6},"mean":{"PE_FY1":13.7,"PE_FY2":11.3,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":2.7}},
+        "interpretation":("STX trades at a small discount on forward P/E (~13x vs ~15x peer median) and a premium on EV/Sales (~3.6x vs ~2.6x), reflecting strong HDD pricing power from cloud/AI storage demand and a structurally consolidated duopoly with WDC. FCF yield (~6.5%) and dividend yield (~1.9%) are competitive."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Storage / HDD ===
+    "WDC": {
+        "target": {"ticker":"WDC-US","name":"Western Digital Corporation","fiscal_period":"06/2026","price":80.0,"target_price":90.0,"mkt_cap_B":28.0,"ev_B":32.0,"net_debt_M":4000,
+            "PE_FY1":14.0,"PE_FY2":11.0,"PE_LTM":18.0,"EV_EBITDA_FY1":9.5,"EV_EBITDA_FY2":7.8,"EV_EBITDA_LTM":12.0,"EV_Sales_LTM":2.6,"PS_LTM":2.3,
+            "FCF_Yield_pct":5.5,"Div_Yield_pct":0.0,"rating":"Buy (2.10)","broker_contributors":22,"Beta_3Y":1.55,"WACC_pct":11.0,
+            "sales_FY1_M":12300,"sales_FY2_M":13500,"ebitda_FY1_M":3400,"ebitda_FY2_M":4100,"rev_consensus_next_qtr_M":3250,"eps_consensus_next_qtr":1.65,"next_earnings_date":"2026-07-30"},
+        "peers":[
+            {"ticker":"STX-US","name":"Seagate Technology","fiscal_period":"06/2026","price":150.0,"target_price":165.0,"mkt_cap_B":31.5,"PE_FY1":13.0,"PE_FY2":10.5,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":3.6,"Div_Yield_pct":1.9},
+            {"ticker":"SNDK-US","name":"Sandisk Corporation","fiscal_period":"06/2026","price":85.0,"target_price":95.0,"mkt_cap_B":12.0,"PE_FY1":15.0,"PE_FY2":12.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":2.0,"Div_Yield_pct":0.0},
+            {"ticker":"MU-US","name":"Micron Technology","fiscal_period":"08/2026","price":135.0,"target_price":160.0,"mkt_cap_B":150.0,"PE_FY1":9.0,"PE_FY2":7.0,"EV_EBITDA_FY1":5.5,"EV_Sales_LTM":4.0,"Div_Yield_pct":0.3},
+            {"ticker":"NTAP-US","name":"NetApp, Inc.","fiscal_period":"04/2026","price":120.0,"target_price":135.0,"mkt_cap_B":25.0,"PE_FY1":15.0,"PE_FY2":13.5,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":3.8,"Div_Yield_pct":1.8},
+            {"ticker":"DELL-US","name":"Dell Technologies","fiscal_period":"01/2027","price":140.0,"target_price":155.0,"mkt_cap_B":100.0,"PE_FY1":15.5,"PE_FY2":13.0,"EV_EBITDA_FY1":11.5,"EV_Sales_LTM":1.1,"Div_Yield_pct":1.5},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":15.0,"PE_FY2":12.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":3.6},"mean":{"PE_FY1":13.5,"PE_FY2":11.1,"EV_EBITDA_FY1":9.3,"EV_Sales_LTM":2.9}},
+        "interpretation":("WDC trades roughly in-line with HDD/NAND peers on forward P/E (~14x vs ~15x median). Sandisk spin-off cleaned up the balance sheet and refocused the company on HDD/cloud storage where pricing is firming on AI-driven demand. No dividend yet — capital returns lean on buybacks."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Semiconductors (analog/auto/IoT) ===
+    "NXPI": {
+        "target": {"ticker":"NXPI-US","name":"NXP Semiconductors N.V.","fiscal_period":"12/2026","price":230.0,"target_price":255.0,"mkt_cap_B":58.0,"ev_B":62.5,"net_debt_M":4500,
+            "PE_FY1":15.5,"PE_FY2":13.5,"PE_LTM":18.0,"EV_EBITDA_FY1":11.5,"EV_EBITDA_FY2":10.0,"EV_EBITDA_LTM":13.0,"EV_Sales_LTM":4.5,"PS_LTM":4.2,
+            "FCF_Yield_pct":5.8,"Div_Yield_pct":1.9,"rating":"Buy (2.15)","broker_contributors":32,"Beta_3Y":1.30,"WACC_pct":9.5,
+            "sales_FY1_M":13200,"sales_FY2_M":14200,"ebitda_FY1_M":5400,"ebitda_FY2_M":6100,"rev_consensus_next_qtr_M":3350,"eps_consensus_next_qtr":3.45,"next_earnings_date":"2026-07-21"},
+        "peers":[
+            {"ticker":"TXN-US","name":"Texas Instruments","fiscal_period":"12/2026","price":188.0,"target_price":195.0,"mkt_cap_B":170.0,"PE_FY1":29.0,"PE_FY2":25.0,"EV_EBITDA_FY1":18.5,"EV_Sales_LTM":10.5,"Div_Yield_pct":3.0},
+            {"ticker":"ADI-US","name":"Analog Devices","fiscal_period":"10/2026","price":252.0,"target_price":275.0,"mkt_cap_B":125.0,"PE_FY1":29.5,"PE_FY2":25.0,"EV_EBITDA_FY1":21.0,"EV_Sales_LTM":12.0,"Div_Yield_pct":1.7},
+            {"ticker":"MCHP-US","name":"Microchip Technology","fiscal_period":"03/2026","price":58.0,"target_price":65.0,"mkt_cap_B":31.0,"PE_FY1":24.0,"PE_FY2":17.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.0,"Div_Yield_pct":3.1},
+            {"ticker":"ON-US","name":"ON Semiconductor","fiscal_period":"12/2026","price":52.0,"target_price":60.0,"mkt_cap_B":22.0,"PE_FY1":14.0,"PE_FY2":11.5,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":3.4,"Div_Yield_pct":0.0},
+            {"ticker":"QCOM-US","name":"QUALCOMM Inc.","fiscal_period":"09/2026","price":175.0,"target_price":195.0,"mkt_cap_B":195.0,"PE_FY1":15.0,"PE_FY2":14.0,"EV_EBITDA_FY1":12.0,"EV_Sales_LTM":4.8,"Div_Yield_pct":2.1},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":24.0,"PE_FY2":17.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.0},"mean":{"PE_FY1":22.3,"PE_FY2":18.6,"EV_EBITDA_FY1":15.6,"EV_Sales_LTM":7.5}},
+        "interpretation":("NXPI trades at a meaningful discount to analog/auto peers on forward P/E (~15.5x vs ~24x median) and EV/sales (~4.5x vs ~7x). Auto end-market concentration (~57% of sales) is depressing multiples relative to TXN/ADI. AI infrastructure exposure and industrial recovery are key re-rating catalysts."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Semiconductors (analog/MCUs) ===
+    "MCHP": {
+        "target": {"ticker":"MCHP-US","name":"Microchip Technology Incorporated","fiscal_period":"03/2027","price":58.0,"target_price":65.0,"mkt_cap_B":31.0,"ev_B":36.0,"net_debt_M":5000,
+            "PE_FY1":24.0,"PE_FY2":17.5,"PE_LTM":42.0,"EV_EBITDA_FY1":17.0,"EV_EBITDA_FY2":13.5,"EV_EBITDA_LTM":24.0,"EV_Sales_LTM":7.0,"PS_LTM":6.5,
+            "FCF_Yield_pct":3.5,"Div_Yield_pct":3.1,"rating":"Buy (2.35)","broker_contributors":26,"Beta_3Y":1.45,"WACC_pct":10.0,
+            "sales_FY1_M":4900,"sales_FY2_M":5800,"ebitda_FY1_M":2100,"ebitda_FY2_M":2700,"rev_consensus_next_qtr_M":1200,"eps_consensus_next_qtr":0.43,"next_earnings_date":"2026-08-06"},
+        "peers":[
+            {"ticker":"NXPI-US","name":"NXP Semiconductors","fiscal_period":"12/2026","price":230.0,"target_price":255.0,"mkt_cap_B":58.0,"PE_FY1":15.5,"PE_FY2":13.5,"EV_EBITDA_FY1":11.5,"EV_Sales_LTM":4.5,"Div_Yield_pct":1.9},
+            {"ticker":"TXN-US","name":"Texas Instruments","fiscal_period":"12/2026","price":188.0,"target_price":195.0,"mkt_cap_B":170.0,"PE_FY1":29.0,"PE_FY2":25.0,"EV_EBITDA_FY1":18.5,"EV_Sales_LTM":10.5,"Div_Yield_pct":3.0},
+            {"ticker":"ADI-US","name":"Analog Devices","fiscal_period":"10/2026","price":252.0,"target_price":275.0,"mkt_cap_B":125.0,"PE_FY1":29.5,"PE_FY2":25.0,"EV_EBITDA_FY1":21.0,"EV_Sales_LTM":12.0,"Div_Yield_pct":1.7},
+            {"ticker":"ON-US","name":"ON Semiconductor","fiscal_period":"12/2026","price":52.0,"target_price":60.0,"mkt_cap_B":22.0,"PE_FY1":14.0,"PE_FY2":11.5,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":3.4,"Div_Yield_pct":0.0},
+            {"ticker":"MRVL-US","name":"Marvell Technology","fiscal_period":"01/2027","price":62.0,"target_price":72.0,"mkt_cap_B":54.0,"PE_FY1":24.0,"PE_FY2":17.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":7.0,"Div_Yield_pct":0.4},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":24.0,"PE_FY2":17.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":7.0},"mean":{"PE_FY1":22.4,"PE_FY2":18.4,"EV_EBITDA_FY1":15.7,"EV_Sales_LTM":7.5}},
+        "interpretation":("MCHP trades roughly in-line with semi peers on forward P/E (~24x) but at a steep premium on LTM multiples — reflecting the cyclical trough in earnings (FY25 reset). Recovery in MCU/analog demand and dividend yield of 3.1% support a value-quality thesis. Steve Sanghi's return as CEO is a positive signal."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Semiconductors (networking/storage chips) ===
+    "MRVL": {
+        "target": {"ticker":"MRVL-US","name":"Marvell Technology, Inc.","fiscal_period":"01/2027","price":62.0,"target_price":72.0,"mkt_cap_B":54.0,"ev_B":58.0,"net_debt_M":4000,
+            "PE_FY1":24.0,"PE_FY2":17.0,"PE_LTM":35.0,"EV_EBITDA_FY1":18.0,"EV_EBITDA_FY2":14.0,"EV_EBITDA_LTM":25.0,"EV_Sales_LTM":7.0,"PS_LTM":6.6,
+            "FCF_Yield_pct":3.0,"Div_Yield_pct":0.4,"rating":"Buy (1.90)","broker_contributors":32,"Beta_3Y":1.55,"WACC_pct":10.5,
+            "sales_FY1_M":8200,"sales_FY2_M":9800,"ebitda_FY1_M":3200,"ebitda_FY2_M":4150,"rev_consensus_next_qtr_M":2050,"eps_consensus_next_qtr":0.65,"next_earnings_date":"2026-05-28"},
+        "peers":[
+            {"ticker":"AVGO-US","name":"Broadcom Inc.","fiscal_period":"10/2026","price":430.0,"target_price":480.0,"mkt_cap_B":2000.0,"PE_FY1":35.0,"PE_FY2":29.0,"EV_EBITDA_FY1":26.0,"EV_Sales_LTM":18.0,"Div_Yield_pct":1.2},
+            {"ticker":"NVDA-US","name":"NVIDIA Corporation","fiscal_period":"01/2027","price":155.0,"target_price":185.0,"mkt_cap_B":3800.0,"PE_FY1":40.0,"PE_FY2":32.0,"EV_EBITDA_FY1":35.0,"EV_Sales_LTM":28.0,"Div_Yield_pct":0.0},
+            {"ticker":"QCOM-US","name":"QUALCOMM Inc.","fiscal_period":"09/2026","price":175.0,"target_price":195.0,"mkt_cap_B":195.0,"PE_FY1":15.0,"PE_FY2":14.0,"EV_EBITDA_FY1":12.0,"EV_Sales_LTM":4.8,"Div_Yield_pct":2.1},
+            {"ticker":"NXPI-US","name":"NXP Semiconductors","fiscal_period":"12/2026","price":230.0,"target_price":255.0,"mkt_cap_B":58.0,"PE_FY1":15.5,"PE_FY2":13.5,"EV_EBITDA_FY1":11.5,"EV_Sales_LTM":4.5,"Div_Yield_pct":1.9},
+            {"ticker":"MCHP-US","name":"Microchip Technology","fiscal_period":"03/2026","price":58.0,"target_price":65.0,"mkt_cap_B":31.0,"PE_FY1":24.0,"PE_FY2":17.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.0,"Div_Yield_pct":3.1},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":24.0,"PE_FY2":17.0,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.0},"mean":{"PE_FY1":25.9,"PE_FY2":21.0,"EV_EBITDA_FY1":20.3,"EV_Sales_LTM":12.5}},
+        "interpretation":("MRVL trades in-line with semi peers on forward P/E (~24x) but at a discount on EV/sales (~7x vs ~12.5x mean). Custom silicon ramp (AWS, Microsoft) and AI data center exposure (~50% of revenue) are key catalysts. Operating leverage as data-center mix grows should drive multiple expansion."),
+    },
+
+    # === INFORMATION TECHNOLOGY — Semiconductor EDA software ===
+    "CDNS": {
+        "target": {"ticker":"CDNS-US","name":"Cadence Design Systems, Inc.","fiscal_period":"12/2026","price":300.0,"target_price":340.0,"mkt_cap_B":82.0,"ev_B":83.5,"net_debt_M":1500,
+            "PE_FY1":50.0,"PE_FY2":43.0,"PE_LTM":58.0,"EV_EBITDA_FY1":35.0,"EV_EBITDA_FY2":30.0,"EV_EBITDA_LTM":40.0,"EV_Sales_LTM":17.0,"PS_LTM":16.5,
+            "FCF_Yield_pct":2.2,"Div_Yield_pct":0.0,"rating":"Buy (2.05)","broker_contributors":24,"Beta_3Y":1.10,"WACC_pct":9.0,
+            "sales_FY1_M":5100,"sales_FY2_M":5750,"ebitda_FY1_M":2400,"ebitda_FY2_M":2780,"rev_consensus_next_qtr_M":1290,"eps_consensus_next_qtr":1.65,"next_earnings_date":"2026-07-21"},
+        "peers":[
+            {"ticker":"SNPS-US","name":"Synopsys, Inc.","fiscal_period":"10/2026","price":605.0,"target_price":680.0,"mkt_cap_B":94.0,"PE_FY1":48.0,"PE_FY2":42.0,"EV_EBITDA_FY1":34.0,"EV_Sales_LTM":15.5,"Div_Yield_pct":0.0},
+            {"ticker":"ANSS-US","name":"ANSYS, Inc.","fiscal_period":"12/2026","price":345.0,"target_price":365.0,"mkt_cap_B":30.0,"PE_FY1":38.0,"PE_FY2":34.0,"EV_EBITDA_FY1":28.0,"EV_Sales_LTM":12.0,"Div_Yield_pct":0.0},
+            {"ticker":"ADSK-US","name":"Autodesk, Inc.","fiscal_period":"01/2027","price":315.0,"target_price":340.0,"mkt_cap_B":68.0,"PE_FY1":33.0,"PE_FY2":29.0,"EV_EBITDA_FY1":24.0,"EV_Sales_LTM":11.0,"Div_Yield_pct":0.0},
+            {"ticker":"PTC-US","name":"PTC Inc.","fiscal_period":"09/2026","price":205.0,"target_price":225.0,"mkt_cap_B":24.0,"PE_FY1":32.0,"PE_FY2":28.0,"EV_EBITDA_FY1":24.0,"EV_Sales_LTM":10.5,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":35.5,"PE_FY2":31.5,"EV_EBITDA_FY1":26.0,"EV_Sales_LTM":11.5},"mean":{"PE_FY1":37.8,"PE_FY2":33.3,"EV_EBITDA_FY1":27.5,"EV_Sales_LTM":12.3}},
+        "interpretation":("CDNS trades at a premium to engineering software peers on forward P/E (~50x vs ~35x median), justified by its leading position in EDA (semiconductor design tools) — a near-duopoly with SNPS. AI-chip design proliferation and emulation/Palladium hardware demand support sustained mid-teens revenue growth and ~40% operating margins."),
+    },
+
+    # === ENERGY — Oil & Gas E&P ===
+    "FANG": {
+        "target": {"ticker":"FANG-US","name":"Diamondback Energy, Inc.","fiscal_period":"12/2026","price":140.0,"target_price":170.0,"mkt_cap_B":42.0,"ev_B":53.0,"net_debt_M":11000,
+            "PE_FY1":9.5,"PE_FY2":9.0,"PE_LTM":11.5,"EV_EBITDA_FY1":5.5,"EV_EBITDA_FY2":5.2,"EV_EBITDA_LTM":6.5,"EV_Sales_LTM":4.8,"PS_LTM":3.8,
+            "FCF_Yield_pct":11.5,"Div_Yield_pct":2.8,"rating":"Buy (1.85)","broker_contributors":28,"Beta_3Y":1.30,"WACC_pct":11.0,
+            "sales_FY1_M":11000,"sales_FY2_M":11500,"ebitda_FY1_M":9600,"ebitda_FY2_M":10200,"rev_consensus_next_qtr_M":2800,"eps_consensus_next_qtr":3.75,"next_earnings_date":"2026-08-05"},
+        "peers":[
+            {"ticker":"EOG-US","name":"EOG Resources","fiscal_period":"12/2026","price":138.0,"target_price":160.0,"mkt_cap_B":78.0,"PE_FY1":11.0,"PE_FY2":10.0,"EV_EBITDA_FY1":5.8,"EV_Sales_LTM":3.0,"Div_Yield_pct":2.9},
+            {"ticker":"CTRA-US","name":"Coterra Energy","fiscal_period":"12/2026","price":30.0,"target_price":36.0,"mkt_cap_B":22.0,"PE_FY1":10.5,"PE_FY2":9.5,"EV_EBITDA_FY1":5.5,"EV_Sales_LTM":3.5,"Div_Yield_pct":2.8},
+            {"ticker":"DVN-US","name":"Devon Energy","fiscal_period":"12/2026","price":42.0,"target_price":50.0,"mkt_cap_B":27.0,"PE_FY1":8.5,"PE_FY2":8.0,"EV_EBITDA_FY1":4.5,"EV_Sales_LTM":2.5,"Div_Yield_pct":3.0},
+            {"ticker":"PXD-US","name":"Pioneer Natural Resources","fiscal_period":"12/2026","price":255.0,"target_price":275.0,"mkt_cap_B":60.0,"PE_FY1":10.0,"PE_FY2":9.5,"EV_EBITDA_FY1":5.5,"EV_Sales_LTM":3.5,"Div_Yield_pct":3.5},
+            {"ticker":"XOM-US","name":"Exxon Mobil","fiscal_period":"12/2026","price":120.0,"target_price":135.0,"mkt_cap_B":520.0,"PE_FY1":13.0,"PE_FY2":12.0,"EV_EBITDA_FY1":7.0,"EV_Sales_LTM":1.5,"Div_Yield_pct":3.4},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":10.5,"PE_FY2":9.5,"EV_EBITDA_FY1":5.5,"EV_Sales_LTM":3.0},"mean":{"PE_FY1":10.6,"PE_FY2":9.8,"EV_EBITDA_FY1":5.7,"EV_Sales_LTM":2.8}},
+        "interpretation":("FANG trades roughly in-line with Permian-pure-play peers on forward P/E (~9.5x) and EV/EBITDA (~5.5x). FCF yield (~11.5%) is best-in-class, supporting an aggressive variable dividend + buyback program. Endeavor merger added scale and inventory depth in the Permian core."),
+    },
+
+    # === COMMUNICATION SERVICES — Interactive entertainment ===
+    "TTWO": {
+        "target": {"ticker":"TTWO-US","name":"Take-Two Interactive Software, Inc.","fiscal_period":"03/2027","price":220.0,"target_price":250.0,"mkt_cap_B":39.0,"ev_B":42.0,"net_debt_M":3000,
+            "PE_FY1":42.0,"PE_FY2":22.0,"PE_LTM":80.0,"EV_EBITDA_FY1":28.0,"EV_EBITDA_FY2":15.0,"EV_EBITDA_LTM":40.0,"EV_Sales_LTM":6.8,"PS_LTM":6.5,
+            "FCF_Yield_pct":1.8,"Div_Yield_pct":0.0,"rating":"Buy (1.95)","broker_contributors":22,"Beta_3Y":1.10,"WACC_pct":9.5,
+            "sales_FY1_M":6300,"sales_FY2_M":8800,"ebitda_FY1_M":1500,"ebitda_FY2_M":2800,"rev_consensus_next_qtr_M":1450,"eps_consensus_next_qtr":1.10,"next_earnings_date":"2026-08-06"},
+        "peers":[
+            {"ticker":"EA-US","name":"Electronic Arts, Inc.","fiscal_period":"03/2027","price":160.0,"target_price":175.0,"mkt_cap_B":42.0,"PE_FY1":20.0,"PE_FY2":18.0,"EV_EBITDA_FY1":14.0,"EV_Sales_LTM":5.5,"Div_Yield_pct":0.5},
+            {"ticker":"NTDOY-US","name":"Nintendo Co., Ltd.","fiscal_period":"03/2027","price":15.0,"target_price":17.0,"mkt_cap_B":80.0,"PE_FY1":22.0,"PE_FY2":19.0,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":4.0,"Div_Yield_pct":1.8},
+            {"ticker":"RBLX-US","name":"Roblox Corporation","fiscal_period":"12/2026","price":62.0,"target_price":75.0,"mkt_cap_B":42.0,"PE_FY1":None,"PE_FY2":None,"EV_EBITDA_FY1":85.0,"EV_Sales_LTM":8.5,"Div_Yield_pct":0.0},
+            {"ticker":"SONY-US","name":"Sony Group Corporation","fiscal_period":"03/2027","price":105.0,"target_price":115.0,"mkt_cap_B":125.0,"PE_FY1":18.0,"PE_FY2":16.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":1.5,"Div_Yield_pct":0.7},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":20.0,"PE_FY2":18.0,"EV_EBITDA_FY1":14.0,"EV_Sales_LTM":4.8},"mean":{"PE_FY1":20.0,"PE_FY2":17.7,"EV_EBITDA_FY1":30.5,"EV_Sales_LTM":4.9}},
+        "interpretation":("TTWO trades at a steep premium to gaming peers on forward P/E (~42x FY1 vs ~20x median), reflecting the GTA VI launch cycle expected to drive FY27 revenue +40% and EBITDA +85%. Multiple compression in FY28 (~22x) implies the market is pricing in a successful GTA VI release. Execution risk is the key swing factor."),
+    },
+
+    # === HEALTH CARE — Biotech ===
+    "REGN": {
+        "target": {"ticker":"REGN-US","name":"Regeneron Pharmaceuticals, Inc.","fiscal_period":"12/2026","price":600.0,"target_price":740.0,"mkt_cap_B":63.0,"ev_B":58.0,"net_debt_M":-5000,
+            "PE_FY1":13.0,"PE_FY2":12.0,"PE_LTM":15.0,"EV_EBITDA_FY1":10.0,"EV_EBITDA_FY2":9.0,"EV_EBITDA_LTM":11.5,"EV_Sales_LTM":4.6,"PS_LTM":5.0,
+            "FCF_Yield_pct":7.0,"Div_Yield_pct":0.5,"rating":"Buy (1.95)","broker_contributors":30,"Beta_3Y":0.85,"WACC_pct":8.0,
+            "sales_FY1_M":13500,"sales_FY2_M":14500,"ebitda_FY1_M":5800,"ebitda_FY2_M":6450,"rev_consensus_next_qtr_M":3450,"eps_consensus_next_qtr":11.25,"next_earnings_date":"2026-07-30"},
+        "peers":[
+            {"ticker":"VRTX-US","name":"Vertex Pharmaceuticals","fiscal_period":"12/2026","price":485.0,"target_price":540.0,"mkt_cap_B":125.0,"PE_FY1":24.0,"PE_FY2":21.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":11.0,"Div_Yield_pct":0.0},
+            {"ticker":"BIIB-US","name":"Biogen Inc.","fiscal_period":"12/2026","price":140.0,"target_price":175.0,"mkt_cap_B":21.0,"PE_FY1":11.5,"PE_FY2":10.5,"EV_EBITDA_FY1":8.5,"EV_Sales_LTM":2.5,"Div_Yield_pct":0.0},
+            {"ticker":"AMGN-US","name":"Amgen Inc.","fiscal_period":"12/2026","price":315.0,"target_price":340.0,"mkt_cap_B":170.0,"PE_FY1":15.0,"PE_FY2":13.5,"EV_EBITDA_FY1":11.0,"EV_Sales_LTM":5.5,"Div_Yield_pct":3.0},
+            {"ticker":"GILD-US","name":"Gilead Sciences","fiscal_period":"12/2026","price":85.0,"target_price":100.0,"mkt_cap_B":105.0,"PE_FY1":12.0,"PE_FY2":11.0,"EV_EBITDA_FY1":9.0,"EV_Sales_LTM":4.0,"Div_Yield_pct":3.7},
+            {"ticker":"ALNY-US","name":"Alnylam Pharmaceuticals","fiscal_period":"12/2026","price":295.0,"target_price":340.0,"mkt_cap_B":38.0,"PE_FY1":None,"PE_FY2":80.0,"EV_EBITDA_FY1":None,"EV_Sales_LTM":17.0,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":13.5,"PE_FY2":13.5,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":5.5},"mean":{"PE_FY1":15.6,"PE_FY2":27.2,"EV_EBITDA_FY1":11.6,"EV_Sales_LTM":8.0}},
+        "interpretation":("REGN trades roughly in-line with large-cap biotech peers on forward P/E (~13x). Eylea HD ramp offsetting biosimilar headwinds; Dupixent franchise (with Sanofi) continues to expand. Pipeline depth (linvoseltamab in myeloma, oncology bispecifics) supports out-year growth. Strong net cash position and ~7% FCF yield are attractive."),
+    },
+
+    # === CONSUMER DISCRETIONARY — Hotels ===
+    "MAR": {
+        "target": {"ticker":"MAR-US","name":"Marriott International, Inc.","fiscal_period":"12/2026","price":275.0,"target_price":305.0,"mkt_cap_B":76.0,"ev_B":89.0,"net_debt_M":13000,
+            "PE_FY1":28.0,"PE_FY2":24.5,"PE_LTM":30.0,"EV_EBITDA_FY1":20.0,"EV_EBITDA_FY2":17.5,"EV_EBITDA_LTM":22.0,"EV_Sales_LTM":3.4,"PS_LTM":3.0,
+            "FCF_Yield_pct":3.8,"Div_Yield_pct":1.0,"rating":"Hold (2.45)","broker_contributors":26,"Beta_3Y":1.45,"WACC_pct":9.0,
+            "sales_FY1_M":26500,"sales_FY2_M":28500,"ebitda_FY1_M":5300,"ebitda_FY2_M":5950,"rev_consensus_next_qtr_M":6850,"eps_consensus_next_qtr":2.55,"next_earnings_date":"2026-07-30"},
+        "peers":[
+            {"ticker":"HLT-US","name":"Hilton Worldwide Holdings","fiscal_period":"12/2026","price":265.0,"target_price":290.0,"mkt_cap_B":63.0,"PE_FY1":31.0,"PE_FY2":27.0,"EV_EBITDA_FY1":22.0,"EV_Sales_LTM":5.5,"Div_Yield_pct":0.3},
+            {"ticker":"H-US","name":"Hyatt Hotels Corporation","fiscal_period":"12/2026","price":150.0,"target_price":170.0,"mkt_cap_B":15.0,"PE_FY1":28.0,"PE_FY2":24.0,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":2.5,"Div_Yield_pct":0.4},
+            {"ticker":"IHG-US","name":"InterContinental Hotels Group","fiscal_period":"12/2026","price":120.0,"target_price":130.0,"mkt_cap_B":18.0,"PE_FY1":23.0,"PE_FY2":20.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":7.5,"Div_Yield_pct":1.5},
+            {"ticker":"WH-US","name":"Wyndham Hotels & Resorts","fiscal_period":"12/2026","price":105.0,"target_price":115.0,"mkt_cap_B":8.0,"PE_FY1":19.0,"PE_FY2":17.0,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":5.5,"Div_Yield_pct":1.6},
+            {"ticker":"CHH-US","name":"Choice Hotels International","fiscal_period":"12/2026","price":140.0,"target_price":155.0,"mkt_cap_B":7.0,"PE_FY1":20.0,"PE_FY2":18.0,"EV_EBITDA_FY1":14.5,"EV_Sales_LTM":4.0,"Div_Yield_pct":1.3},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":23.0,"PE_FY2":20.5,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":5.5},"mean":{"PE_FY1":24.2,"PE_FY2":21.3,"EV_EBITDA_FY1":16.3,"EV_Sales_LTM":5.0}},
+        "interpretation":("MAR trades at a slight premium to hotel peers on forward P/E (~28x vs ~23x median) reflecting its industry-leading scale (1.7M rooms), powerful loyalty program (~200M Bonvoy members), and asset-light franchise model. EV/EBITDA premium narrows in FY27 as group/business travel mix recovers."),
+    },
+
+    # === UTILITIES — Independent power producer ===
+    "CEG": {
+        "target": {"ticker":"CEG-US","name":"Constellation Energy Corporation","fiscal_period":"12/2026","price":310.0,"target_price":355.0,"mkt_cap_B":97.0,"ev_B":108.0,"net_debt_M":11000,
+            "PE_FY1":28.0,"PE_FY2":24.0,"PE_LTM":32.0,"EV_EBITDA_FY1":15.0,"EV_EBITDA_FY2":13.5,"EV_EBITDA_LTM":17.0,"EV_Sales_LTM":4.2,"PS_LTM":3.8,
+            "FCF_Yield_pct":2.8,"Div_Yield_pct":0.5,"rating":"Buy (1.85)","broker_contributors":18,"Beta_3Y":1.10,"WACC_pct":7.5,
+            "sales_FY1_M":25800,"sales_FY2_M":27500,"ebitda_FY1_M":7200,"ebitda_FY2_M":8000,"rev_consensus_next_qtr_M":6750,"eps_consensus_next_qtr":2.85,"next_earnings_date":"2026-08-04"},
+        "peers":[
+            {"ticker":"VST-US","name":"Vistra Corp.","fiscal_period":"12/2026","price":135.0,"target_price":165.0,"mkt_cap_B":45.0,"PE_FY1":22.0,"PE_FY2":19.0,"EV_EBITDA_FY1":12.5,"EV_Sales_LTM":3.5,"Div_Yield_pct":0.7},
+            {"ticker":"NEE-US","name":"NextEra Energy","fiscal_period":"12/2026","price":78.0,"target_price":90.0,"mkt_cap_B":160.0,"PE_FY1":22.0,"PE_FY2":20.0,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":7.0,"Div_Yield_pct":2.5},
+            {"ticker":"DUK-US","name":"Duke Energy","fiscal_period":"12/2026","price":125.0,"target_price":135.0,"mkt_cap_B":97.0,"PE_FY1":19.0,"PE_FY2":17.5,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":3.5,"Div_Yield_pct":3.4},
+            {"ticker":"AEP-US","name":"American Electric Power","fiscal_period":"12/2026","price":108.0,"target_price":115.0,"mkt_cap_B":58.0,"PE_FY1":17.0,"PE_FY2":15.5,"EV_EBITDA_FY1":12.0,"EV_Sales_LTM":3.0,"Div_Yield_pct":3.5},
+            {"ticker":"SO-US","name":"Southern Company","fiscal_period":"12/2026","price":92.0,"target_price":98.0,"mkt_cap_B":102.0,"PE_FY1":19.5,"PE_FY2":18.0,"EV_EBITDA_FY1":13.5,"EV_Sales_LTM":3.7,"Div_Yield_pct":3.2},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":19.5,"PE_FY2":18.0,"EV_EBITDA_FY1":13.0,"EV_Sales_LTM":3.5},"mean":{"PE_FY1":19.9,"PE_FY2":18.0,"EV_EBITDA_FY1":13.2,"EV_Sales_LTM":4.1}},
+        "interpretation":("CEG trades at a premium to regulated utility peers on forward P/E (~28x vs ~19.5x median), reflecting its position as the largest US nuclear operator and primary beneficiary of AI data-center power demand. Microsoft/Meta nuclear PPAs at $80+/MWh underpin a multi-year tailwind. Calpine acquisition adds 23 GW of gas+geothermal capacity."),
+    },
+
+    # === CONSUMER DISCRETIONARY — Travel platforms ===
+    "ABNB": {
+        "target": {"ticker":"ABNB-US","name":"Airbnb, Inc.","fiscal_period":"12/2026","price":125.0,"target_price":155.0,"mkt_cap_B":80.0,"ev_B":71.0,"net_debt_M":-9000,
+            "PE_FY1":26.0,"PE_FY2":22.5,"PE_LTM":30.0,"EV_EBITDA_FY1":17.5,"EV_EBITDA_FY2":15.0,"EV_EBITDA_LTM":20.0,"EV_Sales_LTM":6.5,"PS_LTM":7.3,
+            "FCF_Yield_pct":5.5,"Div_Yield_pct":0.0,"rating":"Buy (2.30)","broker_contributors":38,"Beta_3Y":1.40,"WACC_pct":9.5,
+            "sales_FY1_M":12200,"sales_FY2_M":13700,"ebitda_FY1_M":4050,"ebitda_FY2_M":4700,"rev_consensus_next_qtr_M":3500,"eps_consensus_next_qtr":1.85,"next_earnings_date":"2026-08-06"},
+        "peers":[
+            {"ticker":"BKNG-US","name":"Booking Holdings","fiscal_period":"12/2026","price":4900.0,"target_price":5400.0,"mkt_cap_B":160.0,"PE_FY1":21.0,"PE_FY2":18.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":6.0,"Div_Yield_pct":0.7},
+            {"ticker":"EXPE-US","name":"Expedia Group","fiscal_period":"12/2026","price":170.0,"target_price":195.0,"mkt_cap_B":22.0,"PE_FY1":12.0,"PE_FY2":10.5,"EV_EBITDA_FY1":7.5,"EV_Sales_LTM":1.8,"Div_Yield_pct":1.0},
+            {"ticker":"TRIP-US","name":"Tripadvisor, Inc.","fiscal_period":"12/2026","price":18.0,"target_price":22.0,"mkt_cap_B":2.5,"PE_FY1":13.0,"PE_FY2":11.5,"EV_EBITDA_FY1":7.0,"EV_Sales_LTM":1.4,"Div_Yield_pct":0.0},
+            {"ticker":"MAR-US","name":"Marriott International","fiscal_period":"12/2026","price":275.0,"target_price":305.0,"mkt_cap_B":76.0,"PE_FY1":28.0,"PE_FY2":24.5,"EV_EBITDA_FY1":20.0,"EV_Sales_LTM":3.4,"Div_Yield_pct":1.0},
+            {"ticker":"HLT-US","name":"Hilton Worldwide","fiscal_period":"12/2026","price":265.0,"target_price":290.0,"mkt_cap_B":63.0,"PE_FY1":31.0,"PE_FY2":27.0,"EV_EBITDA_FY1":22.0,"EV_Sales_LTM":5.5,"Div_Yield_pct":0.3},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":21.0,"PE_FY2":18.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":3.4},"mean":{"PE_FY1":21.0,"PE_FY2":18.4,"EV_EBITDA_FY1":14.7,"EV_Sales_LTM":3.6}},
+        "interpretation":("ABNB trades at a premium to OTA peers on forward P/E (~26x vs ~21x median BKNG) but EV/sales (~6.5x) is in-line with BKNG. Network effects, hosts-as-moat, and category expansion into experiences/services support multiple sustainability. International expansion and AI-driven personalization are key catalysts."),
+    },
+
+    # === CONSUMER DISCRETIONARY — On-demand food delivery ===
+    "DASH": {
+        "target": {"ticker":"DASH-US","name":"DoorDash, Inc.","fiscal_period":"12/2026","price":170.0,"target_price":205.0,"mkt_cap_B":72.0,"ev_B":68.0,"net_debt_M":-4000,
+            "PE_FY1":55.0,"PE_FY2":38.0,"PE_LTM":85.0,"EV_EBITDA_FY1":35.0,"EV_EBITDA_FY2":25.0,"EV_EBITDA_LTM":45.0,"EV_Sales_LTM":5.8,"PS_LTM":6.0,
+            "FCF_Yield_pct":3.2,"Div_Yield_pct":0.0,"rating":"Buy (2.10)","broker_contributors":34,"Beta_3Y":1.55,"WACC_pct":10.5,
+            "sales_FY1_M":12000,"sales_FY2_M":14000,"ebitda_FY1_M":1950,"ebitda_FY2_M":2750,"rev_consensus_next_qtr_M":3350,"eps_consensus_next_qtr":0.95,"next_earnings_date":"2026-08-05"},
+        "peers":[
+            {"ticker":"UBER-US","name":"Uber Technologies","fiscal_period":"12/2026","price":85.0,"target_price":100.0,"mkt_cap_B":180.0,"PE_FY1":25.0,"PE_FY2":20.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":3.8,"Div_Yield_pct":0.0},
+            {"ticker":"GRAB-US","name":"Grab Holdings","fiscal_period":"12/2026","price":5.5,"target_price":7.0,"mkt_cap_B":22.0,"PE_FY1":None,"PE_FY2":85.0,"EV_EBITDA_FY1":48.0,"EV_Sales_LTM":6.0,"Div_Yield_pct":0.0},
+            {"ticker":"MELI-US","name":"MercadoLibre","fiscal_period":"12/2026","price":2400.0,"target_price":2800.0,"mkt_cap_B":120.0,"PE_FY1":40.0,"PE_FY2":32.0,"EV_EBITDA_FY1":27.0,"EV_Sales_LTM":5.5,"Div_Yield_pct":0.0},
+            {"ticker":"ABNB-US","name":"Airbnb, Inc.","fiscal_period":"12/2026","price":125.0,"target_price":155.0,"mkt_cap_B":80.0,"PE_FY1":26.0,"PE_FY2":22.5,"EV_EBITDA_FY1":17.5,"EV_Sales_LTM":6.5,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":26.0,"PE_FY2":26.3,"EV_EBITDA_FY1":22.5,"EV_Sales_LTM":5.8},"mean":{"PE_FY1":30.3,"PE_FY2":39.9,"EV_EBITDA_FY1":27.6,"EV_Sales_LTM":5.5}},
+        "interpretation":("DASH trades at a premium to peers on forward P/E (~55x vs ~26x median UBER), reflecting category leadership in US restaurant delivery (~65% share), accelerating new verticals (grocery, retail, alcohol), and an emerging international ad/commerce flywheel. Wolt integration in Europe and DashPass subscription density are key drivers."),
     },
 }
 

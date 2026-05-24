@@ -1,0 +1,39 @@
+{
+  "name": "Diamondback Energy, Inc.",
+  "stance": "NEUTRAL / WATCH",
+  "color": "amber",
+  "summary": "Diamondback Energy, Inc. (FANG, Energy) \u2014 composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $4.24B (+4.7% YoY). Valuation 9.5x forward P/E (-10% vs peers).",
+  "quotes": [],
+  "bull": [
+    "Stable growth profile \u2014 revenue at +4.7% YoY in FY2026 Q1 (TTM $15.22B). Not a hyper-growth story but the durability of the print \u2014 combined with the cash-flow profile \u2014 supports a value-with-modest-growth thesis."
+  ],
+  "bear": [
+    "Risk-symmetry \u2014 the extracted dataset doesn't flag obvious red lines at this snapshot. Watch sector beta exposure, regulatory headlines, and any acceleration of capex without commensurate revenue follow-through."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 8% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 2% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+4.7% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 10.5x FY1 P/E",
+      "latest": "9.5x (-10%)",
+      "verdict": "Fair",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "NEUTRAL / WATCH. Diamondback Energy, Inc. (FANG) printed $4.24B in revenue in FY2026 Q1 (+4.7% YoY). Trading at 9.5x forward P/E versus peer median of 10.5x \u2014 broadly in line with the group.Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}
