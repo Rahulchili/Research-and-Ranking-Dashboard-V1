@@ -1,0 +1,101 @@
+{
+  "name": "DraftKings Inc.",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "DraftKings Inc. (DKNG, Consumer Discretionary) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $1.65B (+16.8% YoY). Management credibility 0.25 on 5 claims. Valuation 35.0x forward P/E (+94% vs peers). Spot $25.12 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "DKNG_ER_Q4_2025_13_FEB_2026.docx",
+      "Thank you, Mike. We closed 2025 on a high note, setting new quarterly records for revenue and adjusted EBITDA.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DKNG_ER_Q4_2025_13_FEB_2026.docx",
+      "We expect to emerge as the leader in this nascent category. We plan to deploy growth capital to build the best customer experience and predictions and acquire millions of customers.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DKNG_ER_Q4_2025_13_FEB_2026.docx",
+      "We are targeting hundreds of millions in annual revenue for DraftKings predictions in the years ahead. We believe there is much more upside over the long term.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "DKNG_ER_Q4_2025_13_FEB_2026.docx",
+      "We expect to capture it across multiple business lines, including the customer-facing platform, our own exchange and market making.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DKNG_ER_Q4_2025_13_FEB_2026.docx",
+      "We expect the volume on DraftKings predictions to keep building with growth accelerating through 2026 and beyond.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "DKNG_ER_Q4_2025_13_FEB_2026.docx",
+      "As Jason mentioned, we expect to share more about the strength of our business model and our sustainable advantages at our Virtual Investor Day on March 2.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ]
+  ],
+  "bull": [
+    "<strong>Top-line momentum</strong> \u2014 revenue grew +16.8% YoY in FY2026 Q1 to $1.65B, with TTM revenue of $6.29B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "<strong>Sell-side target points higher</strong> \u2014 consensus PT of $35 (vs spot $25.12) implies +39.3% upside. Cross-checked against the peer-median PE FY1 of 18.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "<strong>Management credibility impaired</strong> \u2014 MCS of 0.25 on 5 tracked claims (1B/0H/3M). When management has missed their own guide more than half the time, the next guide should be discounted aggressively in the buy-side model.",
+    "<strong>Trend rolling over</strong> \u2014 spot $25.12 sits -20.7% relative to the 200-DMA ($31.69). The break-down of long-term trend often precedes earnings disappointment by 1\u20132 quarters as smart-money distribution leads the fundamental print.",
+    "<strong>Valuation premium</strong> \u2014 35.0x forward P/E vs peer median of 18.0x \u2014 a 94% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+  ],
+  "trigger_up": [
+    "Revenue growth re-accelerates above 20% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 14% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $20.72 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+16.8% in FY2026 Q1",
+      "verdict": "Strong",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Management Credibility (MCS)",
+      "baseline": "0.50 = neutral",
+      "latest": "0.25 on 5 claims",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 18.0x FY1 P/E",
+      "latest": "35.0x (+94%)",
+      "verdict": "Premium",
+      "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$25.12 vs $31.69 (-20.7%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "62.0",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CONSTRUCTIVE. DraftKings Inc. (DKNG) printed $1.65B in revenue in FY2026 Q1 (+16.8% YoY). Management credibility is weak (MCS 0.25, 1B/0H/3M record) \u2014 forward claims should be discounted in valuation models. At 35.0x forward P/E, the stock carries a 94% premium to peers (18.0x median) \u2014 the multiple needs continued execution to defend.Technical regime is impaired: spot $25.12 below the 200-DMA ($31.69, -20.7%) \u2014 long-term trend has rolled over. Sell-side consensus PT of $35 implies +39.3% upside. 30-day implied move is \u00b113.2%; 90-day is \u00b126.0%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

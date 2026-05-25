@@ -339,8 +339,9 @@
       "\u2192 M = 60.0"
     ],
     "valuation": [
+      "PE 42.0\u00d7 vs peer median 18.5\u00d7 (127% premium to peers)",
       "FCF yield 3.2% (+3)",
-      "\u2192 V = 60.0"
+      "\u2192 V = 35"
     ],
     "technicals": [
       "Spot $218.03 vs SMA200 $219.65 (-0.7%, neutral)",

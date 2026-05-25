@@ -404,9 +404,8 @@
     "fundamentals": [
       "Revenue +33.1% YoY (strong for Communication Services; sector strong-bar 10%)",
       "Net margin 47.5% (best-in-class for Communication Services; sector strong-bar 15%)",
-      "Operating margin 40.6%",
-      "Latest-quarter FCF $13.2B (healthy)",
-      "\u2192 F = 89.7 (sector-relative)"
+      "TTM revenue $215B",
+      "\u2192 F = 96.3 (sector-relative)"
     ],
     "management": [
       "MCS 0.56 (3B / 3H / 2M on 8 tracked forward claims)",
@@ -418,16 +417,19 @@
       "\u2192 V = 70"
     ],
     "technicals": [
-      "Spot $609.63 vs SMA200 $675.87 (-9.8%, bearish trend)",
+      "Spot $600.78 vs SMA200 $675.30 (-11.0%, bearish trend)",
       "\u2717 Death cross (SMA50 < SMA200)",
-      "RSI(14) 28.0 (oversold)",
-      "90-day return: -8.5%",
-      "1-year return: +1.9%",
-      "Drawdown from 52w high: -23.4%",
+      "RSI(14) 26.7 (oversold)",
+      "90-day return: -7.5%",
+      "1-year return: +0.5%",
+      "Drawdown from 52w high: -23.9%",
       "\u2192 T = 43.8"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 23.1% (calm)",
+      "P/C OI 0.51 (call-heavy) \u2014 apathy (no trend support)",
+      "ATM skew +1.25pp (put skew)",
+      "\u2192 O = 56.3 (trend-aligned)"
     ]
   },
   "horizon_views": {

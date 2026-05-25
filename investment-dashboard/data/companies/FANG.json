@@ -314,9 +314,9 @@
       "\u2192 F = 56.8 (sector-relative)"
     ],
     "management": [
-      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
-      "Score defaulted to 50 (neutral)",
-      "\u2192 M = 50.0"
+      "MCS 0.33 (2B / 0H / 4M on 6 tracked forward claims)",
+      "Track record: low credibility",
+      "\u2192 M = 33.3"
     ],
     "valuation": [
       "PE 9.5\u00d7 vs peer median 10.5\u00d7 (10% discount to peers)",

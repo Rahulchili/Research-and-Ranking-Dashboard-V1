@@ -166,8 +166,8 @@
       "\u2192 M = 87.5"
     ],
     "valuation": [
-      "PE 23.9\u00d7 (peer-set not available, absolute scoring)",
-      "\u2192 V = 55"
+      "PE 23.9\u00d7 vs peer median 23.1\u00d7 (3% premium to peers)",
+      "\u2192 V = 50"
     ],
     "technicals": [
       "Spot $87.49 vs SMA200 $103.34 (-15.3%, bearish trend)",
@@ -247,6 +247,7 @@
           "<strong>Available long-dated expiries:</strong> 11 dates spanning 101\u2013948 DTE.",
           "<strong>90-day implied move: \u00b118.6%</strong> ($69.52 \u2013 $101.38).",
           "<strong>220-day implied move: \u00b128.1%</strong> ($61.42 \u2013 $109.48) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $120 (+40.4% upside). Compare to the 90+ DTE implied range above.",
           "<strong>Flat term structure</strong> (-0.9pp) \u2014 no near-term event premium; long-dated vol fairly priced."
         ],
         "strategy": "<strong>Long 1-year ATM straddle at $85</strong>. Low IV (37%) + range-bound \u2192 buy volatility cheap ahead of a 12-month catalyst window; profits if move >\u00b137%."

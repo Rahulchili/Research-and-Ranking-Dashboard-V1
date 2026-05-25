@@ -1,0 +1,93 @@
+{
+  "name": "Coinbase Global, Inc.",
+  "stance": "CAUTIOUS",
+  "color": "amber",
+  "summary": "Coinbase Global, Inc. (COIN, Financials) \u2014 composite stance CAUTIOUS. Latest reported quarter FY2026 Q1: revenue $1.41B (-30.5% YoY). Valuation 21.0x forward P/E (-12% vs peers). Spot $184.99 (below 200-DMA).",
+  "quotes": [
+    [
+      "Management",
+      "COIN_ER_Q4_2025_12_FEB_2026.docx",
+      "As of today, we have repurchased $1.7 billion of our common stock, fully offsetting dilution from stock-based compensation for the year 2025. We secured an $815 million notional discount to the average price we issued that stock-based compensation in 2025.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COIN_ER_Q4_2025_12_FEB_2026.docx",
+      "And so while we always caution extrapolation, it's even more important when we see volatility spikes.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COIN_ER_Q4_2025_12_FEB_2026.docx",
+      "For the first quarter, we expect subscription and services revenue to be in the range of $550 million to $630 million, reflecting the lower average crypto price environment we are in, lower interest rates and lower staking protocol rewards rates compared to the fourth quarter.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "COIN_ER_Q4_2025_12_FEB_2026.docx",
+      "So when I look at 2026, what I would focus on is diversification of tradable assets under the Everything Exchange. Derivatives will be a big growth driver, we believe, in 2026.",
+      "Why it matters \u2014 capital-allocation signal. Watch whether stated priorities translate to opex/capex line items."
+    ],
+    [
+      "Management",
+      "COIN_ER_Q4_2025_12_FEB_2026.docx",
+      "We have 12 products, as we mentioned, with over $100 million of annualized revenue. Derivatives is included in that.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "COIN_ER_Q4_2025_12_FEB_2026.docx",
+      "So we are going to continue down all those paths. We're going to continue buying Bitcoin, continue buying back, continue to look at opportunistic M&A and continue to really dynamically manage the opportunities that we see ahead of us.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ]
+  ],
+  "bull": [
+    "<strong>Capital return runway</strong> \u2014 implied 6.5% FCF yield supports continued buyback authorization and a dividend in the upper-quartile of the sector. The math on EPS accretion from repurchase remains favorable at current multiples.",
+    "<strong>Sell-side target points higher</strong> \u2014 consensus PT of $230 (vs spot $184.99) implies +24.3% upside. Cross-checked against the peer-median PE FY1 of 24.0x, the discount to fair value looks underwritten by both buy-side and sell-side."
+  ],
+  "bear": [
+    "<strong>Trend rolling over</strong> \u2014 spot $184.99 sits -26.3% relative to the 200-DMA ($251.12). The break-down of long-term trend often precedes earnings disappointment by 1\u20132 quarters as smart-money distribution leads the fundamental print.",
+    "<strong>Put skew elevated</strong> \u2014 ATM put IV running +2.1pp above call IV. The options market is paying up for downside protection \u2014 a contrarian green-flag in extreme cases, but more often a leading indicator of impending news."
+  ],
+  "trigger_up": [
+    "Loan-loss provisions decline or normalize on next earnings \u2014 credit-cycle tailwind to bottom line.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "CET1 ratio prints below 11.0% on next quarter \u2014 capital constraint reduces buyback authority.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $141.09 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
+  "scoreboard": [
+    {
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "-30.5% in FY2026 Q1",
+      "verdict": "Weak",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Valuation vs peers",
+      "baseline": "Peer median 24.0x FY1 P/E",
+      "latest": "21.0x (-12%)",
+      "verdict": "Discount",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$184.99 vs $251.12 (-26.3%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "40.9",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    }
+  ],
+  "bottom_line": "CAUTIOUS. Coinbase Global, Inc. (COIN) printed $1.41B in total revenue in FY2026 Q1 (-30.5% YoY). At 21.0x forward P/E, the stock trades at a 12% discount to peers (24.0x median) \u2014 the gap is either an opportunity or a warning, depending on whether the quality gap with peers is structural.Technical regime is impaired: spot $184.99 below the 200-DMA ($251.12, -26.3%) \u2014 long-term trend has rolled over. Sell-side consensus PT of $230 implies +24.3% upside. 30-day implied move is \u00b117.5%; 90-day is \u00b135.4%. Underweight or pair-traded against a long in the sector. Re-evaluate after the next earnings print resets either the growth profile or the multiple.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
+}

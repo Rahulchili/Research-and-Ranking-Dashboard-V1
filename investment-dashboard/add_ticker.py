@@ -146,6 +146,10 @@ TICKER_METADATA: dict[str, tuple[str, str]] = {
     "MCHP": ("Microchip Technology Incorporated", "Information Technology"),
     "ABNB": ("Airbnb, Inc.", "Consumer Discretionary"),
     "DASH": ("DoorDash, Inc.", "Consumer Discretionary"),
+    # === Batch added 2026-05-25 ===
+    "COIN": ("Coinbase Global, Inc.", "Financials"),
+    "CRDO": ("Credo Technology Group Holding Ltd.", "Information Technology"),
+    "DKNG": ("DraftKings Inc.", "Consumer Discretionary"),
 }
 
 # Built-in peer comp registry — sector-appropriate peer sets with rough
@@ -1283,6 +1287,60 @@ DEFAULT_PEER_SETS: dict[str, dict[str, Any]] = {
         ],
         "peer_aggregates":{"median":{"PE_FY1":26.0,"PE_FY2":26.3,"EV_EBITDA_FY1":22.5,"EV_Sales_LTM":5.8},"mean":{"PE_FY1":30.3,"PE_FY2":39.9,"EV_EBITDA_FY1":27.6,"EV_Sales_LTM":5.5}},
         "interpretation":("DASH trades at a premium to peers on forward P/E (~55x vs ~26x median UBER), reflecting category leadership in US restaurant delivery (~65% share), accelerating new verticals (grocery, retail, alcohol), and an emerging international ad/commerce flywheel. Wolt integration in Europe and DashPass subscription density are key drivers."),
+    },
+
+    # === FINANCIALS — Crypto exchange / financial platforms ===
+    "COIN": {
+        "target": {"ticker":"COIN-US","name":"Coinbase Global, Inc.","fiscal_period":"12/2026","price":185.0,"target_price":230.0,"mkt_cap_B":46.5,"ev_B":42.0,"net_debt_M":-4500,
+            "PE_FY1":21.0,"PE_FY2":18.5,"PE_LTM":24.0,"EV_EBITDA_FY1":12.5,"EV_EBITDA_FY2":11.0,"EV_EBITDA_LTM":14.5,"EV_Sales_LTM":5.8,"PS_LTM":6.2,
+            "FCF_Yield_pct":6.5,"Div_Yield_pct":0.0,"rating":"Buy (2.25)","broker_contributors":30,"Beta_3Y":3.10,"WACC_pct":13.5,
+            "sales_FY1_M":7600,"sales_FY2_M":8500,"ebitda_FY1_M":3350,"ebitda_FY2_M":3850,"rev_consensus_next_qtr_M":1950,"eps_consensus_next_qtr":2.10,"next_earnings_date":"2026-07-30"},
+        "peers":[
+            {"ticker":"HOOD-US","name":"Robinhood Markets, Inc.","fiscal_period":"12/2026","price":78.0,"target_price":92.0,"mkt_cap_B":68.0,"PE_FY1":40.0,"PE_FY2":33.0,"EV_EBITDA_FY1":28.0,"EV_Sales_LTM":18.0,"Div_Yield_pct":0.0},
+            {"ticker":"MSTR-US","name":"MicroStrategy Incorporated","fiscal_period":"12/2026","price":380.0,"target_price":450.0,"mkt_cap_B":95.0,"PE_FY1":None,"PE_FY2":None,"EV_EBITDA_FY1":None,"EV_Sales_LTM":195.0,"Div_Yield_pct":0.0},
+            {"ticker":"ICE-US","name":"Intercontinental Exchange","fiscal_period":"12/2026","price":175.0,"target_price":195.0,"mkt_cap_B":100.0,"PE_FY1":22.0,"PE_FY2":20.0,"EV_EBITDA_FY1":15.5,"EV_Sales_LTM":11.0,"Div_Yield_pct":1.1},
+            {"ticker":"CME-US","name":"CME Group Inc.","fiscal_period":"12/2026","price":265.0,"target_price":290.0,"mkt_cap_B":95.0,"PE_FY1":24.0,"PE_FY2":22.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":15.0,"Div_Yield_pct":2.0},
+            {"ticker":"NDAQ-US","name":"Nasdaq, Inc.","fiscal_period":"12/2026","price":86.0,"target_price":95.0,"mkt_cap_B":50.0,"PE_FY1":25.0,"PE_FY2":22.5,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":7.5,"Div_Yield_pct":1.2},
+            {"ticker":"MARA-US","name":"MARA Holdings, Inc.","fiscal_period":"12/2026","price":22.0,"target_price":28.0,"mkt_cap_B":7.5,"PE_FY1":18.0,"PE_FY2":13.5,"EV_EBITDA_FY1":9.5,"EV_Sales_LTM":7.0,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":24.0,"PE_FY2":22.5,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":13.0},"mean":{"PE_FY1":25.8,"PE_FY2":22.3,"EV_EBITDA_FY1":17.6,"EV_Sales_LTM":42.3}},
+        "interpretation":("COIN trades at a discount to crypto/exchange peers on forward P/E (~21x vs ~24x median exchange peers, ~40x HOOD), reflecting the high beta of crypto trading volumes despite Coinbase's clean GAAP profitability. Subscription/services revenue (~40% of total — USDC, staking, custody) provides downside ballast. Institutional adoption (Coinbase Prime, ETF custody) and international expansion are key drivers; regulatory clarity from the GENIUS Act / CLARITY Act tailwind in 2026."),
+    },
+
+    # === INFORMATION TECHNOLOGY — High-speed connectivity semiconductors ===
+    "CRDO": {
+        "target": {"ticker":"CRDO-US","name":"Credo Technology Group Holding Ltd.","fiscal_period":"05/2027","price":218.0,"target_price":260.0,"mkt_cap_B":37.0,"ev_B":36.0,"net_debt_M":-1000,
+            "PE_FY1":85.0,"PE_FY2":55.0,"PE_LTM":140.0,"EV_EBITDA_FY1":65.0,"EV_EBITDA_FY2":40.0,"EV_EBITDA_LTM":110.0,"EV_Sales_LTM":21.0,"PS_LTM":22.0,
+            "FCF_Yield_pct":1.6,"Div_Yield_pct":0.0,"rating":"Buy (1.80)","broker_contributors":22,"Beta_3Y":1.85,"WACC_pct":11.5,
+            "sales_FY1_M":1750,"sales_FY2_M":2700,"ebitda_FY1_M":560,"ebitda_FY2_M":920,"rev_consensus_next_qtr_M":485,"eps_consensus_next_qtr":0.65,"next_earnings_date":"2026-09-02"},
+        "peers":[
+            {"ticker":"ALAB-US","name":"Astera Labs, Inc.","fiscal_period":"12/2026","price":160.0,"target_price":195.0,"mkt_cap_B":28.0,"PE_FY1":95.0,"PE_FY2":60.0,"EV_EBITDA_FY1":72.0,"EV_Sales_LTM":35.0,"Div_Yield_pct":0.0},
+            {"ticker":"MRVL-US","name":"Marvell Technology, Inc.","fiscal_period":"01/2027","price":62.0,"target_price":72.0,"mkt_cap_B":54.0,"PE_FY1":24.0,"PE_FY2":17.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":7.0,"Div_Yield_pct":0.4},
+            {"ticker":"AVGO-US","name":"Broadcom Inc.","fiscal_period":"10/2026","price":430.0,"target_price":480.0,"mkt_cap_B":2000.0,"PE_FY1":35.0,"PE_FY2":29.0,"EV_EBITDA_FY1":26.0,"EV_Sales_LTM":18.0,"Div_Yield_pct":1.2},
+            {"ticker":"ANET-US","name":"Arista Networks, Inc.","fiscal_period":"12/2026","price":108.0,"target_price":125.0,"mkt_cap_B":135.0,"PE_FY1":40.0,"PE_FY2":34.0,"EV_EBITDA_FY1":33.0,"EV_Sales_LTM":15.5,"Div_Yield_pct":0.0},
+            {"ticker":"LITE-US","name":"Lumentum Holdings Inc.","fiscal_period":"06/2026","price":108.0,"target_price":125.0,"mkt_cap_B":8.0,"PE_FY1":42.0,"PE_FY2":24.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":4.5,"Div_Yield_pct":0.0},
+            {"ticker":"COHR-US","name":"Coherent Corp.","fiscal_period":"06/2026","price":95.0,"target_price":110.0,"mkt_cap_B":15.0,"PE_FY1":32.0,"PE_FY2":21.0,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":3.0,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":38.5,"PE_FY2":26.5,"EV_EBITDA_FY1":22.0,"EV_Sales_LTM":11.3},"mean":{"PE_FY1":44.7,"PE_FY2":30.8,"EV_EBITDA_FY1":30.3,"EV_Sales_LTM":13.8}},
+        "interpretation":("CRDO trades at a steep premium to AI-infrastructure peers on forward P/E (~85x vs ~38x median) and EV/Sales (~21x vs ~11x), reflecting hypergrowth (revenue +150% YoY) driven by AECs (Active Electrical Cables) for hyperscaler back-end networks. Most comparable name is ALAB (~95x P/E) — both are pure-play AI connectivity. Concentration risk is real (top 3 customers >60% of revenue), but the ramp of optical DSPs and 1.6T products supports continued multi-quarter beat-and-raise."),
+    },
+
+    # === CONSUMER DISCRETIONARY — Online sports betting / iGaming ===
+    "DKNG": {
+        "target": {"ticker":"DKNG-US","name":"DraftKings Inc.","fiscal_period":"12/2026","price":25.0,"target_price":35.0,"mkt_cap_B":12.5,"ev_B":13.5,"net_debt_M":1000,
+            "PE_FY1":35.0,"PE_FY2":22.0,"PE_LTM":60.0,"EV_EBITDA_FY1":18.0,"EV_EBITDA_FY2":12.5,"EV_EBITDA_LTM":28.0,"EV_Sales_LTM":2.4,"PS_LTM":2.3,
+            "FCF_Yield_pct":4.5,"Div_Yield_pct":0.0,"rating":"Buy (1.90)","broker_contributors":34,"Beta_3Y":1.85,"WACC_pct":10.5,
+            "sales_FY1_M":5800,"sales_FY2_M":6850,"ebitda_FY1_M":750,"ebitda_FY2_M":1080,"rev_consensus_next_qtr_M":1450,"eps_consensus_next_qtr":0.15,"next_earnings_date":"2026-08-07"},
+        "peers":[
+            {"ticker":"FLUT-US","name":"Flutter Entertainment plc","fiscal_period":"12/2026","price":285.0,"target_price":325.0,"mkt_cap_B":50.0,"PE_FY1":28.0,"PE_FY2":21.0,"EV_EBITDA_FY1":18.0,"EV_Sales_LTM":3.5,"Div_Yield_pct":0.0},
+            {"ticker":"MGM-US","name":"MGM Resorts International","fiscal_period":"12/2026","price":40.0,"target_price":48.0,"mkt_cap_B":12.5,"PE_FY1":14.0,"PE_FY2":11.5,"EV_EBITDA_FY1":7.5,"EV_Sales_LTM":1.4,"Div_Yield_pct":0.0},
+            {"ticker":"CZR-US","name":"Caesars Entertainment","fiscal_period":"12/2026","price":35.0,"target_price":45.0,"mkt_cap_B":7.5,"PE_FY1":18.0,"PE_FY2":12.5,"EV_EBITDA_FY1":9.0,"EV_Sales_LTM":1.4,"Div_Yield_pct":0.0},
+            {"ticker":"PENN-US","name":"PENN Entertainment, Inc.","fiscal_period":"12/2026","price":20.0,"target_price":24.0,"mkt_cap_B":3.0,"PE_FY1":None,"PE_FY2":30.0,"EV_EBITDA_FY1":15.0,"EV_Sales_LTM":1.1,"Div_Yield_pct":0.0},
+            {"ticker":"LVS-US","name":"Las Vegas Sands Corp.","fiscal_period":"12/2026","price":52.0,"target_price":62.0,"mkt_cap_B":36.0,"PE_FY1":17.0,"PE_FY2":15.0,"EV_EBITDA_FY1":10.0,"EV_Sales_LTM":3.5,"Div_Yield_pct":2.1},
+            {"ticker":"GENI-US","name":"Genius Sports Limited","fiscal_period":"12/2026","price":12.0,"target_price":15.0,"mkt_cap_B":3.0,"PE_FY1":35.0,"PE_FY2":24.0,"EV_EBITDA_FY1":17.0,"EV_Sales_LTM":4.5,"Div_Yield_pct":0.0},
+        ],
+        "peer_aggregates":{"median":{"PE_FY1":18.0,"PE_FY2":18.0,"EV_EBITDA_FY1":12.5,"EV_Sales_LTM":2.4},"mean":{"PE_FY1":22.4,"PE_FY2":19.0,"EV_EBITDA_FY1":12.8,"EV_Sales_LTM":2.6}},
+        "interpretation":("DKNG trades at a meaningful premium to gaming/sports-betting peers on forward P/E (~35x vs ~18x median) but the FY27 multiple compresses to ~22x as operating leverage flows through. EV/Sales (~2.4x) is in-line with peer median given DKNG's higher growth runway (online-only model, ~70% US OSB share in core states). Profitability inflection in 2025 (~$750M EBITDA) and continued state-level legalization (TX/CA optionality) underpin the bull case. Key risks: promotional intensity from rivals (FanDuel/Flutter), state tax rate increases."),
     },
 }
 

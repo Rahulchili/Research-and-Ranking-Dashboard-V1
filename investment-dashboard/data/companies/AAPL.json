@@ -1144,9 +1144,11 @@
       "\u2192 M = 87.5"
     ],
     "valuation": [
-      "PE 33.6\u00d7 (peer-set not available, absolute scoring)",
+      "PE 33.6\u00d7 vs peer median 23.4\u00d7 (44% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
       "FCF yield 2.6%",
-      "\u2192 V = 45"
+      "\u2192 V = 55"
     ],
     "technicals": [
       "Spot $293.32 vs SMA200 $257.02 (+14.1%, bullish trend)",
