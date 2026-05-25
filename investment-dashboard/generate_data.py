@@ -13,9 +13,11 @@ Writes: data/dashboard-data.json + data/dashboard-data.js
 """
 from __future__ import annotations
 
+import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
 from dashboard_build.confidence import compute_confidence
 from dashboard_build.config import (
@@ -45,6 +47,8 @@ from dashboard_build.safeguards import (
 from dashboard_build.schema import (
     CategoryScores,
     Company,
+    Confidence,
+    ConfidenceBasis,
     DashboardPayload,
     PriorityBuckets,
     ScoringModel,
@@ -1321,10 +1325,57 @@ def build_payload(
     # Re-sort to match the rank assignment (scoring already produced rank-by-composite).
     companies.sort(key=lambda c: c.rank)
 
-    # Summary tallies
+    # ---- Category overlay: load Stocks_Category.xlsx mirror (data/_categories.json)
+    # and inject col_F / col_J / col_O onto each ranked company. Any ticker in
+    # the categories file that has no scored profile is appended at the bottom
+    # as a watchlist-only entry (no composite, no bucket — just F/J/O cells).
+    _cat_path = Path(__file__).resolve().parent / "data" / "_categories.json"
+    _cats: dict[str, dict[str, Any]] = {}
+    if _cat_path.exists():
+        try:
+            with _cat_path.open("r", encoding="utf-8") as fp:
+                _cats = json.load(fp)
+        except Exception:
+            _cats = {}
+
+    _scored_tickers = {c.ticker for c in companies}
+    for c in companies:
+        meta = _cats.get(c.ticker)
+        if meta:
+            c.col_F = meta.get("col_F")
+            c.col_J = meta.get("col_J")
+            c.col_O = meta.get("col_O")
+
+    # Append unranked watchlist tickers (in Excel but not in scored set).
+    _next_rank = (max((c.rank for c in companies), default=0) or 0) + 1
+    for tk in sorted(set(_cats.keys()) - _scored_tickers):
+        meta = _cats.get(tk) or {}
+        companies.append(Company(
+            ticker=tk,
+            name=meta.get("name") or tk,
+            sector=meta.get("sector"),
+            rank=_next_rank,
+            compositeScore=None,
+            priorityBucket=None,
+            confidence=Confidence(score=0.0, basis=ConfidenceBasis(
+                claimCount=0, quartersCovered=0, dataCompleteness=0.0)),
+            scores=CategoryScores(
+                fundamentals=None, management=None,
+                valuation=None,   technicals=None, options=None),
+            verdictBreakdown=VerdictBreakdown(),
+            col_F=meta.get("col_F"),
+            col_J=meta.get("col_J"),
+            col_O=meta.get("col_O"),
+            thesis=None,
+            sourceAudit=None,
+        ))
+        _next_rank += 1
+
+    # Summary tallies (skip Nones — watchlist-only entries don't count toward bucket tallies)
     by_bucket = {"High": 0, "Medium": 0, "Low": 0, "Watchlist": 0, "Avoid": 0}
     for c in companies:
-        by_bucket[c.priorityBucket] += 1
+        if c.priorityBucket:
+            by_bucket[c.priorityBucket] += 1
     summary = Summary(
         totalCompanies=len(companies),
         highPriorityCount=by_bucket["High"],

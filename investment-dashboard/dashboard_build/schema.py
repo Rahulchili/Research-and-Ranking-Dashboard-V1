@@ -180,7 +180,12 @@ class CompanyThesis(BaseModel):
 class Company(BaseModel):
     """One ranked company. The fields with structural meaning to the schema
     (ticker, compositeScore, rank, scores, confidence) are strictly typed;
-    detail payloads are passthrough."""
+    detail payloads are passthrough.
+
+    Watchlist-only entries (added at the bottom of the leaderboard for tickers
+    we track categorically but don't compute composite scores for) may set
+    compositeScore=None, priorityBucket=None, scores=null lenses, and confidence=0.
+    """
 
     model_config = ConfigDict(extra="forbid")
 
@@ -188,11 +193,17 @@ class Company(BaseModel):
     name:           str | None = None
     sector:         str | None = None
     rank:           int = Field(ge=1)
-    compositeScore: float = Field(ge=0, le=100)
-    priorityBucket: Literal["High", "Medium", "Low", "Watchlist", "Avoid"]
+    compositeScore: float | None = Field(default=None, ge=0, le=100)
+    priorityBucket: Literal["High", "Medium", "Low", "Watchlist", "Avoid"] | None = None
     confidence:     Confidence
     scores:         CategoryScores
     verdictBreakdown: VerdictBreakdown = Field(default_factory=VerdictBreakdown)
+
+    # Category flags (from Stocks_Category.xlsx). 'Y', 'N', or None.
+    category:  str | None = None  # legacy display label (e.g. "FTMO")
+    col_F:     Literal["Y", "N"] | None = None  # Fundamentals category flag
+    col_J:     Literal["Y", "N"] | None = None  # J-list category flag
+    col_O:     Literal["Y", "N"] | None = None  # Options category flag
 
     # Detail payloads — opaque to schema, owned by pipeline.
     fundamentals: CompanyFundamentals | None = None
@@ -277,15 +288,28 @@ class DashboardPayload(BaseModel):
 
     @model_validator(mode="after")
     def _rank_order_matches_composite(self) -> DashboardPayload:
-        """Per PRD §9.7: rank order must match composite order (desc)."""
+        """Per PRD §9.7: rank order must match composite order (desc).
+        Watchlist-only entries (compositeScore=None) are appended at the bottom
+        in ticker order and are excluded from the composite-vs-rank check."""
+        scored = [c for c in self.companies if c.compositeScore is not None]
+        unscored = [c for c in self.companies if c.compositeScore is None]
         sorted_by_composite = sorted(
-            self.companies, key=lambda c: (-c.compositeScore, c.ticker)
+            scored, key=lambda c: (-c.compositeScore, c.ticker)  # type: ignore[operator]
         )
         for i, c in enumerate(sorted_by_composite, start=1):
             if c.rank != i:
                 raise ValueError(
                     f"rank order does not match composite order: "
                     f"{c.ticker} has rank={c.rank} but composite-desc position {i}"
+                )
+        # Unscored entries should sit at ranks N+1..N+M in ticker order.
+        n = len(scored)
+        for j, c in enumerate(sorted(unscored, key=lambda c: c.ticker), start=1):
+            expected = n + j
+            if c.rank != expected:
+                raise ValueError(
+                    f"unscored ticker {c.ticker} has rank={c.rank}; "
+                    f"expected {expected} (unscored entries occupy bottom ranks in ticker order)"
                 )
         return self
 

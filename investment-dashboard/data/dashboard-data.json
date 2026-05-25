@@ -2,6 +2,10 @@
   "baseCurrency": "USD",
   "companies": [
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 80.78,
       "confidence": {
         "basis": {
@@ -67,6 +71,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 78.76,
       "confidence": {
         "basis": {
@@ -103,6 +111,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 78.715,
       "confidence": {
         "basis": {
@@ -172,6 +184,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 77.635,
       "confidence": {
         "basis": {
@@ -208,6 +224,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 77.16,
       "confidence": {
         "basis": {
@@ -244,6 +264,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 76.895,
       "confidence": {
         "basis": {
@@ -280,6 +304,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 76.185,
       "confidence": {
         "basis": {
@@ -316,6 +344,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 75.905,
       "confidence": {
         "basis": {
@@ -352,6 +384,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 75.225,
       "confidence": {
         "basis": {
@@ -388,6 +424,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 74.425,
       "confidence": {
         "basis": {
@@ -424,6 +464,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 74.28,
       "confidence": {
         "basis": {
@@ -460,6 +504,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 73.695,
       "confidence": {
         "basis": {
@@ -496,6 +544,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 72.86,
       "confidence": {
         "basis": {
@@ -532,6 +584,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 72.66,
       "confidence": {
         "basis": {
@@ -601,6 +657,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 72.505,
       "confidence": {
         "basis": {
@@ -637,6 +697,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 72.465,
       "confidence": {
         "basis": {
@@ -673,6 +737,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 72.015,
       "confidence": {
         "basis": {
@@ -709,6 +777,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 71.93,
       "confidence": {
         "basis": {
@@ -745,6 +817,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 70.83,
       "confidence": {
         "basis": {
@@ -781,6 +857,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 70.41,
       "confidence": {
         "basis": {
@@ -850,6 +930,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 70.02,
       "confidence": {
         "basis": {
@@ -886,6 +970,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 69.795,
       "confidence": {
         "basis": {
@@ -922,6 +1010,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 69.55,
       "confidence": {
         "basis": {
@@ -958,6 +1050,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 69.045,
       "confidence": {
         "basis": {
@@ -1023,6 +1119,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 68.62,
       "confidence": {
         "basis": {
@@ -1059,6 +1159,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.61,
       "confidence": {
         "basis": {
@@ -1095,6 +1199,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.59,
       "confidence": {
         "basis": {
@@ -1131,6 +1239,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.285,
       "confidence": {
         "basis": {
@@ -1167,6 +1279,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 68.275,
       "confidence": {
         "basis": {
@@ -1203,6 +1319,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.26,
       "confidence": {
         "basis": {
@@ -1239,6 +1359,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.225,
       "confidence": {
         "basis": {
@@ -1275,6 +1399,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.055,
       "confidence": {
         "basis": {
@@ -1340,6 +1468,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 68.045,
       "confidence": {
         "basis": {
@@ -1376,6 +1508,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 68.035,
       "confidence": {
         "basis": {
@@ -1412,6 +1548,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 67.445,
       "confidence": {
         "basis": {
@@ -1479,6 +1619,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 66.935,
       "confidence": {
         "basis": {
@@ -1515,6 +1659,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 66.605,
       "confidence": {
         "basis": {
@@ -1551,6 +1699,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 66.325,
       "confidence": {
         "basis": {
@@ -1587,6 +1739,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 66.295,
       "confidence": {
         "basis": {
@@ -1623,6 +1779,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 66.275,
       "confidence": {
         "basis": {
@@ -1659,6 +1819,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 66.075,
       "confidence": {
         "basis": {
@@ -1695,6 +1859,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 65.765,
       "confidence": {
         "basis": {
@@ -1731,6 +1899,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 65.285,
       "confidence": {
         "basis": {
@@ -1767,6 +1939,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 65.28,
       "confidence": {
         "basis": {
@@ -1803,6 +1979,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 65.09,
       "confidence": {
         "basis": {
@@ -1839,6 +2019,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 64.695,
       "confidence": {
         "basis": {
@@ -1875,6 +2059,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 64.575,
       "confidence": {
         "basis": {
@@ -1911,6 +2099,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 64.155,
       "confidence": {
         "basis": {
@@ -1963,6 +2155,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 64.12,
       "confidence": {
         "basis": {
@@ -1999,6 +2195,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 64.015,
       "confidence": {
         "basis": {
@@ -2035,6 +2235,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 63.625,
       "confidence": {
         "basis": {
@@ -2071,6 +2275,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 63.455,
       "confidence": {
         "basis": {
@@ -2107,6 +2315,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 63.32,
       "confidence": {
         "basis": {
@@ -2143,6 +2355,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 62.715,
       "confidence": {
         "basis": {
@@ -2179,6 +2395,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 62.685,
       "confidence": {
         "basis": {
@@ -2215,6 +2435,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 62.01,
       "confidence": {
         "basis": {
@@ -2251,6 +2475,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 61.985,
       "confidence": {
         "basis": {
@@ -2287,6 +2515,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 61.57,
       "confidence": {
         "basis": {
@@ -2323,6 +2555,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 60.95,
       "confidence": {
         "basis": {
@@ -2359,6 +2595,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 60.525,
       "confidence": {
         "basis": {
@@ -2395,6 +2635,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 60.505,
       "confidence": {
         "basis": {
@@ -2431,6 +2675,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 60.455,
       "confidence": {
         "basis": {
@@ -2467,6 +2715,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 60.12,
       "confidence": {
         "basis": {
@@ -2503,6 +2755,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 60.105,
       "confidence": {
         "basis": {
@@ -2539,6 +2795,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 59.845,
       "confidence": {
         "basis": {
@@ -2575,6 +2835,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 59.69,
       "confidence": {
         "basis": {
@@ -2611,6 +2875,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 59.245,
       "confidence": {
         "basis": {
@@ -2647,6 +2915,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 59.225,
       "confidence": {
         "basis": {
@@ -2683,6 +2955,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 59.06,
       "confidence": {
         "basis": {
@@ -2719,6 +2995,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 58.91,
       "confidence": {
         "basis": {
@@ -2755,6 +3035,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 58.86,
       "confidence": {
         "basis": {
@@ -2791,6 +3075,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 58.52,
       "confidence": {
         "basis": {
@@ -2827,6 +3115,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 58.39,
       "confidence": {
         "basis": {
@@ -2863,6 +3155,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 57.995,
       "confidence": {
         "basis": {
@@ -2899,6 +3195,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 57.72,
       "confidence": {
         "basis": {
@@ -2935,6 +3235,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 57.63,
       "confidence": {
         "basis": {
@@ -2971,6 +3275,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 57.255,
       "confidence": {
         "basis": {
@@ -3007,6 +3315,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 57.1,
       "confidence": {
         "basis": {
@@ -3043,6 +3355,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 56.925,
       "confidence": {
         "basis": {
@@ -3079,6 +3395,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 56.475,
       "confidence": {
         "basis": {
@@ -3115,6 +3435,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": null,
+      "col_J": null,
+      "col_O": null,
       "compositeScore": 56.345,
       "confidence": {
         "basis": {
@@ -3151,6 +3475,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 56.345,
       "confidence": {
         "basis": {
@@ -3187,6 +3515,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 55.76,
       "confidence": {
         "basis": {
@@ -3223,6 +3555,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 53.845,
       "confidence": {
         "basis": {
@@ -3259,6 +3595,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 53.635,
       "confidence": {
         "basis": {
@@ -3295,6 +3635,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 51.035,
       "confidence": {
         "basis": {
@@ -3331,6 +3675,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 49.51,
       "confidence": {
         "basis": {
@@ -3367,6 +3715,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "Y",
+      "col_O": null,
       "compositeScore": 49.415,
       "confidence": {
         "basis": {
@@ -3432,6 +3784,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 49.295,
       "confidence": {
         "basis": {
@@ -3468,6 +3824,10 @@
       }
     },
     {
+      "category": null,
+      "col_F": "Y",
+      "col_J": "N",
+      "col_O": null,
       "compositeScore": 47.32,
       "confidence": {
         "basis": {
@@ -3502,10 +3862,130 @@
         "hits": 0,
         "misses": 0
       }
+    },
+    {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
+      "compositeScore": null,
+      "confidence": {
+        "basis": {
+          "claimCount": 0,
+          "dataCompleteness": 0.0,
+          "quartersCovered": 0
+        },
+        "notes": "",
+        "score": 0.0
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "COIN",
+      "options": null,
+      "priorityBucket": null,
+      "rank": 91,
+      "scores": {
+        "fundamentals": null,
+        "management": null,
+        "options": null,
+        "technicals": null,
+        "valuation": null
+      },
+      "sector": null,
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "COIN",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
+      "category": null,
+      "col_F": "N",
+      "col_J": "Y",
+      "col_O": null,
+      "compositeScore": null,
+      "confidence": {
+        "basis": {
+          "claimCount": 0,
+          "dataCompleteness": 0.0,
+          "quartersCovered": 0
+        },
+        "notes": "",
+        "score": 0.0
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "CRDO",
+      "options": null,
+      "priorityBucket": null,
+      "rank": 92,
+      "scores": {
+        "fundamentals": null,
+        "management": null,
+        "options": null,
+        "technicals": null,
+        "valuation": null
+      },
+      "sector": null,
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "CRDO",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    {
+      "category": null,
+      "col_F": "N",
+      "col_J": "N",
+      "col_O": null,
+      "compositeScore": null,
+      "confidence": {
+        "basis": {
+          "claimCount": 0,
+          "dataCompleteness": 0.0,
+          "quartersCovered": 0
+        },
+        "notes": "",
+        "score": 0.0
+      },
+      "fundamentals": null,
+      "management": null,
+      "name": "DKNG",
+      "options": null,
+      "priorityBucket": null,
+      "rank": 93,
+      "scores": {
+        "fundamentals": null,
+        "management": null,
+        "options": null,
+        "technicals": null,
+        "valuation": null
+      },
+      "sector": null,
+      "sourceAudit": null,
+      "technicals": null,
+      "thesis": null,
+      "ticker": "DKNG",
+      "valuation": null,
+      "verdictBreakdown": {
+        "beats": 0,
+        "hits": 0,
+        "misses": 0
+      }
     }
   ],
   "dashboardVersion": "1.0.0",
-  "generatedAt": "2026-05-25T01:49:21.964569Z",
+  "generatedAt": "2026-05-25T13:52:38.127544Z",
   "generatedBy": "generate_data.py",
   "pipelineRunId": "",
   "schemaVersion": "1.0.0",
@@ -3543,7 +4023,7 @@
       "STX",
       "MAR"
     ],
-    "totalCompanies": 90,
+    "totalCompanies": 93,
     "watchlistCount": 7
   },
   "universeDescription": "Priority ranking dashboard for growth-stock and options research.",

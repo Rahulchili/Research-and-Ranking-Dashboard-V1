@@ -186,22 +186,33 @@
       : tdNum(v.toFixed(1), lensColor(v), '600');
 
     const rows = companies.slice().sort((a, b) => a.rank - b.rank).map(c => {
-      const stance = priorityClass(c.priorityBucket);
+      const stance = c.priorityBucket ? priorityClass(c.priorityBucket) : null;
       const s = c.scores || {};
+      // Watchlist-only entries (no composite, no bucket) render with — for
+      // all numeric cells but still show their F/J/O category flags.
+      const compositeCell = (c.compositeScore == null)
+        ? tdNum('—', 'var(--muted)', '500')
+        : tdNum(c.compositeScore.toFixed(1), 'var(--text)', '700');
+      const bucketCell = stance
+        ? `<td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);"><span class="bucket bucket-${stance}" style="font-size:9.5px;padding:2px 6px;">${c.priorityBucket}</span></td>`
+        : `<td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);color:var(--muted);font-size:10px;">—</td>`;
+      const confPct = (c.confidence?.score == null)
+        ? '—'
+        : ((c.confidence.score || 0) * 100).toFixed(0) + '%';
       return `
         <tr class="lb-row-v2" data-ticker="${c.ticker}" style="cursor:pointer;">
           <td style="padding:8px 8px;color:var(--muted);font-weight:600;text-align:right;font-variant-numeric:tabular-nums;border-bottom:1px solid var(--border);">${c.rank}</td>
           <td style="padding:8px 8px;border-bottom:1px solid var(--border);"><strong style="color:var(--text);">${c.ticker}</strong></td>
           <td style="padding:8px 8px;color:var(--muted);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-bottom:1px solid var(--border);" title="${escapeHtml(c.name || '')}">${escapeHtml(c.name || '—')}</td>
           <td style="padding:8px 8px;color:var(--muted);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-bottom:1px solid var(--border);" title="${escapeHtml(c.sector || '')}">${escapeHtml(c.sector || '—')}</td>
-          ${tdNum((c.compositeScore || 0).toFixed(1), 'var(--text)', '700')}
+          ${compositeCell}
           ${cellLens(s.fundamentals)}
           ${cellLens(s.management)}
           ${cellLens(s.valuation)}
           ${cellLens(s.technicals)}
           ${cellLens(s.options)}
-          <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);"><span class="bucket bucket-${stance}" style="font-size:9.5px;padding:2px 6px;">${c.priorityBucket}</span></td>
-          ${tdNum(((c.confidence?.score || 0) * 100).toFixed(0) + '%', 'var(--muted)', '500')}
+          ${bucketCell}
+          ${tdNum(confPct, 'var(--muted)', '500')}
           <td style="padding:8px 6px;text-align:center;border-bottom:1px solid var(--border);"><span style="display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--accent);background:rgba(99,102,241,.10);border:1px solid rgba(99,102,241,.35);padding:2px 8px;border-radius:4px;">${escapeHtml(c.category || 'FTMO')}</span></td>
           <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);color:var(--muted);font-size:11px;">${escapeHtml(c.col_F || '')}</td>
           <td style="padding:8px 4px;text-align:center;border-bottom:1px solid var(--border);color:var(--muted);font-size:11px;">${escapeHtml(c.col_J || '')}</td>

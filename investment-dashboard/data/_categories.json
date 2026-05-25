@@ -1,0 +1,392 @@
+{
+  "AAPL": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ADI": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "AMAT": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "AMD": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "AMZN": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ANET": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "APP": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ARM": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ASML": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "AVGO": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "AZN": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "BA": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "BABA": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "BAC": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "BRKB": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "CAH": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "COHR": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "COIN": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "COST": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "CRDO": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "CRWD": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "CSCO": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "DDOG": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "DE": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "DELL": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "DKNG": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "DRI": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "FDX": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "FSLR": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "FTNT": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "GE": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "GILD": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "GM": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "GME": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "GOOG": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "GS": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "INTC": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "JNJ": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "JPM": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "KLAC": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "KO": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "LLY": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "LMT": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "LRCX": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "MCD": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "MDB": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "META": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "MSFT": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "MSTR": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "MU": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "NFLX": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "NKE": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "NTAP": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "NTNX": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "NVDA": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ORCL": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "PANW": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "PFE": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "PLTR": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "QCOM": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "RACE": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "RBRK": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ROST": {
+    "col_F": "N",
+    "col_J": "N",
+    "col_O": null
+  },
+  "RTX": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "SBUX": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "SNDK": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "SNOW": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "SNPS": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "T": {
+    "col_F": "Y",
+    "col_J": "N",
+    "col_O": null
+  },
+  "TSLA": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "TSM": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "TWLO": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "TXN": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "V": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "VRT": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "WMT": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ZM": {
+    "col_F": "Y",
+    "col_J": "Y",
+    "col_O": null
+  },
+  "ZS": {
+    "col_F": "N",
+    "col_J": "Y",
+    "col_O": null
+  }
+}

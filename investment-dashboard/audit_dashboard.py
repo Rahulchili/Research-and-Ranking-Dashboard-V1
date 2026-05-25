@@ -18,7 +18,10 @@ CHARTS = ROOT / "assets" / "charts"
 
 # Load dashboard payload (the leaderboard truth)
 dash = json.loads((DATA / "dashboard-data.json").read_text())
-tickers = sorted(c["ticker"] for c in dash["companies"])
+# Skip watchlist-only entries (compositeScore=None). They're tracked for the
+# F/J/O category overlay but intentionally have no full profile data.
+WATCHLIST_ONLY = {c["ticker"] for c in dash["companies"] if c.get("compositeScore") is None}
+tickers = sorted(c["ticker"] for c in dash["companies"] if c["ticker"] not in WATCHLIST_ONLY)
 
 # Group issues by category for systemic fixes
 issues: dict[str, list[str]] = defaultdict(list)
@@ -247,8 +250,11 @@ for t in tickers:
     sec_co = co.get("sector")
     if sec_lb != sec_co:
         add("sector_mismatch", t, f"lb={sec_lb!r} vs co={sec_co!r}")
-    if not 0 < lb.get("compositeScore", 0) <= 100:
-        add("composite_out_of_range", t, f"composite={lb['compositeScore']}")
+    # Watchlist-only entries (category-flag rows at the bottom of the
+    # leaderboard) intentionally have compositeScore=None.
+    _comp = lb.get("compositeScore")
+    if _comp is not None and not 0 < _comp <= 100:
+        add("composite_out_of_range", t, f"composite={_comp}")
 
 # ─────────────────────────────────────────────────────────────────────
 # 3) LEADERBOARD-LEVEL CHECKS
@@ -256,10 +262,14 @@ for t in tickers:
 ranks = sorted([c["rank"] for c in dash["companies"]])
 if ranks != list(range(1, len(ranks) + 1)):
     add("rank_sequence", "—", f"ranks not 1..N; got {ranks[:5]}…{ranks[-3:]}")
-# composites monotonic by rank
+# composites monotonic by rank (skipping unscored watchlist tail)
 sorted_by_rank = sorted(dash["companies"], key=lambda c: c["rank"])
 for i in range(1, len(sorted_by_rank)):
-    if sorted_by_rank[i]["compositeScore"] > sorted_by_rank[i-1]["compositeScore"] + 0.01:
+    a = sorted_by_rank[i].get("compositeScore")
+    b = sorted_by_rank[i-1].get("compositeScore")
+    if a is None or b is None:
+        continue
+    if a > b + 0.01:
         add("rank_order", "—", f"rank {sorted_by_rank[i]['rank']} composite > rank {sorted_by_rank[i-1]['rank']}")
 
 # Confirm no duplicates
