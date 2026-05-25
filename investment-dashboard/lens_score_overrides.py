@@ -17,7 +17,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "BAC": {"F": 78.5, "M": 50.0, "V": 57, "T": 52.8, "O": 64.1},
     "BRKB": {"F": 54.5, "M": 50.0, "V": 38, "T": 55.8, "O": 56.3},
     "CAH": {"F": 64.6, "M": 40.0, "V": 54, "T": 58.0, "O": 54.9},
-    "CDNS": {"F": 75.7, "M": 43.8, "V": 32, "T": 60.0, "O": 55.0},
+    "CDNS": {"F": 75.7, "M": 50.0, "V": 55, "T": 72.0, "O": 63.3},
     "CEG": {"F": 68.5, "M": 37.5, "V": 55, "T": 78.9, "O": 63.3},
     "COHR": {"F": 94.0, "M": 25.0, "V": 58, "T": 78.9, "O": 53.4},
     "COST": {"F": 76.3, "M": 43.8, "V": 32, "T": 72.0, "O": 62.0},
@@ -29,7 +29,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "DE": {"F": 78.5, "M": 31.2, "V": 35, "T": 49.2, "O": 61.3},
     "DELL": {"F": 57.7, "M": 37.5, "V": 49, "T": 76.7, "O": 49.9},
     "DRI": {"F": 56.3, "M": 50.0, "V": 84, "T": 55.8, "O": 55.4},
-    "FANG": {"F": 56.8, "M": 33.3, "V": 69, "T": 60.0, "O": 55.0},
+    "FANG": {"F": 56.8, "M": 50.0, "V": 69, "T": 74.7, "O": 70.4},
     "FDX": {"F": 61.8, "M": 43.8, "V": 82, "T": 70.9, "O": 63.4},
     "FSLR": {"F": 87.5, "M": 50.0, "V": 84, "T": 58.5, "O": 57.9},
     "FTNT": {"F": 81.1, "M": 50.0, "V": 81, "T": 76.7, "O": 60.8},
@@ -49,7 +49,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "LRCX": {"F": 67.6, "M": 56.2, "V": 65, "T": 78.9, "O": 52.7},
     "MAR": {"F": 91.8, "M": 75.0, "V": 45, "T": 72.0, "O": 63.3},
     "MCD": {"F": 81.8, "M": 43.8, "V": 66, "T": 43.2, "O": 47.7},
-    "MCHP": {"F": 44.8, "M": 68.8, "V": 68, "T": 60.0, "O": 55.0},
+    "MCHP": {"F": 44.8, "M": 50.0, "V": 68, "T": 78.9, "O": 63.3},
     "MDB": {"F": 75.0, "M": 60.0, "V": 78, "T": 55.5, "O": 60.0},
     "META": {"F": 89.7, "M": 56.2, "V": 70, "T": 43.8, "O": 55.0},
     "MRVL": {"F": 90.0, "M": 50.0, "V": 65, "T": 78.9, "O": 53.6},
@@ -81,7 +81,7 @@ LENS_OVERRIDES: dict[str, dict[str, float]] = {
     "T": {"F": 68.5, "M": 50.0, "V": 76, "T": 46.2, "O": 54.8},
     "TSLA": {"F": 60.0, "M": 56.2, "V": 35, "T": 63.8, "O": 66.1},
     "TSM": {"F": 95.8, "M": 68.8, "V": 58, "T": 75.2, "O": 56.9},
-    "TTWO": {"F": 90.0, "M": 40.0, "V": 32, "T": 60.0, "O": 55.0},
+    "TTWO": {"F": 90.0, "M": 50.0, "V": 32, "T": 63.0, "O": 59.7},
     "TWLO": {"F": 67.6, "M": 50.0, "V": 61, "T": 78.9, "O": 62.1},
     "TXN": {"F": 84.1, "M": 62.5, "V": 61, "T": 76.7, "O": 49.9},
     "V": {"F": 91.8, "M": 56.2, "V": 38, "T": 58.0, "O": 55.0},
@@ -691,20 +691,31 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 F = 75.7 (sector-relative)"
     ],
     "management": [
-      "MCS 0.44 (2B / 3H / 3M on 8 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 43.8"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 50.0\u00d7 vs peer median 35.5\u00d7 (41% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
       "FCF yield 2.2%",
-      "\u2192 V = 32"
+      "\u2192 V = 55"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $373.59 vs SMA200 $322.61 (+15.8%, bullish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 65.8 (neutral zone)",
+      "90-day return: +25.5%",
+      "1-year return: +17.6%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 72.0"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 50.3% (elevated)",
+      "P/C OI 0.97 (balanced)",
+      "ATM skew -1.03pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
     ]
   },
   "CEG": {
@@ -1091,9 +1102,9 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 F = 56.8 (sector-relative)"
     ],
     "management": [
-      "MCS 0.33 (2B / 0H / 4M on 6 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 33.3"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 9.5\u00d7 vs peer median 10.5\u00d7 (10% discount to peers)",
@@ -1102,10 +1113,19 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 V = 69"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $200.71 vs SMA200 $162.15 (+23.8%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 37.7 (neutral zone)",
+      "90-day return: +20.2%",
+      "1-year return: +47.2%",
+      "Drawdown from 52w high: -6.1%",
+      "\u2192 T = 74.7"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 39.0% (normal)",
+      "P/C OI 0.64 (call-heavy) \u2014 genuine bullish positioning (trend confirms)",
+      "ATM skew -1.24pp (call skew)",
+      "\u2192 O = 70.4 (trend-aligned)"
     ]
   },
   "FDX": {
@@ -1760,9 +1780,9 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 F = 44.8 (sector-relative)"
     ],
     "management": [
-      "MCS 0.69 (5B / 1H / 2M on 8 tracked forward claims)",
-      "Track record: average",
-      "\u2192 M = 68.8"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 24.0\u00d7 vs peer median 24.0\u00d7 (0% premium to peers)",
@@ -1771,10 +1791,19 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 V = 68"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $93.43 vs SMA200 $69.93 (+33.6%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 46.5 (neutral zone)",
+      "90-day return: +24.6%",
+      "1-year return: +57.7%",
+      "Drawdown from 52w high: -9.2%",
+      "\u2192 T = 78.9"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 47.3% (elevated)",
+      "P/C OI 0.79 (balanced)",
+      "ATM skew -0.36pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
     ]
   },
   "MDB": {
@@ -2815,9 +2844,9 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 F = 90.0 (sector-relative)"
     ],
     "management": [
-      "MCS 0.40 (2B / 0H / 3M on 5 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 40.0"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 42.0\u00d7 vs peer median 20.0\u00d7 (110% premium to peers)",
@@ -2825,10 +2854,19 @@ LENS_RATIONALE: dict[str, dict[str, list[str]]] = {
       "\u2192 V = 32"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $227.55 vs SMA200 $231.89 (-1.9%, neutral)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 52.5 (neutral zone)",
+      "90-day return: +6.7%",
+      "1-year return: +0.3%",
+      "Drawdown from 52w high: -13.2%",
+      "\u2192 T = 63.0"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 38.6% (normal)",
+      "P/C OI 0.99 (balanced)",
+      "ATM skew -0.93pp (call skew)",
+      "\u2192 O = 59.7 (trend-aligned)"
     ]
   },
   "TWLO": {

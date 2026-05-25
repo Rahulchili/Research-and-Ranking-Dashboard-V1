@@ -110,60 +110,60 @@
       "claim_id": "C05"
     },
     {
-      "metric": "Net margin (quarter)",
+      "metric": "EPS (diluted)",
       "quarter_made": "FY2025 Q4",
       "target_quarter": "FY2026 Q1",
-      "source_file": "consensus-implied (prior margin + trailing pp trajectory)",
-      "source_quote": "Implied next-quarter margin trajectory: 3532949.69% (prior 3253048.98% + trailing \u0394 +279900.71pp).",
-      "guide_mid_b": 3532949.69,
-      "guided": "3532949.69% margin",
-      "actual": "3725428.57%",
-      "actual_b": 3725428.57,
-      "pct": 192478.88,
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $1.40 (prior $1.26 \u00d7 +11.2% trailing).",
+      "guide_mid_b": 1.4,
+      "guided": "$1.40",
+      "actual": "$1.45",
+      "actual_b": 1.45,
+      "pct": 3.49,
       "verdict": "Beat (above range)",
-      "accuracy": 0,
+      "accuracy": 0.651,
       "bms": "B",
       "difficulty": "medium",
-      "gm_guide_pct": 3532949.69,
-      "gm_actual_pct": 3725428.57,
+      "eps_guide_mid": 1.4,
+      "eps_actual": 1.45,
       "claim_id": "C06"
     },
     {
-      "metric": "Net margin (quarter)",
+      "metric": "EPS (diluted)",
       "quarter_made": "FY2025 Q3",
       "target_quarter": "FY2025 Q4",
-      "source_file": "consensus-implied (prior margin + trailing pp trajectory)",
-      "source_quote": "Implied next-quarter margin trajectory: 3417220.71% (prior 3137320.00% + trailing \u0394 +279900.71pp).",
-      "guide_mid_b": 3417220.71,
-      "guided": "3417220.71% margin",
-      "actual": "3253048.98%",
-      "actual_b": 3253048.98,
-      "pct": -164171.73,
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $1.38 (prior $1.24 \u00d7 +11.2% trailing).",
+      "guide_mid_b": 1.38,
+      "guided": "$1.38",
+      "actual": "$1.26",
+      "actual_b": 1.26,
+      "pct": -8.62,
       "verdict": "Miss (below range)",
-      "accuracy": 0,
+      "accuracy": 0.138,
       "bms": "M",
       "difficulty": "medium",
-      "gm_guide_pct": 3417220.71,
-      "gm_actual_pct": 3253048.98,
+      "eps_guide_mid": 1.38,
+      "eps_actual": 1.26,
       "claim_id": "C07"
     },
     {
-      "metric": "Net margin (quarter)",
+      "metric": "EPS (diluted)",
       "quarter_made": "FY2025 Q1",
       "target_quarter": "FY2025 Q3",
-      "source_file": "consensus-implied (prior margin + trailing pp trajectory)",
-      "source_quote": "Implied next-quarter margin trajectory: 2995547.65% (prior 2715646.94% + trailing \u0394 +279900.71pp).",
-      "guide_mid_b": 2995547.65,
-      "guided": "2995547.65% margin",
-      "actual": "3137320.00%",
-      "actual_b": 3137320.0,
-      "pct": 141772.35,
+      "source_file": "consensus-implied (prior EPS \u00d7 trailing growth)",
+      "source_quote": "Implied EPS consensus: $1.15 (prior $1.03 \u00d7 +11.2% trailing).",
+      "guide_mid_b": 1.15,
+      "guided": "$1.15",
+      "actual": "$1.24",
+      "actual_b": 1.24,
+      "pct": 8.26,
       "verdict": "Beat (above range)",
-      "accuracy": 0,
+      "accuracy": 0.174,
       "bms": "B",
       "difficulty": "medium",
-      "gm_guide_pct": 2995547.65,
-      "gm_actual_pct": 3137320.0,
+      "eps_guide_mid": 1.15,
+      "eps_actual": 1.24,
       "claim_id": "C08"
     }
   ],
@@ -180,8 +180,8 @@
         "ocf_q_M": 1568.47,
         "capex_q_M": 52.2,
         "fcf_q_M": 1516.27,
-        "operating_margin_pct": 2633743.75,
-        "net_margin_pct": 2325925.0
+        "operating_margin_pct": null,
+        "net_margin_pct": null
       },
       {
         "fy": 2024,
@@ -194,8 +194,8 @@
         "ocf_q_M": 2310.41,
         "capex_q_M": 82.16,
         "fcf_q_M": 2228.26,
-        "operating_margin_pct": 2838051.06,
-        "net_margin_pct": 2534080.85
+        "operating_margin_pct": null,
+        "net_margin_pct": null
       },
       {
         "fy": 2025,
@@ -208,8 +208,8 @@
         "ocf_q_M": 3619.08,
         "capex_q_M": 87.29,
         "fcf_q_M": 3531.78,
-        "operating_margin_pct": 3187263.27,
-        "net_margin_pct": 2715646.94
+        "operating_margin_pct": null,
+        "net_margin_pct": null
       },
       {
         "fy": 2025,
@@ -222,8 +222,8 @@
         "ocf_q_M": 1778.96,
         "capex_q_M": 95.75,
         "fcf_q_M": 1683.22,
-        "operating_margin_pct": 3658176.0,
-        "net_margin_pct": 3137320.0
+        "operating_margin_pct": null,
+        "net_margin_pct": null
       },
       {
         "fy": 2025,
@@ -236,8 +236,8 @@
         "ocf_q_M": 3259.01,
         "capex_q_M": 142.59,
         "fcf_q_M": 3116.41,
-        "operating_margin_pct": 3694291.84,
-        "net_margin_pct": 3253048.98
+        "operating_margin_pct": null,
+        "net_margin_pct": null
       },
       {
         "fy": 2026,
@@ -250,17 +250,17 @@
         "ocf_q_M": 4400.43,
         "capex_q_M": 84.72,
         "fcf_q_M": 4315.71,
-        "operating_margin_pct": 4177583.67,
-        "net_margin_pct": 3725428.57
+        "operating_margin_pct": null,
+        "net_margin_pct": null
       }
     ],
     "summary": {
       "latest_quarter": "FY2026 Q1",
       "latest_revenue_b": 0.0,
-      "latest_net_margin_pct": 3725428.57,
+      "latest_net_margin_pct": null,
       "yoy_revenue_growth_pct": 0.0,
       "ttm_revenue_b": 0.0,
-      "latest_operating_margin_pct": 4177583.67,
+      "latest_operating_margin_pct": null,
       "latest_eps": 1.45,
       "latest_ocf_b": 4.4,
       "latest_fcf_b": 4.32,
@@ -353,12 +353,12 @@
         "targets": "FY2026 Q1",
         "line_items": [
           {
-            "metric": "Net margin (quarter)",
-            "guide_mid_b": 3532949.69,
-            "actual_b": 3725428.57,
-            "delta_vs_mid_pct": 192478.88,
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 1.4,
+            "actual_b": 1.45,
+            "delta_vs_mid_pct": 3.49,
             "verdict": "Beat (above range)",
-            "guide_quote": "Implied next-quarter margin trajectory: 3532949.69% (prior 3253048.98% + trailing \u0394 +279900.71pp)."
+            "guide_quote": "Implied EPS consensus: $1.40 (prior $1.26 \u00d7 +11.2% trailing)."
           }
         ]
       },
@@ -367,12 +367,12 @@
         "targets": "FY2025 Q4",
         "line_items": [
           {
-            "metric": "Net margin (quarter)",
-            "guide_mid_b": 3417220.71,
-            "actual_b": 3253048.98,
-            "delta_vs_mid_pct": -164171.73,
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 1.38,
+            "actual_b": 1.26,
+            "delta_vs_mid_pct": -8.62,
             "verdict": "Miss (below range)",
-            "guide_quote": "Implied next-quarter margin trajectory: 3417220.71% (prior 3137320.00% + trailing \u0394 +279900.71pp)."
+            "guide_quote": "Implied EPS consensus: $1.38 (prior $1.24 \u00d7 +11.2% trailing)."
           }
         ]
       },
@@ -381,12 +381,12 @@
         "targets": "FY2025 Q3",
         "line_items": [
           {
-            "metric": "Net margin (quarter)",
-            "guide_mid_b": 2995547.65,
-            "actual_b": 3137320.0,
-            "delta_vs_mid_pct": 141772.35,
+            "metric": "EPS (diluted)",
+            "guide_mid_b": 1.15,
+            "actual_b": 1.24,
+            "delta_vs_mid_pct": 8.26,
             "verdict": "Beat (above range)",
-            "guide_quote": "Implied next-quarter margin trajectory: 2995547.65% (prior 2715646.94% + trailing \u0394 +279900.71pp)."
+            "guide_quote": "Implied EPS consensus: $1.15 (prior $1.03 \u00d7 +11.2% trailing)."
           }
         ]
       }

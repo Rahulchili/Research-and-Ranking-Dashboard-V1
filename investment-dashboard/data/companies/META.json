@@ -1,21 +1,16 @@
 {
   "ticker": "META",
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": null,
   "n_claims": 8,
   "mcs_simple": 0.5625,
   "mcs_information_adjusted": 0.5625,
   "mcs_difficulty_weighted": 0.5625,
-  "subscores": {
-    "revenue": 0.9589,
-    "margin": null,
-    "eps": null,
-    "fcf": null,
-    "strategic": null
-  },
-  "baseline_random": 0.4935,
-  "baseline_always_up": 1,
-  "skill_over_baseline": -0.0411,
   "beats": 3,
+  "hits": 3,
   "misses": 2,
+  "subscores": {},
   "rows": [
     {
       "metric": "Revenue (quarterly run-rate)",
@@ -171,304 +166,122 @@
     }
   ],
   "fundamentals": {
-    "summary": {
-      "latest_quarter": "FY2026 Q1",
-      "latest_revenue_b": 56.31,
-      "latest_net_income_b": 26.77,
-      "latest_eps": 10.44,
-      "latest_gross_margin_pct": 81.85,
-      "latest_operating_margin_pct": 40.62,
-      "latest_net_margin_pct": 47.54,
-      "latest_ocf_b": 32.23,
-      "latest_capex_b": 19,
-      "latest_fcf_b": 13.23,
-      "latest_equity_b": 243.68,
-      "latest_current_ratio": 2.35,
-      "latest_long_debt_to_equity": 0.24,
-      "latest_roe_q_annualized_pct": 43.95,
-      "latest_dso_days": 32,
-      "yoy_revenue_growth_pct": 33.1,
-      "n_quarter_cagr_pct": 24.3,
-      "n_quarters_in_series": 9
-    },
     "quarters": [
       {
         "fy": 2024,
         "fq": 1,
-        "rev_q_M": 36455,
-        "ni_q_M": 12369,
-        "oi_q_M": 13818,
-        "ocf_q_M": 19246,
-        "capex_q_M": 6823,
-        "fcf_q_M": 12423,
-        "eps": 4.71,
-        "gross_margin_pct": 81.79,
+        "_source": "META_FY2024Q1_0001326801-24-000049.htm",
+        "rev_q_M": 36455.0,
+        "ni_q_M": 12369.0,
+        "oi_q_M": 13818.0,
+        "ocf_q_M": 19246.0,
+        "equity_M": 149529.0,
         "operating_margin_pct": 37.9,
-        "net_margin_pct": 33.93,
-        "equity_M": 153168,
-        "current_ratio": 2.67,
-        "long_debt_to_equity": 0.12,
-        "roe_q_annualized_pct": 32.3,
-        "dso_days": 40.5
+        "net_margin_pct": 33.93
       },
       {
         "fy": 2024,
         "fq": 2,
-        "rev_q_M": 39071,
-        "ni_q_M": 13465,
-        "oi_q_M": 14847,
-        "ocf_q_M": 19370,
-        "capex_q_M": 7750,
-        "fcf_q_M": 11620,
-        "eps": 5.16,
-        "gross_margin_pct": 81.3,
-        "operating_margin_pct": 38,
-        "net_margin_pct": 34.46,
-        "equity_M": 156763,
-        "current_ratio": 2.67,
-        "long_debt_to_equity": 0.12,
-        "roe_q_annualized_pct": 34.36,
-        "dso_days": 37.8
+        "_source": "META_FY2024Q2_0001326801-24-000069.htm",
+        "rev_q_M": 39071.0,
+        "ni_q_M": 13465.0,
+        "oi_q_M": 14847.0,
+        "ocf_q_M": 38616.0,
+        "equity_M": 156763.0,
+        "operating_margin_pct": 38.0,
+        "net_margin_pct": 34.46
       },
       {
         "fy": 2024,
         "fq": 3,
-        "rev_q_M": 40589,
-        "ni_q_M": 15688,
-        "oi_q_M": 17350,
-        "ocf_q_M": 24724,
-        "capex_q_M": 8258,
-        "fcf_q_M": 16466,
-        "eps": 6.03,
-        "gross_margin_pct": 81.83,
+        "_source": "META_FY2024Q3_0001326801-24-000081.htm",
+        "rev_q_M": 40589.0,
+        "ni_q_M": 15688.0,
+        "oi_q_M": 17350.0,
+        "ocf_q_M": 63340.0,
+        "equity_M": 164529.0,
         "operating_margin_pct": 42.75,
-        "net_margin_pct": 38.65,
-        "equity_M": 164529,
-        "current_ratio": 2.73,
-        "long_debt_to_equity": 0.18,
-        "roe_q_annualized_pct": 38.14,
-        "dso_days": 36.4
+        "net_margin_pct": 38.65
       },
       {
         "fy": 2024,
         "fq": 4,
-        "rev_q_M": 48386,
-        "ni_q_M": 20838,
-        "oi_q_M": 23365,
-        "ocf_q_M": 27988,
-        "capex_q_M": 14425,
-        "fcf_q_M": 13563,
-        "eps": 7.96,
-        "gross_margin_pct": 81.73,
-        "operating_margin_pct": 48.29,
+        "rev_q_M": 48386.0,
+        "ni_q_M": 20838.0,
         "net_margin_pct": 43.07,
-        "equity_M": 182637,
-        "current_ratio": 2.98,
-        "long_debt_to_equity": 0.16,
-        "roe_q_annualized_pct": 45.64,
-        "dso_days": 32
+        "_source": "derived from 10-K minus 10-Qs"
       },
       {
         "fy": 2025,
         "fq": 1,
-        "rev_q_M": 42314,
-        "ni_q_M": 16644,
-        "oi_q_M": 17555,
-        "ocf_q_M": 24026,
-        "capex_q_M": 12941,
-        "fcf_q_M": 11085,
-        "eps": 6.43,
-        "gross_margin_pct": 82.11,
+        "_source": "META_FY2025Q1_0001326801-25-000054.htm",
+        "rev_q_M": 42314.0,
+        "ni_q_M": 16644.0,
+        "oi_q_M": 17555.0,
+        "ocf_q_M": 24026.0,
+        "equity_M": 185029.0,
         "operating_margin_pct": 41.49,
-        "net_margin_pct": 39.33,
-        "equity_M": 185029,
-        "current_ratio": 2.95,
-        "long_debt_to_equity": 0.16,
-        "roe_q_annualized_pct": 35.98,
-        "dso_days": 36.6
+        "net_margin_pct": 39.33
       },
       {
         "fy": 2025,
         "fq": 2,
-        "rev_q_M": 47516,
-        "ni_q_M": 18337,
-        "oi_q_M": 20441,
-        "ocf_q_M": 25561,
-        "capex_q_M": 16538,
-        "fcf_q_M": 9023,
-        "eps": 7.14,
-        "gross_margin_pct": 82.13,
+        "_source": "META_FY2025Q2_0001628280-25-036791.htm",
+        "rev_q_M": 47516.0,
+        "ni_q_M": 18337.0,
+        "oi_q_M": 20441.0,
+        "ocf_q_M": 49587.0,
+        "equity_M": 195070.0,
         "operating_margin_pct": 43.02,
-        "net_margin_pct": 38.59,
-        "equity_M": 195070,
-        "current_ratio": 2.68,
-        "long_debt_to_equity": 0.15,
-        "roe_q_annualized_pct": 37.6,
-        "dso_days": 32.6
+        "net_margin_pct": 38.59
       },
       {
         "fy": 2025,
         "fq": 3,
-        "rev_q_M": 51242,
-        "ni_q_M": 2709,
-        "oi_q_M": 20535,
-        "ocf_q_M": 29999,
-        "capex_q_M": 18829,
-        "fcf_q_M": 11170,
-        "eps": 1.05,
-        "gross_margin_pct": 82.03,
+        "_source": "META_FY2025Q3_0001628280-25-047240.htm",
+        "rev_q_M": 51242.0,
+        "ni_q_M": 2709.0,
+        "oi_q_M": 20535.0,
+        "ocf_q_M": 79586.0,
+        "equity_M": 194066.0,
         "operating_margin_pct": 40.07,
-        "net_margin_pct": 5.29,
-        "equity_M": 195070,
-        "current_ratio": 2.71,
-        "long_debt_to_equity": 0.15,
-        "roe_q_annualized_pct": 13.41,
-        "dso_days": 30.8
+        "net_margin_pct": 5.29
       },
       {
         "fy": 2025,
         "fq": 4,
-        "rev_q_M": 59894,
-        "ni_q_M": 22768,
-        "oi_q_M": 24745,
-        "ocf_q_M": 36214,
-        "capex_q_M": 21383,
-        "fcf_q_M": 14831,
-        "eps": 8.87,
-        "gross_margin_pct": 81.79,
-        "operating_margin_pct": 41.31,
+        "rev_q_M": 59894.0,
+        "ni_q_M": 22768.0,
         "net_margin_pct": 38.01,
-        "equity_M": 217243,
-        "current_ratio": 2.6,
-        "long_debt_to_equity": 0.27,
-        "roe_q_annualized_pct": 38.37,
-        "dso_days": 30.1
+        "_source": "derived from 10-K minus 10-Qs"
       },
       {
         "fy": 2026,
         "fq": 1,
-        "rev_q_M": 56311,
-        "ni_q_M": 26773,
-        "oi_q_M": 22872,
-        "ocf_q_M": 32226,
-        "capex_q_M": 18997,
-        "fcf_q_M": 13229,
-        "eps": 10.44,
-        "gross_margin_pct": 81.85,
+        "_source": "META_FY2026Q1_0001628280-26-028526.htm",
+        "rev_q_M": 56311.0,
+        "ni_q_M": 26773.0,
+        "oi_q_M": 22872.0,
+        "ocf_q_M": 32226.0,
+        "equity_M": 243681.0,
         "operating_margin_pct": 40.62,
-        "net_margin_pct": 47.54,
-        "equity_M": 243681,
-        "current_ratio": 2.35,
-        "long_debt_to_equity": 0.24,
-        "roe_q_annualized_pct": 43.95,
-        "dso_days": 32
+        "net_margin_pct": 47.54
       }
     ],
-    "risk_factors": {
-      "Product offerings": [
-        "Ability to add and retain users and maintain levels of user engagement",
-        "The loss of, or reduction in spending by, marketers",
-        "Reduced availability of data signals used by ad targeting and measurement tools",
-        "Ineffective operation with mobile OS partners or changes in those relationships",
-        "Failure of new products or changes to existing products to attract or retain users / generate revenue"
-      ],
-      "Business operations and financial results": [
-        "Ability to compete effectively",
-        "Fluctuations in financial results",
-        "Unfavorable media coverage and brand-reputation risk",
-        "Ability to build, maintain, and scale technical infrastructure; service disruptions, catastrophic events, crises",
-        "Operating across multiple countries \u2014 geopolitical exposure",
-        "Litigation, including class action lawsuits",
-        "Acquisitions and integration risk"
-      ],
-      "Government regulation and enforcement": [
-        "Government restrictions on access to Facebook / other products in specific countries",
-        "Complex and evolving US/EU privacy, data-use, content-moderation, competition, youth, safety, consumer-protection, advertising laws \u2014 GDPR, DMA, DSA, UK OSA, EU AI Act, UK DMCC",
-        "Government investigations, enforcement actions, and settlements",
-        "Ability to comply with regulatory privacy requirements including FTC consent order"
-      ],
-      "Data, security, platform integrity, IP": [
-        "Security breaches, improper data access / disclosure, cyber incidents, intentional platform misuse",
-        "Ability to obtain, maintain, protect, and enforce intellectual-property rights"
-      ],
-      "Ownership of Class A Common Stock": [
-        "Dual-class structure: Zuckerberg controls a majority of voting power, limiting Class A holders' influence on corporate matters"
-      ]
+    "summary": {
+      "latest_quarter": "FY2026 Q1",
+      "latest_revenue_b": 56.31,
+      "latest_net_margin_pct": 47.54,
+      "yoy_revenue_growth_pct": 33.1,
+      "ttm_revenue_b": 214.96
     },
-    "risk_source": "META FY2025 10-K, Item 1A \u2014 extracted from META_FY2025Q4_0001628280-26-003942_10K.htm",
-    "market_cap_note": "Market cap = shares outstanding \u00d7 share price. Shares outstanding IS in the 10-K (DEI:EntityCommonStockSharesOutstanding). Share price is NOT in the 10-K and was not submitted as a separate input.",
-    "audit_note": "All 9 guidance/actual pairs reconciled within \u00b1$0.05B between the transcript and the 10-Q/10-K XBRL on every quarter. Revenue extraction tag: us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax."
+    "_source": "htm filings (.htm parser)"
   },
   "q2q_analysis": {
     "metadata": {
       "ticker": "META",
-      "generated": "2026-05-08",
-      "method": "verbatim guidance from user's transcripts vs. XBRL-derived actuals from user's filings; strategic commitments cross-referenced against later transcripts.",
-      "actuals_source": "META_inbox/Earnings/*.htm (inline-XBRL)",
-      "guidance_source": "META_inbox/Transcripts/*.docx",
-      "stock_price_source": "Not yet supplied \u2014 see footer for options"
-    },
-    "fy_actuals": {
-      "2024": {
-        "total_costs_and_expenses_b": 95.121,
-        "ppe_capex_b": 37.256,
-        "operating_income_b": 69.38,
-        "pretax_income_b": 70.663,
-        "tax_expense_b": 8.303,
-        "effective_tax_rate_pct": 11.750137978857394,
-        "net_income_b": 62.36,
-        "source_filing": "META_FY2024Q4_0001326801-25-000017_10K"
-      },
-      "2025": {
-        "total_costs_and_expenses_b": 117.69,
-        "ppe_capex_b": 69.691,
-        "operating_income_b": 83.276,
-        "pretax_income_b": 85.932,
-        "tax_expense_b": 25.474,
-        "effective_tax_rate_pct": 29.644369966950613,
-        "net_income_b": 60.458,
-        "source_filing": "META_FY2025Q4_0001628280-26-003942_10K",
-        "effective_tax_rate_underlying_pct": 14,
-        "one_time_charge_b": 15.93
-      }
-    },
-    "quarterly_revenue_actuals": {
-      "2024Q1": {
-        "value_b": 36.455,
-        "source_filing": "META_FY2024Q1_0001326801-24-000049"
-      },
-      "2024Q2": {
-        "value_b": 39.071,
-        "source_filing": "META_FY2024Q2_0001326801-24-000069"
-      },
-      "2024Q3": {
-        "value_b": 40.589,
-        "source_filing": "META_FY2024Q3_0001326801-24-000081"
-      },
-      "2024Q4": {
-        "value_b": 48.385000000000005,
-        "source_filing": "META_FY2024Q4_0001326801-25-000017_10K"
-      },
-      "2025Q1": {
-        "value_b": 42.314,
-        "source_filing": "META_FY2025Q1_0001326801-25-000054"
-      },
-      "2025Q2": {
-        "value_b": 47.516,
-        "source_filing": "META_FY2025Q2_0001628280-25-036791"
-      },
-      "2025Q3": {
-        "value_b": 51.242,
-        "source_filing": "META_FY2025Q3_0001628280-25-047240"
-      },
-      "2025Q4": {
-        "value_b": 59.893,
-        "source_filing": "META_FY2025Q4_0001628280-26-003942_10K"
-      },
-      "2026Q1": {
-        "value_b": 56.311,
-        "source_filing": "META_FY2026Q1_0001628280-26-028526"
-      }
+      "method": "Forward claim guidance vs actual quarterly revenue, paired by target_quarter label.",
+      "generated_by": "add_ticker.py build_q2q_pairs()"
     },
     "q_to_q_pairs": [
       {
@@ -583,13 +396,10 @@
           }
         ]
       }
-    ],
-    "stock_prices_available": true,
-    "stock_prices_source": "META_inbox/Stock Price Data/META_21_MAY_2012_11_MAY_2026.xlsx",
-    "stock_prices_provider": "User-supplied daily OHLCV (META, May 2012 \u2013 May 8, 2026)"
+    ]
   },
-  "name": "Meta Platforms, Inc.",
-  "sector": "Communication Services",
+  "_generated_by": "add_ticker.py",
+  "_generated_at": "2026-05-25T00:34:31.740253Z",
   "lens_rationale": {
     "fundamentals": [
       "Revenue +33.1% YoY (strong for Communication Services; sector strong-bar 10%)",
@@ -619,70 +429,5 @@
     "options": [
       "\u2192 O = 55.0 (trend-aligned)"
     ]
-  },
-  "hits": 3,
-  "horizon_views": {
-    "fundamentals": {
-      "short_term": {
-        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
-        "bullets": [
-          "<strong>Run-rate $56.31B</strong> in FY2026 Q1, +33.1% YoY \u2014 accelerating trajectory entering the next print.",
-          "<strong>Next-quarter consensus: $60.15B</strong> (+6.8% vs current Q) \u2014 set by 64 broker contributors.",
-          "<strong>EPS consensus next qtr: $7.20</strong> vs current $10.44.",
-          "<strong>Margin context: 47.5% net margin</strong> (40.6% op margin) \u2014 expansion likely.",
-          "<strong>Next earnings: 2026-07-29</strong> \u2014 primary catalyst for the short-term window."
-        ],
-        "takeaway": "Going into the next earnings print, the setup is constructive \u2014 consensus is achievable based on current run-rate."
-      },
-      "long_term": {
-        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
-        "bullets": [
-          "<strong>9-quarter run-rate CAGR: +24.3%</strong> \u2014 the secular trajectory the market is pricing.",
-          "<strong>FCF generation $13.2B/qtr</strong> funds long-term capital return optionality (buybacks/dividends/M&A).",
-          "<strong>Sector thesis (Communication Services):</strong> Ad spending normalization + AI-driven engagement reshaping the long-run growth profile."
-        ],
-        "takeaway": "Long-cycle thesis is intact if growth durability + margin expansion both hold."
-      }
-    },
-    "technicals": {
-      "short_term": {
-        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
-        "bullets": [
-          "<strong>Price $609.63 vs SMA50 $626.55</strong> (-2.7%) \u2014 short-term trend is bearish (price has lost the SMA50 line).",
-          "<strong>RSI(14): 28.0</strong> \u2014 oversold \u2014 possible bounce setup.",
-          "<strong>MACD: -4.35 vs signal 2.67</strong> \u2014 bearish crossover.",
-          "<strong>30-day return: +16.0%</strong> \u2014 directional bias entering the next 4 weeks.",
-          "<strong>Bollinger band position: 18%</strong> of band width (band width 18.8% \u2014 normal).",
-          "<strong>Near-term S/R:</strong> resistance ~$627.92, support ~$591.34. 32% of 52w range (low $520.26 \u2192 high $796.25)."
-        ],
-        "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
-      },
-      "long_term": {
-        "title": "Long-term view (90+ days \u00b7 positioning window)",
-        "bullets": [
-          "<strong>Price $609.63 vs SMA200 $675.87</strong> (-9.8%) \u2014 long-term trend is in **downtrend**.",
-          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
-          "<strong>1-year return: +1.9%</strong> \u2014 range-bound.",
-          "<strong>Drawdown from 52w high: -23.4%</strong> \u2014 correction territory",
-          "<strong>Cycle S/R:</strong> long-term resistance $796.25 (52w high), structural support $520.26 (52w low).",
-          "<strong>90-day return: -8.5%</strong> \u2014 intermediate-term weakness."
-        ],
-        "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
-      }
-    },
-    "options": {
-      "short_term": {
-        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
-      },
-      "long_term": {
-        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
-        "bullets": [
-          "<strong>Sell-side PT vs options-implied range:</strong> consensus $821 (+34.6% upside). Compare to the 90+ DTE implied range above."
-        ],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
-      }
-    }
   }
 }

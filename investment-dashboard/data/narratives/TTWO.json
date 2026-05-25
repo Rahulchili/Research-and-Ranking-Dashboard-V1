@@ -2,13 +2,17 @@
   "name": "Take-Two Interactive Software, Inc.",
   "stance": "CONSTRUCTIVE",
   "color": "mint",
-  "summary": "Take-Two Interactive Software, Inc. (TTWO, Communication Services) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2025 Q4: revenue $1.7B (+25.0% YoY). Valuation 42.0x forward P/E (+110% vs peers).",
+  "summary": "Take-Two Interactive Software, Inc. (TTWO, Communication Services) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2025 Q4: revenue $1.7B (+25.0% YoY). Valuation 42.0x forward P/E (+110% vs peers). Spot $227.55 (below 200-DMA).",
   "quotes": [],
   "bull": [
-    "Top-line momentum \u2014 revenue grew +25.0% YoY in FY2025 Q4 to $1.7B, with TTM revenue of $6.33B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab."
+    "<strong>Top-line momentum</strong> \u2014 revenue grew +25.0% YoY in FY2025 Q4 to $1.7B, with TTM revenue of $6.33B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "<strong>Range-positioning balanced</strong> \u2014 at 52% of the 52-week range ($189.69\u2013$262.29), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "<strong>Sell-side target points higher</strong> \u2014 consensus PT of $250 (vs spot $227.55) implies +9.9% upside. Cross-checked against the peer-median PE FY1 of 20.0x, the discount to fair value looks underwritten by both buy-side and sell-side.",
+    "<strong>Options market complacent</strong> \u2014 front-month implied move of just 5.0% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise \u2014 limited downside priced, full upside available."
   ],
   "bear": [
-    "Valuation premium \u2014 42.0x forward P/E vs peer median of 20.0x \u2014 a 110% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+    "<strong>Trend rolling over</strong> \u2014 spot $227.55 sits -1.9% relative to the 200-DMA ($231.89). The break-down of long-term trend often precedes earnings disappointment by 1\u20132 quarters as smart-money distribution leads the fundamental print.",
+    "<strong>Valuation premium</strong> \u2014 42.0x forward P/E vs peer median of 20.0x \u2014 a 110% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
   ],
   "trigger_up": [
     "Revenue growth re-accelerates above 28% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
@@ -16,7 +20,8 @@
   ],
   "trigger_down": [
     "Revenue growth decelerates below 22% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
-    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print."
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $189.69 \u2014 technical confirmation that the long-term trend has rolled over."
   ],
   "scoreboard": [
     {
@@ -32,8 +37,29 @@
       "latest": "42.0x (+110%)",
       "verdict": "Premium",
       "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$227.55 vs $231.89 (-1.9%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "52.5",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b15.0% by 2026-05-29",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
     }
   ],
-  "bottom_line": "CONSTRUCTIVE. Take-Two Interactive Software, Inc. (TTWO) printed $1.7B in revenue in FY2025 Q4 (+25.0% YoY). At 42.0x forward P/E, the stock carries a 110% premium to peers (20.0x median) \u2014 the multiple needs continued execution to defend.A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "bottom_line": "<p><strong>CONSTRUCTIVE.</strong> Take-Two Interactive Software, Inc. (TTWO) printed $1.7B in revenue in FY2025 Q4 (+25.0% YoY). At 42.0x forward P/E, the stock carries a 110% premium to peers (20.0x median) \u2014 the multiple needs continued execution to defend.</p><p>Technical regime is impaired: spot $227.55 below the 200-DMA ($231.89, -1.9%) \u2014 long-term trend has rolled over. Sell-side consensus PT of $250 implies +9.9% upside. The options market is pricing a \u00b15.0% move by the front-month expiry \u2014 a complacent read on near-term risk. 30-day implied move is \u00b110.2%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.</p>",
   "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
 }

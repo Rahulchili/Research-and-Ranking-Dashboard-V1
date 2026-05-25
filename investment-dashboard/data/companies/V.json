@@ -179,8 +179,7 @@
         "oi_q_M": 5938.0,
         "equity_M": 39729.0,
         "operating_margin_pct": 66.72,
-        "net_margin_pct": 54.74,
-        "roe_q_annualized_pct": 49.05
+        "net_margin_pct": 54.74
       },
       {
         "fy": 2024,
@@ -192,8 +191,7 @@
         "oi_q_M": 6234.0,
         "equity_M": 38296.0,
         "operating_margin_pct": 65.55,
-        "net_margin_pct": 53.83,
-        "roe_q_annualized_pct": 53.47
+        "net_margin_pct": 53.83
       },
       {
         "fy": 2025,
@@ -205,8 +203,7 @@
         "oi_q_M": 5435.0,
         "equity_M": 38030.0,
         "operating_margin_pct": 56.65,
-        "net_margin_pct": 47.71,
-        "roe_q_annualized_pct": 48.14
+        "net_margin_pct": 47.71
       },
       {
         "fy": 2025,
@@ -218,8 +215,7 @@
         "oi_q_M": 6177.0,
         "equity_M": 38664.0,
         "operating_margin_pct": 60.73,
-        "net_margin_pct": 51.83,
-        "roe_q_annualized_pct": 54.54
+        "net_margin_pct": 51.83
       },
       {
         "fy": 2025,
@@ -231,8 +227,7 @@
         "oi_q_M": 6737.0,
         "equity_M": 38777.0,
         "operating_margin_pct": 61.8,
-        "net_margin_pct": 53.69,
-        "roe_q_annualized_pct": 60.38
+        "net_margin_pct": 53.69
       },
       {
         "fy": 2026,
@@ -244,8 +239,7 @@
         "oi_q_M": 7234.0,
         "equity_M": 35661.0,
         "operating_margin_pct": 64.42,
-        "net_margin_pct": 53.62,
-        "roe_q_annualized_pct": 67.54
+        "net_margin_pct": 53.62
       }
     ],
     "summary": {
@@ -253,14 +247,7 @@
       "latest_revenue_b": 11.23,
       "latest_net_margin_pct": 53.62,
       "yoy_revenue_growth_pct": 17.1,
-      "ttm_revenue_b": 41.9,
-      "latest_operating_margin_pct": 64.42,
-      "latest_eps": 3.14,
-      "latest_roe_q_annualized_pct": 67.54,
-      "latest_equity_b": 35.66,
-      "latest_net_income_b": 6.02,
-      "n_quarters_in_series": 6,
-      "n_quarter_cagr_pct": 20.45
+      "ttm_revenue_b": 41.9
     },
     "_source": "htm filings (.htm parser)"
   },
@@ -386,73 +373,7 @@
     ]
   },
   "_generated_by": "add_ticker.py",
-  "_generated_at": "2026-05-22T15:38:07.916347Z",
-  "horizon_views": {
-    "fundamentals": {
-      "short_term": {
-        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
-        "bullets": [
-          "<strong>Run-rate $11.23B</strong> in FY2026 Q1, +17.1% YoY \u2014 accelerating trajectory entering the next print.",
-          "<strong>Next-quarter consensus: $12.27B</strong> (+9.2% vs current Q) \u2014 set by 25 broker contributors.",
-          "<strong>EPS consensus next qtr: $3.30</strong> vs current $3.14.",
-          "<strong>Margin context: 53.6% net margin</strong> (64.4% op margin) \u2014 expansion likely.",
-          "<strong>Next earnings: 2026-08-15</strong> \u2014 primary catalyst for the short-term window."
-        ],
-        "takeaway": "Going into the next earnings print, the setup is constructive \u2014 consensus is achievable based on current run-rate."
-      },
-      "long_term": {
-        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
-        "bullets": [
-          "<strong>TTM revenue $42B</strong> \u2014 in cyclical drawdown.",
-          "<strong>Sell-side: FY1 $49B \u2192 FY2 $52B</strong> (+7.0% multi-year top-line implied).",
-          "<strong>Forward EBIT margin: 35.0%</strong> \u2014 structural premium business over the long-cycle view.",
-          "<strong>6-quarter run-rate CAGR: +20.4%</strong> \u2014 the secular trajectory the market is pricing.",
-          "<strong>Sector thesis (Financials):</strong> Rate-cycle position + capital-return runway define the 1-3 year setup."
-        ],
-        "takeaway": "Long-cycle thesis is intact if growth durability + margin expansion both hold."
-      }
-    },
-    "technicals": {
-      "short_term": {
-        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
-        "bullets": [
-          "<strong>Price $323.86 vs SMA50 $311.58</strong> (+3.9%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
-          "<strong>RSI(14): 62.3</strong> \u2014 constructive momentum.",
-          "<strong>MACD: 3.54 vs signal 3.30</strong> \u2014 bullish crossover.",
-          "<strong>30-day return: +4.7%</strong> \u2014 directional bias entering the next 4 weeks.",
-          "<strong>Bollinger band position: 69%</strong> of band width (band width 9.8% \u2014 normal).",
-          "<strong>Near-term S/R:</strong> resistance ~$333.58, support ~$314.14. 36% of 52w range (low $295.52 \u2192 high $373.31)."
-        ],
-        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
-      },
-      "long_term": {
-        "title": "Long-term view (90+ days \u00b7 positioning window)",
-        "bullets": [
-          "<strong>Price $323.86 vs SMA200 $331.81</strong> (-2.4%) \u2014 long-term trend is in **neutral**.",
-          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
-          "<strong>1-year return: -7.8%</strong> \u2014 range-bound.",
-          "<strong>Drawdown from 52w high: -13.2%</strong> \u2014 mild pullback",
-          "<strong>Cycle S/R:</strong> long-term resistance $373.31 (52w high), structural support $295.52 (52w low).",
-          "<strong>90-day return: -0.1%</strong> \u2014 intermediate-term weakness."
-        ],
-        "takeaway": "Long-term positioning: distribute on strength \u2014 trend has rolled over."
-      }
-    },
-    "options": {
-      "short_term": {
-        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
-      },
-      "long_term": {
-        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
-        "bullets": [
-          "<strong>Sell-side PT vs options-implied range:</strong> consensus $325 (+0.4% upside). Compare to the 90+ DTE implied range above."
-        ],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
-      }
-    }
-  },
+  "_generated_at": "2026-05-25T00:34:18.516432Z",
   "lens_rationale": {
     "fundamentals": [
       "Revenue +17.1% YoY (strong for Financials; sector strong-bar 6%)",

@@ -385,7 +385,43 @@
     ]
   },
   "_generated_by": "add_ticker.py",
-  "_generated_at": "2026-05-24T22:01:15.019638Z",
+  "_generated_at": "2026-05-24T22:27:04.299800Z",
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue +18.7% YoY (strong for Information Technology; sector strong-bar 15%)",
+      "Net margin 22.8% (strong for Information Technology; sector strong-bar 18%)",
+      "Operating margin 29.3%",
+      "TTM revenue $6B",
+      "\u2192 F = 75.7 (sector-relative)"
+    ],
+    "management": [
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 50.0\u00d7 vs peer median 35.5\u00d7 (41% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
+      "FCF yield 2.2%",
+      "\u2192 V = 55"
+    ],
+    "technicals": [
+      "Spot $373.59 vs SMA200 $322.61 (+15.8%, bullish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 65.8 (neutral zone)",
+      "90-day return: +25.5%",
+      "1-year return: +17.6%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 72.0"
+    ],
+    "options": [
+      "Front-month ATM IV 50.3% (elevated)",
+      "P/C OI 0.97 (balanced)",
+      "ATM skew -1.03pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
+    ]
+  },
   "horizon_views": {
     "fundamentals": {
       "short_term": {
@@ -414,51 +450,53 @@
     "technicals": {
       "short_term": {
         "title": "Short-term view (0\u201330 days \u00b7 trading window)",
-        "bullets": [],
-        "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
+        "bullets": [
+          "<strong>Price $373.59 vs SMA50 $315.15</strong> (+18.5%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 65.8</strong> \u2014 constructive momentum.",
+          "<strong>MACD: 11.82 vs signal 12.53</strong> \u2014 bearish crossover.",
+          "<strong>30-day return: +12.2%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 98%</strong> of band width (band width 14.4% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$384.8, support ~$362.38. 100% of 52w range (low $265.66 \u2192 high $373.59)."
+        ],
+        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
       },
       "long_term": {
         "title": "Long-term view (90+ days \u00b7 positioning window)",
-        "bullets": [],
-        "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
+        "bullets": [
+          "<strong>Price $373.59 vs SMA200 $322.61</strong> (+15.8%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
+          "<strong>1-year return: +17.6%</strong> \u2014 compounder pace.",
+          "<strong>Drawdown from 52w high: 0.0%</strong> \u2014 near highs (breakout setup)",
+          "<strong>Cycle S/R:</strong> long-term resistance $373.59 (52w high), structural support $265.66 (52w low).",
+          "<strong>90-day return: +25.5%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
       }
     },
     "options": {
       "short_term": {
         "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+        "bullets": [
+          "<strong>Front-month ATM IV: 50.3%</strong> \u2014 elevated (premium-selling favored).",
+          "<strong>Put/Call OI: 0.97</strong> \u2014 balanced flow.",
+          "<strong>30-day implied move: \u00b111.8%</strong> ($329.57 \u2013 $417.61) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -1.03pp</strong> \u2014 call skew (upside bid \u2014 bullish positioning).",
+          "<strong>Front-month OI cluster: $375.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Bull call spread 30 DTE: long $374 / short $392</strong>. Mid IV (50%) + uptrend \u2192 defined-risk directional with reasonable cost basis."
       },
       "long_term": {
         "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 46.7%</strong> across 7 expiries.",
+          "<strong>Available long-dated expiries:</strong> 7 dates spanning 90\u2013608 DTE.",
+          "<strong>90-day implied move: \u00b122.9%</strong> ($287.93 \u2013 $459.25).",
+          "<strong>209-day implied move: \u00b135.9%</strong> ($239.65 \u2013 $507.53) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $340 (-9.0% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Flat term structure</strong> (-3.7pp) \u2014 no near-term event premium; long-dated vol fairly priced."
+        ],
+        "strategy": "<strong>Sell 6-month strangle: short $336 put / short $411 call</strong>. Range-bound + high IV \u2192 premium-selling on both sides; profits if spot stays within \u00b110%; manage with rolls or assignment."
       }
     }
-  },
-  "lens_rationale": {
-    "fundamentals": [
-      "Revenue +18.7% YoY (strong for Information Technology; sector strong-bar 15%)",
-      "Net margin 22.8% (strong for Information Technology; sector strong-bar 18%)",
-      "Operating margin 29.3%",
-      "TTM revenue $6B",
-      "\u2192 F = 75.7 (sector-relative)"
-    ],
-    "management": [
-      "MCS 0.44 (2B / 3H / 3M on 8 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 43.8"
-    ],
-    "valuation": [
-      "PE 50.0\u00d7 vs peer median 35.5\u00d7 (41% premium to peers)",
-      "FCF yield 2.2%",
-      "\u2192 V = 32"
-    ],
-    "technicals": [
-      "\u2192 T = 60.0"
-    ],
-    "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
-    ]
   }
 }

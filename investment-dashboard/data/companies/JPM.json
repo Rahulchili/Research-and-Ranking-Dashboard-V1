@@ -1,7 +1,7 @@
 {
   "ticker": "JPM",
-  "name": null,
-  "sector": null,
+  "name": "JPMorgan Chase & Co.",
+  "sector": "Financials",
   "industry": null,
   "n_claims": 8,
   "mcs_simple": 0.625,

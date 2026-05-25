@@ -1,93 +1,104 @@
 {
+  "name": "Meta Platforms, Inc.",
   "stance": "BULLISH",
   "color": "mint",
-  "summary": "Forward View: BULLISH on a 6–12-month horizon. Across nine consecutive earnings cycles, META management has delivered on essentially every quantified forward statement (8 closed revenue commitments → 6 beats, 2 in-line, 0 misses; MCS = 0.9589). Revenue YoY growth has re-accelerated from +16.1% (Q1 2025) to +1.7% (Q1 2026) while operating margin held at 40.62% (the clean signal — ex tax-event distortion) and reported net margin reached 47.54% (boosted by a partial OBBBA-tax reversal benefit). The AI-capex ramp is the principal risk to monitor — not a thesis-breaker on what we have today.",
+  "summary": "Meta Platforms, Inc. (META, Communication Services) \u2014 composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $56.31B (+33.1% YoY), net margin 47.5%. Spot $600.78 (below 200-DMA).",
   "quotes": [
     [
-      "Susan Li (CFO)",
-      "Q1 2026 call",
-      "We expect second quarter 2026 total revenue to be in the range of $58 billion to $61 billion."
+      "Management",
+      "META_ER_Q4_2025_28-JAN-2026.docx",
+      "Our vision is building personal super intelligence. We're starting to see the promise of AI that understands our personal context, including our history, our interests, our content and our relationships.",
+      "Why it matters \u2014 AI/data-center tailwind. Confirm capex pace and customer concentration."
     ],
     [
-      "Susan Li (CFO)",
-      "Q4 2025 call",
-      "Despite the meaningful step-up in infrastructure investment, in 2026, we expect to deliver operating income that is above 2025 operating income."
+      "Management",
+      "META_ER_Q4_2025_28-JAN-2026.docx",
+      "We will continue working with key partners while advancing our own silicon program. We're architecting our systems that we can be flexible in the systems that we use, and we expect the cost per gigawatt to decrease significantly over time through optimizing both our technology and supply chain.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
     ],
     [
-      "Mark Zuckerberg (CEO)",
-      "Q4 2025 call",
-      "I expect 2026 to be a year where this wave accelerates even further on several fronts. We're starting to see agents really work."
+      "Management",
+      "META_ER_Q4_2025_28-JAN-2026.docx",
+      "Turning to 2026. We see a lot of opportunity to drive additional gains.",
+      "Why it matters \u2014 AI/data-center tailwind. Confirm capex pace and customer concentration."
     ],
     [
-      "Susan Li (CFO)",
-      "Q1 2026 call",
-      "We anticipate 2026 capital expenditures including principal payments on finance leases to be in the range of $125 billion to $145 billion."
+      "Management",
+      "META_ER_Q4_2025_28-JAN-2026.docx",
+      "Beyond improvements to our recommendation systems, we expect to use the models developed by Meta Superintelligence Labs to deliver compelling and differentiated AI products. One area we're already seeing promise is with AI dubbing of videos into local languages.",
+      "Why it matters \u2014 forward guidance. Compare to actual next-quarter print to track management credibility (MCS)."
+    ],
+    [
+      "Management",
+      "META_ER_Q4_2025_28-JAN-2026.docx",
+      "We are also seeing strong traction with our media creation tools. Nearly 10% of the reels people view each day are now created in our Edits app, almost tripling from last quarter.",
+      "Why it matters \u2014 strategic context. Cross-reference against the fundamentals and trigger lists."
+    ],
+    [
+      "Management",
+      "META_ER_Q4_2025_28-JAN-2026.docx",
+      "Here, our focus remains on tuning our systems to identify the right time and place to deliver ads. In some cases, this enables us to grow the overall level of ad load while preserving the user experience.",
+      "Why it matters \u2014 AI/data-center tailwind. Confirm capex pace and customer concentration."
     ]
   ],
   "bull": [
-    "Revenue growth re-accelerating, not slowing. YoY trajectory: +16.1% → +21.6% → +26.2% → +23.8% → +1.7% across the last five reported quarters. Q1 2026 ($56.31B) is the strongest YoY print in the entire dataset.",
-    "Operating leverage intact despite the AI build. Q1 2026 operating margin 40.62% (clean signal — ex tax-event distortion); net margin 47.54% reported (boosted by a partial reversal of the Q3 2025 OBBBA tax charge). Management explicitly committed that 2026 operating income will exceed 2025; the Q1 2026 print already supports that path.",
-    "Forward-guidance accuracy is exceptional. 8 closed quarters: 6 beats, 2 in-line, 0 revenue misses; MCS = 0.9589. The two FY-level miss line items (FY 2025 capex initial outlook and FY 2025 tax rate) trace to a single 2024-Q4 call and have well-documented explanations.",
-    "Strategic milestones landing: Llama 3 / 4 cadence on schedule, Meta AI past the 1B-user threshold management committed to, AI ad-creative tools deployed broadly, and server-life policy extension delivering structural opex savings."
+    "<strong>Top-line momentum</strong> \u2014 revenue grew +33.1% YoY in FY2026 Q1 to $56.31B, with TTM revenue of $214.96B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "<strong>Profitability premium</strong> \u2014 net margin of 47.5% in the latest quarter sits well above the cross-sector ~10\u201315% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "<strong>Margin trajectory</strong> \u2014 net margin expanded +13.6pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "<strong>Range-positioning balanced</strong> \u2014 at 28% of the 52-week range ($525.72\u2013$790.00), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "<strong>Options market complacent</strong> \u2014 front-month implied move of just 1.7% suggests the market is not pricing in a binary outcome at the next print. Asymmetric setup if the company delivers a positive surprise \u2014 limited downside priced, full upside available."
   ],
   "bear": [
-    "Capex magnitude is unprecedented for META. FY capex: $37.3B → $69.7B → $125–145B (2024 → 2025 → 2026 guide). The 2026 midpoint is roughly 3.6× the 2024 figure. ROI on AI infrastructure at this scale is the single biggest open question.",
-    "Market is voicing skepticism. 5-day post-earnings reactions on the last two calls were −15.40% (Q3 2025) and 1-day −8.55% (Q1 2026). Sell-offs of this magnitude on quarters that beat revenue indicate investors are repricing the capex outlook, not the operating fundamentals.",
-    "Multi-year strategic claims are unverified. Reality Labs \"peak losses in 2025,\" AI-coding-agent capability by mid-late 2026, and Threads' 1B-user trajectory all remain pending. None contradict the bull case, but they extend the credibility tail."
+    "<strong>Trend rolling over</strong> \u2014 spot $600.78 sits -11.0% relative to the 200-DMA ($675.30). The break-down of long-term trend often precedes earnings disappointment by 1\u20132 quarters as smart-money distribution leads the fundamental print."
   ],
-  "trigger_up": "Two consecutive prints in line with or above guide AND FY 2026 operating income tracking above FY 2025 (per management's own commitment), with capex held at or below the current $125–145B range.",
-  "trigger_down": "Q2 or Q3 2026 revenue growth decelerating below +20% YoY without clear AI-monetization milestones, OR FY 2026 capex raised above $145B without a corresponding revenue/efficiency offset, OR the 2026 operating-income > 2025 commitment walked back.",
+  "trigger_up": [
+    "Revenue growth re-accelerates above 36% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Net margin expands above 49.0% \u2014 confirms pricing power and/or cost discipline thesis.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+  ],
+  "trigger_down": [
+    "Revenue growth decelerates below 30% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Net margin compresses below 45.5% \u2014 flags either input-cost pressure or competitive dynamics shifting unfavorably.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $525.72 \u2014 technical confirmation that the long-term trend has rolled over."
+  ],
   "scoreboard": [
     {
-      "metric": "Revenue (next-quarter guide vs actual)",
-      "baseline": "$36.5–39.0B → $39.07B (+3.5%)",
-      "latest": "$58–61B guide (Q2 2026 pending)",
-      "verdict": "Accelerating beats",
+      "metric": "Revenue YoY growth",
+      "baseline": "Sector ~5\u20138%",
+      "latest": "+33.1% in FY2026 Q1",
+      "verdict": "Strong",
       "verdict_color": "mint"
     },
     {
-      "metric": "Quarterly revenue (YoY)",
-      "baseline": "$36.46B (+27% YoY)",
-      "latest": "$56.31B (+1.7% YoY)",
-      "verdict": "Growth re-accelerating",
+      "metric": "Net margin",
+      "baseline": "Cross-sector 10\u201315%",
+      "latest": "47.5%",
+      "verdict": "Strong",
       "verdict_color": "mint"
     },
     {
-      "metric": "Net margin (reported)",
-      "baseline": "33.93% (Q1 2024)",
-      "latest": "47.54% (Q1 2026 — tax-benefit boosted)",
-      "verdict": "Expanding",
-      "verdict_color": "mint"
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$600.78 vs $675.30 (-11.0%)",
+      "verdict": "Below",
+      "verdict_color": "crimson"
     },
     {
-      "metric": "Diluted EPS (single-quarter)",
-      "baseline": "$5.18 (Q1 2024 actual)",
-      "latest": "$10.44 (+62.4% YoY vs Q1 2025 $6.43)",
-      "verdict": "Compounding",
-      "verdict_color": "mint"
-    },
-    {
-      "metric": "Management Credibility Score",
-      "baseline": "—",
-      "latest": "0.9589 (8 beats / 0 revenue misses)",
-      "verdict": "Top-tier execution",
-      "verdict_color": "mint"
-    },
-    {
-      "metric": "FY capex (annual)",
-      "baseline": "$37.3B (2024)",
-      "latest": "$125–145B (2026 guide)",
-      "verdict": "3.6× ramp — risk to monitor",
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "26.7",
+      "verdict": "Oversold",
       "verdict_color": "amber"
     },
     {
-      "metric": "Avg post-earnings 5-day reaction (last 2 calls)",
-      "baseline": "Mixed (early period)",
-      "latest": "−2.0% trailing two calls",
-      "verdict": "Market wary on capex",
-      "verdict_color": "crimson"
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b11.7% by 2026-05-11",
+      "verdict": "Low IV",
+      "verdict_color": "mint"
     }
   ],
-  "bottom_line": "Across nine consecutive earnings cycles, META management has delivered on essentially every forward statement they've quantified. Revenue growth is accelerating, margins are expanding to dataset highs, and the company is funding the largest AI infrastructure build in its history out of operating cash flow without compromising profit growth. The market's recent post-earnings selling reflects valuation-and-capex anxiety more than any fundamental deterioration visible in the data.",
-  "disclaimer": "This is an analytical synthesis of the disclosed data on file in this project, not a buy/sell recommendation or personalized investment advice. Forecasts are inherently uncertain. Consult a licensed financial advisor before making investment decisions."
+  "bottom_line": "<p><strong>BULLISH.</strong> Meta Platforms, Inc. (META) printed $56.31B in revenue in FY2026 Q1 (+33.1% YoY), net margin of 47.5%.</p><p>Technical regime is impaired: spot $600.78 below the 200-DMA ($675.30, -11.0%) \u2014 long-term trend has rolled over. The options market is pricing a \u00b11.7% move by the front-month expiry \u2014 a complacent read on near-term risk. 30-day implied move is \u00b18.2%; 90-day is \u00b119.4%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.</p>",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
 }

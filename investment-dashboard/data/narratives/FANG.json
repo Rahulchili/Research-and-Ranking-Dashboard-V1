@@ -1,14 +1,15 @@
 {
   "name": "Diamondback Energy, Inc.",
-  "stance": "NEUTRAL / WATCH",
-  "color": "amber",
-  "summary": "Diamondback Energy, Inc. (FANG, Energy) \u2014 composite stance NEUTRAL / WATCH. Latest reported quarter FY2026 Q1: revenue $4.24B (+4.7% YoY). Valuation 9.5x forward P/E (-10% vs peers).",
+  "stance": "CONSTRUCTIVE",
+  "color": "mint",
+  "summary": "Diamondback Energy, Inc. (FANG, Energy) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $4.24B (+4.7% YoY). Valuation 9.5x forward P/E (-10% vs peers). Spot $200.71 (above 200-DMA).",
   "quotes": [],
   "bull": [
-    "Stable growth profile \u2014 revenue at +4.7% YoY in FY2026 Q1 (TTM $15.22B). Not a hyper-growth story but the durability of the print \u2014 combined with the cash-flow profile \u2014 supports a value-with-modest-growth thesis."
+    "<strong>Stable growth profile</strong> \u2014 revenue at +4.7% YoY in FY2026 Q1 (TTM $15.22B). Not a hyper-growth story but the durability of the print \u2014 combined with the cash-flow profile \u2014 supports a value-with-modest-growth thesis.",
+    "<strong>Trend regime constructive</strong> \u2014 spot $200.71 sits +23.8% above the 200-DMA ($162.15). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
   ],
   "bear": [
-    "Risk-symmetry \u2014 the extracted dataset doesn't flag obvious red lines at this snapshot. Watch sector beta exposure, regulatory headlines, and any acceleration of capex without commensurate revenue follow-through."
+    "<strong>Options market pricing risk</strong> \u2014 front-month implied move of 10.4% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
   ],
   "trigger_up": [
     "Revenue growth re-accelerates above 8% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
@@ -16,7 +17,8 @@
   ],
   "trigger_down": [
     "Revenue growth decelerates below 2% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
-    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print."
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $134.53 \u2014 technical confirmation that the long-term trend has rolled over."
   ],
   "scoreboard": [
     {
@@ -32,8 +34,29 @@
       "latest": "9.5x (-10%)",
       "verdict": "Fair",
       "verdict_color": "mint"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$200.71 vs $162.15 (+23.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "37.7",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b110.4% by 2026-06-18",
+      "verdict": "Elevated",
+      "verdict_color": "crimson"
     }
   ],
-  "bottom_line": "NEUTRAL / WATCH. Diamondback Energy, Inc. (FANG) printed $4.24B in revenue in FY2026 Q1 (+4.7% YoY). Trading at 9.5x forward P/E versus peer median of 10.5x \u2014 broadly in line with the group.Stay on the watchlist; wait for either a fundamental inflection (acceleration or margin expansion) or a valuation reset before initiating.",
+  "bottom_line": "<p><strong>CONSTRUCTIVE.</strong> Diamondback Energy, Inc. (FANG) printed $4.24B in revenue in FY2026 Q1 (+4.7% YoY). Trading at 9.5x forward P/E versus peer median of 10.5x \u2014 broadly in line with the group.</p><p>Technical regime is constructive: spot $200.71 above the 200-DMA ($162.15, +23.8%) with neutral momentum (RSI 38). Sell-side consensus PT of $170 implies -15.3% upside. The options market is pricing a \u00b110.4% move by the front-month expiry \u2014 elevated, reflecting binary-event hedging. 30-day implied move is \u00b110.4%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.</p>",
   "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
 }

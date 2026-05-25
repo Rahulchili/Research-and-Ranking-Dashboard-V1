@@ -2,28 +2,35 @@
   "name": "AstraZeneca plc",
   "stance": "CONSTRUCTIVE",
   "color": "mint",
-  "summary": "AstraZeneca plc (AZN, Health Care) — composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q2: revenue $15.29B (+12.5% YoY). Valuation 16.5x forward P/E (+24% vs peers). Spot $184.96 (above 200-DMA).",
+  "summary": "AstraZeneca plc (AZN, Health Care) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q2: revenue $15.29B (+12.5% YoY). Valuation 16.5x forward P/E (+24% vs peers). Spot $184.96 (above 200-DMA).",
   "quotes": [],
   "bull": [
-    "Top-line momentum — revenue grew +12.5% YoY in FY2026 Q2 to $15.29B, with TTM revenue of $117.27B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
-    "Range-positioning balanced — at 68% of the 52-week range ($132.46–$209.48), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable."
+    "Top-line momentum \u2014 revenue grew +12.5% YoY in FY2026 Q2 to $15.29B, with TTM revenue of $117.27B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "Range-positioning balanced \u2014 at 68% of the 52-week range ($132.46\u2013$209.48), the setup is neither at a momentum-exhaustion ceiling nor at a capitulation floor. Risk/reward into the next catalyst window screens reasonable.",
+    "Pipeline breadth \u2014 AZN's oncology + cardiovascular + immunology portfolio diversifies revenue across multiple therapeutic areas, reducing single-product concentration risk that has hurt large-pharma peers facing patent cliffs.",
+    "Operating scale + R&D leverage \u2014 TTM revenue $117.27B supports the ~$10B+ annual R&D budget needed for late-stage trial readouts; smaller-cap biopharma peers cannot match this innovation cadence.",
+    "Capital return discipline \u2014 capex $0.55B/qtr on $15.29B revenue (3.6% intensity) leaves substantial FCF for dividend + buyback, supporting the defensive yield profile."
   ],
   "bear": [
-    "Options market pricing risk — front-month implied move of 8.5% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong."
+    "Options market pricing risk \u2014 front-month implied move of 8.5% reflects the buy-side hedging earnings/macro tail-risk. The premium is real and historically has been right more often than wrong.",
+    "Stock target gap \u2014 sell-side PT $85 vs spot $184.96 implies -54% downside. Either consensus has not caught up to recent fundamental strength OR analysts are pricing material risk (LOE cliffs, China exposure, or pipeline trial readout uncertainty).",
+    "Valuation premium \u2014 16.5x FY1 P/E vs peer median 13.3x = 24% premium; in pharma the premium typically compresses on either a guide-down or a phase-3 trial failure.",
+    "Pricing/policy risk \u2014 IRA Medicare drug-pricing negotiations + ex-US reference pricing pressures gross-to-net dynamics over the next 2-3 years. Pharma sector at structural multiple compression risk if Washington dynamics shift.",
+    "China exposure \u2014 AZN has meaningful China revenue at risk from VBP procurement and geopolitical tensions; recent peer reports show oncology pricing pressure in the region."
   ],
   "trigger_up": [
-    "Revenue growth re-accelerates above 16% YoY on next print — confirms the demand environment hasn't degraded into the back half.",
-    "Management raises FY guide on next quarterly call — direct upward revision to consensus."
+    "Revenue growth re-accelerates above 16% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
   ],
   "trigger_down": [
-    "Revenue growth decelerates below 10% YoY — signals demand has materially softened versus the latest disclosed run-rate.",
-    "Management cuts FY guide on next quarterly call — direct downward revision; historically sees 5–15% drawdown on print.",
-    "Decisive break below the 52-week low at $132.46 — technical confirmation that the long-term trend has rolled over."
+    "Revenue growth decelerates below 10% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $132.46 \u2014 technical confirmation that the long-term trend has rolled over."
   ],
   "scoreboard": [
     {
       "metric": "Revenue YoY growth",
-      "baseline": "Sector ~5–8%",
+      "baseline": "Sector ~5\u20138%",
       "latest": "+12.5% in FY2026 Q2",
       "verdict": "OK",
       "verdict_color": "amber"
@@ -52,11 +59,39 @@
     {
       "metric": "Front-month implied move",
       "baseline": "Median ~5%",
-      "latest": "±8.5% by 2026-06-18",
+      "latest": "\u00b18.5% by 2026-06-18",
       "verdict": "Elevated",
+      "verdict_color": "crimson"
+    },
+    {
+      "metric": "Operating scale (TTM revenue)",
+      "baseline": "Peer median ~$50B",
+      "latest": "$117.27B",
+      "verdict": "Scale advantage",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Gross margin",
+      "baseline": "Pharma 70-80%",
+      "latest": "82.5%",
+      "verdict": "Above peers",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Capex intensity",
+      "baseline": "Pharma 4-6%",
+      "latest": "3.6%",
+      "verdict": "Disciplined",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Sell-side PT vs spot",
+      "baseline": "Consensus catch-up",
+      "latest": "$85 PT vs $184.96 spot (-54%)",
+      "verdict": "Disconnect",
       "verdict_color": "crimson"
     }
   ],
-  "bottom_line": "CONSTRUCTIVE. AstraZeneca plc (AZN) printed $15.29B in revenue in FY2026 Q2 (+12.5% YoY). At 16.5x forward P/E, the stock carries a 24% premium to peers (13.3x median) — the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $184.96 above the 200-DMA ($179.13, +3.3%) with neutral momentum (RSI 42). Sell-side consensus PT of $85 implies -54.0% upside. The options market is pricing a ±8.5% move by the front-month expiry — consistent with historical realized vol. 30-day implied move is ±8.5%. A constructive view with limited near-term catalysts — set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
-  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents — please cross-reference the source filings on EDGAR for compliance-grade verification."
+  "bottom_line": "CONSTRUCTIVE. AstraZeneca plc (AZN) printed $15.29B in revenue in FY2026 Q2 (+12.5% YoY). At 16.5x forward P/E, the stock carries a 24% premium to peers (13.3x median) \u2014 the multiple needs continued execution to defend.\n\nTechnical regime is constructive: spot $184.96 above the 200-DMA ($179.13, +3.3%) with neutral momentum (RSI 42). Sell-side consensus PT of $85 implies -54.0% upside. The options market is pricing a \u00b18.5% move by the front-month expiry \u2014 consistent with historical realized vol. 30-day implied move is \u00b18.5%. A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
 }

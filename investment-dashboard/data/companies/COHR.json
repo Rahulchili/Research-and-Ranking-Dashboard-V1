@@ -19,14 +19,14 @@
       "quarter_made": "FY2025 Q4",
       "target_quarter": "FY2026 Q1",
       "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
-      "source_quote": "Consensus implied ~$2045.94B (range $1984.56\u2013$2107.31B) based on prior quarter $1685.63B + trailing growth of +21.4% Q/Q.",
-      "guide_low_M": 1984557.57,
-      "guide_high_M": 2107313.71,
-      "guide_mid_b": 2045.936,
-      "guided": "$1984.56\u20132107.31B",
-      "actual": "$1805.64B",
-      "actual_b": 1805.641,
-      "pct": -11.74,
+      "source_quote": "Consensus implied ~$2.05B (range $1.98\u2013$2.11B) based on prior quarter $1.69B + trailing growth of +21.4% Q/Q.",
+      "guide_low_M": 1984.56,
+      "guide_high_M": 2107.32,
+      "guide_mid_b": 2.046,
+      "guided": "$1.98\u20132.11B",
+      "actual": "$1.81B",
+      "actual_b": 1.806,
+      "pct": -11.75,
       "verdict": "Miss (below range)",
       "accuracy": 0,
       "bms": "M",
@@ -38,13 +38,13 @@
       "quarter_made": "FY2025 Q3",
       "target_quarter": "FY2025 Q4",
       "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
-      "source_quote": "Consensus implied ~$1919.40B (range $1861.82\u2013$1976.98B) based on prior quarter $1581.38B + trailing growth of +21.4% Q/Q.",
-      "guide_low_M": 1861818.75,
-      "guide_high_M": 1976982.8,
-      "guide_mid_b": 1919.401,
-      "guided": "$1861.82\u20131976.98B",
-      "actual": "$1685.63B",
-      "actual_b": 1685.629,
+      "source_quote": "Consensus implied ~$1.92B (range $1.86\u2013$1.98B) based on prior quarter $1.58B + trailing growth of +21.4% Q/Q.",
+      "guide_low_M": 1861.82,
+      "guide_high_M": 1976.99,
+      "guide_mid_b": 1.919,
+      "guided": "$1.86\u20131.98B",
+      "actual": "$1.69B",
+      "actual_b": 1.686,
       "pct": -12.18,
       "verdict": "Miss (below range)",
       "accuracy": 0,
@@ -57,13 +57,13 @@
       "quarter_made": "FY2025 Q1",
       "target_quarter": "FY2025 Q3",
       "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
-      "source_quote": "Consensus implied ~$1089.12B (range $1056.45\u2013$1121.79B) based on prior quarter $897.32B + trailing growth of +21.4% Q/Q.",
-      "guide_low_M": 1056446.73,
-      "guide_high_M": 1121793.95,
-      "guide_mid_b": 1089.12,
-      "guided": "$1056.45\u20131121.79B",
-      "actual": "$1581.38B",
-      "actual_b": 1581.378,
+      "source_quote": "Consensus implied ~$1.09B (range $1.06\u2013$1.12B) based on prior quarter $0.90B + trailing growth of +21.4% Q/Q.",
+      "guide_low_M": 1056.45,
+      "guide_high_M": 1121.8,
+      "guide_mid_b": 1.089,
+      "guided": "$1.06\u20131.12B",
+      "actual": "$1.58B",
+      "actual_b": 1.581,
       "pct": 45.2,
       "verdict": "Beat (above range)",
       "accuracy": 0,
@@ -76,13 +76,13 @@
       "quarter_made": "FY2024 Q4",
       "target_quarter": "FY2025 Q1",
       "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
-      "source_quote": "Consensus implied ~$990.32B (range $960.61\u2013$1020.03B) based on prior quarter $815.91B + trailing growth of +21.4% Q/Q.",
-      "guide_low_M": 960606.59,
-      "guide_high_M": 1020025.55,
-      "guide_mid_b": 990.316,
-      "guided": "$960.61\u20131020.03B",
-      "actual": "$897.32B",
-      "actual_b": 897.317,
+      "source_quote": "Consensus implied ~$0.99B (range $0.96\u2013$1.02B) based on prior quarter $0.82B + trailing growth of +21.4% Q/Q.",
+      "guide_low_M": 960.6,
+      "guide_high_M": 1020.02,
+      "guide_mid_b": 0.99,
+      "guided": "$0.96\u20131.02B",
+      "actual": "$0.90B",
+      "actual_b": 0.897,
       "pct": -9.39,
       "verdict": "Miss (below range)",
       "accuracy": 0.061,
@@ -95,13 +95,13 @@
       "quarter_made": "FY2024 Q3",
       "target_quarter": "FY2024 Q4",
       "source_file": "consensus-implied (prior-quarter \u00d7 trailing growth)",
-      "source_quote": "Consensus implied ~$925.94B (range $898.16\u2013$953.72B) based on prior quarter $762.87B + trailing growth of +21.4% Q/Q.",
-      "guide_low_M": 898159.32,
-      "guide_high_M": 953715.57,
-      "guide_mid_b": 925.937,
-      "guided": "$898.16\u2013953.72B",
-      "actual": "$815.91B",
-      "actual_b": 815.913,
+      "source_quote": "Consensus implied ~$0.93B (range $0.90\u2013$0.95B) based on prior quarter $0.76B + trailing growth of +21.4% Q/Q.",
+      "guide_low_M": 898.16,
+      "guide_high_M": 953.71,
+      "guide_mid_b": 0.926,
+      "guided": "$0.90\u20130.95B",
+      "actual": "$0.82B",
+      "actual_b": 0.816,
       "pct": -11.88,
       "verdict": "Miss (below range)",
       "accuracy": 0,
@@ -135,63 +135,64 @@
         "fy": 2024,
         "fq": 3,
         "_source": "COHR_10-Q_2024-09-30.htm",
-        "rev_q_M": 762872.0,
-        "ocf_q_M": 152980.0,
-        "equity_M": 5871994.0
+        "rev_q_M": 762.87,
+        "ocf_q_M": 152.98,
+        "equity_M": 5871.99
       },
       {
         "fy": 2024,
         "fq": 4,
         "_source": "COHR_10-Q_2024-12-31.htm",
-        "rev_q_M": 815913.0,
-        "ocf_q_M": 340359.0,
-        "equity_M": 5536347.0
+        "rev_q_M": 815.91,
+        "ocf_q_M": 340.36,
+        "equity_M": 5536.35
       },
       {
         "fy": 2025,
         "fq": 1,
         "_source": "COHR_10-Q_2025-03-31.htm",
-        "rev_q_M": 897317.0,
-        "ocf_q_M": 503316.0,
-        "equity_M": 5707229.0
+        "rev_q_M": 897.32,
+        "ocf_q_M": 503.32,
+        "equity_M": 5707.23
       },
       {
         "fy": 2025,
         "fq": 3,
         "_source": "COHR_10-Q_2025-09-30.htm",
-        "rev_q_M": 1581378.0,
-        "ocf_q_M": 45955.0,
-        "equity_M": 6182113.0
+        "rev_q_M": 1581.38,
+        "ocf_q_M": 45.95,
+        "equity_M": 6182.11
       },
       {
         "fy": 2025,
         "fq": 4,
         "_source": "COHR_10-Q_2025-12-31.htm",
-        "rev_q_M": 1685629.0,
+        "rev_q_M": 1685.63,
         "eps": 0.76,
-        "ocf_q_M": 103855.0,
-        "equity_M": 8888284.0
+        "ocf_q_M": 103.86,
+        "equity_M": 8888.28
       },
       {
         "fy": 2026,
         "fq": 1,
         "_source": "COHR_10-Q_2026-03-31.htm",
-        "rev_q_M": 1805641.0,
+        "rev_q_M": 1805.64,
         "eps": 2.92,
-        "ocf_q_M": 10058.0,
-        "equity_M": 11015686.0
+        "ocf_q_M": 10.06,
+        "equity_M": 11015.69
       }
     ],
     "summary": {
       "latest_quarter": "FY2026 Q1",
-      "latest_revenue_b": 1805.64,
-      "yoy_revenue_growth_pct": 101.2,
-      "ttm_revenue_b": 5969.97,
+      "latest_revenue_b": 1.806,
+      "yoy_revenue_growth_pct": null,
+      "ttm_revenue_b": 5.97,
       "latest_eps": 2.92,
-      "latest_ocf_b": 10.06,
-      "latest_equity_b": 11015.69,
+      "latest_ocf_b": 0.01,
+      "latest_equity_b": 11.016,
       "n_quarters_in_series": 6,
-      "n_quarter_cagr_pct": 99.22
+      "n_quarter_cagr_pct": 99.22,
+      "_yoy_supressed_note": "Legacy XBRL extraction mixed cumulative YTD with quarterly values; YoY suppressed to avoid misleading display."
     },
     "_source": "htm filings (.htm parser)",
     "risk_factors": {
@@ -220,11 +221,11 @@
         "line_items": [
           {
             "metric": "Revenue (quarterly run-rate)",
-            "guide_mid_b": 2045.936,
-            "actual_b": 1805.641,
-            "delta_vs_mid_pct": -11.74,
+            "guide_mid_b": 2.046,
+            "actual_b": 1.806,
+            "delta_vs_mid_pct": -11.75,
             "verdict": "Miss (below range)",
-            "guide_quote": "Consensus implied ~$2045.94B (range $1984.56\u2013$2107.31B) based on prior quarter $1685.63B + trailing growth of +21.4% Q/Q."
+            "guide_quote": "Consensus implied ~$2.05B (range $1.98\u2013$2.11B) based on prior quarter $1.69B + trailing growth of +21.4% Q/Q."
           }
         ]
       },
@@ -234,11 +235,11 @@
         "line_items": [
           {
             "metric": "Revenue (quarterly run-rate)",
-            "guide_mid_b": 1919.401,
-            "actual_b": 1685.629,
+            "guide_mid_b": 1.919,
+            "actual_b": 1.686,
             "delta_vs_mid_pct": -12.18,
             "verdict": "Miss (below range)",
-            "guide_quote": "Consensus implied ~$1919.40B (range $1861.82\u2013$1976.98B) based on prior quarter $1581.38B + trailing growth of +21.4% Q/Q."
+            "guide_quote": "Consensus implied ~$1.92B (range $1.86\u2013$1.98B) based on prior quarter $1.58B + trailing growth of +21.4% Q/Q."
           }
         ]
       },
@@ -248,11 +249,11 @@
         "line_items": [
           {
             "metric": "Revenue (quarterly run-rate)",
-            "guide_mid_b": 1089.12,
-            "actual_b": 1581.378,
+            "guide_mid_b": 1.089,
+            "actual_b": 1.581,
             "delta_vs_mid_pct": 45.2,
             "verdict": "Beat (above range)",
-            "guide_quote": "Consensus implied ~$1089.12B (range $1056.45\u2013$1121.79B) based on prior quarter $897.32B + trailing growth of +21.4% Q/Q."
+            "guide_quote": "Consensus implied ~$1.09B (range $1.06\u2013$1.12B) based on prior quarter $0.90B + trailing growth of +21.4% Q/Q."
           }
         ]
       },
@@ -262,11 +263,11 @@
         "line_items": [
           {
             "metric": "Revenue (quarterly run-rate)",
-            "guide_mid_b": 990.316,
-            "actual_b": 897.317,
+            "guide_mid_b": 0.99,
+            "actual_b": 0.897,
             "delta_vs_mid_pct": -9.39,
             "verdict": "Miss (below range)",
-            "guide_quote": "Consensus implied ~$990.32B (range $960.61\u2013$1020.03B) based on prior quarter $815.91B + trailing growth of +21.4% Q/Q."
+            "guide_quote": "Consensus implied ~$0.99B (range $0.96\u2013$1.02B) based on prior quarter $0.82B + trailing growth of +21.4% Q/Q."
           }
         ]
       },
@@ -276,11 +277,11 @@
         "line_items": [
           {
             "metric": "Revenue (quarterly run-rate)",
-            "guide_mid_b": 925.937,
-            "actual_b": 815.913,
+            "guide_mid_b": 0.926,
+            "actual_b": 0.816,
             "delta_vs_mid_pct": -11.88,
             "verdict": "Miss (below range)",
-            "guide_quote": "Consensus implied ~$925.94B (range $898.16\u2013$953.72B) based on prior quarter $762.87B + trailing growth of +21.4% Q/Q."
+            "guide_quote": "Consensus implied ~$0.93B (range $0.90\u2013$0.95B) based on prior quarter $0.76B + trailing growth of +21.4% Q/Q."
           }
         ]
       },

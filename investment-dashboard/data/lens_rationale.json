@@ -596,20 +596,31 @@
       "\u2192 F = 75.7 (sector-relative)"
     ],
     "management": [
-      "MCS 0.44 (2B / 3H / 3M on 8 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 43.8"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 50.0\u00d7 vs peer median 35.5\u00d7 (41% premium to peers)",
+      "\u2713 Quality-premium pattern: high PE + above 200-DMA + >4% growth + +10% 1Y",
+      "  \u2192 V floored at 55 (premium deserved by defensive cash flow)",
       "FCF yield 2.2%",
-      "\u2192 V = 32"
+      "\u2192 V = 55"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $373.59 vs SMA200 $322.61 (+15.8%, bullish trend)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 65.8 (neutral zone)",
+      "90-day return: +25.5%",
+      "1-year return: +17.6%",
+      "Drawdown from 52w high: 0.0%",
+      "\u2192 T = 72.0"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 50.3% (elevated)",
+      "P/C OI 0.97 (balanced)",
+      "ATM skew -1.03pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
     ]
   },
   "CEG": {
@@ -996,9 +1007,9 @@
       "\u2192 F = 56.8 (sector-relative)"
     ],
     "management": [
-      "MCS 0.33 (2B / 0H / 4M on 6 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 33.3"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 9.5\u00d7 vs peer median 10.5\u00d7 (10% discount to peers)",
@@ -1007,10 +1018,19 @@
       "\u2192 V = 69"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $200.71 vs SMA200 $162.15 (+23.8%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 37.7 (neutral zone)",
+      "90-day return: +20.2%",
+      "1-year return: +47.2%",
+      "Drawdown from 52w high: -6.1%",
+      "\u2192 T = 74.7"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 39.0% (normal)",
+      "P/C OI 0.64 (call-heavy) \u2014 genuine bullish positioning (trend confirms)",
+      "ATM skew -1.24pp (call skew)",
+      "\u2192 O = 70.4 (trend-aligned)"
     ]
   },
   "FDX": {
@@ -1665,9 +1685,9 @@
       "\u2192 F = 44.8 (sector-relative)"
     ],
     "management": [
-      "MCS 0.69 (5B / 1H / 2M on 8 tracked forward claims)",
-      "Track record: average",
-      "\u2192 M = 68.8"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 24.0\u00d7 vs peer median 24.0\u00d7 (0% premium to peers)",
@@ -1676,10 +1696,19 @@
       "\u2192 V = 68"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $93.43 vs SMA200 $69.93 (+33.6%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 46.5 (neutral zone)",
+      "90-day return: +24.6%",
+      "1-year return: +57.7%",
+      "Drawdown from 52w high: -9.2%",
+      "\u2192 T = 78.9"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 47.3% (elevated)",
+      "P/C OI 0.79 (balanced)",
+      "ATM skew -0.36pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
     ]
   },
   "MDB": {
@@ -2720,9 +2749,9 @@
       "\u2192 F = 90.0 (sector-relative)"
     ],
     "management": [
-      "MCS 0.40 (2B / 0H / 3M on 5 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 40.0"
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
     ],
     "valuation": [
       "PE 42.0\u00d7 vs peer median 20.0\u00d7 (110% premium to peers)",
@@ -2730,10 +2759,19 @@
       "\u2192 V = 32"
     ],
     "technicals": [
-      "\u2192 T = 60.0"
+      "Spot $227.55 vs SMA200 $231.89 (-1.9%, neutral)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 52.5 (neutral zone)",
+      "90-day return: +6.7%",
+      "1-year return: +0.3%",
+      "Drawdown from 52w high: -13.2%",
+      "\u2192 T = 63.0"
     ],
     "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
+      "Front-month ATM IV 38.6% (normal)",
+      "P/C OI 0.99 (balanced)",
+      "ATM skew -0.93pp (call skew)",
+      "\u2192 O = 59.7 (trend-aligned)"
     ]
   },
   "TWLO": {

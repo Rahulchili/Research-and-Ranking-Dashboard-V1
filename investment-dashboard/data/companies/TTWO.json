@@ -258,7 +258,39 @@
     ]
   },
   "_generated_by": "add_ticker.py",
-  "_generated_at": "2026-05-24T21:59:50.659244Z",
+  "_generated_at": "2026-05-24T22:27:18.511794Z",
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue +25.0% YoY (strong for Communication Services; sector strong-bar 10%)",
+      "TTM revenue $6B",
+      "\u2192 F = 90.0 (sector-relative)"
+    ],
+    "management": [
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 42.0\u00d7 vs peer median 20.0\u00d7 (110% premium to peers)",
+      "FCF yield 1.8%",
+      "\u2192 V = 32"
+    ],
+    "technicals": [
+      "Spot $227.55 vs SMA200 $231.89 (-1.9%, neutral)",
+      "\u2717 Death cross (SMA50 < SMA200)",
+      "RSI(14) 52.5 (neutral zone)",
+      "90-day return: +6.7%",
+      "1-year return: +0.3%",
+      "Drawdown from 52w high: -13.2%",
+      "\u2192 T = 63.0"
+    ],
+    "options": [
+      "Front-month ATM IV 38.6% (normal)",
+      "P/C OI 0.99 (balanced)",
+      "ATM skew -0.93pp (call skew)",
+      "\u2192 O = 59.7 (trend-aligned)"
+    ]
+  },
   "horizon_views": {
     "fundamentals": {
       "short_term": {
@@ -286,49 +318,52 @@
     "technicals": {
       "short_term": {
         "title": "Short-term view (0\u201330 days \u00b7 trading window)",
-        "bullets": [],
-        "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
+        "bullets": [
+          "<strong>Price $227.55 vs SMA50 $212.56</strong> (+7.1%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 52.5</strong> \u2014 neutral / no edge.",
+          "<strong>MACD: 6.83 vs signal 6.77</strong> \u2014 bullish crossover.",
+          "<strong>30-day return: +8.0%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 53%</strong> of band width (band width 18.0% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$234.38, support ~$220.72. 52% of 52w range (low $189.69 \u2192 high $262.29)."
+        ],
+        "takeaway": "Short-term trader bias: long (trend + momentum aligned bullish)."
       },
       "long_term": {
         "title": "Long-term view (90+ days \u00b7 positioning window)",
-        "bullets": [],
+        "bullets": [
+          "<strong>Price $227.55 vs SMA200 $231.89</strong> (-1.9%) \u2014 long-term trend is in **neutral**.",
+          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
+          "<strong>1-year return: +0.3%</strong> \u2014 range-bound.",
+          "<strong>Drawdown from 52w high: -13.2%</strong> \u2014 mild pullback",
+          "<strong>Cycle S/R:</strong> long-term resistance $262.29 (52w high), structural support $189.69 (52w low).",
+          "<strong>90-day return: +6.7%</strong> \u2014 positive intermediate-term momentum."
+        ],
         "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
       }
     },
     "options": {
       "short_term": {
         "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+        "bullets": [
+          "<strong>Front-month ATM IV: 38.6%</strong> \u2014 normal.",
+          "<strong>Put/Call OI: 0.99</strong> \u2014 balanced flow.",
+          "<strong>30-day implied move: \u00b110.2%</strong> ($204.28 \u2013 $250.82) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -0.93pp</strong> \u2014 balanced skew.",
+          "<strong>Front-month OI cluster: $240.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Calendar spread at $228 strike: short 30 DTE / long 60 DTE</strong>. Mid IV, range-bound \u2192 harvest near-term theta while keeping back-month optionality."
       },
       "long_term": {
         "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 44.1%</strong> across 7 expiries.",
+          "<strong>Available long-dated expiries:</strong> 7 dates spanning 118\u2013608 DTE.",
+          "<strong>390-day implied move: \u00b146.0%</strong> ($122.79 \u2013 $332.31) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $250 (+9.9% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in contango</strong> (+5.4pp front\u2192back) \u2014 market pricing greater uncertainty further out."
+        ],
+        "strategy": "<strong>Long 1-year ATM straddle at $228</strong>. Low IV (39%) + range-bound \u2192 buy volatility cheap ahead of a 12-month catalyst window; profits if move >\u00b139%."
       }
     }
-  },
-  "lens_rationale": {
-    "fundamentals": [
-      "Revenue +25.0% YoY (strong for Communication Services; sector strong-bar 10%)",
-      "TTM revenue $6B",
-      "\u2192 F = 90.0 (sector-relative)"
-    ],
-    "management": [
-      "MCS 0.40 (2B / 0H / 3M on 5 tracked forward claims)",
-      "Track record: low credibility",
-      "\u2192 M = 40.0"
-    ],
-    "valuation": [
-      "PE 42.0\u00d7 vs peer median 20.0\u00d7 (110% premium to peers)",
-      "FCF yield 1.8%",
-      "\u2192 V = 32"
-    ],
-    "technicals": [
-      "\u2192 T = 60.0"
-    ],
-    "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
-    ]
   }
 }

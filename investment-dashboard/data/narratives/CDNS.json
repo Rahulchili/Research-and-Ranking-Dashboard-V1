@@ -1,26 +1,30 @@
 {
   "name": "Cadence Design Systems, Inc.",
-  "stance": "CONSTRUCTIVE",
+  "stance": "BULLISH",
   "color": "mint",
-  "summary": "Cadence Design Systems, Inc. (CDNS, Information Technology) \u2014 composite stance CONSTRUCTIVE. Latest reported quarter FY2026 Q1: revenue $1.47B (+18.7% YoY), net margin 22.8%. Valuation 50.0x forward P/E (+41% vs peers).",
+  "summary": "Cadence Design Systems, Inc. (CDNS, Information Technology) \u2014 composite stance BULLISH. Latest reported quarter FY2026 Q1: revenue $1.47B (+18.7% YoY), net margin 22.8%. Valuation 50.0x forward P/E (+41% vs peers). Spot $373.59 (above 200-DMA).",
   "quotes": [],
   "bull": [
-    "Top-line momentum \u2014 revenue grew +18.7% YoY in FY2026 Q1 to $1.47B, with TTM revenue of $5.53B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
-    "Profitability premium \u2014 net margin of 22.8% in the latest quarter sits well above the cross-sector ~10\u201315% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
-    "Margin trajectory \u2014 net margin expanded +1.1pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release."
+    "<strong>Top-line momentum</strong> \u2014 revenue grew +18.7% YoY in FY2026 Q1 to $1.47B, with TTM revenue of $5.53B confirming the run-rate. Growth at this pace is unusual for a company of this scale and reflects either share gains, pricing power, or new-product cycles depending on the line-item mix in the Fundamental tab.",
+    "<strong>Profitability premium</strong> \u2014 net margin of 22.8% in the latest quarter sits well above the cross-sector ~10\u201315% benchmark, indicative of either structural pricing power or operating leverage from scale. Expect this to compress only modestly through-cycle.",
+    "<strong>Margin trajectory</strong> \u2014 net margin expanded +1.1pp over the last 4 quarters in the dataset. Management's cost-out commentary on recent calls is showing up in the P&L, not just the press release.",
+    "<strong>Trend regime constructive</strong> \u2014 spot $373.59 sits +15.8% above the 200-DMA ($322.61). The long-term moving average has been a reliable reference for institutional capital and remains supportive of the directional bias."
   ],
   "bear": [
-    "Valuation premium \u2014 50.0x forward P/E vs peer median of 35.5x \u2014 a 41% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision."
+    "<strong>Valuation premium</strong> \u2014 50.0x forward P/E vs peer median of 35.5x \u2014 a 41% premium. The setup requires continued out-execution to maintain; any reversion to peer-median multiples compresses the stock meaningfully even before any earnings revision.",
+    "<strong>52-week extension</strong> \u2014 at 100% of the 52-week range, the stock is one bad print away from a 10\u201315% reset back into the middle of the range. Position size accordingly."
   ],
   "trigger_up": [
     "Revenue growth re-accelerates above 22% YoY on next print \u2014 confirms the demand environment hasn't degraded into the back half.",
     "Net margin expands above 24.3% \u2014 confirms pricing power and/or cost discipline thesis.",
-    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus."
+    "Management raises FY guide on next quarterly call \u2014 direct upward revision to consensus.",
+    "Clean breakout above $373.59 (52-week high) on volume confirmation \u2014 technical signal that institutional accumulation is sustained."
   ],
   "trigger_down": [
     "Revenue growth decelerates below 16% YoY \u2014 signals demand has materially softened versus the latest disclosed run-rate.",
     "Net margin compresses below 20.8% \u2014 flags either input-cost pressure or competitive dynamics shifting unfavorably.",
-    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print."
+    "Management cuts FY guide on next quarterly call \u2014 direct downward revision; historically sees 5\u201315% drawdown on print.",
+    "Decisive break below the 52-week low at $265.66 \u2014 technical confirmation that the long-term trend has rolled over."
   ],
   "scoreboard": [
     {
@@ -43,8 +47,29 @@
       "latest": "50.0x (+41%)",
       "verdict": "Premium",
       "verdict_color": "amber"
+    },
+    {
+      "metric": "Price vs 200-DMA",
+      "baseline": "Trend filter",
+      "latest": "$373.59 vs $322.61 (+15.8%)",
+      "verdict": "Above",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "RSI(14)",
+      "baseline": "30 / 70 thresholds",
+      "latest": "65.8",
+      "verdict": "Neutral",
+      "verdict_color": "mint"
+    },
+    {
+      "metric": "Front-month implied move",
+      "baseline": "Median ~5%",
+      "latest": "\u00b16.5% by 2026-05-29",
+      "verdict": "Normal",
+      "verdict_color": "amber"
     }
   ],
-  "bottom_line": "CONSTRUCTIVE. Cadence Design Systems, Inc. (CDNS) printed $1.47B in revenue in FY2026 Q1 (+18.7% YoY), net margin of 22.8%. At 50.0x forward P/E, the stock carries a 41% premium to peers (35.5x median) \u2014 the multiple needs continued execution to defend.A constructive view with limited near-term catalysts \u2014 set position size at half-conviction and add on weakness toward the 50-DMA or on a positive guidance revision.",
+  "bottom_line": "<p><strong>BULLISH.</strong> Cadence Design Systems, Inc. (CDNS) printed $1.47B in revenue in FY2026 Q1 (+18.7% YoY), net margin of 22.8%. At 50.0x forward P/E, the stock carries a 41% premium to peers (35.5x median) \u2014 the multiple needs continued execution to defend.</p><p>Technical regime is constructive: spot $373.59 above the 200-DMA ($322.61, +15.8%) with neutral momentum (RSI 66). Sell-side consensus PT of $340 implies -9.0% upside. The options market is pricing a \u00b16.5% move by the front-month expiry \u2014 consistent with historical realized vol. 30-day implied move is \u00b111.8%; 90-day is \u00b122.9%. Position-sizing should reflect conviction; use the trigger list to manage adds and trims around the next earnings catalyst.</p>",
   "disclaimer": "This research view is generated programmatically from SEC filings, earnings call transcripts, stock price history, and options chain data. All numbers are extracted from the underlying source documents \u2014 please cross-reference the source filings on EDGAR for compliance-grade verification."
 }

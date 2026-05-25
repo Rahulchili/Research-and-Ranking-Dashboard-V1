@@ -396,7 +396,42 @@
     ]
   },
   "_generated_by": "add_ticker.py",
-  "_generated_at": "2026-05-24T22:00:37.291145Z",
+  "_generated_at": "2026-05-24T22:27:24.647218Z",
+  "lens_rationale": {
+    "fundamentals": [
+      "Revenue -4.5% YoY (contracting for Information Technology; sector strong-bar 15%)",
+      "Net margin 7.0% (thin for Information Technology; sector strong-bar 18%)",
+      "Operating margin 12.3%",
+      "TTM revenue $4B",
+      "\u2192 F = 44.8 (sector-relative)"
+    ],
+    "management": [
+      "MCS not computed \u2014 only 0 claim(s) tracked; no closed claims yet",
+      "Score defaulted to 50 (neutral)",
+      "\u2192 M = 50.0"
+    ],
+    "valuation": [
+      "PE 24.0\u00d7 vs peer median 24.0\u00d7 (0% premium to peers)",
+      "FCF yield 3.5% (+3)",
+      "Dividend yield 3.1% (+3)",
+      "\u2192 V = 68"
+    ],
+    "technicals": [
+      "Spot $93.43 vs SMA200 $69.93 (+33.6%, bullish trend)",
+      "\u2713 Golden cross (SMA50 > SMA200)",
+      "RSI(14) 46.5 (neutral zone)",
+      "90-day return: +24.6%",
+      "1-year return: +57.7%",
+      "Drawdown from 52w high: -9.2%",
+      "\u2192 T = 78.9"
+    ],
+    "options": [
+      "Front-month ATM IV 47.3% (elevated)",
+      "P/C OI 0.79 (balanced)",
+      "ATM skew -0.36pp (call skew)",
+      "\u2192 O = 63.3 (trend-aligned)"
+    ]
+  },
   "horizon_views": {
     "fundamentals": {
       "short_term": {
@@ -425,52 +460,52 @@
     "technicals": {
       "short_term": {
         "title": "Short-term view (0\u201330 days \u00b7 trading window)",
-        "bullets": [],
+        "bullets": [
+          "<strong>Price $93.43 vs SMA50 $80.03</strong> (+16.7%) \u2014 short-term trend is bullish (price holding above the near-term moving average).",
+          "<strong>RSI(14): 46.5</strong> \u2014 neutral / no edge.",
+          "<strong>MACD: 3.31 vs signal 4.81</strong> \u2014 bearish crossover.",
+          "<strong>30-day return: +4.5%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Bollinger band position: 43%</strong> of band width (band width 19.6% \u2014 normal).",
+          "<strong>Near-term S/R:</strong> resistance ~$96.23, support ~$90.63. 82% of 52w range (low $49.02 \u2192 high $102.92)."
+        ],
         "takeaway": "Short-term trader bias: neutral / range-trading until the next catalyst."
       },
       "long_term": {
         "title": "Long-term view (90+ days \u00b7 positioning window)",
-        "bullets": [],
-        "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
+        "bullets": [
+          "<strong>Price $93.43 vs SMA200 $69.93</strong> (+33.6%) \u2014 long-term trend is in **uptrend intact**.",
+          "<strong>Moving average regime:</strong> Golden cross active (SMA50 > SMA200) \u2014 institutional trend filter bullish.",
+          "<strong>1-year return: +57.7%</strong> \u2014 strong long-cycle leader.",
+          "<strong>Drawdown from 52w high: -9.2%</strong> \u2014 mild pullback",
+          "<strong>Cycle S/R:</strong> long-term resistance $102.92 (52w high), structural support $49.02 (52w low).",
+          "<strong>90-day return: +24.6%</strong> \u2014 positive intermediate-term momentum."
+        ],
+        "takeaway": "Long-term positioning: accumulate on weakness \u2014 structural trend supportive."
       }
     },
     "options": {
       "short_term": {
         "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+        "bullets": [
+          "<strong>Front-month ATM IV: 47.3%</strong> \u2014 normal.",
+          "<strong>Put/Call OI: 0.79</strong> \u2014 balanced flow.",
+          "<strong>30-day implied move: \u00b112.0%</strong> ($82.21 \u2013 $104.65) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: -0.36pp</strong> \u2014 balanced skew.",
+          "<strong>Front-month OI cluster: $92.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Bull call spread 30 DTE: long $93 / short $98</strong>. Mid IV (47%) + uptrend \u2192 defined-risk directional with reasonable cost basis."
       },
       "long_term": {
         "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
-        "bullets": [],
-        "strategy": "Data insufficient \u2014 options chain not parsed for this ticker."
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 53.3%</strong> across 5 expiries.",
+          "<strong>Available long-dated expiries:</strong> 5 dates spanning 118\u2013608 DTE.",
+          "<strong>209-day implied move: \u00b140.4%</strong> ($55.68 \u2013 $131.18) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $65 (-30.4% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in contango</strong> (+6.0pp front\u2192back) \u2014 market pricing greater uncertainty further out."
+        ],
+        "strategy": "<strong>Long 1-year ATM straddle at $93</strong>. Low IV (47%) + range-bound \u2192 buy volatility cheap ahead of a 12-month catalyst window; profits if move >\u00b147%."
       }
     }
-  },
-  "lens_rationale": {
-    "fundamentals": [
-      "Revenue -4.5% YoY (contracting for Information Technology; sector strong-bar 15%)",
-      "Net margin 7.0% (thin for Information Technology; sector strong-bar 18%)",
-      "Operating margin 12.3%",
-      "TTM revenue $4B",
-      "\u2192 F = 44.8 (sector-relative)"
-    ],
-    "management": [
-      "MCS 0.69 (5B / 1H / 2M on 8 tracked forward claims)",
-      "Track record: average",
-      "\u2192 M = 68.8"
-    ],
-    "valuation": [
-      "PE 24.0\u00d7 vs peer median 24.0\u00d7 (0% premium to peers)",
-      "FCF yield 3.5% (+3)",
-      "Dividend yield 3.1% (+3)",
-      "\u2192 V = 68"
-    ],
-    "technicals": [
-      "\u2192 T = 60.0"
-    ],
-    "options": [
-      "\u2192 O = 55.0 (trend-aligned)"
-    ]
   }
 }

@@ -2401,10 +2401,17 @@ def _parse_opra_dual_side(options_path: Path, spot: float | None) -> dict[str, A
     except Exception:
         return {}
 
-    # Quick fingerprint check: row 12 column 15 should say "Strike"
+    # Fingerprint check: find a row where column 15 says "Strike" (OPRA dual-side
+    # column-header row). Most exports have it at row 12, but some put it later
+    # (e.g. when leading expiries have no strike data and headers repeat per-block).
+    header_row_found = False
     try:
-        r12 = [c.value for c in ws[12]]
-        if not (len(r12) >= 15 and isinstance(r12[14], str) and r12[14].strip().lower() == "strike"):
+        for _hr in range(8, min(40, ws.max_row + 1)):
+            _r = [c.value for c in ws[_hr]]
+            if len(_r) >= 15 and isinstance(_r[14], str) and _r[14].strip().lower() == "strike":
+                header_row_found = True
+                break
+        if not header_row_found:
             return {}
     except Exception:
         return {}
