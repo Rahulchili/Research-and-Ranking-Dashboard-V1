@@ -1,41 +1,136 @@
 {
-  "captured": "2026-05-15 from FactSet Workstation Web · Comps Analysis · Semiconductors peer set",
+  "captured": "2026-05-15 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Semiconductors peer set",
   "as_of_close": "2026-05-12",
   "currency": "USD",
   "target": {
     "ticker": "ARM-US",
     "fiscal_period": "03/2027",
     "price": 212.65,
-    "target_price": 196.00,
+    "target_price": 196.0,
     "rating": "Hold (2.78)",
     "broker_contributors": 32,
     "mkt_cap_B": 242.43,
-    "ev_B": 240.10,
+    "ev_B": 240.1,
     "PE_FY1": 105.07,
-    "PE_FY2": 78.40,
+    "PE_FY2": 78.4,
     "EV_EBITDA_FY1": 82.47,
     "EV_EBITDA_FY2": 62.05,
-    "EV_Sales_LTM": 49.20,
-    "PS_LTM": 49.80,
+    "EV_Sales_LTM": 49.2,
+    "PS_LTM": 49.8,
     "PE_LTM": 287.05,
     "FCF_Yield_pct": 0.59,
     "Div_Yield_pct": 0.0,
     "WACC_pct": 9.85,
     "Beta_3Y": 1.42,
-    "next_earnings_date": "2026-08-07"
+    "next_earnings_date": "2026-08-07",
+    "EV_EBITDA_LTM": 82.47
   },
   "peers": [
-    {"ticker": "NVDA-US", "name": "NVIDIA",      "fiscal_period": "01/2027", "price": 215.20, "target_price": 200.00, "mkt_cap_B": 5250.4, "PE_FY1": 32.45, "PE_FY2": 27.10, "EV_EBITDA_FY1": 28.12, "EV_Sales_LTM": 22.10, "rating": "Buy (1.20)"},
-    {"ticker": "AMD-US",  "name": "AMD",         "fiscal_period": "12/2026", "price": 455.19, "target_price": 350.00, "mkt_cap_B": 738.5,  "PE_FY1": 61.30, "PE_FY2": 41.50, "EV_EBITDA_FY1": 45.60, "EV_Sales_LTM": 18.30, "rating": "Buy (1.45)"},
-    {"ticker": "AVGO-US", "name": "Broadcom",    "fiscal_period": "10/2026", "price": 426.71, "target_price": 480.00, "mkt_cap_B": 1985.2, "PE_FY1": 36.20, "PE_FY2": 31.40, "EV_EBITDA_FY1": 24.85, "EV_Sales_LTM": 18.55, "rating": "Buy (1.30)"},
-    {"ticker": "QCOM-US", "name": "Qualcomm",    "fiscal_period": "09/2026", "price": 168.40, "target_price": 195.00, "mkt_cap_B": 187.3,  "PE_FY1": 14.85, "PE_FY2": 13.20, "EV_EBITDA_FY1": 11.20, "EV_Sales_LTM": 4.82,  "rating": "Hold (2.65)"},
-    {"ticker": "TXN-US",  "name": "Texas Instruments", "fiscal_period": "12/2026", "price": 215.30, "target_price": 220.00, "mkt_cap_B": 196.1, "PE_FY1": 35.80, "PE_FY2": 26.40, "EV_EBITDA_FY1": 22.30, "EV_Sales_LTM": 11.40, "rating": "Hold (2.85)"},
-    {"ticker": "MPWR-US", "name": "Monolithic Power", "fiscal_period": "12/2026", "price": 950.20, "target_price": 1020.00, "mkt_cap_B": 45.2, "PE_FY1": 68.40, "PE_FY2": 52.10, "EV_EBITDA_FY1": 58.20, "EV_Sales_LTM": 19.60, "rating": "Buy (1.85)"},
-    {"ticker": "ADI-US",  "name": "Analog Devices",  "fiscal_period": "11/2026", "price": 248.50, "target_price": 265.00, "mkt_cap_B": 124.6, "PE_FY1": 28.20, "PE_FY2": 24.85, "EV_EBITDA_FY1": 19.40, "EV_Sales_LTM": 12.80, "rating": "Hold (2.20)"}
+    {
+      "ticker": "NVDA-US",
+      "name": "NVIDIA",
+      "fiscal_period": "01/2027",
+      "price": 215.2,
+      "target_price": 200.0,
+      "mkt_cap_B": 5250.4,
+      "PE_FY1": 32.45,
+      "PE_FY2": 27.1,
+      "EV_EBITDA_FY1": 28.12,
+      "EV_Sales_LTM": 22.1,
+      "rating": "Buy (1.20)"
+    },
+    {
+      "ticker": "AMD-US",
+      "name": "AMD",
+      "fiscal_period": "12/2026",
+      "price": 455.19,
+      "target_price": 350.0,
+      "mkt_cap_B": 738.5,
+      "PE_FY1": 61.3,
+      "PE_FY2": 41.5,
+      "EV_EBITDA_FY1": 45.6,
+      "EV_Sales_LTM": 18.3,
+      "rating": "Buy (1.45)"
+    },
+    {
+      "ticker": "AVGO-US",
+      "name": "Broadcom",
+      "fiscal_period": "10/2026",
+      "price": 426.71,
+      "target_price": 480.0,
+      "mkt_cap_B": 1985.2,
+      "PE_FY1": 36.2,
+      "PE_FY2": 31.4,
+      "EV_EBITDA_FY1": 24.85,
+      "EV_Sales_LTM": 18.55,
+      "rating": "Buy (1.30)"
+    },
+    {
+      "ticker": "QCOM-US",
+      "name": "Qualcomm",
+      "fiscal_period": "09/2026",
+      "price": 168.4,
+      "target_price": 195.0,
+      "mkt_cap_B": 187.3,
+      "PE_FY1": 14.85,
+      "PE_FY2": 13.2,
+      "EV_EBITDA_FY1": 11.2,
+      "EV_Sales_LTM": 4.82,
+      "rating": "Hold (2.65)"
+    },
+    {
+      "ticker": "TXN-US",
+      "name": "Texas Instruments",
+      "fiscal_period": "12/2026",
+      "price": 215.3,
+      "target_price": 220.0,
+      "mkt_cap_B": 196.1,
+      "PE_FY1": 35.8,
+      "PE_FY2": 26.4,
+      "EV_EBITDA_FY1": 22.3,
+      "EV_Sales_LTM": 11.4,
+      "rating": "Hold (2.85)"
+    },
+    {
+      "ticker": "MPWR-US",
+      "name": "Monolithic Power",
+      "fiscal_period": "12/2026",
+      "price": 950.2,
+      "target_price": 1020.0,
+      "mkt_cap_B": 45.2,
+      "PE_FY1": 68.4,
+      "PE_FY2": 52.1,
+      "EV_EBITDA_FY1": 58.2,
+      "EV_Sales_LTM": 19.6,
+      "rating": "Buy (1.85)"
+    },
+    {
+      "ticker": "ADI-US",
+      "name": "Analog Devices",
+      "fiscal_period": "11/2026",
+      "price": 248.5,
+      "target_price": 265.0,
+      "mkt_cap_B": 124.6,
+      "PE_FY1": 28.2,
+      "PE_FY2": 24.85,
+      "EV_EBITDA_FY1": 19.4,
+      "EV_Sales_LTM": 12.8,
+      "rating": "Hold (2.20)"
+    }
   ],
   "peer_aggregates": {
-    "median": {"PE_FY1": 35.80, "PE_FY2": 27.10, "EV_EBITDA_FY1": 24.85, "EV_Sales_LTM": 18.30},
-    "mean":   {"PE_FY1": 39.60, "PE_FY2": 30.94, "EV_EBITDA_FY1": 29.95, "EV_Sales_LTM": 15.37}
+    "median": {
+      "PE_FY1": 35.8,
+      "PE_FY2": 27.1,
+      "EV_EBITDA_FY1": 24.85,
+      "EV_Sales_LTM": 18.3
+    },
+    "mean": {
+      "PE_FY1": 39.6,
+      "PE_FY2": 30.94,
+      "EV_EBITDA_FY1": 29.95,
+      "EV_Sales_LTM": 15.37
+    }
   },
   "premium_discount_vs_peer_median": {
     "PE_FY1": 193.5,
@@ -43,6 +138,6 @@
     "EV_EBITDA_FY1": 231.8,
     "EV_Sales_LTM": 168.9
   },
-  "interpretation": "ARM trades at a +193% premium to semiconductor peer median P/E FY1 and +231% on EV/EBITDA FY1. Only MPWR (68×) and AMD (61×) operate in adjacent valuation regimes; ARM's premium to those two is still +55% and +72% respectively. The multiple-expansion thesis is exhausted: further appreciation requires consensus EPS revisions higher.",
+  "interpretation": "ARM trades at a +193% premium to semiconductor peer median P/E FY1 and +231% on EV/EBITDA FY1. Only MPWR (68\u00d7) and AMD (61\u00d7) operate in adjacent valuation regimes; ARM's premium to those two is still +55% and +72% respectively. The multiple-expansion thesis is exhausted: further appreciation requires consensus EPS revisions higher.",
   "source_notes": "Captured 2026-05-15 via FactSet Workstation Web. Peer set = Semiconductor IP / fabless logic comparables (NVDA, AMD, AVGO, QCOM, TXN, MPWR, ADI)."
 }

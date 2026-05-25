@@ -7,7 +7,9 @@
     "EV_EBITDA_FY1": 18.0,
     "mkt_cap_B": 50.0,
     "ev_B": 48.0,
-    "rating": "Buy"
+    "rating": "Buy",
+    "PE_LTM": 25.0,
+    "EV_EBITDA_LTM": 18.0
   },
   "peers": [
     {

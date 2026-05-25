@@ -6,7 +6,7 @@
     "price": 195.94,
     "target_price": 450.0,
     "mkt_cap_B": 95.0,
-    "PE_FY1": null,
+    "PE_FY1": 30,
     "PE_FY2": null,
     "ev_B": 102.6,
     "net_debt_M": 7600.0,
@@ -32,7 +32,8 @@
     "WACC_pct": 9.5,
     "broker_contributors": 25,
     "next_earnings_date": "2026-08-11",
-    "rev_consensus_next_qtr_M": 137.0
+    "rev_consensus_next_qtr_M": 137.0,
+    "_PE_FY1_note": "approximated from PE_LTM (FY1 not reported or N/M due to losses)"
   },
   "peers": [
     {

@@ -429,5 +429,79 @@
     "options": [
       "\u2192 O = 55.0 (trend-aligned)"
     ]
+  },
+  "horizon_views": {
+    "fundamentals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 next earnings cycle)",
+        "bullets": [
+          "<strong>Run-rate $56.31B</strong> in FY2026 Q1, +33.1% YoY \u2014 accelerating trajectory entering the next print.",
+          "<strong>Next-quarter consensus: $60.15B</strong> (+6.8% vs current Q) \u2014 set by 64 broker contributors.",
+          "<strong>EPS consensus next qtr: $7.20</strong>.",
+          "<strong>Margin context: 47.5% net margin</strong> \u2014 expansion likely.",
+          "<strong>Next earnings: 2026-07-29</strong> \u2014 primary catalyst for the short-term window."
+        ],
+        "takeaway": "Going into the next earnings print, the setup is constructive \u2014 consensus is achievable based on current run-rate."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 multi-year setup)",
+        "bullets": [
+          "<strong>TTM revenue $215B</strong> \u2014 in cyclical drawdown.",
+          "<strong>9-quarter run-rate CAGR: +24.3%</strong> \u2014 the secular trajectory the market is pricing.",
+          "<strong>Sector thesis (Communication Services):</strong> Ad spending normalization + AI-driven engagement reshaping the long-run growth profile."
+        ],
+        "takeaway": "Long-cycle thesis is intact if growth durability + margin expansion both hold."
+      }
+    },
+    "technicals": {
+      "short_term": {
+        "title": "Short-term view (0\u201330 days \u00b7 trading window)",
+        "bullets": [
+          "<strong>Price $600.78 vs SMA50 $625.60</strong> (-4.0%) \u2014 short-term trend is bearish (price has lost the SMA50 line).",
+          "<strong>RSI(14): 26.7</strong> \u2014 oversold \u2014 possible bounce setup.",
+          "<strong>MACD: -6.13 vs signal 0.91</strong> \u2014 bearish crossover.",
+          "<strong>30-day return: -5.3%</strong> \u2014 directional bias entering the next 4 weeks.",
+          "<strong>Near-term S/R:</strong> resistance ~$618.8, support ~$582.76. 28% of 52w range (low $525.72 \u2192 high $790.00)."
+        ],
+        "takeaway": "Short-term trader bias: short (trend + momentum aligned bearish)."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ days \u00b7 positioning window)",
+        "bullets": [
+          "<strong>Price $600.78 vs SMA200 $675.30</strong> (-11.0%) \u2014 long-term trend is in **downtrend**.",
+          "<strong>Moving average regime:</strong> Death cross active (SMA50 < SMA200) \u2014 institutional trend filter bearish.",
+          "<strong>1-year return: +0.5%</strong> \u2014 range-bound.",
+          "<strong>Drawdown from 52w high: -23.9%</strong> \u2014 correction territory",
+          "<strong>Cycle S/R:</strong> long-term resistance $790.0 (52w high), structural support $525.72 (52w low).",
+          "<strong>90-day return: -7.5%</strong> \u2014 intermediate-term weakness."
+        ],
+        "takeaway": "Long-term positioning: wait for a trend-confirmation breakout / breakdown before sizing up."
+      }
+    },
+    "options": {
+      "short_term": {
+        "title": "Short-term view (0\u201345 DTE \u00b7 front-month tactical)",
+        "bullets": [
+          "<strong>Front-month ATM IV: 23.1%</strong> \u2014 low (premium-buying favored).",
+          "<strong>Put/Call OI: 0.51</strong> \u2014 call-heavy positioning (consensus bullish).",
+          "<strong>30-day implied move: \u00b17.0%</strong> ($558.84 \u2013 $642.72) \u2014 the 1-\u03c3 range the options market is pricing.",
+          "<strong>ATM skew: +1.25pp</strong> \u2014 put skew (downside hedges bid).",
+          "<strong>Front-month OI cluster: $650.0</strong> \u2014 likely magnet / pin-risk for expiry."
+        ],
+        "strategy": "<strong>Buy 30\u201345 DTE ATM put at $601</strong> or put vertical $601/$571. Low IV in downtrend \u2192 cheap downside exposure."
+      },
+      "long_term": {
+        "title": "Long-term view (90+ DTE \u00b7 LEAPS / structural)",
+        "bullets": [
+          "<strong>Back-month avg IV (90+ DTE): 37.5%</strong> across 13 expiries.",
+          "<strong>Available long-dated expiries:</strong> 13 dates spanning 104\u2013951 DTE.",
+          "<strong>90-day implied move: \u00b119.4%</strong> ($484.37 \u2013 $717.19).",
+          "<strong>223-day implied move: \u00b129.0%</strong> ($426.77 \u2013 $774.79) \u2014 the long-dated 1-\u03c3 range.",
+          "<strong>Sell-side PT vs options-implied range:</strong> consensus $821 (+36.6% upside). Compare to the 90+ DTE implied range above.",
+          "<strong>Term structure in contango</strong> (+14.4pp front\u2192back) \u2014 market pricing greater uncertainty further out."
+        ],
+        "strategy": "<strong>Bear put spread 6-month: long $571 / short $511</strong>. Defined-cost downside positioning; cheaper than outright long puts; captures 10% further downside efficiently."
+      }
+    }
   }
 }

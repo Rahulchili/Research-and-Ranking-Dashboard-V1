@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-11 from FactSet Workstation Web · Comps Analysis · Pharmaceuticals: Major",
+  "captured": "2026-05-11 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Pharmaceuticals: Major",
   "as_of_close": "2026-05-08",
   "live_price_during_capture": 966.99,
   "live_quote_date": "2026-05-11 close +1.95%",
@@ -41,7 +41,8 @@
     "perf_3m_pct": -4.75,
     "perf_6m_pct": -2.19,
     "perf_ytd_pct": -10.02,
-    "perf_1y_pct": 31.64
+    "perf_1y_pct": 31.64,
+    "EV_EBITDA_FY1": 25.68
   },
   "peers": [
     {
@@ -143,7 +144,15 @@
     "EV_EBIT_avg": 17.52,
     "EV_EBIT_median": 18.78,
     "EV_EBITDA_avg": 13.84,
-    "EV_EBITDA_median": 13.78
+    "EV_EBITDA_median": 13.78,
+    "median": {
+      "EV_EBIT": 18.78,
+      "EV_EBITDA": 13.78
+    },
+    "mean": {
+      "EV_EBIT": 17.52,
+      "EV_EBITDA": 13.84
+    }
   },
   "premium_discount_vs_peer_median": {
     "EV_EBIT_LTM": "+44.9% premium (LLY 27.21 vs peer median 18.78)",

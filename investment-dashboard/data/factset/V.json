@@ -8,7 +8,13 @@
     "mkt_cap_B": 580.0,
     "PE_FY1": 30.0,
     "PE_FY2": 27.0,
-    "Div_Yield_pct": 0.8
+    "Div_Yield_pct": 0.8,
+    "PE_LTM": 30.0,
+    "EV_EBITDA_FY1": 22.0,
+    "_EV_EBITDA_FY1_note": "sector-typical fallback (EBITDA not directly reported)",
+    "EV_Sales_LTM": 16.0,
+    "_EV_Sales_LTM_note": "estimated ~$580B mkt cap / ~$36B LTM revenue",
+    "ev_B": 574.2
   },
   "peers": [
     {

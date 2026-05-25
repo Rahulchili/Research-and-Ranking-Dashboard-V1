@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-11 from FactSet Workstation Web · Comps Analysis · PubCos Only peer set",
+  "captured": "2026-05-11 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 PubCos Only peer set",
   "as_of_close": "2026-05-08",
   "live_price_during_capture": 602.45,
   "live_quote_date": "2026-05-11 12:06 Exch Time",
@@ -35,7 +35,8 @@
     "perf_3m_pct": -9.91,
     "perf_6m_pct": -3.93,
     "perf_ytd_pct": -8.73,
-    "perf_1y_pct": 1.68
+    "perf_1y_pct": 1.68,
+    "EV_EBITDA_FY1": 14.71
   },
   "peers": [
     {
@@ -161,5 +162,5 @@
       "PE_FY2": 25.41
     }
   },
-  "source_notes": "Captured 2026-05-11 via FactSet Workstation Web Comps Analysis (PubCos Only peer set: Alphabet, Apple, Zoom, Snap, RingCentral, Reddit, plus newcomer Myseum.AI excluded as pre-revenue). Live intraday quote during capture was $602.45 -1.18%. Sell-side target $820.66 is 36% ABOVE current spot — analysts see significant upside despite recent pullback. META is the only mega-cap with low single-digit 1Y return (vs Alphabet/Apple multibillion mkt cap peers)."
+  "source_notes": "Captured 2026-05-11 via FactSet Workstation Web Comps Analysis (PubCos Only peer set: Alphabet, Apple, Zoom, Snap, RingCentral, Reddit, plus newcomer Myseum.AI excluded as pre-revenue). Live intraday quote during capture was $602.45 -1.18%. Sell-side target $820.66 is 36% ABOVE current spot \u2014 analysts see significant upside despite recent pullback. META is the only mega-cap with low single-digit 1Y return (vs Alphabet/Apple multibillion mkt cap peers)."
 }

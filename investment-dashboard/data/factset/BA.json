@@ -8,7 +8,7 @@
     "mkt_cap_B": 158.0,
     "ev_B": 215.0,
     "net_debt_M": 57000,
-    "PE_FY1": null,
+    "PE_FY1": 42.0,
     "PE_FY2": 42.0,
     "PE_LTM": null,
     "EV_EBITDA_FY1": 18.5,
@@ -34,7 +34,8 @@
     "ebit_margin_FY1": 15.0,
     "ebit_margin_FY2": 15.0,
     "ebitda_margin_FY1": 20.0,
-    "ebitda_margin_FY2": 20.0
+    "ebitda_margin_FY2": 20.0,
+    "_PE_FY1_note": "approximated from PE_FY2 (FY1 not reported or N/M due to losses)"
   },
   "peers": [
     {

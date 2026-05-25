@@ -83,7 +83,15 @@ for t in tickers:
     elif has_quarters and len(quarters) < 4:
         add("fund_thin_quarters", t, f"only {len(quarters)} quarters")
 
-    is_bank = "financial" in sector.lower() or any(q.get("nii_q_M") for q in quarters)
+    # Bank detection mirrors app.js: a bank schema is applied only when at least
+    # one bank-specific quarter field is populated. Sector alone isn't enough
+    # (V, MA, BRKB are "Financials" but not banks in the schema sense).
+    is_bank = any(
+        q.get("nii_q_M") is not None
+        or q.get("cet1_ratio_pct") is not None
+        or q.get("efficiency_ratio_pct") is not None
+        for q in quarters
+    )
     for q in quarters:
         rev = q.get("rev_q_M")
         if rev is not None and rev > 0:
@@ -133,6 +141,27 @@ for t in tickers:
     if pe_fy1 is not None and (pe_fy1 < 0 or pe_fy1 > 500):
         add("val_bad_pe", t, f"PE_FY1 {pe_fy1}")
 
+    # --- UI-visible valuation hero badges (P/E FY1, EV/EBITDA FY1,
+    # EV/Sales LTM, Target). Every one renders '—' in the dashboard hero if
+    # null, leaving an analyst with an empty badge. Loss-making names that
+    # genuinely have no PE_FY1 should record that explicitly (we now drop a
+    # `_PE_FY1_note` when fallback chains fail).
+    for vk in ("PE_FY1", "EV_EBITDA_FY1", "EV_Sales_LTM", "target_price"):
+        if target.get(vk) is None:
+            add("val_hero_blank", t, f"factset.target.{vk} is null (hero badge blank)")
+    # mkt_cap_B / ev_B feed the valuation hero subtitle string. Without them
+    # the subtitle reads "MktCap $undefinedB · EV $undefinedB".
+    if target.get("mkt_cap_B") is None and target.get("market_cap_B") is None and target.get("market_cap_b") is None:
+        add("val_no_mktcap", t, "target.mkt_cap_B missing (valuation subtitle blank)")
+    if target.get("ev_B") is None and target.get("ev_b") is None:
+        add("val_no_ev", t, "target.ev_B missing (valuation subtitle blank)")
+    # peer aggregates (medians/means) feed the Peer MEDIAN / Peer MEAN rows
+    # in the peer comp table — those rows look completely empty otherwise.
+    agg = fs.get("peer_aggregates") or {}
+    medians = agg.get("median") or fs.get("medians") or {}
+    if peers and not medians:
+        add("val_no_peer_medians", t, "peer_aggregates.median missing (median/mean rows blank)")
+
     # --- Options ---
     expiries = opt.get("expiries") or []
     term = opt.get("term_structure") or []
@@ -143,6 +172,42 @@ for t in tickers:
     iv_front = opt.get("atm_iv_front_pct")
     if iv_front is not None and (iv_front < 0 or iv_front > 500):
         add("opt_bad_iv", t, f"front IV {iv_front}%")
+
+    # --- Fundamentals quarter-table: which columns would render an entirely
+    # empty (all '—') column in the UI? The renderer now suppresses all-null
+    # columns automatically, but we still flag them so the underlying source
+    # data quality is tracked. Bank tickers use the bank colspec; others use
+    # the non-bank one. We collapse all the missing cols for a ticker into a
+    # single audit line so the report stays readable.
+    if has_quarters and not is_bank:
+        nonbank_cols = [
+            "gross_margin_pct", "operating_margin_pct", "net_margin_pct",
+            "eps", "ocf_q_M", "capex_q_M", "fcf_q_M", "equity_M",
+        ]
+        missing_cols = [c for c in nonbank_cols
+                        if not any(q.get(c) is not None for q in quarters)]
+        if missing_cols:
+            add("fund_col_all_null", t,
+                f"all-null cols ({len(missing_cols)}): " + ", ".join(missing_cols))
+    elif has_quarters and is_bank:
+        bank_cols = ["nii_q_M", "ni_q_M", "efficiency_ratio_pct", "roe_pct",
+                     "rotce_pct", "cet1_ratio_pct", "eps"]
+        missing_cols = [c for c in bank_cols
+                        if not any(q.get(c) is not None for q in quarters)]
+        if missing_cols:
+            add("fund_col_all_null", t,
+                f"all-null bank cols ({len(missing_cols)}): " + ", ".join(missing_cols))
+
+    # --- Horizon views (Summary → "Horizon views" cards on Fund/Tech/Opt tabs).
+    # If absent, those whole cards disappear silently. The user expects them.
+    hv = co.get("horizon_views") or {}
+    for hk in ("fundamentals", "technicals", "options"):
+        if not hv.get(hk):
+            add("hv_missing", t, f"horizon_views.{hk} missing")
+
+    # --- Lens rationale (Summary tab "Why these lens scores" section).
+    if not co.get("lens_rationale"):
+        add("no_lens_rationale", t, "lens_rationale missing — 'Why these lens scores' section absent")
 
     # --- MCS ---
     mcs = co.get("mcs_simple")
@@ -249,10 +314,17 @@ order = [
     # Missing content
     ("fund_no_quarters", "● MISSING"),
     ("fund_thin_quarters", "● MISSING"),
+    ("fund_col_all_null", "● MISSING"),
     ("ta_no_spot", "● MISSING"),
     ("ta_no_sma200", "● MISSING"),
     ("val_no_target", "● MISSING"),
     ("val_thin_peers", "● MISSING"),
+    ("val_hero_blank", "● MISSING"),
+    ("val_no_mktcap", "● MISSING"),
+    ("val_no_ev", "● MISSING"),
+    ("val_no_peer_medians", "● MISSING"),
+    ("hv_missing", "● MISSING"),
+    ("no_lens_rationale", "● MISSING"),
     ("opt_no_chain", "● MISSING"),
     ("opt_thin_expiries", "● MISSING"),
     ("mcs_no_score", "● MISSING"),

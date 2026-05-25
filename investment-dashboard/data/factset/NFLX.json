@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-12 from FactSet Workstation Web · Comps Analysis · Named Competitors peer set",
+  "captured": "2026-05-12 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Named Competitors peer set",
   "as_of_close": "2026-05-08",
   "live_price_during_capture": 88.03,
   "live_quote_date": "2026-05-12 intraday (FactSet)",
@@ -11,7 +11,7 @@
     "fiscal_period": "03/31/2026 FY1=12/2026 FY2=12/2027",
     "price": 85.45,
     "previous_close": 87.49,
-    "target_price": null,
+    "target_price": 120.0,
     "ev_B": 368.18,
     "mkt_cap_B": 366.02,
     "shares_out_M": 4210.8,
@@ -32,7 +32,9 @@
     "perf_30d_pct": -14.27,
     "perf_60d_pct": -9.75,
     "perf_90d_pct": 6.44,
-    "perf_1y_pct": -24.28
+    "perf_1y_pct": -24.28,
+    "EV_EBITDA_FY1": 11.69,
+    "implied_upside_pct": 40.4
   },
   "peers": [
     {
@@ -126,7 +128,17 @@
     "EV_EBITDA_LTM_avg": 23.78,
     "EV_EBITDA_LTM_median": 24.57,
     "EV_Sales_LTM_avg": 4.1,
-    "EV_Sales_LTM_median": 4.06
+    "EV_Sales_LTM_median": 4.06,
+    "median": {
+      "PE_FY1": 23.15,
+      "EV_EBITDA_LTM": 24.57,
+      "EV_Sales_LTM": 4.06
+    },
+    "mean": {
+      "PE_FY1": 25.61,
+      "EV_EBITDA_LTM": 23.78,
+      "EV_Sales_LTM": 4.1
+    }
   },
   "premium_discount_vs_peer_median": {
     "PE_FY1": "+3% premium (NFLX 23.95 vs peer median 23.15)",

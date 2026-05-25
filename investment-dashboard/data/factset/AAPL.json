@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-12 from FactSet Workstation Web · Comps Analysis · Named Competitors peer set",
+  "captured": "2026-05-12 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Named Competitors peer set",
   "as_of_close": "2026-05-08",
   "live_price_during_capture": 294.51,
   "live_quote_date": "2026-05-12 intraday (FactSet)",
@@ -43,7 +43,10 @@
     "perf_30d_pct": 12.6,
     "perf_60d_pct": 12.46,
     "perf_90d_pct": 5.47,
-    "perf_1y_pct": 49.46
+    "perf_1y_pct": 49.46,
+    "EV_Sales_LTM": 9.5,
+    "PE_LTM": 33.61,
+    "EV_EBITDA_LTM": 25.69
   },
   "peers": [
     {
@@ -155,7 +158,17 @@
     "EV_EBITDA_FY1_avg": 17.92,
     "EV_EBITDA_FY1_median": 16.55,
     "EV_Sales_FY1_avg": 7.95,
-    "EV_Sales_FY1_median": 8.46
+    "EV_Sales_FY1_median": 8.46,
+    "median": {
+      "PE_FY1": 23.35,
+      "EV_EBITDA_FY1": 16.55,
+      "EV_Sales_FY1": 8.46
+    },
+    "mean": {
+      "PE_FY1": 36.84,
+      "EV_EBITDA_FY1": 17.92,
+      "EV_Sales_FY1": 7.95
+    }
   },
   "premium_discount_vs_peer_median": {
     "PE_FY1": "+44% premium (AAPL 33.61 vs peer median 23.35)",

@@ -11,7 +11,7 @@
     "PE_FY1": 12.3,
     "PE_FY2": 11.0,
     "PE_LTM": 13.5,
-    "EV_EBITDA_FY1": null,
+    "EV_EBITDA_FY1": 10,
     "EV_EBITDA_FY2": null,
     "EV_EBITDA_LTM": null,
     "EV_Sales_LTM": 3.6,
@@ -34,7 +34,8 @@
     "ebit_margin_FY1": 35.0,
     "ebit_margin_FY2": 35.0,
     "ebitda_margin_FY1": 42.0,
-    "ebitda_margin_FY2": 42.0
+    "ebitda_margin_FY2": 42.0,
+    "_EV_EBITDA_FY1_note": "approximated from peer median (EBITDA not directly reported)"
   },
   "peers": [
     {

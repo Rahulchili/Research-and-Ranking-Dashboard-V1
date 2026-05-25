@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-12 from FactSet Workstation Web · Comps Analysis · Software peer set",
+  "captured": "2026-05-12 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Software peer set",
   "as_of_close": "2026-05-08",
   "last_rpt_date": "2026-05-04",
   "live_price_during_capture": 134.13,
@@ -185,7 +185,23 @@
     "PE_FY1_avg": 47.67,
     "PE_FY1_median": 37.87,
     "PE_FY2_avg": 38.34,
-    "PE_FY2_median": 30.72
+    "PE_FY2_median": 30.72,
+    "median": {
+      "PS_LTM": 16.69,
+      "EV_Sales_FY1": 18.19,
+      "EV_EBITDA_FY1": 29.56,
+      "EV_EBITDA_FY2": 24.41,
+      "PE_FY1": 37.87,
+      "PE_FY2": 30.72
+    },
+    "mean": {
+      "PS_LTM": 21.12,
+      "EV_Sales_FY1": 21.39,
+      "EV_EBITDA_FY1": 36.63,
+      "EV_EBITDA_FY2": 28.88,
+      "PE_FY1": 47.67,
+      "PE_FY2": 38.34
+    }
   },
   "premium_discount_vs_peer_median": {
     "PE_FY1": "+152% premium (PLTR 95.43 vs peer median 37.87)",
@@ -193,5 +209,5 @@
     "EV_EBITDA_FY1": "+154% premium (PLTR 75.12 vs peer median 29.56)",
     "EV_Sales_FY1": "+148% premium (PLTR 45.23 vs peer median 18.19)"
   },
-  "source_notes": "Captured 2026-05-12 via FactSet Workstation Web Comps Analysis (Software peer set, mkt-cap $90B–$350B). Auto-selected high-cap Software peers: PANW, APP, CRM, CRWD, INTU, CDNS, ADBE. PLTR trades at +150% premium across PE FY1 and EV/EBITDA FY1, reflecting hyper-growth (FY26 rev guidance $7.65-7.66B representing +71% YoY) and AIP-driven re-rating. Sell-side target $189.46 = +38.4% upside from $136.89 close. Avg rating Overweight (1.47), 31 brokers covering."
+  "source_notes": "Captured 2026-05-12 via FactSet Workstation Web Comps Analysis (Software peer set, mkt-cap $90B\u2013$350B). Auto-selected high-cap Software peers: PANW, APP, CRM, CRWD, INTU, CDNS, ADBE. PLTR trades at +150% premium across PE FY1 and EV/EBITDA FY1, reflecting hyper-growth (FY26 rev guidance $7.65-7.66B representing +71% YoY) and AIP-driven re-rating. Sell-side target $189.46 = +38.4% upside from $136.89 close. Avg rating Overweight (1.47), 31 brokers covering."
 }

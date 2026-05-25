@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-11 from FactSet Workstation Web · Comps Analysis · Motor Vehicles peer set",
+  "captured": "2026-05-11 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Motor Vehicles peer set",
   "as_of_close": "2026-05-08",
   "live_price_during_capture": 445,
   "live_quote_date": "2026-05-11 close +3.89%",
@@ -40,7 +40,8 @@
     "perf_3m_pct": 3.91,
     "perf_6m_pct": 1.22,
     "perf_ytd_pct": -1.05,
-    "perf_1y_pct": 49.2
+    "perf_1y_pct": 49.2,
+    "EV_EBITDA_FY1": 163.71
   },
   "peers": [
     {
@@ -146,7 +147,15 @@
     "EV_EBIT_avg": 80.72,
     "EV_EBIT_median": 24.75,
     "EV_EBITDA_avg": 36.32,
-    "EV_EBITDA_median": 12.96
+    "EV_EBITDA_median": 12.96,
+    "median": {
+      "EV_EBIT": 24.75,
+      "EV_EBITDA": 12.96
+    },
+    "mean": {
+      "EV_EBIT": 80.72,
+      "EV_EBITDA": 36.32
+    }
   },
   "premium_discount_vs_peer_median": {
     "EV_EBIT_LTM": "+1347% premium (TSLA 358.13 vs peer median 24.75)",

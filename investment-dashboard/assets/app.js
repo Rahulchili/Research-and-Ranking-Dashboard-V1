@@ -797,7 +797,11 @@
     }
     // Bank detection: if Net Interest Income is reported, use a bank-style
     // column layout (NII, Non-Int Income, Efficiency Ratio, ROE, ROTCE, CET1).
-    const isBank = qs.some(q => q.nii_q_M != null) || (c.sector || '').toLowerCase().includes('financial');
+    // Financials sector alone isn't sufficient — payment networks (V, MA) and
+    // diversified holdings (BRKB) report standard income-statement metrics
+    // rather than bank-style NII/CET1, so we require at least one bank-specific
+    // field to be populated before switching layouts.
+    const isBank = qs.some(q => q.nii_q_M != null || q.cet1_ratio_pct != null || q.efficiency_ratio_pct != null);
     // Build a table using the actual column names. Period = FY/FQ label.
     const colSpec = isBank ? [
       { key: '_label', header: 'Period', align: 'left', fmt: (q) => fy_q_label(q) },
@@ -823,8 +827,13 @@
       { key: 'fcf_q_M', header: 'FCF ($M)', align: 'right', fmt: (q) => q.fcf_q_M != null ? q.fcf_q_M.toLocaleString() : '—' },
       { key: 'equity_M', header: 'Equity ($M)', align: 'right', fmt: (q) => q.equity_M != null ? q.equity_M.toLocaleString() : '—' },
     ];
-    const headers = colSpec.map(c => `<th style="text-align:${c.align};padding:8px 10px;border-bottom:1px solid var(--border);color:var(--muted);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.05em;">${c.header}</th>`).join('');
-    const tableRows = qs.map(q => '<tr>' + colSpec.map(col => `<td style="padding:6px 10px;border-bottom:1px solid var(--border);text-align:${col.align};">${col.fmt(q)}</td>`).join('') + '</tr>').join('');
+    // Suppress columns that are null across every quarter so the table doesn't
+    // show all-em-dash columns to the user. The Period column (key '_label') is
+    // always kept; otherwise drop any column whose key returns null on every q.
+    const visibleCols = colSpec.filter(col => col.key === '_label' ||
+      qs.some(q => q[col.key] != null));
+    const headers = visibleCols.map(c => `<th style="text-align:${c.align};padding:8px 10px;border-bottom:1px solid var(--border);color:var(--muted);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.05em;">${c.header}</th>`).join('');
+    const tableRows = qs.map(q => '<tr>' + visibleCols.map(col => `<td style="padding:6px 10px;border-bottom:1px solid var(--border);text-align:${col.align};">${col.fmt(q)}</td>`).join('') + '</tr>').join('');
     const q_latest = qs[qs.length - 1] || {};
     const chartImgs = chartsFor(ticker, ['fund_01','fund_02','fund_03','fund_04','fund_05','fund_06','fund_07','fund_08','fund_09']);
     // Risk factors section (if present)

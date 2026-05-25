@@ -180,8 +180,8 @@
         "ocf_q_M": 1568.47,
         "capex_q_M": 52.2,
         "fcf_q_M": 1516.27,
-        "operating_margin_pct": null,
-        "net_margin_pct": null
+        "operating_margin_pct": 2528400.0,
+        "net_margin_pct": 2232880.0
       },
       {
         "fy": 2024,
@@ -194,8 +194,8 @@
         "ocf_q_M": 2310.41,
         "capex_q_M": 82.16,
         "fcf_q_M": 2228.26,
-        "operating_margin_pct": null,
-        "net_margin_pct": null
+        "operating_margin_pct": 2667760.0,
+        "net_margin_pct": 2382040.0
       },
       {
         "fy": 2025,
@@ -208,8 +208,8 @@
         "ocf_q_M": 3619.08,
         "capex_q_M": 87.29,
         "fcf_q_M": 3531.78,
-        "operating_margin_pct": null,
-        "net_margin_pct": null
+        "operating_margin_pct": 3123520.0,
+        "net_margin_pct": 2661340.0
       },
       {
         "fy": 2025,
@@ -222,8 +222,8 @@
         "ocf_q_M": 1778.96,
         "capex_q_M": 95.75,
         "fcf_q_M": 1683.22,
-        "operating_margin_pct": null,
-        "net_margin_pct": null
+        "operating_margin_pct": 3658180.0,
+        "net_margin_pct": 3137320.0
       },
       {
         "fy": 2025,
@@ -236,8 +236,8 @@
         "ocf_q_M": 3259.01,
         "capex_q_M": 142.59,
         "fcf_q_M": 3116.41,
-        "operating_margin_pct": null,
-        "net_margin_pct": null
+        "operating_margin_pct": 3620400.0,
+        "net_margin_pct": 3187980.0
       },
       {
         "fy": 2026,
@@ -250,8 +250,8 @@
         "ocf_q_M": 4400.43,
         "capex_q_M": 84.72,
         "fcf_q_M": 4315.71,
-        "operating_margin_pct": null,
-        "net_margin_pct": null
+        "operating_margin_pct": 4094040.0,
+        "net_margin_pct": 3650920.0
       }
     ],
     "summary": {
@@ -402,7 +402,6 @@
           "<strong>Run-rate $0.00B</strong> in FY2026 Q1, +0.0% YoY \u2014 decelerating trajectory entering the next print.",
           "<strong>Next-quarter consensus: $4.90B</strong> \u2014 set by 26 broker contributors.",
           "<strong>EPS consensus next qtr: $11.50</strong> vs current $1.45.",
-          "<strong>Margin context: 3725428.6% net margin</strong> (4177583.7% op margin) \u2014 expansion likely.",
           "<strong>Next earnings: 2026-07-30</strong> \u2014 primary catalyst for the short-term window."
         ],
         "takeaway": "Going into the next earnings print, the setup is mixed \u2014 execution risk on the next guide is elevated."

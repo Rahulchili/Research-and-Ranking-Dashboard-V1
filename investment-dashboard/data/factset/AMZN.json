@@ -1,5 +1,5 @@
 {
-  "captured": "2026-05-12 from FactSet Workstation Web · Comps Analysis · Named Competitors peer set",
+  "captured": "2026-05-12 from FactSet Workstation Web \u00b7 Comps Analysis \u00b7 Named Competitors peer set",
   "as_of_close": "2026-05-11",
   "live_price_during_capture": 268.99,
   "live_quote_date": "2026-05-12 intraday (FactSet)",
@@ -43,7 +43,10 @@
     "perf_30d_pct": 9.5,
     "perf_60d_pct": 18.7,
     "perf_90d_pct": 22.4,
-    "perf_1y_pct": 31.8
+    "perf_1y_pct": 31.8,
+    "EV_Sales_LTM": 3.99,
+    "PE_LTM": 31.28,
+    "EV_EBITDA_LTM": 18.44
   },
   "peers": [
     {
@@ -148,5 +151,19 @@
       "FCF_Yield_pct": 1.62,
       "Div_Yield_pct": 0.41
     }
-  ]
+  ],
+  "peer_aggregates": {
+    "median": {
+      "PE_FY1": 31.24,
+      "PE_FY2": 29.09,
+      "EV_EBITDA_FY1": 24.03,
+      "EV_Sales_FY1": 8.5
+    },
+    "mean": {
+      "PE_FY1": 31.38,
+      "PE_FY2": 28.41,
+      "EV_EBITDA_FY1": 23.46,
+      "EV_Sales_FY1": 6.76
+    }
+  }
 }
